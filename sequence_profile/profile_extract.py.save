@@ -1,0 +1,14 @@
+import sys
+
+def matrix_isolation(file):
+	aminoacids = ['A', 'R', 'N', 'D', 'C', 'Q', 'E', 'G', 'H', 'I', 'L', 'K', 'M', 'F', 'P', 'S', 'T', 'W', 'Y', 'V']
+	input = open(file,"r")
+	for i in range(3):
+		next(input)
+	for line in input:
+		aa = line.split()
+		if len(aa) > 5:
+			print(aa)
+
+file = (sys.argv[1])
+matrix_isolation(file)

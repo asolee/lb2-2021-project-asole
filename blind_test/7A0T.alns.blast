@@ -1,0 +1,221 @@
+PSIBLAST 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           563,082 sequences; 202,799,066 total letters
+
+Results from round 1
+
+
+Query= 7A0T
+
+Length=325
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|Q00870|KHS_FUSSH Kievitone hydratase OS=Fusarium solani subs...  417     2e-145
+  sp|Q5AR46|ASQC_EMENI Terpene cyclase asqC OS=Emericella nidulan...  201     6e-61 
+
+
+> sp|Q00870|KHS_FUSSH Kievitone hydratase OS=Fusarium solani subsp. 
+phaseoli OX=120645 GN=khs PE=1 SV=1
+Length=350
+
+ Score = 417 bits (1071),  Expect = 2e-145, Method: Compositional matrix adjust.
+ Identities = 194/325 (60%), Positives = 253/325 (78%), Gaps = 1/325 (0%)
+
+Query  1    KKFPFKPENSKTTGTNAIPIVYGLSESQPNSVGGSWWSSSYITTTNNEQYVVLAHYLDNP  60
+            K++ FKPE+++T     IP++Y   +SQ  S  GSWW+SSYIT TN EQY+V++HYLD P
+Sbjct  24   KQYSFKPEDAETIWNGDIPVLYDFGDSQSASYSGSWWTSSYITGTNGEQYLVISHYLDTP  83
+
+Query  61   VYTYFRASTLNLETNEYHQYVTVGSSTPNITTLDVSVGNNGIKSESEDNLSKLRSYSNHD  120
+            V+TYFRASTLNLET +Y+Q++T+G++T N TTLDV VG+NGI+S + DN+S+ R+Y+N +
+Sbjct  84   VFTYFRASTLNLETLDYNQFITLGNNTANSTTLDVKVGDNGIQSLTADNISQQRAYANDE  143
+
+Query  121  NVTFDITYDATTGAVANGGAGTFQFGEGLTWEFGLPSAKTEGSLT-VHGEKLAIDPAKSH  179
+            NVTFDIT+DAT+  ++N GAG FQFG  +T+E+GLP+ +T+GS+T   G+ + +DPAKS 
+Sbjct  144  NVTFDITFDATSRVISNAGAGVFQFGPSITYEWGLPNCRTQGSVTDTGGKNITVDPAKSF  203
+
+Query  180  TWYDRQWGNTAAIPSNWTWFQLHIPSTEYKISAWIFSDPFRNTETRFATIRGANDETLVL  239
+            TWYDRQWG  A    NWTWFQ+HIP T YK+S WI  +   N  +RFATIRG NDE  VL
+Sbjct  204  TWYDRQWGTAAVTSGNWTWFQMHIPETSYKLSVWIIDNDVTNQFSRFATIRGDNDEFQVL  263
+
+Query  240  PLEFTPIYKRTYESATGRVTYPLDWKLKISGFGDFKLSSYTEDQELVGEDALQTAYEGFI  299
+            PLE+ PIY RTY+S    + YPLDW+L ISGFG F+LSS  +DQE+VG  A+QTAYEGF+
+Sbjct  264  PLEWKPIYDRTYQSTAADILYPLDWELDISGFGVFQLSSILDDQEIVGTTAIQTAYEGFV  323
+
+Query  300  TFSGNVHSKPVQGYGLVEIVYSTWD  324
+            TF+G VH+K VQGYGLVE+VYS W+
+Sbjct  324  TFNGTVHNKKVQGYGLVEVVYSNWE  348
+
+
+> sp|Q5AR46|ASQC_EMENI Terpene cyclase asqC OS=Emericella nidulans 
+(strain FGSC A4 / ATCC 38163 / CBS 112.46 / NRRL 194 / M139) 
+OX=227321 GN=asqC PE=3 SV=1
+Length=347
+
+ Score = 201 bits (510),  Expect = 6e-61, Method: Compositional matrix adjust.
+ Identities = 121/330 (37%), Positives = 182/330 (55%), Gaps = 15/330 (5%)
+
+Query  3    FPFKPENSKTTGTN-AIPIVYGLSESQPNSVGGSWWSSSYITTTNNEQYVVLAHYLDNPV  61
+            +PF PE    +  +  +P +Y LS +Q  +  GSW + S+IT+ +  QY V++HY+++ +
+Sbjct  20   YPFAPETFDGSYKDIGLPTIYDLSATQSTNYNGSWATGSWITSVSGGQYFVVSHYVNDGI  79
+
+Query  62   YTYFRASTLNLETNEYHQYVTVG-----SSTPNITTLDVSVGNNGIKSESEDNLSKLRSY  116
+            +  +R+S L+L + +Y  +   G     +S P+     V  GN G +  S DN + +R  
+Sbjct  80   HDVYRSSILDLSSLKYRYFFQAGNGSYTASPPSHLKAGVGKGN-GFEGISNDNYTTMRVQ  138
+
+Query  117  SNHDNVTFDITYDATTGAVANGGAGTFQFGEGLTWEFGLPSAKTEGSLTVHGEKLAIDPA  176
+            S+H NVTFD+TY ATT  + NGGAG    G   + ++ LP+  T G L V  E++ IDP 
+Sbjct  139  SSHPNVTFDLTYHATTKPLINGGAGVVMLGASESKQWSLPACWTNGFLIVGDEQIPIDPK  198
+
+Query  177  KSHTWYDRQWGNTAAIPSNWTWFQLHIPSTEYKISAWIF-SDPFRN---TETRFATIRGA  232
+            +S TWYDRQWG      +NWTW+ LHIP T + +S W   +D  R    T  RFAT+R A
+Sbjct  199  RSLTWYDRQWGTGGL--TNWTWYGLHIPKTGHVLSIWTGDTDADRAAPITPVRFATVRNA  256
+
+Query  233  NDETLVLPLEFTPIYKRTYESATGRVTYPLDWKLKISGF-GDFKLSSYTEDQELVGEDAL  291
+                 V  + + P     + S +   +YPL W ++I  +    K+ S TE+Q   G    
+Sbjct  257  YGAQTVCNITWIPDLSHIFHSDSTNKSYPLAWTVEIPSYDAIIKVKSRTENQLNTGSHGS  316
+
+Query  292  QT-AYEGFITFSGNVHSKPVQGYGLVEIVY  320
+            +  AY GF+TF+G       +G+G+VEIVY
+Sbjct  317  EPEAYNGFVTFAGQFQGTETEGFGIVEIVY  346
+
+
+
+Lambda      K        H        a         alpha
+   0.313    0.131    0.400    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 28225565730
+Results from round 2
+
+
+Query= 7A0T
+
+Length=325
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q00870|KHS_FUSSH Kievitone hydratase OS=Fusarium solani subs...  507     0.0   
+  sp|Q5AR46|ASQC_EMENI Terpene cyclase asqC OS=Emericella nidulan...  457     1e-161
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|Q00870|KHS_FUSSH Kievitone hydratase OS=Fusarium solani subsp. 
+phaseoli OX=120645 GN=khs PE=1 SV=1
+Length=350
+
+ Score = 507 bits (1306),  Expect = 0.0, Method: Composition-based stats.
+ Identities = 194/325 (60%), Positives = 253/325 (78%), Gaps = 1/325 (0%)
+
+Query  1    KKFPFKPENSKTTGTNAIPIVYGLSESQPNSVGGSWWSSSYITTTNNEQYVVLAHYLDNP  60
+            K++ FKPE+++T     IP++Y   +SQ  S  GSWW+SSYIT TN EQY+V++HYLD P
+Sbjct  24   KQYSFKPEDAETIWNGDIPVLYDFGDSQSASYSGSWWTSSYITGTNGEQYLVISHYLDTP  83
+
+Query  61   VYTYFRASTLNLETNEYHQYVTVGSSTPNITTLDVSVGNNGIKSESEDNLSKLRSYSNHD  120
+            V+TYFRASTLNLET +Y+Q++T+G++T N TTLDV VG+NGI+S + DN+S+ R+Y+N +
+Sbjct  84   VFTYFRASTLNLETLDYNQFITLGNNTANSTTLDVKVGDNGIQSLTADNISQQRAYANDE  143
+
+Query  121  NVTFDITYDATTGAVANGGAGTFQFGEGLTWEFGLPSAKTEGSLT-VHGEKLAIDPAKSH  179
+            NVTFDIT+DAT+  ++N GAG FQFG  +T+E+GLP+ +T+GS+T   G+ + +DPAKS 
+Sbjct  144  NVTFDITFDATSRVISNAGAGVFQFGPSITYEWGLPNCRTQGSVTDTGGKNITVDPAKSF  203
+
+Query  180  TWYDRQWGNTAAIPSNWTWFQLHIPSTEYKISAWIFSDPFRNTETRFATIRGANDETLVL  239
+            TWYDRQWG  A    NWTWFQ+HIP T YK+S WI  +   N  +RFATIRG NDE  VL
+Sbjct  204  TWYDRQWGTAAVTSGNWTWFQMHIPETSYKLSVWIIDNDVTNQFSRFATIRGDNDEFQVL  263
+
+Query  240  PLEFTPIYKRTYESATGRVTYPLDWKLKISGFGDFKLSSYTEDQELVGEDALQTAYEGFI  299
+            PLE+ PIY RTY+S    + YPLDW+L ISGFG F+LSS  +DQE+VG  A+QTAYEGF+
+Sbjct  264  PLEWKPIYDRTYQSTAADILYPLDWELDISGFGVFQLSSILDDQEIVGTTAIQTAYEGFV  323
+
+Query  300  TFSGNVHSKPVQGYGLVEIVYSTWD  324
+            TF+G VH+K VQGYGLVE+VYS W+
+Sbjct  324  TFNGTVHNKKVQGYGLVEVVYSNWE  348
+
+
+> sp|Q5AR46|ASQC_EMENI Terpene cyclase asqC OS=Emericella nidulans 
+(strain FGSC A4 / ATCC 38163 / CBS 112.46 / NRRL 194 / M139) 
+OX=227321 GN=asqC PE=3 SV=1
+Length=347
+
+ Score = 457 bits (1176),  Expect = 1e-161, Method: Composition-based stats.
+ Identities = 121/330 (37%), Positives = 181/330 (55%), Gaps = 15/330 (5%)
+
+Query  3    FPFKPENSKTTGTN-AIPIVYGLSESQPNSVGGSWWSSSYITTTNNEQYVVLAHYLDNPV  61
+            +PF PE    +  +  +P +Y LS +Q  +  GSW + S+IT+ +  QY V++HY+++ +
+Sbjct  20   YPFAPETFDGSYKDIGLPTIYDLSATQSTNYNGSWATGSWITSVSGGQYFVVSHYVNDGI  79
+
+Query  62   YTYFRASTLNLETNEYHQYVTVGS-----STPNITTLDVSVGNNGIKSESEDNLSKLRSY  116
+            +  +R+S L+L + +Y  +   G+     S P+     V  GN G +  S DN + +R  
+Sbjct  80   HDVYRSSILDLSSLKYRYFFQAGNGSYTASPPSHLKAGVGKGN-GFEGISNDNYTTMRVQ  138
+
+Query  117  SNHDNVTFDITYDATTGAVANGGAGTFQFGEGLTWEFGLPSAKTEGSLTVHGEKLAIDPA  176
+            S+H NVTFD+TY ATT  + NGGAG    G   + ++ LP+  T G L V  E++ IDP 
+Sbjct  139  SSHPNVTFDLTYHATTKPLINGGAGVVMLGASESKQWSLPACWTNGFLIVGDEQIPIDPK  198
+
+Query  177  KSHTWYDRQWGNTAAIPSNWTWFQLHIPSTEYKISAWIFS-DPFRN---TETRFATIRGA  232
+            +S TWYDRQWG      +NWTW+ LHIP T + +S W    D  R    T  RFAT+R A
+Sbjct  199  RSLTWYDRQWGTGGL--TNWTWYGLHIPKTGHVLSIWTGDTDADRAAPITPVRFATVRNA  256
+
+Query  233  NDETLVLPLEFTPIYKRTYESATGRVTYPLDWKLKISGF-GDFKLSSYTEDQELVGEDAL  291
+                 V  + + P     + S +   +YPL W ++I  +    K+ S TE+Q   G    
+Sbjct  257  YGAQTVCNITWIPDLSHIFHSDSTNKSYPLAWTVEIPSYDAIIKVKSRTENQLNTGSHGS  316
+
+Query  292  QT-AYEGFITFSGNVHSKPVQGYGLVEIVY  320
+            +  AY GF+TF+G       +G+G+VEIVY
+Sbjct  317  EPEAYNGFVTFAGQFQGTETEGFGIVEIVY  346
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.129    0.367    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0393    0.140     1.90     42.6     43.6 
+
+Effective search space used: 28225565730
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 28, 2021  3:44 PM
+  Number of letters in database: 202,799,066
+  Number of sequences in database:  563,082
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

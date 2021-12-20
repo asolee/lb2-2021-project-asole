@@ -1,0 +1,296 @@
+PSIBLAST 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           563,082 sequences; 202,799,066 total letters
+
+Results from round 1
+
+
+Query= 5MUA
+
+Length=269
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|Q56030|ENVE_SALTY Probable lipoprotein EnvE OS=Salmonella ty...  41.2    0.002
+  sp|Q47899|FLVS_ELIME Flavastacin OS=Elizabethkingia meningosept...  42.0    0.004
+
+
+> sp|Q56030|ENVE_SALTY Probable lipoprotein EnvE OS=Salmonella 
+typhimurium (strain LT2 / SGSC1412 / ATCC 700720) OX=99287 GN=envE 
+PE=3 SV=2
+Length=173
+
+ Score = 41.2 bits (95),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 18/39 (46%), Positives = 24/39 (62%), Gaps = 0/39 (0%)
+
+Query  64   MDLAGHAATDGTAIIGYRPTGGDNQKWIISQWKIKSKET  102
+            +D AG    +GT II Y  TG DNQ+W+    KIK K++
+Sbjct  102  LDAAGQGTKEGTPIILYSCTGNDNQRWLTDDNKIKGKQS  140
+
+
+> sp|Q47899|FLVS_ELIME Flavastacin OS=Elizabethkingia meningoseptica 
+OX=238 PE=1 SV=1
+Length=443
+
+ Score = 42.0 bits (97),  Expect = 0.004, Method: Compositional matrix adjust.
+ Identities = 43/136 (32%), Positives = 59/136 (43%), Gaps = 18/136 (13%)
+
+Query  52   TYTVRNAFAGSY-MDLAGHAATDGTAIIGYRPTGGDNQKWIISQ-----WKIKSKETGTF  105
+            TYT+  + AG   +D+ G +  DGT +I Y  T G+NQK+I  +     + IKS    T 
+Sbjct  298  TYTLTTSLAGDKNIDITGSSTADGTDVILYSATTGNNQKFIFRKSEHGYFTIKSILDSTK  357
+
+Query  106  VTLL------NGTVVGWQNITNNTSQNWTFQKLSQTGANVHATLLACPALRQDFKSYLSD  159
+            V  +      NGT V  +   +  +Q W    L   G          P+LR + K    D
+Sbjct  358  VLTVRNNGTANGTAVELRTNADTDAQKWLLFNLGNEGFGFAPK--NAPSLRLEVK----D  411
+
+Query  160  GLYLVLTRDQISSIWQ  175
+            GL   LT   I S  Q
+Sbjct  412  GLTTNLTPIVIGSTDQ  427
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.133    0.422    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 21034677762
+Results from round 2
+
+
+Query= 5MUA
+
+Length=269
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|Q47899|FLVS_ELIME Flavastacin OS=Elizabethkingia meningosept...  45.8    2e-04
+  sp|Q56030|ENVE_SALTY Probable lipoprotein EnvE OS=Salmonella ty...  42.4    0.001
+
+
+> sp|Q47899|FLVS_ELIME Flavastacin OS=Elizabethkingia meningoseptica 
+OX=238 PE=1 SV=1
+Length=443
+
+ Score = 45.8 bits (107),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 43/136 (32%), Positives = 59/136 (43%), Gaps = 18/136 (13%)
+
+Query  52   TYTVRNAFAGSY-MDLAGHAATDGTAIIGYRPTGGDNQKWIISQ-----WKIKSKETGTF  105
+            TYT+  + AG   +D+ G +  DGT +I Y  T G+NQK+I  +     + IKS    T 
+Sbjct  298  TYTLTTSLAGDKNIDITGSSTADGTDVILYSATTGNNQKFIFRKSEHGYFTIKSILDSTK  357
+
+Query  106  VTLL------NGTVVGWQNITNNTSQNWTFQKLSQTGANVHATLLACPALRQDFKSYLSD  159
+            V  +      NGT V  +   +  +Q W    L   G          P+LR + K    D
+Sbjct  358  VLTVRNNGTANGTAVELRTNADTDAQKWLLFNLGNEGFGFAPK--NAPSLRLEVK----D  411
+
+Query  160  GLYLVLTRDQISSIWQ  175
+            GL   LT   I S  Q
+Sbjct  412  GLTTNLTPIVIGSTDQ  427
+
+
+> sp|Q56030|ENVE_SALTY Probable lipoprotein EnvE OS=Salmonella 
+typhimurium (strain LT2 / SGSC1412 / ATCC 700720) OX=99287 GN=envE 
+PE=3 SV=2
+Length=173
+
+ Score = 42.4 bits (98),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 18/39 (46%), Positives = 24/39 (62%), Gaps = 0/39 (0%)
+
+Query  64   MDLAGHAATDGTAIIGYRPTGGDNQKWIISQWKIKSKET  102
+            +D AG    +GT II Y  TG DNQ+W+    KIK K++
+Sbjct  102  LDAAGQGTKEGTPIILYSCTGNDNQRWLTDDNKIKGKQS  140
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.141    0.461    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0430    0.140     1.90     42.6     43.6 
+
+Effective search space used: 21034677762
+Results from round 3
+
+
+Query= 5MUA
+
+Length=269
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q47899|FLVS_ELIME Flavastacin OS=Elizabethkingia meningosept...  156     1e-43
+  sp|Q56030|ENVE_SALTY Probable lipoprotein EnvE OS=Salmonella ty...  70.1    2e-13
+
+Sequences not found previously or not previously below threshold:
+
+  sp|P26514|XYNA_STRLI Endo-1,4-beta-xylanase A OS=Streptomyces l...  48.2    3e-05
+  sp|P96463|EABF_STRLI Extracellular exo-alpha-L-arabinofuranosid...  47.8    6e-05
+  sp|O54161|EABF_STRCO Extracellular exo-alpha-L-arabinofuranosid...  47.8    6e-05
+  sp|Q59146|E13B_ARTSW Glucan endo-1,3-beta-glucosidase OS=Arthro...  43.2    0.002
+  sp|P22222|E13B_CELCE Glucan endo-1,3-beta-glucosidase OS=Cellul...  43.2    0.002
+
+
+> sp|Q47899|FLVS_ELIME Flavastacin OS=Elizabethkingia meningoseptica 
+OX=238 PE=1 SV=1
+Length=443
+
+ Score = 156 bits (394),  Expect = 1e-43, Method: Composition-based stats.
+ Identities = 43/136 (32%), Positives = 59/136 (43%), Gaps = 18/136 (13%)
+
+Query  52   TYTVRNAFAGSY-MDLAGHAATDGTAIIGYRPTGGDNQKWIISQ-----WKIKSKETGTF  105
+            TYT+  + AG   +D+ G +  DGT +I Y  T G+NQK+I  +     + IKS    T 
+Sbjct  298  TYTLTTSLAGDKNIDITGSSTADGTDVILYSATTGNNQKFIFRKSEHGYFTIKSILDSTK  357
+
+Query  106  VTLL------NGTVVGWQNITNNTSQNWTFQKLSQTGANVHATLLACPALRQDFKSYLSD  159
+            V  +      NGT V  +   +  +Q W    L   G          P+LR + K    D
+Sbjct  358  VLTVRNNGTANGTAVELRTNADTDAQKWLLFNLGNEGFGFAPK--NAPSLRLEVK----D  411
+
+Query  160  GLYLVLTRDQISSIWQ  175
+            GL   LT   I S  Q
+Sbjct  412  GLTTNLTPIVIGSTDQ  427
+
+
+> sp|Q56030|ENVE_SALTY Probable lipoprotein EnvE OS=Salmonella 
+typhimurium (strain LT2 / SGSC1412 / ATCC 700720) OX=99287 GN=envE 
+PE=3 SV=2
+Length=173
+
+ Score = 70.1 bits (170),  Expect = 2e-13, Method: Composition-based stats.
+ Identities = 18/39 (46%), Positives = 24/39 (62%), Gaps = 0/39 (0%)
+
+Query  64   MDLAGHAATDGTAIIGYRPTGGDNQKWIISQWKIKSKET  102
+            +D AG    +GT II Y  TG DNQ+W+    KIK K++
+Sbjct  102  LDAAGQGTKEGTPIILYSCTGNDNQRWLTDDNKIKGKQS  140
+
+
+> sp|P26514|XYNA_STRLI Endo-1,4-beta-xylanase A OS=Streptomyces 
+lividans OX=1916 GN=xlnA PE=1 SV=2
+Length=477
+
+ Score = 48.2 bits (113),  Expect = 3e-05, Method: Composition-based stats.
+ Identities = 27/97 (28%), Positives = 42/97 (43%), Gaps = 16/97 (16%)
+
+Query  39   NNLWLIEPVGEADTYTVRNAFAGSY-MDLAGHAATDGTAIIGYRPTGGDNQKW-IISQWK  96
+            N  W     GE   Y       G   +D AG   ++G+ +  Y   GGDNQKW + S   
+Sbjct  388  NQQWAATDAGELRVY-------GDKCLDAAG--TSNGSKVQIYSCWGGDNQKWRLNSDGS  438
+
+Query  97   IKSKETGTFVT-----LLNGTVVGWQNITNNTSQNWT  128
+            +   ++G  +        NGT++     +N ++Q WT
+Sbjct  439  VVGVQSGLCLDAVGNGTANGTLIQLYTCSNGSNQRWT  475
+
+
+> sp|P96463|EABF_STRLI Extracellular exo-alpha-L-arabinofuranosidase 
+OS=Streptomyces lividans OX=1916 GN=abfB PE=1 SV=2
+Length=475
+
+ Score = 47.8 bits (112),  Expect = 6e-05, Method: Composition-based stats.
+ Identities = 25/84 (30%), Positives = 36/84 (43%), Gaps = 7/84 (8%)
+
+Query  52   TYTVRNAFAGSY-MDLAGHAATDGTAIIGYRPTGGDNQKW-IISQWKIKSKETGTFVT--  107
+            T T R    G   +D+ GHA   GT +  +  +GG NQ+W + S   +   E+G  +   
+Sbjct  81   TDTGRLTVYGDKCLDVPGHATAPGTRVQIWSCSGGRNQQWRVNSDGTVVGVESGLCLEAA  140
+
+Query  108  ---LLNGTVVGWQNITNNTSQNWT  128
+                 NGT V         +Q WT
+Sbjct  141  GAGTPNGTAVQLWTCNGGGNQKWT  164
+
+
+> sp|O54161|EABF_STRCO Extracellular exo-alpha-L-arabinofuranosidase 
+OS=Streptomyces coelicolor (strain ATCC BAA-471 / A3(2) 
+/ M145) OX=100226 GN=abfB PE=1 SV=1
+Length=475
+
+ Score = 47.8 bits (112),  Expect = 6e-05, Method: Composition-based stats.
+ Identities = 25/84 (30%), Positives = 36/84 (43%), Gaps = 7/84 (8%)
+
+Query  52   TYTVRNAFAGSY-MDLAGHAATDGTAIIGYRPTGGDNQKW-IISQWKIKSKETGTFVT--  107
+            T T R    G   +D+ GHA   GT +  +  +GG NQ+W + S   +   E+G  +   
+Sbjct  81   TDTGRLTVYGDKCLDVPGHATAPGTRVQIWSCSGGANQQWRVNSDGTVVGVESGLCLEAA  140
+
+Query  108  ---LLNGTVVGWQNITNNTSQNWT  128
+                 NGT V         +Q WT
+Sbjct  141  GAGTANGTAVQLWTCNGGGNQKWT  164
+
+
+> sp|Q59146|E13B_ARTSW Glucan endo-1,3-beta-glucosidase OS=Arthrobacter 
+sp. (strain YCWD3) OX=79671 GN=glcI PE=3 SV=1
+Length=548
+
+ Score = 43.2 bits (100),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 19/77 (25%), Positives = 30/77 (39%), Gaps = 8/77 (10%)
+
+Query  61   GSYMDLAGHAATDGTAIIGYRPTGGDNQKWIISQWK--IKSKETGTFV------TLLNGT  112
+            G  +D+A     DGTA+  Y   G   QKW        +++ ++G  +       L +G 
+Sbjct  472  GKCLDVARSGTADGTAVWIYTCNGTGAQKWTYDSATKALRNPQSGKCLDAQGGAPLRDGQ  531
+
+Query  113  VVGWQNITNNTSQNWTF  129
+             V         +Q WT 
+Sbjct  532  KVQLWTCNQTEAQRWTL  548
+
+
+> sp|P22222|E13B_CELCE Glucan endo-1,3-beta-glucosidase OS=Cellulosimicrobium 
+cellulans OX=1710 PE=1 SV=1
+Length=548
+
+ Score = 43.2 bits (100),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 19/77 (25%), Positives = 30/77 (39%), Gaps = 8/77 (10%)
+
+Query  61   GSYMDLAGHAATDGTAIIGYRPTGGDNQKWIISQWK--IKSKETGTFV------TLLNGT  112
+            G  +D+A     DGTA+  Y   G   QKW        +++ ++G  +       L +G 
+Sbjct  472  GKCLDVARSGTADGTAVWIYTCNGTGAQKWTYDSATKALRNPQSGKCLDAQGGAPLRDGQ  531
+
+Query  113  VVGWQNITNNTSQNWTF  129
+             V         +Q WT 
+Sbjct  532  KVQLWTCNQTEAQRWTL  548
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.132    0.393    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0405    0.140     1.90     42.6     43.6 
+
+Effective search space used: 21034677762
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 28, 2021  3:44 PM
+  Number of letters in database: 202,799,066
+  Number of sequences in database:  563,082
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

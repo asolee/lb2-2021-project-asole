@@ -1,0 +1,1148 @@
+PSIBLAST 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           563,082 sequences; 202,799,066 total letters
+
+Results from round 1
+
+
+Query= 5TD6
+
+Length=124
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|Q8R5K6|TOB1_RAT Protein Tob1 OS=Rattus norvegicus OX=10116 G...  58.9    4e-10
+  sp|P50616|TOB1_HUMAN Protein Tob1 OS=Homo sapiens OX=9606 GN=TO...  58.2    8e-10
+  sp|Q61471|TOB1_MOUSE Protein Tob1 OS=Mus musculus OX=10090 GN=T...  57.4    1e-09
+  sp|Q9JM55|TOB2_MOUSE Protein Tob2 OS=Mus musculus OX=10090 GN=T...  54.7    2e-08
+  sp|Q14106|TOB2_HUMAN Protein Tob2 OS=Homo sapiens OX=9606 GN=TO...  49.7    8e-07
+  sp|Q63073|BTG1_RAT Protein BTG1 OS=Rattus norvegicus OX=10116 G...  47.0    4e-06
+  sp|P53348|BTG1_BOVIN Protein BTG1 OS=Bos taurus OX=9913 GN=BTG1...  47.0    4e-06
+  sp|P62325|BTG1_MOUSE Protein BTG1 OS=Mus musculus OX=10090 GN=B...  47.0    4e-06
+  sp|P62324|BTG1_HUMAN Protein BTG1 OS=Homo sapiens OX=9606 GN=BT...  47.0    4e-06
+  sp|P34743|BTG1_CHICK Protein BTG1 OS=Gallus gallus OX=9031 GN=B...  44.7    2e-05
+  sp|Q04211|BTG2_MOUSE Protein BTG2 OS=Mus musculus OX=10090 GN=B...  41.2    4e-04
+  sp|P27049|BTG2_RAT Protein BTG2 OS=Rattus norvegicus OX=10116 G...  39.3    0.002
+  sp|P78543|BTG2_HUMAN Protein BTG2 OS=Homo sapiens OX=9606 GN=BT...  38.5    0.003
+
+
+> sp|Q8R5K6|TOB1_RAT Protein Tob1 OS=Rattus norvegicus OX=10116 
+GN=Tob1 PE=1 SV=1
+Length=365
+
+ Score = 58.9 bits (141),  Expect = 4e-10, Method: Compositional matrix adjust.
+ Identities = 33/120 (28%), Positives = 58/120 (48%), Gaps = 2/120 (2%)
+
+Query  1    MYTEVRELVNFVCRYLFGHIPRRPVGIFGAELGNYLVSHFSSTWDVNHPKNGEMKRMINT  60
+            M  E++  +NF+  YL+  +PRR V IFG EL   L   +   W    P  G   R I+ 
+Sbjct  1    MQLEIQVALNFIISYLYNKLPRRRVNIFGEELERLLKQKYEGHWYPEKPYKGSGFRCIHV  60
+
+Query  61   TTSL--CFASSAEEAGVPPSDVLRLLPTNMIIFANPGHVFVRLSENGIETPIWIGDVNAD  118
+               +      +++E+G+   DV   LP ++ ++ +P  V  ++ E G    +++ D N +
+Sbjct  61   GEKVDPVIEQASKESGLDIDDVRGNLPQDLSVWIDPFEVSYQIGEKGPVKVLYVDDSNEN  120
+
+
+> sp|P50616|TOB1_HUMAN Protein Tob1 OS=Homo sapiens OX=9606 GN=TOB1 
+PE=1 SV=1
+Length=345
+
+ Score = 58.2 bits (139),  Expect = 8e-10, Method: Compositional matrix adjust.
+ Identities = 33/120 (28%), Positives = 58/120 (48%), Gaps = 2/120 (2%)
+
+Query  1    MYTEVRELVNFVCRYLFGHIPRRPVGIFGAELGNYLVSHFSSTWDVNHPKNGEMKRMINT  60
+            M  E++  +NF+  YL+  +PRR V IFG EL   L   +   W    P  G   R I+ 
+Sbjct  1    MQLEIQVALNFIISYLYNKLPRRRVNIFGEELERLLKKKYEGHWYPEKPYKGSGFRCIHI  60
+
+Query  61   TTSL--CFASSAEEAGVPPSDVLRLLPTNMIIFANPGHVFVRLSENGIETPIWIGDVNAD  118
+               +      +++E+G+   DV   LP ++ ++ +P  V  ++ E G    +++ D N +
+Sbjct  61   GEKVDPVIEQASKESGLDIDDVRGNLPQDLSVWIDPFEVSYQIGEKGPVKVLYVDDNNEN  120
+
+
+> sp|Q61471|TOB1_MOUSE Protein Tob1 OS=Mus musculus OX=10090 GN=Tob1 
+PE=1 SV=2
+Length=362
+
+ Score = 57.4 bits (137),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 32/116 (28%), Positives = 56/116 (48%), Gaps = 2/116 (2%)
+
+Query  1    MYTEVRELVNFVCRYLFGHIPRRPVGIFGAELGNYLVSHFSSTWDVNHPKNGEMKRMINT  60
+            M  E++  +NF+  YL+  +PRR V IFG EL   L   +   W    P  G   R I+ 
+Sbjct  1    MQLEIQVALNFIISYLYNKLPRRRVNIFGEELERLLKKKYEGHWYPEKPYKGSGFRCIHV  60
+
+Query  61   TTSL--CFASSAEEAGVPPSDVLRLLPTNMIIFANPGHVFVRLSENGIETPIWIGD  114
+               +      +++E+G+   DV   LP ++ ++ +P  V  ++ E G    +++ D
+Sbjct  61   GEKVDPVIEQASKESGLDIDDVRGNLPQDLSVWIDPFEVSYQIGEKGPVKVLYVDD  116
+
+
+> sp|Q9JM55|TOB2_MOUSE Protein Tob2 OS=Mus musculus OX=10090 GN=Tob2 
+PE=2 SV=1
+Length=345
+
+ Score = 54.7 bits (130),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 31/120 (26%), Positives = 54/120 (45%), Gaps = 2/120 (2%)
+
+Query  1    MYTEVRELVNFVCRYLFGHIPRRPVGIFGAELGNYLVSHFSSTWDVNHPKNGEMKRM--I  58
+            M  E++  +NF+  YL+  +PRR   +FG EL   L   +   W    P  G   R   I
+Sbjct  1    MQLEIKVALNFIISYLYNKLPRRRADLFGEELERLLRKKYEGHWYPEKPLKGSGFRCVHI  60
+
+Query  59   NTTTSLCFASSAEEAGVPPSDVLRLLPTNMIIFANPGHVFVRLSENGIETPIWIGDVNAD  118
+                      +A+ +G+   DV   +P  + ++ +P  V  ++ E G+   +++GD  A 
+Sbjct  61   GEVVDPVVELAAKRSGLAVEDVRANVPEELSVWIDPFEVSYQIGEKGVVKVLYLGDSEAS  120
+
+
+> sp|Q14106|TOB2_HUMAN Protein Tob2 OS=Homo sapiens OX=9606 GN=TOB2 
+PE=1 SV=2
+Length=344
+
+ Score = 49.7 bits (117),  Expect = 8e-07, Method: Compositional matrix adjust.
+ Identities = 30/120 (25%), Positives = 54/120 (45%), Gaps = 10/120 (8%)
+
+Query  1    MYTEVRELVNFVCRYLFGHIPRRPVGIFGAELGNYLVSHFSSTWDVNHPKNGEMKR----  56
+            M  E++  +NF+  YL+  +PRR   +FG EL   L   +   W    P  G   R    
+Sbjct  1    MQLEIKVALNFIISYLYNKLPRRRADLFGEELERLLKKKYEGHWYPEKPLKGSGFRCVHI  60
+
+Query  57   --MINTTTSLCFASSAEEAGVPPSDVLRLLPTNMIIFANPGHVFVRLSENGIETPIWIGD  114
+              M++    L    +A+ +G+   DV   +P  + ++ +P  V  ++ E G    +++ D
+Sbjct  61   GEMVDPVVEL----AAKRSGLAVEDVRANVPEELSVWIDPFEVSYQIGEKGAVKVLYLDD  116
+
+
+> sp|Q63073|BTG1_RAT Protein BTG1 OS=Rattus norvegicus OX=10116 
+GN=Btg1 PE=2 SV=1
+Length=171
+
+ Score = 47.0 bits (110),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 28/109 (26%), Positives = 47/109 (43%), Gaps = 4/109 (4%)
+
+Query  1    MYTEVRELVNFVCRYLF--GHIPRRPVGIFGAELGNYLVSHFSSTWDVNHPKNGEMKRMI  58
+            M  E+   V+F+ ++L   G    R +  F   L   L  H+   W    P  G   R I
+Sbjct  11   MIGEIAAAVSFISKFLRTKGLTSERQLQTFSQSLQELLAEHYKHHWFPEKPCKGSGYRCI  70
+
+Query  59   --NTTTSLCFASSAEEAGVPPSDVLRLLPTNMIIFANPGHVFVRLSENG  105
+              N         +A+  G+   ++ RLLP+ + ++ +P  V  R+ E+G
+Sbjct  71   RINHKMDPLIGQAAQRIGLSSQELFRLLPSELTLWVDPYEVSYRIGEDG  119
+
+
+> sp|P53348|BTG1_BOVIN Protein BTG1 OS=Bos taurus OX=9913 GN=BTG1 
+PE=2 SV=2
+Length=171
+
+ Score = 47.0 bits (110),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 28/109 (26%), Positives = 47/109 (43%), Gaps = 4/109 (4%)
+
+Query  1    MYTEVRELVNFVCRYLF--GHIPRRPVGIFGAELGNYLVSHFSSTWDVNHPKNGEMKRMI  58
+            M  E+   V+F+ ++L   G    R +  F   L   L  H+   W    P  G   R I
+Sbjct  11   MIGEIAAAVSFISKFLRTKGLTSERQLQTFSQSLQELLAEHYKHHWFPEKPCKGSGYRCI  70
+
+Query  59   --NTTTSLCFASSAEEAGVPPSDVLRLLPTNMIIFANPGHVFVRLSENG  105
+              N         +A+  G+   ++ RLLP+ + ++ +P  V  R+ E+G
+Sbjct  71   RINHKMDPLIGQAAQRIGLSSQELFRLLPSELTLWVDPYEVSYRIGEDG  119
+
+
+> sp|P62325|BTG1_MOUSE Protein BTG1 OS=Mus musculus OX=10090 GN=Btg1 
+PE=1 SV=1
+Length=171
+
+ Score = 47.0 bits (110),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 28/109 (26%), Positives = 47/109 (43%), Gaps = 4/109 (4%)
+
+Query  1    MYTEVRELVNFVCRYLF--GHIPRRPVGIFGAELGNYLVSHFSSTWDVNHPKNGEMKRMI  58
+            M  E+   V+F+ ++L   G    R +  F   L   L  H+   W    P  G   R I
+Sbjct  11   MIGEIAAAVSFISKFLRTKGLTSERQLQTFSQSLQELLAEHYKHHWFPEKPCKGSGYRCI  70
+
+Query  59   --NTTTSLCFASSAEEAGVPPSDVLRLLPTNMIIFANPGHVFVRLSENG  105
+              N         +A+  G+   ++ RLLP+ + ++ +P  V  R+ E+G
+Sbjct  71   RINHKMDPLIGQAAQRIGLSSQELFRLLPSELTLWVDPYEVSYRIGEDG  119
+
+
+> sp|P62324|BTG1_HUMAN Protein BTG1 OS=Homo sapiens OX=9606 GN=BTG1 
+PE=1 SV=1
+Length=171
+
+ Score = 47.0 bits (110),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 28/109 (26%), Positives = 47/109 (43%), Gaps = 4/109 (4%)
+
+Query  1    MYTEVRELVNFVCRYLF--GHIPRRPVGIFGAELGNYLVSHFSSTWDVNHPKNGEMKRMI  58
+            M  E+   V+F+ ++L   G    R +  F   L   L  H+   W    P  G   R I
+Sbjct  11   MIGEIAAAVSFISKFLRTKGLTSERQLQTFSQSLQELLAEHYKHHWFPEKPCKGSGYRCI  70
+
+Query  59   --NTTTSLCFASSAEEAGVPPSDVLRLLPTNMIIFANPGHVFVRLSENG  105
+              N         +A+  G+   ++ RLLP+ + ++ +P  V  R+ E+G
+Sbjct  71   RINHKMDPLIGQAAQRIGLSSQELFRLLPSELTLWVDPYEVSYRIGEDG  119
+
+
+> sp|P34743|BTG1_CHICK Protein BTG1 OS=Gallus gallus OX=9031 GN=BTG1 
+PE=2 SV=1
+Length=170
+
+ Score = 44.7 bits (104),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 27/109 (25%), Positives = 47/109 (43%), Gaps = 4/109 (4%)
+
+Query  1    MYTEVRELVNFVCRYLF--GHIPRRPVGIFGAELGNYLVSHFSSTWDVNHPKNGEMKRMI  58
+            M  E+   V F+ ++L   G +  R +  F   L   L  H+   W    P  G   R I
+Sbjct  11   MIREIAAAVAFISKFLRTKGLMNERQLQTFSQSLQELLAEHYKHHWFPEKPCKGSGYRCI  70
+
+Query  59   --NTTTSLCFASSAEEAGVPPSDVLRLLPTNMIIFANPGHVFVRLSENG  105
+              N         +A+  G+   ++ +LLP+ + ++ +P  V  R+ E+G
+Sbjct  71   RINHKMDPLIGQAAQRIGLSSQELFQLLPSELTLWVDPYEVSYRIGEDG  119
+
+
+> sp|Q04211|BTG2_MOUSE Protein BTG2 OS=Mus musculus OX=10090 GN=Btg2 
+PE=1 SV=1
+Length=158
+
+ Score = 41.2 bits (95),  Expect = 4e-04, Method: Compositional matrix adjust.
+ Identities = 27/109 (25%), Positives = 46/109 (42%), Gaps = 4/109 (4%)
+
+Query  1    MYTEVRELVNFVCRYLF--GHIPRRPVGIFGAELGNYLVSHFSSTWDVNHPKNGEMKRMI  58
+            M  E+   V F+   L   G +  + + +F   L + L  H+   W    P  G   R I
+Sbjct  9    MLPEIAAAVGFLSSLLRTRGCVSEQRLKVFSRALQDALTDHYKHHWFPEKPSKGSGYRCI  68
+
+Query  59   --NTTTSLCFASSAEEAGVPPSDVLRLLPTNMIIFANPGHVFVRLSENG  105
+              N       +  A + G+    + RLLP+ + ++ +P  V  R+ E+G
+Sbjct  69   RINHKMDPIISKVASQIGLSQPQLHRLLPSELTLWVDPYEVSYRIGEDG  117
+
+
+> sp|P27049|BTG2_RAT Protein BTG2 OS=Rattus norvegicus OX=10116 
+GN=Btg2 PE=1 SV=1
+Length=158
+
+ Score = 39.3 bits (90),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 26/109 (24%), Positives = 46/109 (42%), Gaps = 4/109 (4%)
+
+Query  1    MYTEVRELVNFVCRYLF--GHIPRRPVGIFGAELGNYLVSHFSSTWDVNHPKNGEMKRMI  58
+            M  E+   V F+   L   G +  + + +F   L + L  H+   W    P  G   R I
+Sbjct  9    MLPEIAAAVGFLTSLLRTRGCVSEQRLKVFSRALQDALTDHYKHHWFPEKPSKGSGYRCI  68
+
+Query  59   --NTTTSLCFASSAEEAGVPPSDVLRLLPTNMIIFANPGHVFVRLSENG  105
+              N       +  A + G+    + +LLP+ + ++ +P  V  R+ E+G
+Sbjct  69   RINHKMDPIISKVASQIGLSQPQLHQLLPSELTLWVDPYEVSYRIGEDG  117
+
+
+> sp|P78543|BTG2_HUMAN Protein BTG2 OS=Homo sapiens OX=9606 GN=BTG2 
+PE=1 SV=1
+Length=158
+
+ Score = 38.5 bits (88),  Expect = 0.003, Method: Compositional matrix adjust.
+ Identities = 26/109 (24%), Positives = 45/109 (41%), Gaps = 4/109 (4%)
+
+Query  1    MYTEVRELVNFVCRYLF--GHIPRRPVGIFGAELGNYLVSHFSSTWDVNHPKNGEMKRMI  58
+            M  E+   V F+   L   G +  + + +F   L   L  H+   W    P  G   R I
+Sbjct  9    MLPEIAAAVGFLSSLLRTRGCVSEQRLKVFSGALQEALTEHYKHHWFPEKPSKGSGYRCI  68
+
+Query  59   --NTTTSLCFASSAEEAGVPPSDVLRLLPTNMIIFANPGHVFVRLSENG  105
+              N       +  A + G+    + +LLP+ + ++ +P  V  R+ E+G
+Sbjct  69   RINHKMDPIISRVASQIGLSQPQLHQLLPSELTLWVDPYEVSYRIGEDG  117
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.138    0.428    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5001433932
+Results from round 2
+
+
+Query= 5TD6
+
+Length=124
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q8R5K6|TOB1_RAT Protein Tob1 OS=Rattus norvegicus OX=10116 G...  194     3e-61
+  sp|P50616|TOB1_HUMAN Protein Tob1 OS=Homo sapiens OX=9606 GN=TO...  193     4e-61
+  sp|Q9JM55|TOB2_MOUSE Protein Tob2 OS=Mus musculus OX=10090 GN=T...  191     2e-60
+  sp|Q61471|TOB1_MOUSE Protein Tob1 OS=Mus musculus OX=10090 GN=T...  191     3e-60
+  sp|Q14106|TOB2_HUMAN Protein Tob2 OS=Homo sapiens OX=9606 GN=TO...  189     2e-59
+  sp|Q63073|BTG1_RAT Protein BTG1 OS=Rattus norvegicus OX=10116 G...  169     7e-54
+  sp|P62325|BTG1_MOUSE Protein BTG1 OS=Mus musculus OX=10090 GN=B...  168     1e-53
+  sp|P62324|BTG1_HUMAN Protein BTG1 OS=Homo sapiens OX=9606 GN=BT...  168     1e-53
+  sp|P53348|BTG1_BOVIN Protein BTG1 OS=Bos taurus OX=9913 GN=BTG1...  168     1e-53
+  sp|Q04211|BTG2_MOUSE Protein BTG2 OS=Mus musculus OX=10090 GN=B...  166     6e-53
+  sp|P34743|BTG1_CHICK Protein BTG1 OS=Gallus gallus OX=9031 GN=B...  165     2e-52
+  sp|P27049|BTG2_RAT Protein BTG2 OS=Rattus norvegicus OX=10116 G...  164     5e-52
+
+Sequences not found previously or not previously below threshold:
+
+  sp|P78543|BTG2_HUMAN Protein BTG2 OS=Homo sapiens OX=9606 GN=BT...  162     2e-51
+  sp|O70552|BTG4_MOUSE Protein BTG4 OS=Mus musculus OX=10090 GN=B...  89.0    2e-21
+  sp|P40744|B910_XENLA Maternal B9.10 protein OS=Xenopus laevis O...  87.4    5e-21
+  sp|P50615|BTG3_MOUSE Protein BTG3 OS=Mus musculus OX=10090 GN=B...  87.0    9e-21
+  sp|O88677|BTG3_RAT Protein BTG3 OS=Rattus norvegicus OX=10116 G...  85.5    4e-20
+  sp|P40745|B915_XENLA Maternal B9.15 protein OS=Xenopus laevis O...  84.7    4e-20
+  sp|Q14201|BTG3_HUMAN Protein BTG3 OS=Homo sapiens OX=9606 GN=BT...  85.1    5e-20
+  sp|A4UTQ2|BTG3_PIG Protein BTG3 OS=Sus scrofa OX=9823 GN=BTG3 P...  84.0    1e-19
+  sp|Q9NY30|BTG4_HUMAN Protein BTG4 OS=Homo sapiens OX=9606 GN=BT...  82.8    2e-19
+  sp|Q54NU5|BTG_DICDI BTG family protein OS=Dictyostelium discoid...  71.6    2e-14
+
+
+> sp|Q8R5K6|TOB1_RAT Protein Tob1 OS=Rattus norvegicus OX=10116 
+GN=Tob1 PE=1 SV=1
+Length=365
+
+ Score = 194 bits (493),  Expect = 3e-61, Method: Composition-based stats.
+ Identities = 33/120 (28%), Positives = 57/120 (48%), Gaps = 2/120 (2%)
+
+Query  1    MYTEVRELVNFVCRYLFGHIPRRPVGIFGAELGNYLVSHFSSTWDVNHPKNGEMKRMIN-  59
+            M  E++  +NF+  YL+  +PRR V IFG EL   L   +   W    P  G   R I+ 
+Sbjct  1    MQLEIQVALNFIISYLYNKLPRRRVNIFGEELERLLKQKYEGHWYPEKPYKGSGFRCIHV  60
+
+Query  60   -TTTSLCFASSAEEAGVPPSDVLRLLPTNMIIFANPGHVFVRLSENGIETPIWIGDVNAD  118
+                      +++E+G+   DV   LP ++ ++ +P  V  ++ E G    +++ D N +
+Sbjct  61   GEKVDPVIEQASKESGLDIDDVRGNLPQDLSVWIDPFEVSYQIGEKGPVKVLYVDDSNEN  120
+
+
+> sp|P50616|TOB1_HUMAN Protein Tob1 OS=Homo sapiens OX=9606 GN=TOB1 
+PE=1 SV=1
+Length=345
+
+ Score = 193 bits (490),  Expect = 4e-61, Method: Composition-based stats.
+ Identities = 33/120 (28%), Positives = 57/120 (48%), Gaps = 2/120 (2%)
+
+Query  1    MYTEVRELVNFVCRYLFGHIPRRPVGIFGAELGNYLVSHFSSTWDVNHPKNGEMKRMIN-  59
+            M  E++  +NF+  YL+  +PRR V IFG EL   L   +   W    P  G   R I+ 
+Sbjct  1    MQLEIQVALNFIISYLYNKLPRRRVNIFGEELERLLKKKYEGHWYPEKPYKGSGFRCIHI  60
+
+Query  60   -TTTSLCFASSAEEAGVPPSDVLRLLPTNMIIFANPGHVFVRLSENGIETPIWIGDVNAD  118
+                      +++E+G+   DV   LP ++ ++ +P  V  ++ E G    +++ D N +
+Sbjct  61   GEKVDPVIEQASKESGLDIDDVRGNLPQDLSVWIDPFEVSYQIGEKGPVKVLYVDDNNEN  120
+
+
+> sp|Q9JM55|TOB2_MOUSE Protein Tob2 OS=Mus musculus OX=10090 GN=Tob2 
+PE=2 SV=1
+Length=345
+
+ Score = 191 bits (486),  Expect = 2e-60, Method: Composition-based stats.
+ Identities = 30/120 (25%), Positives = 55/120 (46%), Gaps = 2/120 (2%)
+
+Query  1    MYTEVRELVNFVCRYLFGHIPRRPVGIFGAELGNYLVSHFSSTWDVNHPKNGEMKRMIN-  59
+            M  E++  +NF+  YL+  +PRR   +FG EL   L   +   W    P  G   R ++ 
+Sbjct  1    MQLEIKVALNFIISYLYNKLPRRRADLFGEELERLLRKKYEGHWYPEKPLKGSGFRCVHI  60
+
+Query  60   -TTTSLCFASSAEEAGVPPSDVLRLLPTNMIIFANPGHVFVRLSENGIETPIWIGDVNAD  118
+                      +A+ +G+   DV   +P  + ++ +P  V  ++ E G+   +++GD  A 
+Sbjct  61   GEVVDPVVELAAKRSGLAVEDVRANVPEELSVWIDPFEVSYQIGEKGVVKVLYLGDSEAS  120
+
+
+> sp|Q61471|TOB1_MOUSE Protein Tob1 OS=Mus musculus OX=10090 GN=Tob1 
+PE=1 SV=2
+Length=362
+
+ Score = 191 bits (486),  Expect = 3e-60, Method: Composition-based stats.
+ Identities = 32/120 (27%), Positives = 56/120 (47%), Gaps = 2/120 (2%)
+
+Query  1    MYTEVRELVNFVCRYLFGHIPRRPVGIFGAELGNYLVSHFSSTWDVNHPKNGEMKRMIN-  59
+            M  E++  +NF+  YL+  +PRR V IFG EL   L   +   W    P  G   R I+ 
+Sbjct  1    MQLEIQVALNFIISYLYNKLPRRRVNIFGEELERLLKKKYEGHWYPEKPYKGSGFRCIHV  60
+
+Query  60   -TTTSLCFASSAEEAGVPPSDVLRLLPTNMIIFANPGHVFVRLSENGIETPIWIGDVNAD  118
+                      +++E+G+   DV   LP ++ ++ +P  V  ++ E G    +++ D +  
+Sbjct  61   GEKVDPVIEQASKESGLDIDDVRGNLPQDLSVWIDPFEVSYQIGEKGPVKVLYVDDSSET  120
+
+
+> sp|Q14106|TOB2_HUMAN Protein Tob2 OS=Homo sapiens OX=9606 GN=TOB2 
+PE=1 SV=2
+Length=344
+
+ Score = 189 bits (479),  Expect = 2e-59, Method: Composition-based stats.
+ Identities = 28/118 (24%), Positives = 52/118 (44%), Gaps = 2/118 (2%)
+
+Query  1    MYTEVRELVNFVCRYLFGHIPRRPVGIFGAELGNYLVSHFSSTWDVNHPKNGEMKRMIN-  59
+            M  E++  +NF+  YL+  +PRR   +FG EL   L   +   W    P  G   R ++ 
+Sbjct  1    MQLEIKVALNFIISYLYNKLPRRRADLFGEELERLLKKKYEGHWYPEKPLKGSGFRCVHI  60
+
+Query  60   -TTTSLCFASSAEEAGVPPSDVLRLLPTNMIIFANPGHVFVRLSENGIETPIWIGDVN  116
+                      +A+ +G+   DV   +P  + ++ +P  V  ++ E G    +++ D  
+Sbjct  61   GEMVDPVVELAAKRSGLAVEDVRANVPEELSVWIDPFEVSYQIGEKGAVKVLYLDDSE  118
+
+
+> sp|Q63073|BTG1_RAT Protein BTG1 OS=Rattus norvegicus OX=10116 
+GN=Btg1 PE=2 SV=1
+Length=171
+
+ Score = 169 bits (428),  Expect = 7e-54, Method: Composition-based stats.
+ Identities = 32/133 (24%), Positives = 53/133 (40%), Gaps = 9/133 (7%)
+
+Query  1    MYTEVRELVNFVCRYLF--GHIPRRPVGIFGAELGNYLVSHFSSTWDVNHPKNGEMKRMI  58
+            M  E+   V+F+ ++L   G    R +  F   L   L  H+   W    P  G   R I
+Sbjct  11   MIGEIAAAVSFISKFLRTKGLTSERQLQTFSQSLQELLAEHYKHHWFPEKPCKGSGYRCI  70
+
+Query  59   --NTTTSLCFASSAEEAGVPPSDVLRLLPTNMIIFANPGHVFVRLSENGIETPIWI----  112
+              N         +A+  G+   ++ RLLP+ + ++ +P  V  R+ E+G    ++     
+Sbjct  71   RINHKMDPLIGQAAQRIGLSSQELFRLLPSELTLWVDPYEVSYRIGEDGSICVLYEASPA  130
+
+Query  113  -GDVNADENYQSV  124
+             G      N Q V
+Sbjct  131  GGSSQNSTNVQMV  143
+
+
+> sp|P62325|BTG1_MOUSE Protein BTG1 OS=Mus musculus OX=10090 GN=Btg1 
+PE=1 SV=1
+Length=171
+
+ Score = 168 bits (426),  Expect = 1e-53, Method: Composition-based stats.
+ Identities = 32/133 (24%), Positives = 53/133 (40%), Gaps = 9/133 (7%)
+
+Query  1    MYTEVRELVNFVCRYLF--GHIPRRPVGIFGAELGNYLVSHFSSTWDVNHPKNGEMKRMI  58
+            M  E+   V+F+ ++L   G    R +  F   L   L  H+   W    P  G   R I
+Sbjct  11   MIGEIAAAVSFISKFLRTKGLTSERQLQTFSQSLQELLAEHYKHHWFPEKPCKGSGYRCI  70
+
+Query  59   --NTTTSLCFASSAEEAGVPPSDVLRLLPTNMIIFANPGHVFVRLSENGIETPIWI----  112
+              N         +A+  G+   ++ RLLP+ + ++ +P  V  R+ E+G    ++     
+Sbjct  71   RINHKMDPLIGQAAQRIGLSSQELFRLLPSELTLWVDPYEVSYRIGEDGSICVLYEASPA  130
+
+Query  113  -GDVNADENYQSV  124
+             G      N Q V
+Sbjct  131  GGSTQNSTNVQMV  143
+
+
+> sp|P62324|BTG1_HUMAN Protein BTG1 OS=Homo sapiens OX=9606 GN=BTG1 
+PE=1 SV=1
+Length=171
+
+ Score = 168 bits (426),  Expect = 1e-53, Method: Composition-based stats.
+ Identities = 32/133 (24%), Positives = 53/133 (40%), Gaps = 9/133 (7%)
+
+Query  1    MYTEVRELVNFVCRYLF--GHIPRRPVGIFGAELGNYLVSHFSSTWDVNHPKNGEMKRMI  58
+            M  E+   V+F+ ++L   G    R +  F   L   L  H+   W    P  G   R I
+Sbjct  11   MIGEIAAAVSFISKFLRTKGLTSERQLQTFSQSLQELLAEHYKHHWFPEKPCKGSGYRCI  70
+
+Query  59   --NTTTSLCFASSAEEAGVPPSDVLRLLPTNMIIFANPGHVFVRLSENGIETPIWI----  112
+              N         +A+  G+   ++ RLLP+ + ++ +P  V  R+ E+G    ++     
+Sbjct  71   RINHKMDPLIGQAAQRIGLSSQELFRLLPSELTLWVDPYEVSYRIGEDGSICVLYEASPA  130
+
+Query  113  -GDVNADENYQSV  124
+             G      N Q V
+Sbjct  131  GGSTQNSTNVQMV  143
+
+
+> sp|P53348|BTG1_BOVIN Protein BTG1 OS=Bos taurus OX=9913 GN=BTG1 
+PE=2 SV=2
+Length=171
+
+ Score = 168 bits (426),  Expect = 1e-53, Method: Composition-based stats.
+ Identities = 32/133 (24%), Positives = 53/133 (40%), Gaps = 9/133 (7%)
+
+Query  1    MYTEVRELVNFVCRYLF--GHIPRRPVGIFGAELGNYLVSHFSSTWDVNHPKNGEMKRMI  58
+            M  E+   V+F+ ++L   G    R +  F   L   L  H+   W    P  G   R I
+Sbjct  11   MIGEIAAAVSFISKFLRTKGLTSERQLQTFSQSLQELLAEHYKHHWFPEKPCKGSGYRCI  70
+
+Query  59   --NTTTSLCFASSAEEAGVPPSDVLRLLPTNMIIFANPGHVFVRLSENGIETPIWI----  112
+              N         +A+  G+   ++ RLLP+ + ++ +P  V  R+ E+G    ++     
+Sbjct  71   RINHKMDPLIGQAAQRIGLSSQELFRLLPSELTLWVDPYEVSYRIGEDGSICVLYEASPA  130
+
+Query  113  -GDVNADENYQSV  124
+             G      N Q V
+Sbjct  131  GGSTQNSTNVQMV  143
+
+
+> sp|Q04211|BTG2_MOUSE Protein BTG2 OS=Mus musculus OX=10090 GN=Btg2 
+PE=1 SV=1
+Length=158
+
+ Score = 166 bits (421),  Expect = 6e-53, Method: Composition-based stats.
+ Identities = 27/115 (23%), Positives = 48/115 (42%), Gaps = 4/115 (3%)
+
+Query  1    MYTEVRELVNFVCRYLF--GHIPRRPVGIFGAELGNYLVSHFSSTWDVNHPKNGEMKRMI  58
+            M  E+   V F+   L   G +  + + +F   L + L  H+   W    P  G   R I
+Sbjct  9    MLPEIAAAVGFLSSLLRTRGCVSEQRLKVFSRALQDALTDHYKHHWFPEKPSKGSGYRCI  68
+
+Query  59   --NTTTSLCFASSAEEAGVPPSDVLRLLPTNMIIFANPGHVFVRLSENGIETPIW  111
+              N       +  A + G+    + RLLP+ + ++ +P  V  R+ E+G    ++
+Sbjct  69   RINHKMDPIISKVASQIGLSQPQLHRLLPSELTLWVDPYEVSYRIGEDGSICVLY  123
+
+
+> sp|P34743|BTG1_CHICK Protein BTG1 OS=Gallus gallus OX=9031 GN=BTG1 
+PE=2 SV=1
+Length=170
+
+ Score = 165 bits (418),  Expect = 2e-52, Method: Composition-based stats.
+ Identities = 31/132 (23%), Positives = 54/132 (41%), Gaps = 8/132 (6%)
+
+Query  1    MYTEVRELVNFVCRYLF--GHIPRRPVGIFGAELGNYLVSHFSSTWDVNHPKNGEMKRMI  58
+            M  E+   V F+ ++L   G +  R +  F   L   L  H+   W    P  G   R I
+Sbjct  11   MIREIAAAVAFISKFLRTKGLMNERQLQTFSQSLQELLAEHYKHHWFPEKPCKGSGYRCI  70
+
+Query  59   --NTTTSLCFASSAEEAGVPPSDVLRLLPTNMIIFANPGHVFVRLSENGIETPIW----I  112
+              N         +A+  G+   ++ +LLP+ + ++ +P  V  R+ E+G    ++     
+Sbjct  71   RINHKMDPLIGQAAQRIGLSSQELFQLLPSELTLWVDPYEVSYRIGEDGSICVLYEAAPA  130
+
+Query  113  GDVNADENYQSV  124
+            G    + N Q V
+Sbjct  131  GGSQNNTNMQMV  142
+
+
+> sp|P27049|BTG2_RAT Protein BTG2 OS=Rattus norvegicus OX=10116 
+GN=Btg2 PE=1 SV=1
+Length=158
+
+ Score = 164 bits (415),  Expect = 5e-52, Method: Composition-based stats.
+ Identities = 26/115 (23%), Positives = 48/115 (42%), Gaps = 4/115 (3%)
+
+Query  1    MYTEVRELVNFVCRYLF--GHIPRRPVGIFGAELGNYLVSHFSSTWDVNHPKNGEMKRMI  58
+            M  E+   V F+   L   G +  + + +F   L + L  H+   W    P  G   R I
+Sbjct  9    MLPEIAAAVGFLTSLLRTRGCVSEQRLKVFSRALQDALTDHYKHHWFPEKPSKGSGYRCI  68
+
+Query  59   --NTTTSLCFASSAEEAGVPPSDVLRLLPTNMIIFANPGHVFVRLSENGIETPIW  111
+              N       +  A + G+    + +LLP+ + ++ +P  V  R+ E+G    ++
+Sbjct  69   RINHKMDPIISKVASQIGLSQPQLHQLLPSELTLWVDPYEVSYRIGEDGSICVLY  123
+
+
+> sp|P78543|BTG2_HUMAN Protein BTG2 OS=Homo sapiens OX=9606 GN=BTG2 
+PE=1 SV=1
+Length=158
+
+ Score = 162 bits (411),  Expect = 2e-51, Method: Composition-based stats.
+ Identities = 26/115 (23%), Positives = 47/115 (41%), Gaps = 4/115 (3%)
+
+Query  1    MYTEVRELVNFVCRYLF--GHIPRRPVGIFGAELGNYLVSHFSSTWDVNHPKNGEMKRMI  58
+            M  E+   V F+   L   G +  + + +F   L   L  H+   W    P  G   R I
+Sbjct  9    MLPEIAAAVGFLSSLLRTRGCVSEQRLKVFSGALQEALTEHYKHHWFPEKPSKGSGYRCI  68
+
+Query  59   --NTTTSLCFASSAEEAGVPPSDVLRLLPTNMIIFANPGHVFVRLSENGIETPIW  111
+              N       +  A + G+    + +LLP+ + ++ +P  V  R+ E+G    ++
+Sbjct  69   RINHKMDPIISRVASQIGLSQPQLHQLLPSELTLWVDPYEVSYRIGEDGSICVLY  123
+
+
+> sp|O70552|BTG4_MOUSE Protein BTG4 OS=Mus musculus OX=10090 GN=Btg4 
+PE=1 SV=2
+Length=250
+
+ Score = 89.0 bits (219),  Expect = 2e-21, Method: Composition-based stats.
+ Identities = 26/110 (24%), Positives = 39/110 (35%), Gaps = 8/110 (7%)
+
+Query  1    MYTEVRELVNFVCRYLFGH--IPRRPVGIFGAELGNYLVSHFSSTWDVNHPKNGEMKRMI  58
+            M  E+   V FV R +  H  +  + +  F  +L   L   +   W  + P  G+  R I
+Sbjct  1    MRDEIATAVFFVTRLVKKHEKLSTQQIETFALKLMTILFEKYRGHWHPDCPSKGQAFRCI  60
+
+Query  59   ----NTTTSLCFASSAEEAGVPPSDVLRLLPTNMIIFANPGHVFVRLSEN  104
+                N         +  E+ V        LP  M I+ +P  V  R  E 
+Sbjct  61   RINNNENKDPVLERACAESNVNF--FHLGLPKEMTIWVDPYEVCCRYGEK  108
+
+
+> sp|P40744|B910_XENLA Maternal B9.10 protein OS=Xenopus laevis 
+OX=8355 PE=2 SV=1
+Length=237
+
+ Score = 87.4 bits (215),  Expect = 5e-21, Method: Composition-based stats.
+ Identities = 26/110 (24%), Positives = 45/110 (41%), Gaps = 8/110 (7%)
+
+Query  1    MYTEVRELVNFVCRYLFGH--IPRRPVGIFGAELGNYLVSHFSSTWDVNHPKNGEMKRMI  58
+            M  E+   V F+   +  H  + ++ +  F A+L   L + + + W   +P  G+  R I
+Sbjct  1    MKEEIAATVVFLTMLVKKHKQLSKQKIEKFAAKLTTILFAKYKNHWYAENPMKGQAFRCI  60
+
+Query  59   N----TTTSLCFASSAEEAGVPPSDVLRLLPTNMIIFANPGHVFVRLSEN  104
+                       F  +  E+ V  +D+   LP  M I+ +P  V  R  E 
+Sbjct  61   RINTYQAIDAVFEKACAESNVDFNDL--GLPKEMTIWVDPFEVCCRYGEK  108
+
+
+> sp|P50615|BTG3_MOUSE Protein BTG3 OS=Mus musculus OX=10090 GN=Btg3 
+PE=2 SV=1
+Length=252
+
+ Score = 87.0 bits (214),  Expect = 9e-21, Method: Composition-based stats.
+ Identities = 29/128 (23%), Positives = 46/128 (36%), Gaps = 11/128 (9%)
+
+Query  1    MYTEVRELVNFVCRYLFGH--IPRRPVGIFGAELGNYLVSHFSSTWDVNHPKNGEMKRMI  58
+            M  E+  +V F  R +  H  + +  V  F  +L   L   + + W    P  G+  R I
+Sbjct  1    MKNEIAAVVFFFTRLVRKHDKLKKEAVERFAEKLTQILQEKYKNHWYPEKPSKGQAYRCI  60
+
+Query  59   NT----TTSLCFASSAEEAGVPPSDVLRLLPTNMIIFANPGHVFVRLSENG---IETPIW  111
+                          + E + +  SD+   LP  + ++ +P  V  R  E     I     
+Sbjct  61   RVNKFQRVDPDVLKACENSCILYSDL--GLPKELTLWVDPCEVCCRYGEKNNAFIVASFE  118
+
+Query  112  IGDVNADE  119
+              D N DE
+Sbjct  119  NEDENKDE  126
+
+
+> sp|O88677|BTG3_RAT Protein BTG3 OS=Rattus norvegicus OX=10116 
+GN=Btg3 PE=2 SV=1
+Length=252
+
+ Score = 85.5 bits (210),  Expect = 4e-20, Method: Composition-based stats.
+ Identities = 28/128 (22%), Positives = 47/128 (37%), Gaps = 11/128 (9%)
+
+Query  1    MYTEVRELVNFVCRYLFGH--IPRRPVGIFGAELGNYLVSHFSSTWDVNHPKNGEMKRMI  58
+            M  E+  +V F  R +  H  + +  V  F  +L   L   + + W    P  G+  R I
+Sbjct  1    MKNEIAAVVFFFTRLVRKHDKLKKEAVERFAEKLTQILQEKYKNHWYPEKPSKGQAYRCI  60
+
+Query  59   NT----TTSLCFASSAEEAGVPPSDVLRLLPTNMIIFANPGHVFVRLSENG---IETPIW  111
+                          + E++ +  SD+   LP  + ++ +P  V  R  +     I     
+Sbjct  61   RVNKFQRVDPDVLKACEDSCILYSDL--GLPKELTLWVDPCEVCCRYGKKNNAFIVASFE  118
+
+Query  112  IGDVNADE  119
+              D N DE
+Sbjct  119  NEDENKDE  126
+
+
+> sp|P40745|B915_XENLA Maternal B9.15 protein OS=Xenopus laevis 
+OX=8355 PE=2 SV=1
+Length=233
+
+ Score = 84.7 bits (208),  Expect = 4e-20, Method: Composition-based stats.
+ Identities = 24/110 (22%), Positives = 44/110 (40%), Gaps = 8/110 (7%)
+
+Query  1    MYTEVRELVNFVCRYLFGH--IPRRPVGIFGAELGNYLVSHFSSTWDVNHPKNGEMKRMI  58
+            M  E+   V F+   +  H  + ++ +  F A+L   L + + + W   +P  G+  R I
+Sbjct  1    MKEEIAATVVFLTMLVKKHKQLSKQKIEKFAAKLTTLLFAKYKTHWYAENPTKGQAFRCI  60
+
+Query  59   N----TTTSLCFASSAEEAGVPPSDVLRLLPTNMIIFANPGHVFVRLSEN  104
+                          +  E+ V  +++   LP  M I+ +P  V  R  E 
+Sbjct  61   RINECQALDAVLEKACTESNVDFNEL--GLPKEMTIWVDPFEVCCRYGEK  108
+
+
+> sp|Q14201|BTG3_HUMAN Protein BTG3 OS=Homo sapiens OX=9606 GN=BTG3 
+PE=1 SV=3
+Length=252
+
+ Score = 85.1 bits (209),  Expect = 5e-20, Method: Composition-based stats.
+ Identities = 29/128 (23%), Positives = 46/128 (36%), Gaps = 11/128 (9%)
+
+Query  1    MYTEVRELVNFVCRYLFGH--IPRRPVGIFGAELGNYLVSHFSSTWDVNHPKNGEMKRMI  58
+            M  E+  +V F  R +  H  + +  V  F  +L   L   + + W    P  G+  R I
+Sbjct  1    MKNEIAAVVFFFTRLVRKHDKLKKEAVERFAEKLTLILQEKYKNHWYPEKPSKGQAYRCI  60
+
+Query  59   NT----TTSLCFASSAEEAGVPPSDVLRLLPTNMIIFANPGHVFVRLSENG---IETPIW  111
+                          + E + +  SD+   LP  + ++ +P  V  R  E     I     
+Sbjct  61   RVNKFQRVDPDVLKACENSCILYSDL--GLPKELTLWVDPCEVCCRYGEKNNAFIVASFE  118
+
+Query  112  IGDVNADE  119
+              D N DE
+Sbjct  119  NKDENKDE  126
+
+
+> sp|A4UTQ2|BTG3_PIG Protein BTG3 OS=Sus scrofa OX=9823 GN=BTG3 
+PE=2 SV=1
+Length=252
+
+ Score = 84.0 bits (206),  Expect = 1e-19, Method: Composition-based stats.
+ Identities = 24/110 (22%), Positives = 41/110 (37%), Gaps = 8/110 (7%)
+
+Query  1    MYTEVRELVNFVCRYLFGH--IPRRPVGIFGAELGNYLVSHFSSTWDVNHPKNGEMKRMI  58
+            M  E+  +V F  R +  H  + +  V  F  +L   L   + + W    P  G+  R I
+Sbjct  1    MKNEIAAVVFFFTRLVRKHDKLKKEAVERFAEKLTLILQEKYKNHWYPEKPSKGQAYRCI  60
+
+Query  59   NT----TTSLCFASSAEEAGVPPSDVLRLLPTNMIIFANPGHVFVRLSEN  104
+                          + E + +  SD+   LP  + ++ +P  V  R  E 
+Sbjct  61   RVNKFQRVDPDVLKACENSCILYSDL--GLPKELTLWVDPCEVCCRYGEK  108
+
+
+> sp|Q9NY30|BTG4_HUMAN Protein BTG4 OS=Homo sapiens OX=9606 GN=BTG4 
+PE=2 SV=1
+Length=223
+
+ Score = 82.8 bits (203),  Expect = 2e-19, Method: Composition-based stats.
+ Identities = 28/110 (25%), Positives = 43/110 (39%), Gaps = 8/110 (7%)
+
+Query  1    MYTEVRELVNFVCRYLFGH--IPRRPVGIFGAELGNYLVSHFSSTWDVNHPKNGEMKRMI  58
+            M  E+   V FV R +  H  + ++ +  F  +L   L   + S W  + P  G+  R I
+Sbjct  1    MRDEIATTVFFVTRLVKKHDKLSKQQIEDFAEKLMTILFETYRSHWHSDCPSKGQAFRCI  60
+
+Query  59   ----NTTTSLCFASSAEEAGVPPSDVLRLLPTNMIIFANPGHVFVRLSEN  104
+                N         +  E+ V  S +   LP  M I+ +P  V  R  E 
+Sbjct  61   RINNNQNKDPILERACVESNVDFSHL--GLPKEMTIWVDPFEVCCRYGEK  108
+
+
+> sp|Q54NU5|BTG_DICDI BTG family protein OS=Dictyostelium discoideum 
+OX=44689 GN=btg PE=3 SV=1
+Length=423
+
+ Score = 71.6 bits (174),  Expect = 2e-14, Method: Composition-based stats.
+ Identities = 21/94 (22%), Positives = 41/94 (44%), Gaps = 4/94 (4%)
+
+Query  20   IPRRPVGIFGAELGNYLVSHFSSTWDVNHPKNGEMKRMI--NTTTSLCFASSAEEAGVPP  77
+            IP+  +  F  EL   L       W  ++P+ G+  R I    TT      +A+++ +  
+Sbjct  131  IPKENIKRFRKELIFALRDRIKGHWYPDYPERGQGYRAIICEETTDRLLMDAAKKSDI-V  189
+
+Query  78   SDVLRLLPTNMIIFANPGHVFVRLSENGIETPIW  111
+             +  +L+  N  ++ +PG+V  R      E  ++
+Sbjct  190  GEFRQLVKQNTTMWIDPGNVTYRHG-KHYEKTLY  222
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.133    0.357    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0406    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5001433932
+Results from round 3
+
+
+Query= 5TD6
+
+Length=124
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P34743|BTG1_CHICK Protein BTG1 OS=Gallus gallus OX=9031 GN=B...  178     2e-57
+  sp|Q63073|BTG1_RAT Protein BTG1 OS=Rattus norvegicus OX=10116 G...  177     5e-57
+  sp|P62325|BTG1_MOUSE Protein BTG1 OS=Mus musculus OX=10090 GN=B...  176     1e-56
+  sp|P62324|BTG1_HUMAN Protein BTG1 OS=Homo sapiens OX=9606 GN=BT...  176     1e-56
+  sp|P53348|BTG1_BOVIN Protein BTG1 OS=Bos taurus OX=9913 GN=BTG1...  176     1e-56
+  sp|Q8R5K6|TOB1_RAT Protein Tob1 OS=Rattus norvegicus OX=10116 G...  180     1e-55
+  sp|P50616|TOB1_HUMAN Protein Tob1 OS=Homo sapiens OX=9606 GN=TO...  178     3e-55
+  sp|Q61471|TOB1_MOUSE Protein Tob1 OS=Mus musculus OX=10090 GN=T...  176     2e-54
+  sp|Q9JM55|TOB2_MOUSE Protein Tob2 OS=Mus musculus OX=10090 GN=T...  173     3e-53
+  sp|P27049|BTG2_RAT Protein BTG2 OS=Rattus norvegicus OX=10116 G...  164     6e-52
+  sp|Q04211|BTG2_MOUSE Protein BTG2 OS=Mus musculus OX=10090 GN=B...  164     7e-52
+  sp|Q14106|TOB2_HUMAN Protein Tob2 OS=Homo sapiens OX=9606 GN=TO...  168     2e-51
+  sp|P78543|BTG2_HUMAN Protein BTG2 OS=Homo sapiens OX=9606 GN=BT...  162     2e-51
+  sp|P50615|BTG3_MOUSE Protein BTG3 OS=Mus musculus OX=10090 GN=B...  159     5e-49
+  sp|O88677|BTG3_RAT Protein BTG3 OS=Rattus norvegicus OX=10116 G...  157     3e-48
+  sp|Q14201|BTG3_HUMAN Protein BTG3 OS=Homo sapiens OX=9606 GN=BT...  157     3e-48
+  sp|A4UTQ2|BTG3_PIG Protein BTG3 OS=Sus scrofa OX=9823 GN=BTG3 P...  156     1e-47
+  sp|O70552|BTG4_MOUSE Protein BTG4 OS=Mus musculus OX=10090 GN=B...  154     7e-47
+  sp|Q9NY30|BTG4_HUMAN Protein BTG4 OS=Homo sapiens OX=9606 GN=BT...  151     4e-46
+  sp|P40744|B910_XENLA Maternal B9.10 protein OS=Xenopus laevis O...  150     2e-45
+  sp|P40745|B915_XENLA Maternal B9.15 protein OS=Xenopus laevis O...  147     3e-44
+  sp|Q54NU5|BTG_DICDI BTG family protein OS=Dictyostelium discoid...  117     2e-31
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|P34743|BTG1_CHICK Protein BTG1 OS=Gallus gallus OX=9031 GN=BTG1 
+PE=2 SV=1
+Length=170
+
+ Score = 178 bits (452),  Expect = 2e-57, Method: Composition-based stats.
+ Identities = 31/132 (23%), Positives = 54/132 (41%), Gaps = 8/132 (6%)
+
+Query  1    MYTEVRELVNFVCRYLF--GHIPRRPVGIFGAELGNYLVSHFSSTWDVNHPKNGEMKRMI  58
+            M  E+   V F+ ++L   G +  R +  F   L   L  H+   W    P  G   R I
+Sbjct  11   MIREIAAAVAFISKFLRTKGLMNERQLQTFSQSLQELLAEHYKHHWFPEKPCKGSGYRCI  70
+
+Query  59   --NTTTSLCFASSAEEAGVPPSDVLRLLPTNMIIFANPGHVFVRLSENGIETPIWI----  112
+              N         +A+  G+   ++ +LLP+ + ++ +P  V  R+ E+G    ++     
+Sbjct  71   RINHKMDPLIGQAAQRIGLSSQELFQLLPSELTLWVDPYEVSYRIGEDGSICVLYEAAPA  130
+
+Query  113  GDVNADENYQSV  124
+            G    + N Q V
+Sbjct  131  GGSQNNTNMQMV  142
+
+
+> sp|Q63073|BTG1_RAT Protein BTG1 OS=Rattus norvegicus OX=10116 
+GN=Btg1 PE=2 SV=1
+Length=171
+
+ Score = 177 bits (449),  Expect = 5e-57, Method: Composition-based stats.
+ Identities = 32/133 (24%), Positives = 53/133 (40%), Gaps = 9/133 (7%)
+
+Query  1    MYTEVRELVNFVCRYLF--GHIPRRPVGIFGAELGNYLVSHFSSTWDVNHPKNGEMKRMI  58
+            M  E+   V+F+ ++L   G    R +  F   L   L  H+   W    P  G   R I
+Sbjct  11   MIGEIAAAVSFISKFLRTKGLTSERQLQTFSQSLQELLAEHYKHHWFPEKPCKGSGYRCI  70
+
+Query  59   --NTTTSLCFASSAEEAGVPPSDVLRLLPTNMIIFANPGHVFVRLSENGIETPIWI----  112
+              N         +A+  G+   ++ RLLP+ + ++ +P  V  R+ E+G    ++     
+Sbjct  71   RINHKMDPLIGQAAQRIGLSSQELFRLLPSELTLWVDPYEVSYRIGEDGSICVLYEASPA  130
+
+Query  113  -GDVNADENYQSV  124
+             G      N Q V
+Sbjct  131  GGSSQNSTNVQMV  143
+
+
+> sp|P62325|BTG1_MOUSE Protein BTG1 OS=Mus musculus OX=10090 GN=Btg1 
+PE=1 SV=1
+Length=171
+
+ Score = 176 bits (447),  Expect = 1e-56, Method: Composition-based stats.
+ Identities = 32/133 (24%), Positives = 53/133 (40%), Gaps = 9/133 (7%)
+
+Query  1    MYTEVRELVNFVCRYLF--GHIPRRPVGIFGAELGNYLVSHFSSTWDVNHPKNGEMKRMI  58
+            M  E+   V+F+ ++L   G    R +  F   L   L  H+   W    P  G   R I
+Sbjct  11   MIGEIAAAVSFISKFLRTKGLTSERQLQTFSQSLQELLAEHYKHHWFPEKPCKGSGYRCI  70
+
+Query  59   --NTTTSLCFASSAEEAGVPPSDVLRLLPTNMIIFANPGHVFVRLSENGIETPIWI----  112
+              N         +A+  G+   ++ RLLP+ + ++ +P  V  R+ E+G    ++     
+Sbjct  71   RINHKMDPLIGQAAQRIGLSSQELFRLLPSELTLWVDPYEVSYRIGEDGSICVLYEASPA  130
+
+Query  113  -GDVNADENYQSV  124
+             G      N Q V
+Sbjct  131  GGSTQNSTNVQMV  143
+
+
+> sp|P62324|BTG1_HUMAN Protein BTG1 OS=Homo sapiens OX=9606 GN=BTG1 
+PE=1 SV=1
+Length=171
+
+ Score = 176 bits (447),  Expect = 1e-56, Method: Composition-based stats.
+ Identities = 32/133 (24%), Positives = 53/133 (40%), Gaps = 9/133 (7%)
+
+Query  1    MYTEVRELVNFVCRYLF--GHIPRRPVGIFGAELGNYLVSHFSSTWDVNHPKNGEMKRMI  58
+            M  E+   V+F+ ++L   G    R +  F   L   L  H+   W    P  G   R I
+Sbjct  11   MIGEIAAAVSFISKFLRTKGLTSERQLQTFSQSLQELLAEHYKHHWFPEKPCKGSGYRCI  70
+
+Query  59   --NTTTSLCFASSAEEAGVPPSDVLRLLPTNMIIFANPGHVFVRLSENGIETPIWI----  112
+              N         +A+  G+   ++ RLLP+ + ++ +P  V  R+ E+G    ++     
+Sbjct  71   RINHKMDPLIGQAAQRIGLSSQELFRLLPSELTLWVDPYEVSYRIGEDGSICVLYEASPA  130
+
+Query  113  -GDVNADENYQSV  124
+             G      N Q V
+Sbjct  131  GGSTQNSTNVQMV  143
+
+
+> sp|P53348|BTG1_BOVIN Protein BTG1 OS=Bos taurus OX=9913 GN=BTG1 
+PE=2 SV=2
+Length=171
+
+ Score = 176 bits (447),  Expect = 1e-56, Method: Composition-based stats.
+ Identities = 32/133 (24%), Positives = 53/133 (40%), Gaps = 9/133 (7%)
+
+Query  1    MYTEVRELVNFVCRYLF--GHIPRRPVGIFGAELGNYLVSHFSSTWDVNHPKNGEMKRMI  58
+            M  E+   V+F+ ++L   G    R +  F   L   L  H+   W    P  G   R I
+Sbjct  11   MIGEIAAAVSFISKFLRTKGLTSERQLQTFSQSLQELLAEHYKHHWFPEKPCKGSGYRCI  70
+
+Query  59   --NTTTSLCFASSAEEAGVPPSDVLRLLPTNMIIFANPGHVFVRLSENGIETPIWI----  112
+              N         +A+  G+   ++ RLLP+ + ++ +P  V  R+ E+G    ++     
+Sbjct  71   RINHKMDPLIGQAAQRIGLSSQELFRLLPSELTLWVDPYEVSYRIGEDGSICVLYEASPA  130
+
+Query  113  -GDVNADENYQSV  124
+             G      N Q V
+Sbjct  131  GGSTQNSTNVQMV  143
+
+
+> sp|Q8R5K6|TOB1_RAT Protein Tob1 OS=Rattus norvegicus OX=10116 
+GN=Tob1 PE=1 SV=1
+Length=365
+
+ Score = 180 bits (456),  Expect = 1e-55, Method: Composition-based stats.
+ Identities = 33/120 (28%), Positives = 57/120 (48%), Gaps = 2/120 (2%)
+
+Query  1    MYTEVRELVNFVCRYLFGHIPRRPVGIFGAELGNYLVSHFSSTWDVNHPKNGEMKRMIN-  59
+            M  E++  +NF+  YL+  +PRR V IFG EL   L   +   W    P  G   R I+ 
+Sbjct  1    MQLEIQVALNFIISYLYNKLPRRRVNIFGEELERLLKQKYEGHWYPEKPYKGSGFRCIHV  60
+
+Query  60   -TTTSLCFASSAEEAGVPPSDVLRLLPTNMIIFANPGHVFVRLSENGIETPIWIGDVNAD  118
+                      +++E+G+   DV   LP ++ ++ +P  V  ++ E G    +++ D N +
+Sbjct  61   GEKVDPVIEQASKESGLDIDDVRGNLPQDLSVWIDPFEVSYQIGEKGPVKVLYVDDSNEN  120
+
+
+> sp|P50616|TOB1_HUMAN Protein Tob1 OS=Homo sapiens OX=9606 GN=TOB1 
+PE=1 SV=1
+Length=345
+
+ Score = 178 bits (452),  Expect = 3e-55, Method: Composition-based stats.
+ Identities = 33/120 (28%), Positives = 57/120 (48%), Gaps = 2/120 (2%)
+
+Query  1    MYTEVRELVNFVCRYLFGHIPRRPVGIFGAELGNYLVSHFSSTWDVNHPKNGEMKRMIN-  59
+            M  E++  +NF+  YL+  +PRR V IFG EL   L   +   W    P  G   R I+ 
+Sbjct  1    MQLEIQVALNFIISYLYNKLPRRRVNIFGEELERLLKKKYEGHWYPEKPYKGSGFRCIHI  60
+
+Query  60   -TTTSLCFASSAEEAGVPPSDVLRLLPTNMIIFANPGHVFVRLSENGIETPIWIGDVNAD  118
+                      +++E+G+   DV   LP ++ ++ +P  V  ++ E G    +++ D N +
+Sbjct  61   GEKVDPVIEQASKESGLDIDDVRGNLPQDLSVWIDPFEVSYQIGEKGPVKVLYVDDNNEN  120
+
+
+> sp|Q61471|TOB1_MOUSE Protein Tob1 OS=Mus musculus OX=10090 GN=Tob1 
+PE=1 SV=2
+Length=362
+
+ Score = 176 bits (447),  Expect = 2e-54, Method: Composition-based stats.
+ Identities = 32/119 (27%), Positives = 56/119 (47%), Gaps = 2/119 (2%)
+
+Query  1    MYTEVRELVNFVCRYLFGHIPRRPVGIFGAELGNYLVSHFSSTWDVNHPKNGEMKRMIN-  59
+            M  E++  +NF+  YL+  +PRR V IFG EL   L   +   W    P  G   R I+ 
+Sbjct  1    MQLEIQVALNFIISYLYNKLPRRRVNIFGEELERLLKKKYEGHWYPEKPYKGSGFRCIHV  60
+
+Query  60   -TTTSLCFASSAEEAGVPPSDVLRLLPTNMIIFANPGHVFVRLSENGIETPIWIGDVNA  117
+                      +++E+G+   DV   LP ++ ++ +P  V  ++ E G    +++ D + 
+Sbjct  61   GEKVDPVIEQASKESGLDIDDVRGNLPQDLSVWIDPFEVSYQIGEKGPVKVLYVDDSSE  119
+
+
+> sp|Q9JM55|TOB2_MOUSE Protein Tob2 OS=Mus musculus OX=10090 GN=Tob2 
+PE=2 SV=1
+Length=345
+
+ Score = 173 bits (438),  Expect = 3e-53, Method: Composition-based stats.
+ Identities = 30/120 (25%), Positives = 55/120 (46%), Gaps = 2/120 (2%)
+
+Query  1    MYTEVRELVNFVCRYLFGHIPRRPVGIFGAELGNYLVSHFSSTWDVNHPKNGEMKRMIN-  59
+            M  E++  +NF+  YL+  +PRR   +FG EL   L   +   W    P  G   R ++ 
+Sbjct  1    MQLEIKVALNFIISYLYNKLPRRRADLFGEELERLLRKKYEGHWYPEKPLKGSGFRCVHI  60
+
+Query  60   -TTTSLCFASSAEEAGVPPSDVLRLLPTNMIIFANPGHVFVRLSENGIETPIWIGDVNAD  118
+                      +A+ +G+   DV   +P  + ++ +P  V  ++ E G+   +++GD  A 
+Sbjct  61   GEVVDPVVELAAKRSGLAVEDVRANVPEELSVWIDPFEVSYQIGEKGVVKVLYLGDSEAS  120
+
+
+> sp|P27049|BTG2_RAT Protein BTG2 OS=Rattus norvegicus OX=10116 
+GN=Btg2 PE=1 SV=1
+Length=158
+
+ Score = 164 bits (415),  Expect = 6e-52, Method: Composition-based stats.
+ Identities = 26/117 (22%), Positives = 48/117 (41%), Gaps = 4/117 (3%)
+
+Query  1    MYTEVRELVNFVCRYLF--GHIPRRPVGIFGAELGNYLVSHFSSTWDVNHPKNGEMKRMI  58
+            M  E+   V F+   L   G +  + + +F   L + L  H+   W    P  G   R I
+Sbjct  9    MLPEIAAAVGFLTSLLRTRGCVSEQRLKVFSRALQDALTDHYKHHWFPEKPSKGSGYRCI  68
+
+Query  59   --NTTTSLCFASSAEEAGVPPSDVLRLLPTNMIIFANPGHVFVRLSENGIETPIWIG  113
+              N       +  A + G+    + +LLP+ + ++ +P  V  R+ E+G    ++  
+Sbjct  69   RINHKMDPIISKVASQIGLSQPQLHQLLPSELTLWVDPYEVSYRIGEDGSICVLYEE  125
+
+
+> sp|Q04211|BTG2_MOUSE Protein BTG2 OS=Mus musculus OX=10090 GN=Btg2 
+PE=1 SV=1
+Length=158
+
+ Score = 164 bits (414),  Expect = 7e-52, Method: Composition-based stats.
+ Identities = 27/117 (23%), Positives = 48/117 (41%), Gaps = 4/117 (3%)
+
+Query  1    MYTEVRELVNFVCRYLF--GHIPRRPVGIFGAELGNYLVSHFSSTWDVNHPKNGEMKRMI  58
+            M  E+   V F+   L   G +  + + +F   L + L  H+   W    P  G   R I
+Sbjct  9    MLPEIAAAVGFLSSLLRTRGCVSEQRLKVFSRALQDALTDHYKHHWFPEKPSKGSGYRCI  68
+
+Query  59   --NTTTSLCFASSAEEAGVPPSDVLRLLPTNMIIFANPGHVFVRLSENGIETPIWIG  113
+              N       +  A + G+    + RLLP+ + ++ +P  V  R+ E+G    ++  
+Sbjct  69   RINHKMDPIISKVASQIGLSQPQLHRLLPSELTLWVDPYEVSYRIGEDGSICVLYEE  125
+
+
+> sp|Q14106|TOB2_HUMAN Protein Tob2 OS=Homo sapiens OX=9606 GN=TOB2 
+PE=1 SV=2
+Length=344
+
+ Score = 168 bits (426),  Expect = 2e-51, Method: Composition-based stats.
+ Identities = 28/118 (24%), Positives = 52/118 (44%), Gaps = 2/118 (2%)
+
+Query  1    MYTEVRELVNFVCRYLFGHIPRRPVGIFGAELGNYLVSHFSSTWDVNHPKNGEMKRMIN-  59
+            M  E++  +NF+  YL+  +PRR   +FG EL   L   +   W    P  G   R ++ 
+Sbjct  1    MQLEIKVALNFIISYLYNKLPRRRADLFGEELERLLKKKYEGHWYPEKPLKGSGFRCVHI  60
+
+Query  60   -TTTSLCFASSAEEAGVPPSDVLRLLPTNMIIFANPGHVFVRLSENGIETPIWIGDVN  116
+                      +A+ +G+   DV   +P  + ++ +P  V  ++ E G    +++ D  
+Sbjct  61   GEMVDPVVELAAKRSGLAVEDVRANVPEELSVWIDPFEVSYQIGEKGAVKVLYLDDSE  118
+
+
+> sp|P78543|BTG2_HUMAN Protein BTG2 OS=Homo sapiens OX=9606 GN=BTG2 
+PE=1 SV=1
+Length=158
+
+ Score = 162 bits (410),  Expect = 2e-51, Method: Composition-based stats.
+ Identities = 26/117 (22%), Positives = 47/117 (40%), Gaps = 4/117 (3%)
+
+Query  1    MYTEVRELVNFVCRYLF--GHIPRRPVGIFGAELGNYLVSHFSSTWDVNHPKNGEMKRMI  58
+            M  E+   V F+   L   G +  + + +F   L   L  H+   W    P  G   R I
+Sbjct  9    MLPEIAAAVGFLSSLLRTRGCVSEQRLKVFSGALQEALTEHYKHHWFPEKPSKGSGYRCI  68
+
+Query  59   --NTTTSLCFASSAEEAGVPPSDVLRLLPTNMIIFANPGHVFVRLSENGIETPIWIG  113
+              N       +  A + G+    + +LLP+ + ++ +P  V  R+ E+G    ++  
+Sbjct  69   RINHKMDPIISRVASQIGLSQPQLHQLLPSELTLWVDPYEVSYRIGEDGSICVLYEE  125
+
+
+> sp|P50615|BTG3_MOUSE Protein BTG3 OS=Mus musculus OX=10090 GN=Btg3 
+PE=2 SV=1
+Length=252
+
+ Score = 159 bits (403),  Expect = 5e-49, Method: Composition-based stats.
+ Identities = 29/128 (23%), Positives = 46/128 (36%), Gaps = 11/128 (9%)
+
+Query  1    MYTEVRELVNFVCRYLFGH--IPRRPVGIFGAELGNYLVSHFSSTWDVNHPKNGEMKRMI  58
+            M  E+  +V F  R +  H  + +  V  F  +L   L   + + W    P  G+  R I
+Sbjct  1    MKNEIAAVVFFFTRLVRKHDKLKKEAVERFAEKLTQILQEKYKNHWYPEKPSKGQAYRCI  60
+
+Query  59   N----TTTSLCFASSAEEAGVPPSDVLRLLPTNMIIFANPGHVFVRLSENG---IETPIW  111
+                          + E + +  SD+   LP  + ++ +P  V  R  E     I     
+Sbjct  61   RVNKFQRVDPDVLKACENSCILYSDL--GLPKELTLWVDPCEVCCRYGEKNNAFIVASFE  118
+
+Query  112  IGDVNADE  119
+              D N DE
+Sbjct  119  NEDENKDE  126
+
+
+> sp|O88677|BTG3_RAT Protein BTG3 OS=Rattus norvegicus OX=10116 
+GN=Btg3 PE=2 SV=1
+Length=252
+
+ Score = 157 bits (398),  Expect = 3e-48, Method: Composition-based stats.
+ Identities = 28/128 (22%), Positives = 47/128 (37%), Gaps = 11/128 (9%)
+
+Query  1    MYTEVRELVNFVCRYLFGH--IPRRPVGIFGAELGNYLVSHFSSTWDVNHPKNGEMKRMI  58
+            M  E+  +V F  R +  H  + +  V  F  +L   L   + + W    P  G+  R I
+Sbjct  1    MKNEIAAVVFFFTRLVRKHDKLKKEAVERFAEKLTQILQEKYKNHWYPEKPSKGQAYRCI  60
+
+Query  59   N----TTTSLCFASSAEEAGVPPSDVLRLLPTNMIIFANPGHVFVRLSENG---IETPIW  111
+                          + E++ +  SD+   LP  + ++ +P  V  R  +     I     
+Sbjct  61   RVNKFQRVDPDVLKACEDSCILYSDL--GLPKELTLWVDPCEVCCRYGKKNNAFIVASFE  118
+
+Query  112  IGDVNADE  119
+              D N DE
+Sbjct  119  NEDENKDE  126
+
+
+> sp|Q14201|BTG3_HUMAN Protein BTG3 OS=Homo sapiens OX=9606 GN=BTG3 
+PE=1 SV=3
+Length=252
+
+ Score = 157 bits (398),  Expect = 3e-48, Method: Composition-based stats.
+ Identities = 29/128 (23%), Positives = 46/128 (36%), Gaps = 11/128 (9%)
+
+Query  1    MYTEVRELVNFVCRYLFGH--IPRRPVGIFGAELGNYLVSHFSSTWDVNHPKNGEMKRMI  58
+            M  E+  +V F  R +  H  + +  V  F  +L   L   + + W    P  G+  R I
+Sbjct  1    MKNEIAAVVFFFTRLVRKHDKLKKEAVERFAEKLTLILQEKYKNHWYPEKPSKGQAYRCI  60
+
+Query  59   N----TTTSLCFASSAEEAGVPPSDVLRLLPTNMIIFANPGHVFVRLSENG---IETPIW  111
+                          + E + +  SD+   LP  + ++ +P  V  R  E     I     
+Sbjct  61   RVNKFQRVDPDVLKACENSCILYSDL--GLPKELTLWVDPCEVCCRYGEKNNAFIVASFE  118
+
+Query  112  IGDVNADE  119
+              D N DE
+Sbjct  119  NKDENKDE  126
+
+
+> sp|A4UTQ2|BTG3_PIG Protein BTG3 OS=Sus scrofa OX=9823 GN=BTG3 
+PE=2 SV=1
+Length=252
+
+ Score = 156 bits (394),  Expect = 1e-47, Method: Composition-based stats.
+ Identities = 28/128 (22%), Positives = 46/128 (36%), Gaps = 11/128 (9%)
+
+Query  1    MYTEVRELVNFVCRYLFGH--IPRRPVGIFGAELGNYLVSHFSSTWDVNHPKNGEMKRMI  58
+            M  E+  +V F  R +  H  + +  V  F  +L   L   + + W    P  G+  R I
+Sbjct  1    MKNEIAAVVFFFTRLVRKHDKLKKEAVERFAEKLTLILQEKYKNHWYPEKPSKGQAYRCI  60
+
+Query  59   N----TTTSLCFASSAEEAGVPPSDVLRLLPTNMIIFANPGHVFVRLSENG---IETPIW  111
+                          + E + +  SD+   LP  + ++ +P  V  R  E     I     
+Sbjct  61   RVNKFQRVDPDVLKACENSCILYSDL--GLPKELTLWVDPCEVCCRYGEKNNAFIVASFE  118
+
+Query  112  IGDVNADE  119
+              + N DE
+Sbjct  119  NEEENKDE  126
+
+
+> sp|O70552|BTG4_MOUSE Protein BTG4 OS=Mus musculus OX=10090 GN=Btg4 
+PE=1 SV=2
+Length=250
+
+ Score = 154 bits (389),  Expect = 7e-47, Method: Composition-based stats.
+ Identities = 26/110 (24%), Positives = 39/110 (35%), Gaps = 8/110 (7%)
+
+Query  1    MYTEVRELVNFVCRYLFGH--IPRRPVGIFGAELGNYLVSHFSSTWDVNHPKNGEMKRMI  58
+            M  E+   V FV R +  H  +  + +  F  +L   L   +   W  + P  G+  R I
+Sbjct  1    MRDEIATAVFFVTRLVKKHEKLSTQQIETFALKLMTILFEKYRGHWHPDCPSKGQAFRCI  60
+
+Query  59   ----NTTTSLCFASSAEEAGVPPSDVLRLLPTNMIIFANPGHVFVRLSEN  104
+                N         +  E+ V        LP  M I+ +P  V  R  E 
+Sbjct  61   RINNNENKDPVLERACAESNVNF--FHLGLPKEMTIWVDPYEVCCRYGEK  108
+
+
+> sp|Q9NY30|BTG4_HUMAN Protein BTG4 OS=Homo sapiens OX=9606 GN=BTG4 
+PE=2 SV=1
+Length=223
+
+ Score = 151 bits (382),  Expect = 4e-46, Method: Composition-based stats.
+ Identities = 28/111 (25%), Positives = 43/111 (39%), Gaps = 8/111 (7%)
+
+Query  1    MYTEVRELVNFVCRYLFGH--IPRRPVGIFGAELGNYLVSHFSSTWDVNHPKNGEMKRMI  58
+            M  E+   V FV R +  H  + ++ +  F  +L   L   + S W  + P  G+  R I
+Sbjct  1    MRDEIATTVFFVTRLVKKHDKLSKQQIEDFAEKLMTILFETYRSHWHSDCPSKGQAFRCI  60
+
+Query  59   ----NTTTSLCFASSAEEAGVPPSDVLRLLPTNMIIFANPGHVFVRLSENG  105
+                N         +  E+ V  S +   LP  M I+ +P  V  R  E  
+Sbjct  61   RINNNQNKDPILERACVESNVDFSHL--GLPKEMTIWVDPFEVCCRYGEKN  109
+
+
+> sp|P40744|B910_XENLA Maternal B9.10 protein OS=Xenopus laevis 
+OX=8355 PE=2 SV=1
+Length=237
+
+ Score = 150 bits (378),  Expect = 2e-45, Method: Composition-based stats.
+ Identities = 26/111 (23%), Positives = 45/111 (41%), Gaps = 8/111 (7%)
+
+Query  1    MYTEVRELVNFVCRYLFGH--IPRRPVGIFGAELGNYLVSHFSSTWDVNHPKNGEMKRMI  58
+            M  E+   V F+   +  H  + ++ +  F A+L   L + + + W   +P  G+  R I
+Sbjct  1    MKEEIAATVVFLTMLVKKHKQLSKQKIEKFAAKLTTILFAKYKNHWYAENPMKGQAFRCI  60
+
+Query  59   N----TTTSLCFASSAEEAGVPPSDVLRLLPTNMIIFANPGHVFVRLSENG  105
+                       F  +  E+ V  +D+   LP  M I+ +P  V  R  E  
+Sbjct  61   RINTYQAIDAVFEKACAESNVDFNDL--GLPKEMTIWVDPFEVCCRYGEKN  109
+
+
+> sp|P40745|B915_XENLA Maternal B9.15 protein OS=Xenopus laevis 
+OX=8355 PE=2 SV=1
+Length=233
+
+ Score = 147 bits (370),  Expect = 3e-44, Method: Composition-based stats.
+ Identities = 24/111 (22%), Positives = 44/111 (40%), Gaps = 8/111 (7%)
+
+Query  1    MYTEVRELVNFVCRYLFGH--IPRRPVGIFGAELGNYLVSHFSSTWDVNHPKNGEMKRMI  58
+            M  E+   V F+   +  H  + ++ +  F A+L   L + + + W   +P  G+  R I
+Sbjct  1    MKEEIAATVVFLTMLVKKHKQLSKQKIEKFAAKLTTLLFAKYKTHWYAENPTKGQAFRCI  60
+
+Query  59   N----TTTSLCFASSAEEAGVPPSDVLRLLPTNMIIFANPGHVFVRLSENG  105
+                          +  E+ V  +++   LP  M I+ +P  V  R  E  
+Sbjct  61   RINECQALDAVLEKACTESNVDFNEL--GLPKEMTIWVDPFEVCCRYGEKN  109
+
+
+> sp|Q54NU5|BTG_DICDI BTG family protein OS=Dictyostelium discoideum 
+OX=44689 GN=btg PE=3 SV=1
+Length=423
+
+ Score = 117 bits (294),  Expect = 2e-31, Method: Composition-based stats.
+ Identities = 21/94 (22%), Positives = 41/94 (44%), Gaps = 4/94 (4%)
+
+Query  20   IPRRPVGIFGAELGNYLVSHFSSTWDVNHPKNGEMKRMI--NTTTSLCFASSAEEAGVPP  77
+            IP+  +  F  EL   L       W  ++P+ G+  R I    TT      +A+++ +  
+Sbjct  131  IPKENIKRFRKELIFALRDRIKGHWYPDYPERGQGYRAIICEETTDRLLMDAAKKSDI-V  189
+
+Query  78   SDVLRLLPTNMIIFANPGHVFVRLSENGIETPIW  111
+             +  +L+  N  ++ +PG+V  R      E  ++
+Sbjct  190  GEFRQLVKQNTTMWIDPGNVTYRHG-KHYEKTLY  222
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.133    0.370    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0408    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5001433932
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 28, 2021  3:44 PM
+  Number of letters in database: 202,799,066
+  Number of sequences in database:  563,082
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

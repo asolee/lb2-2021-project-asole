@@ -1,0 +1,191 @@
+
+import sys
+import numpy as np
+import ast
+import math
+import os
+
+def read_GOR_matrix(GOR_file):
+	#open the file that contain the two GOR matrices
+	GOR_file = open(GOR_file,"r")
+	#retrieve the two matrices
+	all_matrix = []
+	for line in GOR_file:
+		if line != "#\n":
+			line = ast.literal_eval(line[:-1])
+			all_matrix.append(line)
+	#divide the twp matrices
+	GOR_matrix = all_matrix[0]
+	GOR_S = all_matrix[1]
+	return(GOR_matrix,GOR_S)
+
+def evaluate_info_matrices(GOR_file):
+	GOR_matrix,GOR_S = read_GOR_matrix(GOR_file)
+	m_len = int((len(GOR_matrix)-1)/4)
+#	print(m_len)
+	#obtain the H submatrix
+	H_matrix = np.asarray(GOR_matrix[1:m_len+1])
+	H_matrix = np.delete(H_matrix,-1,axis=1)
+	#obtain the E submatrix
+	E_matrix = np.asarray(GOR_matrix[m_len+1:(2*m_len)+1])
+	E_matrix = np.delete(E_matrix,-1,axis=1)
+	#obtain the C submatrix
+	C_matrix = np.asarray(GOR_matrix[(2*m_len)+1:(3*m_len)+1])
+	C_matrix = np.delete(C_matrix,-1,axis=1)
+	#obtain the R submatrix
+	R_matrix = np.asarray(GOR_matrix[(3*m_len)+1:])
+	R_matrix = np.delete(R_matrix,-1,axis=1)
+#	print(R_matrix)
+	#obtain margine values
+	S_matrix = np.asarray(GOR_S[1])
+	S_matrix = np.delete(S_matrix,-1)
+	#define parameters to calculate info matrices
+	matrix_list = [H_matrix,E_matrix,C_matrix]
+	total_info = []
+	n = 0
+	#iteration to create the info matrices
+	for matrices in matrix_list:
+		new_matrix = []
+		n_row = 0
+		for row in matrices:
+			new_row = []
+			n_col = 0
+			for value in row:
+				value = float(value)/(float(R_matrix[n_row,n_col])*float(S_matrix[n]))
+				value = math.log(value,10)
+				new_row.append(value)
+				n_col += 1
+			new_matrix.append(new_row)
+			n_row += 1
+		total_info.append(new_matrix)
+		n += 1
+	total_info = np.asarray(total_info)
+	H_info = total_info[0]
+	E_info = total_info[1]
+	C_info = total_info[2]
+	return H_info,E_info,C_info
+
+#obtain a array and sequence from the profile
+def obtain_profile(ID,dir):
+	sequence = []
+	ID_matrix = np.zeros((2,20))
+	profile=open(dir+'/'+ID+".matrix")
+	next(profile)
+	for line in profile:
+#		head = line.split()
+		list = line.split()[2:-2]
+		if len(list) == 20:
+			ID_matrix = np.vstack([ID_matrix,[list]])
+#			sequence.append(head[1])
+	ID_matrix = np.delete(ID_matrix,0,0)
+	ID_matrix = np.delete(ID_matrix,0,0)
+	return ID_matrix
+
+def find_SS(GOR_file,ID_list,dir):
+	H_info,E_info,C_info = evaluate_info_matrices(GOR_file)
+#	print(H_info,E_info,C_info)
+	IDs = open(ID_list,'r')
+	d = int((float(len(H_info))/2)-0.5)
+#	print(d)
+	for ID in IDs:
+		ID = ID[:-1]
+		#open the file where we write the SS
+		file = dir+"/"+ID+".gor"
+		output = open(file,"w")
+		#write the fasta format like part
+		out_head = ">"+ID+"\n"
+		output.write(out_head)
+		#initalize SS
+		SS = ''
+
+		#obtain the profile for each ID
+		profile = obtain_profile(ID,dir)
+		#shape of the sequence matrix
+		num_rows,numcols=profile.shape
+		#take count of windows
+		pos = 0
+		#ierate for every position in the sequence profile
+		for line in profile:
+			window_matrix = []
+			#define the window
+			for w in range(pos-d,pos+d+1):
+#				print(w)
+				if w >= 0 and w < num_rows:
+					lista = profile[w]
+#					print(lista)
+					window_matrix.append(lista)
+			#obtain a matrix for each window
+			window_matrix =np.asarray(window_matrix)
+			n_rows, n_cols = window_matrix.shape
+			#row to fill the incomplete matrices
+			fill_row = np.zeros(20)
+
+			#check start incomplete windows and correct
+			if pos < d:
+				for n in range(n_rows,(d*2)+1):
+					window_matrix = np.vstack([fill_row, window_matrix])
+
+			#check the end incomplete windiws and correct
+			if pos > (num_rows-d):
+				for n in range(n_rows,(d*2)+1):
+					window_matrix = np.vstack([window_matrix, fill_row])
+			#obtain the values by multiplyng with info matrices
+			values_H = []
+			values_E = []
+			values_C = []
+			r = 0
+			#perform by iteration the product of each position
+			for rows in window_matrix:
+				c = 0
+				for value in rows:
+					values_H.append((float(value)*float(H_info[r,c])))
+					values_E.append((float(value)*float(E_info[r,c])))
+					values_C.append((float(value)*float(C_info[r,c])))
+					c += 1
+				r += 1
+
+			#sum the result of all the position to obtain the three final scores
+			total_H = sum(values_H)
+			total_E = sum(values_E)
+			total_C = sum(values_C)
+			#compute wich conformation need to add in the sequence
+			letter = ''
+			if total_H > max(total_E,total_C):
+				letter = 'H'
+			if total_E > max(total_H,total_C):
+				letter = 'E'
+			if total_C > max(total_H,total_E):
+				letter = 'C'
+
+			#add the letter at the SS
+			SS = SS+letter
+			print(
+			output.write(SS)
+
+			#pass to the next position
+			pos = pos + 1
+
+		output.close()
+#		print('done')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+if __name__ == "__main__":
+        input_matrix = (sys.argv[1])
+        ID_list = (sys.argv[2])
+        directory = (sys.argv[3])
+
+#evaluate_info_matrices(input_matrix)
+find_SS(input_matrix,ID_list,directory)

@@ -1,0 +1,2032 @@
+PSIBLAST 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           563,082 sequences; 202,799,066 total letters
+
+Results from round 1
+
+
+Query= 5L09
+
+Length=161
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|P54295|YENR_YEREN Transcriptional activator protein YenR OS=...  304     2e-105
+  sp|Q46967|ECHR_DICCH Transcriptional activator protein EchR OS=...  165     1e-50 
+  sp|Q47188|EXPR_DICD3 Transcriptional activator protein ExpR OS=...  149     3e-44 
+  sp|Q47189|EXPR_PECPM Transcriptional activator protein ExpR OS=...  134     1e-38 
+  sp|P54293|ESAR_PANSE Transcriptional activator protein EsaR OS=...  129     2e-36 
+  sp|O87971|YUKR_YERRU Transcriptional activator protein YukR (Fr...  121     8e-34 
+  sp|Q46751|CARR_PECCC Transcriptional activator protein CarR OS=...  119     6e-33 
+  sp|P25084|LASR_PSEAE Transcriptional activator protein LasR OS=...  49.3    2e-06 
+  sp|P35327|LUXS_ALIF1 Transcriptional activator protein LuxR OS=...  48.9    3e-06 
+  sp|P54294|TRAR_AGRFC Transcriptional activator protein TraR OS=...  48.1    5e-06 
+  sp|Q6NCZ5|RPAR_RHOPA HTH-type quorum sensing-dependent transcri...  47.8    8e-06 
+  sp|P74946|VANR_VIBAN Transcriptional activator protein VanR OS=...  45.8    3e-05 
+  sp|P54292|RHLR_PSEAE Regulatory protein RhlR OS=Pseudomonas aer...  45.1    6e-05 
+  sp|P0A3J6|ASAR_AERSA Transcriptional activator protein AsaR OS=...  45.1    6e-05 
+  sp|P0A3J5|AHYR_AERHY Transcriptional activator protein AhyR OS=...  45.1    6e-05 
+  sp|P12746|LUXR_ALIFS Transcriptional activator protein LuxR OS=...  44.3    1e-04 
+  sp|O54452|RAIR_RHIET Transcriptional activator protein RaiR OS=...  44.3    1e-04 
+  sp|A0A0N8YGA2|ANOR_ACINO Transcriptional activator protein AnoR...  43.9    2e-04 
+  sp|Q03316|RHIR_RHILV Regulatory protein RhiR OS=Rhizobium legum...  43.5    2e-04 
+  sp|Q51786|PHZR_PSEFL Transcriptional activator protein PhzR OS=...  42.7    4e-04 
+  sp|Q89VI3|BJAR1_BRADU Transcriptional activator protein BjaR1 O...  41.6    9e-04 
+  sp|P33909|TRAR_AGRVI Transcriptional activator protein TraR OS=...  41.2    0.001 
+  sp|P54303|PHZR_PSECL Transcriptional activator protein PhzR OS=...  39.7    0.004 
+  sp|P33905|TRAR_RHIRD Transcriptional activator protein TraR OS=...  38.9    0.009 
+
+
+> sp|P54295|YENR_YEREN Transcriptional activator protein YenR OS=Yersinia 
+enterocolitica OX=630 GN=yenR PE=3 SV=1
+Length=244
+
+ Score = 304 bits (778),  Expect = 2e-105, Method: Compositional matrix adjust.
+ Identities = 153/163 (94%), Positives = 154/163 (94%), Gaps = 2/163 (1%)
+
+Query  1    IIDYFDNESINEDIKNYIQRRIKAYGDLRYSYLVXNKKTPLHPTIISNYPLDWVKKYKKN  60
+            IIDYFDNESINEDIKNYIQRRIK YGDL YSYLV NKKTPLHPTIISNYPLDWVKKYKKN
+Sbjct  2    IIDYFDNESINEDIKNYIQRRIKTYGDLCYSYLVMNKKTPLHPTIISNYPLDWVKKYKKN  61
+
+Query  61   SYHLIDPVILTAKDKVAPFAWDDNSVINKK--DSAVFKLAREYNIVNGYTFVLHDNSNNX  118
+            SYHLIDPVILTAKDKVAPFAWDDNSVINKK  DSAVFKLAREYNIVNGYTFVLHDNSNN 
+Sbjct  62   SYHLIDPVILTAKDKVAPFAWDDNSVINKKSTDSAVFKLAREYNIVNGYTFVLHDNSNNM  121
+
+Query  119  ATLNISNGSDDSISFDESIEINKEKIQXLLILTHEKXLGLYQS  161
+            ATLNISNGSDDSISFDE IEINKEKIQ LLI+THEK LGLYQS
+Sbjct  122  ATLNISNGSDDSISFDERIEINKEKIQMLLIITHEKMLGLYQS  164
+
+
+> sp|Q46967|ECHR_DICCH Transcriptional activator protein EchR OS=Dickeya 
+chrysanthemi OX=556 GN=echR PE=3 SV=1
+Length=250
+
+ Score = 165 bits (418),  Expect = 1e-50, Method: Compositional matrix adjust.
+ Identities = 83/161 (52%), Positives = 115/161 (71%), Gaps = 2/161 (1%)
+
+Query  2    IDYFDNESINEDIKNYIQRRIKAYGDLRYSYLVXNKKTPLHPTIISNYPLDWVKKYKKNS  61
+            I + + + IN  I+NY+ R++K+YGDL+Y+YL+ NKK P    IISNYP +WV+ Y+ N+
+Sbjct  3    ISFSNFDFINSTIQNYLNRKLKSYGDLKYAYLIMNKKKPTDVVIISNYPSEWVEIYRSNN  62
+
+Query  62   YHLIDPVILTAKDKVAPFAWDDNSVINK--KDSAVFKLAREYNIVNGYTFVLHDNSNNXA  119
+            Y  IDPVILTA +K++PF+WDD+ VI+   K S +F L++EY+IVNGYTFVLHD  NN A
+Sbjct  63   YQHIDPVILTAINKISPFSWDDDLVISSKLKFSRIFNLSKEYDIVNGYTFVLHDPGNNLA  122
+
+Query  120  TLNISNGSDDSISFDESIEINKEKIQXLLILTHEKXLGLYQ  160
+            TL+     + S   +E ++ NKEK+Q LLI  HEK   LY+
+Sbjct  123  TLSFMFEENRSGELEEIVQNNKEKLQMLLISAHEKLTSLYR  163
+
+
+> sp|Q47188|EXPR_DICD3 Transcriptional activator protein ExpR OS=Dickeya 
+dadantii (strain 3937) OX=198628 GN=expR PE=3 SV=2
+Length=250
+
+ Score = 149 bits (375),  Expect = 3e-44, Method: Compositional matrix adjust.
+ Identities = 79/161 (49%), Positives = 111/161 (69%), Gaps = 2/161 (1%)
+
+Query  2    IDYFDNESINEDIKNYIQRRIKAYGDLRYSYLVXNKKTPLHPTIISNYPLDWVKKYKKNS  61
+            I + + + IN  I++Y+ R++K+YGD +Y+YL+ NKK P    IISNYP +WV  Y+ N+
+Sbjct  3    ISFSNVDFINSTIQSYLNRKLKSYGDPKYAYLIMNKKKPTDVVIISNYPTEWVDIYRNNN  62
+
+Query  62   YHLIDPVILTAKDKVAPFAWDDNSVINK--KDSAVFKLAREYNIVNGYTFVLHDNSNNXA  119
+            Y  IDPVILTA +K++PF+WDD+ VI+   K S +F L+++Y+IVNGYTFVLHD  NN A
+Sbjct  63   YQHIDPVILTAINKISPFSWDDDLVISSKLKFSRIFNLSKDYDIVNGYTFVLHDPGNNLA  122
+
+Query  120  TLNISNGSDDSISFDESIEINKEKIQXLLILTHEKXLGLYQ  160
+             L+       S   +E I+ NK+K+Q LLI  HEK   LY+
+Sbjct  123  ALSFMIEEHRSEELEEIIQNNKDKLQMLLISAHEKLTSLYR  163
+
+
+> sp|Q47189|EXPR_PECPM Transcriptional activator protein ExpR OS=Pectobacterium 
+parmentieri OX=1905730 GN=expR PE=3 SV=1
+Length=245
+
+ Score = 134 bits (337),  Expect = 1e-38, Method: Compositional matrix adjust.
+ Identities = 66/159 (42%), Positives = 105/159 (66%), Gaps = 2/159 (1%)
+
+Query  4    YFDNESINEDIKNYIQRRIKAYGDLRYSYLVXNKKTPLHPTIISNYPLDWVKKYKKNSYH  63
+            +++NE+I+  IK+     +  YGD++Y+Y+V NKK P    IISN+  +W + Y+ N+Y 
+Sbjct  5    FYNNETISRIIKSQFDMALSHYGDIKYAYMVLNKKKPTEILIISNHHDEWREIYQANNYQ  64
+
+Query  64   LIDPVILTAKDKVAPFAWDDNSVINK--KDSAVFKLAREYNIVNGYTFVLHDNSNNXATL  121
+             IDPV++ A +K+ PF WD++ +++   K S +F L+RE+NI NGYTFVLHD+SNN   L
+Sbjct  65   HIDPVVIAALNKITPFPWDEDLLVSTQLKMSKIFNLSREHNITNGYTFVLHDHSNNLVML  124
+
+Query  122  NISNGSDDSISFDESIEINKEKIQXLLILTHEKXLGLYQ  160
+            +I     +  + D+ IE NK+K+Q  L+  H + + LY+
+Sbjct  125  SIMIDESNVSNIDDVIESNKDKLQMTLMTIHAETISLYR  163
+
+
+> sp|P54293|ESAR_PANSE Transcriptional activator protein EsaR OS=Pantoea 
+stewartii subsp. stewartii OX=66271 GN=esaR PE=1 SV=1
+Length=249
+
+ Score = 129 bits (323),  Expect = 2e-36, Method: Compositional matrix adjust.
+ Identities = 57/148 (39%), Positives = 99/148 (67%), Gaps = 2/148 (1%)
+
+Query  4    YFDNESINEDIKNYIQRRIKAYGDLRYSYLVXNKKTPLHPTIISNYPLDWVKKYKKNSYH  63
+            + +N++I + ++ YIQR++   G   Y+Y V +KK P +  IIS+YP +W++ Y+ N++ 
+Sbjct  5    FLENQTITDTLQTYIQRKLSPLGSPDYAYTVVSKKNPSNVLIISSYPDEWIRLYRANNFQ  64
+
+Query  64   LIDPVILTAKDKVAPFAWDDNSVI--NKKDSAVFKLAREYNIVNGYTFVLHDNSNNXATL  121
+            L DPVILTA  + +PFAWD+N  +  + + + +F L+++YNIVNG+T+VLHD+ NN A L
+Sbjct  65   LTDPVILTAFKRTSPFAWDENITLMSDLRFTKIFSLSKQYNIVNGFTYVLHDHMNNLALL  124
+
+Query  122  NISNGSDDSISFDESIEINKEKIQXLLI  149
+            ++    +D  + ++ +   +  +Q LLI
+Sbjct  125  SVIIKGNDQTALEQRLAAEQGTMQMLLI  152
+
+
+> sp|O87971|YUKR_YERRU Transcriptional activator protein YukR (Fragment) 
+OS=Yersinia ruckeri OX=29486 GN=yukR PE=3 SV=1
+Length=229
+
+ Score = 121 bits (304),  Expect = 8e-34, Method: Compositional matrix adjust.
+ Identities = 61/145 (42%), Positives = 95/145 (66%), Gaps = 2/145 (1%)
+
+Query  18   IQRRIKAYGDLRYSYLVXNKKTPLHPTIISNYPLDWVKKYKKNSYHLIDPVILTAKDKVA  77
+            I R+++ Y   RY+Y+V +KK P+   I+++YP +W   Y   +Y  IDP++LTA  +++
+Sbjct  1    IDRKLERYDSPRYTYMVIDKKNPVDVFIVTSYPDEWADIYTSQNYQHIDPIVLTAFKRIS  60
+
+Query  78   PFAWDDNSVI--NKKDSAVFKLAREYNIVNGYTFVLHDNSNNXATLNISNGSDDSISFDE  135
+            PFAWD+N  I  + K S +F L+++YNIVNG+TFVLHD+ NN A L++   ++     + 
+Sbjct  61   PFAWDENITILSDLKSSKIFALSKKYNIVNGFTFVLHDHMNNLAMLSLIMDNNADKGLNS  120
+
+Query  136  SIEINKEKIQXLLILTHEKXLGLYQ  160
+             IE +K+++Q  LI  HEK L L Q
+Sbjct  121  RIESDKDRLQMNLIKIHEKMLMLEQ  145
+
+
+> sp|Q46751|CARR_PECCC Transcriptional activator protein CarR OS=Pectobacterium 
+carotovorum subsp. carotovorum OX=555 GN=carR 
+PE=3 SV=1
+Length=244
+
+ Score = 119 bits (299),  Expect = 6e-33, Method: Compositional matrix adjust.
+ Identities = 59/153 (39%), Positives = 103/153 (67%), Gaps = 4/153 (3%)
+
+Query  10   INEDIKNYIQRRIKAYGDLRYSYLVXNKKTPLHPTIISNYPLDWVKKYKKNSYHLIDPVI  69
+            ++ +I ++I+R++K  GD+ +SY + +K +   P IISNYP  W+K+Y K    L DP+I
+Sbjct  1    MDHEIHSFIKRKLKGVGDVWFSYFMMSKNSTSQPYIISNYPEAWMKEYIKKEMFLSDPII  60
+
+Query  70   LTAKDKVAPFAWDDNSVIN--KKDSAVFKLAREYNIVNGYTFVLHDNSNNXATLNISNGS  127
+            + +  ++ PF+WDDN ++    K+  VF  + +++I +GYTFVLHD+ NN ATL+I+N  
+Sbjct  61   VASLARITPFSWDDNDIVTLRAKNQDVFISSVQHDISSGYTFVLHDHDNNVATLSIANHL  120
+
+Query  128  DDSISFDESIEINKEKIQXLLILTHEKXLGLYQ  160
+            +D+ +F++ ++ ++  +Q LL+  HEK +  YQ
+Sbjct  121  EDA-NFEKCMKNHENDLQMLLVNVHEKVMA-YQ  151
+
+
+> sp|P25084|LASR_PSEAE Transcriptional activator protein LasR OS=Pseudomonas 
+aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 
+104116 / JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1) OX=208964 
+GN=lasR PE=1 SV=1
+Length=239
+
+ Score = 49.3 bits (116),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 22/80 (28%), Positives = 34/80 (43%), Gaps = 0/80 (0%)
+
+Query  45   IISNYPLDWVKKYKKNSYHLIDPVILTAKDKVAPFAWDDNSVINKKDSAVFKLAREYNIV  104
+            I+ NYP  W + Y +  Y  +DP +      V P  W+ +    +K    F+ A    +V
+Sbjct  52   IVGNYPAAWREHYDRAGYARVDPTVSHCTQSVLPIFWEPSIYQTRKQHEFFEEASAAGLV  111
+
+Query  105  NGYTFVLHDNSNNXATLNIS  124
+             G T  LH        L++S
+Sbjct  112  YGLTMPLHGARGELGALSLS  131
+
+
+> sp|P35327|LUXS_ALIF1 Transcriptional activator protein LuxR OS=Aliivibrio 
+fischeri (strain ATCC 700601 / ES114) OX=312309 
+GN=luxR PE=3 SV=1
+Length=250
+
+ Score = 48.9 bits (115),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 36/133 (27%), Positives = 59/133 (44%), Gaps = 4/133 (3%)
+
+Query  1    IIDYFDNESINEDIKNYIQRRIKAYGDLRYSYLVXNKKTPLHP--TIISNYPLDWVKKYK  58
+            IID     + N+DI   +    K      Y + +    + + P  +II NYP  W K Y 
+Sbjct  12   IIDKIKTCNNNKDINQCLSEIAKIIHCEYYLFAIIYPHSIIKPDVSIIDNYPEKWRKYYD  71
+
+Query  59   KNSYHLIDPVILTAKDKVAPFAWD--DNSVINKKDSAVFKLAREYNIVNGYTFVLHDNSN  116
+                   DPV+  +K   +P  W+  +   I K+   V K A+E  ++ G++F +H  SN
+Sbjct  72   DAGLLEYDPVVDYSKSHHSPINWNVFEKKTIKKESPNVIKEAQESGLITGFSFPIHTASN  131
+
+Query  117  NXATLNISNGSDD  129
+                L+ ++   D
+Sbjct  132  GFGMLSFAHSDKD  144
+
+
+> sp|P54294|TRAR_AGRFC Transcriptional activator protein TraR OS=Agrobacterium 
+fabrum (strain C58 / ATCC 33970) OX=176299 GN=traR 
+PE=3 SV=1
+Length=234
+
+ Score = 48.1 bits (113),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 30/117 (26%), Positives = 58/117 (50%), Gaps = 7/117 (6%)
+
+Query  25   YGDLRYSYLVXNKKTPLHPTIISNYPLDWVKKYKKNSYHLIDPVILTAKDKVAPFAW---  81
+            +G   Y+YL    K   H   ++NY  DW   Y +N++  +DPV+  AK +   FAW   
+Sbjct  32   FGFTGYAYLHIQHK---HTIAVTNYHRDWRSAYFENNFDKLDPVVKRAKSRKHVFAWSGE  88
+
+Query  82   DDNSVINKKDSAVFKLAREYNIVNGYTFVLHDNSNNXATLNISNGSDDSISFDESIE  138
+             + S ++K++ A +  A ++ I +G T  +   + + +   +++    +I  D  I+
+Sbjct  89   QERSRLSKEERAFYAHAADFGIRSGITIPIKTANGSMSMFTLAS-ERPAIDLDREID  144
+
+
+> sp|Q6NCZ5|RPAR_RHOPA HTH-type quorum sensing-dependent transcriptional 
+regulator RpaR OS=Rhodopseudomonas palustris (strain 
+ATCC BAA-98 / CGA009) OX=258594 GN=rpaR PE=1 SV=1
+Length=243
+
+ Score = 47.8 bits (112),  Expect = 8e-06, Method: Compositional matrix adjust.
+ Identities = 30/118 (25%), Positives = 52/118 (44%), Gaps = 10/118 (8%)
+
+Query  44   TIISNYPLDWVKKYKKNSYHLIDPVILTAKDKVAPFAWDDNSVINKKDSAVFKL---ARE  100
+            T+ + +P DW   Y   ++  +DPV       V PF W D      +D A  ++   A E
+Sbjct  60   TLANGWPRDWFDLYVSENFSAVDPVPRHGATTVHPFVWSDAPYDRDRDPAAHRVMTRAAE  119
+
+Query  101  YNIVNGYTFVLHDNSNNXATLNISNGSDDSISFDESIEINKEKIQXLLILTHEKXLGL  158
+            + +V GY   LH + +  A ++++ G D  +S        +  +Q + I  H +   L
+Sbjct  120  FGLVEGYCIPLHYD-DGSAAISMA-GKDPDLS-----PAARGAMQLVSIYAHSRLRAL  170
+
+
+> sp|P74946|VANR_VIBAN Transcriptional activator protein VanR OS=Vibrio 
+anguillarum OX=55601 GN=vanR PE=3 SV=1
+Length=240
+
+ Score = 45.8 bits (107),  Expect = 3e-05, Method: Compositional matrix adjust.
+ Identities = 23/90 (26%), Positives = 42/90 (47%), Gaps = 2/90 (2%)
+
+Query  45   IISNYPLDWVKKYKKNSYHLIDPVILTAKDKVAPFAWDDNSVINKKDSAVFKLAREYNIV  104
+            +  NYP  W ++Y ++ +  IDP++  +     P  WDD   +N     +F+ AR   + 
+Sbjct  53   VTDNYPNSWRQQYDESGFMHIDPIVKYSITNFLPIRWDDAKRVNNDGRVIFEEARCNGLK  112
+
+Query  105  NGYTFVLHDNSNNXATLNISNGSDDSISFD  134
+             G++  +H          IS  + D+ S+D
+Sbjct  113  AGFSIPIHGLRGEFGM--ISFATSDTKSYD  140
+
+
+> sp|P54292|RHLR_PSEAE Regulatory protein RhlR OS=Pseudomonas aeruginosa 
+(strain ATCC 15692 / DSM 22644 / CIP 104116 / JCM 
+14847 / LMG 12228 / 1C / PRS 101 / PAO1) OX=208964 GN=rhlR PE=3 
+SV=1
+Length=241
+
+ Score = 45.1 bits (105),  Expect = 6e-05, Method: Compositional matrix adjust.
+ Identities = 31/126 (25%), Positives = 59/126 (47%), Gaps = 8/126 (6%)
+
+Query  24   AYGDLRYSYLVXNKKTPLHPTIISNYPLDWVKKYKKNSYHLIDPVILTAKDKVAPFAWDD  83
+            AYG +R++      KT +H T    YP  W+++Y+  +Y  +DP IL          W D
+Sbjct  44   AYG-VRHTIPFTRPKTEVHGT----YPKAWLERYQMQNYGAVDPAILNGLRSSEMVVWSD  98
+
+Query  84   NSVINKKDSAVFKLAREYNIVNGYTFVLHDNSNNXATLNISNGSDDSISFD-ESIEINKE  142
+            +  +  +   ++  AR++ +  G T  +   +N  + L+++    +  SF+ E I +   
+Sbjct  99   S--LFDQSRMLWNEARDWGLCVGATLPIRAPNNLLSVLSVARDQQNISSFEREEIRLRLR  156
+
+Query  143  KIQXLL  148
+             +  LL
+Sbjct  157  CMIELL  162
+
+
+> sp|P0A3J6|ASAR_AERSA Transcriptional activator protein AsaR OS=Aeromonas 
+salmonicida OX=645 GN=asaR PE=3 SV=1
+Length=260
+
+ Score = 45.1 bits (105),  Expect = 6e-05, Method: Compositional matrix adjust.
+ Identities = 29/127 (23%), Positives = 55/127 (43%), Gaps = 6/127 (5%)
+
+Query  2    IDYFDNESINEDIKNYIQRRIKAYGDLRYSYLVXNKKTPLHPTII--SNYPLDWVKKYKK  59
+            +++F + +  + +   I R     G   Y + +    +   P ++  +  P  WV+ Y  
+Sbjct  10   LEHFTSVTDGDRLAELIGRFTLGMGYDYYRFALIIPMSMQRPKVVLFNQCPDSWVQAYTA  69
+
+Query  60   NSYHLIDPVILTAKDKVAPFAW---DDNSVINKKDSA-VFKLAREYNIVNGYTFVLHDNS  115
+            N     DP+I  A+ +  P  W   D+ +   ++ S  V  LA E+ + NG +F LH  +
+Sbjct  70   NHMLACDPIIQLARKQTLPIYWNRLDERARFLQEGSLDVMGLAAEFGLRNGISFPLHGAA  129
+
+Query  116  NNXATLN  122
+                 L+
+Sbjct  130  GENGILS  136
+
+
+> sp|P0A3J5|AHYR_AERHY Transcriptional activator protein AhyR OS=Aeromonas 
+hydrophila OX=644 GN=ahyR PE=3 SV=1
+Length=260
+
+ Score = 45.1 bits (105),  Expect = 6e-05, Method: Compositional matrix adjust.
+ Identities = 29/127 (23%), Positives = 55/127 (43%), Gaps = 6/127 (5%)
+
+Query  2    IDYFDNESINEDIKNYIQRRIKAYGDLRYSYLVXNKKTPLHPTII--SNYPLDWVKKYKK  59
+            +++F + +  + +   I R     G   Y + +    +   P ++  +  P  WV+ Y  
+Sbjct  10   LEHFTSVTDGDRLAELIGRFTLGMGYDYYRFALIIPMSMQRPKVVLFNQCPDSWVQAYTA  69
+
+Query  60   NSYHLIDPVILTAKDKVAPFAW---DDNSVINKKDSA-VFKLAREYNIVNGYTFVLHDNS  115
+            N     DP+I  A+ +  P  W   D+ +   ++ S  V  LA E+ + NG +F LH  +
+Sbjct  70   NHMLACDPIIQLARKQTLPIYWNRLDERARFLQEGSLDVMGLAAEFGLRNGISFPLHGAA  129
+
+Query  116  NNXATLN  122
+                 L+
+Sbjct  130  GENGILS  136
+
+
+> sp|P12746|LUXR_ALIFS Transcriptional activator protein LuxR OS=Aliivibrio 
+fischeri OX=668 GN=luxR PE=1 SV=3
+Length=250
+
+ Score = 44.3 bits (103),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 23/88 (26%), Positives = 45/88 (51%), Gaps = 2/88 (2%)
+
+Query  44   TIISNYPLDWVKKYKKNSYHLIDPVILTAKDKVAPFAWD--DNSVINKKDSAVFKLAREY  101
+            +I+ NYP  W + Y   +    DP++  +    +P  W+  +N+ +NKK   V K A+  
+Sbjct  57   SILDNYPKKWRQYYDDANLIKYDPIVDYSNSNHSPINWNIFENNAVNKKSPNVIKEAKTS  116
+
+Query  102  NIVNGYTFVLHDNSNNXATLNISNGSDD  129
+             ++ G++F +H  +N    L+ ++   D
+Sbjct  117  GLITGFSFPIHTANNGFGMLSFAHSEKD  144
+
+
+> sp|O54452|RAIR_RHIET Transcriptional activator protein RaiR OS=Rhizobium 
+etli OX=29449 GN=raiR PE=3 SV=1
+Length=242
+
+ Score = 44.3 bits (103),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 20/89 (22%), Positives = 38/89 (43%), Gaps = 1/89 (1%)
+
+Query  43   PTIISNYPLDWVKKYKKNSYHLIDPVILTAKDKVAPFAWDDNSVINKKDSAVFKLAREYN  102
+            P ++  YP +WVK+Y+   Y  IDPV+   +    P  W  +   + +    FK A  + 
+Sbjct  57   PLLMLTYPPEWVKQYRDRDYFSIDPVVRLGRRGFLPVEWSASGWDSGRAYGFFKEAMAFG  116
+
+Query  103  IV-NGYTFVLHDNSNNXATLNISNGSDDS  130
+            +   G T  +       +   +++   D+
+Sbjct  117  VGRQGVTLPVRGPQGERSLFTVTSNHPDA  145
+
+
+> sp|A0A0N8YGA2|ANOR_ACINO Transcriptional activator protein AnoR 
+OS=Acinetobacter nosocomialis OX=106654 GN=anoR PE=2 SV=1
+Length=238
+
+ Score = 43.9 bits (102),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 22/107 (21%), Positives = 44/107 (41%), Gaps = 5/107 (5%)
+
+Query  28   LRYSYLVXNKKTPLH-----PTIISNYPLDWVKKYKKNSYHLIDPVILTAKDKVAPFAWD  82
+            L + Y     ++PL        +++NYP  W K+Y +  Y  +DP +      + P  W 
+Sbjct  32   LGFDYCAYGMQSPLSIAEPKTIMLNNYPQAWQKRYIEQRYVKVDPTVQHCMVSLQPLVWS  91
+
+Query  83   DNSVINKKDSAVFKLAREYNIVNGYTFVLHDNSNNXATLNISNGSDD  129
+              +   +++   ++ AR Y +  G+     D       L ++  +D 
+Sbjct  92   SQNAKTQEEKDFWEEARSYGLNVGWAQSSRDFIGTRGMLTLARSTDQ  138
+
+
+> sp|Q03316|RHIR_RHILV Regulatory protein RhiR OS=Rhizobium leguminosarum 
+bv. viciae OX=387 GN=rhiR PE=4 SV=1
+Length=247
+
+ Score = 43.5 bits (101),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 17/75 (23%), Positives = 41/75 (55%), Gaps = 3/75 (4%)
+
+Query  45   IISNYPLDWVKKYKKNSYHLIDPVILTAKDKVAPFAWDD---NSVINKKDSAVFKLAREY  101
+            ++ N+ + W  +Y++N+Y   DP++  +K     F W +   +  ++++   V   ARE+
+Sbjct  61   VLGNWSVGWFDRYRENNYVHADPIVHLSKTCDHAFVWSEALRDQKLDRQSRRVMDEAREF  120
+
+Query  102  NIVNGYTFVLHDNSN  116
+             +++G++  LH  + 
+Sbjct  121  KLIDGFSVPLHTAAG  135
+
+
+> sp|Q51786|PHZR_PSEFL Transcriptional activator protein PhzR OS=Pseudomonas 
+fluorescens OX=294 GN=phzR PE=3 SV=1
+Length=244
+
+ Score = 42.7 bits (99),  Expect = 4e-04, Method: Compositional matrix adjust.
+ Identities = 29/119 (24%), Positives = 56/119 (47%), Gaps = 8/119 (7%)
+
+Query  22   IKAYGDLRYSYLVXNKK--TP-LHPT--IISNYPLDWVKKYKKNSYHLIDPVILTAKDKV  76
+            ++A  +LR+ +        TP + P   +  NYP  W+++Y+  +Y LIDP +  +K   
+Sbjct  34   LRALRELRFDFFAYGMCSVTPFMRPKTYMYGNYPEHWLQRYQAANYALIDPTVKHSKVSS  93
+
+Query  77   APFAWDDNSVINKKDSAVFKLAREYNIVNGYTFVLHDNSNNXATLNISNGSDDSISFDE  135
+            AP  W +    N  D  ++  A + ++ +G      +       L+++   D++IS  E
+Sbjct  94   APILWSNELFRNCPD--LWSEANDSSLCHGLAQPSFNTQGRVGVLSLAR-KDNAISLQE  149
+
+
+> sp|Q89VI3|BJAR1_BRADU Transcriptional activator protein BjaR1 
+OS=Bradyrhizobium diazoefficiens (strain JCM 10833 / IAM 13628 
+/ NBRC 14792 / USDA 110) OX=224911 GN=bjaR1 PE=3 SV=1
+Length=242
+
+ Score = 41.6 bits (96),  Expect = 9e-04, Method: Compositional matrix adjust.
+ Identities = 21/102 (21%), Positives = 44/102 (43%), Gaps = 13/102 (13%)
+
+Query  27   DLRYSYLVXNKKTPLHPTIISNYPLDWVKKYKKNSYHLIDPVILTAKDKVAPFAWDD---  83
+            D R++ +V  K+          +P  W   Y +N+Y   DPV+   +  V PF W +   
+Sbjct  51   DQRFAQMVLAKR----------WPAGWFNLYTQNNYDRFDPVVRLCRQSVNPFEWSEAPY  100
+
+Query  84   NSVINKKDSAVFKLAREYNIVNGYTFVLHDNSNNXATLNISN  125
+            ++ +    + V   A ++ +  G+   +H  +   A +++  
+Sbjct  101  DAELEPSAAEVMNRAGDFRMSRGFIVPIHGLTGYEAAVSLGG  142
+
+
+> sp|P33909|TRAR_AGRVI Transcriptional activator protein TraR OS=Agrobacterium 
+vitis OX=373 GN=traR PE=3 SV=1
+Length=234
+
+ Score = 41.2 bits (95),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 26/117 (22%), Positives = 54/117 (46%), Gaps = 7/117 (6%)
+
+Query  25   YGDLRYSYLVXNKKTPLHPTIISNYPLDWVKKYKKNSYHLIDPVILTAKDKVAPFAW---  81
+            +G   Y+YL    K   H   ++NY  DW   Y    +  +DPV+  A+ +   FAW   
+Sbjct  32   FGFTGYAYLHIQHK---HIIAVTNYHHDWRSLYFDKKFDALDPVVKRARSRKQVFAWSGE  88
+
+Query  82   DDNSVINKKDSAVFKLAREYNIVNGYTFVLHDNSNNXATLNISNGSDDSISFDESIE  138
+             +   +++++ A +  A ++ I +G T  +   + + +   +++    +I  D  I+
+Sbjct  89   QERPKLSEEERAFYAQAADFGIRSGITIPIRTANGSMSMFTLAS-ERTAIPLDREID  144
+
+
+> sp|P54303|PHZR_PSECL Transcriptional activator protein PhzR OS=Pseudomonas 
+chlororaphis OX=333 GN=phzR PE=3 SV=1
+Length=241
+
+ Score = 39.7 bits (91),  Expect = 0.004, Method: Compositional matrix adjust.
+ Identities = 34/147 (23%), Positives = 64/147 (44%), Gaps = 9/147 (6%)
+
+Query  13   DIKNYIQRRIKAYGDLRYSYLVXNKK--TP-LHPT--IISNYPLDWVKKYKKNSYHLIDP  67
+            D++ +    ++A  +LR+ +        TP + P   +  NYP DWV++Y+  +Y +IDP
+Sbjct  22   DMQEFTAVALRALRELRFDFFRYGMCSVTPFMRPRTYMYGNYPEDWVQRYQAANYAVIDP  81
+
+Query  68   VILTAKDKVAPFAWDDNSVINKKDSAVFKLAREYNIVNGYTFVLHDNSNNXATLNISNGS  127
+             +  +K   +P    +       D  ++  A + N+ +G      +       L+++   
+Sbjct  82   TVKHSKVSSSPILASNELFRGCPD--LWSEANDSNLRHGLAQPSFNTQGRVGVLSLAR-K  138
+
+Query  128  DDSISFDESIEINKEKIQXLLILTHEK  154
+            D+ IS  E  E  K   +      HEK
+Sbjct  139  DNPISLQE-FEALKVVTKAFAAAVHEK  164
+
+
+> sp|P33905|TRAR_RHIRD Transcriptional activator protein TraR OS=Rhizobium 
+radiobacter OX=358 GN=traR PE=1 SV=2
+Length=234
+
+ Score = 38.9 bits (89),  Expect = 0.009, Method: Compositional matrix adjust.
+ Identities = 22/87 (25%), Positives = 40/87 (46%), Gaps = 6/87 (7%)
+
+Query  25   YGDLRYSYLVXNKKTPLHPTIISNYPLDWVKKYKKNSYHLIDPVILTAKDKVAPFAWD--  82
+            +G   Y+YL    +   H T ++NY   W   Y    +  +DPV+  A+ +   F W   
+Sbjct  32   FGFTGYAYLHIQHR---HITAVTNYHRQWQSTYFDKKFEALDPVVKRARSRKHIFTWSGE  88
+
+Query  83   -DNSVINKKDSAVFKLAREYNIVNGYT  108
+             +   ++K + A +  A ++ I +G T
+Sbjct  89   HERPTLSKDERAFYDHASDFGIRSGIT  115
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.135    0.389    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 7525269130
+Results from round 2
+
+
+Query= 5L09
+
+Length=161
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P54295|YENR_YEREN Transcriptional activator protein YenR OS=...  207     3e-67
+  sp|Q46967|ECHR_DICCH Transcriptional activator protein EchR OS=...  197     5e-63
+  sp|Q47188|EXPR_DICD3 Transcriptional activator protein ExpR OS=...  187     2e-59
+  sp|Q47189|EXPR_PECPM Transcriptional activator protein ExpR OS=...  179     4e-56
+  sp|O87971|YUKR_YERRU Transcriptional activator protein YukR (Fr...  170     1e-52
+  sp|P54293|ESAR_PANSE Transcriptional activator protein EsaR OS=...  168     6e-52
+  sp|Q46751|CARR_PECCC Transcriptional activator protein CarR OS=...  157     1e-47
+  sp|P35327|LUXS_ALIF1 Transcriptional activator protein LuxR OS=...  142     2e-41
+  sp|P12746|LUXR_ALIFS Transcriptional activator protein LuxR OS=...  131     2e-37
+  sp|P0A3J6|ASAR_AERSA Transcriptional activator protein AsaR OS=...  130     5e-37
+  sp|P0A3J5|AHYR_AERHY Transcriptional activator protein AhyR OS=...  130     5e-37
+  sp|P54294|TRAR_AGRFC Transcriptional activator protein TraR OS=...  127     4e-36
+  sp|P33909|TRAR_AGRVI Transcriptional activator protein TraR OS=...  125     5e-35
+  sp|P54292|RHLR_PSEAE Regulatory protein RhlR OS=Pseudomonas aer...  123     2e-34
+  sp|A0A0N8YGA2|ANOR_ACINO Transcriptional activator protein AnoR...  123     3e-34
+  sp|Q6NCZ5|RPAR_RHOPA HTH-type quorum sensing-dependent transcri...  118     3e-32
+  sp|P74946|VANR_VIBAN Transcriptional activator protein VanR OS=...  116     1e-31
+  sp|Q51786|PHZR_PSEFL Transcriptional activator protein PhzR OS=...  116     1e-31
+  sp|P25084|LASR_PSEAE Transcriptional activator protein LasR OS=...  112     3e-30
+  sp|O54452|RAIR_RHIET Transcriptional activator protein RaiR OS=...  112     7e-30
+  sp|Q03316|RHIR_RHILV Regulatory protein RhiR OS=Rhizobium legum...  104     6e-27
+  sp|Q89VI3|BJAR1_BRADU Transcriptional activator protein BjaR1 O...  99.8    4e-25
+
+Sequences not found previously or not previously below threshold:
+
+  sp|P33905|TRAR_RHIRD Transcriptional activator protein TraR OS=...  114     5e-31
+  sp|P54303|PHZR_PSECL Transcriptional activator protein PhzR OS=...  110     3e-29
+  sp|P55629|Y4QH_SINFN Putative HTH-type transcriptional regulato...  84.0    1e-18
+  sp|P58590|SOLR_RALSO Transcriptional activator protein SolR OS=...  81.7    3e-18
+  sp|O30919|SOLR_RALSL Transcriptional activator protein SolR OS=...  79.4    2e-17
+  sp|P55407|TRAR_SINFN Probable transcriptional activator protein...  79.0    3e-17
+  sp|P07026|SDIA_ECOLI Regulatory protein SdiA OS=Escherichia col...  74.7    1e-15
+  sp|Q8FXF9|VJBR_BRUSU HTH-type quorum sensing-dependent transcri...  43.2    3e-04
+  sp|Q8YAY5|VJBR_BRUME HTH-type quorum sensing-dependent transcri...  43.2    3e-04
+  sp|Q579W9|VJBR_BRUAB HTH-type quorum sensing-dependent transcri...  43.2    3e-04
+  sp|Q2YJ50|VJBR_BRUA2 HTH-type quorum sensing-dependent transcri...  43.2    3e-04
+  sp|A5VTN1|VJBR_BRUO2 HTH-type quorum sensing-dependent transcri...  42.8    4e-04
+
+
+> sp|P54295|YENR_YEREN Transcriptional activator protein YenR OS=Yersinia 
+enterocolitica OX=630 GN=yenR PE=3 SV=1
+Length=244
+
+ Score = 207 bits (526),  Expect = 3e-67, Method: Composition-based stats.
+ Identities = 153/163 (94%), Positives = 154/163 (94%), Gaps = 2/163 (1%)
+
+Query  1    IIDYFDNESINEDIKNYIQRRIKAYGDLRYSYLVXNKKTPLHPTIISNYPLDWVKKYKKN  60
+            IIDYFDNESINEDIKNYIQRRIK YGDL YSYLV NKKTPLHPTIISNYPLDWVKKYKKN
+Sbjct  2    IIDYFDNESINEDIKNYIQRRIKTYGDLCYSYLVMNKKTPLHPTIISNYPLDWVKKYKKN  61
+
+Query  61   SYHLIDPVILTAKDKVAPFAWDDNSVINKK--DSAVFKLAREYNIVNGYTFVLHDNSNNX  118
+            SYHLIDPVILTAKDKVAPFAWDDNSVINKK  DSAVFKLAREYNIVNGYTFVLHDNSNN 
+Sbjct  62   SYHLIDPVILTAKDKVAPFAWDDNSVINKKSTDSAVFKLAREYNIVNGYTFVLHDNSNNM  121
+
+Query  119  ATLNISNGSDDSISFDESIEINKEKIQXLLILTHEKXLGLYQS  161
+            ATLNISNGSDDSISFDE IEINKEKIQ LLI+THEK LGLYQS
+Sbjct  122  ATLNISNGSDDSISFDERIEINKEKIQMLLIITHEKMLGLYQS  164
+
+
+> sp|Q46967|ECHR_DICCH Transcriptional activator protein EchR OS=Dickeya 
+chrysanthemi OX=556 GN=echR PE=3 SV=1
+Length=250
+
+ Score = 197 bits (500),  Expect = 5e-63, Method: Composition-based stats.
+ Identities = 83/161 (52%), Positives = 115/161 (71%), Gaps = 2/161 (1%)
+
+Query  2    IDYFDNESINEDIKNYIQRRIKAYGDLRYSYLVXNKKTPLHPTIISNYPLDWVKKYKKNS  61
+            I + + + IN  I+NY+ R++K+YGDL+Y+YL+ NKK P    IISNYP +WV+ Y+ N+
+Sbjct  3    ISFSNFDFINSTIQNYLNRKLKSYGDLKYAYLIMNKKKPTDVVIISNYPSEWVEIYRSNN  62
+
+Query  62   YHLIDPVILTAKDKVAPFAWDDNSVINK--KDSAVFKLAREYNIVNGYTFVLHDNSNNXA  119
+            Y  IDPVILTA +K++PF+WDD+ VI+   K S +F L++EY+IVNGYTFVLHD  NN A
+Sbjct  63   YQHIDPVILTAINKISPFSWDDDLVISSKLKFSRIFNLSKEYDIVNGYTFVLHDPGNNLA  122
+
+Query  120  TLNISNGSDDSISFDESIEINKEKIQXLLILTHEKXLGLYQ  160
+            TL+     + S   +E ++ NKEK+Q LLI  HEK   LY+
+Sbjct  123  TLSFMFEENRSGELEEIVQNNKEKLQMLLISAHEKLTSLYR  163
+
+
+> sp|Q47188|EXPR_DICD3 Transcriptional activator protein ExpR OS=Dickeya 
+dadantii (strain 3937) OX=198628 GN=expR PE=3 SV=2
+Length=250
+
+ Score = 187 bits (475),  Expect = 2e-59, Method: Composition-based stats.
+ Identities = 79/161 (49%), Positives = 111/161 (69%), Gaps = 2/161 (1%)
+
+Query  2    IDYFDNESINEDIKNYIQRRIKAYGDLRYSYLVXNKKTPLHPTIISNYPLDWVKKYKKNS  61
+            I + + + IN  I++Y+ R++K+YGD +Y+YL+ NKK P    IISNYP +WV  Y+ N+
+Sbjct  3    ISFSNVDFINSTIQSYLNRKLKSYGDPKYAYLIMNKKKPTDVVIISNYPTEWVDIYRNNN  62
+
+Query  62   YHLIDPVILTAKDKVAPFAWDDNSVINK--KDSAVFKLAREYNIVNGYTFVLHDNSNNXA  119
+            Y  IDPVILTA +K++PF+WDD+ VI+   K S +F L+++Y+IVNGYTFVLHD  NN A
+Sbjct  63   YQHIDPVILTAINKISPFSWDDDLVISSKLKFSRIFNLSKDYDIVNGYTFVLHDPGNNLA  122
+
+Query  120  TLNISNGSDDSISFDESIEINKEKIQXLLILTHEKXLGLYQ  160
+             L+       S   +E I+ NK+K+Q LLI  HEK   LY+
+Sbjct  123  ALSFMIEEHRSEELEEIIQNNKDKLQMLLISAHEKLTSLYR  163
+
+
+> sp|Q47189|EXPR_PECPM Transcriptional activator protein ExpR OS=Pectobacterium 
+parmentieri OX=1905730 GN=expR PE=3 SV=1
+Length=245
+
+ Score = 179 bits (453),  Expect = 4e-56, Method: Composition-based stats.
+ Identities = 66/159 (42%), Positives = 105/159 (66%), Gaps = 2/159 (1%)
+
+Query  4    YFDNESINEDIKNYIQRRIKAYGDLRYSYLVXNKKTPLHPTIISNYPLDWVKKYKKNSYH  63
+            +++NE+I+  IK+     +  YGD++Y+Y+V NKK P    IISN+  +W + Y+ N+Y 
+Sbjct  5    FYNNETISRIIKSQFDMALSHYGDIKYAYMVLNKKKPTEILIISNHHDEWREIYQANNYQ  64
+
+Query  64   LIDPVILTAKDKVAPFAWDDNSVINK--KDSAVFKLAREYNIVNGYTFVLHDNSNNXATL  121
+             IDPV++ A +K+ PF WD++ +++   K S +F L+RE+NI NGYTFVLHD+SNN   L
+Sbjct  65   HIDPVVIAALNKITPFPWDEDLLVSTQLKMSKIFNLSREHNITNGYTFVLHDHSNNLVML  124
+
+Query  122  NISNGSDDSISFDESIEINKEKIQXLLILTHEKXLGLYQ  160
+            +I     +  + D+ IE NK+K+Q  L+  H + + LY+
+Sbjct  125  SIMIDESNVSNIDDVIESNKDKLQMTLMTIHAETISLYR  163
+
+
+> sp|O87971|YUKR_YERRU Transcriptional activator protein YukR (Fragment) 
+OS=Yersinia ruckeri OX=29486 GN=yukR PE=3 SV=1
+Length=229
+
+ Score = 170 bits (430),  Expect = 1e-52, Method: Composition-based stats.
+ Identities = 61/146 (42%), Positives = 96/146 (66%), Gaps = 2/146 (1%)
+
+Query  18   IQRRIKAYGDLRYSYLVXNKKTPLHPTIISNYPLDWVKKYKKNSYHLIDPVILTAKDKVA  77
+            I R+++ Y   RY+Y+V +KK P+   I+++YP +W   Y   +Y  IDP++LTA  +++
+Sbjct  1    IDRKLERYDSPRYTYMVIDKKNPVDVFIVTSYPDEWADIYTSQNYQHIDPIVLTAFKRIS  60
+
+Query  78   PFAWDDNSVI--NKKDSAVFKLAREYNIVNGYTFVLHDNSNNXATLNISNGSDDSISFDE  135
+            PFAWD+N  I  + K S +F L+++YNIVNG+TFVLHD+ NN A L++   ++     + 
+Sbjct  61   PFAWDENITILSDLKSSKIFALSKKYNIVNGFTFVLHDHMNNLAMLSLIMDNNADKGLNS  120
+
+Query  136  SIEINKEKIQXLLILTHEKXLGLYQS  161
+             IE +K+++Q  LI  HEK L L Q+
+Sbjct  121  RIESDKDRLQMNLIKIHEKMLMLEQN  146
+
+
+> sp|P54293|ESAR_PANSE Transcriptional activator protein EsaR OS=Pantoea 
+stewartii subsp. stewartii OX=66271 GN=esaR PE=1 SV=1
+Length=249
+
+ Score = 168 bits (426),  Expect = 6e-52, Method: Composition-based stats.
+ Identities = 59/157 (38%), Positives = 103/157 (66%), Gaps = 2/157 (1%)
+
+Query  4    YFDNESINEDIKNYIQRRIKAYGDLRYSYLVXNKKTPLHPTIISNYPLDWVKKYKKNSYH  63
+            + +N++I + ++ YIQR++   G   Y+Y V +KK P +  IIS+YP +W++ Y+ N++ 
+Sbjct  5    FLENQTITDTLQTYIQRKLSPLGSPDYAYTVVSKKNPSNVLIISSYPDEWIRLYRANNFQ  64
+
+Query  64   LIDPVILTAKDKVAPFAWDDNSVI--NKKDSAVFKLAREYNIVNGYTFVLHDNSNNXATL  121
+            L DPVILTA  + +PFAWD+N  +  + + + +F L+++YNIVNG+T+VLHD+ NN A L
+Sbjct  65   LTDPVILTAFKRTSPFAWDENITLMSDLRFTKIFSLSKQYNIVNGFTYVLHDHMNNLALL  124
+
+Query  122  NISNGSDDSISFDESIEINKEKIQXLLILTHEKXLGL  158
+            ++    +D  + ++ +   +  +Q LLI  +E+   L
+Sbjct  125  SVIIKGNDQTALEQRLAAEQGTMQMLLIDFNEQMYRL  161
+
+
+> sp|Q46751|CARR_PECCC Transcriptional activator protein CarR OS=Pectobacterium 
+carotovorum subsp. carotovorum OX=555 GN=carR 
+PE=3 SV=1
+Length=244
+
+ Score = 157 bits (397),  Expect = 1e-47, Method: Composition-based stats.
+ Identities = 57/154 (37%), Positives = 103/154 (67%), Gaps = 3/154 (2%)
+
+Query  10   INEDIKNYIQRRIKAYGDLRYSYLVXNKKTPLHPTIISNYPLDWVKKYKKNSYHLIDPVI  69
+            ++ +I ++I+R++K  GD+ +SY + +K +   P IISNYP  W+K+Y K    L DP+I
+Sbjct  1    MDHEIHSFIKRKLKGVGDVWFSYFMMSKNSTSQPYIISNYPEAWMKEYIKKEMFLSDPII  60
+
+Query  70   LTAKDKVAPFAWDDNSVIN--KKDSAVFKLAREYNIVNGYTFVLHDNSNNXATLNISNGS  127
+            + +  ++ PF+WDDN ++    K+  VF  + +++I +GYTFVLHD+ NN ATL+I+N  
+Sbjct  61   VASLARITPFSWDDNDIVTLRAKNQDVFISSVQHDISSGYTFVLHDHDNNVATLSIANHL  120
+
+Query  128  DDSISFDESIEINKEKIQXLLILTHEKXLGLYQS  161
+            +D+ +F++ ++ ++  +Q LL+  HEK +   ++
+Sbjct  121  EDA-NFEKCMKNHENDLQMLLVNVHEKVMAYQRA  153
+
+
+> sp|P35327|LUXS_ALIF1 Transcriptional activator protein LuxR OS=Aliivibrio 
+fischeri (strain ATCC 700601 / ES114) OX=312309 
+GN=luxR PE=3 SV=1
+Length=250
+
+ Score = 142 bits (357),  Expect = 2e-41, Method: Composition-based stats.
+ Identities = 36/134 (27%), Positives = 59/134 (44%), Gaps = 4/134 (3%)
+
+Query  1    IIDYFDNESINEDIKNYIQRRIKAYGDLRYSYLVXNKKTPLHP--TIISNYPLDWVKKYK  58
+            IID     + N+DI   +    K      Y + +    + + P  +II NYP  W K Y 
+Sbjct  12   IIDKIKTCNNNKDINQCLSEIAKIIHCEYYLFAIIYPHSIIKPDVSIIDNYPEKWRKYYD  71
+
+Query  59   KNSYHLIDPVILTAKDKVAPFAWD--DNSVINKKDSAVFKLAREYNIVNGYTFVLHDNSN  116
+                   DPV+  +K   +P  W+  +   I K+   V K A+E  ++ G++F +H  SN
+Sbjct  72   DAGLLEYDPVVDYSKSHHSPINWNVFEKKTIKKESPNVIKEAQESGLITGFSFPIHTASN  131
+
+Query  117  NXATLNISNGSDDS  130
+                L+ ++   D 
+Sbjct  132  GFGMLSFAHSDKDI  145
+
+
+> sp|P12746|LUXR_ALIFS Transcriptional activator protein LuxR OS=Aliivibrio 
+fischeri OX=668 GN=luxR PE=1 SV=3
+Length=250
+
+ Score = 131 bits (329),  Expect = 2e-37, Method: Composition-based stats.
+ Identities = 30/133 (23%), Positives = 57/133 (43%), Gaps = 4/133 (3%)
+
+Query  1    IIDYFDNESINEDIKNYIQRRIKAYGDLRYSYLVXNKKTPL--HPTIISNYPLDWVKKYK  58
+            II+       N DI   +    K      Y   +    + +    +I+ NYP  W + Y 
+Sbjct  12   IINKIKACRSNNDINQCLSDMTKMVHCEYYLLAIIYPHSMVKSDISILDNYPKKWRQYYD  71
+
+Query  59   KNSYHLIDPVILTAKDKVAPFAWD--DNSVINKKDSAVFKLAREYNIVNGYTFVLHDNSN  116
+              +    DP++  +    +P  W+  +N+ +NKK   V K A+   ++ G++F +H  +N
+Sbjct  72   DANLIKYDPIVDYSNSNHSPINWNIFENNAVNKKSPNVIKEAKTSGLITGFSFPIHTANN  131
+
+Query  117  NXATLNISNGSDD  129
+                L+ ++   D
+Sbjct  132  GFGMLSFAHSEKD  144
+
+
+> sp|P0A3J6|ASAR_AERSA Transcriptional activator protein AsaR OS=Aeromonas 
+salmonicida OX=645 GN=asaR PE=3 SV=1
+Length=260
+
+ Score = 130 bits (328),  Expect = 5e-37, Method: Composition-based stats.
+ Identities = 30/138 (22%), Positives = 56/138 (41%), Gaps = 6/138 (4%)
+
+Query  2    IDYFDNESINEDIKNYIQRRIKAYGDLRYSYLVXNKKTPLHPTII--SNYPLDWVKKYKK  59
+            +++F + +  + +   I R     G   Y + +    +   P ++  +  P  WV+ Y  
+Sbjct  10   LEHFTSVTDGDRLAELIGRFTLGMGYDYYRFALIIPMSMQRPKVVLFNQCPDSWVQAYTA  69
+
+Query  60   NSYHLIDPVILTAKDKVAPFAW---DDNSVINKKDS-AVFKLAREYNIVNGYTFVLHDNS  115
+            N     DP+I  A+ +  P  W   D+ +   ++ S  V  LA E+ + NG +F LH  +
+Sbjct  70   NHMLACDPIIQLARKQTLPIYWNRLDERARFLQEGSLDVMGLAAEFGLRNGISFPLHGAA  129
+
+Query  116  NNXATLNISNGSDDSISF  133
+                 L+       S   
+Sbjct  130  GENGILSFITAERASSDL  147
+
+
+> sp|P0A3J5|AHYR_AERHY Transcriptional activator protein AhyR OS=Aeromonas 
+hydrophila OX=644 GN=ahyR PE=3 SV=1
+Length=260
+
+ Score = 130 bits (328),  Expect = 5e-37, Method: Composition-based stats.
+ Identities = 30/138 (22%), Positives = 56/138 (41%), Gaps = 6/138 (4%)
+
+Query  2    IDYFDNESINEDIKNYIQRRIKAYGDLRYSYLVXNKKTPLHPTII--SNYPLDWVKKYKK  59
+            +++F + +  + +   I R     G   Y + +    +   P ++  +  P  WV+ Y  
+Sbjct  10   LEHFTSVTDGDRLAELIGRFTLGMGYDYYRFALIIPMSMQRPKVVLFNQCPDSWVQAYTA  69
+
+Query  60   NSYHLIDPVILTAKDKVAPFAW---DDNSVINKKDS-AVFKLAREYNIVNGYTFVLHDNS  115
+            N     DP+I  A+ +  P  W   D+ +   ++ S  V  LA E+ + NG +F LH  +
+Sbjct  70   NHMLACDPIIQLARKQTLPIYWNRLDERARFLQEGSLDVMGLAAEFGLRNGISFPLHGAA  129
+
+Query  116  NNXATLNISNGSDDSISF  133
+                 L+       S   
+Sbjct  130  GENGILSFITAERASSDL  147
+
+
+> sp|P54294|TRAR_AGRFC Transcriptional activator protein TraR OS=Agrobacterium 
+fabrum (strain C58 / ATCC 33970) OX=176299 GN=traR 
+PE=3 SV=1
+Length=234
+
+ Score = 127 bits (320),  Expect = 4e-36, Method: Composition-based stats.
+ Identities = 31/128 (24%), Positives = 62/128 (48%), Gaps = 7/128 (5%)
+
+Query  14   IKNYIQRRIKAYGDLRYSYLVXNKKTPLHPTIISNYPLDWVKKYKKNSYHLIDPVILTAK  73
+            +K+ +    + +G   Y+YL    K   H   ++NY  DW   Y +N++  +DPV+  AK
+Sbjct  21   LKDGLADLAEHFGFTGYAYLHIQHK---HTIAVTNYHRDWRSAYFENNFDKLDPVVKRAK  77
+
+Query  74   DKVAPFAWD---DNSVINKKDSAVFKLAREYNIVNGYTFVLHDNSNNXATLNISNGSDDS  130
+             +   FAW    + S ++K++ A +  A ++ I +G T  +   + + +   ++     +
+Sbjct  78   SRKHVFAWSGEQERSRLSKEERAFYAHAADFGIRSGITIPIKTANGSMSMFTLA-SERPA  136
+
+Query  131  ISFDESIE  138
+            I  D  I+
+Sbjct  137  IDLDREID  144
+
+
+> sp|P33909|TRAR_AGRVI Transcriptional activator protein TraR OS=Agrobacterium 
+vitis OX=373 GN=traR PE=3 SV=1
+Length=234
+
+ Score = 125 bits (313),  Expect = 5e-35, Method: Composition-based stats.
+ Identities = 29/141 (21%), Positives = 59/141 (42%), Gaps = 7/141 (5%)
+
+Query  1    IIDYFDNESINEDIKNYIQRRIKAYGDLRYSYLVXNKKTPLHPTIISNYPLDWVKKYKKN  60
+            + D    E     +K  +      +G   Y+YL    K   H   ++NY  DW   Y   
+Sbjct  8    LTDLTAIEGDGCILKTGLADVADHFGFTGYAYLHIQHK---HIIAVTNYHHDWRSLYFDK  64
+
+Query  61   SYHLIDPVILTAKDKVAPFAWD---DNSVINKKDSAVFKLAREYNIVNGYTFVLHDNSNN  117
+             +  +DPV+  A+ +   FAW    +   +++++ A +  A ++ I +G T  +   + +
+Sbjct  65   KFDALDPVVKRARSRKQVFAWSGEQERPKLSEEERAFYAQAADFGIRSGITIPIRTANGS  124
+
+Query  118  XATLNISNGSDDSISFDESIE  138
+             +   ++     +I  D  I+
+Sbjct  125  MSMFTLA-SERTAIPLDREID  144
+
+
+> sp|P54292|RHLR_PSEAE Regulatory protein RhlR OS=Pseudomonas aeruginosa 
+(strain ATCC 15692 / DSM 22644 / CIP 104116 / JCM 
+14847 / LMG 12228 / 1C / PRS 101 / PAO1) OX=208964 GN=rhlR PE=3 
+SV=1
+Length=241
+
+ Score = 123 bits (309),  Expect = 2e-34, Method: Composition-based stats.
+ Identities = 29/138 (21%), Positives = 60/138 (43%), Gaps = 13/138 (9%)
+
+Query  18   IQRRIKAYGDLRYSY------LVXNKKTPLHPTIISNYPLDWVKKYKKNSYHLIDPVILT  71
+            +++ ++  G   Y+Y           KT +H      YP  W+++Y+  +Y  +DP IL 
+Sbjct  31   LEKEVRRLGFDYYAYGVRHTIPFTRPKTEVH----GTYPKAWLERYQMQNYGAVDPAILN  86
+
+Query  72   AKDKVAPFAWDDNSVINKKDSAVFKLAREYNIVNGYTFVLHDNSNNXATLNISNGSDDSI  131
+                     W D+  +  +   ++  AR++ +  G T  +   +N  + L+++    +  
+Sbjct  87   GLRSSEMVVWSDS--LFDQSRMLWNEARDWGLCVGATLPIRAPNNLLSVLSVARDQQNIS  144
+
+Query  132  SFD-ESIEINKEKIQXLL  148
+            SF+ E I +    +  LL
+Sbjct  145  SFEREEIRLRLRCMIELL  162
+
+
+> sp|A0A0N8YGA2|ANOR_ACINO Transcriptional activator protein AnoR 
+OS=Acinetobacter nosocomialis OX=106654 GN=anoR PE=2 SV=1
+Length=238
+
+ Score = 123 bits (308),  Expect = 3e-34, Method: Composition-based stats.
+ Identities = 24/155 (15%), Positives = 58/155 (37%), Gaps = 4/155 (3%)
+
+Query  1    IIDYFDNESINEDIKNYIQRRIKAYGDLRYSYLVXNKKTPLHP--TIISNYPLDWVKKYK  58
+            ++  F      +++   ++      G    +Y + +  +   P   +++NYP  W K+Y 
+Sbjct  8    LLSAFLVVKNEDELFEVVKSTASKLGFDYCAYGMQSPLSIAEPKTIMLNNYPQAWQKRYI  67
+
+Query  59   KNSYHLIDPVILTAKDKVAPFAWDDNSVINKKDSAVFKLAREYNIVNGYTFVLHDNSNNX  118
+            +  Y  +DP +      + P  W   +   +++   ++ AR Y +  G+     D     
+Sbjct  68   EQRYVKVDPTVQHCMVSLQPLVWSSQNAKTQEEKDFWEEARSYGLNVGWAQSSRDFIGTR  127
+
+Query  119  ATLNISNGSDDSISFDESIEINKEKIQXLLILTHE  153
+              L ++  +D     ++  +     +  L    H 
+Sbjct  128  GMLTLARSTDQLS--EKEQKAQYTNMYWLTQTVHS  160
+
+
+> sp|Q6NCZ5|RPAR_RHOPA HTH-type quorum sensing-dependent transcriptional 
+regulator RpaR OS=Rhodopseudomonas palustris (strain 
+ATCC BAA-98 / CGA009) OX=258594 GN=rpaR PE=1 SV=1
+Length=243
+
+ Score = 118 bits (295),  Expect = 3e-32, Method: Composition-based stats.
+ Identities = 28/120 (23%), Positives = 48/120 (40%), Gaps = 10/120 (8%)
+
+Query  44   TIISNYPLDWVKKYKKNSYHLIDPVILTAKDKVAPFAWDDNSVINKKDS---AVFKLARE  100
+            T+ + +P DW   Y   ++  +DPV       V PF W D      +D     V   A E
+Sbjct  60   TLANGWPRDWFDLYVSENFSAVDPVPRHGATTVHPFVWSDAPYDRDRDPAAHRVMTRAAE  119
+
+Query  101  YNIVNGYTFVLHDNSNNXATLNISNGSDDSISFDESIEINKEKIQXLLILTHEKXLGLYQ  160
+            + +V GY   LH +  + A ++++    D           +  +Q + I  H +   L +
+Sbjct  120  FGLVEGYCIPLHYDDGS-AAISMAGKDPDLS------PAARGAMQLVSIYAHSRLRALSR  172
+
+
+> sp|P74946|VANR_VIBAN Transcriptional activator protein VanR OS=Vibrio 
+anguillarum OX=55601 GN=vanR PE=3 SV=1
+Length=240
+
+ Score = 116 bits (291),  Expect = 1e-31, Method: Composition-based stats.
+ Identities = 24/138 (17%), Positives = 56/138 (41%), Gaps = 2/138 (1%)
+
+Query  1    IIDYFDNESINEDIKNYIQRRIKAYGDLRYSYLVXNKKT--PLHPTIISNYPLDWVKKYK  58
+            +I      + ++D++N +       G   + + +  + T       +  NYP  W ++Y 
+Sbjct  7    LIQENQQITSHDDLENVLNGLNNLIGHEFFLFGLSFQPTLKTSETLVTDNYPNSWRQQYD  66
+
+Query  59   KNSYHLIDPVILTAKDKVAPFAWDDNSVINKKDSAVFKLAREYNIVNGYTFVLHDNSNNX  118
+            ++ +  IDP++  +     P  WDD   +N     +F+ AR   +  G++  +H      
+Sbjct  67   ESGFMHIDPIVKYSITNFLPIRWDDAKRVNNDGRVIFEEARCNGLKAGFSIPIHGLRGEF  126
+
+Query  119  ATLNISNGSDDSISFDES  136
+              ++ +     S   ++ 
+Sbjct  127  GMISFATSDTKSYDLNQQ  144
+
+
+> sp|Q51786|PHZR_PSEFL Transcriptional activator protein PhzR OS=Pseudomonas 
+fluorescens OX=294 GN=phzR PE=3 SV=1
+Length=244
+
+ Score = 116 bits (290),  Expect = 1e-31, Method: Composition-based stats.
+ Identities = 25/127 (20%), Positives = 55/127 (43%), Gaps = 8/127 (6%)
+
+Query  14   IKNYIQRRIKAYGDLRYSYLVXNKKTPL-----HPTIISNYPLDWVKKYKKNSYHLIDPV  68
+            ++ +    ++A  +LR+ +      +          +  NYP  W+++Y+  +Y LIDP 
+Sbjct  26   MEEFTVVALRALRELRFDFFAYGMCSVTPFMRPKTYMYGNYPEHWLQRYQAANYALIDPT  85
+
+Query  69   ILTAKDKVAPFAWDDNSVINKKDSAVFKLAREYNIVNGYTFVLHDNSNNXATLNISNGSD  128
+            +  +K   AP  W +    N     ++  A + ++ +G      +       L+++   D
+Sbjct  86   VKHSKVSSAPILWSNELFRNC--PDLWSEANDSSLCHGLAQPSFNTQGRVGVLSLAR-KD  142
+
+Query  129  DSISFDE  135
+            ++IS  E
+Sbjct  143  NAISLQE  149
+
+
+> sp|P33905|TRAR_RHIRD Transcriptional activator protein TraR OS=Rhizobium 
+radiobacter OX=358 GN=traR PE=1 SV=2
+Length=234
+
+ Score = 114 bits (286),  Expect = 5e-31, Method: Composition-based stats.
+ Identities = 26/129 (20%), Positives = 53/129 (41%), Gaps = 7/129 (5%)
+
+Query  14   IKNYIQRRIKAYGDLRYSYLVXNKKTPLHPTIISNYPLDWVKKYKKNSYHLIDPVILTAK  73
+            +K  +      +G   Y+YL    +   H T ++NY   W   Y    +  +DPV+  A+
+Sbjct  21   LKTGLADIADHFGFTGYAYLHIQHR---HITAVTNYHRQWQSTYFDKKFEALDPVVKRAR  77
+
+Query  74   DKVAPFAWD---DNSVINKKDSAVFKLAREYNIVNGYTFVLHDNSNNXATLNISNGSDDS  130
+             +   F W    +   ++K + A +  A ++ I +G T  +   +   +   +++     
+Sbjct  78   SRKHIFTWSGEHERPTLSKDERAFYDHASDFGIRSGITIPIKTANGFMSMFTMASDK-PV  136
+
+Query  131  ISFDESIEI  139
+            I  D  I+ 
+Sbjct  137  IDLDREIDA  145
+
+
+> sp|P25084|LASR_PSEAE Transcriptional activator protein LasR OS=Pseudomonas 
+aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 
+104116 / JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1) OX=208964 
+GN=lasR PE=1 SV=1
+Length=239
+
+ Score = 112 bits (281),  Expect = 3e-30, Method: Composition-based stats.
+ Identities = 29/143 (20%), Positives = 55/143 (38%), Gaps = 2/143 (1%)
+
+Query  18   IQRRIKAYGDLRYSYLVXNKKTP--LHPTIISNYPLDWVKKYKKNSYHLIDPVILTAKDK  75
+            +Q+     G  +  + +  K +    +  I+ NYP  W + Y +  Y  +DP +      
+Sbjct  23   LQKMASDLGFSKILFGLLPKDSQDYENAFIVGNYPAAWREHYDRAGYARVDPTVSHCTQS  82
+
+Query  76   VAPFAWDDNSVINKKDSAVFKLAREYNIVNGYTFVLHDNSNNXATLNISNGSDDSISFDE  135
+            V P  W+ +    +K    F+ A    +V G T  LH        L++S  +++    + 
+Sbjct  83   VLPIFWEPSIYQTRKQHEFFEEASAAGLVYGLTMPLHGARGELGALSLSVEAENRAEANR  142
+
+Query  136  SIEINKEKIQXLLILTHEKXLGL  158
+             +E     +  L     +   GL
+Sbjct  143  FMESVLPTLWMLKDYALQSGAGL  165
+
+
+> sp|O54452|RAIR_RHIET Transcriptional activator protein RaiR OS=Rhizobium 
+etli OX=29449 GN=raiR PE=3 SV=1
+Length=242
+
+ Score = 112 bits (279),  Expect = 7e-30, Method: Composition-based stats.
+ Identities = 25/121 (21%), Positives = 52/121 (43%), Gaps = 2/121 (2%)
+
+Query  39   TPLHPTIISNYPLDWVKKYKKNSYHLIDPVILTAKDKVAPFAWDDNSVINKKDSAVFKLA  98
+            T  +P ++  YP +WVK+Y+   Y  IDPV+   +    P  W  +   + +    FK A
+Sbjct  53   TDSNPLLMLTYPPEWVKQYRDRDYFSIDPVVRLGRRGFLPVEWSASGWDSGRAYGFFKEA  112
+
+Query  99   REYNI-VNGYTFVLHDNSNNXATLNISNGSDDSISFDESIEINKEKIQXLLILTHEKXLG  157
+              + +   G T  +       +   +++   D+      ++  ++ +Q L    H++ + 
+Sbjct  113  MAFGVGRQGVTLPVRGPQGERSLFTVTSNHPDAYWRQFRMDSMRD-LQFLAHHLHDRAMV  171
+
+Query  158  L  158
+            L
+Sbjct  172  L  172
+
+
+> sp|P54303|PHZR_PSECL Transcriptional activator protein PhzR OS=Pseudomonas 
+chlororaphis OX=333 GN=phzR PE=3 SV=1
+Length=241
+
+ Score = 110 bits (274),  Expect = 3e-29, Method: Composition-based stats.
+ Identities = 31/152 (20%), Positives = 61/152 (40%), Gaps = 9/152 (6%)
+
+Query  13   DIKNYIQRRIKAYGDLRYSYLVXNKKTPL-----HPTIISNYPLDWVKKYKKNSYHLIDP  67
+            D++ +    ++A  +LR+ +      +          +  NYP DWV++Y+  +Y +IDP
+Sbjct  22   DMQEFTAVALRALRELRFDFFRYGMCSVTPFMRPRTYMYGNYPEDWVQRYQAANYAVIDP  81
+
+Query  68   VILTAKDKVAPFAWDDNSVINKKDSAVFKLAREYNIVNGYTFVLHDNSNNXATLNISNGS  127
+             +  +K   +P    +          ++  A + N+ +G      +       L+++   
+Sbjct  82   TVKHSKVSSSPILASNELFRGC--PDLWSEANDSNLRHGLAQPSFNTQGRVGVLSLAR-K  138
+
+Query  128  DDSISFDESIEINKEKIQXLLILTHEKXLGLY  159
+            D+ IS  E  E  K   +      HEK   L 
+Sbjct  139  DNPISLQE-FEALKVVTKAFAAAVHEKISELE  169
+
+
+> sp|Q03316|RHIR_RHILV Regulatory protein RhiR OS=Rhizobium leguminosarum 
+bv. viciae OX=387 GN=rhiR PE=4 SV=1
+Length=247
+
+ Score = 104 bits (259),  Expect = 6e-27, Method: Composition-based stats.
+ Identities = 22/153 (14%), Positives = 64/153 (42%), Gaps = 15/153 (10%)
+
+Query  12   EDIKNYIQRRIKAYGDLRYSYLVXNKKTPLHPT----IISNYPLDWVKKYKKNSYHLIDP  67
+            +D+     +  + +G   ++  +    +P+       ++ N+ + W  +Y++N+Y   DP
+Sbjct  26   DDVLLLFGKISQYFGFSYFA--ISGIPSPIERIDSYFVLGNWSVGWFDRYRENNYVHADP  83
+
+Query  68   VILTAKDKVAPFAWDD---NSVINKKDSAVFKLAREYNIVNGYTFVLHDNSNNXATLNIS  124
+            ++  +K     F W +   +  ++++   V   ARE+ +++G++  LH  +   + ++  
+Sbjct  84   IVHLSKTCDHAFVWSEALRDQKLDRQSRRVMDEAREFKLIDGFSVPLHTAAGFQSIVSFG  143
+
+Query  125  NGSDDSISFDESIEINKEKIQXLLILTHEKXLG  157
+                +  + D      +  +  +    H     
+Sbjct  144  AEKVELSTCD------RSALYLMAAYAHSLLRA  170
+
+
+> sp|Q89VI3|BJAR1_BRADU Transcriptional activator protein BjaR1 
+OS=Bradyrhizobium diazoefficiens (strain JCM 10833 / IAM 13628 
+/ NBRC 14792 / USDA 110) OX=224911 GN=bjaR1 PE=3 SV=1
+Length=242
+
+ Score = 99.8 bits (247),  Expect = 4e-25, Method: Composition-based stats.
+ Identities = 22/106 (21%), Positives = 43/106 (41%), Gaps = 13/106 (12%)
+
+Query  27   DLRYSYLVXNKKTPLHPTIISNYPLDWVKKYKKNSYHLIDPVILTAKDKVAPFAWDDNSV  86
+            D R++ +V  K+          +P  W   Y +N+Y   DPV+   +  V PF W +   
+Sbjct  51   DQRFAQMVLAKR----------WPAGWFNLYTQNNYDRFDPVVRLCRQSVNPFEWSEAPY  100
+
+Query  87   ---INKKDSAVFKLAREYNIVNGYTFVLHDNSNNXATLNISNGSDD  129
+               +    + V   A ++ +  G+   +H  +   A +++     D
+Sbjct  101  DAELEPSAAEVMNRAGDFRMSRGFIVPIHGLTGYEAAVSLGGVHLD  146
+
+
+> sp|P55629|Y4QH_SINFN Putative HTH-type transcriptional regulator 
+y4qH OS=Sinorhizobium fredii (strain NBRC 101917 / NGR234) 
+OX=394 GN=NGR_a01900 PE=3 SV=1
+Length=326
+
+ Score = 84.0 bits (206),  Expect = 1e-18, Method: Composition-based stats.
+ Identities = 25/135 (19%), Positives = 52/135 (39%), Gaps = 9/135 (7%)
+
+Query  1    IIDYFDNESINEDIKNYIQRRIKAYGDLRYSY--LVXNKKTPLHPTI----ISNYPLDWV  54
+            ++D  D  +  + + + +      +G    +Y  L  + K           I NYP  W 
+Sbjct  91   LLDLTDGVAQPKKLFDLLSAFAFKFGCKWLAYGPLTSDHKALNRVKCDSEEILNYPDGWR  150
+
+Query  55   KKYKKNSYHLIDPVILTAKDKVAPFAWDD---NSVINKKDSAVFKLAREYNIVNGYTFVL  111
+            ++  +  Y  I PVI  ++    P  W D   ++   + +  +F  A  + + +G T  L
+Sbjct  151  ERCLEMGYETIAPVIKESRMGAGPIRWSDMYSDASTTEYERRMFDEAAMFGLRSGITVPL  210
+
+Query  112  HDNSNNXATLNISNG  126
+                 + A ++ +  
+Sbjct  211  RGPRGSCAIMSFARH  225
+
+
+> sp|P58590|SOLR_RALSO Transcriptional activator protein SolR OS=Ralstonia 
+solanacearum (strain GMI1000) OX=267608 GN=solR 
+PE=3 SV=1
+Length=236
+
+ Score = 81.7 bits (200),  Expect = 3e-18, Method: Composition-based stats.
+ Identities = 21/130 (16%), Positives = 46/130 (35%), Gaps = 7/130 (5%)
+
+Query  12   EDIKNYIQRRIKAYGDLRYSYLVXNKKTPLHPT-----IISNYPLDWVKKYKKNSYHLID  66
+            +D +   ++       L + Y     + PL  +     I   YP  W++ Y+ + +  ID
+Sbjct  16   QDERQLFRQIASVVRQLGFDYCCYGIRVPLPVSKPAVAIFDTYPAGWMEHYQASGFLEID  75
+
+Query  67   PVILTAKDKVAPFAWDDNSVINKKDSAVFKLAREYNIVNGYTFVLHDNSNNXATLNISNG  126
+            P + T         W     I  + + ++  AR++ +  G              L ++  
+Sbjct  76   PTVRTGASSSDLIIW--PVSIRDEAARLWSDARDFGLNIGVARSSWTAHGAFGLLTLARR  133
+
+Query  127  SDDSISFDES  136
+            +D   + +  
+Sbjct  134  ADPLTAAELE  143
+
+
+> sp|O30919|SOLR_RALSL Transcriptional activator protein SolR OS=Ralstonia 
+solanacearum OX=305 GN=solR PE=3 SV=1
+Length=236
+
+ Score = 79.4 bits (194),  Expect = 2e-17, Method: Composition-based stats.
+ Identities = 21/128 (16%), Positives = 41/128 (32%), Gaps = 7/128 (5%)
+
+Query  12   EDIKNYIQRRIKAYGDLRYSYLVXNKKTPLHPT-----IISNYPLDWVKKYKKNSYHLID  66
+            ED     +        L + Y     + PL  +     I   YP  W++ Y+ + +  ID
+Sbjct  16   EDEHQLFREIAAIARQLGFDYCCYGARMPLPVSKPAVAIFDTYPAGWMQHYQASGFLDID  75
+
+Query  67   PVILTAKDKVAPFAWDDNSVINKKDSAVFKLAREYNIVNGYTFVLHDNSNNXATLNISNG  126
+            P +           W     I    + ++  AR+  +  G              L ++  
+Sbjct  76   PTVRAGASSSDLIVW--PVSIRDDAARLWSDARDAGLNIGVARSSWTAHGAFGLLTLARH  133
+
+Query  127  SDDSISFD  134
+            +D   + +
+Sbjct  134  ADPLTAAE  141
+
+
+> sp|P55407|TRAR_SINFN Probable transcriptional activator protein 
+TraR OS=Sinorhizobium fredii (strain NBRC 101917 / NGR234) 
+OX=394 GN=traR PE=1 SV=1
+Length=236
+
+ Score = 79.0 bits (193),  Expect = 3e-17, Method: Composition-based stats.
+ Identities = 33/155 (21%), Positives = 59/155 (38%), Gaps = 9/155 (6%)
+
+Query  1    IIDYFDNESINEDIKNYIQRRIKAYGDLRYSYLVXNKKTPLHPTIISNYPLDWVKKYKKN  60
+            +ID  +       IK  ++    + G  R++YL   +K         +YP  W   Y  +
+Sbjct  10   LIDMLEAAQDGHMIKIALRSFAHSCGYDRFAYL---QKDGTQVRTFHSYPGPWESIYLGS  66
+
+Query  61   SYHLIDPVILTAKDKVAPFAWDDNSVI---NKKDSAVFKLAREYNIVNGYTFVLHDNSNN  117
+             Y  IDPV+  AK +   F W  ++     +         A  + I  G T  +  +  +
+Sbjct  67   DYFNIDPVLAEAKRRRDVFFWTADAWPARGSSPLRRFRDEAISHGIRCGVTIPVEGSYGS  126
+
+Query  118  XATLNISNGSDDSISFDESIEINKEKIQXLLILTH  152
+               L  ++        D S  ++ +K   LL++ H
+Sbjct  127  AMMLTFASPER---KVDISGVLDPKKAVQLLMMVH  158
+
+
+> sp|P07026|SDIA_ECOLI Regulatory protein SdiA OS=Escherichia coli 
+(strain K12) OX=83333 GN=sdiA PE=1 SV=2
+Length=240
+
+ Score = 74.7 bits (182),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 32/152 (21%), Positives = 63/152 (41%), Gaps = 11/152 (7%)
+
+Query  12   EDIKNYIQRRIKAYGDLRYSYLVXNKKTPLHPTI--ISNYPLDWVKKYKKNSYHLIDPVI  69
+            E++ + I+ + +      YS  V +      P +   +NYP  WV  Y+  ++  IDPV+
+Sbjct  24   EEVYHEIELQAQQLEYDYYSLCVRHPVPFTRPKVAFYTNYPEAWVSYYQAKNFLAIDPVL  83
+
+Query  70   LTAKDKVAPFAWDDNSVINKKDSAVFKLAREYNIVNGYTFVLHDNSNNXATLNISNGSDD  129
+                       W+D+  +  +   +++ AR + +  G T  L   +     L+ S  S  
+Sbjct  84   NPENFSQGHLMWNDD--LFSEAQPLWEAARAHGLRRGVTQYLMLPNRALGFLSFSRCSAR  141
+
+Query  130  SIS-FDESIEINKEKIQXLLILTHEKXLGLYQ  160
+             I    + +++   K+Q L     E  + L +
+Sbjct  142  EIPILSDELQL---KMQLL---VRESLMALMR  167
+
+
+> sp|Q8FXF9|VJBR_BRUSU HTH-type quorum sensing-dependent transcriptional 
+regulator VjbR OS=Brucella suis biovar 1 (strain 1330) 
+OX=204722 GN=vjbR PE=3 SV=1
+Length=259
+
+ Score = 43.2 bits (100),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 21/153 (14%), Positives = 48/153 (31%), Gaps = 16/153 (10%)
+
+Query  4    YFDNESINEDIKNYIQRRIKAYGDLRYSYLVXN------KKTPLHPTIISNYPLDWVKKY  57
+            +F +   ++ +   + R     G    ++          K      T++   P  WV +Y
+Sbjct  15   FFGSSFQSDTLA-LLTRIRDEIGCRYVTHTYRGRVGDCTKVNSADLTVLMTLPATWVARY  73
+
+Query  58   KKNSYHLIDPVIL----TAKDKVAPFAWD--DNSVINKKDSAVFKLAREYNIVNGY-TFV  110
+               +Y  IDPV        ++  +  A D  +++ I    + +   A ++ + N +    
+Sbjct  74   SSKNYFAIDPVFQEDAPYYRNDTSAIARDLKEDADICPAVAELLHDAEKHGLGNLFIAVS  133
+
+Query  111  LHDNSNNXA--TLNISNGSDDSISFDESIEINK  141
+              +                +D   F   +    
+Sbjct  134  ARNPKGVAGCTVFTFEVEDEDRTQFLARMRPRL  166
+
+
+> sp|Q8YAY5|VJBR_BRUME HTH-type quorum sensing-dependent transcriptional 
+regulator VjbR OS=Brucella melitensis biotype 1 (strain 
+16M / ATCC 23456 / NCTC 10094) OX=224914 GN=vjbR PE=1 
+SV=2
+Length=259
+
+ Score = 43.2 bits (100),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 21/153 (14%), Positives = 48/153 (31%), Gaps = 16/153 (10%)
+
+Query  4    YFDNESINEDIKNYIQRRIKAYGDLRYSYLVXN------KKTPLHPTIISNYPLDWVKKY  57
+            +F +   ++ +   + R     G    ++          K      T++   P  WV +Y
+Sbjct  15   FFGSSFQSDTLA-LLTRIRDEIGCRYVTHTYRGRVGDCTKVNSADLTVLMTLPATWVARY  73
+
+Query  58   KKNSYHLIDPVIL----TAKDKVAPFAWD--DNSVINKKDSAVFKLAREYNIVNGY-TFV  110
+               +Y  IDPV        ++  +  A D  +++ I    + +   A ++ + N +    
+Sbjct  74   SSKNYFAIDPVFQEDAPYYRNDTSAIARDLKEDADICPAVAELLHDAEKHGLGNLFIAVS  133
+
+Query  111  LHDNSNNXA--TLNISNGSDDSISFDESIEINK  141
+              +                +D   F   +    
+Sbjct  134  ARNPKGVAGCTVFTFEVEDEDRTQFLARMRPRL  166
+
+
+> sp|Q579W9|VJBR_BRUAB HTH-type quorum sensing-dependent transcriptional 
+regulator VjbR OS=Brucella abortus biovar 1 (strain 
+9-941) OX=262698 GN=vjbR PE=3 SV=1
+Length=259
+
+ Score = 43.2 bits (100),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 21/153 (14%), Positives = 48/153 (31%), Gaps = 16/153 (10%)
+
+Query  4    YFDNESINEDIKNYIQRRIKAYGDLRYSYLVXN------KKTPLHPTIISNYPLDWVKKY  57
+            +F +   ++ +   + R     G    ++          K      T++   P  WV +Y
+Sbjct  15   FFGSSFQSDTLA-LLTRIRDEIGCRYVTHTYRGRVGDCTKVNSADLTVLMTLPATWVARY  73
+
+Query  58   KKNSYHLIDPVIL----TAKDKVAPFAWD--DNSVINKKDSAVFKLAREYNIVNGY-TFV  110
+               +Y  IDPV        ++  +  A D  +++ I    + +   A ++ + N +    
+Sbjct  74   SSKNYFAIDPVFQEDAPYYRNDTSAIARDLKEDADICPAVAELLHDAEKHGLGNLFIAVS  133
+
+Query  111  LHDNSNNXA--TLNISNGSDDSISFDESIEINK  141
+              +                +D   F   +    
+Sbjct  134  ARNPKGVAGCTVFTFEVEDEDRTQFLARMRPRL  166
+
+
+> sp|Q2YJ50|VJBR_BRUA2 HTH-type quorum sensing-dependent transcriptional 
+regulator VjbR OS=Brucella abortus (strain 2308) OX=359391 
+GN=vjbR PE=1 SV=1
+Length=259
+
+ Score = 43.2 bits (100),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 21/153 (14%), Positives = 48/153 (31%), Gaps = 16/153 (10%)
+
+Query  4    YFDNESINEDIKNYIQRRIKAYGDLRYSYLVXN------KKTPLHPTIISNYPLDWVKKY  57
+            +F +   ++ +   + R     G    ++          K      T++   P  WV +Y
+Sbjct  15   FFGSSFQSDTLA-LLTRIRDEIGCRYVTHTYRGRVGDCTKVNSADLTVLMTLPATWVARY  73
+
+Query  58   KKNSYHLIDPVIL----TAKDKVAPFAWD--DNSVINKKDSAVFKLAREYNIVNGY-TFV  110
+               +Y  IDPV        ++  +  A D  +++ I    + +   A ++ + N +    
+Sbjct  74   SSKNYFAIDPVFQEDAPYYRNDTSAIARDLKEDADICPAVAELLHDAEKHGLGNLFIAVS  133
+
+Query  111  LHDNSNNXA--TLNISNGSDDSISFDESIEINK  141
+              +                +D   F   +    
+Sbjct  134  ARNPKGVAGCTVFTFEVEDEDRTQFLARMRPRL  166
+
+
+> sp|A5VTN1|VJBR_BRUO2 HTH-type quorum sensing-dependent transcriptional 
+regulator VjbR OS=Brucella ovis (strain ATCC 25840 
+/ 63/290 / NCTC 10512) OX=444178 GN=vjbR PE=3 SV=2
+Length=259
+
+ Score = 42.8 bits (99),  Expect = 4e-04, Method: Composition-based stats.
+ Identities = 21/153 (14%), Positives = 48/153 (31%), Gaps = 16/153 (10%)
+
+Query  4    YFDNESINEDIKNYIQRRIKAYGDLRYSYLVXN------KKTPLHPTIISNYPLDWVKKY  57
+            +F +   ++ +   + R     G    ++          K      T++   P  WV +Y
+Sbjct  15   FFGSSFQSDTLA-LLTRIRDEIGCRYVTHTYRGRVGDCTKVNSADLTVLITLPATWVARY  73
+
+Query  58   KKNSYHLIDPVIL----TAKDKVAPFAWD--DNSVINKKDSAVFKLAREYNIVNGY-TFV  110
+               +Y  IDPV        ++  +  A D  +++ I    + +   A ++ + N +    
+Sbjct  74   SSKNYFAIDPVFQEDAPYYRNDTSAIARDLKEDADICPAVAELLHDAEKHGLGNLFIAVS  133
+
+Query  111  LHDNSNNXA--TLNISNGSDDSISFDESIEINK  141
+              +                +D   F   +    
+Sbjct  134  ARNPKGVAGCTVFTFEVEDEDRTQFLARMRPRL  166
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.132    0.353    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0405    0.140     1.90     42.6     43.6 
+
+Effective search space used: 7525269130
+Results from round 3
+
+
+Query= 5L09
+
+Length=161
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P54295|YENR_YEREN Transcriptional activator protein YenR OS=...  186     7e-59
+  sp|Q46967|ECHR_DICCH Transcriptional activator protein EchR OS=...  185     2e-58
+  sp|Q47188|EXPR_DICD3 Transcriptional activator protein ExpR OS=...  176     5e-55
+  sp|Q47189|EXPR_PECPM Transcriptional activator protein ExpR OS=...  167     1e-51
+  sp|P54293|ESAR_PANSE Transcriptional activator protein EsaR OS=...  158     6e-48
+  sp|O87971|YUKR_YERRU Transcriptional activator protein YukR (Fr...  156     1e-47
+  sp|A0A0N8YGA2|ANOR_ACINO Transcriptional activator protein AnoR...  150     9e-45
+  sp|Q46751|CARR_PECCC Transcriptional activator protein CarR OS=...  148     4e-44
+  sp|P35327|LUXS_ALIF1 Transcriptional activator protein LuxR OS=...  142     2e-41
+  sp|P33909|TRAR_AGRVI Transcriptional activator protein TraR OS=...  138     2e-40
+  sp|P54294|TRAR_AGRFC Transcriptional activator protein TraR OS=...  138     3e-40
+  sp|P74946|VANR_VIBAN Transcriptional activator protein VanR OS=...  138     3e-40
+  sp|P25084|LASR_PSEAE Transcriptional activator protein LasR OS=...  136     1e-39
+  sp|P55407|TRAR_SINFN Probable transcriptional activator protein...  136     2e-39
+  sp|P33905|TRAR_RHIRD Transcriptional activator protein TraR OS=...  134     7e-39
+  sp|P12746|LUXR_ALIFS Transcriptional activator protein LuxR OS=...  134     1e-38
+  sp|P54292|RHLR_PSEAE Regulatory protein RhlR OS=Pseudomonas aer...  129     9e-37
+  sp|P54303|PHZR_PSECL Transcriptional activator protein PhzR OS=...  129     1e-36
+  sp|P0A3J6|ASAR_AERSA Transcriptional activator protein AsaR OS=...  129     2e-36
+  sp|P0A3J5|AHYR_AERHY Transcriptional activator protein AhyR OS=...  129     2e-36
+  sp|Q03316|RHIR_RHILV Regulatory protein RhiR OS=Rhizobium legum...  127     6e-36
+  sp|P55629|Y4QH_SINFN Putative HTH-type transcriptional regulato...  129     7e-36
+  sp|O54452|RAIR_RHIET Transcriptional activator protein RaiR OS=...  126     1e-35
+  sp|Q51786|PHZR_PSEFL Transcriptional activator protein PhzR OS=...  126     2e-35
+  sp|P07026|SDIA_ECOLI Regulatory protein SdiA OS=Escherichia col...  122     4e-34
+  sp|P58590|SOLR_RALSO Transcriptional activator protein SolR OS=...  122     7e-34
+  sp|O30919|SOLR_RALSL Transcriptional activator protein SolR OS=...  119     7e-33
+  sp|Q6NCZ5|RPAR_RHOPA HTH-type quorum sensing-dependent transcri...  118     2e-32
+  sp|Q8FXF9|VJBR_BRUSU HTH-type quorum sensing-dependent transcri...  100     3e-25
+  sp|Q8YAY5|VJBR_BRUME HTH-type quorum sensing-dependent transcri...  100     3e-25
+  sp|Q579W9|VJBR_BRUAB HTH-type quorum sensing-dependent transcri...  100     3e-25
+  sp|Q2YJ50|VJBR_BRUA2 HTH-type quorum sensing-dependent transcri...  100     3e-25
+  sp|Q89VI3|BJAR1_BRADU Transcriptional activator protein BjaR1 O...  99.0    7e-25
+  sp|A5VTN1|VJBR_BRUO2 HTH-type quorum sensing-dependent transcri...  99.4    8e-25
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|P54295|YENR_YEREN Transcriptional activator protein YenR OS=Yersinia 
+enterocolitica OX=630 GN=yenR PE=3 SV=1
+Length=244
+
+ Score = 186 bits (471),  Expect = 7e-59, Method: Composition-based stats.
+ Identities = 152/163 (93%), Positives = 153/163 (94%), Gaps = 2/163 (1%)
+
+Query  1    IIDYFDNESINEDIKNYIQRRIKAYGDLRYSYLVXNKKTPLHPTIISNYPLDWVKKYKKN  60
+            IIDYFDNESINEDIKNYIQRRIK YGDL YSYLV NKKTPLHPTIISNYPLDWVKKYKKN
+Sbjct  2    IIDYFDNESINEDIKNYIQRRIKTYGDLCYSYLVMNKKTPLHPTIISNYPLDWVKKYKKN  61
+
+Query  61   SYHLIDPVILTAKDKVAPFAWDDNSVINKKD--SAVFKLAREYNIVNGYTFVLHDNSNNX  118
+            SYHLIDPVILTAKDKVAPFAWDDNSVINKK   SAVFKLAREYNIVNGYTFVLHDNSNN 
+Sbjct  62   SYHLIDPVILTAKDKVAPFAWDDNSVINKKSTDSAVFKLAREYNIVNGYTFVLHDNSNNM  121
+
+Query  119  ATLNISNGSDDSISFDESIEINKEKIQXLLILTHEKXLGLYQS  161
+            ATLNISNGSDDSISFDE IEINKEKIQ LLI+THEK LGLYQS
+Sbjct  122  ATLNISNGSDDSISFDERIEINKEKIQMLLIITHEKMLGLYQS  164
+
+
+> sp|Q46967|ECHR_DICCH Transcriptional activator protein EchR OS=Dickeya 
+chrysanthemi OX=556 GN=echR PE=3 SV=1
+Length=250
+
+ Score = 185 bits (469),  Expect = 2e-58, Method: Composition-based stats.
+ Identities = 83/161 (52%), Positives = 115/161 (71%), Gaps = 2/161 (1%)
+
+Query  2    IDYFDNESINEDIKNYIQRRIKAYGDLRYSYLVXNKKTPLHPTIISNYPLDWVKKYKKNS  61
+            I + + + IN  I+NY+ R++K+YGDL+Y+YL+ NKK P    IISNYP +WV+ Y+ N+
+Sbjct  3    ISFSNFDFINSTIQNYLNRKLKSYGDLKYAYLIMNKKKPTDVVIISNYPSEWVEIYRSNN  62
+
+Query  62   YHLIDPVILTAKDKVAPFAWDDNSVINK--KDSAVFKLAREYNIVNGYTFVLHDNSNNXA  119
+            Y  IDPVILTA +K++PF+WDD+ VI+   K S +F L++EY+IVNGYTFVLHD  NN A
+Sbjct  63   YQHIDPVILTAINKISPFSWDDDLVISSKLKFSRIFNLSKEYDIVNGYTFVLHDPGNNLA  122
+
+Query  120  TLNISNGSDDSISFDESIEINKEKIQXLLILTHEKXLGLYQ  160
+            TL+     + S   +E ++ NKEK+Q LLI  HEK   LY+
+Sbjct  123  TLSFMFEENRSGELEEIVQNNKEKLQMLLISAHEKLTSLYR  163
+
+
+> sp|Q47188|EXPR_DICD3 Transcriptional activator protein ExpR OS=Dickeya 
+dadantii (strain 3937) OX=198628 GN=expR PE=3 SV=2
+Length=250
+
+ Score = 176 bits (446),  Expect = 5e-55, Method: Composition-based stats.
+ Identities = 79/161 (49%), Positives = 111/161 (69%), Gaps = 2/161 (1%)
+
+Query  2    IDYFDNESINEDIKNYIQRRIKAYGDLRYSYLVXNKKTPLHPTIISNYPLDWVKKYKKNS  61
+            I + + + IN  I++Y+ R++K+YGD +Y+YL+ NKK P    IISNYP +WV  Y+ N+
+Sbjct  3    ISFSNVDFINSTIQSYLNRKLKSYGDPKYAYLIMNKKKPTDVVIISNYPTEWVDIYRNNN  62
+
+Query  62   YHLIDPVILTAKDKVAPFAWDDNSVINK--KDSAVFKLAREYNIVNGYTFVLHDNSNNXA  119
+            Y  IDPVILTA +K++PF+WDD+ VI+   K S +F L+++Y+IVNGYTFVLHD  NN A
+Sbjct  63   YQHIDPVILTAINKISPFSWDDDLVISSKLKFSRIFNLSKDYDIVNGYTFVLHDPGNNLA  122
+
+Query  120  TLNISNGSDDSISFDESIEINKEKIQXLLILTHEKXLGLYQ  160
+             L+       S   +E I+ NK+K+Q LLI  HEK   LY+
+Sbjct  123  ALSFMIEEHRSEELEEIIQNNKDKLQMLLISAHEKLTSLYR  163
+
+
+> sp|Q47189|EXPR_PECPM Transcriptional activator protein ExpR OS=Pectobacterium 
+parmentieri OX=1905730 GN=expR PE=3 SV=1
+Length=245
+
+ Score = 167 bits (423),  Expect = 1e-51, Method: Composition-based stats.
+ Identities = 66/159 (42%), Positives = 105/159 (66%), Gaps = 2/159 (1%)
+
+Query  4    YFDNESINEDIKNYIQRRIKAYGDLRYSYLVXNKKTPLHPTIISNYPLDWVKKYKKNSYH  63
+            +++NE+I+  IK+     +  YGD++Y+Y+V NKK P    IISN+  +W + Y+ N+Y 
+Sbjct  5    FYNNETISRIIKSQFDMALSHYGDIKYAYMVLNKKKPTEILIISNHHDEWREIYQANNYQ  64
+
+Query  64   LIDPVILTAKDKVAPFAWDDNSVINK--KDSAVFKLAREYNIVNGYTFVLHDNSNNXATL  121
+             IDPV++ A +K+ PF WD++ +++   K S +F L+RE+NI NGYTFVLHD+SNN   L
+Sbjct  65   HIDPVVIAALNKITPFPWDEDLLVSTQLKMSKIFNLSREHNITNGYTFVLHDHSNNLVML  124
+
+Query  122  NISNGSDDSISFDESIEINKEKIQXLLILTHEKXLGLYQ  160
+            +I     +  + D+ IE NK+K+Q  L+  H + + LY+
+Sbjct  125  SIMIDESNVSNIDDVIESNKDKLQMTLMTIHAETISLYR  163
+
+
+> sp|P54293|ESAR_PANSE Transcriptional activator protein EsaR OS=Pantoea 
+stewartii subsp. stewartii OX=66271 GN=esaR PE=1 SV=1
+Length=249
+
+ Score = 158 bits (400),  Expect = 6e-48, Method: Composition-based stats.
+ Identities = 59/157 (38%), Positives = 100/157 (64%), Gaps = 2/157 (1%)
+
+Query  4    YFDNESINEDIKNYIQRRIKAYGDLRYSYLVXNKKTPLHPTIISNYPLDWVKKYKKNSYH  63
+            + +N++I + ++ YIQR++   G   Y+Y V +KK P +  IIS+YP +W++ Y+ N++ 
+Sbjct  5    FLENQTITDTLQTYIQRKLSPLGSPDYAYTVVSKKNPSNVLIISSYPDEWIRLYRANNFQ  64
+
+Query  64   LIDPVILTAKDKVAPFAWDDNSVINKKDS--AVFKLAREYNIVNGYTFVLHDNSNNXATL  121
+            L DPVILTA  + +PFAWD+N  +        +F L+++YNIVNG+T+VLHD+ NN A L
+Sbjct  65   LTDPVILTAFKRTSPFAWDENITLMSDLRFTKIFSLSKQYNIVNGFTYVLHDHMNNLALL  124
+
+Query  122  NISNGSDDSISFDESIEINKEKIQXLLILTHEKXLGL  158
+            ++    +D  + ++ +   +  +Q LLI  +E+   L
+Sbjct  125  SVIIKGNDQTALEQRLAAEQGTMQMLLIDFNEQMYRL  161
+
+
+> sp|O87971|YUKR_YERRU Transcriptional activator protein YukR (Fragment) 
+OS=Yersinia ruckeri OX=29486 GN=yukR PE=3 SV=1
+Length=229
+
+ Score = 156 bits (395),  Expect = 1e-47, Method: Composition-based stats.
+ Identities = 61/146 (42%), Positives = 96/146 (66%), Gaps = 2/146 (1%)
+
+Query  18   IQRRIKAYGDLRYSYLVXNKKTPLHPTIISNYPLDWVKKYKKNSYHLIDPVILTAKDKVA  77
+            I R+++ Y   RY+Y+V +KK P+   I+++YP +W   Y   +Y  IDP++LTA  +++
+Sbjct  1    IDRKLERYDSPRYTYMVIDKKNPVDVFIVTSYPDEWADIYTSQNYQHIDPIVLTAFKRIS  60
+
+Query  78   PFAWDDNSVI--NKKDSAVFKLAREYNIVNGYTFVLHDNSNNXATLNISNGSDDSISFDE  135
+            PFAWD+N  I  + K S +F L+++YNIVNG+TFVLHD+ NN A L++   ++     + 
+Sbjct  61   PFAWDENITILSDLKSSKIFALSKKYNIVNGFTFVLHDHMNNLAMLSLIMDNNADKGLNS  120
+
+Query  136  SIEINKEKIQXLLILTHEKXLGLYQS  161
+             IE +K+++Q  LI  HEK L L Q+
+Sbjct  121  RIESDKDRLQMNLIKIHEKMLMLEQN  146
+
+
+> sp|A0A0N8YGA2|ANOR_ACINO Transcriptional activator protein AnoR 
+OS=Acinetobacter nosocomialis OX=106654 GN=anoR PE=2 SV=1
+Length=238
+
+ Score = 150 bits (378),  Expect = 9e-45, Method: Composition-based stats.
+ Identities = 24/156 (15%), Positives = 58/156 (37%), Gaps = 4/156 (3%)
+
+Query  1    IIDYFDNESINEDIKNYIQRRIKAYGDLRYSYLVXNKKTPLHP--TIISNYPLDWVKKYK  58
+            ++  F      +++   ++      G    +Y + +  +   P   +++NYP  W K+Y 
+Sbjct  8    LLSAFLVVKNEDELFEVVKSTASKLGFDYCAYGMQSPLSIAEPKTIMLNNYPQAWQKRYI  67
+
+Query  59   KNSYHLIDPVILTAKDKVAPFAWDDNSVINKKDSAVFKLAREYNIVNGYTFVLHDNSNNX  118
+            +  Y  +DP +      + P  W   +   +++   ++ AR Y +  G+     D     
+Sbjct  68   EQRYVKVDPTVQHCMVSLQPLVWSSQNAKTQEEKDFWEEARSYGLNVGWAQSSRDFIGTR  127
+
+Query  119  ATLNISNGSDDSISFDESIEINKEKIQXLLILTHEK  154
+              L ++  +D     ++  +     +  L    H  
+Sbjct  128  GMLTLARSTDQLS--EKEQKAQYTNMYWLTQTVHSS  161
+
+
+> sp|Q46751|CARR_PECCC Transcriptional activator protein CarR OS=Pectobacterium 
+carotovorum subsp. carotovorum OX=555 GN=carR 
+PE=3 SV=1
+Length=244
+
+ Score = 148 bits (374),  Expect = 4e-44, Method: Composition-based stats.
+ Identities = 57/154 (37%), Positives = 102/154 (66%), Gaps = 3/154 (2%)
+
+Query  10   INEDIKNYIQRRIKAYGDLRYSYLVXNKKTPLHPTIISNYPLDWVKKYKKNSYHLIDPVI  69
+            ++ +I ++I+R++K  GD+ +SY + +K +   P IISNYP  W+K+Y K    L DP+I
+Sbjct  1    MDHEIHSFIKRKLKGVGDVWFSYFMMSKNSTSQPYIISNYPEAWMKEYIKKEMFLSDPII  60
+
+Query  70   LTAKDKVAPFAWDDN--SVINKKDSAVFKLAREYNIVNGYTFVLHDNSNNXATLNISNGS  127
+            + +  ++ PF+WDDN    +  K+  VF  + +++I +GYTFVLHD+ NN ATL+I+N  
+Sbjct  61   VASLARITPFSWDDNDIVTLRAKNQDVFISSVQHDISSGYTFVLHDHDNNVATLSIANHL  120
+
+Query  128  DDSISFDESIEINKEKIQXLLILTHEKXLGLYQS  161
+            +D+ +F++ ++ ++  +Q LL+  HEK +   ++
+Sbjct  121  EDA-NFEKCMKNHENDLQMLLVNVHEKVMAYQRA  153
+
+
+> sp|P35327|LUXS_ALIF1 Transcriptional activator protein LuxR OS=Aliivibrio 
+fischeri (strain ATCC 700601 / ES114) OX=312309 
+GN=luxR PE=3 SV=1
+Length=250
+
+ Score = 142 bits (357),  Expect = 2e-41, Method: Composition-based stats.
+ Identities = 36/136 (26%), Positives = 60/136 (44%), Gaps = 4/136 (3%)
+
+Query  1    IIDYFDNESINEDIKNYIQRRIKAYGDLRYSYLVXNKKTPLHP--TIISNYPLDWVKKYK  58
+            IID     + N+DI   +    K      Y + +    + + P  +II NYP  W K Y 
+Sbjct  12   IIDKIKTCNNNKDINQCLSEIAKIIHCEYYLFAIIYPHSIIKPDVSIIDNYPEKWRKYYD  71
+
+Query  59   KNSYHLIDPVILTAKDKVAPFAWD--DNSVINKKDSAVFKLAREYNIVNGYTFVLHDNSN  116
+                   DPV+  +K   +P  W+  +   I K+   V K A+E  ++ G++F +H  SN
+Sbjct  72   DAGLLEYDPVVDYSKSHHSPINWNVFEKKTIKKESPNVIKEAQESGLITGFSFPIHTASN  131
+
+Query  117  NXATLNISNGSDDSIS  132
+                L+ ++   D  +
+Sbjct  132  GFGMLSFAHSDKDIYT  147
+
+
+> sp|P33909|TRAR_AGRVI Transcriptional activator protein TraR OS=Agrobacterium 
+vitis OX=373 GN=traR PE=3 SV=1
+Length=234
+
+ Score = 138 bits (348),  Expect = 2e-40, Method: Composition-based stats.
+ Identities = 29/141 (21%), Positives = 59/141 (42%), Gaps = 7/141 (5%)
+
+Query  1    IIDYFDNESINEDIKNYIQRRIKAYGDLRYSYLVXNKKTPLHPTIISNYPLDWVKKYKKN  60
+            + D    E     +K  +      +G   Y+YL    K   H   ++NY  DW   Y   
+Sbjct  8    LTDLTAIEGDGCILKTGLADVADHFGFTGYAYLHIQHK---HIIAVTNYHHDWRSLYFDK  64
+
+Query  61   SYHLIDPVILTAKDKVAPFAWD---DNSVINKKDSAVFKLAREYNIVNGYTFVLHDNSNN  117
+             +  +DPV+  A+ +   FAW    +   +++++ A +  A ++ I +G T  +   + +
+Sbjct  65   KFDALDPVVKRARSRKQVFAWSGEQERPKLSEEERAFYAQAADFGIRSGITIPIRTANGS  124
+
+Query  118  XATLNISNGSDDSISFDESIE  138
+             +   ++     +I  D  I+
+Sbjct  125  MSMFTLA-SERTAIPLDREID  144
+
+
+> sp|P54294|TRAR_AGRFC Transcriptional activator protein TraR OS=Agrobacterium 
+fabrum (strain C58 / ATCC 33970) OX=176299 GN=traR 
+PE=3 SV=1
+Length=234
+
+ Score = 138 bits (347),  Expect = 3e-40, Method: Composition-based stats.
+ Identities = 32/141 (23%), Positives = 65/141 (46%), Gaps = 7/141 (5%)
+
+Query  1    IIDYFDNESINEDIKNYIQRRIKAYGDLRYSYLVXNKKTPLHPTIISNYPLDWVKKYKKN  60
+            + D    +     +K+ +    + +G   Y+YL    K   H   ++NY  DW   Y +N
+Sbjct  8    LTDLAAIQGDECILKDGLADLAEHFGFTGYAYLHIQHK---HTIAVTNYHRDWRSAYFEN  64
+
+Query  61   SYHLIDPVILTAKDKVAPFAWD---DNSVINKKDSAVFKLAREYNIVNGYTFVLHDNSNN  117
+            ++  +DPV+  AK +   FAW    + S ++K++ A +  A ++ I +G T  +   + +
+Sbjct  65   NFDKLDPVVKRAKSRKHVFAWSGEQERSRLSKEERAFYAHAADFGIRSGITIPIKTANGS  124
+
+Query  118  XATLNISNGSDDSISFDESIE  138
+             +   ++     +I  D  I+
+Sbjct  125  MSMFTLA-SERPAIDLDREID  144
+
+
+> sp|P74946|VANR_VIBAN Transcriptional activator protein VanR OS=Vibrio 
+anguillarum OX=55601 GN=vanR PE=3 SV=1
+Length=240
+
+ Score = 138 bits (348),  Expect = 3e-40, Method: Composition-based stats.
+ Identities = 27/152 (18%), Positives = 60/152 (39%), Gaps = 2/152 (1%)
+
+Query  1    IIDYFDNESINEDIKNYIQRRIKAYGDLRYSYLVXNKKT--PLHPTIISNYPLDWVKKYK  58
+            +I      + ++D++N +       G   + + +  + T       +  NYP  W ++Y 
+Sbjct  7    LIQENQQITSHDDLENVLNGLNNLIGHEFFLFGLSFQPTLKTSETLVTDNYPNSWRQQYD  66
+
+Query  59   KNSYHLIDPVILTAKDKVAPFAWDDNSVINKKDSAVFKLAREYNIVNGYTFVLHDNSNNX  118
+            ++ +  IDP++  +     P  WDD   +N     +F+ AR   +  G++  +H      
+Sbjct  67   ESGFMHIDPIVKYSITNFLPIRWDDAKRVNNDGRVIFEEARCNGLKAGFSIPIHGLRGEF  126
+
+Query  119  ATLNISNGSDDSISFDESIEINKEKIQXLLIL  150
+              ++ +     S   ++      + I  LL  
+Sbjct  127  GMISFATSDTKSYDLNQQSIHTSQLIVPLLAH  158
+
+
+> sp|P25084|LASR_PSEAE Transcriptional activator protein LasR OS=Pseudomonas 
+aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 
+104116 / JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1) OX=208964 
+GN=lasR PE=1 SV=1
+Length=239
+
+ Score = 136 bits (343),  Expect = 1e-39, Method: Composition-based stats.
+ Identities = 29/143 (20%), Positives = 55/143 (38%), Gaps = 2/143 (1%)
+
+Query  18   IQRRIKAYGDLRYSYLVXNKKTP--LHPTIISNYPLDWVKKYKKNSYHLIDPVILTAKDK  75
+            +Q+     G  +  + +  K +    +  I+ NYP  W + Y +  Y  +DP +      
+Sbjct  23   LQKMASDLGFSKILFGLLPKDSQDYENAFIVGNYPAAWREHYDRAGYARVDPTVSHCTQS  82
+
+Query  76   VAPFAWDDNSVINKKDSAVFKLAREYNIVNGYTFVLHDNSNNXATLNISNGSDDSISFDE  135
+            V P  W+ +    +K    F+ A    +V G T  LH        L++S  +++    + 
+Sbjct  83   VLPIFWEPSIYQTRKQHEFFEEASAAGLVYGLTMPLHGARGELGALSLSVEAENRAEANR  142
+
+Query  136  SIEINKEKIQXLLILTHEKXLGL  158
+             +E     +  L     +   GL
+Sbjct  143  FMESVLPTLWMLKDYALQSGAGL  165
+
+
+> sp|P55407|TRAR_SINFN Probable transcriptional activator protein 
+TraR OS=Sinorhizobium fredii (strain NBRC 101917 / NGR234) 
+OX=394 GN=traR PE=1 SV=1
+Length=236
+
+ Score = 136 bits (343),  Expect = 2e-39, Method: Composition-based stats.
+ Identities = 33/155 (21%), Positives = 59/155 (38%), Gaps = 9/155 (6%)
+
+Query  1    IIDYFDNESINEDIKNYIQRRIKAYGDLRYSYLVXNKKTPLHPTIISNYPLDWVKKYKKN  60
+            +ID  +       IK  ++    + G  R++YL   +K         +YP  W   Y  +
+Sbjct  10   LIDMLEAAQDGHMIKIALRSFAHSCGYDRFAYL---QKDGTQVRTFHSYPGPWESIYLGS  66
+
+Query  61   SYHLIDPVILTAKDKVAPFAWDDNSVI---NKKDSAVFKLAREYNIVNGYTFVLHDNSNN  117
+             Y  IDPV+  AK +   F W  ++     +         A  + I  G T  +  +  +
+Sbjct  67   DYFNIDPVLAEAKRRRDVFFWTADAWPARGSSPLRRFRDEAISHGIRCGVTIPVEGSYGS  126
+
+Query  118  XATLNISNGSDDSISFDESIEINKEKIQXLLILTH  152
+               L  ++        D S  ++ +K   LL++ H
+Sbjct  127  AMMLTFASPER---KVDISGVLDPKKAVQLLMMVH  158
+
+
+> sp|P33905|TRAR_RHIRD Transcriptional activator protein TraR OS=Rhizobium 
+radiobacter OX=358 GN=traR PE=1 SV=2
+Length=234
+
+ Score = 134 bits (338),  Expect = 7e-39, Method: Composition-based stats.
+ Identities = 28/142 (20%), Positives = 55/142 (39%), Gaps = 7/142 (5%)
+
+Query  1    IIDYFDNESINEDIKNYIQRRIKAYGDLRYSYLVXNKKTPLHPTIISNYPLDWVKKYKKN  60
+            + D    E     +K  +      +G   Y+YL    +   H T ++NY   W   Y   
+Sbjct  8    LTDLAAIEGDECILKTGLADIADHFGFTGYAYLHIQHR---HITAVTNYHRQWQSTYFDK  64
+
+Query  61   SYHLIDPVILTAKDKVAPFAWD---DNSVINKKDSAVFKLAREYNIVNGYTFVLHDNSNN  117
+             +  +DPV+  A+ +   F W    +   ++K + A +  A ++ I +G T  +   +  
+Sbjct  65   KFEALDPVVKRARSRKHIFTWSGEHERPTLSKDERAFYDHASDFGIRSGITIPIKTANGF  124
+
+Query  118  XATLNISNGSDDSISFDESIEI  139
+             +   ++      I  D  I+ 
+Sbjct  125  MSMFTMA-SDKPVIDLDREIDA  145
+
+
+> sp|P12746|LUXR_ALIFS Transcriptional activator protein LuxR OS=Aliivibrio 
+fischeri OX=668 GN=luxR PE=1 SV=3
+Length=250
+
+ Score = 134 bits (338),  Expect = 1e-38, Method: Composition-based stats.
+ Identities = 30/135 (22%), Positives = 57/135 (42%), Gaps = 4/135 (3%)
+
+Query  1    IIDYFDNESINEDIKNYIQRRIKAYGDLRYSYLVXNKKTP--LHPTIISNYPLDWVKKYK  58
+            II+       N DI   +    K      Y   +    +      +I+ NYP  W + Y 
+Sbjct  12   IINKIKACRSNNDINQCLSDMTKMVHCEYYLLAIIYPHSMVKSDISILDNYPKKWRQYYD  71
+
+Query  59   KNSYHLIDPVILTAKDKVAPFAWD--DNSVINKKDSAVFKLAREYNIVNGYTFVLHDNSN  116
+              +    DP++  +    +P  W+  +N+ +NKK   V K A+   ++ G++F +H  +N
+Sbjct  72   DANLIKYDPIVDYSNSNHSPINWNIFENNAVNKKSPNVIKEAKTSGLITGFSFPIHTANN  131
+
+Query  117  NXATLNISNGSDDSI  131
+                L+ ++   D+ 
+Sbjct  132  GFGMLSFAHSEKDNY  146
+
+
+> sp|P54292|RHLR_PSEAE Regulatory protein RhlR OS=Pseudomonas aeruginosa 
+(strain ATCC 15692 / DSM 22644 / CIP 104116 / JCM 
+14847 / LMG 12228 / 1C / PRS 101 / PAO1) OX=208964 GN=rhlR PE=3 
+SV=1
+Length=241
+
+ Score = 129 bits (325),  Expect = 9e-37, Method: Composition-based stats.
+ Identities = 28/151 (19%), Positives = 64/151 (42%), Gaps = 5/151 (3%)
+
+Query  1    IIDYFDNESINEDIKNYIQRRIKAYGDLRYSYLVXNKKTPLHPT--IISNYPLDWVKKYK  58
+            +         ++ +   +++ ++  G   Y+Y V +      P   +   YP  W+++Y+
+Sbjct  14   LRSEMQPIHDSQGVFAVLEKEVRRLGFDYYAYGVRHTIPFTRPKTEVHGTYPKAWLERYQ  73
+
+Query  59   KNSYHLIDPVILTAKDKVAPFAWDDNSVINKKDSAVFKLAREYNIVNGYTFVLHDNSNNX  118
+              +Y  +DP IL          W D+  +  +   ++  AR++ +  G T  +   +N  
+Sbjct  74   MQNYGAVDPAILNGLRSSEMVVWSDS--LFDQSRMLWNEARDWGLCVGATLPIRAPNNLL  131
+
+Query  119  ATLNISNGSDDSISFD-ESIEINKEKIQXLL  148
+            + L+++    +  SF+ E I +    +  LL
+Sbjct  132  SVLSVARDQQNISSFEREEIRLRLRCMIELL  162
+
+
+> sp|P54303|PHZR_PSECL Transcriptional activator protein PhzR OS=Pseudomonas 
+chlororaphis OX=333 GN=phzR PE=3 SV=1
+Length=241
+
+ Score = 129 bits (324),  Expect = 1e-36, Method: Composition-based stats.
+ Identities = 27/152 (18%), Positives = 58/152 (38%), Gaps = 9/152 (6%)
+
+Query  13   DIKNYIQRRIKAYGDLRYSYLVXNKKTPL-----HPTIISNYPLDWVKKYKKNSYHLIDP  67
+            D++ +    ++A  +LR+ +      +          +  NYP DWV++Y+  +Y +IDP
+Sbjct  22   DMQEFTAVALRALRELRFDFFRYGMCSVTPFMRPRTYMYGNYPEDWVQRYQAANYAVIDP  81
+
+Query  68   VILTAKDKVAPFAWDDNSVINKKDSAVFKLAREYNIVNGYTFVLHDNSNNXATLNISNGS  127
+             +  +K   +P    +          ++  A + N+ +G      +       L+++   
+Sbjct  82   TVKHSKVSSSPILASNELFRGC--PDLWSEANDSNLRHGLAQPSFNTQGRVGVLSLARKD  139
+
+Query  128  DDSISFDESIEINKEKIQXLLILTHEKXLGLY  159
+            +      +  E  K   +      HEK   L 
+Sbjct  140  NPIS--LQEFEALKVVTKAFAAAVHEKISELE  169
+
+
+> sp|P0A3J6|ASAR_AERSA Transcriptional activator protein AsaR OS=Aeromonas 
+salmonicida OX=645 GN=asaR PE=3 SV=1
+Length=260
+
+ Score = 129 bits (324),  Expect = 2e-36, Method: Composition-based stats.
+ Identities = 30/149 (20%), Positives = 56/149 (38%), Gaps = 6/149 (4%)
+
+Query  2    IDYFDNESINEDIKNYIQRRIKAYGDLRYSYLVXNKKTPLHPTI--ISNYPLDWVKKYKK  59
+            +++F + +  + +   I R     G   Y + +    +   P +   +  P  WV+ Y  
+Sbjct  10   LEHFTSVTDGDRLAELIGRFTLGMGYDYYRFALIIPMSMQRPKVVLFNQCPDSWVQAYTA  69
+
+Query  60   NSYHLIDPVILTAKDKVAPFAW---DDNSVINKKDS-AVFKLAREYNIVNGYTFVLHDNS  115
+            N     DP+I  A+ +  P  W   D+ +   ++ S  V  LA E+ + NG +F LH  +
+Sbjct  70   NHMLACDPIIQLARKQTLPIYWNRLDERARFLQEGSLDVMGLAAEFGLRNGISFPLHGAA  129
+
+Query  116  NNXATLNISNGSDDSISFDESIEINKEKI  144
+                 L+       S             +
+Sbjct  130  GENGILSFITAERASSDLLLESSPILSWM  158
+
+
+> sp|P0A3J5|AHYR_AERHY Transcriptional activator protein AhyR OS=Aeromonas 
+hydrophila OX=644 GN=ahyR PE=3 SV=1
+Length=260
+
+ Score = 129 bits (324),  Expect = 2e-36, Method: Composition-based stats.
+ Identities = 30/149 (20%), Positives = 56/149 (38%), Gaps = 6/149 (4%)
+
+Query  2    IDYFDNESINEDIKNYIQRRIKAYGDLRYSYLVXNKKTPLHPTI--ISNYPLDWVKKYKK  59
+            +++F + +  + +   I R     G   Y + +    +   P +   +  P  WV+ Y  
+Sbjct  10   LEHFTSVTDGDRLAELIGRFTLGMGYDYYRFALIIPMSMQRPKVVLFNQCPDSWVQAYTA  69
+
+Query  60   NSYHLIDPVILTAKDKVAPFAW---DDNSVINKKDS-AVFKLAREYNIVNGYTFVLHDNS  115
+            N     DP+I  A+ +  P  W   D+ +   ++ S  V  LA E+ + NG +F LH  +
+Sbjct  70   NHMLACDPIIQLARKQTLPIYWNRLDERARFLQEGSLDVMGLAAEFGLRNGISFPLHGAA  129
+
+Query  116  NNXATLNISNGSDDSISFDESIEINKEKI  144
+                 L+       S             +
+Sbjct  130  GENGILSFITAERASSDLLLESSPILSWM  158
+
+
+> sp|Q03316|RHIR_RHILV Regulatory protein RhiR OS=Rhizobium leguminosarum 
+bv. viciae OX=387 GN=rhiR PE=4 SV=1
+Length=247
+
+ Score = 127 bits (320),  Expect = 6e-36, Method: Composition-based stats.
+ Identities = 22/163 (13%), Positives = 66/163 (40%), Gaps = 15/163 (9%)
+
+Query  2    IDYFDNESINEDIKNYIQRRIKAYGDLRYSYLVXNKKTPLHPT----IISNYPLDWVKKY  57
+            +    +    +D+     +  + +G   ++  +    +P+       ++ N+ + W  +Y
+Sbjct  16   LSESASAKSKDDVLLLFGKISQYFGFSYFA--ISGIPSPIERIDSYFVLGNWSVGWFDRY  73
+
+Query  58   KKNSYHLIDPVILTAKDKVAPFAWDD---NSVINKKDSAVFKLAREYNIVNGYTFVLHDN  114
+            ++N+Y   DP++  +K     F W +   +  ++++   V   ARE+ +++G++  LH  
+Sbjct  74   RENNYVHADPIVHLSKTCDHAFVWSEALRDQKLDRQSRRVMDEAREFKLIDGFSVPLHTA  133
+
+Query  115  SNNXATLNISNGSDDSISFDESIEINKEKIQXLLILTHEKXLG  157
+            +   + ++      +  + D      +  +  +    H     
+Sbjct  134  AGFQSIVSFGAEKVELSTCD------RSALYLMAAYAHSLLRA  170
+
+
+> sp|P55629|Y4QH_SINFN Putative HTH-type transcriptional regulator 
+y4qH OS=Sinorhizobium fredii (strain NBRC 101917 / NGR234) 
+OX=394 GN=NGR_a01900 PE=3 SV=1
+Length=326
+
+ Score = 129 bits (324),  Expect = 7e-36, Method: Composition-based stats.
+ Identities = 25/135 (19%), Positives = 52/135 (39%), Gaps = 9/135 (7%)
+
+Query  1    IIDYFDNESINEDIKNYIQRRIKAYGDLRYSY--LVXNKKTPLHPTI----ISNYPLDWV  54
+            ++D  D  +  + + + +      +G    +Y  L  + K           I NYP  W 
+Sbjct  91   LLDLTDGVAQPKKLFDLLSAFAFKFGCKWLAYGPLTSDHKALNRVKCDSEEILNYPDGWR  150
+
+Query  55   KKYKKNSYHLIDPVILTAKDKVAPFAWDD---NSVINKKDSAVFKLAREYNIVNGYTFVL  111
+            ++  +  Y  I PVI  ++    P  W D   ++   + +  +F  A  + + +G T  L
+Sbjct  151  ERCLEMGYETIAPVIKESRMGAGPIRWSDMYSDASTTEYERRMFDEAAMFGLRSGITVPL  210
+
+Query  112  HDNSNNXATLNISNG  126
+                 + A ++ +  
+Sbjct  211  RGPRGSCAIMSFARH  225
+
+
+> sp|O54452|RAIR_RHIET Transcriptional activator protein RaiR OS=Rhizobium 
+etli OX=29449 GN=raiR PE=3 SV=1
+Length=242
+
+ Score = 126 bits (317),  Expect = 1e-35, Method: Composition-based stats.
+ Identities = 25/122 (20%), Positives = 52/122 (43%), Gaps = 2/122 (2%)
+
+Query  39   TPLHPTIISNYPLDWVKKYKKNSYHLIDPVILTAKDKVAPFAWDDNSVINKKDSAVFKLA  98
+            T  +P ++  YP +WVK+Y+   Y  IDPV+   +    P  W  +   + +    FK A
+Sbjct  53   TDSNPLLMLTYPPEWVKQYRDRDYFSIDPVVRLGRRGFLPVEWSASGWDSGRAYGFFKEA  112
+
+Query  99   REYNI-VNGYTFVLHDNSNNXATLNISNGSDDSISFDESIEINKEKIQXLLILTHEKXLG  157
+              + +   G T  +       +   +++   D+      ++  ++ +Q L    H++ + 
+Sbjct  113  MAFGVGRQGVTLPVRGPQGERSLFTVTSNHPDAYWRQFRMDSMRD-LQFLAHHLHDRAMV  171
+
+Query  158  LY  159
+            L 
+Sbjct  172  LS  173
+
+
+> sp|Q51786|PHZR_PSEFL Transcriptional activator protein PhzR OS=Pseudomonas 
+fluorescens OX=294 GN=phzR PE=3 SV=1
+Length=244
+
+ Score = 126 bits (316),  Expect = 2e-35, Method: Composition-based stats.
+ Identities = 31/159 (19%), Positives = 61/159 (38%), Gaps = 6/159 (4%)
+
+Query  3    DYFDNESINEDIKNYIQRRIKAYGDLRYSYLVXNKKTPLHP--TIISNYPLDWVKKYKKN  60
+              F      E+      R ++      ++Y + +    + P   +  NYP  W+++Y+  
+Sbjct  18   SIFAQAMNMEEFTVVALRALRELRFDFFAYGMCSVTPFMRPKTYMYGNYPEHWLQRYQAA  77
+
+Query  61   SYHLIDPVILTAKDKVAPFAWDDNSVINKKDSAVFKLAREYNIVNGYTFVLHDNSNNXAT  120
+            +Y LIDP +  +K   AP  W +    N     ++  A + ++ +G      +       
+Sbjct  78   NYALIDPTVKHSKVSSAPILWSNELFRNC--PDLWSEANDSSLCHGLAQPSFNTQGRVGV  135
+
+Query  121  LNISNGSDDSISFDESIEINKEKIQXLLILTHEKXLGLY  159
+            L+++   D++IS     E  K   +       EK   L 
+Sbjct  136  LSLAR-KDNAISLQ-EFEALKPVTKAFAAAALEKISALE  172
+
+
+> sp|P07026|SDIA_ECOLI Regulatory protein SdiA OS=Escherichia coli 
+(strain K12) OX=83333 GN=sdiA PE=1 SV=2
+Length=240
+
+ Score = 122 bits (307),  Expect = 4e-34, Method: Composition-based stats.
+ Identities = 33/159 (21%), Positives = 64/159 (40%), Gaps = 11/159 (7%)
+
+Query  5    FDNESINEDIKNYIQRRIKAYGDLRYSYLVXNKKTPLHPTI--ISNYPLDWVKKYKKNSY  62
+            F      E++ + I+ + +      YS  V +      P +   +NYP  WV  Y+  ++
+Sbjct  17   FQRMETAEEVYHEIELQAQQLEYDYYSLCVRHPVPFTRPKVAFYTNYPEAWVSYYQAKNF  76
+
+Query  63   HLIDPVILTAKDKVAPFAWDDNSVINKKDSAVFKLAREYNIVNGYTFVLHDNSNNXATLN  122
+              IDPV+           W+D+  +  +   +++ AR + +  G T  L   +     L+
+Sbjct  77   LAIDPVLNPENFSQGHLMWNDD--LFSEAQPLWEAARAHGLRRGVTQYLMLPNRALGFLS  134
+
+Query  123  ISNGSDDSIS-FDESIEINKEKIQXLLILTHEKXLGLYQ  160
+             S  S   I    + +++   K+Q L     E  + L +
+Sbjct  135  FSRCSAREIPILSDELQL---KMQLL---VRESLMALMR  167
+
+
+> sp|P58590|SOLR_RALSO Transcriptional activator protein SolR OS=Ralstonia 
+solanacearum (strain GMI1000) OX=267608 GN=solR 
+PE=3 SV=1
+Length=236
+
+ Score = 122 bits (305),  Expect = 7e-34, Method: Composition-based stats.
+ Identities = 23/154 (15%), Positives = 49/154 (32%), Gaps = 7/154 (5%)
+
+Query  3    DYFDNESINEDIKNYIQRRIKAYGDLRYSYLVXNKKTPLHPT-----IISNYPLDWVKKY  57
+            D +      +D +   ++       L + Y     + PL  +     I   YP  W++ Y
+Sbjct  7    DAYHAFHTAQDERQLFRQIASVVRQLGFDYCCYGIRVPLPVSKPAVAIFDTYPAGWMEHY  66
+
+Query  58   KKNSYHLIDPVILTAKDKVAPFAWDDNSVINKKDSAVFKLAREYNIVNGYTFVLHDNSNN  117
+            + + +  IDP + T         W     I  + + ++  AR++ +  G           
+Sbjct  67   QASGFLEIDPTVRTGASSSDLIIW--PVSIRDEAARLWSDARDFGLNIGVARSSWTAHGA  124
+
+Query  118  XATLNISNGSDDSISFDESIEINKEKIQXLLILT  151
+               L ++  +D   + +             L   
+Sbjct  125  FGLLTLARRADPLTAAELEQLSATTNWLANLAHA  158
+
+
+> sp|O30919|SOLR_RALSL Transcriptional activator protein SolR OS=Ralstonia 
+solanacearum OX=305 GN=solR PE=3 SV=1
+Length=236
+
+ Score = 119 bits (298),  Expect = 7e-33, Method: Composition-based stats.
+ Identities = 20/132 (15%), Positives = 38/132 (29%), Gaps = 4/132 (3%)
+
+Query  5    FDNESINEDIKNYIQRRIKAYGDLRYSYLVXNKKTPLHPT--IISNYPLDWVKKYKKNSY  62
+            F        +   I    +  G     Y          P   I   YP  W++ Y+ + +
+Sbjct  12   FRTAEDEHQLFREIAAIARQLGFDYCCYGARMPLPVSKPAVAIFDTYPAGWMQHYQASGF  71
+
+Query  63   HLIDPVILTAKDKVAPFAWDDNSVINKKDSAVFKLAREYNIVNGYTFVLHDNSNNXATLN  122
+              IDP +           W     I    + ++  AR+  +  G              L 
+Sbjct  72   LDIDPTVRAGASSSDLIVW--PVSIRDDAARLWSDARDAGLNIGVARSSWTAHGAFGLLT  129
+
+Query  123  ISNGSDDSISFD  134
+            ++  +D   + +
+Sbjct  130  LARHADPLTAAE  141
+
+
+> sp|Q6NCZ5|RPAR_RHOPA HTH-type quorum sensing-dependent transcriptional 
+regulator RpaR OS=Rhodopseudomonas palustris (strain 
+ATCC BAA-98 / CGA009) OX=258594 GN=rpaR PE=1 SV=1
+Length=243
+
+ Score = 118 bits (296),  Expect = 2e-32, Method: Composition-based stats.
+ Identities = 31/150 (21%), Positives = 57/150 (38%), Gaps = 16/150 (11%)
+
+Query  18   IQRRIKAYGDLRYSYLVXNKKTPL----HPTIISNYPLDWVKKYKKNSYHLIDPVILTAK  73
+             +  I + G    +Y++    +        T+ + +P DW   Y   ++  +DPV     
+Sbjct  32   FESLIASCGFT--AYIMAGLPSRNAGLPELTLANGWPRDWFDLYVSENFSAVDPVPRHGA  89
+
+Query  74   DKVAPFAWDDNSVINKKDS---AVFKLAREYNIVNGYTFVLHDNSNNXATLNISNGSDDS  130
+              V PF W D      +D     V   A E+ +V GY   LH +  + A ++++    D 
+Sbjct  90   TTVHPFVWSDAPYDRDRDPAAHRVMTRAAEFGLVEGYCIPLHYDDGS-AAISMAGKDPDL  148
+
+Query  131  ISFDESIEINKEKIQXLLILTHEKXLGLYQ  160
+                      +  +Q + I  H +   L +
+Sbjct  149  SP------AARGAMQLVSIYAHSRLRALSR  172
+
+
+> sp|Q8FXF9|VJBR_BRUSU HTH-type quorum sensing-dependent transcriptional 
+regulator VjbR OS=Brucella suis biovar 1 (strain 1330) 
+OX=204722 GN=vjbR PE=3 SV=1
+Length=259
+
+ Score = 100 bits (249),  Expect = 3e-25, Method: Composition-based stats.
+ Identities = 21/156 (13%), Positives = 49/156 (31%), Gaps = 16/156 (10%)
+
+Query  4    YFDNESINEDIKNYIQRRIKAYGDLRYSYLVXN------KKTPLHPTIISNYPLDWVKKY  57
+            +F +   ++ +   + R     G    ++          K      T++   P  WV +Y
+Sbjct  15   FFGSSFQSDTLA-LLTRIRDEIGCRYVTHTYRGRVGDCTKVNSADLTVLMTLPATWVARY  73
+
+Query  58   KKNSYHLIDPVIL----TAKDKVAPFAWD--DNSVINKKDSAVFKLAREYNIVNGY-TFV  110
+               +Y  IDPV        ++  +  A D  +++ I    + +   A ++ + N +    
+Sbjct  74   SSKNYFAIDPVFQEDAPYYRNDTSAIARDLKEDADICPAVAELLHDAEKHGLGNLFIAVS  133
+
+Query  111  LHDNSNNXA--TLNISNGSDDSISFDESIEINKEKI  144
+              +                +D   F   +      +
+Sbjct  134  ARNPKGVAGCTVFTFEVEDEDRTQFLARMRPRLLSL  169
+
+
+> sp|Q8YAY5|VJBR_BRUME HTH-type quorum sensing-dependent transcriptional 
+regulator VjbR OS=Brucella melitensis biotype 1 (strain 
+16M / ATCC 23456 / NCTC 10094) OX=224914 GN=vjbR PE=1 
+SV=2
+Length=259
+
+ Score = 100 bits (249),  Expect = 3e-25, Method: Composition-based stats.
+ Identities = 21/156 (13%), Positives = 49/156 (31%), Gaps = 16/156 (10%)
+
+Query  4    YFDNESINEDIKNYIQRRIKAYGDLRYSYLVXN------KKTPLHPTIISNYPLDWVKKY  57
+            +F +   ++ +   + R     G    ++          K      T++   P  WV +Y
+Sbjct  15   FFGSSFQSDTLA-LLTRIRDEIGCRYVTHTYRGRVGDCTKVNSADLTVLMTLPATWVARY  73
+
+Query  58   KKNSYHLIDPVIL----TAKDKVAPFAWD--DNSVINKKDSAVFKLAREYNIVNGY-TFV  110
+               +Y  IDPV        ++  +  A D  +++ I    + +   A ++ + N +    
+Sbjct  74   SSKNYFAIDPVFQEDAPYYRNDTSAIARDLKEDADICPAVAELLHDAEKHGLGNLFIAVS  133
+
+Query  111  LHDNSNNXA--TLNISNGSDDSISFDESIEINKEKI  144
+              +                +D   F   +      +
+Sbjct  134  ARNPKGVAGCTVFTFEVEDEDRTQFLARMRPRLLSL  169
+
+
+> sp|Q579W9|VJBR_BRUAB HTH-type quorum sensing-dependent transcriptional 
+regulator VjbR OS=Brucella abortus biovar 1 (strain 
+9-941) OX=262698 GN=vjbR PE=3 SV=1
+Length=259
+
+ Score = 100 bits (249),  Expect = 3e-25, Method: Composition-based stats.
+ Identities = 21/156 (13%), Positives = 49/156 (31%), Gaps = 16/156 (10%)
+
+Query  4    YFDNESINEDIKNYIQRRIKAYGDLRYSYLVXN------KKTPLHPTIISNYPLDWVKKY  57
+            +F +   ++ +   + R     G    ++          K      T++   P  WV +Y
+Sbjct  15   FFGSSFQSDTLA-LLTRIRDEIGCRYVTHTYRGRVGDCTKVNSADLTVLMTLPATWVARY  73
+
+Query  58   KKNSYHLIDPVIL----TAKDKVAPFAWD--DNSVINKKDSAVFKLAREYNIVNGY-TFV  110
+               +Y  IDPV        ++  +  A D  +++ I    + +   A ++ + N +    
+Sbjct  74   SSKNYFAIDPVFQEDAPYYRNDTSAIARDLKEDADICPAVAELLHDAEKHGLGNLFIAVS  133
+
+Query  111  LHDNSNNXA--TLNISNGSDDSISFDESIEINKEKI  144
+              +                +D   F   +      +
+Sbjct  134  ARNPKGVAGCTVFTFEVEDEDRTQFLARMRPRLLSL  169
+
+
+> sp|Q2YJ50|VJBR_BRUA2 HTH-type quorum sensing-dependent transcriptional 
+regulator VjbR OS=Brucella abortus (strain 2308) OX=359391 
+GN=vjbR PE=1 SV=1
+Length=259
+
+ Score = 100 bits (249),  Expect = 3e-25, Method: Composition-based stats.
+ Identities = 21/156 (13%), Positives = 49/156 (31%), Gaps = 16/156 (10%)
+
+Query  4    YFDNESINEDIKNYIQRRIKAYGDLRYSYLVXN------KKTPLHPTIISNYPLDWVKKY  57
+            +F +   ++ +   + R     G    ++          K      T++   P  WV +Y
+Sbjct  15   FFGSSFQSDTLA-LLTRIRDEIGCRYVTHTYRGRVGDCTKVNSADLTVLMTLPATWVARY  73
+
+Query  58   KKNSYHLIDPVIL----TAKDKVAPFAWD--DNSVINKKDSAVFKLAREYNIVNGY-TFV  110
+               +Y  IDPV        ++  +  A D  +++ I    + +   A ++ + N +    
+Sbjct  74   SSKNYFAIDPVFQEDAPYYRNDTSAIARDLKEDADICPAVAELLHDAEKHGLGNLFIAVS  133
+
+Query  111  LHDNSNNXA--TLNISNGSDDSISFDESIEINKEKI  144
+              +                +D   F   +      +
+Sbjct  134  ARNPKGVAGCTVFTFEVEDEDRTQFLARMRPRLLSL  169
+
+
+> sp|Q89VI3|BJAR1_BRADU Transcriptional activator protein BjaR1 
+OS=Bradyrhizobium diazoefficiens (strain JCM 10833 / IAM 13628 
+/ NBRC 14792 / USDA 110) OX=224911 GN=bjaR1 PE=3 SV=1
+Length=242
+
+ Score = 99.0 bits (245),  Expect = 7e-25, Method: Composition-based stats.
+ Identities = 24/135 (18%), Positives = 49/135 (36%), Gaps = 19/135 (14%)
+
+Query  27   DLRYSYLVXNKKTPLHPTIISNYPLDWVKKYKKNSYHLIDPVILTAKDKVAPFAWDDNSV  86
+            D R++ +V  K+          +P  W   Y +N+Y   DPV+   +  V PF W +   
+Sbjct  51   DQRFAQMVLAKR----------WPAGWFNLYTQNNYDRFDPVVRLCRQSVNPFEWSEAPY  100
+
+Query  87   ---INKKDSAVFKLAREYNIVNGYTFVLHDNSNNXATLNISNGSDDSISFDESIEINKEK  143
+               +    + V   A ++ +  G+   +H  +   A +++     D           K  
+Sbjct  101  DAELEPSAAEVMNRAGDFRMSRGFIVPIHGLTGYEAAVSLGGVHLDLNPRS------KPA  154
+
+Query  144  IQXLLILTHEKXLGL  158
+            +  + +   +    L
+Sbjct  155  LHLMAMYGFDHIRRL  169
+
+
+> sp|A5VTN1|VJBR_BRUO2 HTH-type quorum sensing-dependent transcriptional 
+regulator VjbR OS=Brucella ovis (strain ATCC 25840 
+/ 63/290 / NCTC 10512) OX=444178 GN=vjbR PE=3 SV=2
+Length=259
+
+ Score = 99.4 bits (246),  Expect = 8e-25, Method: Composition-based stats.
+ Identities = 21/156 (13%), Positives = 49/156 (31%), Gaps = 16/156 (10%)
+
+Query  4    YFDNESINEDIKNYIQRRIKAYGDLRYSYLVXN------KKTPLHPTIISNYPLDWVKKY  57
+            +F +   ++ +   + R     G    ++          K      T++   P  WV +Y
+Sbjct  15   FFGSSFQSDTLA-LLTRIRDEIGCRYVTHTYRGRVGDCTKVNSADLTVLITLPATWVARY  73
+
+Query  58   KKNSYHLIDPVIL----TAKDKVAPFAWD--DNSVINKKDSAVFKLAREYNIVNGY-TFV  110
+               +Y  IDPV        ++  +  A D  +++ I    + +   A ++ + N +    
+Sbjct  74   SSKNYFAIDPVFQEDAPYYRNDTSAIARDLKEDADICPAVAELLHDAEKHGLGNLFIAVS  133
+
+Query  111  LHDNSNNXA--TLNISNGSDDSISFDESIEINKEKI  144
+              +                +D   F   +      +
+Sbjct  134  ARNPKGVAGCTVFTFEVEDEDRTQFLARMRPRLLSL  169
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.132    0.362    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0404    0.140     1.90     42.6     43.6 
+
+Effective search space used: 7525269130
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 28, 2021  3:44 PM
+  Number of letters in database: 202,799,066
+  Number of sequences in database:  563,082
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

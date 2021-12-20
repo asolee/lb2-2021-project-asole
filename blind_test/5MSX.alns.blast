@@ -1,0 +1,3543 @@
+PSIBLAST 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           563,082 sequences; 202,799,066 total letters
+
+Results from round 1
+
+
+Query= 5MSX
+
+Length=439
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|P45796|XYND_PAEPO Arabinoxylan arabinofuranohydrolase OS=Pae...  63.5    1e-09
+  sp|Q45071|XYND_BACSU Arabinoxylan arabinofuranohydrolase OS=Bac...  59.7    2e-08
+  sp|A5IKD4|EABN_THEP1 Extracellular endo-alpha-(1->5)-L-arabinan...  53.5    2e-06
+  sp|P77713|YAGH_ECOLI Putative beta-xylosidase OS=Escherichia co...  53.1    3e-06
+  sp|A7LXU0|GH43B_BACO1 Non-reducing end alpha-L-arabinofuranosid...  48.5    9e-05
+  sp|A7LXT8|GH43A_BACO1 Non-reducing end alpha-L-arabinofuranosid...  46.2    4e-04
+  sp|A9ZND1|XLOA_VIBSX Xylan 1,3-beta-xylosidase OS=Vibrio sp. OX...  46.2    4e-04
+  sp|P42293|EABN2_BACSU Extracellular endo-alpha-(1->5)-L-arabina...  45.8    5e-04
+  sp|P94489|XYNB_BACSU Beta-xylosidase OS=Bacillus subtilis (stra...  45.8    7e-04
+  sp|P45982|XYLB_BUTFI Xylosidase/arabinosidase OS=Butyrivibrio f...  42.0    0.010
+
+
+> sp|P45796|XYND_PAEPO Arabinoxylan arabinofuranohydrolase OS=Paenibacillus 
+polymyxa OX=1406 GN=xynD PE=1 SV=1
+Length=635
+
+ Score = 63.5 bits (153),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 82/314 (26%), Positives = 121/314 (39%), Gaps = 68/314 (22%)
+
+Query  47   VWKSKDFVHWSFDGTYFPSAAKEK------------YWAPS---KAIFANGKYYIYPTIN  91
+            V  S D V+W+  GT   + A  K             WAP+   K I    K+++Y    
+Sbjct  89   VISSTDMVNWTDHGTIPVAGANNKNSGRGIAKWASNSWAPAVAHKKINGRDKFFLYFANG  148
+
+Query  92   GYMYPAV-ADKPEGPFKLARGKDEFYKPFTPSTLLQSKNPG--GI----DAEIFVDDDGQ  144
+            G     + AD P GP+    GK           L+    PG  G+    D  + VDDDG 
+Sbjct  149  GAGIGVLTADTPIGPWTDPLGK----------ALVTHSTPGMAGVTWLFDPAVLVDDDGT  198
+
+Query  145  AYVFWG----------------RRHVAKLNEDMITVDSVVQVISTPRKEYSEGPIFFKRK  188
+             Y++ G                   V KL  DM +V      I  P      G    K  
+Sbjct  199  GYLYSGGGIPNESDPASIANPKTARVIKLGADMTSVIGSATTIDAPYLFEDSG--IHKYN  256
+
+Query  189  GIYYYLYTI--GGDEKYQY-----AYVMSRVSPMGPFEAPEQDIISTTNYERGIFGPGHG  241
+            G YYY Y I   G    QY      Y++S  +PMGPF      + +   +  G+ G  H 
+Sbjct  257  GKYYYSYCINFAGTHPQQYPAGEIGYMVSD-NPMGPFTYKGHFLKNPYTF-FGVGGNNHH  314
+
+Query  242  CVFHPEGTDNYYFAY-------LEFGRRSTNRQTYVNQLKFNEDGTIRPVELTMDGVGAL  294
+             VF+ +  + +Y  Y        + G     R  ++N+L   EDG+I  V+  M G+  L
+Sbjct  315  AVFNFK--NEWYVVYHAQTVSKAQIGAGKGYRSPHINKLVHKEDGSISEVQGNMTGIAQL  372
+
+Query  295  KKVKSDKKMKIDTV  308
+              +    +++ +T+
+Sbjct  373  SNMNPYTRVEAETI  386
+
+
+> sp|Q45071|XYND_BACSU Arabinoxylan arabinofuranohydrolase OS=Bacillus 
+subtilis (strain 168) OX=224308 GN=xynD PE=1 SV=2
+Length=513
+
+ Score = 59.7 bits (143),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 77/272 (28%), Positives = 104/272 (38%), Gaps = 46/272 (17%)
+
+Query  72   WAPS---KAIFANGKYYIY-PTINGYMYPAVADKPEGPFKLARGKDEFYKPF-TPSTLLQ  126
+            WAPS   K I    K+++Y     G +    AD P GP+      D   KP  TPST   
+Sbjct  127  WAPSIAVKKINGKDKFFLYFANSGGGIGVLTADSPIGPWT-----DPIGKPLVTPSTPGM  181
+
+Query  127  SKNPGGIDAEIFVDDDGQAYVFWG------------------RRHVAKLNEDMITVDSVV  168
+            S      D  +FVDDDG  Y++ G                     V KL  DM +V    
+Sbjct  182  SGVVWLFDPAVFVDDDGTGYLYAGGGVPGVSNPTQGQWANPKTARVIKLGPDMTSVVGSA  241
+
+Query  169  QVISTPRKEYSEGPIFFKRKGIYYYLYTI--GG----DEKYQYAYVMSRVSPMGPFEAPE  222
+              I  P      G    K  G YYY Y I  GG    D+       M+  SPMGPF    
+Sbjct  242  STIDAPFMFEDSG--LHKYNGTYYYSYCINFGGTHPADKPPGEIGYMTSSSPMGPFTY-R  298
+
+Query  223  QDIISTTNYERGIFGPGHGCVFHPEGTDNYYFAYLE-------FGRRSTNRQTYVNQLKF  275
+               +       G  G  H  VF+ +  + +Y  Y         FG     R  ++N+L  
+Sbjct  299  GHFLKNPGAFFGGGGNNHHAVFNFK--NEWYVVYHAQTVSSALFGAGKGYRSPHINKLVH  356
+
+Query  276  NEDGTIRPVELTMDGVGALKKVKSDKKMKIDT  307
+            N DG+I+ V     GV  +  +    +++ +T
+Sbjct  357  NADGSIQEVAANYAGVTQISNLNPYNRVEAET  388
+
+
+> sp|A5IKD4|EABN_THEP1 Extracellular endo-alpha-(1->5)-L-arabinanase 
+OS=Thermotoga petrophila (strain RKU-1 / ATCC BAA-488 
+/ DSM 13995) OX=390874 GN=Tpet_0637 PE=1 SV=1
+Length=471
+
+ Score = 53.5 bits (127),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 76/338 (22%), Positives = 123/338 (36%), Gaps = 83/338 (25%)
+
+Query  13   MIADASIQEINGVFYCYATTDGYGQGLKTSGPPVVWKSKDFVHWS---------------  57
+            ++ D SI ++  ++Y + T               V KSKD +HW                
+Sbjct  29   VVHDPSIIKVGNMYYVFGTH------------LQVAKSKDLMHWEQINTSAHDKNPIIPN  76
+
+Query  58   ----FDGTYFPSAAKEKYWAPSKAIFANGKYYIYPTINGYMYP------AVADKPEGPFK  107
+                   T   +  +   WAP     ++G+YY+Y   + +  P      AV+D  EGP+K
+Sbjct  77   INEELKETLSWARTRNDIWAPQVIQLSDGRYYMYYCASTFGSPRSAIGIAVSDDIEGPYK  136
+
+Query  108  ---LARGKDEFYKPFTPST----LLQSKNPGGIDAEIFVDDDGQAYVFWGR----RHVAK  156
+               +     + Y    PS         K+P  +D  +F D +G  ++ +G      ++ K
+Sbjct  137  HYAVIVKSGQVYSVDGPSEDGTPYDSRKHPNALDPGVFYDKEGNLWMVYGSWFGGIYILK  196
+
+Query  157  LNEDM---ITVDSVVQVISTPRKEYSEGP-IFFKRKGIYYYLYTIGGDEKYQYAY---VM  209
+            L+ +    +      + +        EGP I +     YYYL+   G   Y+  Y   V 
+Sbjct  197  LDPNTGLPLPGQGYGKRLVGGNHSSMEGPYILYSPDTDYYYLFLSFGGLDYRGGYNIRVA  256
+
+Query  210  SRVSPMGPFEAPEQDIIST--------TNYERGIFG-------------------PGHGC  242
+               +P GP+  PE   +          +NY   + G                   PGH  
+Sbjct  257  RSKNPNGPYYDPEGKSMENCMGSKTVISNYGAKLVGNFILSESNTIDFKAFGYVSPGHNS  316
+
+Query  243  VFH-PEGTDNYYFAYLEFGRRSTNRQTYVNQLKFNEDG  279
+             ++ PE    + F +  F  R    Q  V+QL  NEDG
+Sbjct  317  AYYDPETGKYFIFFHTRFPGRGETYQLRVHQLFLNEDG  354
+
+
+> sp|P77713|YAGH_ECOLI Putative beta-xylosidase OS=Escherichia 
+coli (strain K12) OX=83333 GN=yagH PE=3 SV=1
+Length=536
+
+ Score = 53.1 bits (126),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 63/246 (26%), Positives = 99/246 (40%), Gaps = 55/246 (22%)
+
+Query  47   VWKSKDFVHWSFDGTYFPSAA---------KEKYWAPSKAIFANGKYYIY---------P  88
+            ++ S+D  +WS   T     +             WAP  + +A+GK+++          P
+Sbjct  39   IYHSRDLKNWSLVSTPLDRVSMLDMKGNPDSGGIWAPCLS-YADGKFWLLYTDVKIVDSP  97
+
+Query  89   TINGYMYPAVADKPEGPFKLARGKDEFYKPFTPSTLLQSKNPGGIDAEIFVDDDGQAYVF  148
+              NG  +   A   EGP+               S  +   N GG D  +F DDDG+ Y  
+Sbjct  98   WKNGRNFLVTAPSIEGPW---------------SEPIPMGN-GGFDPSLFHDDDGRKYYI  141
+
+Query  149  ---WGRRHVAKLNEDMI--TVDSVVQVISTPRKE--------YSEGPIFFKRKGIYYYLY  195
+               WG RH +  +  ++    D     +S  RK         Y+EG   ++  G +YYL 
+Sbjct  142  YRPWGPRHHSNPHNTIVLQAFDPQTGTLSPERKTLFTGTPLCYTEGAHLYRHAG-WYYLM  200
+
+Query  196  TIGGDEKYQYAYVMSRVSPM-GPFEAPEQDIISTTNY---ERGIFGPGHGCVFHPEGTDN  251
+               G   Y++A V+ R   + GP+E    D+   T++   E  +   GHG +     T  
+Sbjct  201  AAEGGTSYEHAVVVLRSKNIDGPYEL-HPDVTMMTSWHLPENPLQKSGHGSLLQTH-TGE  258
+
+Query  252  YYFAYL  257
+            +Y AYL
+Sbjct  259  WYMAYL  264
+
+
+> sp|A7LXU0|GH43B_BACO1 Non-reducing end alpha-L-arabinofuranosidase 
+BoGH43B OS=Bacteroides ovatus (strain ATCC 8483 / DSM 
+1896 / JCM 5824 / NCTC 11153) OX=411476 GN=BACOVA_02656 PE=1 
+SV=2
+Length=529
+
+ Score = 48.5 bits (114),  Expect = 9e-05, Method: Compositional matrix adjust.
+ Identities = 66/244 (27%), Positives = 99/244 (41%), Gaps = 39/244 (16%)
+
+Query  5    FGNALIPDMIADASIQEINGVFYCYATTDGYGQGLKTSGPPVVWKSKDFVHWSFDGTYFP  64
+            F N +I  M  D SI  +   FY   +T  Y  GL       V+ SKD VHW   G    
+Sbjct  27   FRNPIITGMNPDPSICRVGDDFYLVTSTFEYFPGLP------VYHSKDLVHWKLIGHALS  80
+
+Query  65   ----------SAAKEKYWAPSKAIFANGKYYIYPTINGY-----MYPAVADKPEGPFKLA  109
+                      +A+    +AP+   + +G +Y+  T  G      ++   A  P GP+   
+Sbjct  81   RPENNPLMGCNASTGGQYAPTLR-YHDGTFYVIGTNYGGKGSQGVFYVTAKNPAGPWSDP  139
+
+Query  110  RGKDEFYKPFTPSTLLQSKNPGGIDAEI-FVDDDGQAYVFWGRRHVAKLNEDMITVDSVV  168
+                 +Y    PS          ID ++ F+  D Q     G        E    V+++ 
+Sbjct  140  VWVGNWY--VDPSIEF-------IDGKMYFLSPDNQGSFLLGVMD----PETGTFVEALR  186
+
+Query  169  QVISTPRKEYSEGPIFFKRKGIYYYLYTIGGDEKYQYAYVMSRV-SPMGPFE-APEQDII  226
+            +V S       EGP F+K  G YYY+ +  G   Y++  V+ R  SP GP+E +P   ++
+Sbjct  187  KVASGLGGSSPEGPHFYK-IGDYYYIMSAEGGTGYEHREVIQRSKSPWGPYEPSPVNPVL  245
+
+Query  227  STTN  230
+            S  N
+Sbjct  246  SNMN  249
+
+
+> sp|A7LXT8|GH43A_BACO1 Non-reducing end alpha-L-arabinofuranosidase 
+BoGH43A OS=Bacteroides ovatus (strain ATCC 8483 / DSM 
+1896 / JCM 5824 / NCTC 11153) OX=411476 GN=BACOVA_02654 PE=1 
+SV=1
+Length=526
+
+ Score = 46.2 bits (108),  Expect = 4e-04, Method: Compositional matrix adjust.
+ Identities = 72/293 (25%), Positives = 117/293 (40%), Gaps = 39/293 (13%)
+
+Query  5    FGNALIPDMIADASIQEINGVFYCYATTDGYGQGLKTSGPPVVWKSKDFVHWSFDGTYF-  63
+            + N +IP    D S+ +    +Y   ++  Y  G+       ++ SKD VHW   G    
+Sbjct  23   YSNPVIPGFHPDPSVCKAGDDYYLVNSSFQYFPGVP------LFHSKDLVHWEQIGNCLT  76
+
+Query  64   -PSAAKEKYWAPSKAIFANGKYYIYPTI---NGYMYPAVADKPEGPFKLARGKDEFYKPF  119
+             PS            IFA       PTI   +G  Y    +       L    D   +  
+Sbjct  77   RPSQLDLTNANSGSGIFA-------PTIRYNDGVFYMITTNVSGKGNFLVHTTDPRSEWS  129
+
+Query  120  TPSTLLQSKNPGGIDAEIFVDDDGQAYVFWGRRHVAKLNE-DMIT---VDSVVQVISTPR  175
+             P  L Q    GGID  ++ +D G+ ++         L E D +T   + S  ++ +   
+Sbjct  130  EPVWLEQ----GGIDPSLYFED-GKCFMVSNPDGYINLCEIDPMTGKQLSSSKRIWNGTG  184
+
+Query  176  KEYSEGPIFFKRKGIYYYLYTIGGDEKYQYAYVMSRVSPMGPFEAPEQDIISTTNYERG-  234
+              Y+EGP  +K+ G YY L + GG E      +       GP++    + I T   E G 
+Sbjct  185  GRYAEGPHIYKKDGWYYLLISEGGTELGHKVTIARSRYIDGPYQGNPANPILTHANESGQ  244
+
+Query  235  ---IFGPGHGCVFHPEGTD-NYYFAYLEF-----GRRSTNRQTYVNQLKFNED  278
+               I G GH  +   EGTD +++   L +        +  R+TY+  +++++D
+Sbjct  245  SSPIQGTGHADLV--EGTDGSWWMVCLAYRIMPGTHHTLGRETYLAPVRWDKD  295
+
+
+> sp|A9ZND1|XLOA_VIBSX Xylan 1,3-beta-xylosidase OS=Vibrio sp. 
+OX=678 GN=xloA PE=1 SV=1
+Length=535
+
+ Score = 46.2 bits (108),  Expect = 4e-04, Method: Compositional matrix adjust.
+ Identities = 43/165 (26%), Positives = 70/165 (42%), Gaps = 17/165 (10%)
+
+Query  132  GIDAEIFVDDDGQAYVF---WGRRHVAKLNEDMITVD---SVVQVISTPRKEY-------  178
+            G D  +F DDDG+ Y+    WG R        +I  +      +++  P+  +       
+Sbjct  128  GFDPSLFHDDDGKKYMLNMIWGGRAKTNFFGGIIMQEFDADEGKLVGAPKTVFEGTELGC  187
+
+Query  179  SEGPIFFKRKGIYYYLYTIGGDEKYQYAYVMSRVSPMGPFEA-PEQDIISTTNYERGIFG  237
+            +EGP   K+   YY +   GG E+     V       GP+E  PE  I+++   E     
+Sbjct  188  TEGPQLLKKDDYYYLITAEGGTERNHAVTVCRSKHIWGPYEVHPENPILTSRFQEHAELS  247
+
+Query  238  -PGHGCVFHPEGTDNYYFAYLEFGRRSTNRQTYVNQLKFNEDGTI  281
+              GHG +   + T  +Y ++L  GRR  N + Y    K++   +I
+Sbjct  248  RAGHGFLVETQ-TGEWYMSHL-CGRRIPNPEGYQFMPKYDNGFSI  290
+
+
+> sp|P42293|EABN2_BACSU Extracellular endo-alpha-(1->5)-L-arabinanase 
+2 OS=Bacillus subtilis (strain 168) OX=224308 GN=abn2 
+PE=1 SV=2
+Length=469
+
+ Score = 45.8 bits (107),  Expect = 5e-04, Method: Compositional matrix adjust.
+ Identities = 47/166 (28%), Positives = 66/166 (40%), Gaps = 43/166 (26%)
+
+Query  14   IADASIQEINGVFYCYATTDGYGQGLKTSGPPVVWKSKDFVHW-------SFDGTYFPS-  65
+            + D SI E NG FY +      G  L ++      KS D + W       S D    P+ 
+Sbjct  36   VHDPSIIETNGTFYVF------GSHLASA------KSNDLMQWQQLTTSVSNDNPLIPNV  83
+
+Query  66   ----------AAKEKYWAPSKAIFANGKYYIY------PTINGYMYPAVADKPEGPFK--  107
+                      A  +  WA      A+GKYY+Y       +    M  AVAD  EGP+K  
+Sbjct  84   YEELKETFEWAQSDTLWAADVTQLADGKYYMYYNACRGDSPRSAMGVAVADNIEGPYKNK  143
+
+Query  108  ---LARGKDEFYKPFTPSTLLQSKNPGGIDAEIFVDDDGQAYVFWG  150
+               L  G +      TP     +K+P  +D   F D DG+ ++ +G
+Sbjct  144  GIFLKSGMEGTSSDGTPYD--ATKHPNVVDPHTFFDKDGKLWMVYG  187
+
+
+> sp|P94489|XYNB_BACSU Beta-xylosidase OS=Bacillus subtilis (strain 
+168) OX=224308 GN=xynB PE=1 SV=2
+Length=533
+
+ Score = 45.8 bits (107),  Expect = 7e-04, Method: Compositional matrix adjust.
+ Identities = 40/146 (27%), Positives = 70/146 (48%), Gaps = 20/146 (14%)
+
+Query  129  NPGGIDAEIFVDDDGQAYVF---WGRRHVAKLNEDMITV----DSVVQVISTPR------  175
+            N  G DA +F D DG+ Y+    W  R + + +   I +    D   ++I  P+      
+Sbjct  122  NSSGFDASLFHDTDGKKYLLNMLWDHR-IDRHSFGGIVIQEYSDKEQKLIGKPKVIFEGT  180
+
+Query  176  -KEYSEGPIFFKRKGIYYYLYTIGGDEKYQYAYVMSRVSPM-GPFEAPEQDIISTTNYER  233
+             ++ +E P  +   G YYYL T  G  +Y++A  ++R + + GP+E    + I T+ ++ 
+Sbjct  181  DRKLTEAPHLY-HIGNYYYLLTAEGGTRYEHAATIARSANIEGPYEVHPDNPILTSWHDP  239
+
+Query  234  G--IFGPGHGCVFHPEGTDNYYFAYL  257
+            G  +   GH  +     TD +Y A+L
+Sbjct  240  GNPLQKCGHASIVQTH-TDEWYLAHL  264
+
+
+> sp|P45982|XYLB_BUTFI Xylosidase/arabinosidase OS=Butyrivibrio 
+fibrisolvens OX=831 GN=xylB PE=3 SV=1
+Length=517
+
+ Score = 42.0 bits (97),  Expect = 0.010, Method: Compositional matrix adjust.
+ Identities = 75/311 (24%), Positives = 123/311 (40%), Gaps = 59/311 (19%)
+
+Query  2    NNPFGNALIPDMIADASIQEINGVFYCYATTDGYGQGLKTSGPPVVWKSKDFVHWSFDGT  61
+            NNP      PD     SI      FY   ++  Y  G+       ++ +KD  H+   G 
+Sbjct  5    NNPILKGFYPD----PSICRKGDDFYLVCSSFVYAPGVP------IFHTKDLAHFEQIGN  54
+
+Query  62   YFPSAAKEKYWAP-SKAIFA------NGKYYIYPT--INGYMYPAVADKPEGPFKLARGK  112
+                 ++       S+ IFA      NG +Y+  T   +G  +   A  P GP+      
+Sbjct  55   ILDRESQLPLSGDISRGIFAPTIREHNGIFYMITTNVSSGGNFIVTAKDPAGPWS-----  109
+
+Query  113  DEFYKPFTPSTLLQSKNPGGIDAEIFVDDDGQAYVFWGRRH-------------VAKLN-  158
+                    P  L + + PG ID  +F DDDG+ Y    R +             V +L+ 
+Sbjct  110  -------EPYYLGEDEAPG-IDPSLFFDDDGKCYYVGTRPNPDGVRYNGDWEIWVQELDL  161
+
+Query  159  EDMITVDSVVQVISTPRKE--YSEGPIFFKRKGIYYYLYTIGGDEKYQYAYVMSRVSPMG  216
+            E M  V   + +     K+  + EGP  +K+ G YY L+   G   +++A  ++R   + 
+Sbjct  162  EQMKLVGPSMAIWKGALKDVIWPEGPHLYKKDGYYYLLHAEAG-TSFEHAISVARSKELF  220
+
+Query  217  P-FE-APEQDIISTTNYERG--IFGPGHGCVFHPEGTDNYYFAYLEF----GRRSTNRQT  268
+              FE  P   I +  N  +   +   GH  +   +   N+Y   L      G+ S  R+T
+Sbjct  221  KWFEGCPRNPIFTHRNLGKDYPVCNVGHADLVD-DINGNWYMVMLASRPCKGKCSLGRET  279
+
+Query  269  YVNQLKFNEDG  279
+            ++ ++ + EDG
+Sbjct  280  FLAKVIW-EDG  289
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.138    0.435    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 42823833792
+Results from round 2
+
+
+Query= 5MSX
+
+Length=439
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|A7LXT8|GH43A_BACO1 Non-reducing end alpha-L-arabinofuranosid...  274     1e-85
+  sp|A7LXU0|GH43B_BACO1 Non-reducing end alpha-L-arabinofuranosid...  251     1e-76
+  sp|P45796|XYND_PAEPO Arabinoxylan arabinofuranohydrolase OS=Pae...  251     1e-75
+  sp|Q45071|XYND_BACSU Arabinoxylan arabinofuranohydrolase OS=Bac...  242     2e-73
+  sp|A9ZND1|XLOA_VIBSX Xylan 1,3-beta-xylosidase OS=Vibrio sp. OX...  234     4e-70
+  sp|A5IKD4|EABN_THEP1 Extracellular endo-alpha-(1->5)-L-arabinan...  228     2e-68
+  sp|P77713|YAGH_ECOLI Putative beta-xylosidase OS=Escherichia co...  223     3e-66
+  sp|P94489|XYNB_BACSU Beta-xylosidase OS=Bacillus subtilis (stra...  211     2e-61
+  sp|P42293|EABN2_BACSU Extracellular endo-alpha-(1->5)-L-arabina...  168     6e-46
+
+Sequences not found previously or not previously below threshold:
+
+  sp|P07129|XYNB_BACPU Beta-xylosidase OS=Bacillus pumilus OX=140...  197     3e-56
+  sp|P45982|XYLB_BUTFI Xylosidase/arabinosidase OS=Butyrivibrio f...  177     9e-49
+  sp|Q9WXE8|XYLO_PRERU Putative beta-xylosidase OS=Prevotella rum...  117     2e-27
+  sp|T2KN85|PLH27_FORAG Beta-xylosidase OS=Formosa agariphila (st...  92.9    5e-19
+  sp|Q93HT9|IABN_GEOTD Intracellular endo-alpha-(1->5)-L-arabinan...  89.9    9e-19
+  sp|B3EYM8|IABN_GEOSE Intracellular endo-alpha-(1->5)-L-arabinan...  87.9    5e-18
+  sp|P94522|EABN1_BACSU Extracellular endo-alpha-(1->5)-L-arabina...  86.4    2e-17
+  sp|P48790|XYLA_THEST Xylosidase/arabinosidase OS=Thermoclostrid...  87.9    2e-17
+  sp|P95470|ARBA_CELJU Extracellular exo-alpha-(1->5)-L-arabinofu...  86.4    2e-17
+  sp|P49943|XYLB_BACOV Xylosidase/arabinosidase OS=Bacteroides ov...  86.0    3e-17
+  sp|A1DHW8|ABNB_NEOFI Probable arabinan endo-1,5-alpha-L-arabino...  75.2    1e-13
+  sp|P48791|XYNB_PRERU Beta-xylosidase OS=Prevotella ruminicola O...  72.5    9e-13
+  sp|B0XTS5|ABNB_ASPFC Probable arabinan endo-1,5-alpha-L-arabino...  71.4    3e-12
+  sp|Q4X0A5|ABNB_ASPFU Probable arabinan endo-1,5-alpha-L-arabino...  71.4    3e-12
+  sp|Q0CY27|ABNB_ASPTN Probable arabinan endo-1,5-alpha-L-arabino...  67.9    4e-11
+  sp|Q2UI74|ABNB_ASPOR Probable arabinan endo-1,5-alpha-L-arabino...  64.0    7e-10
+  sp|B8N803|ABNB_ASPFN Probable arabinan endo-1,5-alpha-L-arabino...  62.9    2e-09
+  sp|A2QT85|ABNA_ASPNC Probable arabinan endo-1,5-alpha-L-arabino...  62.5    2e-09
+  sp|P42256|ABNA_ASPNG Arabinan endo-1,5-alpha-L-arabinosidase A ...  62.5    2e-09
+  sp|B0YDT3|ABNC_ASPFC Probable arabinan endo-1,5-alpha-L-arabino...  58.6    3e-08
+  sp|Q5B8T6|ABND_EMENI Probable arabinan endo-1,5-alpha-L-arabino...  59.0    3e-08
+  sp|Q82P90|IABF_STRAW Extracellular exo-alpha-(1->5)-L-arabinofu...  59.0    4e-08
+  sp|Q5AZC8|ABNB_EMENI Arabinan endo-1,5-alpha-L-arabinosidase B ...  58.6    4e-08
+  sp|Q9HFS9|ABNA_ASPAC Arabinan endo-1,5-alpha-L-arabinosidase A ...  57.9    5e-08
+  sp|Q4W930|ABNC_ASPFU Probable arabinan endo-1,5-alpha-L-arabino...  57.5    7e-08
+  sp|A1CLG4|ABNA_ASPCL Probable arabinan endo-1,5-alpha-L-arabino...  56.7    1e-07
+  sp|A1D5W1|ABNA_NEOFI Probable arabinan endo-1,5-alpha-L-arabino...  54.8    5e-07
+  sp|Q4WYX7|ABNA_ASPFU Probable arabinan endo-1,5-alpha-L-arabino...  54.4    7e-07
+  sp|B0XZW5|ABNA_ASPFC Probable arabinan endo-1,5-alpha-L-arabino...  54.4    7e-07
+  sp|Q5BA96|ABNA_EMENI Probable arabinan endo-1,5-alpha-L-arabino...  51.3    8e-06
+  sp|Q2U1X8|ABNC_ASPOR Probable arabinan endo-1,5-alpha-L-arabino...  47.5    1e-04
+  sp|B8NMD3|ABNC_ASPFN Probable arabinan endo-1,5-alpha-L-arabino...  47.5    1e-04
+  sp|P96463|EABF_STRLI Extracellular exo-alpha-L-arabinofuranosid...  44.0    0.002
+  sp|O54161|EABF_STRCO Extracellular exo-alpha-L-arabinofuranosid...  43.2    0.004
+  sp|P82594|IABF_STRCX Extracellular exo-alpha-(1->5)-L-arabinofu...  42.9    0.004
+
+
+> sp|A7LXT8|GH43A_BACO1 Non-reducing end alpha-L-arabinofuranosidase 
+BoGH43A OS=Bacteroides ovatus (strain ATCC 8483 / DSM 
+1896 / JCM 5824 / NCTC 11153) OX=411476 GN=BACOVA_02654 PE=1 
+SV=1
+Length=526
+
+ Score = 274 bits (700),  Expect = 1e-85, Method: Composition-based stats.
+ Identities = 64/289 (22%), Positives = 108/289 (37%), Gaps = 31/289 (11%)
+
+Query  5    FGNALIPDMIADASIQEINGVFYCYATTDGYGQGLKTSGPPVVWKSKDFVHWSFDGTYF-  63
+            + N +IP    D S+ +    +Y   ++  Y  G+       ++ SKD VHW   G    
+Sbjct  23   YSNPVIPGFHPDPSVCKAGDDYYLVNSSFQYFPGVP------LFHSKDLVHWEQIGNCLT  76
+
+Query  64   -PSAAKEKYWAPSKAIFANGKYYIYPTINGYMYPAVADKPEGPFKLARGKDEFYKPFTPS  122
+             PS            IFA    Y     +G  Y    +       L    D   +   P 
+Sbjct  77   RPSQLDLTNANSGSGIFAPTIRY----NDGVFYMITTNVSGKGNFLVHTTDPRSEWSEPV  132
+
+Query  123  TLLQSKNPGGIDAEIFVDDDGQAYVFWGRRHVAKLNE----DMITVDSVVQVISTPRKEY  178
+             L Q    GGID  ++ + DG+ ++         L E        + S  ++ +     Y
+Sbjct  133  WLEQ----GGIDPSLYFE-DGKCFMVSNPDGYINLCEIDPMTGKQLSSSKRIWNGTGGRY  187
+
+Query  179  SEGPIFFKRKGIYYYLYTIGGDEKYQYAYVMSRVSPMGPFEAPEQDIISTTNYERG----  234
+            +EGP  +K+ G YY L + GG E      +       GP++    + I T   E G    
+Sbjct  188  AEGPHIYKKDGWYYLLISEGGTELGHKVTIARSRYIDGPYQGNPANPILTHANESGQSSP  247
+
+Query  235  IFGPGHGCVFHPEGTDNYYFAYLEF-----GRRSTNRQTYVNQLKFNED  278
+            I G GH  +       +++   L +        +  R+TY+  +++++D
+Sbjct  248  IQGTGHADLVEG-TDGSWWMVCLAYRIMPGTHHTLGRETYLAPVRWDKD  295
+
+
+> sp|A7LXU0|GH43B_BACO1 Non-reducing end alpha-L-arabinofuranosidase 
+BoGH43B OS=Bacteroides ovatus (strain ATCC 8483 / DSM 
+1896 / JCM 5824 / NCTC 11153) OX=411476 GN=BACOVA_02656 PE=1 
+SV=2
+Length=529
+
+ Score = 251 bits (640),  Expect = 1e-76, Method: Composition-based stats.
+ Identities = 72/299 (24%), Positives = 118/299 (39%), Gaps = 46/299 (15%)
+
+Query  5    FGNALIPDMIADASIQEINGVFYCYATTDGYGQGLKTSGPPVVWKSKDFVHWSFDGTYFP  64
+            F N +I  M  D SI  +   FY   +T  Y  GL       V+ SKD VHW   G    
+Sbjct  27   FRNPIITGMNPDPSICRVGDDFYLVTSTFEYFPGLP------VYHSKDLVHWKLIGHALS  80
+
+Query  65   ----------SAAKEKYWAPSKAIFANGKYYIYPTING-----YMYPAVADKPEGPFKLA  109
+                      +A+    +AP+   + +G +Y+  T  G      ++   A  P GP+   
+Sbjct  81   RPENNPLMGCNASTGGQYAPTLR-YHDGTFYVIGTNYGGKGSQGVFYVTAKNPAGPWSDP  139
+
+Query  110  RGKDEFYKPFTPSTLLQSKNPGGIDAEI-FVDDDGQAYVFWGRRHVAKLNEDMITVDSVV  168
+                 +Y    PS          ID ++ F+  D Q     G        E    V+++ 
+Sbjct  140  VWVGNWY--VDPSIEF-------IDGKMYFLSPDNQGSFLLGVMD----PETGTFVEALR  186
+
+Query  169  QVISTPRKEYSEGPIFFKRKGIYYYLYTIGGDEKYQYAYVM-SRVSPMGPFE-APEQDII  226
+            +V S       EGP F+K  G YYY+ +  G   Y++  V+    SP GP+E +P   ++
+Sbjct  187  KVASGLGGSSPEGPHFYK-IGDYYYIMSAEGGTGYEHREVIQRSKSPWGPYEPSPVNPVL  245
+
+Query  227  STTNY-ERGIFGPGHGCVFHPEGTDNYYFAYLEF-----GRRSTNRQTYVNQLKFNEDG  279
+            S  N  +      GH  +   +   +++   L         +   R+T++  + ++ DG
+Sbjct  246  SNMNCPDHPFQAIGHADLVQLKD-GSWWAVCLGIRPVNGKYQHLGRETFLAPVTWDADG  303
+
+
+> sp|P45796|XYND_PAEPO Arabinoxylan arabinofuranohydrolase OS=Paenibacillus 
+polymyxa OX=1406 GN=xynD PE=1 SV=1
+Length=635
+
+ Score = 251 bits (640),  Expect = 1e-75, Method: Composition-based stats.
+ Identities = 88/358 (25%), Positives = 127/358 (35%), Gaps = 64/358 (18%)
+
+Query  6    GNALIP-DMIADASIQEINGVFYCYATTDGYG---------QGLKTSGPPVVWKSKDFVH  55
+             N L+   + AD      +G  Y + ++D Y                    V  S D V+
+Sbjct  38   SNPLMDHKLGADPYSLVYDGRVYIFMSSDTYVYNKDGSIKENDFSALDRIQVISSTDMVN  97
+
+Query  56   WSFDGTYFPSAAKEKY------------WAPS---KAIFANGKYYIYPTINGYM-YPAVA  99
+            W+  GT   + A  K             WAP+   K I    K+++Y    G       A
+Sbjct  98   WTDHGTIPVAGANNKNSGRGIAKWASNSWAPAVAHKKINGRDKFFLYFANGGAGIGVLTA  157
+
+Query  100  DKPEGPFKLARGKDEFYKPFTPSTLLQSKNPGGIDAEIFVDDDGQAYVFWG---------  150
+            D P GP+    GK       T ST   +      D  + VDDDG  Y++ G         
+Sbjct  158  DTPIGPWTDPLGK----ALVTHSTPGMAGVTWLFDPAVLVDDDGTGYLYSGGGIPNESDP  213
+
+Query  151  -------RRHVAKLNEDMITVDSVVQVISTPRKEYSEGPIFFKRKGIYYYLYTI--GGDE  201
+                      V KL  DM +V      I  P      G    K  G YYY Y I   G  
+Sbjct  214  ASIANPKTARVIKLGADMTSVIGSATTIDAPYLFEDSG--IHKYNGKYYYSYCINFAGTH  271
+
+Query  202  KYQY----AYVMSRVSPMGPFEAPEQDIISTTNYERGIFGPGHGCVFHPEGTDNYYFAYL  257
+              QY       M   +PMGPF       +       G+ G  H  VF+ +  + +Y  Y 
+Sbjct  272  PQQYPAGEIGYMVSDNPMGPFTYK-GHFLKNPYTFFGVGGNNHHAVFNFK--NEWYVVYH  328
+
+Query  258  -------EFGRRSTNRQTYVNQLKFNEDGTIRPVELTMDGVGALKKVKSDKKMKIDTV  308
+                   + G     R  ++N+L   EDG+I  V+  M G+  L  +    +++ +T+
+Sbjct  329  AQTVSKAQIGAGKGYRSPHINKLVHKEDGSISEVQGNMTGIAQLSNMNPYTRVEAETI  386
+
+
+> sp|Q45071|XYND_BACSU Arabinoxylan arabinofuranohydrolase OS=Bacillus 
+subtilis (strain 168) OX=224308 GN=xynD PE=1 SV=2
+Length=513
+
+ Score = 242 bits (618),  Expect = 2e-73, Method: Composition-based stats.
+ Identities = 92/359 (26%), Positives = 124/359 (35%), Gaps = 66/359 (18%)
+
+Query  6    GNALIPD-MIADASIQEINGVFYCYATTDGY---------GQGLKTSGPPVVWKSKDFVH  55
+             N LI   + AD      NG  Y Y ++D Y                    V  S D V+
+Sbjct  39   SNPLIDHHLGADPVALTYNGRVYIYMSSDDYEYNSNGTIKDNSFANLNRVFVISSADMVN  98
+
+Query  56   WSFDGTYFP------------SAAKEKYWAPS---KAIFANGKYYIYPTI-NGYMYPAVA  99
+            W+  G                +      WAPS   K I    K+++Y     G +    A
+Sbjct  99   WTDHGAIPVAGANGANGGRGIAKWAGASWAPSIAVKKINGKDKFFLYFANSGGGIGVLTA  158
+
+Query  100  DKPEGPFKLARGKDEFYKPFTPSTLLQSKNPGGIDAEIFVDDDGQAYVFWG---------  150
+            D P GP+    GK       TPST   S      D  +FVDDDG  Y++ G         
+Sbjct  159  DSPIGPWTDPIGK----PLVTPSTPGMSGVVWLFDPAVFVDDDGTGYLYAGGGVPGVSNP  214
+
+Query  151  ---------RRHVAKLNEDMITVDSVVQVISTPRKEYSEGPIFFKRKGIYYYLYTI--GG  199
+                        V KL  DM +V      I  P      G    K  G YYY Y I  GG
+Sbjct  215  TQGQWANPKTARVIKLGPDMTSVVGSASTIDAPFMFEDSG--LHKYNGTYYYSYCINFGG  272
+
+Query  200  DEK----YQYAYVMSRVSPMGPFEAPEQDIISTTNYERGIFGPGHGCVFHPEGTDNYYFA  255
+                         M+  SPMGPF       +       G  G  H  VF+ +  + +Y  
+Sbjct  273  THPADKPPGEIGYMTSSSPMGPFTY-RGHFLKNPGAFFGGGGNNHHAVFNFK--NEWYVV  329
+
+Query  256  YLE-------FGRRSTNRQTYVNQLKFNEDGTIRPVELTMDGVGALKKVKSDKKMKIDT  307
+            Y         FG     R  ++N+L  N DG+I+ V     GV  +  +    +++ +T
+Sbjct  330  YHAQTVSSALFGAGKGYRSPHINKLVHNADGSIQEVAANYAGVTQISNLNPYNRVEAET  388
+
+
+> sp|A9ZND1|XLOA_VIBSX Xylan 1,3-beta-xylosidase OS=Vibrio sp. 
+OX=678 GN=xloA PE=1 SV=1
+Length=535
+
+ Score = 234 bits (596),  Expect = 4e-70, Method: Composition-based stats.
+ Identities = 65/309 (21%), Positives = 115/309 (37%), Gaps = 59/309 (19%)
+
+Query  7    NALIPDMIADASIQEINGVFYCYATTDGYGQGLKTSGPPVVWKSKDFVHWSFDGTYFPSA  66
+            N ++     D SI  +   +Y   +T  +  G+       +  S+D ++W   G      
+Sbjct  7    NPILKGFNPDPSIVRVGDDYYIATSTFEWFPGI------QLHHSRDLINWRLVGHALTRT  60
+
+Query  67   A---------KEKYWAPSKAIFANGKYYIYPTI----NGYM------YPAVADKPEGPFK  107
+            +          E  +AP+   +++G +++  +      G        Y   AD  EGP+ 
+Sbjct  61   SQLNMMGMDNSEGVYAPALT-YSDGTFWLCFSNVHSCRGGNWMATPSYVVTADSIEGPWS  119
+
+Query  108  LARGKDEFYKPFTPSTLLQSKNPGGIDAEIFVDDDGQAYVF---WGRRHVAKLNEDMITV  164
+                   +                G D  +F DDDG+ Y+    WG R        +I  
+Sbjct  120  EPVPIGNY----------------GFDPSLFHDDDGKKYMLNMIWGGRAKTNFFGGIIMQ  163
+
+Query  165  D---SVVQVISTPRKEY-------SEGPIFFKRKGIYYYLYTIGGDEKYQYAYVMSRVSP  214
+            +      +++  P+  +       +EGP   K+   YY +   GG E+     V      
+Sbjct  164  EFDADEGKLVGAPKTVFEGTELGCTEGPQLLKKDDYYYLITAEGGTERNHAVTVCRSKHI  223
+
+Query  215  MGPFEA-PEQDIISTTNYERGIFG-PGHGCVFHPEGTDNYYFAYLEFGRRSTNRQTYVNQ  272
+             GP+E  PE  I+++   E       GHG +   + T  +Y ++L  GRR  N + Y   
+Sbjct  224  WGPYEVHPENPILTSRFQEHAELSRAGHGFLVETQ-TGEWYMSHL-CGRRIPNPEGYQFM  281
+
+Query  273  LKFNEDGTI  281
+             K++   +I
+Sbjct  282  PKYDNGFSI  290
+
+
+> sp|A5IKD4|EABN_THEP1 Extracellular endo-alpha-(1->5)-L-arabinanase 
+OS=Thermotoga petrophila (strain RKU-1 / ATCC BAA-488 
+/ DSM 13995) OX=390874 GN=Tpet_0637 PE=1 SV=1
+Length=471
+
+ Score = 228 bits (581),  Expect = 2e-68, Method: Composition-based stats.
+ Identities = 76/338 (22%), Positives = 123/338 (36%), Gaps = 83/338 (25%)
+
+Query  13   MIADASIQEINGVFYCYATTDGYGQGLKTSGPPVVWKSKDFVHWSFDGT-----------  61
+            ++ D SI ++  ++Y + T               V KSKD +HW    T           
+Sbjct  29   VVHDPSIIKVGNMYYVFGTH------------LQVAKSKDLMHWEQINTSAHDKNPIIPN  76
+
+Query  62   --------YFPSAAKEKYWAPSKAIFANGKYYIYPTINGYMYP------AVADKPEGPFK  107
+                       +  +   WAP     ++G+YY+Y   + +  P      AV+D  EGP+K
+Sbjct  77   INEELKETLSWARTRNDIWAPQVIQLSDGRYYMYYCASTFGSPRSAIGIAVSDDIEGPYK  136
+
+Query  108  ---LARGKDEFYKPFTPST----LLQSKNPGGIDAEIFVDDDGQAYVFWGR----RHVAK  156
+               +     + Y    PS         K+P  +D  +F D +G  ++ +G      ++ K
+Sbjct  137  HYAVIVKSGQVYSVDGPSEDGTPYDSRKHPNALDPGVFYDKEGNLWMVYGSWFGGIYILK  196
+
+Query  157  LNED---MITVDSVVQVISTPRKEYSEGP-IFFKRKGIYYYLYTIGGDEKYQYAY---VM  209
+            L+ +    +      + +        EGP I +     YYYL+   G   Y+  Y   V 
+Sbjct  197  LDPNTGLPLPGQGYGKRLVGGNHSSMEGPYILYSPDTDYYYLFLSFGGLDYRGGYNIRVA  256
+
+Query  210  SRVSPMGPFEAPEQDIIST--------TNYERGIFG-------------------PGHGC  242
+               +P GP+  PE   +          +NY   + G                   PGH  
+Sbjct  257  RSKNPNGPYYDPEGKSMENCMGSKTVISNYGAKLVGNFILSESNTIDFKAFGYVSPGHNS  316
+
+Query  243  VFH-PEGTDNYYFAYLEFGRRSTNRQTYVNQLKFNEDG  279
+             ++ PE    + F +  F  R    Q  V+QL  NEDG
+Sbjct  317  AYYDPETGKYFIFFHTRFPGRGETYQLRVHQLFLNEDG  354
+
+
+> sp|P77713|YAGH_ECOLI Putative beta-xylosidase OS=Escherichia 
+coli (strain K12) OX=83333 GN=yagH PE=3 SV=1
+Length=536
+
+ Score = 223 bits (569),  Expect = 3e-66, Method: Composition-based stats.
+ Identities = 65/285 (23%), Positives = 106/285 (37%), Gaps = 59/285 (21%)
+
+Query  7    NALIPDMIADASIQEINGVFYCYATTDGYGQGLKTSGPPVVWKSKDFVHWSFDGTYFPSA  66
+            N ++     D S+      +Y   +T  +  G+       ++ S+D  +WS   T     
+Sbjct  5    NPILTGFNPDPSLCRQGEDYYIATSTFEWFPGV------RIYHSRDLKNWSLVSTPLDRV  58
+
+Query  67   A---------KEKYWAPSKAIFANGKYYIY---------PTINGYMYPAVADKPEGPFKL  108
+            +             WAP  + +A+GK+++          P  NG  +   A   EGP+  
+Sbjct  59   SMLDMKGNPDSGGIWAPCLS-YADGKFWLLYTDVKIVDSPWKNGRNFLVTAPSIEGPWSE  117
+
+Query  109  ARGKDEFYKPFTPSTLLQSKNPGGIDAEIFVDDDGQAYVF---WGRRHVAKLNEDMI--T  163
+                                  GG D  +F DDDG+ Y     WG RH +  +  ++   
+Sbjct  118  PIPMGN----------------GGFDPSLFHDDDGRKYYIYRPWGPRHHSNPHNTIVLQA  161
+
+Query  164  VDSVVQVISTPRKE--------YSEGPIFFKRKGIYYYLYTIGGDEKYQYAYVM-SRVSP  214
+             D     +S  RK         Y+EG   ++  G YY L    G   Y++A V+    + 
+Sbjct  162  FDPQTGTLSPERKTLFTGTPLCYTEGAHLYRHAGWYY-LMAAEGGTSYEHAVVVLRSKNI  220
+
+Query  215  MGPFEAPEQDIISTTNY--ERGIFGPGHGCVFHPEGTDNYYFAYL  257
+             GP+E      + T+ +  E  +   GHG +     T  +Y AYL
+Sbjct  221  DGPYELHPDVTMMTSWHLPENPLQKSGHGSLLQTH-TGEWYMAYL  264
+
+
+> sp|P94489|XYNB_BACSU Beta-xylosidase OS=Bacillus subtilis (strain 
+168) OX=224308 GN=xynB PE=1 SV=2
+Length=533
+
+ Score = 211 bits (536),  Expect = 2e-61, Method: Composition-based stats.
+ Identities = 66/313 (21%), Positives = 122/313 (39%), Gaps = 59/313 (19%)
+
+Query  7    NALIPDMIADASIQEINGVFYCYATTDGYGQGLKTSGPPVVWKSKDFVHWSFDGTYFPSA  66
+            N ++     D SI      +Y   +T  +  G+       +  SKD V+W          
+Sbjct  5    NPVLKGFNPDPSICRAGEDYYIAVSTFEWFPGV------QIHHSKDLVNWHLVAHPLQRV  58
+
+Query  67   A---------KEKYWAPSKAIFANGKYYIYPTINGYMYPAVADKPEGPFKLARGKDEFYK  117
+            +             WAP  + +++GK+++  T             +G +K         +
+Sbjct  59   SQLDMKGNPNSGGVWAPCLS-YSDGKFWLIYTD--------VKVVDGAWKDCHNYLVTCE  109
+
+Query  118  PFTPSTLLQSK-NPGGIDAEIFVDDDGQAY---VFWGRRHVAKLNEDMITV----DSVVQ  169
+                      K N  G DA +F D DG+ Y   + W  R + + +   I +    D   +
+Sbjct  110  TINGDWSEPIKLNSSGFDASLFHDTDGKKYLLNMLWDHR-IDRHSFGGIVIQEYSDKEQK  168
+
+Query  170  VISTPR-------KEYSEGPIFFKRKGIYYYLYTIGGDEKYQYAYVMSRVSPM-GPFEAP  221
+            +I  P+       ++ +E P  +   G YYYL T  G  +Y++A  ++R + + GP+E  
+Sbjct  169  LIGKPKVIFEGTDRKLTEAPHLY-HIGNYYYLLTAEGGTRYEHAATIARSANIEGPYEVH  227
+
+Query  222  EQDIISTTNYERG--IFGPGHGCVFHPEGTDNYYFAYLE-----------FGRRS---TN  265
+              + I T+ ++ G  +   GH  +     TD +Y A+L            F +R      
+Sbjct  228  PDNPILTSWHDPGNPLQKCGHASIVQTH-TDEWYLAHLTGRPIHPDDDSIFQQRGYCPLG  286
+
+Query  266  RQTYVNQLKFNED  278
+            R+T + +L + ++
+Sbjct  287  RETAIQKLYWKDE  299
+
+
+> sp|P07129|XYNB_BACPU Beta-xylosidase OS=Bacillus pumilus OX=1408 
+GN=xynB PE=1 SV=2
+Length=535
+
+ Score = 197 bits (501),  Expect = 3e-56, Method: Composition-based stats.
+ Identities = 58/320 (18%), Positives = 108/320 (34%), Gaps = 73/320 (23%)
+
+Query  7    NALIPDMIADASIQEINGVFYCYATTDGYGQGLKTSGPPVVWKSKDFVHWSFDGTYFPSA  66
+            N ++     D SI      +Y   +T  +  G+       ++ SKD +HW          
+Sbjct  5    NPVLKGFNPDPSICRAGEDYYMAVSTFEWFPGV------QIYHSKDLIHWRLAARPLQKT  58
+
+Query  67   A---------KEKYWAPSKAIFANGKYYIYPT---------INGYMYPAVADKPEGPFKL  108
+            +             WAP  + +A+G++++  +          +G+ Y   AD  +G +  
+Sbjct  59   SQLDMKGNPDSGGVWAPCLS-YADGQFWLIYSDIKVVDGPFKDGHNYLVTADAVDGEWSD  117
+
+Query  109  ARGKDEFYKPFTPSTLLQSKNPGGIDAEIFVDDDGQAY---VFWGRRHVAKLNEDMITVD  165
+                                N  G D  +F D  G+ Y   + W  R        +   +
+Sbjct  118  PV----------------RLNSSGFDPSLFHDPSGKKYVLNMLWDHREKHHSFAGIALQE  161
+
+Query  166  ---------SVVQVI-STPRKEYSEGPIFFKRKGIYYYLYTIGGDEKYQYA-YVMSRVSP  214
+                        +VI      + +E P  +      YYL T  G  +Y++A  +      
+Sbjct  162  YSVSEKKLVGERKVIFKGTPIKLTEAPHLY-YINDVYYLLTAEGGTRYEHAATIARSSRI  220
+
+Query  215  MGPFEAPEQDIISTTNY--ERGIFGPGHGCVFHPEGTDNYYFAYLE-----------FGR  261
+             GP+E    + I T  +     +   GH  +     T+ +Y A+L            F +
+Sbjct  221  DGPYEVHPDNPILTAFHAPSHPLQKCGHASIVQTH-TNEWYLAHLTGRPIHSSKESIFQQ  279
+
+Query  262  RS---TNRQTYVNQLKFNED  278
+            R      R+T + +L++ + 
+Sbjct  280  RGWCPLGRETAIQKLEWKDG  299
+
+
+> sp|P45982|XYLB_BUTFI Xylosidase/arabinosidase OS=Butyrivibrio 
+fibrisolvens OX=831 GN=xylB PE=3 SV=1
+Length=517
+
+ Score = 177 bits (448),  Expect = 9e-49, Method: Composition-based stats.
+ Identities = 64/304 (21%), Positives = 106/304 (35%), Gaps = 51/304 (17%)
+
+Query  7    NALIPDMIADASIQEINGVFYCYATTDGYGQGLKTSGPPVVWKSKDFVHWSFDGTYFPSA  66
+            N ++     D SI      FY   ++  Y  G+       ++ +KD  H+   G      
+Sbjct  6    NPILKGFYPDPSICRKGDDFYLVCSSFVYAPGVP------IFHTKDLAHFEQIGNILDRE  59
+
+Query  67   AKEKYWAPSKAIFANGKYYIYPTI---NGYMYPAVADKPEGPFKLARGKDEFYKPFTPST  123
+            ++     P     + G +   PTI   NG  Y    +   G   +   KD       P  
+Sbjct  60   SQL----PLSGDISRGIF--APTIREHNGIFYMITTNVSSGGNFIVTAKDPAGPWSEPYY  113
+
+Query  124  LLQSKNPGGIDAEIFVDDDGQAYVFWGRRHVAKLNEDMITVDSVVQVI-----------S  172
+            L + + P GID  +F DDDG+ Y         + N D +  +   ++             
+Sbjct  114  LGEDEAP-GIDPSLFFDDDGKCYYVG-----TRPNPDGVRYNGDWEIWVQELDLEQMKLV  167
+
+Query  173  TPRKE----------YSEGPIFFKRKGIYYYLYTIGGDEKYQYAYVMSRVSPMGPFEAPE  222
+             P             + EGP  +K+ G YY L+   G        V         FE   
+Sbjct  168  GPSMAIWKGALKDVIWPEGPHLYKKDGYYYLLHAEAGTSFEHAISVARSKELFKWFEGCP  227
+
+Query  223  QDIISTTNY---ERGIFGPGHGCVFHPEGTDNYYFAYLEF----GRRSTNRQTYVNQLKF  275
+            ++ I T      +  +   GH  +   +   N+Y   L      G+ S  R+T++ ++ +
+Sbjct  228  RNPIFTHRNLGKDYPVCNVGHADLVD-DINGNWYMVMLASRPCKGKCSLGRETFLAKVIW  286
+
+Query  276  NEDG  279
+             EDG
+Sbjct  287  -EDG  289
+
+
+> sp|P42293|EABN2_BACSU Extracellular endo-alpha-(1->5)-L-arabinanase 
+2 OS=Bacillus subtilis (strain 168) OX=224308 GN=abn2 
+PE=1 SV=2
+Length=469
+
+ Score = 168 bits (426),  Expect = 6e-46, Method: Composition-based stats.
+ Identities = 77/337 (23%), Positives = 114/337 (34%), Gaps = 85/337 (25%)
+
+Query  14   IADASIQEINGVFYCYATTDGYGQGLKTSGPPVVWKSKDFVHW-------SFDGTYFPS-  65
+            + D SI E NG FY + +                 KS D + W       S D    P+ 
+Sbjct  36   VHDPSIIETNGTFYVFGSH------------LASAKSNDLMQWQQLTTSVSNDNPLIPNV  83
+
+Query  66   ----------AAKEKYWAPSKAIFANGKYYIYP------TINGYMYPAVADKPEGPFK--  107
+                      A  +  WA      A+GKYY+Y       +    M  AVAD  EGP+K  
+Sbjct  84   YEELKETFEWAQSDTLWAADVTQLADGKYYMYYNACRGDSPRSAMGVAVADNIEGPYKNK  143
+
+Query  108  ---LARGKDEFYKPFTPSTLLQSKNPGGIDAEIFVDDDGQAYVFWGR----RHVAKLNED  160
+               L  G +      TP     +K+P  +D   F D DG+ ++ +G       + ++N  
+Sbjct  144  GIFLKSGMEGTSSDGTP--YDATKHPNVVDPHTFFDKDGKLWMVYGSYSGGIFILEMNPK  201
+
+Query  161  ---MITVDSVVQVISTPRKEYSEGPI-FFKRKGIYYYLYTIGGDEKYQYAY---VMSRVS  213
+                +      + +        EGP   +     YYYLY   G       Y   V     
+Sbjct  202  TGFPLPGQGYGKKLLGGNHSRIEGPYVLYNPDTQYYYLYLSYGGLDATGGYNIRVARSKK  261
+
+Query  214  PMGPFEAPEQDIIS------------------------TTNYE------RGIFGPGHGCV  243
+            P GP+   E + +                         +  +E       G   PGH   
+Sbjct  262  PDGPYYDAEGNPMLDVRGKGGTFFDDRSIEPYGVKLMGSYTFETENEKGTGYVSPGHNSA  321
+
+Query  244  FHPEGTD-NYYFAYLEFGRRSTNRQTYVNQLKFNEDG  279
+            ++ E T  +Y   +  F  R    +  V+QL  N+DG
+Sbjct  322  YYDEKTGRSYLIFHTRFPGRGEEHEVRVHQLFMNKDG  358
+
+
+> sp|Q9WXE8|XYLO_PRERU Putative beta-xylosidase OS=Prevotella ruminicola 
+OX=839 PE=3 SV=2
+Length=518
+
+ Score = 117 bits (293),  Expect = 2e-27, Method: Composition-based stats.
+ Identities = 60/306 (20%), Positives = 106/306 (35%), Gaps = 54/306 (18%)
+
+Query  5    FGNALIPDMIADASIQEINGVFYCYATTDGYGQGLKTSGPPVVWKSKDFVHWSFDGTYFP  64
+            + N       +D  +  +    Y  A+               V +S D V W +    + 
+Sbjct  41   YRNP-----XSDPDVIRVGNKXYMVASDFH-------XMGMQVLESDDMVXWRYISQIYR  88
+
+Query  65   SAAK----------EKYWAPSKAIFANGKYYIYPT-INGYMYPAVADKPEGPFKLARGKD  113
+               +             WAPS   + +G +Y+Y    +  +Y + A  P GP+       
+Sbjct  89   RFNEPGWDANLHYAGGSWAPSIR-YHSGLFYVYFCTPDEGLYMSTASNPAGPWAPLHLVK  147
+
+Query  114  EFYKPFTPSTLLQSKNPGGIDAEIFVDDDGQAYV-----FWGRRHVAKLNEDMITVDSVV  168
+               K                D   F D+DGQAY+       G   V +++ D  T+    
+Sbjct  148  RVAKWE--------------DPCPFWDEDGQAYIGRSQHGAGPIIVHRMSADGKTLLDEG  193
+
+Query  169  QVISTPRKEYSEGPIFFKRKGIYYYLYTIGG-DEKYQYAYVMSRVSPMGPFEAPEQDIIS  227
+            + +       +EG  F KR G YY +   GG    +Q   V+   +  GP+E      I 
+Sbjct  194  KTVY--EGPIAEGTKFMKRNGWYYLIIPEGGVGTGWQ--TVLRARNIYGPYERR----IV  245
+
+Query  228  TTNYERGIFGPGHGCVFHPEGTDNYYFAYLEFGRRSTNRQTYVNQLKFNEDGTIRPVELT  287
+                  G+ GP  G +       +++F + +       R  ++   ++  D  +  V+  
+Sbjct  246  LEQGSTGVNGPHQGALVDA-PDGSWWFYHFQETP-VLGRVVHLQPARWEADWPVIGVDYD  303
+
+Query  288  MDGVGA  293
+             +G+G 
+Sbjct  304  KNGIGE  309
+
+
+> sp|T2KN85|PLH27_FORAG Beta-xylosidase OS=Formosa agariphila (strain 
+DSM 15362 / KCTC 12365 / LMG 23005 / KMM 3901) OX=1347342 
+GN=BN863_22160 PE=1 SV=1
+Length=592
+
+ Score = 92.9 bits (229),  Expect = 5e-19, Method: Composition-based stats.
+ Identities = 51/341 (15%), Positives = 101/341 (30%), Gaps = 68/341 (20%)
+
+Query  5    FGNALIPDMIADASIQEINGVFYCYATTDGYGQGLKTSGPPVVWKSKDFVHWSFDGTYFP  64
+            + N ++     D+ I+++   +Y   +      G+       + +SKD V+W+  G  F 
+Sbjct  51   YINPILNADYPDSDIEQVGDTYYMITSKQHMSPGMP------ILESKDMVNWTNVGHVFN  104
+
+Query  65   -------------SAAKEKYWAPSKAIFANGKYYIYPTINGYMYPA-VADKPEGPFKLAR  110
+                         +      WA   A +  G +Y Y     +      +   +GP+    
+Sbjct  105  SLSWAPEYNWDRMNGYSFGTWAGDLA-YHEGTWYCYQIDYQHGLMVATSKDIKGPWSKPI  163
+
+Query  111  GKDEFYKPFTPSTLLQSKNPGGIDAEIFVDDDG-QAYVFWGRRHVAKLNEDMITVDSVV-  168
+                  +                D  +F D+D  +AY+        K   + I  +    
+Sbjct  164  MMLPKSEVLD-------------DPAVFWDEDTHKAYIIINTAGKQKEASNTIEGNENRI  210
+
+Query  169  --------QVISTPRKEYS----EGPIFFKRKGIYYYLYT------------IGGDEKYQ  204
+                    +++   +  Y+    E    +K  G +Y                +   +  +
+Sbjct  211  YEMSWDGTKILDEGKLVYTGMGAEAAKIYKIDGTWYIFLAQWTMGDMSTKPGVKNPKNDR  270
+
+Query  205  YAYVMSRV-SPMGPFEAPEQDIISTTNYERGIFGPGHGCVFHPEGTDNYYFAYLEFGRRS  263
+               V+    S  GP+E      +              G +        +Y   L      
+Sbjct  271  KQIVLRSKESIYGPYEV---KTVLEKGTVFNNRSASQGALMQAPDNSWWYMHQLIQNDDI  327
+
+Query  264  T--NRQTYVNQLKFNEDGTIRPVELTMDGVGALKKVKSDKK  302
+                R   +  + + +   I  V+   DG+G    VK+ KK
+Sbjct  328  PFQGRPQCLEPVTWVDGWPIIGVDEDNDGIGE--PVKTYKK  366
+
+
+> sp|Q93HT9|IABN_GEOTD Intracellular endo-alpha-(1->5)-L-arabinanase 
+OS=Geobacillus thermodenitrificans OX=33940 GN=abn-ts 
+PE=1 SV=1
+Length=313
+
+ Score = 89.9 bits (221),  Expect = 9e-19, Method: Composition-based stats.
+ Identities = 68/325 (21%), Positives = 110/325 (34%), Gaps = 64/325 (20%)
+
+Query  1    HNNPFGNALIPDM---------IADASIQEINGVFYCYATTDGYGQGLKTSGPPVVWKSK  51
+            H +PFGN    +M           D  I +    +Y + T    G G+       +  S+
+Sbjct  3    HFHPFGNVNFYEMDWSLKGDLWAHDPVIAKEGSRWYVFHT----GSGI------QIKTSE  52
+
+Query  52   DFVHWSFDGTYFPSAAK-----------EKYWAPSKAIFANGKYYIYPTINGYM------  94
+            D VHW   G  FPS              +  WAP    + NG YY+Y +++ +       
+Sbjct  53   DGVHWENMGRVFPSLPDWCKQYVPEKDEDHLWAPDICFY-NGIYYLYYSVSTFGKNTSVI  111
+
+Query  95   YPAVADKPEGPFKLARGKDEFYKPFTPSTLLQ-SKNPGGIDAEIFVDDDGQAYV----FW  149
+              A            R  D  +K   P      S N   ID  +  D +GQ ++    FW
+Sbjct  112  GLATNRTL-----DPRDPDYEWKDMGPVIHSTASDNYNAIDPNVVFDQEGQPWLSFGSFW  166
+
+Query  150  GRRHVAKLNEDMITVDSVVQVIS-TPRKEYS---EGPIFFKRKGIYYYL----YTIGGDE  201
+                + +L+ + +   +  ++++   R E     E P    R G YY      +   G E
+Sbjct  167  SGIQLIQLDTETMKPAAQAELLTIASRGEEPNAIEAPFIVCRNGYYYLFVSFDFCCRGIE  226
+
+Query  202  KYQYAYVMSRVSPMGPFEAP-------EQDIISTTNYERGIFGPGHGCVFHPEGTDNYYF  254
+                  V       GP+              I     +R I GPGH C  +  G      
+Sbjct  227  STYKIAVGRSKDITGPYVDKNGVSMMQGGGTILDAGNDRWI-GPGH-CAVYFSGVSAILV  284
+
+Query  255  AYLEFGRRSTNRQTYVNQLKFNEDG  279
+             +     ++      +  L ++++G
+Sbjct  285  NHAYDALKNGEPTLQIRPLYWDDEG  309
+
+
+> sp|B3EYM8|IABN_GEOSE Intracellular endo-alpha-(1->5)-L-arabinanase 
+OS=Geobacillus stearothermophilus OX=1422 GN=abnB PE=1 
+SV=1
+Length=315
+
+ Score = 87.9 bits (216),  Expect = 5e-18, Method: Composition-based stats.
+ Identities = 67/325 (21%), Positives = 108/325 (33%), Gaps = 64/325 (20%)
+
+Query  1    HNNPFGNALIPDM---------IADASIQEINGVFYCYATTDGYGQGLKTSGPPVVWKSK  51
+            H +PFGN    +M           D  I +    +Y + T  G            +  S+
+Sbjct  3    HFHPFGNVNFYEMDWSLKGDLWAHDPVIAKEGSRWYVFHTGSG----------IQIKTSE  52
+
+Query  52   DFVHWSFDGTYFPSAAK-----------EKYWAPSKAIFANGKYYIYPTINGYM------  94
+            D VHW   G  FPS              +  WAP    + NG YY+Y +++ +       
+Sbjct  53   DGVHWENMGWVFPSLPDWYKQYVPEKDEDHLWAPDICFY-NGIYYLYYSVSTFGKNTSVI  111
+
+Query  95   YPAVADKPEGPFKLARGKDEFYKPFTPSTLLQ-SKNPGGIDAEIFVDDDGQAYV----FW  149
+              A            R  D  +K   P      S N   ID  +  D +GQ ++    FW
+Sbjct  112  GLATNQTL-----DPRDPDYEWKDMGPVIHSTASDNYNAIDPNVVFDQEGQPWLSFGSFW  166
+
+Query  150  GRRHVAKLNEDMITVDSVVQVIS-TPRKEYS---EGPIFFKRKGIYYYL----YTIGGDE  201
+                + +L+ + +   +  ++++   R E     E P    R G YY      +   G E
+Sbjct  167  SGIQLIQLDTETMKPAAQAELLTIASRGEEPNAIEAPFIVCRNGYYYLFVSFDFCCRGIE  226
+
+Query  202  KYQYAYVMSRVSPMGPFEAP-------EQDIISTTNYERGIFGPGHGCVFHPEGTDNYYF  254
+                  V       GP+              I     +R I GPGH C  +  G      
+Sbjct  227  STYKIAVGRSKDITGPYVDKNGVSMMQGGGTILDEGNDRWI-GPGH-CAVYFSGVSAILV  284
+
+Query  255  AYLEFGRRSTNRQTYVNQLKFNEDG  279
+             +     ++      +  L ++++G
+Sbjct  285  NHAYDALKNGEPTLQIRPLYWDDEG  309
+
+
+> sp|P94522|EABN1_BACSU Extracellular endo-alpha-(1->5)-L-arabinanase 
+1 OS=Bacillus subtilis (strain 168) OX=224308 GN=abnA 
+PE=1 SV=3
+Length=323
+
+ Score = 86.4 bits (212),  Expect = 2e-17, Method: Composition-based stats.
+ Identities = 42/235 (18%), Positives = 75/235 (32%), Gaps = 29/235 (12%)
+
+Query  13   MIADASIQEINGVFYCYATTDGYGQGLKTSGPPVVWKSKDFVHWSFDGTYFPSAAK----  68
+            ++ D ++ +    +Y   T      GL       V KS D  +W+   + F +       
+Sbjct  41   LLHDPTMIKEGSSWYALGT------GLTEERGLRVLKSSDAKNWTVQKSIFTTPLSWWSN  94
+
+Query  69   ------EKYWAPSKAIFANGKYYIYPTINGYMYPAVADKPEGPFKLARGKDEFYKPFTPS  122
+                  +  WAP    + NGKY++Y +++ +     A         +     +       
+Sbjct  95   YVPNYGQNQWAPDI-QYYNGKYWLYYSVSSFGSNTSA--IGLASSTSISSGGWKDEGLVI  151
+
+Query  123  TLLQSKNPGGIDAEIFVDDDGQAYV----FWGRRHVAKLNEDMITVDSVVQVIST--PRK  176
+                S N   ID E+  D DG  ++    FW    + KL++  +     +  I+      
+Sbjct  152  RSTSSNNYNAIDPELTFDKDGNPWLAFGSFWSGIKLTKLDKSTMKPTGSLYSIAARPNNG  211
+
+Query  177  EYSEGPIFFKRKGIYYYLY----TIGGDEKYQYAYVMSRVSPMGPFEAPEQDIIS  227
+               E P    + G YY +        G             S  GP+       + 
+Sbjct  212  GALEAPTLTYQNGYYYLMVSFDKCCDGVNSTYKIAYGRSKSITGPYLDKSGKSML  266
+
+
+> sp|P48790|XYLA_THEST Xylosidase/arabinosidase OS=Thermoclostridium 
+stercorarium OX=1510 GN=xylA PE=1 SV=1
+Length=473
+
+ Score = 87.9 bits (216),  Expect = 2e-17, Method: Composition-based stats.
+ Identities = 67/330 (20%), Positives = 113/330 (34%), Gaps = 54/330 (16%)
+
+Query  7    NALIPD--MIADASIQEINGVFYCYATTDGYGQGLKTSGPPVVWKS--KDFVHWSFDG--  60
+            N  +P    I DA     NG  Y Y + D +          V W +   D   W ++G  
+Sbjct  7    NPYLPSWEYIPDAEPYVFNGRVYIYGSHDRFNGHAFCLNDYVCWSAPVDDLSEWRYEGVI  66
+
+Query  61   -----TYFPSAAKEKYWAPSKAIFANGKYYIYPTINGY--MYPAVADKPEGPFKLARGKD  113
+                        +   +AP   +  +G+YY+Y  ++    +  AV D P G ++      
+Sbjct  67   YRKTDDPLNPDGRMCLYAPDVTLGPDGRYYLYYVLDKVPVVSVAVCDTPAGKYEFYGYV-  125
+
+Query  114  EFYKPFTPSTLLQSKNPGGIDAEIFVDDDGQAYVFWG----------RRHVAKLNEDMIT  163
+              Y   T     +   P   D  +  + + + Y++ G                L  DM+T
+Sbjct  126  -RYADGTRLGEREGDWPQ-FDPAVLTEGE-RTYLYTGFCPKGDKSRKGAMATVLGPDMLT  182
+
+Query  164  VDSVVQVIST----------PRKEYSEGPIFFKRKGIYYYLYTIGGDEKYQYAYVMSRVS  213
+            V     +I               E+ E P   K+   YY++Y+             +   
+Sbjct  183  VVEEPVIIVPSEPYSRGSGFEGHEFFEAPSIRKKGDTYYFIYSS---VVMHELCYATSKH  239
+
+Query  214  PMGPFEAPEQDIIST-----TNYERGI-----FGPGHGCVFHPEGTDNYYFAYLEFGRRS  263
+            P   F+     I+S       +Y+         G  HG +   E    +Y  Y      +
+Sbjct  240  PTKGFKY-GGVIVSNCDLHIDSYKPAEKPMYYGGNNHGSIV--EINGEWYIFYHRHTNGT  296
+
+Query  264  T-NRQTYVNQLKFNEDGTIRPVELTMDGVG  292
+            + +RQ  + ++K  EDG+I  VE+T  G  
+Sbjct  297  SFSRQGCMEKIKILEDGSIPQVEMTSCGSA  326
+
+
+> sp|P95470|ARBA_CELJU Extracellular exo-alpha-(1->5)-L-arabinofuranosidase 
+ArbA OS=Cellvibrio japonicus (strain Ueda107) OX=498211 
+GN=arbA PE=1 SV=1
+Length=347
+
+ Score = 86.4 bits (212),  Expect = 2e-17, Method: Composition-based stats.
+ Identities = 57/314 (18%), Positives = 103/314 (33%), Gaps = 68/314 (22%)
+
+Query  14   IADASIQEINGVFYCYATTDGYGQGLKTSGPPVVWKSKDFVHWSFDGTYF----------  63
+            + D  +      +Y ++T    G G+       ++ SKD V+W +    F          
+Sbjct  36   VHDPVMTREGDTWYLFST----GPGI------TIYSSKDRVNWRYSDRAFGTEPTWAKRV  85
+
+Query  64   PSAAKEKYWAPSKAIFANGKYYIYPTINGYM-----YPAVADKPEGPFKLARGKDEFYKP  118
+              +     WAP       G +Y+Y +++ +           +K   P          Y+ 
+Sbjct  86   SPSFDGHLWAPDIYQ-HKGLFYLYYSVSAFGKNTSAIGVTVNKTLNP------ASPDYRW  138
+
+Query  119  FTPSTLL----QSKNPGGIDAEIFVDDDGQAYV----FWGRRHVAKLNEDMI--------  162
+                 ++    Q      ID  I  DD GQ ++    FWG   + KLN+D+         
+Sbjct  139  EDKGIVIESVPQRDLWNAIDPAIIADDHGQVWMSFGSFWGGLKLFKLNDDLTRPAEPQEW  198
+
+Query  163  -TVDSVVQVI----STPRKEYSEGPIFFKRKGIYYYLYTIGG-----DEKYQYAYVMSRV  212
+             ++  + + +    S       E P   ++ G YYYL+   G      +   +  V    
+Sbjct  199  HSIAKLERSVLMDDSQAGSAQIEAPFILRK-GDYYYLFASWGLCCRKGDSTYHLVVGRSK  257
+
+Query  213  SPMGPFEAPEQDIISTTNYERGIFGP------GHGCVFHPEGTDNYYFAYLEFGRRSTNR  266
+               GP+       ++       I G       GH   +  +G D  Y     +       
+Sbjct  258  QVTGPYLDKTGRDMNQGGGSLLIKGNKRWVGLGHNSAYTWDGKD--YLVLHAYEAADNYL  315
+
+Query  267  Q-TYVNQLKFNEDG  279
+            Q   +  L ++ +G
+Sbjct  316  QKLKILNLHWDGEG  329
+
+
+> sp|P49943|XYLB_BACOV Xylosidase/arabinosidase OS=Bacteroides 
+ovatus OX=28116 GN=xsa PE=2 SV=1
+Length=325
+
+ Score = 86.0 bits (211),  Expect = 3e-17, Method: Composition-based stats.
+ Identities = 66/341 (19%), Positives = 114/341 (33%), Gaps = 89/341 (26%)
+
+Query  9    LIPD-MIADASIQEINGVFYCYATTDGYGQGLKTSG--------PPVVWKSKDFVHWSFD  59
+            L+P   +AD ++   +G  Y Y + D +  G+  +            V+   D ++    
+Sbjct  8    LVPGDYMADPAVHVFDGKLYIYPSHD-WESGIAENDNGDHFNMKDYHVYSMDDVMNGEIK  66
+
+Query  60   GTYFPSAAKEKYWA-----PSKAIFANGKYYIYPTING-----YMYPAVADKPEGPFKLA  109
+                  + ++  WA         +  +GKYY+Y  +        +  AV+DKP GPF   
+Sbjct  67   DHGVVLSTEDIPWAGRQLWDCDVVCKDGKYYMYFPLKDQNDIFRIGVAVSDKPYGPFI--  124
+
+Query  110  RGKDEFYKPFTPSTLLQSKNPGGIDAEIFVDDDGQAYVFWG-------------------  150
+                              K    ID  ++ D DG  Y+++G                   
+Sbjct  125  ------------PEANPMKGSYSIDPAVWDDGDGNYYIYFGGLWGGQLQRYRNNKALESA  172
+
+Query  151  ----------RRHVAKLNEDMITV------------DSVVQVISTPRKEYSEGPIFFKRK  188
+                         VA+L+EDM+              D          + + E     K  
+Sbjct  173  ILPEGEEEAIPSRVARLSEDMMEFAEEPRAVVILDEDGKPLTAGDTERRFFEASWMHKYN  232
+
+Query  189  GIYYYLYTIGGDEKYQYAYVMSRVSPMGPFEAPEQDIISTTNYERGIFGPGHGCVFHPEG  248
+            G YY+ Y+ G      YA      +P GPF      +I T      +    H  +   +G
+Sbjct  233  GKYYFSYSTGDTHLLCYAT---GDNPYGPFTYQG--VILTPV----VGWTTHHAIVEFKG  283
+
+Query  249  TDNYYFAYLEF---GRRSTNRQTYVNQLKFNEDGTIRPVEL  286
+               +Y  + +      ++  R   V +L+++ DG I  +E 
+Sbjct  284  --KWYLFHHDCVPSEGKTWLRSLKVCELQYDADGRIITIEG  322
+
+
+> sp|A1DHW8|ABNB_NEOFI Probable arabinan endo-1,5-alpha-L-arabinosidase 
+B OS=Neosartorya fischeri (strain ATCC 1020 / DSM 3700 
+/ CBS 544.65 / FGSC A1164 / JCM 1740 / NRRL 181 / WB 181) 
+OX=331117 GN=abnB PE=3 SV=2
+Length=372
+
+ Score = 75.2 bits (183),  Expect = 1e-13, Method: Composition-based stats.
+ Identities = 53/304 (17%), Positives = 90/304 (30%), Gaps = 66/304 (22%)
+
+Query  14   IADASIQEINGVFYCYATTDGYGQGLKTSGPPVVWKSKDFVHWSFDGTYF------PSAA  67
+            I D SI  ++G +Y    +   G+ ++    P +        W   GT        P   
+Sbjct  57   IHDPSIIHVDGTYY----SYSVGKHIRIHQAPSLDGP-----WKRTGTVLDADSVIPKGD  107
+
+Query  68   KEKYWAPSKAIFANGKYYIY-----PTINGYMYPAVADKPE-GPFKLARGKDEFYKPFTP  121
+            ++  WAP      +  Y  Y        +  +  A +  P  G +    G          
+Sbjct  108  RKAPWAPQTVHHGDTYYCFYAVSNSGCRDSAIGVATSKSPGPGGWTD-HGLLVQSGTGKG  166
+
+Query  122  STLLQSKNPGGIDAEIFVDDDGQAYV----FWGRRHVAKLNEDMITVDSVVQVIS-----  172
+            S      +   ID  +FV +DG  Y+    FW       L+E +++V    +  +     
+Sbjct  167  SDEHPFASSNTIDPSVFVGEDGHGYLMFGSFWSGIWQVPLDETLLSVAGDTRSEARQLVY  226
+
+Query  173  ------------------TPRKEYSEGPIFFKRKGIYYYLYTIGGDEKYQ----------  204
+                                     EG      +  YY  ++ G   K+           
+Sbjct  227  MEKAPLPASKHPNPLCREPSGARPIEGSFLSYHEPWYYLWFSYGKCCKFDTKNLPPPGRE  286
+
+Query  205  -YAYVMSRVSPMGPFEAPEQDIIST------TNYERGIFGPGHGCVFHPEGTDNYYFAYL  257
+                V    SP GPF   +   ++           R ++ PG   V   +  D  Y+ Y 
+Sbjct  287  YSIRVGRSKSPRGPFVDKQGRDLANGGGEIVYASNRDVYAPGGQAVLTEKSGDILYYHYC  346
+
+Query  258  EFGR  261
+             +  
+Sbjct  347  RYPA  350
+
+
+> sp|P48791|XYNB_PRERU Beta-xylosidase OS=Prevotella ruminicola 
+OX=839 GN=xynB PE=3 SV=1
+Length=319
+
+ Score = 72.5 bits (176),  Expect = 9e-13, Method: Composition-based stats.
+ Identities = 70/338 (21%), Positives = 113/338 (33%), Gaps = 90/338 (27%)
+
+Query  11   PDMIADASIQEINGVFYCYATTDGYGQGLKTSGPPVVWKSKDFVHWSFDGTYFPSAAKE-  69
+             D +AD +    +G  Y Y + D Y  G         ++ KD+     DG      AK+ 
+Sbjct  9    SDYMADPAANVFDGKLYIYPSHD-YDSGECFDDDGGHFQMKDYHVLCIDGDPMEQDAKDC  67
+
+Query  70   --------------KYWAPSKAIFANGKYYIYPTINGY-----MYPAVADKPEGPFKLAR  110
+                          + W     +  +GKYY+  +   Y     +  AVADKPEGPF    
+Sbjct  68   GKQFGIEDIPWVEKQLWDNDC-VEKDGKYYLIYSAKDYTGVFHLGVAVADKPEGPFV---  123
+
+Query  111  GKDEFYKPFTPSTLLQSKNPGGIDAEIFVDDDGQAYVFWG--------------------  150
+                             +    ID  +F DDDG+ YV++G                    
+Sbjct  124  -----------PEADPIRGSYSIDPCVFKDDDGEIYVYFGGIWGGQLQWYKDNKMLKAEH  172
+
+Query  151  ---------RRHVAKLNEDM----------ITVDSVVQVISTPR-KEYSEGPIFFKRKGI  190
+                        VA++  D+          I VD   + +       + E     K  G 
+Sbjct  173  LPEGKEDPLPSRVARMTGDVKQFAEAPRAVIIVDETGKPLPADDPHRFFEASWMHKYNGK  232
+
+Query  191  YYYLYTIGGDEKYQYAYVMSRVSPMGPFEAPEQDIISTTNYERGIFGPGHGCVFHPEGTD  250
+            YY+ Y+ G      YA      +P GPF      +      E  +    H  +   +G  
+Sbjct  233  YYFSYSTGDTHLLCYAV---GDNPYGPFTYQGVIL------EPVVGWTTHHSIVEYKG--  281
+
+Query  251  NYYFAYLEFGRRSTN---RQTYVNQLKFNEDGTIRPVE  285
+             +Y  + +    +     R   V +L+++ +G I+ V+
+Sbjct  282  KWYLFHHDCVPSNDTTWLRSLKVAELEYDAEGHIKTVK  319
+
+
+> sp|B0XTS5|ABNB_ASPFC Probable arabinan endo-1,5-alpha-L-arabinosidase 
+B OS=Neosartorya fumigata (strain CEA10 / CBS 144.89 
+/ FGSC A1163) OX=451804 GN=abnB PE=3 SV=2
+Length=372
+
+ Score = 71.4 bits (173),  Expect = 3e-12, Method: Composition-based stats.
+ Identities = 51/298 (17%), Positives = 89/298 (30%), Gaps = 56/298 (19%)
+
+Query  14   IADASIQEINGVFYCYATTDGYGQGLKTSGPPVVWKSKDFVHWSFDGTYFPSAAKEKYWA  73
+            I D SI  ++G +Y Y+           S      ++   ++     +  P   ++  WA
+Sbjct  57   IHDPSIIHVDGTYYSYSVGRHIRIHQAPSLDGPWERTGAVLN---ADSVIPKGDRKAPWA  113
+
+Query  74   PSKAIFANGKYYIYP------TINGYMYPAVADKPE-GPFKLARGKDEFYKPFTPSTLLQ  126
+            P   +  N  YY +         +  +  A +  P  G +    G          S    
+Sbjct  114  PQ-TVHHNDTYYCFYAVSNSGCRDSAIGVATSKSPGPGGWTD-HGLLVQSGTGKGSDEHP  171
+
+Query  127  SKNPGGIDAEIFVDDDGQAYV----FWGRRHVAKLNEDMITVDSVVQVIS----------  172
+              +   ID  +FV +DG  Y+    FW       L+E +++V       +          
+Sbjct  172  FTSSNTIDPSVFVGEDGHGYLMFGSFWSGIWQVPLDESLLSVAGDTSSEARQLVYMEKAP  231
+
+Query  173  -------------TPRKEYSEGPIFFKRKGIYYYLYTIGGDEKYQ-----------YAYV  208
+                                EG      +  YY  ++ G   K+               V
+Sbjct  232  LPASKHPNPLCREPSGARPIEGSFLSYHEPWYYLWFSYGKCCKFDTKNLPPPGREYSIRV  291
+
+Query  209  MSRVSPMGPFEAPEQDIIST------TNYERGIFGPGHGCVFHPEGTDNYYFAYLEFG  260
+                SP GPF   +   ++           R ++ PG   V   +  D  Y+ Y  + 
+Sbjct  292  GRSKSPRGPFVDKQGRDLANGGGEIVYASNRDVYAPGGQGVLTEKSGDILYYHYCRYP  349
+
+
+> sp|Q4X0A5|ABNB_ASPFU Probable arabinan endo-1,5-alpha-L-arabinosidase 
+B OS=Neosartorya fumigata (strain ATCC MYA-4609 / Af293 
+/ CBS 101355 / FGSC A1100) OX=330879 GN=abnB PE=3 SV=2
+Length=372
+
+ Score = 71.4 bits (173),  Expect = 3e-12, Method: Composition-based stats.
+ Identities = 51/298 (17%), Positives = 89/298 (30%), Gaps = 56/298 (19%)
+
+Query  14   IADASIQEINGVFYCYATTDGYGQGLKTSGPPVVWKSKDFVHWSFDGTYFPSAAKEKYWA  73
+            I D SI  ++G +Y Y+           S      ++   ++     +  P   ++  WA
+Sbjct  57   IHDPSIIHVDGTYYSYSVGRHIRIHQAPSLDGPWERTGAVLN---ADSVIPKGDRKAPWA  113
+
+Query  74   PSKAIFANGKYYIYP------TINGYMYPAVADKPE-GPFKLARGKDEFYKPFTPSTLLQ  126
+            P   +  N  YY +         +  +  A +  P  G +    G          S    
+Sbjct  114  PQ-TVHHNDTYYCFYAVSNSGCRDSAIGVATSKSPGPGGWTD-HGLLVQSGTGKGSDEHP  171
+
+Query  127  SKNPGGIDAEIFVDDDGQAYV----FWGRRHVAKLNEDMITVDSVVQVIS----------  172
+              +   ID  +FV +DG  Y+    FW       L+E +++V       +          
+Sbjct  172  FTSSNTIDPSVFVGEDGHGYLTFGSFWSGIWQVPLDESLLSVAGDTSSEARQLVYMEKAP  231
+
+Query  173  -------------TPRKEYSEGPIFFKRKGIYYYLYTIGGDEKYQ-----------YAYV  208
+                                EG      +  YY  ++ G   K+               V
+Sbjct  232  LPASKHPNPLCREPSGARPIEGSFLSYHEPWYYLWFSYGKCCKFDTKNLPPPGREYSIRV  291
+
+Query  209  MSRVSPMGPFEAPEQDIIST------TNYERGIFGPGHGCVFHPEGTDNYYFAYLEFG  260
+                SP GPF   +   ++           R ++ PG   V   +  D  Y+ Y  + 
+Sbjct  292  GRSKSPRGPFVDKQGRDLANGGGEIVYASNRDVYAPGGQGVLTEKSGDILYYHYCRYP  349
+
+
+> sp|Q0CY27|ABNB_ASPTN Probable arabinan endo-1,5-alpha-L-arabinosidase 
+B OS=Aspergillus terreus (strain NIH 2624 / FGSC A1156) 
+OX=341663 GN=abnB PE=3 SV=2
+Length=364
+
+ Score = 67.9 bits (164),  Expect = 4e-11, Method: Composition-based stats.
+ Identities = 60/297 (20%), Positives = 94/297 (32%), Gaps = 60/297 (20%)
+
+Query  14   IADASIQEINGVFYCYATTDGYGQGLKTSGPPVVWKS-KDFVHWSFDGTYFPSAAKEKYW  72
+            I D SI ++   +Y    +   G  +     P +    K   H     +  P   ++  W
+Sbjct  47   IHDPSILKVGDKYY----SYSVGPRIVIHEAPTLSGPWKKTGHVLDKDSIIPKGDRKAPW  102
+
+Query  73   APSKAIFANGKYYIYP------TINGYMYPAVADKPE-GPFKLARGKDEFYKPFTPSTLL  125
+            AP+    A G YY Y         N  +  A +  P  G +    G          S   
+Sbjct  103  APTTIEVA-GTYYCYYAVSQSGCRNSAIGVATSQSPGPGGWTD-HGAIIHTGTGPGSDSA  160
+
+Query  126  QSKNPGGIDAEIFVDDDGQAYV----FWGRRHVAKLNEDMITVDSVVQVIS---------  172
+                   IDA + +  DG  Y+    +W       LN D++++  V    +         
+Sbjct  161  PFDRSNAIDASVILTPDGNGYLNFGSYWTGIWQVPLNADLVSISDVSTNAARHLAYEPHA  220
+
+Query  173  -TPRKEYS-------EGPI-----FFKRKGIYYYLYTIGG-------------DEKYQYA  206
+             +P  +          G       F   +  +YYL+   G              ++YQ  
+Sbjct  221  FSPGGKNPNPLCGDRSGSHPIEGAFVSYRAPFYYLWFSWGKCCKYNPKALPPRGKEYQ-I  279
+
+Query  207  YVMSRVSPMGPFEAPEQDIIST------TNYERGIFGPGHGCVFHPEGTDNYYFAYL  257
+             V     P GPF   +   +            R ++ PG   V   EGTD  Y+ YL
+Sbjct  280  RVGRSTHPQGPFVDRQGVDLIEGGGEVVYGSNRDVYAPGGQGVLTDEGTDILYYHYL  336
+
+
+> sp|Q2UI74|ABNB_ASPOR Probable arabinan endo-1,5-alpha-L-arabinosidase 
+B OS=Aspergillus oryzae (strain ATCC 42149 / RIB 40) 
+OX=510516 GN=abnB PE=3 SV=1
+Length=353
+
+ Score = 64.0 bits (154),  Expect = 7e-10, Method: Composition-based stats.
+ Identities = 61/330 (18%), Positives = 95/330 (29%), Gaps = 78/330 (24%)
+
+Query  14   IADASIQEINGVFYCYATTDGYGQGLKTSGPPVVWKSKDFVHWSFDGTYF------PSAA  67
+            I D ++   NG +Y Y      G+ +     P +        W   G+        P   
+Sbjct  37   IHDPTVINANGAYYAYGV----GEHIVIHQAPGLAGP-----WKQIGSVLDKDSIIPKGD  87
+
+Query  68   KEKYWAPSKAIFANGKYYIYP------TINGYMYPAVADKPE-GPFKLARGKDEFYKPFT  120
+            + K WAP+  I   G +Y Y         +  +  A +  P  G +    G         
+Sbjct  88   RAKPWAPT-TIEVKGTFYCYYSVSNAGCRDSAIGVATSQSPGPGGWTD-HGAIVQSGTGQ  145
+
+Query  121  PSTLLQSKNPGGIDAEIFVDDDGQAYVFWGR------------------------RHVAK  156
+             S          ID  + V  D + ++ +G                          H   
+Sbjct  146  GSDEHPFNEVNAIDPAVLVTGD-KGHLVFGSYWSGIWQVPLNEDFSSVGNTTGLNAHHLA  204
+
+Query  157  LNEDMITVDSVVQVISTP-----RKEYSEGPIFFKRKGIYYYLYTIGG------------  199
+             +     V+S  Q           +   EG         YYYL+   G            
+Sbjct  205  KHPKTERVNSQDQNPDPLCRDSSGRRPVEGAYI-SYHAPYYYLWLSWGQCCDYDPNNLPP  263
+
+Query  200  -DEKYQYAYVMSRVSPMGPFEAPEQDIIST------TNYERGIFGPGHGCVFHPEGTDNY  252
+              E+Y    V    SP GPF   +   ++             ++ PG   V   E  D  
+Sbjct  264  SGEEYS-IRVGRSESPHGPFVDKQGKELTQGGGELIYGSNNDVYAPGGQGVITVETGDIL  322
+
+Query  253  YFAYLEFGRRSTNRQTYVN-QLKFNEDGTI  281
+            Y+ Y  +  R +    Y    L FN+  T+
+Sbjct  323  YYHYSLY--RYSTHSLYTFANLDFNQGCTL  350
+
+
+> sp|B8N803|ABNB_ASPFN Probable arabinan endo-1,5-alpha-L-arabinosidase 
+B OS=Aspergillus flavus (strain ATCC 200026 / FGSC 
+A1120 / NRRL 3357 / JCM 12722 / SRRC 167) OX=332952 GN=abnB 
+PE=3 SV=2
+Length=358
+
+ Score = 62.9 bits (151),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 56/306 (18%), Positives = 86/306 (28%), Gaps = 75/306 (25%)
+
+Query  14   IADASIQEINGVFYCYATTDGYGQGLKTSGPPVVWKSKDFVHWSFDGTYF------PSAA  67
+            I D ++   NG +Y Y      G+ +     P +        W   G+        P   
+Sbjct  37   IHDPTVINANGAYYAYGV----GEHIVIHQAPGLAGP-----WKQIGSVLDKDSIIPKGD  87
+
+Query  68   KEKYWAPSKAIFANGKYYIYP------TINGYMYPAVADKPE-GPFKLARGKDEFYKPFT  120
+            + K WAP+  I   G +Y Y         +  +  A +  P  G +    G         
+Sbjct  88   RAKPWAPT-TIEVKGTFYCYYSVSNAGCRDSAIGVATSQSPGPGGWTD-HGAIVQSGTGQ  145
+
+Query  121  PSTLLQSKNPGGIDAEIFVDDDGQAYVFWGR------------------------RHVAK  156
+             S          ID  + V  D + ++ +G                          H   
+Sbjct  146  GSDEHPFNEVNAIDPAVLVTGD-KGHLVFGSYWSGIWQVPLNEDFSSVGNTTGLNAHHLA  204
+
+Query  157  LNEDMITVDSVVQVISTP-----RKEYSEGPIFFKRKGIYYYLYTIGG------------  199
+             +     V+S  Q           +   EG         YYYL+   G            
+Sbjct  205  KHPKTERVNSQDQNPDPLCRDSSGRRPVEGAYI-SYHAPYYYLWLSWGQCCDYDPNNLPP  263
+
+Query  200  -DEKYQYAYVMSRVSPMGPFEAPEQDIIST------TNYERGIFGPGHGCVFHPEGTDNY  252
+              E+Y    V    SP GPF   +   ++             ++ PG   V   E  D  
+Sbjct  264  SGEEYS-IRVGRSESPHGPFVDKQGKELTQGGGELIYGSNNDVYAPGGQGVITVETGDIL  322
+
+Query  253  YFAYLE  258
+            Y+ Y E
+Sbjct  323  YYHYCE  328
+
+
+> sp|A2QT85|ABNA_ASPNC Probable arabinan endo-1,5-alpha-L-arabinosidase 
+A OS=Aspergillus niger (strain CBS 513.88 / FGSC A1513) 
+OX=425011 GN=abnA PE=3 SV=1
+Length=321
+
+ Score = 62.5 bits (150),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 50/271 (18%), Positives = 87/271 (32%), Gaps = 56/271 (21%)
+
+Query  15   ADASIQ--EINGVFYCYATTDGYGQGLKTSGPPVVWKSKDFVHWSFDGTYFPSAA-----  67
+             D  +   E +G ++ ++T +       +S             W+  G+  P  +     
+Sbjct  33   HDPGLIRRESDGTYFLFSTGNKISYVSASSIEGP---------WTSVGSMLPDGSSIDLD  83
+
+Query  68   -KEKYWAPSKAIFANGKYYIYPTINGYM------YPAVADKPE-GPFKLARGKDEFYKPF  119
+              +  WAP  + + +G YY+Y  ++ +         A ++  E G +             
+Sbjct  84   GNDDLWAPDVS-YVDGLYYVYYAVSTFGSQDSAIGLATSETMEYGSWTDHGSTGIASS--  140
+
+Query  120  TPSTLLQSKNPGGIDAEIFVDDDGQAYV----FWGRRHVAKLNEDMITVDSVVQVI--ST  173
+                   +K    ID  +    DG  Y+    FW   +   +        S    +    
+Sbjct  141  ------SAKIYNAIDPNLIYA-DGTYYINFGSFWDDIYQVPMKSTPTAAASSSYNLAYDP  193
+
+Query  174  PRKEYSEGPIFFKRKGIYYYLYTIGG------------DEKYQYAYVMSRVSPMGPFEAP  221
+                  EG   F+  G YYYL+   G             E+Y +  V    SP G F   
+Sbjct  194  SGTHAEEGSYMFQY-GDYYYLFYSAGICCGYDTSMPASGEEY-HIKVCRSTSPTGDFVDS  251
+
+Query  222  EQDIISTTNYERGIFGPGHGCVFHPEGTDNY  252
+            +    + T+    +    HG V+ P G   Y
+Sbjct  252  DG--TACTDGGGTMVLESHGEVYGPGGQGVY  280
+
+
+> sp|P42256|ABNA_ASPNG Arabinan endo-1,5-alpha-L-arabinosidase 
+A OS=Aspergillus niger OX=5061 GN=abnA PE=1 SV=1
+Length=321
+
+ Score = 62.5 bits (150),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 50/271 (18%), Positives = 87/271 (32%), Gaps = 56/271 (21%)
+
+Query  15   ADASIQ--EINGVFYCYATTDGYGQGLKTSGPPVVWKSKDFVHWSFDGTYFPSAA-----  67
+             D  +   E +G ++ ++T +       +S             W+  G+  P  +     
+Sbjct  33   HDPGLIRRESDGTYFLFSTGNKISYVSASSIEGP---------WTSVGSMLPDGSSIDLD  83
+
+Query  68   -KEKYWAPSKAIFANGKYYIYPTINGYM------YPAVADKPE-GPFKLARGKDEFYKPF  119
+              +  WAP  + + +G YY+Y  ++ +         A ++  E G +             
+Sbjct  84   GNDDLWAPDVS-YVDGLYYVYYAVSTFGSQDSAIGLATSETMEYGSWTDHGSTGIASS--  140
+
+Query  120  TPSTLLQSKNPGGIDAEIFVDDDGQAYV----FWGRRHVAKLNEDMITVDSVVQVI--ST  173
+                   +K    ID  +    DG  Y+    FW   +   +        S    +    
+Sbjct  141  ------SAKIYNAIDPNLIYA-DGTYYINFGSFWDDIYQVPMKSTPTAAASSSYNLAYDP  193
+
+Query  174  PRKEYSEGPIFFKRKGIYYYLYTIGG------------DEKYQYAYVMSRVSPMGPFEAP  221
+                  EG   F+  G YYYL+   G             E+Y +  V    SP G F   
+Sbjct  194  SGTHAEEGSYMFQY-GDYYYLFYSAGICCGYDTSMPASGEEY-HIKVCRSTSPTGDFVDS  251
+
+Query  222  EQDIISTTNYERGIFGPGHGCVFHPEGTDNY  252
+            +    + T+    +    HG V+ P G   Y
+Sbjct  252  DG--TACTDGGGTMVLESHGEVYGPGGQGVY  280
+
+
+> sp|B0YDT3|ABNC_ASPFC Probable arabinan endo-1,5-alpha-L-arabinosidase 
+C OS=Neosartorya fumigata (strain CEA10 / CBS 144.89 
+/ FGSC A1163) OX=451804 GN=abnC PE=3 SV=2
+Length=321
+
+ Score = 58.6 bits (140),  Expect = 3e-08, Method: Composition-based stats.
+ Identities = 54/320 (17%), Positives = 91/320 (28%), Gaps = 63/320 (20%)
+
+Query  3    NPFGNALIPDMI---ADASIQEINGVFYCYATTDGYGQGLKTSGPPVVWKSKDFVHWSFD  59
+            N + N           D  + +       +    G G  + ++             W+ D
+Sbjct  17   NAYANPGACSGNCWTHDPGLYQRKSDGKYFRFATGGGIHIASADSLEGP-------WTDD  69
+
+Query  60   GTYFPSAA------KEKYWAPSKAIFANGKYYIYPTI------NGYMYPAVADKPE-GPF  106
+            G   PS +      K   WAP    + +G YY+Y  +      N  +  A +   E G +
+Sbjct  70   GYVLPSGSIIDLDGKTNLWAPDL-HYHDGTYYLYYAVSSLGSQNSAIGVATSKTMEAGSW  128
+
+Query  107  KLARGKDEFYKPFTPSTLLQSKNPGGIDAEIFVDDDGQAYV----FWGRRHVAKLNEDMI  162
+                       P +P           IDA  ++   G  YV    +W      ++   + 
+Sbjct  129  TDHGTTGIESTPSSPY--------NTIDAN-WIAVGGNQYVNFGSYWNNLFQVEMENGLK  179
+
+Query  163  TVDSVVQ---VISTPRKEYSEGPIFFKRKGIYYYLYTIGGDEKYQ----------YAYVM  209
+                        +       E    F+R   +Y  ++ G    Y           +  V 
+Sbjct  180  VKSGATPHQIAYNASGIHRQEAAFMFERNNYFYLTFSGGIALGYNDTWPAPGEEYFIAVC  239
+
+Query  210  SRVSPMGPFEAPEQDIISTTNYERGIFGPGHGCVFHPEGTD-----------NYYFAYLE  258
+               S  G F          +     +    H  V+ P G              Y++A   
+Sbjct  240  RSTSATGGFVDKNGVSCLNS--GGSLLLSSHDFVYGPGGQGILQDSSKGFVLYYHYADTR  297
+
+Query  259  FGRRSTNRQTYVNQLKFNED  278
+             G+   + Q   NQLK+  D
+Sbjct  298  IGKAVEDYQFGWNQLKWEND  317
+
+
+> sp|Q5B8T6|ABND_EMENI Probable arabinan endo-1,5-alpha-L-arabinosidase 
+D OS=Emericella nidulans (strain FGSC A4 / ATCC 38163 
+/ CBS 112.46 / NRRL 194 / M139) OX=227321 GN=abnD PE=2 SV=2
+Length=383
+
+ Score = 59.0 bits (141),  Expect = 3e-08, Method: Composition-based stats.
+ Identities = 51/269 (19%), Positives = 87/269 (32%), Gaps = 38/269 (14%)
+
+Query  13   MIADASIQEINGVFYCYATTDGYGQGLKTSGPPVVWKSKDFVHWSFDGTYFPSAAKEKY-  71
+            +  D SI   +  FY +      G  +       +    + +    +G        ++  
+Sbjct  46   VAHDPSIVRHHEHFYLF----KGGIHIPVFRASNLSGPWERLGTVLNGPSLVQKQNQRRP  101
+
+Query  72   WAPSKAIFANGKYYIYPTI------NGYMYPAVADKPE-GPFKLARGKDEFYKPFTPSTL  124
+            WAP    +   ++Y + +I      N  +  A +D  E G +    G          S +
+Sbjct  102  WAPMVTQW-KNRFYCFYSISQNGKRNSAIGVASSDSVEPGGWTD-HGPLINTGHGPGSGV  159
+
+Query  125  LQSKNPGGIDAEIFVDD-DGQAYV----FWGRRHVAKLNEDMITVDSVVQ------VIST  173
+                    ID   F D   GQ Y+    +W       L ED+++V++         V   
+Sbjct  160  YPFNVSNAIDPAFFADPITGQPYLQYGSYWKGIFQVPLAEDLLSVENATHPNTDHLVFLP  219
+
+Query  174  PRKEYSEGPIFFKRKGIYYYLYTIGG-----------DEKYQY-AYVMSRVSPMGPFEAP  221
+             +K      +F   +  YYY +   G            E  +Y   V    S  GPF   
+Sbjct  220  KKKPKPNEGVFMSYRAPYYYAWFSHGQCCHFKTQGFPKEGNEYSIRVGRSTSVHGPFVDR  279
+
+Query  222  EQDIISTTNYERGIFGPGHGCVFHPEGTD  250
+            +   +        ++G  HG V+ P G  
+Sbjct  280  DNKDLLNGG-GSVVYGSNHGKVYAPGGLG  307
+
+
+> sp|Q82P90|IABF_STRAW Extracellular exo-alpha-(1->5)-L-arabinofuranosidase 
+OS=Streptomyces avermitilis (strain ATCC 31267 
+/ DSM 46492 / JCM 5070 / NBRC 14893 / NCIMB 12804 / NRRL 8165 
+/ MA-4680) OX=227882 GN=Araf43A PE=1 SV=1
+Length=481
+
+ Score = 59.0 bits (141),  Expect = 4e-08, Method: Composition-based stats.
+ Identities = 49/310 (16%), Positives = 96/310 (31%), Gaps = 45/310 (15%)
+
+Query  5    FGNALIPDMIADASIQEINGVFYCYATTDGYGQGL---KTSGPPVVWKSKDFVHWSFDGT  61
+            F N L  +  AD  I +    +Y +  T      +   + +    +  + +   W+   +
+Sbjct  37   FTNPL-AEKRADPHIFKHTDGYYYFTATVPEYDRIVLRRATTLQGLATAPETTIWTKHAS  95
+
+Query  62   YFPSAAKEKYWAPSKAIFANGKYYIYPTINGYMYPAVADK-PEGPFKLARGKDE--FYKP  118
+                A     WAP    F +GK+Y+Y           +D      + L  G         
+Sbjct  96   GVMGAH---IWAPEI-HFIDGKWYVYFAAGS-----TSDVWAIRMYVLESGAANPLTGSW  146
+
+Query  119  FTPSTLLQSKNPGGIDAEIFV---------------DDDGQAYVFWGRRHVAKLNEDMIT  163
+                 +    +   +DA  FV               +D+  +       +   ++     
+Sbjct  147  TEKGQIATPVSSFSLDATTFVVNGVRHLAWAQRNPAEDNNTSLFIAKMANPWTISGTPTE  206
+
+Query  164  VDSVVQVISTPRKEYSEGPIFFKRKGIYYYLYTIGGDEKYQYAYVMSRVS-----PMGPF  218
+            +        T   + +EGP   +  G  +  Y+    +      ++S  +         +
+Sbjct  207  ISQPTLSWETVGYKVNEGPAVIQHGGKVFLTYSASATDANYCLGMLSASASADLLNAASW  266
+
+Query  219  EAPEQDIISTTNYERGIFGPGHGCVFHPEGTDNYYFAYLEF--------GRRSTNRQTYV  270
+                Q +  T+    G +GPGH      E   +    Y +              NR+T +
+Sbjct  267  TKSSQPVFKTSEA-TGQYGPGHNSFTVSEDGKSDILVYHDRNYKDISGDPLNDPNRRTRL  325
+
+Query  271  NQLKFNEDGT  280
+             ++ +N DGT
+Sbjct  326  QKVYWNADGT  335
+
+
+> sp|Q5AZC8|ABNB_EMENI Arabinan endo-1,5-alpha-L-arabinosidase 
+B OS=Emericella nidulans (strain FGSC A4 / ATCC 38163 / CBS 
+112.46 / NRRL 194 / M139) OX=227321 GN=abnB PE=2 SV=1
+Length=400
+
+ Score = 58.6 bits (140),  Expect = 4e-08, Method: Composition-based stats.
+ Identities = 37/170 (22%), Positives = 58/170 (34%), Gaps = 26/170 (15%)
+
+Query  15   ADASIQEINGVFYCYATTDGYGQGLKTSGPPVVWKSKDFVHWSFDGTYFPSAA---KEKY  71
+             D SI ++  ++Y Y+           S             W+  G      +   K   
+Sbjct  69   HDPSIIKVGSIYYSYSVGPSITIHQAFSLDGP---------WTEVGALLSGESVIKKGDR  119
+
+Query  72   WAP--SKAIFANGKYYIYP------TINGYMYPAVADKPE-GPFKLARGKDEFYKPFTPS  122
+             AP  +  I+ NG+YY Y         +  +  A +  P  G +    G          S
+Sbjct  120  KAPWAANTIYINGRYYCYYSVSNSGCRDSAIGVASSAFPGPGEWTD-HGLIIQSGTGEGS  178
+
+Query  123  TLLQSKNPGGIDAEIFVDDDGQAYV----FWGRRHVAKLNEDMITVDSVV  168
+             +        ID  +FVD DG AY+    FW       L E+++TV  + 
+Sbjct  179  DVFPLNQSNTIDPNVFVDGDGTAYLNFGSFWTGLWQVPLEEELVTVKGLQ  228
+
+
+> sp|Q9HFS9|ABNA_ASPAC Arabinan endo-1,5-alpha-L-arabinosidase 
+A OS=Aspergillus aculeatus OX=5053 GN=abnA PE=1 SV=1
+Length=321
+
+ Score = 57.9 bits (138),  Expect = 5e-08, Method: Composition-based stats.
+ Identities = 46/264 (17%), Positives = 82/264 (31%), Gaps = 40/264 (15%)
+
+Query  14   IADASIQ--EINGVFYCYATTDGYGQGLKTSGPPVVWKSKDFVHWSFDGTYFPSAA----  67
+            + D ++   E +G ++ ++T +       +S             W+  G+  P+ +    
+Sbjct  32   VHDPALIVRESDGKYFRFSTGNEISYASASSINGP---------WTAIGSVVPAGSKIDL  82
+
+Query  68   --KEKYWAPSKAIFANGKYYIYPTINGYMYPAVADKPEGPFKLARGKDEFYKPFTPSTLL  125
+                  WAP  + + +G YY   +++ +     A        +                 
+Sbjct  83   SGNTDLWAPDLS-YVDGTYYCLYSVSTFGSQDSAIGVASSTTMELNT-WTDHGSVGVASS  140
+
+Query  126  QSKNPGGIDAEIFVDDDGQAYVF-----WGRRHVAKL-NEDMITVDSVVQVI-STPRKEY  178
+             SKN   ID  + V  DG +Y       WG  +  K+ +       +   +  +      
+Sbjct  141  SSKNYNAIDGNLLV--DGSSYYLQFGSFWGDIYQVKMASPLKTAGSASYNIAYNATGTHS  198
+
+Query  179  SEGPIFFKRKGIYYYLYTIGGDEKYQ----------YAYVMSRVSPMGPFEAPEQDIIST  228
+             EG   FK    YY  ++ G    Y              V    S  G F     +  + 
+Sbjct  199  EEGSYLFKYGSYYYLFFSSGTCCGYDTSRPAQGEEYKIMVCRSTSATGGFVDKNGNACTE  258
+
+Query  229  TNYERGIFGPGHGCVFHPEGTDNY  252
+            +     I    HG V+ P G   Y
+Sbjct  259  S--GGTIVLASHGTVYGPGGQGVY  280
+
+
+> sp|Q4W930|ABNC_ASPFU Probable arabinan endo-1,5-alpha-L-arabinosidase 
+C OS=Neosartorya fumigata (strain ATCC MYA-4609 / Af293 
+/ CBS 101355 / FGSC A1100) OX=330879 GN=abnC PE=3 SV=2
+Length=321
+
+ Score = 57.5 bits (137),  Expect = 7e-08, Method: Composition-based stats.
+ Identities = 54/320 (17%), Positives = 90/320 (28%), Gaps = 63/320 (20%)
+
+Query  3    NPFGNALIPDMI---ADASIQEINGVFYCYATTDGYGQGLKTSGPPVVWKSKDFVHWSFD  59
+            N + N           D  + +       +    G G  + ++             W+ D
+Sbjct  17   NAYANPGACSGNCWTHDPGLYQRKSDGKYFRFATGGGIHIASADSLEGP-------WTDD  69
+
+Query  60   GTYFPSAA------KEKYWAPSKAIFANGKYYIYPTI------NGYMYPAVADKPE-GPF  106
+            G   PS +      K   WAP    + +G YY+Y  +      N     A +   E G +
+Sbjct  70   GYVLPSGSIIDLDGKTNLWAPDL-HYHDGTYYLYYAVSSLGSQNSATGVATSKTMEAGSW  128
+
+Query  107  KLARGKDEFYKPFTPSTLLQSKNPGGIDAEIFVDDDGQAYV----FWGRRHVAKLNEDMI  162
+                       P +P           IDA  ++   G  YV    +W      ++   + 
+Sbjct  129  TDHGTTGIESTPSSPY--------NTIDAN-WIAVGGTQYVNFGSYWNNLFQVEMENGLK  179
+
+Query  163  TVDSVVQ---VISTPRKEYSEGPIFFKRKGIYYYLYTIGGDEKYQ----------YAYVM  209
+                        +       E    F+R   +Y  ++ G    Y           +  V 
+Sbjct  180  VKSGATPHQIAYNASGIHRQEAAFMFERNNYFYLTFSGGIALGYNDTWPAPGEEYFIAVC  239
+
+Query  210  SRVSPMGPFEAPEQDIISTTNYERGIFGPGHGCVFHPEGTD-----------NYYFAYLE  258
+               S  G F          +     +    H  V+ P G              Y++A   
+Sbjct  240  RSTSATGGFVDKNGVSCLNS--GGSLLLSSHDFVYGPGGQGILQDSSKGFVLYYHYADTR  297
+
+Query  259  FGRRSTNRQTYVNQLKFNED  278
+             G+   + Q   NQLK+  D
+Sbjct  298  IGKAVEDYQFGWNQLKWEND  317
+
+
+> sp|A1CLG4|ABNA_ASPCL Probable arabinan endo-1,5-alpha-L-arabinosidase 
+A OS=Aspergillus clavatus (strain ATCC 1007 / CBS 513.65 
+/ DSM 816 / NCTC 3887 / NRRL 1) OX=344612 GN=abnA PE=3 
+SV=1
+Length=321
+
+ Score = 56.7 bits (135),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 44/270 (16%), Positives = 79/270 (29%), Gaps = 52/270 (19%)
+
+Query  14   IADASIQE--INGVFYCYATTDGYGQGLKTSGPPVVWKSKDFVHWSFDGTYFPSAAK---  68
+            I D ++     +G ++ ++T +       +S             W+  G+  P  +    
+Sbjct  32   IHDPALIRRQSDGKYFRFSTGNKISYASSSSIKGP---------WTVLGSVLPRGSSINL  82
+
+Query  69   ---EKYWAPSKAIFANGKYYIYPTI------NGYMYPAVADKPE-GPFKLARGKDEFYKP  118
+                  WAP  +   NG Y++Y ++      +  +  A +   +   +            
+Sbjct  83   PGKTDLWAPDIS-LVNGAYHLYYSVSAFGSQDSAIGLATSATMDPNSWTDHGSTGIRSSS  141
+
+Query  119  FTPSTLLQSKNPGGIDAEIFVDDDGQAYVFWGRRHVA------KLNEDMITVDSVVQVIS  172
+              P           IDA +F D  G  Y+ +G                 ++        +
+Sbjct  142  SKPY--------NAIDANLFHD-GGNYYMTFGSFWHDIYQAPMNSAATAVSSGPYNIAYN  192
+
+Query  173  TPRKEYSEGPIFFKRKGIYYYLYTIGGDEKYQ----------YAYVMSRVSPMGPFEAPE  222
+                   EG   +K    YY  ++ G    Y              V    S  G F    
+Sbjct  193  PSGTHAVEGAFMYKFGKYYYLFFSSGICCGYDTSRPAAGKEYKIRVCRSTSATGHFVDKH  252
+
+Query  223  QDIISTTNYERGIFGPGHGCVFHPEGTDNY  252
+               +S TN    +    HG V+ P G   +
+Sbjct  253  G--VSCTNGGGTVVLESHGHVYGPGGQGVF  280
+
+
+> sp|A1D5W1|ABNA_NEOFI Probable arabinan endo-1,5-alpha-L-arabinosidase 
+A OS=Neosartorya fischeri (strain ATCC 1020 / DSM 3700 
+/ CBS 544.65 / FGSC A1164 / JCM 1740 / NRRL 181 / WB 181) 
+OX=331117 GN=abnA PE=3 SV=1
+Length=321
+
+ Score = 54.8 bits (130),  Expect = 5e-07, Method: Composition-based stats.
+ Identities = 45/271 (17%), Positives = 83/271 (31%), Gaps = 54/271 (20%)
+
+Query  14   IADASIQE--INGVFYCYATTDGYGQGLKTSGPPVVWKSKDFVHWSFDGTYFPSAAK---  68
+            + D ++     +G ++ ++T +       +S             W+  G+  PS +    
+Sbjct  32   VHDPALIRRQSDGKYFRFSTGNKISYASSSSIQGP---------WTVLGSVLPSGSSINL  82
+
+Query  69   ---EKYWAPSKAIFANGKYYIYPTINGYM------YPAVADKPE-GPFKLARGKDEFYKP  118
+               +  WAP  +   NG Y++Y +++ +         A +   +   +            
+Sbjct  83   DGKDDLWAPDVS-LVNGVYHVYYSVSTFGSQSSAIGLATSSTMDLNSWTDHGSTGIQSSS  141
+
+Query  119  FTPSTLLQSKNPGGIDAEIFVDDDGQAYVFWGRRHVA------KLNEDMITVDSVVQVIS  172
+              P           IDA +F +D G  Y+ +G                     S     +
+Sbjct  142  SKPY--------NAIDANLF-NDGGTYYMNFGSFWHDIYQAPMNSAATAAASSSYNIAYN  192
+
+Query  173  TPRKEYSEGPIFFKRKGIYYYLYTIG-----------GDEKYQYAYVMSRVSPMGPFEAP  221
+                   EG   +K    YY  ++ G             E+Y    V    S  G F   
+Sbjct  193  PSGTHAVEGAFMYKYGSYYYLFFSAGICCGYDTSRPASGEEY-KIKVCRSTSATGNFVDA  251
+
+Query  222  EQDIISTTNYERGIFGPGHGCVFHPEGTDNY  252
+                ++ TN    +    HG V+ P G   +
+Sbjct  252  SG--VACTNGGGTVVLESHGTVYGPGGQGVF  280
+
+
+> sp|Q4WYX7|ABNA_ASPFU Probable arabinan endo-1,5-alpha-L-arabinosidase 
+A OS=Neosartorya fumigata (strain ATCC MYA-4609 / Af293 
+/ CBS 101355 / FGSC A1100) OX=330879 GN=abnA PE=3 SV=1
+Length=321
+
+ Score = 54.4 bits (129),  Expect = 7e-07, Method: Composition-based stats.
+ Identities = 45/271 (17%), Positives = 84/271 (31%), Gaps = 54/271 (20%)
+
+Query  14   IADASIQ--EINGVFYCYATTDGYGQGLKTSGPPVVWKSKDFVHWSFDGTYFPSAA----  67
+            + D ++   E +G ++ ++T +       +S             W+  G+  PS +    
+Sbjct  32   VHDPALIRRESDGKYFRFSTGNKISYASSSSIEGP---------WTVLGSVLPSGSSIDL  82
+
+Query  68   --KEKYWAPSKAIFANGKYYIYPTINGYM------YPAVADKPE-GPFKLARGKDEFYKP  118
+               +  WAP  +   NG Y++Y +++ +         A +   +   +            
+Sbjct  83   PGNDDLWAPDVS-LVNGVYHVYYSVSTFGSQSSAIGLATSSTMDLNSWTDHGSTGIQSSS  141
+
+Query  119  FTPSTLLQSKNPGGIDAEIFVDDDGQAYVFWGRRHVA------KLNEDMITVDSVVQVIS  172
+              P           ID  +F  D G  Y+ +G                 +   S     +
+Sbjct  142  SKPY--------NAIDGNLF-KDGGTYYMNFGSFWHDIYQAPMNSAATSVASSSYNIAYN  192
+
+Query  173  TPRKEYSEGPIFFKRKGIYYYLYTIG-----------GDEKYQYAYVMSRVSPMGPFEAP  221
+                   EG   +K    YY  ++ G             E+Y    V    S  G F   
+Sbjct  193  PSGTHAVEGAFMYKYGNYYYLFFSAGICCGYDTSRPASGEEY-KIKVCRSTSATGNFVD-  250
+
+Query  222  EQDIISTTNYERGIFGPGHGCVFHPEGTDNY  252
+              + ++ TN    +    HG V+ P G   +
+Sbjct  251  -ANGVACTNGGGTVVLESHGNVYGPGGQGVF  280
+
+
+> sp|B0XZW5|ABNA_ASPFC Probable arabinan endo-1,5-alpha-L-arabinosidase 
+A OS=Neosartorya fumigata (strain CEA10 / CBS 144.89 
+/ FGSC A1163) OX=451804 GN=abnA PE=3 SV=1
+Length=321
+
+ Score = 54.4 bits (129),  Expect = 7e-07, Method: Composition-based stats.
+ Identities = 45/271 (17%), Positives = 84/271 (31%), Gaps = 54/271 (20%)
+
+Query  14   IADASIQ--EINGVFYCYATTDGYGQGLKTSGPPVVWKSKDFVHWSFDGTYFPSAA----  67
+            + D ++   E +G ++ ++T +       +S             W+  G+  PS +    
+Sbjct  32   VHDPALIRRESDGKYFRFSTGNKISYASSSSIEGP---------WTVLGSVLPSGSSIDL  82
+
+Query  68   --KEKYWAPSKAIFANGKYYIYPTINGYM------YPAVADKPE-GPFKLARGKDEFYKP  118
+               +  WAP  +   NG Y++Y +++ +         A +   +   +            
+Sbjct  83   PGNDDLWAPDVS-LVNGVYHVYYSVSTFGSQSSAIGLATSSTMDLNSWTDHGSTGIQSSS  141
+
+Query  119  FTPSTLLQSKNPGGIDAEIFVDDDGQAYVFWGRRHVA------KLNEDMITVDSVVQVIS  172
+              P           ID  +F  D G  Y+ +G                 +   S     +
+Sbjct  142  SKPY--------NAIDGNLF-KDGGTYYMNFGSFWHDIYQAPMNSAATSVASSSYNIAYN  192
+
+Query  173  TPRKEYSEGPIFFKRKGIYYYLYTIG-----------GDEKYQYAYVMSRVSPMGPFEAP  221
+                   EG   +K    YY  ++ G             E+Y    V    S  G F   
+Sbjct  193  PSGTHAVEGAFMYKYGNYYYLFFSAGICCGYDTSRPASGEEY-KIKVCRSTSATGNFVD-  250
+
+Query  222  EQDIISTTNYERGIFGPGHGCVFHPEGTDNY  252
+              + ++ TN    +    HG V+ P G   +
+Sbjct  251  -ANGVACTNGGGTVVLESHGNVYGPGGQGVF  280
+
+
+> sp|Q5BA96|ABNA_EMENI Probable arabinan endo-1,5-alpha-L-arabinosidase 
+A OS=Emericella nidulans (strain FGSC A4 / ATCC 38163 
+/ CBS 112.46 / NRRL 194 / M139) OX=227321 GN=abnA PE=3 SV=2
+Length=322
+
+ Score = 51.3 bits (121),  Expect = 8e-06, Method: Composition-based stats.
+ Identities = 47/270 (17%), Positives = 82/270 (30%), Gaps = 51/270 (19%)
+
+Query  14   IADASIQ--EINGVFYCYATTDGYGQGLKTSGPPVVWKSKDFVHWSFDGTYFPSAA----  67
+            I D ++   E +G ++ ++T +       +S             W+  G+  P  +    
+Sbjct  32   IHDPALIRRESDGKYFRFSTGNKISYASASSIEGP---------WTAIGSVLPGGSSIDL  82
+
+Query  68   --KEKYWAPSKAIFANGKYYIYPTI------NGYMYPAVADKPE-GPFKLARGKDEFYKP  118
+               +  WAP      NG YY+  ++      N  +  A +D  +   +            
+Sbjct  83   DGNDDLWAPDV-QLVNGVYYVLYSVSTFGSQNSAIGLATSDTMDLNTWTDHGSTGIRSDS  141
+
+Query  119  FTPSTLLQSKNPGGIDAEIFVDDDGQAYVFWGR------RHVAKLNEDMITVDSVVQVIS  172
+              P           ID  +F DD G  Y+ +G       +   K     +   S      
+Sbjct  142  SKPY--------NAIDGNLFQDDSGTWYMNFGSFWNDIYQAQMKSPPTAVASSSYQIAYQ  193
+
+Query  173  TPRKEYSEGPIFFKRKGIYYYLYTIGGDEKYQ----------YAYVMSRVSPMGPFEAPE  222
+               +   EG   +K    YY  ++ G    Y              V    +  G F    
+Sbjct  194  PAGEHAVEGAYLYKYGNYYYLFFSEGKCCGYDSSRPATGEEYKIKVCRSTTATGNFVD--  251
+
+Query  223  QDIISTTNYERGIFGPGHGCVFHPEGTDNY  252
+             + +S T+    I    H  V+ P G   +
+Sbjct  252  ANGVSCTSGGGTIVLESHDNVYGPGGQGVF  281
+
+
+> sp|Q2U1X8|ABNC_ASPOR Probable arabinan endo-1,5-alpha-L-arabinosidase 
+C OS=Aspergillus oryzae (strain ATCC 42149 / RIB 40) 
+OX=510516 GN=abnC PE=3 SV=1
+Length=317
+
+ Score = 47.5 bits (111),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 47/306 (15%), Positives = 88/306 (29%), Gaps = 45/306 (15%)
+
+Query  3    NPFGNALIPDMI---ADASIQEINGVFYCYATTDGYGQGLKTSGPPVVWKSKDFVHWSFD  59
+            N + N    +      D  + + +   Y   +T   G G+  S  P +        W+  
+Sbjct  16   NAYANPGTCNGNCWAHDPGLWKHDDGRYFLFST---GNGIHISSAPSLQGP-----WTEV  67
+
+Query  60   GTYFPSAA------KEKYWAPSKAIFANGKYYIYPTI------NGYMYPAVADKPE-GPF  106
+            G   P  +       +  WAP      +GKYY+Y ++      N  +  A +   E G +
+Sbjct  68   GYALPDGSSINHDGNKNLWAPDVHKGDDGKYYMYYSVSTLGSQNSVIGVASSTTMEPGSW  127
+
+Query  107  KLARGKDEFYKPFTPSTLLQSKNPGGIDAEIFVDDDGQAYVFWGRRHVAKLNEDMITVDS  166
+                              + +      D ++          + G   +       I   +
+Sbjct  128  TDHGSTGLSSDGSQGYNTIDANWIKIGDQQVL----NFGSYWQGLYQIDLAGPLKIGTAA  183
+
+Query  167  VVQVI-STPRKEYSEGPIFFKRKGIYYYLYTIGGDEKYQ----------YAYVMSRVSPM  215
+             V +  +   +   E    +++ G YY  ++ G    Y              V    +  
+Sbjct  184  PVNIAYNATGQHAIEASFLYQQNGFYYLFFSSGKANGYDTSFPAQGEEYRINVCRSSTGR  243
+
+Query  216  GPFEAPEQDIISTTNYERGIFGPGHGCVFHPEGT----DNYYFAYLEFGRRSTNRQTYVN  271
+            G F          +     +    H  V+ P G     DN    Y  +  R+ +      
+Sbjct  244  GDFVDKNGVSCLQSGGTTVL--ASHDNVYGPGGQGVLEDNGAVLYYHYAPRNGDLSVSSY  301
+
+Query  272  QLKFNE  277
+            Q  +N 
+Sbjct  302  QFGWNR  307
+
+
+> sp|B8NMD3|ABNC_ASPFN Probable arabinan endo-1,5-alpha-L-arabinosidase 
+C OS=Aspergillus flavus (strain ATCC 200026 / FGSC 
+A1120 / NRRL 3357 / JCM 12722 / SRRC 167) OX=332952 GN=abnC 
+PE=3 SV=2
+Length=317
+
+ Score = 47.5 bits (111),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 47/306 (15%), Positives = 88/306 (29%), Gaps = 45/306 (15%)
+
+Query  3    NPFGNALIPDMI---ADASIQEINGVFYCYATTDGYGQGLKTSGPPVVWKSKDFVHWSFD  59
+            N + N    +      D  + + +   Y   +T   G G+  S  P +        W+  
+Sbjct  16   NAYANPGTCNGNCWAHDPGLWKHDDGRYFLFST---GNGIHISSAPSLQGP-----WTEV  67
+
+Query  60   GTYFPSAA------KEKYWAPSKAIFANGKYYIYPTI------NGYMYPAVADKPE-GPF  106
+            G   P  +       +  WAP      +GKYY+Y ++      N  +  A +   E G +
+Sbjct  68   GYALPDGSSINHDGNKNLWAPDVHKGDDGKYYMYYSVSTLGSQNSVIGVASSTTMEPGSW  127
+
+Query  107  KLARGKDEFYKPFTPSTLLQSKNPGGIDAEIFVDDDGQAYVFWGRRHVAKLNEDMITVDS  166
+                              + +      D ++          + G   +       I   +
+Sbjct  128  TDHGSTGLSSDGSQGYNTIDANWIKIGDQQVL----NFGSYWQGLYQIDLAGPLKIGTAA  183
+
+Query  167  VVQVI-STPRKEYSEGPIFFKRKGIYYYLYTIGGDEKYQ----------YAYVMSRVSPM  215
+             V +  +   +   E    +++ G YY  ++ G    Y              V    +  
+Sbjct  184  PVNIAYNATGQHAIEASFLYQQNGFYYLFFSSGKANGYDTSFPAQGEEYRINVCRSSTGR  243
+
+Query  216  GPFEAPEQDIISTTNYERGIFGPGHGCVFHPEGT----DNYYFAYLEFGRRSTNRQTYVN  271
+            G F          +     +    H  V+ P G     DN    Y  +  R+ +      
+Sbjct  244  GDFVDKNGVSCLQSGGTTVL--ASHDNVYGPGGQGVLEDNGAVLYYHYAPRNGDLSVSSY  301
+
+Query  272  QLKFNE  277
+            Q  +N 
+Sbjct  302  QFGWNR  307
+
+
+> sp|P96463|EABF_STRLI Extracellular exo-alpha-L-arabinofuranosidase 
+OS=Streptomyces lividans OX=1916 GN=abfB PE=1 SV=2
+Length=475
+
+ Score = 44.0 bits (102),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 37/239 (15%), Positives = 75/239 (31%), Gaps = 20/239 (8%)
+
+Query  53   FVHWSFDGTYFPSAAKEKYWAPSKAIFANGKYYI--YPTINGYMYPAVADKPEGPFKLAR  110
+            F +WS   +   +A  +   AP+   FA    ++  Y   +       +  P  P   + 
+Sbjct  232  FTNWSDMASAGQNAMNQAAVAPTLFYFAPKNIWVLAYQWGSWPFIYRTSSDPTDPNGWSA  291
+
+Query  111  GKDEFYKPFTPSTLLQSKNPGGIDAE---IFVDDDGQAYVFWGRRHVAKLNEDMITVDSV  167
+             +  F    + S           D +   +F   D    ++     +     +     S 
+Sbjct  292  PQPLFTGSISGSDTGPIDQTLIADGQNMYLFFAGDN-GKIYRASMPIGNFPGN--FGSSY  348
+
+Query  168  VQVISTPRKEYSEGPIFFKRKGIYYYLY---TIGGDEKYQYAYVMSR-VSPMGPFEAPEQ  223
+              ++S  +    EG   +K +G   YL     +G + +Y  ++  S       P  A E 
+Sbjct  349  TTIMSDTKANLFEGVQVYKVQGQNQYLMIVEAMGANGRYFRSFTASSLSGSWTPQAASEG  408
+
+Query  224  DIISTTNYERGIFGP--GHGCVF-----HPEGTDNYYFAYLEFGRRSTNRQTYVNQLKF  275
+            +  +        +     HG +           D     +L +  ++ N   + N L +
+Sbjct  409  NPFAGKANSGATWTNDISHGDLVRDNPDQTMTVDPCNLQFL-YQGKAPNAGGHYNSLPW  466
+
+
+> sp|O54161|EABF_STRCO Extracellular exo-alpha-L-arabinofuranosidase 
+OS=Streptomyces coelicolor (strain ATCC BAA-471 / A3(2) 
+/ M145) OX=100226 GN=abfB PE=1 SV=1
+Length=475
+
+ Score = 43.2 bits (100),  Expect = 0.004, Method: Composition-based stats.
+ Identities = 32/203 (16%), Positives = 64/203 (32%), Gaps = 14/203 (7%)
+
+Query  53   FVHWSFDGTYFPSAAKEKYWAPSKAIFANGKYYI--YPTINGYMYPAVADKPEGPFKLAR  110
+            F +WS   +   +A  +   AP+   FA    ++  Y   +       +  P  P   + 
+Sbjct  232  FTNWSDMASAGQNAMNQAAVAPTLFYFAPKNIWVLAYQWGSWPFIYRTSSDPTDPNGWSA  291
+
+Query  111  GKDEFYKPFTPSTLLQSKNPGGIDAE---IFVDDDGQAYVFWGRRHVAKLNEDMITVDSV  167
+             +  F    + S           D +   +F   D    ++     +     +     S 
+Sbjct  292  PQPLFTGSISGSDTGPIDQTLIADGQNMYLFFAGDN-GKIYRASMPIGNFPGN--FGSSY  348
+
+Query  168  VQVISTPRKEYSEGPIFFKRKGIYYYLY---TIGGDEKYQYAYVMSR-VSPMGPFEAPEQ  223
+              ++S  +    EG   +K +G   YL     +G + +Y  ++  S       P  A E 
+Sbjct  349  TTIMSDTKANLFEGVQVYKVQGQNQYLMIVEAMGANGRYFRSFTASSLSGSWTPQAASEG  408
+
+Query  224  DIISTTNYERGIFGP--GHGCVF  244
+            +  +        +     HG + 
+Sbjct  409  NPFAGKANSGATWTNDISHGDLV  431
+
+
+> sp|P82594|IABF_STRCX Extracellular exo-alpha-(1->5)-L-arabinofuranosidase 
+OS=Streptomyces chartreusis OX=1969 PE=1 SV=1
+Length=328
+
+ Score = 42.9 bits (99),  Expect = 0.004, Method: Composition-based stats.
+ Identities = 57/286 (20%), Positives = 90/286 (31%), Gaps = 47/286 (16%)
+
+Query  4    PFGNALIPDMIADASIQE-INGVFYCYATTDGYGQGL--KTSGPPVVWKSKDFVHWSFDG  60
+            P+ N L+    AD  I    +G +Y  AT   Y + +  ++     +  + + V W    
+Sbjct  49   PYENPLVRQ-RADPHIHRHTDGRYYFTATAPEYDRIVLRRSRTLGGLSTAAESVIWRAHP  107
+
+Query  61   TYFPSAAKEKYWAPSKAIFANGKYYIYPTINGYMYPAVADKPEGPFKLARGKDEFYKPF-  119
+            T   +A     WAP       GK+Y+Y           A   E  +++     E   P  
+Sbjct  108  TGDMAAH---IWAPELHRIG-GKWYVYFA---------AAPAEDVWRIRIWVLENSHPDP  154
+
+Query  120  ---TPSTLLQSKNPG---GIDAEIFVDDDGQAYVFWGRRHVAKLNEDMITVDSVVQ--VI  171
+               T     Q +       +DA  F    G  Y+ W +      N   + +  +     +
+Sbjct  155  FKGTWEEKGQVRTAWETFSLDATTFTHR-GARYLCWAQHEPGADNNTGLFLSEMANPWTL  213
+
+Query  172  STPRKEYS--------------EGPIFFKRKGIYYYLYTIGGDEKYQYAYVMSRVSPMGP  217
+            + P+   S              EGP   KR G  +  Y+      + Y   M      G 
+Sbjct  214  TGPQIRLSTPEYDWECVGYKVNEGPYALKRNGRIFLTYSASA-TDHHYCVGMFTADAGGN  272
+
+Query  218  FEAPEQ-----DIISTTNYERGIFGPGHGCVFHPEGTDNYYFAYLE  258
+               P         + T N     +GPGH C    E   +    Y  
+Sbjct  273  LMDPGNWSKSPIPVFTGNETTKQYGPGHNCFTVAEDGRSDVLVYHA  318
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.126    0.341    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0385    0.140     1.90     42.6     43.6 
+
+Effective search space used: 42823833792
+Results from round 3
+
+
+Query= 5MSX
+
+Length=439
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P45796|XYND_PAEPO Arabinoxylan arabinofuranohydrolase OS=Pae...  239     5e-71
+  sp|A7LXT8|GH43A_BACO1 Non-reducing end alpha-L-arabinofuranosid...  234     2e-70
+  sp|Q45071|XYND_BACSU Arabinoxylan arabinofuranohydrolase OS=Bac...  229     2e-68
+  sp|P94489|XYNB_BACSU Beta-xylosidase OS=Bacillus subtilis (stra...  221     3e-65
+  sp|A1DHW8|ABNB_NEOFI Probable arabinan endo-1,5-alpha-L-arabino...  216     5e-65
+  sp|B0XTS5|ABNB_ASPFC Probable arabinan endo-1,5-alpha-L-arabino...  216     7e-65
+  sp|Q4X0A5|ABNB_ASPFU Probable arabinan endo-1,5-alpha-L-arabino...  215     8e-65
+  sp|P45982|XYLB_BUTFI Xylosidase/arabinosidase OS=Butyrivibrio f...  214     8e-63
+  sp|A7LXU0|GH43B_BACO1 Non-reducing end alpha-L-arabinofuranosid...  213     3e-62
+  sp|A9ZND1|XLOA_VIBSX Xylan 1,3-beta-xylosidase OS=Vibrio sp. OX...  213     4e-62
+  sp|P07129|XYNB_BACPU Beta-xylosidase OS=Bacillus pumilus OX=140...  210     3e-61
+  sp|P77713|YAGH_ECOLI Putative beta-xylosidase OS=Escherichia co...  207     5e-60
+  sp|Q0CY27|ABNB_ASPTN Probable arabinan endo-1,5-alpha-L-arabino...  200     5e-59
+  sp|A1CLG4|ABNA_ASPCL Probable arabinan endo-1,5-alpha-L-arabino...  194     2e-57
+  sp|A5IKD4|EABN_THEP1 Extracellular endo-alpha-(1->5)-L-arabinan...  197     1e-56
+  sp|Q93HT9|IABN_GEOTD Intracellular endo-alpha-(1->5)-L-arabinan...  192     1e-56
+  sp|B0YDT3|ABNC_ASPFC Probable arabinan endo-1,5-alpha-L-arabino...  190     1e-55
+  sp|Q2UI74|ABNB_ASPOR Probable arabinan endo-1,5-alpha-L-arabino...  190     2e-55
+  sp|Q2U1X8|ABNC_ASPOR Probable arabinan endo-1,5-alpha-L-arabino...  189     2e-55
+  sp|B8NMD3|ABNC_ASPFN Probable arabinan endo-1,5-alpha-L-arabino...  189     2e-55
+  sp|B3EYM8|IABN_GEOSE Intracellular endo-alpha-(1->5)-L-arabinan...  189     3e-55
+  sp|Q9WXE8|XYLO_PRERU Putative beta-xylosidase OS=Prevotella rum...  193     6e-55
+  sp|Q4W930|ABNC_ASPFU Probable arabinan endo-1,5-alpha-L-arabino...  188     8e-55
+  sp|B8N803|ABNB_ASPFN Probable arabinan endo-1,5-alpha-L-arabino...  187     3e-54
+  sp|A1D5W1|ABNA_NEOFI Probable arabinan endo-1,5-alpha-L-arabino...  186     4e-54
+  sp|Q4WYX7|ABNA_ASPFU Probable arabinan endo-1,5-alpha-L-arabino...  184     1e-53
+  sp|B0XZW5|ABNA_ASPFC Probable arabinan endo-1,5-alpha-L-arabino...  184     1e-53
+  sp|Q5AZC8|ABNB_EMENI Arabinan endo-1,5-alpha-L-arabinosidase B ...  186     3e-53
+  sp|A2QT85|ABNA_ASPNC Probable arabinan endo-1,5-alpha-L-arabino...  183     4e-53
+  sp|P42256|ABNA_ASPNG Arabinan endo-1,5-alpha-L-arabinosidase A ...  183     4e-53
+  sp|T2KN85|PLH27_FORAG Beta-xylosidase OS=Formosa agariphila (st...  187     5e-52
+  sp|Q5B8T6|ABND_EMENI Probable arabinan endo-1,5-alpha-L-arabino...  182     5e-52
+  sp|Q9HFS9|ABNA_ASPAC Arabinan endo-1,5-alpha-L-arabinosidase A ...  177     5e-51
+  sp|P48790|XYLA_THEST Xylosidase/arabinosidase OS=Thermoclostrid...  180     2e-50
+  sp|P49943|XYLB_BACOV Xylosidase/arabinosidase OS=Bacteroides ov...  176     2e-50
+  sp|Q5BA96|ABNA_EMENI Probable arabinan endo-1,5-alpha-L-arabino...  174     1e-49
+  sp|P94522|EABN1_BACSU Extracellular endo-alpha-(1->5)-L-arabina...  171     3e-48
+  sp|P42293|EABN2_BACSU Extracellular endo-alpha-(1->5)-L-arabina...  173     7e-48
+  sp|P95470|ARBA_CELJU Extracellular exo-alpha-(1->5)-L-arabinofu...  167     9e-47
+  sp|P48791|XYNB_PRERU Beta-xylosidase OS=Prevotella ruminicola O...  165     3e-46
+  sp|Q82P90|IABF_STRAW Extracellular exo-alpha-(1->5)-L-arabinofu...  157     7e-42
+
+Sequences not found previously or not previously below threshold:
+
+  sp|A1DKY5|ABNC_NEOFI Probable arabinan endo-1,5-alpha-L-arabino...  184     2e-53
+  sp|A1CN18|ABNC_ASPCL Probable arabinan endo-1,5-alpha-L-arabino...  183     3e-53
+  sp|Q0CRJ6|ABNC_ASPTN Probable arabinan endo-1,5-alpha-L-arabino...  154     3e-42
+  sp|Q0CS14|ABNA_ASPTN Probable arabinan endo-1,5-alpha-L-arabino...  151     8e-41
+  sp|Q5AUM3|ABNC_EMENI Arabinan endo-1,5-alpha-L-arabinosidase C ...  150     2e-40
+  sp|Q2U8C6|ABNA_ASPOR Probable arabinan endo-1,5-alpha-L-arabino...  149     3e-40
+  sp|B8NDL1|ABNA_ASPFN Probable arabinan endo-1,5-alpha-L-arabino...  149     3e-40
+  sp|A5AAG2|ABNC_ASPNC Probable arabinan endo-1,5-alpha-L-arabino...  149     4e-40
+  sp|P82594|IABF_STRCX Extracellular exo-alpha-(1->5)-L-arabinofu...  99.4    6e-22
+  sp|G4MMH2|ABFB_MAGO7 Alpha-L-arabinofuranosidase B OS=Magnaport...  95.9    4e-20
+  sp|P23031|XYNC_CELJU Alpha-L-arabinofuranosidase C OS=Cellvibri...  47.4    2e-04
+  sp|Q43089|INV1_PEA Beta-fructofuranosidase, cell wall isozyme O...  42.4    0.007
+
+
+> sp|P45796|XYND_PAEPO Arabinoxylan arabinofuranohydrolase OS=Paenibacillus 
+polymyxa OX=1406 GN=xynD PE=1 SV=1
+Length=635
+
+ Score = 239 bits (609),  Expect = 5e-71, Method: Composition-based stats.
+ Identities = 86/358 (24%), Positives = 126/358 (35%), Gaps = 64/358 (18%)
+
+Query  6    GNALIPD-MIADASIQEINGVFYCYATTDGY---------GQGLKTSGPPVVWKSKDFVH  55
+             N L+   + AD      +G  Y + ++D Y                    V  S D V+
+Sbjct  38   SNPLMDHKLGADPYSLVYDGRVYIFMSSDTYVYNKDGSIKENDFSALDRIQVISSTDMVN  97
+
+Query  56   WSFDGTYFPSAAKE------------KYWAPSKAI---FANGKYYIYPTINGY-MYPAVA  99
+            W+  GT   + A                WAP+ A        K+++Y    G  +    A
+Sbjct  98   WTDHGTIPVAGANNKNSGRGIAKWASNSWAPAVAHKKINGRDKFFLYFANGGAGIGVLTA  157
+
+Query  100  DKPEGPFKLARGKDEFYKPFTPSTLLQSKNPGGIDAEIFVDDDGQAYVFWGR--------  151
+            D P GP+    GK       T ST   +      D  + VDDDG  Y++ G         
+Sbjct  158  DTPIGPWTDPLGK----ALVTHSTPGMAGVTWLFDPAVLVDDDGTGYLYSGGGIPNESDP  213
+
+Query  152  --------RHVAKLNEDMITVDSVVQVISTPRKEYSEGPIFFKRKGIYYYLYTI--GGDE  201
+                      V KL  DM +V      I  P      G    K  G YYY Y I   G  
+Sbjct  214  ASIANPKTARVIKLGADMTSVIGSATTIDAPYLFEDSG--IHKYNGKYYYSYCINFAGTH  271
+
+Query  202  KYQY----AYVMSRVSPMGPFEAPEQDIISTTNYERGIFGPGHGCVFHPEGTDNYYFAYL  257
+              QY       M   +PMGPF       +       G+ G  H  VF+ +  + +Y  Y 
+Sbjct  272  PQQYPAGEIGYMVSDNPMGPFTYK-GHFLKNPYTFFGVGGNNHHAVFNFK--NEWYVVYH  328
+
+Query  258  -------EFGRRSTNRQTYVNQLKFNEDGTIRPVELTMDGVGALKKVKSDKKMKIDTV  308
+                   + G     R  ++N+L   EDG+I  V+  M G+  L  +    +++ +T+
+Sbjct  329  AQTVSKAQIGAGKGYRSPHINKLVHKEDGSISEVQGNMTGIAQLSNMNPYTRVEAETI  386
+
+
+> sp|A7LXT8|GH43A_BACO1 Non-reducing end alpha-L-arabinofuranosidase 
+BoGH43A OS=Bacteroides ovatus (strain ATCC 8483 / DSM 
+1896 / JCM 5824 / NCTC 11153) OX=411476 GN=BACOVA_02654 PE=1 
+SV=1
+Length=526
+
+ Score = 234 bits (597),  Expect = 2e-70, Method: Composition-based stats.
+ Identities = 63/299 (21%), Positives = 110/299 (37%), Gaps = 32/299 (11%)
+
+Query  5    FGNALIPDMIADASIQEINGVFYCYATTDGYGQGLKTSGPPVVWKSKDFVHWSFDGTYFP  64
+            + N +IP    D S+ +    +Y   ++  Y  G+       ++ SKD VHW   G    
+Sbjct  23   YSNPVIPGFHPDPSVCKAGDDYYLVNSSFQYFPGVP------LFHSKDLVHWEQIGNCLT  76
+
+Query  65   SAAKEKY--WAPSKAIFANGKYYIYPTINGYMYPAVADKPEGPFKLARGKDEFYKPFTPS  122
+              ++           IFA    Y     +G  Y    +       L    D   +   P 
+Sbjct  77   RPSQLDLTNANSGSGIFAPTIRY----NDGVFYMITTNVSGKGNFLVHTTDPRSEWSEPV  132
+
+Query  123  TLLQSKNPGGIDAEIFVDDDGQAYVFWGRRHVAKLNE----DMITVDSVVQVISTPRKEY  178
+             L Q    GGID  ++ + DG+ ++         L E        + S  ++ +     Y
+Sbjct  133  WLEQ----GGIDPSLYFE-DGKCFMVSNPDGYINLCEIDPMTGKQLSSSKRIWNGTGGRY  187
+
+Query  179  SEGPIFFKRKGIYYYLYTIGGDEKYQYAYVMSRVSPMGPFEAPEQDIISTTNYERG----  234
+            +EGP  +K+ G YY L + GG E      +       GP++    + I T   E G    
+Sbjct  188  AEGPHIYKKDGWYYLLISEGGTELGHKVTIARSRYIDGPYQGNPANPILTHANESGQSSP  247
+
+Query  235  IFGPGHGCVFHPEGTDNYYFAYLEF-----GRRSTNRQTYVNQLKFNED-GTIRPVELT  287
+            I G GH  +       +++   L +        +  R+TY+  +++++D   +     T
+Sbjct  248  IQGTGHADLVE-GTDGSWWMVCLAYRIMPGTHHTLGRETYLAPVRWDKDAWPVVNSNGT  305
+
+
+> sp|Q45071|XYND_BACSU Arabinoxylan arabinofuranohydrolase OS=Bacillus 
+subtilis (strain 168) OX=224308 GN=xynD PE=1 SV=2
+Length=513
+
+ Score = 229 bits (583),  Expect = 2e-68, Method: Composition-based stats.
+ Identities = 92/359 (26%), Positives = 125/359 (35%), Gaps = 66/359 (18%)
+
+Query  6    GNALIPD-MIADASIQEINGVFYCYATTDGY---------GQGLKTSGPPVVWKSKDFVH  55
+             N LI   + AD      NG  Y Y ++D Y                    V  S D V+
+Sbjct  39   SNPLIDHHLGADPVALTYNGRVYIYMSSDDYEYNSNGTIKDNSFANLNRVFVISSADMVN  98
+
+Query  56   WSFDGTYFP------------SAAKEKYWAPSKA---IFANGKYYIYPTINGY-MYPAVA  99
+            W+  G                +      WAPS A   I    K+++Y   +G  +    A
+Sbjct  99   WTDHGAIPVAGANGANGGRGIAKWAGASWAPSIAVKKINGKDKFFLYFANSGGGIGVLTA  158
+
+Query  100  DKPEGPFKLARGKDEFYKPFTPSTLLQSKNPGGIDAEIFVDDDGQAYVFWGR--------  151
+            D P GP+    GK       TPST   S      D  +FVDDDG  Y++ G         
+Sbjct  159  DSPIGPWTDPIGK----PLVTPSTPGMSGVVWLFDPAVFVDDDGTGYLYAGGGVPGVSNP  214
+
+Query  152  ----------RHVAKLNEDMITVDSVVQVISTPRKEYSEGPIFFKRKGIYYYLYTI--GG  199
+                        V KL  DM +V      I  P      G    K  G YYY Y I  GG
+Sbjct  215  TQGQWANPKTARVIKLGPDMTSVVGSASTIDAPFMFEDSG--LHKYNGTYYYSYCINFGG  272
+
+Query  200  DEKYQY----AYVMSRVSPMGPFEAPEQDIISTTNYERGIFGPGHGCVFHPEGTDNYYFA  255
+                         M+  SPMGPF       +       G  G  H  VF+ +  + +Y  
+Sbjct  273  THPADKPPGEIGYMTSSSPMGPFTYR-GHFLKNPGAFFGGGGNNHHAVFNFK--NEWYVV  329
+
+Query  256  YLE-------FGRRSTNRQTYVNQLKFNEDGTIRPVELTMDGVGALKKVKSDKKMKIDT  307
+            Y         FG     R  ++N+L  N DG+I+ V     GV  +  +    +++ +T
+Sbjct  330  YHAQTVSSALFGAGKGYRSPHINKLVHNADGSIQEVAANYAGVTQISNLNPYNRVEAET  388
+
+
+> sp|P94489|XYNB_BACSU Beta-xylosidase OS=Bacillus subtilis (strain 
+168) OX=224308 GN=xynB PE=1 SV=2
+Length=533
+
+ Score = 221 bits (563),  Expect = 3e-65, Method: Composition-based stats.
+ Identities = 58/314 (18%), Positives = 109/314 (35%), Gaps = 55/314 (18%)
+
+Query  6    GNALIPDMIADASIQEINGVFYCYATTDGYGQGLKTSGPPVVWKSKDFVHWSFDGTYFPS  65
+             N ++     D SI      +Y   +T  +  G+       +  SKD V+W         
+Sbjct  4    TNPVLKGFNPDPSICRAGEDYYIAVSTFEWFPGV------QIHHSKDLVNWHLVAHPLQR  57
+
+Query  66   AA---------KEKYWAPSKAIFANGKYYIYPTINGYMYPAVADKPEGPFKLARGKDEFY  116
+             +             WAP  + +++GK+++  T             +G +K         
+Sbjct  58   VSQLDMKGNPNSGGVWAPCLS-YSDGKFWLIYTD--------VKVVDGAWKDCHNYLVTC  108
+
+Query  117  KPFTPSTLLQSK-NPGGIDAEIFVDDDGQAYVF------------WGRRHVAKLNEDMIT  163
+            +          K N  G DA +F D DG+ Y+             +G   + + ++    
+Sbjct  109  ETINGDWSEPIKLNSSGFDASLFHDTDGKKYLLNMLWDHRIDRHSFGGIVIQEYSDKEQK  168
+
+Query  164  VDSVVQVI-STPRKEYSEGPIFFKRKGIYYYLYTIGGDEKYQYAYVMSRVSPMGPFEAPE  222
+            +    +VI     ++ +E P  +     YY L   GG      A +    +  GP+E   
+Sbjct  169  LIGKPKVIFEGTDRKLTEAPHLYHIGNYYYLLTAEGGTRYEHAATIARSANIEGPYEVHP  228
+
+Query  223  QDIISTTNYERG--IFGPGHGCVFHPEGTDNYYFAYL--------------EFGRRSTNR  266
+             + I T+ ++ G  +   GH  +     TD +Y A+L              + G     R
+Sbjct  229  DNPILTSWHDPGNPLQKCGHASIVQTH-TDEWYLAHLTGRPIHPDDDSIFQQRGYCPLGR  287
+
+Query  267  QTYVNQLKFNEDGT  280
+            +T + +L + ++  
+Sbjct  288  ETAIQKLYWKDEWP  301
+
+
+> sp|A1DHW8|ABNB_NEOFI Probable arabinan endo-1,5-alpha-L-arabinosidase 
+B OS=Neosartorya fischeri (strain ATCC 1020 / DSM 3700 
+/ CBS 544.65 / FGSC A1164 / JCM 1740 / NRRL 181 / WB 181) 
+OX=331117 GN=abnB PE=3 SV=2
+Length=372
+
+ Score = 216 bits (550),  Expect = 5e-65, Method: Composition-based stats.
+ Identities = 51/299 (17%), Positives = 89/299 (30%), Gaps = 56/299 (19%)
+
+Query  14   IADASIQEINGVFYCYATTDGYGQGLKTSGPPVVWKSKDFVHWSFDGTYFPSAAKEKYWA  73
+            I D SI  ++G +Y Y+           S      ++   +      +  P   ++  WA
+Sbjct  57   IHDPSIIHVDGTYYSYSVGKHIRIHQAPSLDGPWKRTGTVL---DADSVIPKGDRKAPWA  113
+
+Query  74   PSKAIFANGKYYIYP------TINGYMYPAVADKPE-GPFKLARGKDEFYKPFTPSTLLQ  126
+            P      +  YY +         +  +  A +  P  G +    G          S    
+Sbjct  114  PQTVHHGD-TYYCFYAVSNSGCRDSAIGVATSKSPGPGGWTD-HGLLVQSGTGKGSDEHP  171
+
+Query  127  SKNPGGIDAEIFVDDDGQAYV----FWGRRHVAKLNEDMITVDSVVQVIS----------  172
+              +   ID  +FV +DG  Y+    FW       L+E +++V    +  +          
+Sbjct  172  FASSNTIDPSVFVGEDGHGYLMFGSFWSGIWQVPLDETLLSVAGDTRSEARQLVYMEKAP  231
+
+Query  173  -------------TPRKEYSEGPIFFKRKGIYYYLYTIGGDEKY-----------QYAYV  208
+                                EG      +  YY  ++ G   K+               V
+Sbjct  232  LPASKHPNPLCREPSGARPIEGSFLSYHEPWYYLWFSYGKCCKFDTKNLPPPGREYSIRV  291
+
+Query  209  MSRVSPMGPFEAPEQDIISTTNYE------RGIFGPGHGCVFHPEGTDNYYFAYLEFGR  261
+                SP GPF   +   ++    E      R ++ PG   V   +  D  Y+ Y  +  
+Sbjct  292  GRSKSPRGPFVDKQGRDLANGGGEIVYASNRDVYAPGGQAVLTEKSGDILYYHYCRYPA  350
+
+
+> sp|B0XTS5|ABNB_ASPFC Probable arabinan endo-1,5-alpha-L-arabinosidase 
+B OS=Neosartorya fumigata (strain CEA10 / CBS 144.89 
+/ FGSC A1163) OX=451804 GN=abnB PE=3 SV=2
+Length=372
+
+ Score = 216 bits (549),  Expect = 7e-65, Method: Composition-based stats.
+ Identities = 52/298 (17%), Positives = 90/298 (30%), Gaps = 56/298 (19%)
+
+Query  14   IADASIQEINGVFYCYATTDGYGQGLKTSGPPVVWKSKDFVHWSFDGTYFPSAAKEKYWA  73
+            I D SI  ++G +Y Y+           S      ++   ++     +  P   ++  WA
+Sbjct  57   IHDPSIIHVDGTYYSYSVGRHIRIHQAPSLDGPWERTGAVLN---ADSVIPKGDRKAPWA  113
+
+Query  74   PSKAIFANGKYYIYP------TINGYMYPAVADKPE-GPFKLARGKDEFYKPFTPSTLLQ  126
+            P   +  N  YY +         +  +  A +  P  G +    G          S    
+Sbjct  114  PQ-TVHHNDTYYCFYAVSNSGCRDSAIGVATSKSPGPGGWTD-HGLLVQSGTGKGSDEHP  171
+
+Query  127  SKNPGGIDAEIFVDDDGQAYV----FWGRRHVAKLNEDMITVDSVVQVIS----------  172
+              +   ID  +FV +DG  Y+    FW       L+E +++V       +          
+Sbjct  172  FTSSNTIDPSVFVGEDGHGYLMFGSFWSGIWQVPLDESLLSVAGDTSSEARQLVYMEKAP  231
+
+Query  173  -------------TPRKEYSEGPIFFKRKGIYYYLYTIGGDEKY-----------QYAYV  208
+                                EG      +  YY  ++ G   K+               V
+Sbjct  232  LPASKHPNPLCREPSGARPIEGSFLSYHEPWYYLWFSYGKCCKFDTKNLPPPGREYSIRV  291
+
+Query  209  MSRVSPMGPFEAPEQDIISTTNYE------RGIFGPGHGCVFHPEGTDNYYFAYLEFG  260
+                SP GPF   +   ++    E      R ++ PG   V   +  D  Y+ Y  + 
+Sbjct  292  GRSKSPRGPFVDKQGRDLANGGGEIVYASNRDVYAPGGQGVLTEKSGDILYYHYCRYP  349
+
+
+> sp|Q4X0A5|ABNB_ASPFU Probable arabinan endo-1,5-alpha-L-arabinosidase 
+B OS=Neosartorya fumigata (strain ATCC MYA-4609 / Af293 
+/ CBS 101355 / FGSC A1100) OX=330879 GN=abnB PE=3 SV=2
+Length=372
+
+ Score = 215 bits (548),  Expect = 8e-65, Method: Composition-based stats.
+ Identities = 52/298 (17%), Positives = 90/298 (30%), Gaps = 56/298 (19%)
+
+Query  14   IADASIQEINGVFYCYATTDGYGQGLKTSGPPVVWKSKDFVHWSFDGTYFPSAAKEKYWA  73
+            I D SI  ++G +Y Y+           S      ++   ++     +  P   ++  WA
+Sbjct  57   IHDPSIIHVDGTYYSYSVGRHIRIHQAPSLDGPWERTGAVLN---ADSVIPKGDRKAPWA  113
+
+Query  74   PSKAIFANGKYYIYP------TINGYMYPAVADKPE-GPFKLARGKDEFYKPFTPSTLLQ  126
+            P   +  N  YY +         +  +  A +  P  G +    G          S    
+Sbjct  114  PQ-TVHHNDTYYCFYAVSNSGCRDSAIGVATSKSPGPGGWTD-HGLLVQSGTGKGSDEHP  171
+
+Query  127  SKNPGGIDAEIFVDDDGQAYV----FWGRRHVAKLNEDMITVDSVVQVIS----------  172
+              +   ID  +FV +DG  Y+    FW       L+E +++V       +          
+Sbjct  172  FTSSNTIDPSVFVGEDGHGYLTFGSFWSGIWQVPLDESLLSVAGDTSSEARQLVYMEKAP  231
+
+Query  173  -------------TPRKEYSEGPIFFKRKGIYYYLYTIGGDEKY-----------QYAYV  208
+                                EG      +  YY  ++ G   K+               V
+Sbjct  232  LPASKHPNPLCREPSGARPIEGSFLSYHEPWYYLWFSYGKCCKFDTKNLPPPGREYSIRV  291
+
+Query  209  MSRVSPMGPFEAPEQDIISTTNYE------RGIFGPGHGCVFHPEGTDNYYFAYLEFG  260
+                SP GPF   +   ++    E      R ++ PG   V   +  D  Y+ Y  + 
+Sbjct  292  GRSKSPRGPFVDKQGRDLANGGGEIVYASNRDVYAPGGQGVLTEKSGDILYYHYCRYP  349
+
+
+> sp|P45982|XYLB_BUTFI Xylosidase/arabinosidase OS=Butyrivibrio 
+fibrisolvens OX=831 GN=xylB PE=3 SV=1
+Length=517
+
+ Score = 214 bits (545),  Expect = 8e-63, Method: Composition-based stats.
+ Identities = 63/328 (19%), Positives = 107/328 (33%), Gaps = 69/328 (21%)
+
+Query  7    NALIPDMIADASIQEINGVFYCYATTDGYGQGLKTSGPPVVWKSKDFVHWSFDGTYFPSA  66
+            N ++     D SI      FY   ++  Y  G+       ++ +KD  H+   G      
+Sbjct  6    NPILKGFYPDPSICRKGDDFYLVCSSFVYAPGVP------IFHTKDLAHFEQIGNILDRE  59
+
+Query  67   A--------KEKYWAPSKAIFANGKYYIYPTI--NGYMYPAVADKPEGPFKLARGKDEFY  116
+            +            +AP+     NG +Y+  T   +G  +   A  P GP+       E  
+Sbjct  60   SQLPLSGDISRGIFAPTIRE-HNGIFYMITTNVSSGGNFIVTAKDPAGPWSEPYYLGEDE  118
+
+Query  117  KPFTPSTLLQSKNPGGIDAEIFVDDDGQAYVFWGRRHVAKLNEDMITVDSVVQVIS----  172
+             P              ID  +F DDDG+ Y         + N D +  +   ++      
+Sbjct  119  APG-------------IDPSLFFDDDGKCYYVG-----TRPNPDGVRYNGDWEIWVQELD  160
+
+Query  173  -------TPRKE----------YSEGPIFFKRKGIYYYLYTIGGDEKYQYAYVMSRVSPM  215
+                    P             + EGP  +K+ G YY L+   G        V       
+Sbjct  161  LEQMKLVGPSMAIWKGALKDVIWPEGPHLYKKDGYYYLLHAEAGTSFEHAISVARSKELF  220
+
+Query  216  GPFEAPEQDIISTT---NYERGIFGPGHGCVFHPEGTDNYYFAYLEF----GRRSTNRQT  268
+              FE   ++ I T      +  +   GH  +   +   N+Y   L      G+ S  R+T
+Sbjct  221  KWFEGCPRNPIFTHRNLGKDYPVCNVGHADLVD-DINGNWYMVMLASRPCKGKCSLGRET  279
+
+Query  269  YVNQLKFNEDGTIRPVELTMDGVGALKK  296
+            ++ ++ + +   +        GVG L  
+Sbjct  280  FLAKVIWEDGWPVV-----NPGVGRLTD  302
+
+
+> sp|A7LXU0|GH43B_BACO1 Non-reducing end alpha-L-arabinofuranosidase 
+BoGH43B OS=Bacteroides ovatus (strain ATCC 8483 / DSM 
+1896 / JCM 5824 / NCTC 11153) OX=411476 GN=BACOVA_02656 PE=1 
+SV=2
+Length=529
+
+ Score = 213 bits (542),  Expect = 3e-62, Method: Composition-based stats.
+ Identities = 69/299 (23%), Positives = 112/299 (37%), Gaps = 46/299 (15%)
+
+Query  5    FGNALIPDMIADASIQEINGVFYCYATTDGYGQGLKTSGPPVVWKSKDFVHWSFDGTYFP  64
+            F N +I  M  D SI  +   FY   +T  Y  GL       V+ SKD VHW   G    
+Sbjct  27   FRNPIITGMNPDPSICRVGDDFYLVTSTFEYFPGLP------VYHSKDLVHWKLIGHALS  80
+
+Query  65   S----------AAKEKYWAPSKAIFANGKYYIYPTINGYMY-----PAVADKPEGPFKLA  109
+                       A+    +AP+   + +G +Y+  T  G           A  P GP+   
+Sbjct  81   RPENNPLMGCNASTGGQYAPTLR-YHDGTFYVIGTNYGGKGSQGVFYVTAKNPAGPWSDP  139
+
+Query  110  RGKDEFYKPFTPSTLLQSKNPGGIDAEI-FVDDDGQAYVFWGRRHVAKLNEDMITVDSVV  168
+                 +Y    PS          ID ++ F+  D Q     G        E    V+++ 
+Sbjct  140  VWVGNWY--VDPSIEF-------IDGKMYFLSPDNQGSFLLGVMDP----ETGTFVEALR  186
+
+Query  169  QVISTPRKEYSEGPIFFKRKGIYYYLYTIGGDEKYQYAYVM-SRVSPMGPFEAPEQDIIS  227
+            +V S       EGP F+K  G YYY+ +  G   Y++  V+    SP GP+E    + + 
+Sbjct  187  KVASGLGGSSPEGPHFYK-IGDYYYIMSAEGGTGYEHREVIQRSKSPWGPYEPSPVNPVL  245
+
+Query  228  TTNY--ERGIFGPGHGCVFHPEGTDNYYFAYLEFGR-----RSTNRQTYVNQLKFNEDG  279
+            +     +      GH  +   +   +++   L         +   R+T++  + ++ DG
+Sbjct  246  SNMNCPDHPFQAIGHADLVQLKD-GSWWAVCLGIRPVNGKYQHLGRETFLAPVTWDADG  303
+
+
+> sp|A9ZND1|XLOA_VIBSX Xylan 1,3-beta-xylosidase OS=Vibrio sp. 
+OX=678 GN=xloA PE=1 SV=1
+Length=535
+
+ Score = 213 bits (541),  Expect = 4e-62, Method: Composition-based stats.
+ Identities = 63/313 (20%), Positives = 114/313 (36%), Gaps = 59/313 (19%)
+
+Query  7    NALIPDMIADASIQEINGVFYCYATTDGYGQGLKTSGPPVVWKSKDFVHWSFDGTYFPSA  66
+            N ++     D SI  +   +Y   +T  +  G+       +  S+D ++W   G      
+Sbjct  7    NPILKGFNPDPSIVRVGDDYYIATSTFEWFPGI------QLHHSRDLINWRLVGHALTRT  60
+
+Query  67   A---------KEKYWAPSKAIFANGKYYIYPTI----------NGYMYPAVADKPEGPFK  107
+            +          E  +AP+   +++G +++  +               Y   AD  EGP+ 
+Sbjct  61   SQLNMMGMDNSEGVYAPALT-YSDGTFWLCFSNVHSCRGGNWMATPSYVVTADSIEGPWS  119
+
+Query  108  LARGKDEFYKPFTPSTLLQSKNPGGIDAEIFVDDDGQAYV---FWGRRHVAKLNEDMITV  164
+                                    G D  +F DDDG+ Y+    WG R        +I  
+Sbjct  120  EPVPIGN----------------YGFDPSLFHDDDGKKYMLNMIWGGRAKTNFFGGIIMQ  163
+
+Query  165  ---DSVVQVISTPRKEY-------SEGPIFFKRKGIYYYLYTIGGDEKYQYAYVMSRVSP  214
+                   +++  P+  +       +EGP   K+   YY +   GG E+     V      
+Sbjct  164  EFDADEGKLVGAPKTVFEGTELGCTEGPQLLKKDDYYYLITAEGGTERNHAVTVCRSKHI  223
+
+Query  215  MGPFEAPEQDIISTTNYE--RGIFGPGHGCVFHPEGTDNYYFAYLEFGRRSTNRQTYVNQ  272
+             GP+E   ++ I T+ ++    +   GHG +   + T  +Y ++L  GRR  N + Y   
+Sbjct  224  WGPYEVHPENPILTSRFQEHAELSRAGHGFLVETQ-TGEWYMSHL-CGRRIPNPEGYQFM  281
+
+Query  273  LKFNEDGTIRPVE  285
+             K++   +I   E
+Sbjct  282  PKYDNGFSILGRE  294
+
+
+> sp|P07129|XYNB_BACPU Beta-xylosidase OS=Bacillus pumilus OX=1408 
+GN=xynB PE=1 SV=2
+Length=535
+
+ Score = 210 bits (535),  Expect = 3e-61, Method: Composition-based stats.
+ Identities = 59/338 (17%), Positives = 106/338 (31%), Gaps = 63/338 (19%)
+
+Query  6    GNALIPDMIADASIQEINGVFYCYATTDGYGQGLKTSGPPVVWKSKDFVHWSFDGTYFPS  65
+             N ++     D SI      +Y   +T  +  G+       ++ SKD +HW         
+Sbjct  4    TNPVLKGFNPDPSICRAGEDYYMAVSTFEWFPGV------QIYHSKDLIHWRLAARPLQK  57
+
+Query  66   AA---------KEKYWAPSKAIFANGKYYIYPTINGYMYPAVADKPEGPFKLARGKDEFY  116
+             +             WAP  + +A+G++++  +             +GPFK         
+Sbjct  58   TSQLDMKGNPDSGGVWAPCLS-YADGQFWLIYSD--------IKVVDGPFKDGHNYLVTA  108
+
+Query  117  KPFTPSTLLQSK-NPGGIDAEIFVDDDGQAY---VFWGRRHVAKLNEDM---------IT  163
+                       + N  G D  +F D  G+ Y   + W  R        +           
+Sbjct  109  DAVDGEWSDPVRLNSSGFDPSLFHDPSGKKYVLNMLWDHREKHHSFAGIALQEYSVSEKK  168
+
+Query  164  VDSVVQVI-STPRKEYSEGPIFFKRKGIYYYLYTIGGDEKYQYAYVMSRVSPMGPFEAPE  222
+            +    +VI      + +E P  +    +YY L   GG      A +       GP+E   
+Sbjct  169  LVGERKVIFKGTPIKLTEAPHLYYINDVYYLLTAEGGTRYEHAATIARSSRIDGPYEVHP  228
+
+Query  223  QDIISTTNY--ERGIFGPGHGCVFHPEGTDNYYFAYLE-----------FGRRST---NR  266
+             + I T  +     +   GH  +     T+ +Y A+L            F +R      R
+Sbjct  229  DNPILTAFHAPSHPLQKCGHASIVQTH-TNEWYLAHLTGRPIHSSKESIFQQRGWCPLGR  287
+
+Query  267  QTYVNQLKFNEDGT--------IRPVELTMDGVGALKK  296
+            +T + +L++ +           +  VE     V     
+Sbjct  288  ETAIQKLEWKDGWPYVVGGKEGLLEVEAPAMSVKEFSP  325
+
+
+> sp|P77713|YAGH_ECOLI Putative beta-xylosidase OS=Escherichia 
+coli (strain K12) OX=83333 GN=yagH PE=3 SV=1
+Length=536
+
+ Score = 207 bits (527),  Expect = 5e-60, Method: Composition-based stats.
+ Identities = 66/327 (20%), Positives = 114/327 (35%), Gaps = 73/327 (22%)
+
+Query  6    GNALIPDMIADASIQEINGVFYCYATTDGYGQGLKTSGPPVVWKSKDFVHWSFDGTYFPS  65
+             N ++     D S+      +Y   +T  +  G++      ++ S+D  +WS   T    
+Sbjct  4    TNPILTGFNPDPSLCRQGEDYYIATSTFEWFPGVR------IYHSRDLKNWSLVSTPLDR  57
+
+Query  66   AA---------KEKYWAPSKAIFANGKYYIYPTI---------NGYMYPAVADKPEGPFK  107
+             +             WAP  + +A+GK+++  T          NG  +   A   EGP+ 
+Sbjct  58   VSMLDMKGNPDSGGIWAPCLS-YADGKFWLLYTDVKIVDSPWKNGRNFLVTAPSIEGPWS  116
+
+Query  108  LARGKDEFYKPFTPSTLLQSKNPGGIDAEIFVDDDGQAYVF---WGRRHVAKLNEDMI--  162
+                                   GG D  +F DDDG+ Y     WG RH +  +  ++  
+Sbjct  117  EPIPMGN----------------GGFDPSLFHDDDGRKYYIYRPWGPRHHSNPHNTIVLQ  160
+
+Query  163  TVDSVVQVISTPRKE--------YSEGPIFFKRKGIYYYLYTIGGDEKYQYAYVMSRVSP  214
+              D     +S  RK         Y+EG   ++  G YY +   GG        V+   + 
+Sbjct  161  AFDPQTGTLSPERKTLFTGTPLCYTEGAHLYRHAGWYYLMAAEGGTSYEHAVVVLRSKNI  220
+
+Query  215  MGPFEAPEQDIISTTNY--ERGIFGPGHGCVFHPEGTDNYYFAYLE--------------  258
+             GP+E      + T+ +  E  +   GHG +     T  +Y AYL               
+Sbjct  221  DGPYELHPDVTMMTSWHLPENPLQKSGHGSLLQTH-TGEWYMAYLTSRPLRLPGVPLLAS  279
+
+Query  259  --FGRRSTNRQTYVNQLKFNEDGTIRP  283
+               G     R+T + ++++ +      
+Sbjct  280  GGRGYCPLGRETGIARIEWRDGWPYVE  306
+
+
+> sp|Q0CY27|ABNB_ASPTN Probable arabinan endo-1,5-alpha-L-arabinosidase 
+B OS=Aspergillus terreus (strain NIH 2624 / FGSC A1156) 
+OX=341663 GN=abnB PE=3 SV=2
+Length=364
+
+ Score = 200 bits (508),  Expect = 5e-59, Method: Composition-based stats.
+ Identities = 60/323 (19%), Positives = 91/323 (28%), Gaps = 58/323 (18%)
+
+Query  14   IADASIQEINGVFYCYATTDGYGQGLKTSGPPVVWKSKDFVHWSFDGTYFPSAAKEKYWA  73
+            I D SI ++   +Y Y+           +        K   H     +  P   ++  WA
+Sbjct  47   IHDPSILKVGDKYYSYSVGPRIVIHEAPTLSGPW---KKTGHVLDKDSIIPKGDRKAPWA  103
+
+Query  74   PSKAIFANGKYYIYP------TINGYMYPAVADKPE-GPFKLARGKDEFYKPFTPSTLLQ  126
+            P+  I   G YY Y         N  +  A +  P  G +    G          S    
+Sbjct  104  PT-TIEVAGTYYCYYAVSQSGCRNSAIGVATSQSPGPGGWTD-HGAIIHTGTGPGSDSAP  161
+
+Query  127  SKNPGGIDAEIFVDDDGQAYV----FWGRRHVAKLNEDMITVDSVVQVI-----------  171
+                  IDA + +  DG  Y+    +W       LN D++++  V               
+Sbjct  162  FDRSNAIDASVILTPDGNGYLNFGSYWTGIWQVPLNADLVSISDVSTNAARHLAYEPHAF  221
+
+Query  172  ------------STPRKEYSEGPIFFKRKGIYYYLYTIGGDEKY-----------QYAYV  208
+                                EG     R   YY  ++ G   KY               V
+Sbjct  222  SPGGKNPNPLCGDRSGSHPIEGAFVSYRAPFYYLWFSWGKCCKYNPKALPPRGKEYQIRV  281
+
+Query  209  MSRVSPMGPFEAPEQDIIST------TNYERGIFGPGHGCVFHPEGTDNYYFAYLEFG--  260
+                 P GPF   +   +            R ++ PG   V   EGTD  Y+ YL     
+Sbjct  282  GRSTHPQGPFVDRQGVDLIEGGGEVVYGSNRDVYAPGGQGVLTDEGTDILYYHYLNKTVS  341
+
+Query  261  RRSTNRQTYVNQLKFNEDGTIRP  283
+                  +   N L + +   +  
+Sbjct  342  LDFWEARLGYNPLIYIDGWPVAQ  364
+
+
+> sp|A1CLG4|ABNA_ASPCL Probable arabinan endo-1,5-alpha-L-arabinosidase 
+A OS=Aspergillus clavatus (strain ATCC 1007 / CBS 513.65 
+/ DSM 816 / NCTC 3887 / NRRL 1) OX=344612 GN=abnA PE=3 
+SV=1
+Length=321
+
+ Score = 194 bits (494),  Expect = 2e-57, Method: Composition-based stats.
+ Identities = 47/325 (14%), Positives = 91/325 (28%), Gaps = 66/325 (20%)
+
+Query  3    NPFGNALIPDM---IADASIQE--INGVFYCYATTDGYGQGLKTSGPPVVWKSKDFVHWS  57
+            + + N         I D ++     +G ++ ++T +       +S             W+
+Sbjct  18   HGYANPGSCSGACNIHDPALIRRQSDGKYFRFSTGNKISYASSSSIKGP---------WT  68
+
+Query  58   FDGTYFPSAAK------EKYWAPSKAIFANGKYYIYPTI------NGYMYPAVADKPE-G  104
+              G+  P  +          WAP  +   NG Y++Y ++      +  +  A +   +  
+Sbjct  69   VLGSVLPRGSSINLPGKTDLWAPDIS-LVNGAYHLYYSVSAFGSQDSAIGLATSATMDPN  127
+
+Query  105  PFKLARGKDEFYKPFTPSTLLQSKNPGGIDAEIFVDDDGQAYVFWGRRHVA------KLN  158
+             +              P           IDA +F D  G  Y+ +G              
+Sbjct  128  SWTDHGSTGIRSSSSKPY--------NAIDANLFHDG-GNYYMTFGSFWHDIYQAPMNSA  178
+
+Query  159  EDMITVDSVVQVISTPRKEYSEGPIFFKRKGIYYYLYTIGGDEKY----------QYAYV  208
+               ++        +       EG   +K    YY  ++ G    Y              V
+Sbjct  179  ATAVSSGPYNIAYNPSGTHAVEGAFMYKFGKYYYLFFSSGICCGYDTSRPAAGKEYKIRV  238
+
+Query  209  MSRVSPMGPFEAPEQDIISTTNYERGIFGPGHGCVFHPEGTDNY---------YFAY--L  257
+                S  G F        +       +    HG V+ P G   +         Y+ Y   
+Sbjct  239  CRSTSATGHFVDKHGVSCTN--GGGTVVLESHGHVYGPGGQGVFTDPALGPVLYYHYVDT  296
+
+Query  258  EFGRRSTNRQTYVNQLKFNEDGTIR  282
+              G     ++   N++ F+    + 
+Sbjct  297  RIGYADGQKRFGWNKIDFSSGWPVV  321
+
+
+> sp|A5IKD4|EABN_THEP1 Extracellular endo-alpha-(1->5)-L-arabinanase 
+OS=Thermotoga petrophila (strain RKU-1 / ATCC BAA-488 
+/ DSM 13995) OX=390874 GN=Tpet_0637 PE=1 SV=1
+Length=471
+
+ Score = 197 bits (500),  Expect = 1e-56, Method: Composition-based stats.
+ Identities = 71/341 (21%), Positives = 115/341 (34%), Gaps = 87/341 (26%)
+
+Query  12   DMIADASIQEINGVFYCYATTDGYGQGLKTSGPPVVWKSKDFVHWSFDGT----------  61
+             ++ D SI ++  ++Y + T               V KSKD +HW    T          
+Sbjct  28   AVVHDPSIIKVGNMYYVFGTH------------LQVAKSKDLMHWEQINTSAHDKNPIIP  75
+
+Query  62   ---------YFPSAAKEKYWAPSKAIFANGKYYIYPTIN------GYMYPAVADKPEGPF  106
+                        +  +   WAP     ++G+YY+Y   +        +  AV+D  EGP+
+Sbjct  76   NINEELKETLSWARTRNDIWAPQVIQLSDGRYYMYYCASTFGSPRSAIGIAVSDDIEGPY  135
+
+Query  107  K---------LARGKDEFYKPFTPSTLLQSKNPGGIDAEIFVDDDGQAYV----FWGRRH  153
+            K              D   +  TP      K+P  +D  +F D +G  ++    ++G  +
+Sbjct  136  KHYAVIVKSGQVYSVDGPSEDGTPYD--SRKHPNALDPGVFYDKEGNLWMVYGSWFGGIY  193
+
+Query  154  VAKLNED---MITVDSVVQVISTPRKEYSEGPI-FFKRKGIYYYLYTIGGDEKY---QYA  206
+            + KL+ +    +      + +        EGP   +     YYYL+   G   Y      
+Sbjct  194  ILKLDPNTGLPLPGQGYGKRLVGGNHSSMEGPYILYSPDTDYYYLFLSFGGLDYRGGYNI  253
+
+Query  207  YVMSRVSPMGPFEAPEQDIISTTNYE---------------------------RGIFGPG  239
+             V    +P GP+  PE   +                                  G   PG
+Sbjct  254  RVARSKNPNGPYYDPEGKSMENCMGSKTVISNYGAKLVGNFILSESNTIDFKAFGYVSPG  313
+
+Query  240  HGCVFH-PEGTDNYYFAYLEFGRRSTNRQTYVNQLKFNEDG  279
+            H   ++ PE    + F +  F  R    Q  V+QL  NEDG
+Sbjct  314  HNSAYYDPETGKYFIFFHTRFPGRGETYQLRVHQLFLNEDG  354
+
+
+> sp|Q93HT9|IABN_GEOTD Intracellular endo-alpha-(1->5)-L-arabinanase 
+OS=Geobacillus thermodenitrificans OX=33940 GN=abn-ts 
+PE=1 SV=1
+Length=313
+
+ Score = 192 bits (488),  Expect = 1e-56, Method: Composition-based stats.
+ Identities = 64/325 (20%), Positives = 108/325 (33%), Gaps = 64/325 (20%)
+
+Query  1    HNNPFGNALIPDM---------IADASIQEINGVFYCYATTDGYGQGLKTSGPPVVWKSK  51
+            H +PFGN    +M           D  I +    +Y + T  G            +  S+
+Sbjct  3    HFHPFGNVNFYEMDWSLKGDLWAHDPVIAKEGSRWYVFHTGSGI----------QIKTSE  52
+
+Query  52   DFVHWSFDGTYFPS-----------AAKEKYWAPSKAIFANGKYYIYPTINGY------M  94
+            D VHW   G  FPS             ++  WAP    + NG YY+Y +++ +      +
+Sbjct  53   DGVHWENMGRVFPSLPDWCKQYVPEKDEDHLWAPDICFY-NGIYYLYYSVSTFGKNTSVI  111
+
+Query  95   YPAVADKPEGPFKLARGKDEFYKPFTPSTLLQ-SKNPGGIDAEIFVDDDGQAYV----FW  149
+              A            R  D  +K   P      S N   ID  +  D +GQ ++    FW
+Sbjct  112  GLATNRTL-----DPRDPDYEWKDMGPVIHSTASDNYNAIDPNVVFDQEGQPWLSFGSFW  166
+
+Query  150  GRRHVAKLNEDMITVDSVVQVIS----TPRKEYSEGPIFFKRKGIYYYL----YTIGGDE  201
+                + +L+ + +   +  ++++           E P    R G YY      +   G E
+Sbjct  167  SGIQLIQLDTETMKPAAQAELLTIASRGEEPNAIEAPFIVCRNGYYYLFVSFDFCCRGIE  226
+
+Query  202  KYQYAYVMSRVSPMGPFEAPEQDIISTTNY-------ERGIFGPGHGCVFHPEGTDNYYF  254
+                  V       GP+       +            +R I GPGH C  +  G      
+Sbjct  227  STYKIAVGRSKDITGPYVDKNGVSMMQGGGTILDAGNDRWI-GPGH-CAVYFSGVSAILV  284
+
+Query  255  AYLEFGRRSTNRQTYVNQLKFNEDG  279
+             +     ++      +  L ++++G
+Sbjct  285  NHAYDALKNGEPTLQIRPLYWDDEG  309
+
+
+> sp|B0YDT3|ABNC_ASPFC Probable arabinan endo-1,5-alpha-L-arabinosidase 
+C OS=Neosartorya fumigata (strain CEA10 / CBS 144.89 
+/ FGSC A1163) OX=451804 GN=abnC PE=3 SV=2
+Length=321
+
+ Score = 190 bits (482),  Expect = 1e-55, Method: Composition-based stats.
+ Identities = 57/324 (18%), Positives = 93/324 (29%), Gaps = 67/324 (21%)
+
+Query  3    NPFGNALIPDMI---ADASIQ--EINGVFYCYATTDGYGQGLKTSGPPVVWKSKDFVHWS  57
+            N + N           D  +   + +G ++ +AT  G       S             W+
+Sbjct  17   NAYANPGACSGNCWTHDPGLYQRKSDGKYFRFATGGGIHIASADSLEGP---------WT  67
+
+Query  58   FDGTYFPSAA------KEKYWAPSKAIFANGKYYIYPTI------NGYMYPAVADKPE-G  104
+             DG   PS +      K   WAP    + +G YY+Y  +      N  +  A +   E G
+Sbjct  68   DDGYVLPSGSIIDLDGKTNLWAPDL-HYHDGTYYLYYAVSSLGSQNSAIGVATSKTMEAG  126
+
+Query  105  PFKLARGKDEFYKPFTPSTLLQSKNPGGIDAEIFVDDDGQAYV----FWGRRHVAKLNED  160
+             +           P +P           IDA  ++   G  YV    +W      ++   
+Sbjct  127  SWTDHGTTGIESTPSSPY--------NTIDAN-WIAVGGNQYVNFGSYWNNLFQVEMENG  177
+
+Query  161  MITVDSVVQ---VISTPRKEYSEGPIFFKRKGIYYYLYTIGGDEKY----------QYAY  207
+            +             +       E    F+R   +Y  ++ G    Y           +  
+Sbjct  178  LKVKSGATPHQIAYNASGIHRQEAAFMFERNNYFYLTFSGGIALGYNDTWPAPGEEYFIA  237
+
+Query  208  VMSRVSPMGPFEAPEQDIISTTNYERGIFGPGHGCVFHPEGTDN---------YYFAY--  256
+            V    S  G F          +     +    H  V+ P G             Y+ Y  
+Sbjct  238  VCRSTSATGGFVDKNGVSCLNSGGS--LLLSSHDFVYGPGGQGILQDSSKGFVLYYHYAD  295
+
+Query  257  LEFGRRSTNRQTYVNQLKFNEDGT  280
+               G+   + Q   NQLK+  D  
+Sbjct  296  TRIGKAVEDYQFGWNQLKWENDWP  319
+
+
+> sp|Q2UI74|ABNB_ASPOR Probable arabinan endo-1,5-alpha-L-arabinosidase 
+B OS=Aspergillus oryzae (strain ATCC 42149 / RIB 40) 
+OX=510516 GN=abnB PE=3 SV=1
+Length=353
+
+ Score = 190 bits (483),  Expect = 2e-55, Method: Composition-based stats.
+ Identities = 61/328 (19%), Positives = 93/328 (28%), Gaps = 74/328 (23%)
+
+Query  14   IADASIQEINGVFYCYATTDGYGQGLKTSGPPVVWKSKDFVHWSFDGTYF------PSAA  67
+            I D ++   NG +Y Y      G+ +     P +        W   G+        P   
+Sbjct  37   IHDPTVINANGAYYAYGV----GEHIVIHQAPGLAGP-----WKQIGSVLDKDSIIPKGD  87
+
+Query  68   KEKYWAPSKAIFANGKYYIYP------TINGYMYPAVADKPE-GPFKLARGKDEFYKPFT  120
+            + K WAP+  I   G +Y Y         +  +  A +  P  G +    G         
+Sbjct  88   RAKPWAPT-TIEVKGTFYCYYSVSNAGCRDSAIGVATSQSPGPGGWTD-HGAIVQSGTGQ  145
+
+Query  121  PSTLLQSKNPGGIDAEIFVDDDGQAYV----FWGRRHVAKLNED----------------  160
+             S          ID  + V  D + ++    +W       LNED                
+Sbjct  146  GSDEHPFNEVNAIDPAVLVTGD-KGHLVFGSYWSGIWQVPLNEDFSSVGNTTGLNAHHLA  204
+
+Query  161  ----MITVDSVVQVIST-----PRKEYSEGPIFFKRKGIYYYLYTIGGDEKY--------  203
+                   V+S  Q           +   EG         YY   + G    Y        
+Sbjct  205  KHPKTERVNSQDQNPDPLCRDSSGRRPVEGAYISYHAPYYYLWLSWGQCCDYDPNNLPPS  264
+
+Query  204  ---QYAYVMSRVSPMGPFEAPEQDIIST------TNYERGIFGPGHGCVFHPEGTDNYYF  254
+                   V    SP GPF   +   ++             ++ PG   V   E  D  Y+
+Sbjct  265  GEEYSIRVGRSESPHGPFVDKQGKELTQGGGELIYGSNNDVYAPGGQGVITVETGDILYY  324
+
+Query  255  AYLEFGRRSTNRQTYVN-QLKFNEDGTI  281
+             Y  +  R +    Y    L FN+  T+
+Sbjct  325  HYSLY--RYSTHSLYTFANLDFNQGCTL  350
+
+
+> sp|Q2U1X8|ABNC_ASPOR Probable arabinan endo-1,5-alpha-L-arabinosidase 
+C OS=Aspergillus oryzae (strain ATCC 42149 / RIB 40) 
+OX=510516 GN=abnC PE=3 SV=1
+Length=317
+
+ Score = 189 bits (480),  Expect = 2e-55, Method: Composition-based stats.
+ Identities = 45/306 (15%), Positives = 86/306 (28%), Gaps = 45/306 (15%)
+
+Query  3    NPFGNALIPDMI---ADASIQEINGVFYCYATTDGYGQGLKTSGPPVVWKSKDFVHWSFD  59
+            N + N    +      D  + + +   Y   +T   G G+  S  P +        W+  
+Sbjct  16   NAYANPGTCNGNCWAHDPGLWKHDDGRYFLFST---GNGIHISSAPSLQGP-----WTEV  67
+
+Query  60   GTYFPSAA------KEKYWAPSKAIFANGKYYIYPTI------NGYMYPAVADKPE-GPF  106
+            G   P  +       +  WAP      +GKYY+Y ++      N  +  A +   E G +
+Sbjct  68   GYALPDGSSINHDGNKNLWAPDVHKGDDGKYYMYYSVSTLGSQNSVIGVASSTTMEPGSW  127
+
+Query  107  KLARGKDEFYKPFTPSTLLQSKNPGGIDAEIFVDDDGQAYVFWGRRHVAKLNEDMITVDS  166
+                              + +      D ++          + G   +       I   +
+Sbjct  128  TDHGSTGLSSDGSQGYNTIDANWIKIGDQQVL----NFGSYWQGLYQIDLAGPLKIGTAA  183
+
+Query  167  VVQV-ISTPRKEYSEGPIFFKRKGIYYYLYTIGGDEKY----------QYAYVMSRVSPM  215
+             V +  +   +   E    +++ G YY  ++ G    Y              V    +  
+Sbjct  184  PVNIAYNATGQHAIEASFLYQQNGFYYLFFSSGKANGYDTSFPAQGEEYRINVCRSSTGR  243
+
+Query  216  GPFEAPEQDIISTTNYERGIFGPGHGCVFHPEGTDNY----YFAYLEFGRRSTNRQTYVN  271
+            G F          +     +    H  V+ P G           Y  +  R+ +      
+Sbjct  244  GDFVDKNGVSCLQSGGTTVL--ASHDNVYGPGGQGVLEDNGAVLYYHYAPRNGDLSVSSY  301
+
+Query  272  QLKFNE  277
+            Q  +N 
+Sbjct  302  QFGWNR  307
+
+
+> sp|B8NMD3|ABNC_ASPFN Probable arabinan endo-1,5-alpha-L-arabinosidase 
+C OS=Aspergillus flavus (strain ATCC 200026 / FGSC 
+A1120 / NRRL 3357 / JCM 12722 / SRRC 167) OX=332952 GN=abnC 
+PE=3 SV=2
+Length=317
+
+ Score = 189 bits (480),  Expect = 2e-55, Method: Composition-based stats.
+ Identities = 45/306 (15%), Positives = 86/306 (28%), Gaps = 45/306 (15%)
+
+Query  3    NPFGNALIPDMI---ADASIQEINGVFYCYATTDGYGQGLKTSGPPVVWKSKDFVHWSFD  59
+            N + N    +      D  + + +   Y   +T   G G+  S  P +        W+  
+Sbjct  16   NAYANPGTCNGNCWAHDPGLWKHDDGRYFLFST---GNGIHISSAPSLQGP-----WTEV  67
+
+Query  60   GTYFPSAA------KEKYWAPSKAIFANGKYYIYPTI------NGYMYPAVADKPE-GPF  106
+            G   P  +       +  WAP      +GKYY+Y ++      N  +  A +   E G +
+Sbjct  68   GYALPDGSSINHDGNKNLWAPDVHKGDDGKYYMYYSVSTLGSQNSVIGVASSTTMEPGSW  127
+
+Query  107  KLARGKDEFYKPFTPSTLLQSKNPGGIDAEIFVDDDGQAYVFWGRRHVAKLNEDMITVDS  166
+                              + +      D ++          + G   +       I   +
+Sbjct  128  TDHGSTGLSSDGSQGYNTIDANWIKIGDQQVL----NFGSYWQGLYQIDLAGPLKIGTAA  183
+
+Query  167  VVQV-ISTPRKEYSEGPIFFKRKGIYYYLYTIGGDEKY----------QYAYVMSRVSPM  215
+             V +  +   +   E    +++ G YY  ++ G    Y              V    +  
+Sbjct  184  PVNIAYNATGQHAIEASFLYQQNGFYYLFFSSGKANGYDTSFPAQGEEYRINVCRSSTGR  243
+
+Query  216  GPFEAPEQDIISTTNYERGIFGPGHGCVFHPEGTDNY----YFAYLEFGRRSTNRQTYVN  271
+            G F          +     +    H  V+ P G           Y  +  R+ +      
+Sbjct  244  GDFVDKNGVSCLQSGGTTVL--ASHDNVYGPGGQGVLEDNGAVLYYHYAPRNGDLSVSSY  301
+
+Query  272  QLKFNE  277
+            Q  +N 
+Sbjct  302  QFGWNR  307
+
+
+> sp|B3EYM8|IABN_GEOSE Intracellular endo-alpha-(1->5)-L-arabinanase 
+OS=Geobacillus stearothermophilus OX=1422 GN=abnB PE=1 
+SV=1
+Length=315
+
+ Score = 189 bits (479),  Expect = 3e-55, Method: Composition-based stats.
+ Identities = 64/325 (20%), Positives = 108/325 (33%), Gaps = 64/325 (20%)
+
+Query  1    HNNPFGNALIPDM---------IADASIQEINGVFYCYATTDGYGQGLKTSGPPVVWKSK  51
+            H +PFGN    +M           D  I +    +Y + T  G            +  S+
+Sbjct  3    HFHPFGNVNFYEMDWSLKGDLWAHDPVIAKEGSRWYVFHTGSGI----------QIKTSE  52
+
+Query  52   DFVHWSFDGTYFPS-----------AAKEKYWAPSKAIFANGKYYIYPTINGY------M  94
+            D VHW   G  FPS             ++  WAP    + NG YY+Y +++ +      +
+Sbjct  53   DGVHWENMGWVFPSLPDWYKQYVPEKDEDHLWAPDICFY-NGIYYLYYSVSTFGKNTSVI  111
+
+Query  95   YPAVADKPEGPFKLARGKDEFYKPFTPSTLLQ-SKNPGGIDAEIFVDDDGQAYV----FW  149
+              A            R  D  +K   P      S N   ID  +  D +GQ ++    FW
+Sbjct  112  GLATNQTL-----DPRDPDYEWKDMGPVIHSTASDNYNAIDPNVVFDQEGQPWLSFGSFW  166
+
+Query  150  GRRHVAKLNEDMITVDSVVQVIS----TPRKEYSEGPIFFKRKGIYYYL----YTIGGDE  201
+                + +L+ + +   +  ++++           E P    R G YY      +   G E
+Sbjct  167  SGIQLIQLDTETMKPAAQAELLTIASRGEEPNAIEAPFIVCRNGYYYLFVSFDFCCRGIE  226
+
+Query  202  KYQYAYVMSRVSPMGPFEAPEQDIISTTNY-------ERGIFGPGHGCVFHPEGTDNYYF  254
+                  V       GP+       +            +R I GPGH C  +  G      
+Sbjct  227  STYKIAVGRSKDITGPYVDKNGVSMMQGGGTILDEGNDRWI-GPGH-CAVYFSGVSAILV  284
+
+Query  255  AYLEFGRRSTNRQTYVNQLKFNEDG  279
+             +     ++      +  L ++++G
+Sbjct  285  NHAYDALKNGEPTLQIRPLYWDDEG  309
+
+
+> sp|Q9WXE8|XYLO_PRERU Putative beta-xylosidase OS=Prevotella ruminicola 
+OX=839 PE=3 SV=2
+Length=518
+
+ Score = 193 bits (491),  Expect = 6e-55, Method: Composition-based stats.
+ Identities = 63/315 (20%), Positives = 110/315 (35%), Gaps = 56/315 (18%)
+
+Query  5    FGNALIPDMIADASIQEINGVFYCYATTDGYGQGLKTSGPPVVWKSKDFVHWSFDGTYFP  64
+            + N       +D  +  +    Y  A+               V +S D V W +    + 
+Sbjct  41   YRNP-----XSDPDVIRVGNKXYMVASDFH-------XMGMQVLESDDMVXWRYISQIYR  88
+
+Query  65   SAAK----------EKYWAPSKAIFANGKYYIYPT-INGYMYPAVADKPEGPFKLARGKD  113
+               +             WAPS   + +G +Y+Y    +  +Y + A  P GP+       
+Sbjct  89   RFNEPGWDANLHYAGGSWAPSIR-YHSGLFYVYFCTPDEGLYMSTASNPAGPWAPLHLVK  147
+
+Query  114  EFYKPFTPSTLLQSKNPGGIDAEIFVDDDGQAYVF-----WGRRHVAKLNEDMITVDSVV  168
+               K                D   F D+DGQAY+       G   V +++ D  T+    
+Sbjct  148  RVAKWE--------------DPCPFWDEDGQAYIGRSQHGAGPIIVHRMSADGKTLLDEG  193
+
+Query  169  QVISTPRKEYSEGPIFFKRKGIYYYLYTIGG-DEKYQYAYVMSRVSPMGPFEAPEQDIIS  227
+            + +       +EG  F KR G YY +   GG    +Q   V+   +  GP+E      I 
+Sbjct  194  KTVY--EGPIAEGTKFMKRNGWYYLIIPEGGVGTGWQ--TVLRARNIYGPYERR----IV  245
+
+Query  228  TTNYERGIFGPGHGCVFHPEGTDNYYFAYLEFGRRSTNRQTYVNQLKFNEDGTIRPVELT  287
+                  G+ GP  G +       +++F + +       R  ++   ++  D  +  V+  
+Sbjct  246  LEQGSTGVNGPHQGALVDAPD-GSWWFYHFQETP-VLGRVVHLQPARWEADWPVIGVDYD  303
+
+Query  288  MDGVGALKKVKSDKK  302
+             +G+G    V + KK
+Sbjct  304  KNGIGE--PVATWKK  316
+
+
+> sp|Q4W930|ABNC_ASPFU Probable arabinan endo-1,5-alpha-L-arabinosidase 
+C OS=Neosartorya fumigata (strain ATCC MYA-4609 / Af293 
+/ CBS 101355 / FGSC A1100) OX=330879 GN=abnC PE=3 SV=2
+Length=321
+
+ Score = 188 bits (476),  Expect = 8e-55, Method: Composition-based stats.
+ Identities = 57/324 (18%), Positives = 92/324 (28%), Gaps = 67/324 (21%)
+
+Query  3    NPFGNALIPDMI---ADASIQ--EINGVFYCYATTDGYGQGLKTSGPPVVWKSKDFVHWS  57
+            N + N           D  +   + +G ++ +AT  G       S             W+
+Sbjct  17   NAYANPGACSGNCWTHDPGLYQRKSDGKYFRFATGGGIHIASADSLEGP---------WT  67
+
+Query  58   FDGTYFPSAA------KEKYWAPSKAIFANGKYYIYPTI------NGYMYPAVADKPE-G  104
+             DG   PS +      K   WAP    + +G YY+Y  +      N     A +   E G
+Sbjct  68   DDGYVLPSGSIIDLDGKTNLWAPDL-HYHDGTYYLYYAVSSLGSQNSATGVATSKTMEAG  126
+
+Query  105  PFKLARGKDEFYKPFTPSTLLQSKNPGGIDAEIFVDDDGQAYV----FWGRRHVAKLNED  160
+             +           P +P           IDA  ++   G  YV    +W      ++   
+Sbjct  127  SWTDHGTTGIESTPSSPY--------NTIDAN-WIAVGGTQYVNFGSYWNNLFQVEMENG  177
+
+Query  161  MITVDSVVQ---VISTPRKEYSEGPIFFKRKGIYYYLYTIGGDEKY----------QYAY  207
+            +             +       E    F+R   +Y  ++ G    Y           +  
+Sbjct  178  LKVKSGATPHQIAYNASGIHRQEAAFMFERNNYFYLTFSGGIALGYNDTWPAPGEEYFIA  237
+
+Query  208  VMSRVSPMGPFEAPEQDIISTTNYERGIFGPGHGCVFHPEGTDN---------YYFAY--  256
+            V    S  G F          +     +    H  V+ P G             Y+ Y  
+Sbjct  238  VCRSTSATGGFVDKNGVSCLNSGGS--LLLSSHDFVYGPGGQGILQDSSKGFVLYYHYAD  295
+
+Query  257  LEFGRRSTNRQTYVNQLKFNEDGT  280
+               G+   + Q   NQLK+  D  
+Sbjct  296  TRIGKAVEDYQFGWNQLKWENDWP  319
+
+
+> sp|B8N803|ABNB_ASPFN Probable arabinan endo-1,5-alpha-L-arabinosidase 
+B OS=Aspergillus flavus (strain ATCC 200026 / FGSC 
+A1120 / NRRL 3357 / JCM 12722 / SRRC 167) OX=332952 GN=abnB 
+PE=3 SV=2
+Length=358
+
+ Score = 187 bits (475),  Expect = 3e-54, Method: Composition-based stats.
+ Identities = 59/330 (18%), Positives = 93/330 (28%), Gaps = 73/330 (22%)
+
+Query  14   IADASIQEINGVFYCYATTDGYGQGLKTSGPPVVWKSKDFVHWSFDGTYF------PSAA  67
+            I D ++   NG +Y Y      G+ +     P +        W   G+        P   
+Sbjct  37   IHDPTVINANGAYYAYGV----GEHIVIHQAPGLAGP-----WKQIGSVLDKDSIIPKGD  87
+
+Query  68   KEKYWAPSKAIFANGKYYIYP------TINGYMYPAVADKPE-GPFKLARGKDEFYKPFT  120
+            + K WAP+  I   G +Y Y         +  +  A +  P  G +    G         
+Sbjct  88   RAKPWAPT-TIEVKGTFYCYYSVSNAGCRDSAIGVATSQSPGPGGWTD-HGAIVQSGTGQ  145
+
+Query  121  PSTLLQSKNPGGIDAEIFVDDDGQAYV----FWGRRHVAKLNED----------------  160
+             S          ID  + V  D + ++    +W       LNED                
+Sbjct  146  GSDEHPFNEVNAIDPAVLVTGD-KGHLVFGSYWSGIWQVPLNEDFSSVGNTTGLNAHHLA  204
+
+Query  161  ----MITVDSVVQVIST-----PRKEYSEGPIFFKRKGIYYYLYTIGGDEKY--------  203
+                   V+S  Q           +   EG         YY   + G    Y        
+Sbjct  205  KHPKTERVNSQDQNPDPLCRDSSGRRPVEGAYISYHAPYYYLWLSWGQCCDYDPNNLPPS  264
+
+Query  204  ---QYAYVMSRVSPMGPFEAPEQDIIST------TNYERGIFGPGHGCVFHPEGTDNYYF  254
+                   V    SP GPF   +   ++             ++ PG   V   E  D  Y+
+Sbjct  265  GEEYSIRVGRSESPHGPFVDKQGKELTQGGGELIYGSNNDVYAPGGQGVITVETGDILYY  324
+
+Query  255  AYLE--FGRRSTNRQTYVNQLKFNEDGTIR  282
+             Y E  F R  +  +   + L + +   + 
+Sbjct  325  HYCESLFFRGLSEARLGYSYLGYVDGWPVI  354
+
+
+> sp|A1D5W1|ABNA_NEOFI Probable arabinan endo-1,5-alpha-L-arabinosidase 
+A OS=Neosartorya fischeri (strain ATCC 1020 / DSM 3700 
+/ CBS 544.65 / FGSC A1164 / JCM 1740 / NRRL 181 / WB 181) 
+OX=331117 GN=abnA PE=3 SV=1
+Length=321
+
+ Score = 186 bits (471),  Expect = 4e-54, Method: Composition-based stats.
+ Identities = 48/325 (15%), Positives = 91/325 (28%), Gaps = 66/325 (20%)
+
+Query  3    NPFGNALIPDM---IADASIQE--INGVFYCYATTDGYGQGLKTSGPPVVWKSKDFVHWS  57
+            + + N         + D ++     +G ++ ++T +       +S             W+
+Sbjct  18   HGYANPGSCSGACNVHDPALIRRQSDGKYFRFSTGNKISYASSSSIQGP---------WT  68
+
+Query  58   FDGTYFPSAAK------EKYWAPSKAIFANGKYYIYPTIN------GYMYPAVADKPE-G  104
+              G+  PS +       +  WAP  +   NG Y++Y +++        +  A +   +  
+Sbjct  69   VLGSVLPSGSSINLDGKDDLWAPDVS-LVNGVYHVYYSVSTFGSQSSAIGLATSSTMDLN  127
+
+Query  105  PFKLARGKDEFYKPFTPSTLLQSKNPGGIDAEIFVDDDGQAYVFWGRRHVA------KLN  158
+             +              P           IDA +F D  G  Y+ +G              
+Sbjct  128  SWTDHGSTGIQSSSSKPY--------NAIDANLFNDG-GTYYMNFGSFWHDIYQAPMNSA  178
+
+Query  159  EDMITVDSVVQVISTPRKEYSEGPIFFKRKGIYYYLYTIGGDEKY----------QYAYV  208
+                   S     +       EG   +K    YY  ++ G    Y              V
+Sbjct  179  ATAAASSSYNIAYNPSGTHAVEGAFMYKYGSYYYLFFSAGICCGYDTSRPASGEEYKIKV  238
+
+Query  209  MSRVSPMGPFEAPEQDIISTTNYERGIFGPGHGCVFHPEGTDNY---------YFAY--L  257
+                S  G F        +       +    HG V+ P G   +         Y+ Y   
+Sbjct  239  CRSTSATGNFVDASGVACTN--GGGTVVLESHGTVYGPGGQGVFTDPSLGPILYYHYVDT  296
+
+Query  258  EFGRRSTNRQTYVNQLKFNEDGTIR  282
+              G     +    N++ F+    + 
+Sbjct  297  TIGYADGQKLFGWNKIDFSSGWPVV  321
+
+
+> sp|Q4WYX7|ABNA_ASPFU Probable arabinan endo-1,5-alpha-L-arabinosidase 
+A OS=Neosartorya fumigata (strain ATCC MYA-4609 / Af293 
+/ CBS 101355 / FGSC A1100) OX=330879 GN=abnA PE=3 SV=1
+Length=321
+
+ Score = 184 bits (468),  Expect = 1e-53, Method: Composition-based stats.
+ Identities = 47/325 (14%), Positives = 92/325 (28%), Gaps = 66/325 (20%)
+
+Query  3    NPFGNALIPDM---IADASIQE--INGVFYCYATTDGYGQGLKTSGPPVVWKSKDFVHWS  57
+            + + N         + D ++     +G ++ ++T +       +S             W+
+Sbjct  18   HGYANPGSCLGACNVHDPALIRRESDGKYFRFSTGNKISYASSSSIEGP---------WT  68
+
+Query  58   FDGTYFPSAA------KEKYWAPSKAIFANGKYYIYPTIN------GYMYPAVADKPE-G  104
+              G+  PS +       +  WAP  +   NG Y++Y +++        +  A +   +  
+Sbjct  69   VLGSVLPSGSSIDLPGNDDLWAPDVS-LVNGVYHVYYSVSTFGSQSSAIGLATSSTMDLN  127
+
+Query  105  PFKLARGKDEFYKPFTPSTLLQSKNPGGIDAEIFVDDDGQAYVFWGRRHVA------KLN  158
+             +              P           ID  +F D  G  Y+ +G              
+Sbjct  128  SWTDHGSTGIQSSSSKPY--------NAIDGNLFKDG-GTYYMNFGSFWHDIYQAPMNSA  178
+
+Query  159  EDMITVDSVVQVISTPRKEYSEGPIFFKRKGIYYYLYTIGGDEKY----------QYAYV  208
+               +   S     +       EG   +K    YY  ++ G    Y              V
+Sbjct  179  ATSVASSSYNIAYNPSGTHAVEGAFMYKYGNYYYLFFSAGICCGYDTSRPASGEEYKIKV  238
+
+Query  209  MSRVSPMGPFEAPEQDIISTTNYERGIFGPGHGCVFHPEGTDNY---------YFAY--L  257
+                S  G F        +       +    HG V+ P G   +         Y+ Y   
+Sbjct  239  CRSTSATGNFVDANGVACTN--GGGTVVLESHGNVYGPGGQGVFTDPSLGPILYYHYVDT  296
+
+Query  258  EFGRRSTNRQTYVNQLKFNEDGTIR  282
+              G   + +    N++ F+    + 
+Sbjct  297  TIGYADSQKLFGWNKIDFSSGWPVV  321
+
+
+> sp|B0XZW5|ABNA_ASPFC Probable arabinan endo-1,5-alpha-L-arabinosidase 
+A OS=Neosartorya fumigata (strain CEA10 / CBS 144.89 
+/ FGSC A1163) OX=451804 GN=abnA PE=3 SV=1
+Length=321
+
+ Score = 184 bits (468),  Expect = 1e-53, Method: Composition-based stats.
+ Identities = 47/325 (14%), Positives = 92/325 (28%), Gaps = 66/325 (20%)
+
+Query  3    NPFGNALIPDM---IADASIQE--INGVFYCYATTDGYGQGLKTSGPPVVWKSKDFVHWS  57
+            + + N         + D ++     +G ++ ++T +       +S             W+
+Sbjct  18   HGYANPGSCLGACNVHDPALIRRESDGKYFRFSTGNKISYASSSSIEGP---------WT  68
+
+Query  58   FDGTYFPSAA------KEKYWAPSKAIFANGKYYIYPTIN------GYMYPAVADKPE-G  104
+              G+  PS +       +  WAP  +   NG Y++Y +++        +  A +   +  
+Sbjct  69   VLGSVLPSGSSIDLPGNDDLWAPDVS-LVNGVYHVYYSVSTFGSQSSAIGLATSSTMDLN  127
+
+Query  105  PFKLARGKDEFYKPFTPSTLLQSKNPGGIDAEIFVDDDGQAYVFWGRRHVA------KLN  158
+             +              P           ID  +F D  G  Y+ +G              
+Sbjct  128  SWTDHGSTGIQSSSSKPY--------NAIDGNLFKDG-GTYYMNFGSFWHDIYQAPMNSA  178
+
+Query  159  EDMITVDSVVQVISTPRKEYSEGPIFFKRKGIYYYLYTIGGDEKY----------QYAYV  208
+               +   S     +       EG   +K    YY  ++ G    Y              V
+Sbjct  179  ATSVASSSYNIAYNPSGTHAVEGAFMYKYGNYYYLFFSAGICCGYDTSRPASGEEYKIKV  238
+
+Query  209  MSRVSPMGPFEAPEQDIISTTNYERGIFGPGHGCVFHPEGTDNY---------YFAY--L  257
+                S  G F        +       +    HG V+ P G   +         Y+ Y   
+Sbjct  239  CRSTSATGNFVDANGVACTN--GGGTVVLESHGNVYGPGGQGVFTDPSLGPILYYHYVDT  296
+
+Query  258  EFGRRSTNRQTYVNQLKFNEDGTIR  282
+              G   + +    N++ F+    + 
+Sbjct  297  TIGYADSQKLFGWNKIDFSSGWPVV  321
+
+
+> sp|A1DKY5|ABNC_NEOFI Probable arabinan endo-1,5-alpha-L-arabinosidase 
+C OS=Neosartorya fischeri (strain ATCC 1020 / DSM 3700 
+/ CBS 544.65 / FGSC A1164 / JCM 1740 / NRRL 181 / WB 181) 
+OX=331117 GN=abnC PE=3 SV=1
+Length=321
+
+ Score = 184 bits (467),  Expect = 2e-53, Method: Composition-based stats.
+ Identities = 55/324 (17%), Positives = 93/324 (29%), Gaps = 67/324 (21%)
+
+Query  3    NPFGNALIPDMI---ADASIQ--EINGVFYCYATTDGYGQGLKTSGPPVVWKSKDFVHWS  57
+            N + +           D  +   + +G ++ +AT  G       S             W+
+Sbjct  17   NAYADPGACSGNCWTHDPGLYQRKSDGKYFRFATGGGIHIASADSLEGP---------WT  67
+
+Query  58   FDGTYFPSAA------KEKYWAPSKAIFANGKYYIYPTI------NGYMYPAVADKPE-G  104
+             DG   P+ +      K   WAP    + +G YY+Y  +      N  +  A +   E G
+Sbjct  68   DDGYVLPNGSIIDLNGKNNLWAPDL-HYRDGTYYLYYAVSSLGSQNSAIGVATSKTMEAG  126
+
+Query  105  PFKLARGKDEFYKPFTPSTLLQSKNPGGIDAEIFVDDDGQAYV----FWGRRHVAKLNED  160
+             +           P +P           IDA  ++   G  Y     +W      ++   
+Sbjct  127  SWTDHGTTGIESTPASPY--------NAIDAN-WIAVGGTQYANFGSYWNNLFQVEMTNG  177
+
+Query  161  MITVDSVVQ---VISTPRKEYSEGPIFFKRKGIYYYLYTIGGDEKY----------QYAY  207
+            +             +       E    F+R   +Y  ++ G    Y           +  
+Sbjct  178  LKVKSGATPHQIAYNASGIHRQEAAFMFERNDYFYLTFSGGIALGYNDTWPAPGEEYFIS  237
+
+Query  208  VMSRVSPMGPFEAPEQDIISTTNYERGIFGPGHGCVFHPEGTDN---------YYFAY--  256
+            V    S  G F          +     +    HG V+ P G             Y+ Y  
+Sbjct  238  VCRSTSATGGFVDKNGVSCLNSGG--TLLLASHGFVYGPGGQGILKDSSKGFVLYYHYAD  295
+
+Query  257  LEFGRRSTNRQTYVNQLKFNEDGT  280
+               G+   + Q   NQLK+  D  
+Sbjct  296  TRIGKAVEDYQFGWNQLKWENDWP  319
+
+
+> sp|Q5AZC8|ABNB_EMENI Arabinan endo-1,5-alpha-L-arabinosidase 
+B OS=Emericella nidulans (strain FGSC A4 / ATCC 38163 / CBS 
+112.46 / NRRL 194 / M139) OX=227321 GN=abnB PE=2 SV=1
+Length=400
+
+ Score = 186 bits (472),  Expect = 3e-53, Method: Composition-based stats.
+ Identities = 57/340 (17%), Positives = 96/340 (28%), Gaps = 84/340 (25%)
+
+Query  15   ADASIQEINGVFYCYATTDGYGQGLKTSGPPVVWKSKDFVHWSFDG------TYFPSAAK  68
+             D SI ++  ++Y Y+           S             W+  G      +      +
+Sbjct  69   HDPSIIKVGSIYYSYSVGPSITIHQAFSLDGP---------WTEVGALLSGESVIKKGDR  119
+
+Query  69   EKYWAPSKAIFANGKYYIYP------TINGYMYPAVADKPE-GPFKLARGKDEFYKPFTP  121
+            +  WA +  I+ NG+YY Y         +  +  A +  P  G +    G          
+Sbjct  120  KAPWA-ANTIYINGRYYCYYSVSNSGCRDSAIGVASSAFPGPGEWTD-HGLIIQSGTGEG  177
+
+Query  122  STLLQSKNPGGIDAEIFVDDDGQAYV----FWGRRHVAKLNEDMITVDS-----------  166
+            S +        ID  +FVD DG AY+    FW       L E+++TV             
+Sbjct  178  SDVFPLNQSNTIDPNVFVDGDGTAYLNFGSFWTGLWQVPLEEELVTVKGLQDGTLDAVHL  237
+
+Query  167  ---VVQVI-----------------------STPRKEYSEGPIFFKRKGIYYYLYTIGGD  200
+                 +V                                EG         YY  ++ G  
+Sbjct  238  AAEPGKVWRSKLANSKAKTVSTSKTGSPICGDPTGGHPIEGGFMAYHAPYYYMWFSWGRC  297
+
+Query  201  EKY-----------QYAYVMSRVSPMGPFEAPEQDIIST------TNYERGIFGPGHGCV  243
+             ++               V    S  GPF   +   +              +F PG   +
+Sbjct  298  CEFKDPAMRSNGKEYRIRVGRSTSARGPFVDKQGIDLVDGGGETVYGSNGDVFAPGGQGI  357
+
+Query  244  FHPEGTDNYYFAYLEFGRRST--NRQTYVNQLKFNEDGTI  281
+               E  D  Y+ YL         + +   N+L++ +   +
+Sbjct  358  LTDEFGDILYYHYLNSSVSYDFADARLGYNRLEYVDGWPV  397
+
+
+> sp|A1CN18|ABNC_ASPCL Probable arabinan endo-1,5-alpha-L-arabinosidase 
+C OS=Aspergillus clavatus (strain ATCC 1007 / CBS 513.65 
+/ DSM 816 / NCTC 3887 / NRRL 1) OX=344612 GN=abnC PE=3 
+SV=1
+Length=319
+
+ Score = 183 bits (465),  Expect = 3e-53, Method: Composition-based stats.
+ Identities = 56/324 (17%), Positives = 97/324 (30%), Gaps = 67/324 (21%)
+
+Query  3    NPFGNALIPDMI---ADASIQ--EINGVFYCYATTDGYGQGLKTSGPPVVWKSKDFVHWS  57
+            N + N           D  +   + +G ++ +AT    G G+  S    +        W+
+Sbjct  15   NAYSNPGPCSGNCWTHDPGLYQRKSDGKYFLFAT----GGGIHISSADDLAGP-----WT  65
+
+Query  58   FDGTYFPSAAK------EKYWAPSKAIFANGKYYIYPTI------NGYMYPAVADKPE-G  104
+             DG   P  +          WAP    + +G YY+Y ++      N  +  A ++  E G
+Sbjct  66   DDGFVLPDGSSIDLDGQNNLWAPDL-HYRDGTYYLYYSVSALGSQNSAIGVATSETLEAG  124
+
+Query  105  PFKLARGKDEFYKPFTPSTLLQSKNPGGIDAEIFVDDDGQAYV----FWGRRHVAKLNED  160
+             +           P +P           ID       D + Y+    +W      +L + 
+Sbjct  125  SWTDHGSTGVTSTPNSPY--------NTIDGNWIAVGD-KQYLNFGSYWQNLFQVELADG  175
+
+Query  161  MITVDSVVQ---VISTPRKEYSEGPIFFKRKGIYYYLYTIGGDEKY----------QYAY  207
+            +   +         +       E    F+R   +Y  ++ G    Y           +  
+Sbjct  176  LKVKEGATPHQLSYNASGIHRQEAAFMFERNSYFYLTFSGGVALGYNATWPAQGEEYHIN  235
+
+Query  208  VMSRVSPMGPFEAPEQDIISTTNYERGIFGPGHGCVFHPEGTDN---------YYFAY--  256
+            V    S  G F          +     +    HG V+ P G             Y+ Y  
+Sbjct  236  VCRSTSATGGFVDKNGVSCLNSGGS--LLLASHGFVYGPGGQGILEDRNKELVLYYHYAD  293
+
+Query  257  LEFGRRSTNRQTYVNQLKFNEDGT  280
+               G+   + Q   NQLK+  D  
+Sbjct  294  TRIGKAVEDYQFGWNQLKWENDWP  317
+
+
+> sp|A2QT85|ABNA_ASPNC Probable arabinan endo-1,5-alpha-L-arabinosidase 
+A OS=Aspergillus niger (strain CBS 513.88 / FGSC A1513) 
+OX=425011 GN=abnA PE=3 SV=1
+Length=321
+
+ Score = 183 bits (465),  Expect = 4e-53, Method: Composition-based stats.
+ Identities = 52/325 (16%), Positives = 97/325 (30%), Gaps = 66/325 (20%)
+
+Query  3    NPFGNALIPDMI---ADASIQE--INGVFYCYATTDGYGQGLKTSGPPVVWKSKDFVHWS  57
+            + + +      +    D  +     +G ++ ++T +       +S             W+
+Sbjct  18   HGYADPGACSGVCTTHDPGLIRRESDGTYFLFSTGNKISYVSASSIEGP---------WT  68
+
+Query  58   FDGTYFPSAA------KEKYWAPSKAIFANGKYYIYPTI------NGYMYPAVADKPE-G  104
+              G+  P  +       +  WAP  + + +G YY+Y  +      +  +  A ++  E G
+Sbjct  69   SVGSMLPDGSSIDLDGNDDLWAPDVS-YVDGLYYVYYAVSTFGSQDSAIGLATSETMEYG  127
+
+Query  105  PFKLARGKDEFYKPFTPSTLLQSKNPGGIDAEIFVDDDGQAYV----FWGRRHVAKLNED  160
+             +                    +K    ID  +    DG  Y+    FW   +   +   
+Sbjct  128  SWTDHGSTGIASS--------SAKIYNAIDPNLIYA-DGTYYINFGSFWDDIYQVPMKST  178
+
+Query  161  MITVDSVVQV--ISTPRKEYSEGPIFFKRKGIYYYLYTIGGDEKY----------QYAYV  208
+                 S               EG   F+    YY  Y+ G    Y           +  V
+Sbjct  179  PTAAASSSYNLAYDPSGTHAEEGSYMFQYGDYYYLFYSAGICCGYDTSMPASGEEYHIKV  238
+
+Query  209  MSRVSPMGPFEAPEQDIISTTNYERGIFGPGHGCVFHPEGTDNY---------YFAY--L  257
+                SP G F   +    + T+    +    HG V+ P G   Y         Y+ Y   
+Sbjct  239  CRSTSPTGDFVDSDG--TACTDGGGTMVLESHGEVYGPGGQGVYDDPNLGPVLYYHYMNT  296
+
+Query  258  EFGRRSTNRQTYVNQLKFNEDGTIR  282
+              G   ++ Q   N + F+    + 
+Sbjct  297  TIGYADSDAQFGWNTIDFSSGWPVV  321
+
+
+> sp|P42256|ABNA_ASPNG Arabinan endo-1,5-alpha-L-arabinosidase 
+A OS=Aspergillus niger OX=5061 GN=abnA PE=1 SV=1
+Length=321
+
+ Score = 183 bits (465),  Expect = 4e-53, Method: Composition-based stats.
+ Identities = 52/325 (16%), Positives = 97/325 (30%), Gaps = 66/325 (20%)
+
+Query  3    NPFGNALIPDMI---ADASIQE--INGVFYCYATTDGYGQGLKTSGPPVVWKSKDFVHWS  57
+            + + +      +    D  +     +G ++ ++T +       +S             W+
+Sbjct  18   HGYADPGACSGVCTTHDPGLIRRESDGTYFLFSTGNKISYVSASSIEGP---------WT  68
+
+Query  58   FDGTYFPSAA------KEKYWAPSKAIFANGKYYIYPTI------NGYMYPAVADKPE-G  104
+              G+  P  +       +  WAP  + + +G YY+Y  +      +  +  A ++  E G
+Sbjct  69   SVGSMLPDGSSIDLDGNDDLWAPDVS-YVDGLYYVYYAVSTFGSQDSAIGLATSETMEYG  127
+
+Query  105  PFKLARGKDEFYKPFTPSTLLQSKNPGGIDAEIFVDDDGQAYV----FWGRRHVAKLNED  160
+             +                    +K    ID  +    DG  Y+    FW   +   +   
+Sbjct  128  SWTDHGSTGIASS--------SAKIYNAIDPNLIYA-DGTYYINFGSFWDDIYQVPMKST  178
+
+Query  161  MITVDSVVQV--ISTPRKEYSEGPIFFKRKGIYYYLYTIGGDEKY----------QYAYV  208
+                 S               EG   F+    YY  Y+ G    Y           +  V
+Sbjct  179  PTAAASSSYNLAYDPSGTHAEEGSYMFQYGDYYYLFYSAGICCGYDTSMPASGEEYHIKV  238
+
+Query  209  MSRVSPMGPFEAPEQDIISTTNYERGIFGPGHGCVFHPEGTDNY---------YFAY--L  257
+                SP G F   +    + T+    +    HG V+ P G   Y         Y+ Y   
+Sbjct  239  CRSTSPTGDFVDSDG--TACTDGGGTMVLESHGEVYGPGGQGVYDDPNLGPVLYYHYMNT  296
+
+Query  258  EFGRRSTNRQTYVNQLKFNEDGTIR  282
+              G   ++ Q   N + F+    + 
+Sbjct  297  TIGYADSDAQFGWNTIDFSSGWPVV  321
+
+
+> sp|T2KN85|PLH27_FORAG Beta-xylosidase OS=Formosa agariphila (strain 
+DSM 15362 / KCTC 12365 / LMG 23005 / KMM 3901) OX=1347342 
+GN=BN863_22160 PE=1 SV=1
+Length=592
+
+ Score = 187 bits (474),  Expect = 5e-52, Method: Composition-based stats.
+ Identities = 52/341 (15%), Positives = 101/341 (30%), Gaps = 68/341 (20%)
+
+Query  5    FGNALIPDMIADASIQEINGVFYCYATTDGYGQGLKTSGPPVVWKSKDFVHWSFDGTYFP  64
+            + N ++     D+ I+++   +Y   +      G+       + +SKD V+W+  G  F 
+Sbjct  51   YINPILNADYPDSDIEQVGDTYYMITSKQHMSPGMP------ILESKDMVNWTNVGHVFN  104
+
+Query  65   -------------SAAKEKYWAPSKAIFANGKYYIYPTINGYMY-PAVADKPEGPFKLAR  110
+                         +      WA   A +  G +Y Y     +    A +   +GP+    
+Sbjct  105  SLSWAPEYNWDRMNGYSFGTWAGDLA-YHEGTWYCYQIDYQHGLMVATSKDIKGPWSKPI  163
+
+Query  111  GKDEFYKPFTPSTLLQSKNPGGIDAEIFVDDDG-QAYVFWGRRHVAKLNEDMITVDSV--  167
+                  +                D  +F D+D  +AY+        K   + I  +    
+Sbjct  164  MMLPKSEVLD-------------DPAVFWDEDTHKAYIIINTAGKQKEASNTIEGNENRI  210
+
+Query  168  -------VQVISTPRKEYS----EGPIFFKRKGIYYYLYTIG------------GDEKYQ  204
+                    +++   +  Y+    E    +K  G +Y                    +  +
+Sbjct  211  YEMSWDGTKILDEGKLVYTGMGAEAAKIYKIDGTWYIFLAQWTMGDMSTKPGVKNPKNDR  270
+
+Query  205  YAYVMSRV-SPMGPFEAPEQDIISTTNYERGIFGPGHGCVFHPEGTDNYYFAYLEFGRRS  263
+               V+    S  GP+E      +              G +        +Y   L      
+Sbjct  271  KQIVLRSKESIYGPYEVK---TVLEKGTVFNNRSASQGALMQAPDNSWWYMHQLIQNDDI  327
+
+Query  264  T--NRQTYVNQLKFNEDGTIRPVELTMDGVGALKKVKSDKK  302
+                R   +  + + +   I  V+   DG+G    VK+ KK
+Sbjct  328  PFQGRPQCLEPVTWVDGWPIIGVDEDNDGIGE--PVKTYKK  366
+
+
+> sp|Q5B8T6|ABND_EMENI Probable arabinan endo-1,5-alpha-L-arabinosidase 
+D OS=Emericella nidulans (strain FGSC A4 / ATCC 38163 
+/ CBS 112.46 / NRRL 194 / M139) OX=227321 GN=abnD PE=2 SV=2
+Length=383
+
+ Score = 182 bits (462),  Expect = 5e-52, Method: Composition-based stats.
+ Identities = 54/313 (17%), Positives = 95/313 (30%), Gaps = 50/313 (16%)
+
+Query  13   MIADASIQEINGVFYCYATTDGYGQGLKTSGPPVVWKSKDFVHWSFDGTYFPSAAKEK-Y  71
+            +  D SI   +  FY +      G  +       +    + +    +G        ++  
+Sbjct  46   VAHDPSIVRHHEHFYLF----KGGIHIPVFRASNLSGPWERLGTVLNGPSLVQKQNQRRP  101
+
+Query  72   WAPSKAIFANGKYYIYPT------INGYMYPAVADKPE-GPFKLARGKDEFYKPFTPSTL  124
+            WAP    + N ++Y + +       N  +  A +D  E G +    G          S +
+Sbjct  102  WAPMVTQWKN-RFYCFYSISQNGKRNSAIGVASSDSVEPGGWTD-HGPLINTGHGPGSGV  159
+
+Query  125  LQSKNPGGIDAEIFVDD-DGQAYV----FWGRRHVAKLNEDMITVDSVVQ------VIST  173
+                    ID   F D   GQ Y+    +W       L ED+++V++         V   
+Sbjct  160  YPFNVSNAIDPAFFADPITGQPYLQYGSYWKGIFQVPLAEDLLSVENATHPNTDHLVFLP  219
+
+Query  174  PRKEYSEGPIFFKRKGIYYYLYTIGGDE------------KYQYAYVMSRVSPMGPFEAP  221
+             +K      +F   +  YYY +   G                    V    S  GPF   
+Sbjct  220  KKKPKPNEGVFMSYRAPYYYAWFSHGQCCHFKTQGFPKEGNEYSIRVGRSTSVHGPFVDR  279
+
+Query  222  EQDIISTTNYERGIFGPGHGCVFHPEGTD----------NYYFAYL--EFGRRSTNRQTY  269
+            +   +        ++G  HG V+ P G              Y+ Y     G    + +  
+Sbjct  280  DNKDLLN-GGGSVVYGSNHGKVYAPGGLGVLPGANGEPDVLYYHYHNASIGFAQGDARLG  338
+
+Query  270  VNQLKFNEDGTIR  282
+             N L + +   + 
+Sbjct  339  WNYLDYVDGWPVP  351
+
+
+> sp|Q9HFS9|ABNA_ASPAC Arabinan endo-1,5-alpha-L-arabinosidase 
+A OS=Aspergillus aculeatus OX=5053 GN=abnA PE=1 SV=1
+Length=321
+
+ Score = 177 bits (450),  Expect = 5e-51, Method: Composition-based stats.
+ Identities = 56/326 (17%), Positives = 98/326 (30%), Gaps = 68/326 (21%)
+
+Query  3    NPFGNALIPDM---IADASIQ--EINGVFYCYATTDGYGQGLKTSGPPVVWKSKDFVHWS  57
+            + + N         + D ++   E +G ++ ++T +       +S             W+
+Sbjct  18   HGYANPGSCSGSCNVHDPALIVRESDGKYFRFSTGNEISYASASSINGP---------WT  68
+
+Query  58   FDGTYFPSAA------KEKYWAPSKAIFANGKYYIYPTI------NGYMYPAVADKPE-G  104
+              G+  P+ +          WAP  + + +G YY   ++      +  +  A +   E  
+Sbjct  69   AIGSVVPAGSKIDLSGNTDLWAPDLS-YVDGTYYCLYSVSTFGSQDSAIGVASSTTMELN  127
+
+Query  105  PFKLARGKDEFYKPFTPSTLLQSKNPGGIDAEIFVDDDGQAYV-----FWGRRHVAKLNE  159
+             +                    SKN   ID  + V  DG +Y      FWG  +  K+  
+Sbjct  128  TWTDHGSVG--------VASSSSKNYNAIDGNLLV--DGSSYYLQFGSFWGDIYQVKMAS  177
+
+Query  160  DMIT--VDSVVQVISTPRKEYSEGPIFFKRKGIYYYLYTIGGDEKY----------QYAY  207
+             + T    S     +       EG   FK    YY  ++ G    Y              
+Sbjct  178  PLKTAGSASYNIAYNATGTHSEEGSYLFKYGSYYYLFFSSGTCCGYDTSRPAQGEEYKIM  237
+
+Query  208  VMSRVSPMGPFEAPEQDIISTTNYERGIFGPGHGCVFHPEGTDNY---------YFAY--  256
+            V    S  G F     +  + +     I    HG V+ P G   Y         Y+ Y  
+Sbjct  238  VCRSTSATGGFVDKNGNACTESGG--TIVLASHGTVYGPGGQGVYDDPTYGPVLYYHYVD  295
+
+Query  257  LEFGRRSTNRQTYVNQLKFNEDGTIR  282
+               G     +    N + F+    + 
+Sbjct  296  TTIGYADDQKLFGWNTIDFSSGWPVV  321
+
+
+> sp|P48790|XYLA_THEST Xylosidase/arabinosidase OS=Thermoclostridium 
+stercorarium OX=1510 GN=xylA PE=1 SV=1
+Length=473
+
+ Score = 180 bits (457),  Expect = 2e-50, Method: Composition-based stats.
+ Identities = 67/331 (20%), Positives = 115/331 (35%), Gaps = 54/331 (16%)
+
+Query  7    NALIP--DMIADASIQEINGVFYCYATTDGYGQGLKTSGPPVVWKS--KDFVHWSFDG--  60
+            N  +P  + I DA     NG  Y Y + D +          V W +   D   W ++G  
+Sbjct  7    NPYLPSWEYIPDAEPYVFNGRVYIYGSHDRFNGHAFCLNDYVCWSAPVDDLSEWRYEGVI  66
+
+Query  61   -----TYFPSAAKEKYWAPSKAIFANGKYYIYPTING--YMYPAVADKPEGPFKLARGKD  113
+                        +   +AP   +  +G+YY+Y  ++    +  AV D P G ++      
+Sbjct  67   YRKTDDPLNPDGRMCLYAPDVTLGPDGRYYLYYVLDKVPVVSVAVCDTPAGKYEFYGY--  124
+
+Query  114  EFYKPFTPSTLLQSKNPGGIDAEIFVDDDGQAYVFWG----------RRHVAKLNEDMIT  163
+              Y   T     +   P   D  +  + + + Y++ G                L  DM+T
+Sbjct  125  VRYADGTRLGEREGDWPQ-FDPAVLTEGE-RTYLYTGFCPKGDKSRKGAMATVLGPDMLT  182
+
+Query  164  VDSVVQVISTP----------RKEYSEGPIFFKRKGIYYYLYTIGGDEKYQYAYVMSRVS  213
+            V     +I               E+ E P   K+   YY++Y+             +   
+Sbjct  183  VVEEPVIIVPSEPYSRGSGFEGHEFFEAPSIRKKGDTYYFIYSS---VVMHELCYATSKH  239
+
+Query  214  PMGPFEAPEQDIIST--------TNYERGIF--GPGHGCVFHPEGTDNYYFAYLEFGRRS  263
+            P   F+     I+S            E+ ++  G  HG +   E    +Y  Y      +
+Sbjct  240  PTKGFKY-GGVIVSNCDLHIDSYKPAEKPMYYGGNNHGSIV--EINGEWYIFYHRHTNGT  296
+
+Query  264  T-NRQTYVNQLKFNEDGTIRPVELTMDGVGA  293
+            + +RQ  + ++K  EDG+I  VE+T  G   
+Sbjct  297  SFSRQGCMEKIKILEDGSIPQVEMTSCGSAD  327
+
+
+> sp|P49943|XYLB_BACOV Xylosidase/arabinosidase OS=Bacteroides 
+ovatus OX=28116 GN=xsa PE=2 SV=1
+Length=325
+
+ Score = 176 bits (446),  Expect = 2e-50, Method: Composition-based stats.
+ Identities = 63/337 (19%), Positives = 111/337 (33%), Gaps = 88/337 (26%)
+
+Query  12   DMIADASIQEINGVFYCYATTDGYGQGLKTSG--------PPVVWKSKDFVHWSFDGTYF  63
+            D +AD ++   +G  Y Y + D +  G+  +            V+   D ++        
+Sbjct  12   DYMADPAVHVFDGKLYIYPSHD-WESGIAENDNGDHFNMKDYHVYSMDDVMNGEIKDHGV  70
+
+Query  64   PSAAKEKYWA-----PSKAIFANGKYYIYPTING-----YMYPAVADKPEGPFKLARGKD  113
+              + ++  WA         +  +GKYY+Y  +        +  AV+DKP GPF       
+Sbjct  71   VLSTEDIPWAGRQLWDCDVVCKDGKYYMYFPLKDQNDIFRIGVAVSDKPYGPFI------  124
+
+Query  114  EFYKPFTPSTLLQSKNPGGIDAEIFVDDDGQAYVFWGRRH--------------------  153
+                          K    ID  ++ D DG  Y+++G                       
+Sbjct  125  --------PEANPMKGSYSIDPAVWDDGDGNYYIYFGGLWGGQLQRYRNNKALESAILPE  176
+
+Query  154  ---------VAKLNEDMITVDSVVQ------------VISTPRKEYSEGPIFFKRKGIYY  192
+                     VA+L+EDM+      +                  + + E     K  G YY
+Sbjct  177  GEEEAIPSRVARLSEDMMEFAEEPRAVVILDEDGKPLTAGDTERRFFEASWMHKYNGKYY  236
+
+Query  193  YLYTIGGDEKYQYAYVMSRVSPMGPFEAPEQDIISTTNYERGIFGPGHGCVFHPEGTDNY  252
+            + Y+ G      YA      +P GPF      +I T      +    H  +   +    +
+Sbjct  237  FSYSTGDTHLLCYAT---GDNPYGPFTYQG--VILT----PVVGWTTHHAIVEFK--GKW  285
+
+Query  253  YFAYLEFGR---RSTNRQTYVNQLKFNEDGTIRPVEL  286
+            Y  + +      ++  R   V +L+++ DG I  +E 
+Sbjct  286  YLFHHDCVPSEGKTWLRSLKVCELQYDADGRIITIEG  322
+
+
+> sp|Q5BA96|ABNA_EMENI Probable arabinan endo-1,5-alpha-L-arabinosidase 
+A OS=Emericella nidulans (strain FGSC A4 / ATCC 38163 
+/ CBS 112.46 / NRRL 194 / M139) OX=227321 GN=abnA PE=3 SV=2
+Length=322
+
+ Score = 174 bits (441),  Expect = 1e-49, Method: Composition-based stats.
+ Identities = 52/325 (16%), Positives = 93/325 (29%), Gaps = 65/325 (20%)
+
+Query  3    NPFGNALIPDM---IADASIQE--INGVFYCYATTDGYGQGLKTSGPPVVWKSKDFVHWS  57
+            + + +         I D ++     +G ++ ++T +       +S             W+
+Sbjct  18   HGYASPGACSGACNIHDPALIRRESDGKYFRFSTGNKISYASASSIEGP---------WT  68
+
+Query  58   FDGTYFPSAA------KEKYWAPSKAIFANGKYYIYPTI------NGYMYPAVADKPE-G  104
+              G+  P  +       +  WAP      NG YY+  ++      N  +  A +D  +  
+Sbjct  69   AIGSVLPGGSSIDLDGNDDLWAPDV-QLVNGVYYVLYSVSTFGSQNSAIGLATSDTMDLN  127
+
+Query  105  PFKLARGKDEFYKPFTPSTLLQSKNPGGIDAEIFVDDDGQAYVFWGRRH------VAKLN  158
+             +              P           ID  +F DD G  Y+ +G           K  
+Sbjct  128  TWTDHGSTGIRSDSSKPY--------NAIDGNLFQDDSGTWYMNFGSFWNDIYQAQMKSP  179
+
+Query  159  EDMITVDSVVQVISTPRKEYSEGPIFFKRKGIYYYLYTIGGDEKY----------QYAYV  208
+               +   S         +   EG   +K    YY  ++ G    Y              V
+Sbjct  180  PTAVASSSYQIAYQPAGEHAVEGAYLYKYGNYYYLFFSEGKCCGYDSSRPATGEEYKIKV  239
+
+Query  209  MSRVSPMGPFEAPEQDIISTTNYERGIFGPGHGCVFHPEGTDNY---------YFAY--L  257
+                +  G F       +S T+    I    H  V+ P G   +         Y+ Y   
+Sbjct  240  CRSTTATGNFVDANG--VSCTSGGGTIVLESHDNVYGPGGQGVFTDPTLGPVLYYHYVDT  297
+
+Query  258  EFGRRSTNRQTYVNQLKFNEDGTIR  282
+              G   + +    N L F+    + 
+Sbjct  298  TIGYADSQKLFGWNVLDFSSGWPVV  322
+
+
+> sp|P94522|EABN1_BACSU Extracellular endo-alpha-(1->5)-L-arabinanase 
+1 OS=Bacillus subtilis (strain 168) OX=224308 GN=abnA 
+PE=1 SV=3
+Length=323
+
+ Score = 171 bits (432),  Expect = 3e-48, Method: Composition-based stats.
+ Identities = 48/296 (16%), Positives = 89/296 (30%), Gaps = 39/296 (13%)
+
+Query  11   PDMIADASIQEINGVFYCYATTDGYGQGLKTSGPPVVWKSKDFVHWSFDGTYFPSAAK--  68
+             +++ D ++ +    +Y   T      GL       V KS D  +W+   + F +     
+Sbjct  39   NELLHDPTMIKEGSSWYALGT------GLTEERGLRVLKSSDAKNWTVQKSIFTTPLSWW  92
+
+Query  69   --------EKYWAPSKAIFANGKYYIYPTINGYMYPAVADKPEGPFKLARGKDEFYKPFT  120
+                    +  WAP    + NGKY++Y +++ +     A         +     +     
+Sbjct  93   SNYVPNYGQNQWAPDI-QYYNGKYWLYYSVSSFGSNTSA--IGLASSTSISSGGWKDEGL  149
+
+Query  121  PSTLLQSKNPGGIDAEIFVDDDGQAYV----FWGRRHVAKLNEDMITVDSVVQVIS--TP  174
+                  S N   ID E+  D DG  ++    FW    + KL++  +     +  I+    
+Sbjct  150  VIRSTSSNNYNAIDPELTFDKDGNPWLAFGSFWSGIKLTKLDKSTMKPTGSLYSIAARPN  209
+
+Query  175  RKEYSEGPIFFKRKGIYYYLY----TIGGDEKYQYAYVMSRVSPMGPFEAPEQDIISTTN  230
+                 E P    + G YY +        G             S  GP+       +    
+Sbjct  210  NGGALEAPTLTYQNGYYYLMVSFDKCCDGVNSTYKIAYGRSKSITGPYLDKSGKSMLEGG  269
+
+Query  231  ------YERGIFGPGHGCVFHPEGTDNYYFAYLEFGRRSTNRQTYVNQLKFNEDGT  280
+                        GPG   +       N    +      +   +  +N L ++    
+Sbjct  270  GTILDSGNDQWKGPGGQDIV----NGNILVRHAYDANDNGIPKLLINDLNWSSGWP  321
+
+
+> sp|P42293|EABN2_BACSU Extracellular endo-alpha-(1->5)-L-arabinanase 
+2 OS=Bacillus subtilis (strain 168) OX=224308 GN=abn2 
+PE=1 SV=2
+Length=469
+
+ Score = 173 bits (439),  Expect = 7e-48, Method: Composition-based stats.
+ Identities = 77/396 (19%), Positives = 124/396 (31%), Gaps = 91/396 (23%)
+
+Query  8    ALIPDM-IADASIQEINGVFYCYATTDGYGQGLKTSGPPVVWKSKDFVHW-------SFD  59
+             +  ++ + D SI E NG FY + +                 KS D + W       S D
+Sbjct  29   PIFKEVSVHDPSIIETNGTFYVFGSH------------LASAKSNDLMQWQQLTTSVSND  76
+
+Query  60   GTYFPS-----------AAKEKYWAPSKAIFANGKYYIYP------TINGYMYPAVADKP  102
+                P+           A  +  WA      A+GKYY+Y       +    M  AVAD  
+Sbjct  77   NPLIPNVYEELKETFEWAQSDTLWAADVTQLADGKYYMYYNACRGDSPRSAMGVAVADNI  136
+
+Query  103  EGPFKLAR-----GKDEFYKPFTPSTLLQSKNPGGIDAEIFVDDDGQAYV----FWGRRH  153
+            EGP+K        G +      TP     +K+P  +D   F D DG+ ++    + G   
+Sbjct  137  EGPYKNKGIFLKSGMEGTSSDGTPYDA--TKHPNVVDPHTFFDKDGKLWMVYGSYSGGIF  194
+
+Query  154  VAKLNED---MITVDSVVQVISTPRKEYSEGPIFFK----RKGIYYYLYTIGGDEKYQYA  206
+            + ++N      +      + +        EGP        +    Y  Y           
+Sbjct  195  ILEMNPKTGFPLPGQGYGKKLLGGNHSRIEGPYVLYNPDTQYYYLYLSYGGLDATGGYNI  254
+
+Query  207  YVMSRVSPMGPFEAPEQDIISTTNY------------------------------ERGIF  236
+             V     P GP+   E + +                                     G  
+Sbjct  255  RVARSKKPDGPYYDAEGNPMLDVRGKGGTFFDDRSIEPYGVKLMGSYTFETENEKGTGYV  314
+
+Query  237  GPGHGCVFHPEGTD-NYYFAYLEFGRRSTNRQTYVNQLKFNEDGTIRPVELTMDG-----  290
+             PGH   ++ E T  +Y   +  F  R    +  V+QL  N+DG          G     
+Sbjct  315  SPGHNSAYYDEKTGRSYLIFHTRFPGRGEEHEVRVHQLFMNKDGWPVAAPYRYAGETLKE  374
+
+Query  291  VGALKKVKSDKKMKIDTVYASSIEVPLKIEPMKDPT  326
+            V       + K ++     ++ I+  + I+  K+ T
+Sbjct  375  VKQKDITGTYKLIQHGKDISADIKQTINIQLNKNHT  410
+
+
+> sp|P95470|ARBA_CELJU Extracellular exo-alpha-(1->5)-L-arabinofuranosidase 
+ArbA OS=Cellvibrio japonicus (strain Ueda107) OX=498211 
+GN=arbA PE=1 SV=1
+Length=347
+
+ Score = 167 bits (423),  Expect = 9e-47, Method: Composition-based stats.
+ Identities = 57/309 (18%), Positives = 96/309 (31%), Gaps = 58/309 (19%)
+
+Query  14   IADASIQEINGVFYCYATTDGYGQGLKTSGPPVVWKSKDFVHWSFDGTYF----------  63
+            + D  +      +Y ++T    G G+       ++ SKD V+W +    F          
+Sbjct  36   VHDPVMTREGDTWYLFST----GPGI------TIYSSKDRVNWRYSDRAFGTEPTWAKRV  85
+
+Query  64   PSAAKEKYWAPSKAIFANGKYYIYPTINGYMYPAVADKPEGPFKLARGKDEFYKPFTPST  123
+              +     WAP       G +Y+Y ++        +       K        Y+      
+Sbjct  86   SPSFDGHLWAPDIYQ-HKGLFYLYYSV-SAFGKNTSAIGVTVNKTLNPASPDYRWEDKGI  143
+
+Query  124  LL----QSKNPGGIDAEIFVDDDGQAYV----FWGRRHVAKLNEDMITVDS--VVQVI--  171
+            ++    Q      ID  I  DD GQ ++    FWG   + KLN+D+           I  
+Sbjct  144  VIESVPQRDLWNAIDPAIIADDHGQVWMSFGSFWGGLKLFKLNDDLTRPAEPQEWHSIAK  203
+
+Query  172  ---------STPRKEYSEGPIFFKRKGIYYYLYTIGG-----DEKYQYAYVMSRVSPMGP  217
+                     S       E P   ++ G YYYL+   G      +   +  V       GP
+Sbjct  204  LERSVLMDDSQAGSAQIEAPFILRK-GDYYYLFASWGLCCRKGDSTYHLVVGRSKQVTGP  262
+
+Query  218  FEAPEQDIISTTNYERGIFGP------GHGCVFHPEGTDNYYFAYLEFGRRSTNRQ-TYV  270
+            +       ++       I G       GH   +  +G D  Y     +       Q   +
+Sbjct  263  YLDKTGRDMNQGGGSLLIKGNKRWVGLGHNSAYTWDGKD--YLVLHAYEAADNYLQKLKI  320
+
+Query  271  NQLKFNEDG  279
+              L ++ +G
+Sbjct  321  LNLHWDGEG  329
+
+
+> sp|P48791|XYNB_PRERU Beta-xylosidase OS=Prevotella ruminicola 
+OX=839 GN=xynB PE=3 SV=1
+Length=319
+
+ Score = 165 bits (417),  Expect = 3e-46, Method: Composition-based stats.
+ Identities = 66/338 (20%), Positives = 109/338 (32%), Gaps = 90/338 (27%)
+
+Query  11   PDMIADASIQEINGVFYCYATTDGYGQGLKTSGPPVVWKSKDFVHWSFDGTYFPSAAKEK  70
+             D +AD +    +G  Y Y + D Y  G         ++ KD+     DG      AK+ 
+Sbjct  9    SDYMADPAANVFDGKLYIYPSHD-YDSGECFDDDGGHFQMKDYHVLCIDGDPMEQDAKDC  67
+
+Query  71   ---------------YWAPSKAIFANGKYYIYPTINGY-----MYPAVADKPEGPFKLAR  110
+                            W     +  +GKYY+  +   Y     +  AVADKPEGPF    
+Sbjct  68   GKQFGIEDIPWVEKQLWDNDC-VEKDGKYYLIYSAKDYTGVFHLGVAVADKPEGPFV---  123
+
+Query  111  GKDEFYKPFTPSTLLQSKNPGGIDAEIFVDDDGQAYVFWGRRH-----------------  153
+                             +    ID  +F DDDG+ YV++G                    
+Sbjct  124  -----------PEADPIRGSYSIDPCVFKDDDGEIYVYFGGIWGGQLQWYKDNKMLKAEH  172
+
+Query  154  ------------VAKLNEDMITVDSVVQVI-----------STPRKEYSEGPIFFKRKGI  190
+                        VA++  D+       + +           +     + E     K  G 
+Sbjct  173  LPEGKEDPLPSRVARMTGDVKQFAEAPRAVIIVDETGKPLPADDPHRFFEASWMHKYNGK  232
+
+Query  191  YYYLYTIGGDEKYQYAYVMSRVSPMGPFEAPEQDIISTTNYERGIFGPGHGCVFHPEGTD  250
+            YY+ Y+ G      YA      +P GPF      +      E  +    H  +   +   
+Sbjct  233  YYFSYSTGDTHLLCYAV---GDNPYGPFTYQGVIL------EPVVGWTTHHSIVEYK--G  281
+
+Query  251  NYYFAYLEFGRRSTN---RQTYVNQLKFNEDGTIRPVE  285
+             +Y  + +    +     R   V +L+++ +G I+ V+
+Sbjct  282  KWYLFHHDCVPSNDTTWLRSLKVAELEYDAEGHIKTVK  319
+
+
+> sp|Q0CRJ6|ABNC_ASPTN Probable arabinan endo-1,5-alpha-L-arabinosidase 
+C OS=Aspergillus terreus (strain NIH 2624 / FGSC A1156) 
+OX=341663 GN=abnC PE=3 SV=1
+Length=320
+
+ Score = 154 bits (390),  Expect = 3e-42, Method: Composition-based stats.
+ Identities = 54/324 (17%), Positives = 94/324 (29%), Gaps = 66/324 (20%)
+
+Query  3    NPFGNALIPDM---IADASIQ--EINGVFYCYATTDGYGQGLKTSGPPVVWKSKDFVHWS  57
+            N F N           D  +   + +G ++ +AT    G G+  S  P +        W 
+Sbjct  15   NAFANPGPCTGDCWTHDPGLYQRKSDGRYFRFAT----GGGIHISSAPAIVGP-----WE  65
+
+Query  58   FDGTYFPSAA------KEKYWAPSKAIFANGK-YYIYPTI------NGYMYPAVADKPE-  103
+             +G   P+ +       +  WAP      N K YY+Y ++      +  +  A +D  E 
+Sbjct  66   DNGFALPNGSKINHAGNDNLWAPDVHYQENTKKYYMYYSVSVLGKKDSVIGVASSDTMEV  125
+
+Query  104  GPFKLARGKDEFYKPFTPSTLLQSKNPGGIDAEIFVDDDGQAYV----FWGRRHVAKLNE  159
+            G +              P           IDA  ++  DG   +    +W       L  
+Sbjct  126  GSWTDHGSIGLNTSNNPPY--------NTIDAN-WIRIDGAPALNFGSYWQGIFQVPLKN  176
+
+Query  160  --DMITVDSVVQVISTPRKEYSEGPIFFKRKGIYYYLYTIGGDEKY----------QYAY  207
+              ++  +       +       E    FK    YY  ++ G    Y             +
+Sbjct  177  PFELAEIAPHQIAWNASLNHRIEAAFEFKHGNYYYLTFSSGLGGNYDVNLPAQGEEYSIH  236
+
+Query  208  VMSRVSPMGPFEAPEQDIISTTNYERGIFGPGHGCVFHPEGTDN---------YYFAYLE  258
+            V         F          +     +    HG V+ P G             Y+ Y +
+Sbjct  237  VCRSEGGRNNFVDKSGRSCRESGGTTLL--ASHGNVYAPGGQGIVEDKNLGQVLYYHYAD  294
+
+Query  259  FGRR--STNRQTYVNQLKFNEDGT  280
+              +    T+ Q   N+L + +   
+Sbjct  295  KTKGLAKTDYQFGWNRLNWVDGWP  318
+
+
+> sp|Q82P90|IABF_STRAW Extracellular exo-alpha-(1->5)-L-arabinofuranosidase 
+OS=Streptomyces avermitilis (strain ATCC 31267 
+/ DSM 46492 / JCM 5070 / NBRC 14893 / NCIMB 12804 / NRRL 8165 
+/ MA-4680) OX=227882 GN=Araf43A PE=1 SV=1
+Length=481
+
+ Score = 157 bits (397),  Expect = 7e-42, Method: Composition-based stats.
+ Identities = 48/310 (15%), Positives = 96/310 (31%), Gaps = 45/310 (15%)
+
+Query  5    FGNALIPDMIADASIQEINGVFYCYATTDGYGQGL---KTSGPPVVWKSKDFVHWSFDGT  61
+            F N  + +  AD  I +    +Y +  T      +   + +    +  + +   W+   +
+Sbjct  37   FTNP-LAEKRADPHIFKHTDGYYYFTATVPEYDRIVLRRATTLQGLATAPETTIWTKHAS  95
+
+Query  62   YFPSAAKEKYWAPSKAIFANGKYYIYPTINGYMYPAVADK-PEGPFKLARGKDE--FYKP  118
+                A     WAP    F +GK+Y+Y           +D      + L  G         
+Sbjct  96   GVMGA---HIWAPEI-HFIDGKWYVYFAAGS-----TSDVWAIRMYVLESGAANPLTGSW  146
+
+Query  119  FTPSTLLQSKNPGGIDAEIFV---------------DDDGQAYVFWGRRHVAKLNEDMIT  163
+                 +    +   +DA  FV               +D+  +       +   ++     
+Sbjct  147  TEKGQIATPVSSFSLDATTFVVNGVRHLAWAQRNPAEDNNTSLFIAKMANPWTISGTPTE  206
+
+Query  164  VDSVVQVISTPRKEYSEGPIFFKRKGIYYYLYTIGGDEKYQYAYVMSRVS-----PMGPF  218
+            +        T   + +EGP   +  G  +  Y+    +      ++S  +         +
+Sbjct  207  ISQPTLSWETVGYKVNEGPAVIQHGGKVFLTYSASATDANYCLGMLSASASADLLNAASW  266
+
+Query  219  EAPEQDIISTTNYERGIFGPGHGCVFHPEGTDNYYFAYLEF--------GRRSTNRQTYV  270
+                Q +  T+    G +GPGH      E   +    Y +              NR+T +
+Sbjct  267  TKSSQPVFKTSEA-TGQYGPGHNSFTVSEDGKSDILVYHDRNYKDISGDPLNDPNRRTRL  325
+
+Query  271  NQLKFNEDGT  280
+             ++ +N DGT
+Sbjct  326  QKVYWNADGT  335
+
+
+> sp|Q0CS14|ABNA_ASPTN Probable arabinan endo-1,5-alpha-L-arabinosidase 
+A OS=Aspergillus terreus (strain NIH 2624 / FGSC A1156) 
+OX=341663 GN=abnA PE=3 SV=1
+Length=338
+
+ Score = 151 bits (381),  Expect = 8e-41, Method: Composition-based stats.
+ Identities = 56/343 (16%), Positives = 95/343 (28%), Gaps = 84/343 (24%)
+
+Query  3    NPFGNALIPDM---IADASIQE--INGVFYCYATTDGYGQGLKTSGPPVVWKSKDFVHWS  57
+            + +           I D S+     +G ++ ++T +       +S             W+
+Sbjct  17   HGYAAPGACSGACNIHDPSLIRRESDGKYFRFSTGNKISYASASSIEGP---------WT  67
+
+Query  58   FDGTYFPSAA------KEKYW------------------APSKAIFANGKYYIYPTI---  90
+              G+  P  +       +  W                  AP  A   NG Y++Y ++   
+Sbjct  68   TIGSMLPDGSSIDLPGNDDLWVSAHATWTGVPHANREYQAPD-AQIVNGVYHVYYSVSSF  126
+
+Query  91   ---NGYMYPAVADKPE-GPFKLARGKDEFYKPFTPSTLLQSKNPGGIDAEIFVDDDGQAY  146
+               N  +  A +   + G +                    SKN   ID  +F D  G  Y
+Sbjct  127  GSQNSAIGLATSTSMDAGTWTDHGSTGIQSS--------SSKNYNAIDGNLFNDG-GTYY  177
+
+Query  147  V----FWGRRHVAKLN--EDMITVDSVVQVISTPRKEYSEGPIFFKRKGIYYYLYTIGGD  200
+            +    FW     A +N     +   S             EG   +K    YY  Y+ G  
+Sbjct  178  MNFGSFWADIFQAPMNSAATKVASSSYGIAYDPSGTHAVEGSYLYKYGNYYYLFYSWGIC  237
+
+Query  201  EKY----------QYAYVMSRVSPMGPFEAPEQDIISTTNYERGIFGPGHGCVFHPEGTD  250
+              Y              V    S  G F   +    +       +    H  V+ P G  
+Sbjct  238  CGYDTSRPAAGQEYKIKVCRSTSATGNFVDADGVACTN--GGGTVVLESHDNVYGPGGQG  295
+
+Query  251  NY---------YFAYLE--FGRRSTNRQTYVNQLKFNEDGTIR  282
+             +         Y+ Y++   G     +    N L F+    + 
+Sbjct  296  VFTDPNLGPVLYYHYVDTNIGYADGQKLFGWNVLDFSSGWPVV  338
+
+
+> sp|Q5AUM3|ABNC_EMENI Arabinan endo-1,5-alpha-L-arabinosidase 
+C OS=Emericella nidulans (strain FGSC A4 / ATCC 38163 / CBS 
+112.46 / NRRL 194 / M139) OX=227321 GN=abnC PE=2 SV=1
+Length=320
+
+ Score = 150 bits (378),  Expect = 2e-40, Method: Composition-based stats.
+ Identities = 50/313 (16%), Positives = 81/313 (26%), Gaps = 61/313 (19%)
+
+Query  5    FGNALIPDM---IADASIQE--INGVFYCYATTDGYGQGLKTSGPPVVWKSKDFVHWSFD  59
+            + N           D    +   +G +Y ++T  G       +             W   
+Sbjct  17   YSNPGACSGDCWGHDPGFYQRVSDGRYYRFSTGGGIQIHASDNLEGP---------WEAV  67
+
+Query  60   GTYFPSAA------KEKYWAPSKAIFAN-GKYYIYPTI------NGYMYPAVADKPEGPF  106
+            G   P  +          WAP     A+   YY+Y ++      +  +  A +   +  +
+Sbjct  68   GEALPGGSVVDHAGSTNLWAPDIHYEASTNLYYMYYSVSTLGSRDSVIGVATSPNLQPNW  127
+
+Query  107  KLARGKDEFYKPFTPSTLLQSKNPGGIDAEIFVDDDGQAYV----FWGRRHVAKLNEDMI  162
+                                  N   IDA  +    G   +    +W   H   L   + 
+Sbjct  128  TDHGALFRSQAGG---------NYNAIDAN-WASIGGSPILTFGSYWNGIHQLPLAGPLS  177
+
+Query  163  TVDSVVQV---ISTPRKEYSEGPIFFKRKGIYYYLYTIGGDEKY----------QYAYVM  209
+              D         ++      E    F R+G YY  ++ G    Y              V 
+Sbjct  178  LADGATPTQIAYNSSGNHAIEAGFVFYRRGWYYLTFSSGRAGSYDTNPPATGEEYRIVVC  237
+
+Query  210  SRVSPMGPFEAPEQDIISTTNYERGIFGPGHGCVFHPEGTDNY------YFAYLEFGRRS  263
+               S  G F         T N    I    HG V+ P G   +      +  Y  +    
+Sbjct  238  RSASGTGDFVDKSGRSCLTDNGGTTI-LASHGNVYGPGGQGVFEDRTRGWVLYYHYANPD  296
+
+Query  264  TNRQTYVNQLKFN  276
+                T   Q  +N
+Sbjct  297  IGLSTGQYQFGWN  309
+
+
+> sp|Q2U8C6|ABNA_ASPOR Probable arabinan endo-1,5-alpha-L-arabinosidase 
+A OS=Aspergillus oryzae (strain ATCC 42149 / RIB 40) 
+OX=510516 GN=abnA PE=3 SV=1
+Length=319
+
+ Score = 149 bits (376),  Expect = 3e-40, Method: Composition-based stats.
+ Identities = 55/321 (17%), Positives = 93/321 (29%), Gaps = 64/321 (20%)
+
+Query  3    NPFGNALIPDM---IADASIQEIN-GVFYCYATTDGYGQGLKTSGPPVVWKSKDFVHWSF  58
+            + + N         I D S+ +   G +Y ++T +       +S             W+ 
+Sbjct  18   HGYANPGACSGACNIHDPSLIQNGDGTYYRFSTGNNISFASASSIEGP---------WTA  68
+
+Query  59   DGTYFPSAA------KEKYWAPSKAIFANGKYYIYPTINGY------MYPAVADKPE-GP  105
+             G+  P  +      +   WAP      +  YY+Y  ++ +      +  A ++  E G 
+Sbjct  69   LGSVLPGGSSIDNSGRYDPWAPDVQKVGD-LYYLYYAVSSFGTQESAIGLATSETMEEGT  127
+
+Query  106  FKLARGKDEFYKPFTPSTLLQSKNPGGIDAEIFVDDDGQAYVF---WGRRHVAKLNEDMI  162
+            +                T         IDA + VD       F   W       LN D  
+Sbjct  128  WTDKGSI---------VTSTTGDQYNAIDANLLVDGSANYLTFGSFWQDIFQVTLNGDAT  178
+
+Query  163  TVDSVVQVI--STPRKEYSEGPIFFKRKGIYYYLYTIGGDEKY----------QYAYVMS  210
+            +  S    +          EG   +K    YY  Y+ G    Y              V  
+Sbjct  179  SSTSTPVNVAFDPATTHPVEGAYLYKYGDYYYLFYSWGTCCGYDTSRPAEGEEYKIKVCR  238
+
+Query  211  RVSPMGPFEAPEQDIISTTNYERGIFGPGHGCVFHPEGTDNY---------YFAY--LEF  259
+              +P G F       ++ T+    +    H  V+ P G   Y         Y+ Y     
+Sbjct  239  SSTPTGNFVDASG--VACTDGGGTVVLESHDNVYGPGGQGVYTDPNLGPVLYYHYVDTTI  296
+
+Query  260  GRRSTNRQTYVNQLKFNEDGT  280
+            G   + +    N + F+    
+Sbjct  297  GYADSQKLFGWNAIDFSSGWP  317
+
+
+> sp|B8NDL1|ABNA_ASPFN Probable arabinan endo-1,5-alpha-L-arabinosidase 
+A OS=Aspergillus flavus (strain ATCC 200026 / FGSC 
+A1120 / NRRL 3357 / JCM 12722 / SRRC 167) OX=332952 GN=abnA 
+PE=3 SV=1
+Length=319
+
+ Score = 149 bits (376),  Expect = 3e-40, Method: Composition-based stats.
+ Identities = 55/321 (17%), Positives = 93/321 (29%), Gaps = 64/321 (20%)
+
+Query  3    NPFGNALIPDM---IADASIQEIN-GVFYCYATTDGYGQGLKTSGPPVVWKSKDFVHWSF  58
+            + + N         I D S+ +   G +Y ++T +       +S             W+ 
+Sbjct  18   HGYANPGACSGACNIHDPSLIQNGDGTYYRFSTGNNISFASASSIEGP---------WTA  68
+
+Query  59   DGTYFPSAA------KEKYWAPSKAIFANGKYYIYPTINGY------MYPAVADKPE-GP  105
+             G+  P  +      +   WAP      +  YY+Y  ++ +      +  A ++  E G 
+Sbjct  69   LGSVLPGGSSIDNSGRYDPWAPDVQKVGD-LYYLYYAVSSFGTQESAIGLATSETMEEGT  127
+
+Query  106  FKLARGKDEFYKPFTPSTLLQSKNPGGIDAEIFVDDDGQAYVF---WGRRHVAKLNEDMI  162
+            +                T         IDA + VD       F   W       LN D  
+Sbjct  128  WTDKGSI---------VTSTTGDQYNAIDANLLVDGSANYLTFGSFWQDIFQVTLNGDAT  178
+
+Query  163  TVDSVVQVI--STPRKEYSEGPIFFKRKGIYYYLYTIGGDEKY----------QYAYVMS  210
+            +  S    +          EG   +K    YY  Y+ G    Y              V  
+Sbjct  179  SSTSTPVNVAFDPATTHPVEGAYLYKYGDYYYLFYSWGTCCGYDTSRPAEGEEYKIKVCR  238
+
+Query  211  RVSPMGPFEAPEQDIISTTNYERGIFGPGHGCVFHPEGTDNY---------YFAY--LEF  259
+              +P G F       ++ T+    +    H  V+ P G   Y         Y+ Y     
+Sbjct  239  SSTPTGNFVDASG--VACTDGGGTVVLESHDNVYGPGGQGVYTDPNLGPVLYYHYVDTTI  296
+
+Query  260  GRRSTNRQTYVNQLKFNEDGT  280
+            G   + +    N + F+    
+Sbjct  297  GYADSQKLFGWNAIDFSSGWP  317
+
+
+> sp|A5AAG2|ABNC_ASPNC Probable arabinan endo-1,5-alpha-L-arabinosidase 
+C OS=Aspergillus niger (strain CBS 513.88 / FGSC A1513) 
+OX=425011 GN=abnC PE=3 SV=1
+Length=318
+
+ Score = 149 bits (376),  Expect = 4e-40, Method: Composition-based stats.
+ Identities = 45/325 (14%), Positives = 92/325 (28%), Gaps = 66/325 (20%)
+
+Query  3    NPFGNALIPDM---IADASIQE--INGVFYCYATTDGYGQGLKTSGPPVVWKSKDFVHWS  57
+            N + +           D ++     +G ++ ++T    G G+  S    +        W+
+Sbjct  14   NAYSDPGACSGTCWAHDPNVIRRVSDGTYFRFST----GGGVHISSASAITGP-----WT  64
+
+Query  58   FDGTYFPSAA------KEKYWAPSKAIFANGKYYIYP------TINGYMYPAVADKPEG-  104
+              G   P+ +          WAP    + +G YY+Y       + +  +  A +   E  
+Sbjct  65   DLGYALPNGSIVTVGNASNLWAPDV-HYVDGTYYMYYASSTLGSRDSTIGVATSTTLEAD  123
+
+Query  105  PFKLARGKDEFYKPFTPSTLLQSKNPGGIDAEIFVDDDGQAYV----FWGRRHVAKLNED  160
+             +             TP           ID   ++      Y+    +W   +  ++ + 
+Sbjct  124  SWTDHGEIGVTSSSSTPY--------NAIDPN-WITIGSTPYLQFGSYWQGLYQVEMTDS  174
+
+Query  161  MITVDSVVQV--ISTPRKEYSEGPIFFKRKGIYYYLYTIGGDEKY----------QYAYV  208
+            +    S       +       E    ++  G YY  ++ G  + Y              V
+Sbjct  175  LSASSSTPTNLAYNASGNHAIEASYLYEYGGYYYLTFSSGKAQGYTTSLPAQGDEYRIVV  234
+
+Query  209  MSRVSPMGPFEAPEQDIISTTNYERGIFGPGHGCVFHPEGTDNY---------YFAYL--  257
+                +  G F   +      +     +    H  V+ P G             Y+ Y   
+Sbjct  235  CRSKTGTGNFVDKDGVSCLNSGGTTVL--ASHDYVYGPGGQGIINTTSHGIVVYYHYANK  292
+
+Query  258  EFGRRSTNRQTYVNQLKFNEDGTIR  282
+              G    + Q   N L + +   + 
+Sbjct  293  NIGLAVDDYQFGWNTLTWTDGWPVV  317
+
+
+> sp|P82594|IABF_STRCX Extracellular exo-alpha-(1->5)-L-arabinofuranosidase 
+OS=Streptomyces chartreusis OX=1969 PE=1 SV=1
+Length=328
+
+ Score = 99.4 bits (246),  Expect = 6e-22, Method: Composition-based stats.
+ Identities = 44/286 (15%), Positives = 77/286 (27%), Gaps = 39/286 (14%)
+
+Query  4    PFGNALIPDMIADASIQEINGVFYCYATTDGYGQGL---KTSGPPVVWKSKDFVHWSFDG  60
+            P+ N L+    AD  I       Y +  T      +   ++     +  + + V W    
+Sbjct  49   PYENPLVRQ-RADPHIHRHTDGRYYFTATAPEYDRIVLRRSRTLGGLSTAAESVIWRAH-  106
+
+Query  61   TYFPSAAKEKYWAPSKAIFANGKYYIYPTINGYMYPAVADKP--EGPFKLA--RGKDEFY  116
+                       WAP       GK+Y+Y         A A+       + L          
+Sbjct  107  --PTGDMAAHIWAPELHRIG-GKWYVYFAA------APAEDVWRIRIWVLENSHPDPFKG  157
+
+Query  117  KPFTPSTLLQSKNPGGIDAEIFV---------------DDDGQAYVFWGRRHVAKLNEDM  161
+                   +  +     +DA  F                 D+          +   L    
+Sbjct  158  TWEEKGQVRTAWETFSLDATTFTHRGARYLCWAQHEPGADNNTGLFLSEMANPWTLTGPQ  217
+
+Query  162  ITVDSVVQVISTPRKEYSEGPIFFKRKGIYYYLYTIGGDEKYQYAYVMSRVSPMGPFEAP  221
+            I + +          + +EGP   KR G  +  Y+    + +    + +  +  G    P
+Sbjct  218  IRLSTPEYDWECVGYKVNEGPYALKRNGRIFLTYSASATDHHYCVGMFTADAG-GNLMDP  276
+
+Query  222  EQ-----DIISTTNYERGIFGPGHGCVFHPEGTDNYYFAYLEFGRR  262
+                     + T N     +GPGH C    E   +    Y     +
+Sbjct  277  GNWSKSPIPVFTGNETTKQYGPGHNCFTVAEDGRSDVLVYHARQYK  322
+
+
+> sp|G4MMH2|ABFB_MAGO7 Alpha-L-arabinofuranosidase B OS=Magnaporthe 
+oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) OX=242507 
+GN=abfB PE=1 SV=1
+Length=486
+
+ Score = 95.9 bits (237),  Expect = 4e-20, Method: Composition-based stats.
+ Identities = 44/311 (14%), Positives = 83/311 (27%), Gaps = 43/311 (14%)
+
+Query  4    PFGNALIPDMIADASIQEINGVFYCYATTDGYGQGLKTSGP---PVVWKSKDFVHWSFDG  60
+             + N L+    AD  I +     Y +  T      +          +  +++ + W    
+Sbjct  40   SYNNTLVKQ-RADPQILKHTNGRYYFIATVPEYDRVVMRQADSIQGLSTAEERLIW---A  95
+
+Query  61   TYFPSAAKEKYWAPSKAIFANGKYYIYPTINGYM----------YPAVADKPEGPF----  106
+                 A     WAP      + K+YIY  +                   D     +    
+Sbjct  96   RSQSKAGVGYVWAPELHKIGD-KWYIYFALGRTAPFDVRPFVLEGTGSDDPMAASWAEKG  154
+
+Query  107  ---KLARGKDEFYKPFTPSTLLQSKNPGGIDAEIFVDDDGQAYVFWGRRHVAKLNEDMIT  163
+                           F  + +         D   F +  G +       +   +    I 
+Sbjct  155  FITTDFDTFSLDATTFEVNGVRYLSWAQA-DPR-FDNGGGTSLFLARMTNPWTIQRPSIV  212
+
+Query  164  VDSVVQVISTPRKEYSEGPIFFKRKGIYYYLYTIGGDEKYQYAYVMSRV------SPMGP  217
+            +    Q         +EG     R G  +  Y+    +      +++        +P   
+Sbjct  213  ISRPDQPWERIGHNVNEGSWGMVRNGKVFVTYSAAATDANYCMGLLTADQNADLMNPASW  272
+
+Query  218  FEAPEQDIISTTNYERGIFGPGHGCVFHPEGTDNYYFAYLEF--------GRRSTNRQTY  269
+              +  +D +  +N     FGPGH      +   +    Y              + +R T 
+Sbjct  273  --SKSKDPVFVSNTATSQFGPGHSAFTVSDDNQSDVLVYHARQYKDIRGEPLDNPDRMTR  330
+
+Query  270  VNQLKFNEDGT  280
+            V +L +  DGT
+Sbjct  331  VQKLYWRSDGT  341
+
+
+> sp|P23031|XYNC_CELJU Alpha-L-arabinofuranosidase C OS=Cellvibrio 
+japonicus (strain Ueda107) OX=498211 GN=xynC PE=1 SV=2
+Length=619
+
+ Score = 47.4 bits (111),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 42/265 (16%), Positives = 72/265 (27%), Gaps = 40/265 (15%)
+
+Query  4    PFGNALIPDMIA--DASIQEINGVFYCYATTDGYGQGLKTSGPPVVWKSKDFVHWSFDGT  61
+            P  +   P  I+  D SI + N  ++ YAT          +       ++   H S +G+
+Sbjct  334  PLISPKNPGWISIKDPSIVKYNDTYHVYATYYDTAYRSMYTSFTDWNTAQQAPHISMNGS  393
+
+Query  62   YFPSAAKEKYWAPSKAIF-ANGKYYIYPTINGYMYPAVADKPEGPFKLARGKDEFYKPFT  120
+                       AP    F  + K+Y+          A  D    P               
+Sbjct  394  RV-----GNTVAPQVFYFRPHNKWYLI--TQWAGAYATTDDIRNPN-----------WSA  435
+
+Query  121  PSTLLQSKNPGGIDAEIFVDDDGQAYVFWG---RRHVAKLNEDMITVDSVVQVISTPRKE  177
+               LLQ +  G +D  +  + D   Y+++                  +     I      
+Sbjct  436  KQKLLQGEPNGALDFWVICN-DTHCYLYFSRDDGVLYVSKTTLANFPNFSGYSIVMEDHR  494
+
+Query  178  ------YSEGPIFFKRKGI-YYYLYTIGGDEKYQYAYVMSRVSPMGPFE---APEQDIIS  227
+                    E    +K  G   Y L         ++    +  S  GP+      E +  +
+Sbjct  495  GNGNSYLFEAANVYKLDGQNRYLLMVEAYISGPRFFRSWTATSLDGPWTPLADTEANPFA  554
+
+Query  228  TTNY-----ERGIFGPGHGCVFHPE  247
+              N       +   G  HG +    
+Sbjct  555  GNNNVEWSTGKWADGISHGELIRSG  579
+
+
+> sp|Q43089|INV1_PEA Beta-fructofuranosidase, cell wall isozyme 
+OS=Pisum sativum OX=3888 GN=BFRUCT1 PE=2 SV=1
+Length=555
+
+ Score = 42.4 bits (98),  Expect = 0.007, Method: Composition-based stats.
+ Identities = 34/208 (16%), Positives = 59/208 (28%), Gaps = 29/208 (14%)
+
+Query  1    HNNPFGNALIPDMIADA-SIQEINGVFYCYATTDGYGQGLKTSGPPVVWKS--KDFVHWS  57
+            H  P  N      I D        G ++ +     Y       G  V   S  KD V+W+
+Sbjct  51   HFQPLKN-----WINDPNGPMRYGGFYHLF---YQYNPKGAVWGNIVWAHSVSKDLVNWT  102
+
+Query  58   FDGTYF---PSAAKEKYWAPSKAIFANGKYYIYPT-----INGYMYPAVADKPEGPFKLA  109
+                       +  +  W+ S  I   GK  I  T      +     A+      P    
+Sbjct  103  PLDHAIHPSQPSDIKGCWSGSATILPGGKPAILYTGIDPNNHQVQNIAIPKNMSDPLLRE  162
+
+Query  110  RGKDEFYKPFTPSTLLQSKNPGGIDAEI-FVDDDGQAYVFWGRRHVAKLNEDMITVDSVV  168
+              K        P+   +  +    D    ++  DG    FW     +K++   + +    
+Sbjct  163  WKKSPKNPLMEPTIANKINSSSFRDPTTSWLGKDG----FWRVLIGSKIDTKGMAILYKS  218
+
+Query  169  QV---ISTPRK--EYSEGPIFFKRKGIY  191
+            +        +     +EG   ++    Y
+Sbjct  219  KNFVDWVEAKHPLHSAEGTGMWECPDFY  246
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.131    0.376    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0402    0.140     1.90     42.6     43.6 
+
+Effective search space used: 42823833792
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 28, 2021  3:44 PM
+  Number of letters in database: 202,799,066
+  Number of sequences in database:  563,082
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

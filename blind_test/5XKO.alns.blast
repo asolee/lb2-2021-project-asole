@@ -1,0 +1,4221 @@
+PSIBLAST 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           563,082 sequences; 202,799,066 total letters
+
+Results from round 1
+
+
+Query= 5XKO
+
+Length=156
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|O59834|FCYS_SCHPO Probable cytosine deaminase OS=Schizosacch...  77.0    3e-17
+  sp|Q94BU8|GSDA_ARATH Guanosine deaminase OS=Arabidopsis thalian...  58.2    8e-10
+  sp|A9CK16|TADA_AGRFC tRNA-specific adenosine deaminase OS=Agrob...  52.4    6e-08
+  sp|P44931|TADA_HAEIN tRNA-specific adenosine deaminase OS=Haemo...  52.8    6e-08
+  sp|P47058|TAD2_YEAST tRNA-specific adenosine deaminase subunit ...  53.1    8e-08
+  sp|O34598|GUAD_BACSU Guanine deaminase OS=Bacillus subtilis (st...  52.0    9e-08
+  sp|Q7CQ08|TADA_SALTY tRNA-specific adenosine deaminase OS=Salmo...  51.6    1e-07
+  sp|Q8XGY4|TADA_SALTI tRNA-specific adenosine deaminase OS=Salmo...  51.6    1e-07
+  sp|Q8FF24|TADA_ECOL6 tRNA-specific adenosine deaminase OS=Esche...  51.6    1e-07
+  sp|Q8XA44|TADA_ECO57 tRNA-specific adenosine deaminase OS=Esche...  51.6    1e-07
+  sp|P68397|TADA_SHIFL tRNA-specific adenosine deaminase OS=Shige...  51.6    1e-07
+  sp|P68398|TADA_ECOLI tRNA-specific adenosine deaminase OS=Esche...  51.6    1e-07
+  sp|Q9S7I0|TADA_ARATH tRNA(adenine(34)) deaminase, chloroplastic...  52.8    2e-07
+  sp|Q6P6J0|ADAT2_MOUSE tRNA-specific adenosine deaminase 2 OS=Mu...  49.7    1e-06
+  sp|Q8K9R4|TADA_BUCAP tRNA-specific adenosine deaminase OS=Buchn...  47.0    5e-06
+  sp|Q7Z6V5|ADAT2_HUMAN tRNA-specific adenosine deaminase 2 OS=Ho...  47.8    5e-06
+  sp|O67050|TADA_AQUAE tRNA-specific adenosine deaminase OS=Aquif...  47.0    6e-06
+  sp|Q6IDB6|TAD2_ARATH tRNA-specific adenosine deaminase TAD2 OS=...  46.2    1e-05
+  sp|Q5RIV4|ADAT2_DANRE tRNA-specific adenosine deaminase 2 OS=Da...  45.8    2e-05
+  sp|Q0P4H0|ADAT2_XENTR tRNA-specific adenosine deaminase 2 OS=Xe...  45.4    3e-05
+  sp|Q5E9J7|ADAT2_BOVIN tRNA-specific adenosine deaminase 2 OS=Bo...  45.4    3e-05
+  sp|Q89AM8|TADA_BUCBP tRNA-specific adenosine deaminase OS=Buchn...  44.7    4e-05
+  sp|Q4V7V8|ADAT2_XENLA tRNA-specific adenosine deaminase 2 OS=Xe...  45.1    4e-05
+  sp|P21335|TADA_BACSU tRNA-specific adenosine deaminase OS=Bacil...  44.3    5e-05
+  sp|Q1RGK7|TADA_RICBR tRNA-specific adenosine deaminase OS=Ricke...  43.9    7e-05
+  sp|P78594|FCA1_CANAX Cytosine deaminase OS=Candida albicans OX=...  43.5    1e-04
+  sp|Q4UJW9|TADA_RICFE tRNA-specific adenosine deaminase OS=Ricke...  41.2    5e-04
+  sp|C1D1Q9|TILS_DEIDV tRNA(Ile)-lysidine synthase OS=Deinococcus...  42.4    6e-04
+  sp|Q92G39|TADA_RICCN tRNA-specific adenosine deaminase OS=Ricke...  40.4    0.001
+  sp|Q99W51|TADA_STAAM tRNA-specific adenosine deaminase OS=Staph...  39.3    0.003
+
+
+> sp|O59834|FCYS_SCHPO Probable cytosine deaminase OS=Schizosaccharomyces 
+pombe (strain 972 / ATCC 24843) OX=284812 GN=SPCC965.14c 
+PE=3 SV=1
+Length=162
+
+ Score = 77.0 bits (188),  Expect = 3e-17, Method: Compositional matrix adjust.
+ Identities = 48/144 (33%), Positives = 72/144 (50%), Gaps = 19/144 (13%)
+
+Query  2    ISDADLKYLRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRNRVKDA--TAHPEFAIA  59
+            +S+ DL YLR  + ++++A D+G  PFG ++VD     +    NRV D   T H E    
+Sbjct  6    LSEKDLAYLREAIKVSQQARDEGQHPFGCIIVDENDNVIMSAGNRVPDGDVTQHAETR--  63
+
+Query  60   RWAARHLTPDRR--ARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWLTEWGAQ  117
+              A   +T  RR   + T+YTS E C MC+ A  W G+ R+++  S+  L   LT+   +
+Sbjct  64   --AVGLITKTRRDLEKCTLYTSTEPCAMCSGAIFWSGIRRMIFGLSNENLIK-LTQKSGE  120
+
+Query  118  APPV----------ATLPINTVAP  131
+             PP+          A+ PI  V P
+Sbjct  121  CPPLYINSRDILGAASHPIEVVGP  144
+
+
+> sp|Q94BU8|GSDA_ARATH Guanosine deaminase OS=Arabidopsis thaliana 
+OX=3702 GN=GSDA PE=1 SV=1
+Length=185
+
+ Score = 58.2 bits (139),  Expect = 8e-10, Method: Compositional matrix adjust.
+ Identities = 38/104 (37%), Positives = 52/104 (50%), Gaps = 5/104 (5%)
+
+Query  1    AISDADLKYLRRCVDLAREALDDGDE-PFGSVLVDHTGTTLFEDRNRV---KDATAHPEF  56
+            A+ D+D K+L + V+ A + +D GD  PFG+V+V H    +    N V    D TAH E 
+Sbjct  25   AVHDSDHKFLTQAVEEAYKGVDCGDGGPFGAVIV-HNNEVVASCHNMVLKYTDPTAHAEV  83
+
+Query  57   AIARWAARHLTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVY  100
+               R A + L     +   +Y S E CPMC  A     L R+VY
+Sbjct  84   TAIREACKKLNKIELSECEIYASCEPCPMCFGAIHLSRLKRLVY  127
+
+
+> sp|A9CK16|TADA_AGRFC tRNA-specific adenosine deaminase OS=Agrobacterium 
+fabrum (strain C58 / ATCC 33970) OX=176299 GN=tadA 
+PE=1 SV=1
+Length=152
+
+ Score = 52.4 bits (124),  Expect = 6e-08, Method: Compositional matrix adjust.
+ Identities = 44/140 (31%), Positives = 62/140 (44%), Gaps = 9/140 (6%)
+
+Query  17   AREALDDGDEPFGSVLVDHTGTTLFEDRNRVK---DATAHPEFAIARWAARHLTPDRRAR  73
+            AR A +  + P G+VLV   G  +    NR +   D TAH E A+ R A   L  +R   
+Sbjct  15   ARSAGERDEVPIGAVLV-LDGRVIARSGNRTRELNDVTAHAEIAVIRMACEALGQERLPG  73
+
+Query  74   ATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWLTEWGAQAPPVATLPINTVAPGV  133
+            A +Y + E C MCAAA ++  + R+ Y     +  G   E G +     + P    AP V
+Sbjct  74   ADLYVTLEPCTMCAAAISFARIRRLYYGAQDPK--GGAVESGVR---FFSQPTCHHAPDV  128
+
+Query  134  VVDGPAEELAETMHNLYRAK  153
+                   E AE +   +R K
+Sbjct  129  YSGLAESESAEILRQFFREK  148
+
+
+> sp|P44931|TADA_HAEIN tRNA-specific adenosine deaminase OS=Haemophilus 
+influenzae (strain ATCC 51907 / DSM 11121 / KW20 / 
+Rd) OX=71421 GN=tadA PE=3 SV=1
+Length=173
+
+ Score = 52.8 bits (125),  Expect = 6e-08, Method: Compositional matrix adjust.
+ Identities = 36/109 (33%), Positives = 54/109 (50%), Gaps = 3/109 (3%)
+
+Query  3    SDADLKYLRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRNRV---KDATAHPEFAIA  59
+            S+ D K +R  ++LA +A   G+ P G+VLVD     + E  N      D TAH E    
+Sbjct  8    SEFDEKMMRYALELADKAEALGEIPVGAVLVDDARNIIGEGWNLSIVQSDPTAHAEIIAL  67
+
+Query  60   RWAARHLTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLG  108
+            R  A+++   R   +T+Y + E C MCA A     + R+V+  S  + G
+Sbjct  68   RNGAKNIQNYRLLNSTLYVTLEPCTMCAGAILHSRIKRLVFGASDYKTG  116
+
+
+> sp|P47058|TAD2_YEAST tRNA-specific adenosine deaminase subunit 
+TAD2 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) 
+OX=559292 GN=TAD2 PE=1 SV=1
+Length=250
+
+ Score = 53.1 bits (126),  Expect = 8e-08, Method: Compositional matrix adjust.
+ Identities = 38/134 (28%), Positives = 56/134 (42%), Gaps = 8/134 (6%)
+
+Query  7    LKYLRRCVDLAREALDDGDEPFGSVLVDH-TGTTL---FEDRNRVKDATAHPEF----AI  58
+            +K++R  V LAR ALD  + P   + V   TG  +     D N+     AH EF     I
+Sbjct  4    IKHMRTAVRLARYALDHDETPVACIFVHTPTGQVMAYGMNDTNKSLTGVAHAEFMGIDQI  63
+
+Query  59   ARWAARHLTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWLTEWGAQA  118
+                      D     T+Y + E C MCA+A   + +G++V+   + + GG  T      
+Sbjct  64   KAMLGSRGVVDVFKDITLYVTVEPCIMCASALKQLDIGKVVFGCGNERFGGNGTVLSVNH  123
+
+Query  119  PPVATLPINTVAPG  132
+                 +P N  A G
+Sbjct  124  DTCTLVPKNNSAAG  137
+
+
+> sp|O34598|GUAD_BACSU Guanine deaminase OS=Bacillus subtilis (strain 
+168) OX=224308 GN=guaD PE=1 SV=1
+Length=156
+
+ Score = 52.0 bits (123),  Expect = 9e-08, Method: Compositional matrix adjust.
+ Identities = 39/107 (36%), Positives = 53/107 (50%), Gaps = 8/107 (7%)
+
+Query  9    YLRRCVDLAREALDDG-DEPFGSVLVDHTGTTLFEDRNRV---KDATAHPEFAIARWAAR  64
+            +L+R V LA E ++ G   PFG+V+V   G  + E +N V    D TAH E    R A +
+Sbjct  6    FLKRAVTLACEGVNAGIGGPFGAVIVKD-GAIIAEGQNNVTTSNDPTAHAEVTAIRKACK  64
+
+Query  65   HLTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYA---TSSAQLG  108
+             L   +     +YTS E CPMC  A  W     + YA   T +A+ G
+Sbjct  65   VLGAYQLDDCILYTSCEPCPMCLGAIYWARPKAVFYAAEHTDAAEAG  111
+
+
+> sp|Q7CQ08|TADA_SALTY tRNA-specific adenosine deaminase OS=Salmonella 
+typhimurium (strain LT2 / SGSC1412 / ATCC 700720) OX=99287 
+GN=tadA PE=3 SV=2
+Length=172
+
+ Score = 51.6 bits (122),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 38/113 (34%), Positives = 54/113 (48%), Gaps = 7/113 (6%)
+
+Query  2    ISDADLKY---LRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRNR---VKDATAHPE  55
+            +SD +L +   +R  + LA+ A D+ + P G+VLV H    + E  NR     D TAH E
+Sbjct  1    MSDVELDHEYWMRHALTLAKRAWDEREVPVGAVLV-HNHRVIGEGWNRPIGRHDPTAHAE  59
+
+Query  56   FAIARWAARHLTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLG  108
+                R     L   R    T+Y + E C MCA A     +GR+V+    A+ G
+Sbjct  60   IMALRQGGLVLQNYRLLDTTLYVTLEPCVMCAGAMVHSRIGRVVFGARDAKTG  112
+
+
+> sp|Q8XGY4|TADA_SALTI tRNA-specific adenosine deaminase OS=Salmonella 
+typhi OX=90370 GN=tadA PE=3 SV=2
+Length=172
+
+ Score = 51.6 bits (122),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 38/113 (34%), Positives = 54/113 (48%), Gaps = 7/113 (6%)
+
+Query  2    ISDADLKY---LRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRNR---VKDATAHPE  55
+            +SD +L +   +R  + LA+ A D+ + P G+VLV H    + E  NR     D TAH E
+Sbjct  1    MSDVELDHEYWMRHALTLAKRAWDEREVPVGAVLV-HNHRVIGEGWNRPIGRHDPTAHAE  59
+
+Query  56   FAIARWAARHLTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLG  108
+                R     L   R    T+Y + E C MCA A     +GR+V+    A+ G
+Sbjct  60   IMALRQGGLVLQNYRLLDTTLYVTLEPCVMCAGAMVHSRIGRVVFGARDAKTG  112
+
+
+> sp|Q8FF24|TADA_ECOL6 tRNA-specific adenosine deaminase OS=Escherichia 
+coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC) OX=199310 
+GN=tadA PE=3 SV=2
+Length=167
+
+ Score = 51.6 bits (122),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 35/103 (34%), Positives = 50/103 (49%), Gaps = 4/103 (4%)
+
+Query  9    YLRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRNR---VKDATAHPEFAIARWAARH  65
+            ++R  + LA+ A D+ + P G+VLV H    + E  NR     D TAH E    R     
+Sbjct  11   WMRHAMTLAKRAWDEREVPVGAVLV-HNNRVIGEGWNRPIGRHDPTAHAEIMALRQGGLV  69
+
+Query  66   LTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLG  108
+            +   R   AT+Y + E C MCA A     +GR+V+    A+ G
+Sbjct  70   MQNYRLIDATLYVTLEPCVMCAGAMIHSRIGRVVFGARDAKTG  112
+
+
+> sp|Q8XA44|TADA_ECO57 tRNA-specific adenosine deaminase OS=Escherichia 
+coli O157:H7 OX=83334 GN=tadA PE=3 SV=2
+Length=167
+
+ Score = 51.6 bits (122),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 35/103 (34%), Positives = 50/103 (49%), Gaps = 4/103 (4%)
+
+Query  9    YLRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRNR---VKDATAHPEFAIARWAARH  65
+            ++R  + LA+ A D+ + P G+VLV H    + E  NR     D TAH E    R     
+Sbjct  11   WMRHAMTLAKRAWDEREVPVGAVLV-HNNRVIGEGWNRPIGRHDPTAHAEIMALRQGGLV  69
+
+Query  66   LTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLG  108
+            +   R   AT+Y + E C MCA A     +GR+V+    A+ G
+Sbjct  70   MQNYRLIDATLYVTLEPCVMCAGAMIHSRIGRVVFGARDAKTG  112
+
+
+> sp|P68397|TADA_SHIFL tRNA-specific adenosine deaminase OS=Shigella 
+flexneri OX=623 GN=tadA PE=3 SV=2
+Length=167
+
+ Score = 51.6 bits (122),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 35/103 (34%), Positives = 50/103 (49%), Gaps = 4/103 (4%)
+
+Query  9    YLRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRNR---VKDATAHPEFAIARWAARH  65
+            ++R  + LA+ A D+ + P G+VLV H    + E  NR     D TAH E    R     
+Sbjct  11   WMRHALTLAKRAWDEREVPVGAVLV-HNNRVIGEGWNRPIGRHDPTAHAEIMALRQGGLV  69
+
+Query  66   LTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLG  108
+            +   R   AT+Y + E C MCA A     +GR+V+    A+ G
+Sbjct  70   MQNYRLIDATLYVTLEPCVMCAGAMIHSRIGRVVFGARDAKTG  112
+
+
+> sp|P68398|TADA_ECOLI tRNA-specific adenosine deaminase OS=Escherichia 
+coli (strain K12) OX=83333 GN=tadA PE=1 SV=2
+Length=167
+
+ Score = 51.6 bits (122),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 35/103 (34%), Positives = 50/103 (49%), Gaps = 4/103 (4%)
+
+Query  9    YLRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRNR---VKDATAHPEFAIARWAARH  65
+            ++R  + LA+ A D+ + P G+VLV H    + E  NR     D TAH E    R     
+Sbjct  11   WMRHALTLAKRAWDEREVPVGAVLV-HNNRVIGEGWNRPIGRHDPTAHAEIMALRQGGLV  69
+
+Query  66   LTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLG  108
+            +   R   AT+Y + E C MCA A     +GR+V+    A+ G
+Sbjct  70   MQNYRLIDATLYVTLEPCVMCAGAMIHSRIGRVVFGARDAKTG  112
+
+
+> sp|Q9S7I0|TADA_ARATH tRNA(adenine(34)) deaminase, chloroplastic 
+OS=Arabidopsis thaliana OX=3702 GN=TADA PE=1 SV=1
+Length=1307
+
+ Score = 52.8 bits (125),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 35/107 (33%), Positives = 53/107 (50%), Gaps = 4/107 (4%)
+
+Query  6     DLKYLRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRNRV---KDATAHPEFAIARWA  62
+             D  ++R  +  A++A D  + P G+VLV H G  +    N V   +D+TAH E    R  
+Sbjct  1110  DEIFMREALVEAKKAADTWEVPVGAVLV-HDGKIIARGYNLVEELRDSTAHAEMICIREG  1168
+
+Query  63    ARHLTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGG  109
+             ++ L   R A  T+Y + E CPMCA A     +  +V+   +  LG 
+Sbjct  1169  SKALRSWRLADTTLYVTLEPCPMCAGAILQARVNTLVWGAPNKLLGA  1215
+
+
+> sp|Q6P6J0|ADAT2_MOUSE tRNA-specific adenosine deaminase 2 OS=Mus 
+musculus OX=10090 GN=Adat2 PE=1 SV=1
+Length=191
+
+ Score = 49.7 bits (117),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 45/156 (29%), Positives = 74/156 (47%), Gaps = 15/156 (10%)
+
+Query  8    KYLRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRNRV---KDATAHPEFA----IAR  60
+            K++   + +A+EAL++ + P G ++V +    + + RN V   K+AT H E      +  
+Sbjct  24   KWMEEAMRMAKEALENIEVPVGCLMV-YNNEVVGKGRNEVNQTKNATRHAEMVAIDQVLD  82
+
+Query  61   WAARH-LTPDRRARATV-YTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWLTEWGAQA  118
+            W  +H  +P      TV Y + E C MCAAA   + +  +VY   + + GG  +     +
+Sbjct  83   WCHQHGQSPSTVFEHTVLYVTVEPCIMCAAALRLMKIPLVVYGCQNERFGGCGSVLNIAS  142
+
+Query  119  PPVATLPINTVAPGVVVDG-PAEELAETMHNLYRAK  153
+               A LP NT  P   + G  AEE  E +   Y+ +
+Sbjct  143  ---ADLP-NTGRPFQCIPGYRAEEAVELLKTFYKQE  174
+
+
+> sp|Q8K9R4|TADA_BUCAP tRNA-specific adenosine deaminase OS=Buchnera 
+aphidicola subsp. Schizaphis graminum (strain Sg) OX=198804 
+GN=tadA PE=3 SV=1
+Length=151
+
+ Score = 47.0 bits (110),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 38/158 (24%), Positives = 67/158 (42%), Gaps = 18/158 (11%)
+
+Query  3    SDADLKYLRRCVDLAREALDDGDEPFGSVLVDH-----TGTTLFEDRNRVKDATAHPEFA  57
+            S+ D  +++  +  A  A ++G+ P G++LV       TG      +N   D+TAH E  
+Sbjct  3    SNRDSYWMKIALKYAYYAEENGEVPIGAILVFQEKIIGTGWNSVISQN---DSTAHAEII  59
+
+Query  58   IARWAARHLTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWLTEWGAQ  117
+              R A R++   R    T+Y + + C MC  A     + R+V+  S   L         +
+Sbjct  60   ALREAGRNIKNYRLVNTTLYVTLQPCMMCCGAIINSRIKRLVFGASYKDL--------KK  111
+
+Query  118  APPVATLPINTVAPGVVVDGPA--EELAETMHNLYRAK  153
+             P +  + IN     + +       E A+ + N ++ K
+Sbjct  112  NPFLKKIFINLEKNKLKIKKHIMRNECAKILSNFFKNK  149
+
+
+> sp|Q7Z6V5|ADAT2_HUMAN tRNA-specific adenosine deaminase 2 OS=Homo 
+sapiens OX=9606 GN=ADAT2 PE=1 SV=1
+Length=191
+
+ Score = 47.8 bits (112),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 44/154 (29%), Positives = 72/154 (47%), Gaps = 15/154 (10%)
+
+Query  8    KYLRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRNRV---KDATAHPEFA----IAR  60
+            K++   + +A+EAL++ + P G ++V +    + + RN V   K+AT H E      +  
+Sbjct  24   KWMEEAMHMAKEALENTEVPVGCLMV-YNNEVVGKGRNEVNQTKNATRHAEMVAIDQVLD  82
+
+Query  61   WAARH-LTPDRRARATV-YTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWLTEWGAQA  118
+            W  +   +P      TV Y + E C MCAAA   + +  +VY   + + GG  +     +
+Sbjct  83   WCRQSGKSPSEVFEHTVLYVTVEPCIMCAAALRLMKIPLVVYGCQNERFGGCGSVLNIAS  142
+
+Query  119  PPVATLPINTVAPGVVVDG-PAEELAETMHNLYR  151
+               A LP NT  P   + G  AEE  E +   Y+
+Sbjct  143  ---ADLP-NTGRPFQCIPGYRAEEAVEMLKTFYK  172
+
+
+> sp|O67050|TADA_AQUAE tRNA-specific adenosine deaminase OS=Aquifex 
+aeolicus (strain VF5) OX=224324 GN=tadA PE=1 SV=1
+Length=151
+
+ Score = 47.0 bits (110),  Expect = 6e-06, Method: Compositional matrix adjust.
+ Identities = 28/115 (24%), Positives = 53/115 (46%), Gaps = 4/115 (3%)
+
+Query  9    YLRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRNRV---KDATAHPEFAIARWAARH  65
+            +L+  +  A+ A + G+ P G+++V   G  + +  N V   KD TAH E    + A R 
+Sbjct  6    FLKVALREAKRAFEKGEVPVGAIIVKE-GEIISKAHNSVEELKDPTAHAEMLAIKEACRR  64
+
+Query  66   LTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWLTEWGAQAPP  120
+            L         +Y + E C MC+ A     + +++++    + GG ++ +     P
+Sbjct  65   LNTKYLEGCELYVTLEPCIMCSYALVLSRIEKVIFSALDKKHGGVVSVFNILDEP  119
+
+
+> sp|Q6IDB6|TAD2_ARATH tRNA-specific adenosine deaminase TAD2 OS=Arabidopsis 
+thaliana OX=3702 GN=TAD2 PE=1 SV=1
+Length=182
+
+ Score = 46.2 bits (108),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 29/114 (25%), Positives = 56/114 (49%), Gaps = 13/114 (11%)
+
+Query  8    KYLRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRNRV---KDATAHPEFA-----IA  59
+             Y+   +  A+ AL+  + P G V ++  G  +   RNR    ++AT H E       + 
+Sbjct  11   NYMGFALHQAKLALEALEVPVGCVFLE-DGKVIASGRNRTNETRNATRHAEMEAIDQLVG  69
+
+Query  60   RWAARHLTP----DRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGG  109
+            +W    L+P    ++ ++  +Y + E C MCA+A +++G+  + Y   + + GG
+Sbjct  70   QWQKDGLSPSQVAEKFSKCVLYVTCEPCIMCASALSFLGIKEVYYGCPNDKFGG  123
+
+
+> sp|Q5RIV4|ADAT2_DANRE tRNA-specific adenosine deaminase 2 OS=Danio 
+rerio OX=7955 GN=adat2 PE=2 SV=2
+Length=214
+
+ Score = 45.8 bits (107),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 35/117 (30%), Positives = 59/117 (50%), Gaps = 11/117 (9%)
+
+Query  3    SDADLK-YLRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRNRV---KDATAHPEFA-  57
+            SD++++ ++ +  D+A EAL++G+ P G ++V +    + + RN V   K+AT H E   
+Sbjct  17   SDSEVQTWMAKAFDMAVEALENGEVPVGCLMV-YNNEIIGKGRNEVNETKNATRHAEMVA  75
+
+Query  58   ---IARWA-ARHLTPDRRARATV-YTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGG  109
+               +  W   R          TV Y + E C MCAAA   + +  +VY   + + GG
+Sbjct  76   LDQVLDWCRLREKDCKEVCEQTVLYVTVEPCIMCAAALRLLRIPFVVYGCKNERFGG  132
+
+
+> sp|Q0P4H0|ADAT2_XENTR tRNA-specific adenosine deaminase 2 OS=Xenopus 
+tropicalis OX=8364 GN=adat2 PE=2 SV=1
+Length=170
+
+ Score = 45.4 bits (106),  Expect = 3e-05, Method: Compositional matrix adjust.
+ Identities = 28/110 (25%), Positives = 53/110 (48%), Gaps = 10/110 (9%)
+
+Query  9    YLRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRNRV---KDATAHPEFA----IARW  61
+            ++ +   +A++AL++G+ P G ++V +    + + RN V   K+AT H E      +  W
+Sbjct  8    WMHKAFQMAQDALNNGEVPVGCLMV-YDNQVVGKGRNEVNETKNATRHAEMVAIDQVLDW  66
+
+Query  62   AARHLTPDRRARATV--YTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGG  109
+              ++    R     +  Y + E C MCA A   + +  +VY   + + GG
+Sbjct  67   CEKNSKKSRDVFENIVLYVTVEPCIMCAGALRLLKIPLVVYGCRNERFGG  116
+
+
+> sp|Q5E9J7|ADAT2_BOVIN tRNA-specific adenosine deaminase 2 OS=Bos 
+taurus OX=9913 GN=DEADC1 PE=2 SV=1
+Length=191
+
+ Score = 45.4 bits (106),  Expect = 3e-05, Method: Compositional matrix adjust.
+ Identities = 35/111 (32%), Positives = 58/111 (52%), Gaps = 10/111 (9%)
+
+Query  8    KYLRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRNRV---KDATAHPEF-AIAR---  60
+            K++ + + +A++ALD+ + P G ++V +    + + RN V   K+AT H E  AI +   
+Sbjct  24   KWMEQAMQMAKDALDNTEVPVGCLMV-YNNEVVGKGRNEVNQTKNATRHAEMVAIDQALD  82
+
+Query  61   WAARH-LTPDRRARATV-YTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGG  109
+            W  R   +P      TV Y + E C MCAAA   + +  +VY   + + GG
+Sbjct  83   WCRRRGRSPSEVFEHTVLYVTVEPCIMCAAALRLMRIPLVVYGCQNERFGG  133
+
+
+> sp|Q89AM8|TADA_BUCBP tRNA-specific adenosine deaminase OS=Buchnera 
+aphidicola subsp. Baizongia pistaciae (strain Bp) OX=224915 
+GN=tadA PE=3 SV=1
+Length=162
+
+ Score = 44.7 bits (104),  Expect = 4e-05, Method: Compositional matrix adjust.
+ Identities = 34/112 (30%), Positives = 51/112 (46%), Gaps = 6/112 (5%)
+
+Query  4    DADLKYLRRC-VDLAREALDDGDEPFGSVLVDHTGTTLFEDRNRV---KDATAHPEFAIA  59
+            D+D KY  +C + LA+ +   G+ P G+VLV    T + +  N      D TAH E    
+Sbjct  3    DSD-KYFMKCAIFLAKISEMIGEVPVGAVLV-FNNTIIGKGLNSSILNHDPTAHAEIKAL  60
+
+Query  60   RWAARHLTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWL  111
+            R  A+ L   R    T+Y + E C MC  A     + R+V+      L  ++
+Sbjct  61   RNGAKFLKNYRLLHTTLYVTLEPCIMCYGAIIHSRISRLVFGAKYKNLQKYI  112
+
+
+> sp|Q4V7V8|ADAT2_XENLA tRNA-specific adenosine deaminase 2 OS=Xenopus 
+laevis OX=8355 GN=adat2 PE=2 SV=1
+Length=175
+
+ Score = 45.1 bits (105),  Expect = 4e-05, Method: Compositional matrix adjust.
+ Identities = 29/117 (25%), Positives = 56/117 (48%), Gaps = 10/117 (9%)
+
+Query  2    ISDADLKYLRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRNRV---KDATAHPEFA-  57
+            I++    ++ +   +A++AL++G+ P G ++V +    + + RN V   K+AT H E   
+Sbjct  6    ITEEIQNWMHKAFQMAQDALNNGEVPVGCLMV-YGNQVVGKGRNEVNETKNATQHAEMVA  64
+
+Query  58   ---IARWAARH--LTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGG  109
+               +  W   +   + D      +Y + E C MCA A   + +  +VY   + + GG
+Sbjct  65   IDQVLDWCEMNSKKSTDVFENIVLYVTVEPCIMCAGALRLLKIPLVVYGCRNERFGG  121
+
+
+> sp|P21335|TADA_BACSU tRNA-specific adenosine deaminase OS=Bacillus 
+subtilis (strain 168) OX=224308 GN=tadA PE=1 SV=1
+Length=161
+
+ Score = 44.3 bits (103),  Expect = 5e-05, Method: Compositional matrix adjust.
+ Identities = 30/100 (30%), Positives = 48/100 (48%), Gaps = 8/100 (8%)
+
+Query  6   DLKYLRRCVDLAREALDDGDEPFGSVLVDHTGT-----TLFEDRNRVKDATAHPEFAIAR  60
+           D  Y++  +  A++A + G+ P G+VLV +         L E   R   + AH E  +  
+Sbjct  4   DELYMKEAIKEAKKAEEKGEVPIGAVLVINGEIIARAHNLRETEQR---SIAHAEMLVID  60
+
+Query  61  WAARHLTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVY  100
+            A + L   R   AT+Y + E CPMCA A     + ++V+
+Sbjct  61  EACKALGTWRLEGATLYVTLEPCPMCAGAVVLSRVEKVVF  100
+
+
+> sp|Q1RGK7|TADA_RICBR tRNA-specific adenosine deaminase OS=Rickettsia 
+bellii (strain RML369-C) OX=336407 GN=tadA PE=3 SV=2
+Length=145
+
+ Score = 43.9 bits (102),  Expect = 7e-05, Method: Compositional matrix adjust.
+ Identities = 27/104 (26%), Positives = 44/104 (42%), Gaps = 4/104 (4%)
+
+Query  10   LRRCVDLAREALDDGDEPFGSVLVDHTGTTL----FEDRNRVKDATAHPEFAIARWAARH  65
+            +R  +  A  A    + P G+V+VD     +    + +     +A  H E      A R 
+Sbjct  1    MREALKQAEIAFSKNEVPVGAVIVDRENQKIISKSYNNTEEKNNALYHAEIIAINEACRI  60
+
+Query  66   LTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGG  109
+            ++    +   +Y + E C MCAAA A   L R+ Y  S ++ G 
+Sbjct  61   ISSKNLSDYDIYVTLEPCAMCAAAIAHSRLKRLFYGASDSKHGA  104
+
+
+> sp|P78594|FCA1_CANAX Cytosine deaminase OS=Candida albicans OX=5476 
+GN=FCA1 PE=3 SV=1
+Length=150
+
+ Score = 43.5 bits (101),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 34/118 (29%), Positives = 52/118 (44%), Gaps = 6/118 (5%)
+
+Query  6    DLKYLRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRN-RVKDATA--HPEFAIARWA  62
+            D K L+  +D A+++  +G  P GS ++    T L +  N R++  +A  H E +    A
+Sbjct  5    DKKGLQVALDQAKKSYSEGGIPIGSCIISSDDTVLGQGHNERIQKHSAILHGEMSALENA  64
+
+Query  63   ARHLTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGG--WLTEWGAQA  118
+             R L        T+YT+   C MC  A    G  R+V   +   LG    L E G + 
+Sbjct  65   GR-LPGKTYKDCTIYTTLSPCSMCTGAILLYGFKRVVMGENVNFLGNEKLLIENGVEV  121
+
+
+> sp|Q4UJW9|TADA_RICFE tRNA-specific adenosine deaminase OS=Rickettsia 
+felis (strain ATCC VR-1525 / URRWXCal2) OX=315456 GN=tadA 
+PE=3 SV=2
+Length=144
+
+ Score = 41.2 bits (95),  Expect = 5e-04, Method: Compositional matrix adjust.
+ Identities = 27/97 (28%), Positives = 41/97 (42%), Gaps = 10/97 (10%)
+
+Query  20   ALDDGDEPFGSVLVDHTGTTLF-------EDRNRVKDATAHPEFAIARWAARHLTPDRRA  72
+            A D  + P G+V+VD     +        E++N   +A  H E      A   ++     
+Sbjct  11   AFDKNEVPVGAVIVDRLNQKIIVSSHNNTEEKN---NALYHAEIIAINEACNLISSKNLN  67
+
+Query  73   RATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGG  109
+               +Y + E C MCAAA A   L R+ Y  S ++ G 
+Sbjct  68   DYDIYVTLEPCAMCAAAIAHSRLKRLFYGASDSKHGA  104
+
+
+> sp|C1D1Q9|TILS_DEIDV tRNA(Ile)-lysidine synthase OS=Deinococcus 
+deserti (strain VCD115 / DSM 17065 / LMG 22923) OX=546414 
+GN=tilS PE=3 SV=1
+Length=533
+
+ Score = 42.4 bits (98),  Expect = 6e-04, Method: Compositional matrix adjust.
+ Identities = 32/99 (32%), Positives = 44/99 (44%), Gaps = 3/99 (3%)
+
+Query  13   CVDLAREALDDGDEPFGSVLVDHTGTTLFEDRNRVK---DATAHPEFAIARWAARHLTPD  69
+             + LAREA    + P G+V++   G  +   RN  +   D T H E A  R A   L   
+Sbjct  386  ALGLAREAALAQEVPVGAVVLGPGGRIIGSGRNTSRADSDMTRHAELAALRAATAELGTA  445
+
+Query  70   RRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLG  108
+                 T+  + E CPMC  A     + RIVY  S+ + G
+Sbjct  446  YLTGCTLVVTLEPCPMCLGAALEARVERIVYGASNPKAG  484
+
+
+> sp|Q92G39|TADA_RICCN tRNA-specific adenosine deaminase OS=Rickettsia 
+conorii (strain ATCC VR-613 / Malish 7) OX=272944 GN=tadA 
+PE=3 SV=2
+Length=153
+
+ Score = 40.4 bits (93),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 28/106 (26%), Positives = 46/106 (43%), Gaps = 10/106 (9%)
+
+Query  10   LRRCVDLAREALDDGDEPFGSVLVDHTGTTLF-------EDRNRVKDATAHPEFAIARWA  62
+            + + +  A+ A D  + P G+V+VD     +        E++N   +A  H E      A
+Sbjct  1    MEQALKQAKIAFDKNEVPVGAVVVDRLHQKIIASTHNNTEEKN---NALYHAEIIAINEA  57
+
+Query  63   ARHLTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLG  108
+               ++        +Y + E C MCAAA A   L R+ Y  S ++ G
+Sbjct  58   CNLISSKNLNDYDIYVTLEPCAMCAAAIAHSRLKRLFYGASDSKHG  103
+
+
+> sp|Q99W51|TADA_STAAM tRNA-specific adenosine deaminase OS=Staphylococcus 
+aureus (strain Mu50 / ATCC 700699) OX=158878 GN=tadA 
+PE=1 SV=1
+Length=156
+
+ Score = 39.3 bits (90),  Expect = 0.003, Method: Compositional matrix adjust.
+ Identities = 26/97 (27%), Positives = 44/97 (45%), Gaps = 2/97 (2%)
+
+Query  6   DLKYLRRCVDLAREALDDGDEPFGSVLV--DHTGTTLFEDRNRVKDATAHPEFAIARWAA  63
+           D+ ++   ++ A++A   G+ P G+++   D         R  ++  TAH E      AA
+Sbjct  4   DIYFMTLAIEEAKKAAQLGEVPIGAIITKDDEVIARAHNLRETLQQPTAHAEHIAIERAA  63
+
+Query  64  RHLTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVY  100
+           + L   R    T+Y + E C MCA       + R+VY
+Sbjct  64  KVLGSWRLEGCTLYVTLEPCVMCAGTIVMSRIPRVVY  100
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.134    0.424    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 6815338080
+Results from round 2
+
+
+Query= 5XKO
+
+Length=156
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q8K9R4|TADA_BUCAP tRNA-specific adenosine deaminase OS=Buchn...  175     5e-56
+  sp|Q6P6J0|ADAT2_MOUSE tRNA-specific adenosine deaminase 2 OS=Mu...  171     5e-54
+  sp|Q7Z6V5|ADAT2_HUMAN tRNA-specific adenosine deaminase 2 OS=Ho...  170     2e-53
+  sp|Q5E9J7|ADAT2_BOVIN tRNA-specific adenosine deaminase 2 OS=Bo...  169     5e-53
+  sp|P68397|TADA_SHIFL tRNA-specific adenosine deaminase OS=Shige...  167     2e-52
+  sp|P68398|TADA_ECOLI tRNA-specific adenosine deaminase OS=Esche...  167     2e-52
+  sp|Q8FF24|TADA_ECOL6 tRNA-specific adenosine deaminase OS=Esche...  166     3e-52
+  sp|Q8XA44|TADA_ECO57 tRNA-specific adenosine deaminase OS=Esche...  166     3e-52
+  sp|Q0P4H0|ADAT2_XENTR tRNA-specific adenosine deaminase 2 OS=Xe...  166     4e-52
+  sp|P44931|TADA_HAEIN tRNA-specific adenosine deaminase OS=Haemo...  166     4e-52
+  sp|Q7CQ08|TADA_SALTY tRNA-specific adenosine deaminase OS=Salmo...  165     9e-52
+  sp|Q8XGY4|TADA_SALTI tRNA-specific adenosine deaminase OS=Salmo...  165     9e-52
+  sp|Q4V7V8|ADAT2_XENLA tRNA-specific adenosine deaminase 2 OS=Xe...  165     1e-51
+  sp|A9CK16|TADA_AGRFC tRNA-specific adenosine deaminase OS=Agrob...  160     6e-50
+  sp|Q5RIV4|ADAT2_DANRE tRNA-specific adenosine deaminase 2 OS=Da...  157     4e-48
+  sp|O67050|TADA_AQUAE tRNA-specific adenosine deaminase OS=Aquif...  154     1e-47
+  sp|Q89AM8|TADA_BUCBP tRNA-specific adenosine deaminase OS=Buchn...  153     5e-47
+  sp|Q1RGK7|TADA_RICBR tRNA-specific adenosine deaminase OS=Ricke...  148     3e-45
+  sp|Q92G39|TADA_RICCN tRNA-specific adenosine deaminase OS=Ricke...  147     1e-44
+  sp|P21335|TADA_BACSU tRNA-specific adenosine deaminase OS=Bacil...  147     1e-44
+  sp|Q4UJW9|TADA_RICFE tRNA-specific adenosine deaminase OS=Ricke...  145     5e-44
+  sp|P47058|TAD2_YEAST tRNA-specific adenosine deaminase subunit ...  147     9e-44
+  sp|O59834|FCYS_SCHPO Probable cytosine deaminase OS=Schizosacch...  140     7e-42
+  sp|Q9S7I0|TADA_ARATH tRNA(adenine(34)) deaminase, chloroplastic...  151     8e-42
+  sp|Q6IDB6|TAD2_ARATH tRNA-specific adenosine deaminase TAD2 OS=...  135     1e-39
+  sp|C1D1Q9|TILS_DEIDV tRNA(Ile)-lysidine synthase OS=Deinococcus...  139     2e-38
+  sp|Q94BU8|GSDA_ARATH Guanosine deaminase OS=Arabidopsis thalian...  131     5e-38
+  sp|P78594|FCA1_CANAX Cytosine deaminase OS=Candida albicans OX=...  129     8e-38
+  sp|O34598|GUAD_BACSU Guanine deaminase OS=Bacillus subtilis (st...  117     6e-33
+
+Sequences not found previously or not previously below threshold:
+
+  sp|P57343|TADA_BUCAI tRNA-specific adenosine deaminase OS=Buchn...  149     1e-45
+  sp|P68999|TADA_STRP1 tRNA-specific adenosine deaminase OS=Strep...  140     5e-42
+  sp|P0DA21|TADA_STRPQ tRNA-specific adenosine deaminase OS=Strep...  140     9e-42
+  sp|Q5XE14|TADA_STRP6 tRNA-specific adenosine deaminase OS=Strep...  140     9e-42
+  sp|P0DA20|TADA_STRP3 tRNA-specific adenosine deaminase OS=Strep...  140     9e-42
+  sp|Q8P2R7|TADA_STRP8 tRNA-specific adenosine deaminase OS=Strep...  139     2e-41
+  sp|Q68Y02|TADA_RICTY tRNA-specific adenosine deaminase OS=Ricke...  138     3e-41
+  sp|Q99W51|TADA_STAAM tRNA-specific adenosine deaminase OS=Staph...  136     1e-40
+  sp|Q9ZCC6|TADA_RICPR tRNA-specific adenosine deaminase OS=Ricke...  136     1e-40
+  sp|O94642|TAD2_SCHPO tRNA-specific adenosine deaminase subunit ...  108     1e-27
+  sp|Q9RV23|TILS_DEIRA tRNA(Ile)-lysidine synthase OS=Deinococcus...  105     8e-26
+  sp|Q12178|FCY1_YEAST Cytosine deaminase OS=Saccharomyces cerevi...  95.5    2e-24
+  sp|Q72IF6|TILS_THET2 tRNA(Ile)-lysidine synthase OS=Thermus the...  91.2    7e-21
+  sp|Q5SI38|TILS_THET8 tRNA(Ile)-lysidine synthase OS=Thermus the...  90.9    8e-21
+  sp|Q89AB0|RIBD_BUCBP Riboflavin biosynthesis protein RibD OS=Bu...  75.5    2e-15
+  sp|Q8JFW4|ADAT3_DANRE Probable inactive tRNA-specific adenosine...  75.5    2e-15
+  sp|O66534|RIBD_AQUAE Riboflavin biosynthesis protein RibD OS=Aq...  73.9    5e-15
+  sp|P25539|RIBD_ECOLI Riboflavin biosynthesis protein RibD OS=Es...  71.2    6e-14
+  sp|P17618|RIBD_BACSU Riboflavin biosynthesis protein RibD OS=Ba...  70.8    7e-14
+  sp|P57533|RIBD1_BUCAI Diaminohydroxyphosphoribosylamino-pyrimid...  66.2    3e-13
+  sp|Q8K9A4|RIBD1_BUCAP Diaminohydroxyphosphoribosylamino-pyrimid...  66.2    3e-13
+  sp|B6TRH4|RIBD_MAIZE Riboflavin biosynthesis protein PYRD, chlo...  68.9    4e-13
+  sp|Q8GWP5|RIBD_ARATH Riboflavin biosynthesis protein PYRD, chlo...  68.1    8e-13
+  sp|P50853|RIBD_ACTPL Riboflavin biosynthesis protein RibD OS=Ac...  65.8    5e-12
+  sp|Q55158|RIBD_SYNY3 Riboflavin biosynthesis protein RibD OS=Sy...  65.1    7e-12
+  sp|Q6PAT0|ADAT3_MOUSE Probable inactive tRNA-specific adenosine...  64.7    9e-12
+  sp|P30648|DCTD_CAEEL Probable deoxycytidylate deaminase OS=Caen...  62.0    3e-11
+  sp|P70814|RIBD_BACAM Riboflavin biosynthesis protein RibD OS=Ba...  63.5    3e-11
+  sp|Q561R2|ADAT3_RAT Probable inactive tRNA-specific adenosine d...  62.7    5e-11
+  sp|P9WPH1|RIBD_MYCTU Riboflavin biosynthesis protein RibD OS=My...  62.7    5e-11
+  sp|P9WPH0|RIBD_MYCTO Riboflavin biosynthesis protein RibD OS=My...  62.7    5e-11
+  sp|P44326|RIBD_HAEIN Riboflavin biosynthesis protein RibD OS=Ha...  60.8    2e-10
+  sp|Q96EY9|ADAT3_HUMAN Probable inactive tRNA-specific adenosine...  60.8    2e-10
+  sp|Q9URQ3|TAD3_YEAST tRNA-specific adenosine deaminase subunit ...  60.8    2e-10
+  sp|P00814|DCTD_BPT2 Deoxycytidylate deaminase OS=Enterobacteria...  57.4    1e-09
+  sp|Q5RC69|DCTD_PONAB Deoxycytidylate deaminase OS=Pongo abelii ...  57.0    2e-09
+  sp|P16006|DCTD_BPT4 Deoxycytidylate deaminase OS=Enterobacteria...  57.0    2e-09
+  sp|P32321|DCTD_HUMAN Deoxycytidylate deaminase OS=Homo sapiens ...  56.6    3e-09
+  sp|Q5M9G0|DCTD_RAT Deoxycytidylate deaminase OS=Rattus norvegic...  56.2    4e-09
+  sp|Q8K2D6|DCTD_MOUSE Deoxycytidylate deaminase OS=Mus musculus ...  56.2    4e-09
+  sp|O24750|RIBD_CORAM Riboflavin biosynthesis protein RibD OS=Co...  57.0    5e-09
+  sp|P87241|RIB2_SCHPO Diaminohydroxyphosphoribosylamino-pyrimidi...  54.7    3e-08
+  sp|F4KH86|TAD3_ARATH tRNA-specific adenosine deaminase TAD3 OS=...  54.3    4e-08
+  sp|Q9P7N4|TAD3_SCHPO tRNA-specific adenosine deaminase subunit ...  53.9    7e-08
+  sp|Q9Z735|RIBD_CHLPN Riboflavin biosynthesis protein RibD OS=Ch...  52.3    2e-07
+  sp|Q9PLJ6|RIBD_CHLMU Riboflavin biosynthesis protein RibD OS=Ch...  52.3    2e-07
+  sp|O84735|RIBD_CHLTR Riboflavin biosynthesis protein RibD OS=Ch...  51.6    4e-07
+  sp|P32393|COMEB_BACSU ComE operon protein 2 OS=Bacillus subtili...  50.8    4e-07
+  sp|O22000|DCTD_BPMD2 Deoxycytidylate deaminase OS=Mycobacterium...  48.5    1e-06
+  sp|P33968|YLXG_ALIFS Uncharacterized deaminase in luxG 3'region...  47.3    4e-06
+  sp|Q9VWA2|DCTD_DROME Probable deoxycytidylate deaminase OS=Dros...  47.7    5e-06
+  sp|Q12362|RIB2_YEAST Bifunctional protein RIB2 OS=Saccharomyces...  47.7    9e-06
+  sp|P06773|DCTD_YEAST Deoxycytidylate deaminase OS=Saccharomyces...  44.3    1e-04
+
+
+> sp|Q8K9R4|TADA_BUCAP tRNA-specific adenosine deaminase OS=Buchnera 
+aphidicola subsp. Schizaphis graminum (strain Sg) OX=198804 
+GN=tadA PE=3 SV=1
+Length=151
+
+ Score = 175 bits (444),  Expect = 5e-56, Method: Composition-based stats.
+ Identities = 37/156 (24%), Positives = 66/156 (42%), Gaps = 14/156 (9%)
+
+Query  3    SDADLKYLRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRNRV---KDATAHPEFAIA  59
+            S+ D  +++  +  A  A ++G+ P G++LV      +    N V    D+TAH E    
+Sbjct  3    SNRDSYWMKIALKYAYYAEENGEVPIGAILVFQE-KIIGTGWNSVISQNDSTAHAEIIAL  61
+
+Query  60   RWAARHLTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWLTEWGAQAP  119
+            R A R++   R    T+Y + + C MC  A     + R+V+  S   L         + P
+Sbjct  62   REAGRNIKNYRLVNTTLYVTLQPCMMCCGAIINSRIKRLVFGASYKDL--------KKNP  113
+
+Query  120  PVATLPINTVAPGVVVDGPA--EELAETMHNLYRAK  153
+             +  + IN     + +       E A+ + N ++ K
+Sbjct  114  FLKKIFINLEKNKLKIKKHIMRNECAKILSNFFKNK  149
+
+
+> sp|Q6P6J0|ADAT2_MOUSE tRNA-specific adenosine deaminase 2 OS=Mus 
+musculus OX=10090 GN=Adat2 PE=1 SV=1
+Length=191
+
+ Score = 171 bits (434),  Expect = 5e-54, Method: Composition-based stats.
+ Identities = 42/157 (27%), Positives = 70/157 (45%), Gaps = 15/157 (10%)
+
+Query  7    LKYLRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRNRV---KDATAHPEFAIAR---  60
+             K++   + +A+EAL++ + P G ++V +    + + RN V   K+AT H E        
+Sbjct  23   EKWMEEAMRMAKEALENIEVPVGCLMV-YNNEVVGKGRNEVNQTKNATRHAEMVAIDQVL  81
+
+Query  61   -WAARHL--TPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWLTEWGAQ  117
+             W  +H            +Y + E C MCAAA   + +  +VY   + + GG  +     
+Sbjct  82   DWCHQHGQSPSTVFEHTVLYVTVEPCIMCAAALRLMKIPLVVYGCQNERFGGCGSVLNIA  141
+
+Query  118  APPVATLPINTVAPGVVVDG-PAEELAETMHNLYRAK  153
+            +   A LP NT  P   + G  AEE  E +   Y+ +
+Sbjct  142  S---ADLP-NTGRPFQCIPGYRAEEAVELLKTFYKQE  174
+
+
+> sp|Q7Z6V5|ADAT2_HUMAN tRNA-specific adenosine deaminase 2 OS=Homo 
+sapiens OX=9606 GN=ADAT2 PE=1 SV=1
+Length=191
+
+ Score = 170 bits (431),  Expect = 2e-53, Method: Composition-based stats.
+ Identities = 41/161 (25%), Positives = 72/161 (45%), Gaps = 15/161 (9%)
+
+Query  3    SDADLKYLRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRNRV---KDATAHPEFAIA  59
+            ++   K++   + +A+EAL++ + P G ++V +    + + RN V   K+AT H E    
+Sbjct  19   AEETEKWMEEAMHMAKEALENTEVPVGCLMV-YNNEVVGKGRNEVNQTKNATRHAEMVAI  77
+
+Query  60   R----WAARHL--TPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWLTE  113
+                 W  +      +      +Y + E C MCAAA   + +  +VY   + + GG  + 
+Sbjct  78   DQVLDWCRQSGKSPSEVFEHTVLYVTVEPCIMCAAALRLMKIPLVVYGCQNERFGGCGSV  137
+
+Query  114  WGAQAPPVATLPINTVAPGVVVDG-PAEELAETMHNLYRAK  153
+                +   A LP NT  P   + G  AEE  E +   Y+ +
+Sbjct  138  LNIAS---ADLP-NTGRPFQCIPGYRAEEAVEMLKTFYKQE  174
+
+
+> sp|Q5E9J7|ADAT2_BOVIN tRNA-specific adenosine deaminase 2 OS=Bos 
+taurus OX=9913 GN=DEADC1 PE=2 SV=1
+Length=191
+
+ Score = 169 bits (428),  Expect = 5e-53, Method: Composition-based stats.
+ Identities = 41/161 (25%), Positives = 72/161 (45%), Gaps = 15/161 (9%)
+
+Query  3    SDADLKYLRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRNRV---KDATAHPEFAIA  59
+            ++   K++ + + +A++ALD+ + P G ++V +    + + RN V   K+AT H E    
+Sbjct  19   AEETEKWMEQAMQMAKDALDNTEVPVGCLMV-YNNEVVGKGRNEVNQTKNATRHAEMVAI  77
+
+Query  60   R----WAARHL--TPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWLTE  113
+                 W  R      +      +Y + E C MCAAA   + +  +VY   + + GG  + 
+Sbjct  78   DQALDWCRRRGRSPSEVFEHTVLYVTVEPCIMCAAALRLMRIPLVVYGCQNERFGGCGSV  137
+
+Query  114  WGAQAPPVATLPINTVAPGVVVDG-PAEELAETMHNLYRAK  153
+                +   A LP +T  P     G  AEE  E +   Y+ +
+Sbjct  138  LDIAS---ADLP-STGKPFQCTPGYRAEEAVEMLKTFYKQE  174
+
+
+> sp|P68397|TADA_SHIFL tRNA-specific adenosine deaminase OS=Shigella 
+flexneri OX=623 GN=tadA PE=3 SV=2
+Length=167
+
+ Score = 167 bits (422),  Expect = 2e-52, Method: Composition-based stats.
+ Identities = 40/152 (26%), Positives = 63/152 (41%), Gaps = 9/152 (6%)
+
+Query  5    ADLKYLRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRNR---VKDATAHPEFAIARW  61
+            +   ++R  + LA+ A D+ + P G+VLV H    + E  NR     D TAH E    R 
+Sbjct  7    SHEYWMRHALTLAKRAWDEREVPVGAVLV-HNNRVIGEGWNRPIGRHDPTAHAEIMALRQ  65
+
+Query  62   AARHLTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWLTEWGAQAPPV  121
+                +   R   AT+Y + E C MCA A     +GR+V+    A+ G   +         
+Sbjct  66   GGLVMQNYRLIDATLYVTLEPCVMCAGAMIHSRIGRVVFGARDAKTGAAGSLMDVLH---  122
+
+Query  122  ATLPINTVAPGVVVDGPAEELAETMHNLYRAK  153
+               P       +     A+E A  + + +R +
+Sbjct  123  --HPGMNHRVEITEGILADECAALLSDFFRMR  152
+
+
+> sp|P68398|TADA_ECOLI tRNA-specific adenosine deaminase OS=Escherichia 
+coli (strain K12) OX=83333 GN=tadA PE=1 SV=2
+Length=167
+
+ Score = 167 bits (422),  Expect = 2e-52, Method: Composition-based stats.
+ Identities = 40/152 (26%), Positives = 63/152 (41%), Gaps = 9/152 (6%)
+
+Query  5    ADLKYLRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRNR---VKDATAHPEFAIARW  61
+            +   ++R  + LA+ A D+ + P G+VLV H    + E  NR     D TAH E    R 
+Sbjct  7    SHEYWMRHALTLAKRAWDEREVPVGAVLV-HNNRVIGEGWNRPIGRHDPTAHAEIMALRQ  65
+
+Query  62   AARHLTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWLTEWGAQAPPV  121
+                +   R   AT+Y + E C MCA A     +GR+V+    A+ G   +         
+Sbjct  66   GGLVMQNYRLIDATLYVTLEPCVMCAGAMIHSRIGRVVFGARDAKTGAAGSLMDVLH---  122
+
+Query  122  ATLPINTVAPGVVVDGPAEELAETMHNLYRAK  153
+               P       +     A+E A  + + +R +
+Sbjct  123  --HPGMNHRVEITEGILADECAALLSDFFRMR  152
+
+
+> sp|Q8FF24|TADA_ECOL6 tRNA-specific adenosine deaminase OS=Escherichia 
+coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC) OX=199310 
+GN=tadA PE=3 SV=2
+Length=167
+
+ Score = 166 bits (420),  Expect = 3e-52, Method: Composition-based stats.
+ Identities = 40/152 (26%), Positives = 63/152 (41%), Gaps = 9/152 (6%)
+
+Query  5    ADLKYLRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRNR---VKDATAHPEFAIARW  61
+            +   ++R  + LA+ A D+ + P G+VLV H    + E  NR     D TAH E    R 
+Sbjct  7    SHEYWMRHAMTLAKRAWDEREVPVGAVLV-HNNRVIGEGWNRPIGRHDPTAHAEIMALRQ  65
+
+Query  62   AARHLTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWLTEWGAQAPPV  121
+                +   R   AT+Y + E C MCA A     +GR+V+    A+ G   +         
+Sbjct  66   GGLVMQNYRLIDATLYVTLEPCVMCAGAMIHSRIGRVVFGARDAKTGAAGSLMDVLH---  122
+
+Query  122  ATLPINTVAPGVVVDGPAEELAETMHNLYRAK  153
+               P       +     A+E A  + + +R +
+Sbjct  123  --HPGMNHRVEITEGILADECAALLSDFFRMR  152
+
+
+> sp|Q8XA44|TADA_ECO57 tRNA-specific adenosine deaminase OS=Escherichia 
+coli O157:H7 OX=83334 GN=tadA PE=3 SV=2
+Length=167
+
+ Score = 166 bits (420),  Expect = 3e-52, Method: Composition-based stats.
+ Identities = 40/152 (26%), Positives = 63/152 (41%), Gaps = 9/152 (6%)
+
+Query  5    ADLKYLRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRNR---VKDATAHPEFAIARW  61
+            +   ++R  + LA+ A D+ + P G+VLV H    + E  NR     D TAH E    R 
+Sbjct  7    SHEYWMRHAMTLAKRAWDEREVPVGAVLV-HNNRVIGEGWNRPIGRHDPTAHAEIMALRQ  65
+
+Query  62   AARHLTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWLTEWGAQAPPV  121
+                +   R   AT+Y + E C MCA A     +GR+V+    A+ G   +         
+Sbjct  66   GGLVMQNYRLIDATLYVTLEPCVMCAGAMIHSRIGRVVFGARDAKTGAAGSLMDVLH---  122
+
+Query  122  ATLPINTVAPGVVVDGPAEELAETMHNLYRAK  153
+               P       +     A+E A  + + +R +
+Sbjct  123  --HPGMNHRVEITEGILADECAALLSDFFRMR  152
+
+
+> sp|Q0P4H0|ADAT2_XENTR tRNA-specific adenosine deaminase 2 OS=Xenopus 
+tropicalis OX=8364 GN=adat2 PE=2 SV=1
+Length=170
+
+ Score = 166 bits (420),  Expect = 4e-52, Method: Composition-based stats.
+ Identities = 34/162 (21%), Positives = 68/162 (42%), Gaps = 15/162 (9%)
+
+Query  2    ISDADLKYLRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRNRV---KDATAHPEFAI  58
+            +++    ++ +   +A++AL++G+ P G ++V +    + + RN V   K+AT H E   
+Sbjct  1    MTEEIQNWMHKAFQMAQDALNNGEVPVGCLMV-YDNQVVGKGRNEVNETKNATRHAEMVA  59
+
+Query  59   AR----WAARHLTPDR--RARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWLT  112
+                  W  ++    R       +Y + E C MCA A   + +  +VY   + + GG  +
+Sbjct  60   IDQVLDWCEKNSKKSRDVFENIVLYVTVEPCIMCAGALRLLKIPLVVYGCRNERFGGCGS  119
+
+Query  113  EWGAQAPPVATLPINTVAPGVVVDG-PAEELAETMHNLYRAK  153
+                    +      T      + G  AE+  E +   Y+ +
+Sbjct  120  VLNVAGDNIPD----TGTEFKYIGGYQAEKAVELLKTFYKQE  157
+
+
+> sp|P44931|TADA_HAEIN tRNA-specific adenosine deaminase OS=Haemophilus 
+influenzae (strain ATCC 51907 / DSM 11121 / KW20 / 
+Rd) OX=71421 GN=tadA PE=3 SV=1
+Length=173
+
+ Score = 166 bits (420),  Expect = 4e-52, Method: Composition-based stats.
+ Identities = 40/154 (26%), Positives = 66/154 (43%), Gaps = 8/154 (5%)
+
+Query  3    SDADLKYLRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRNRV---KDATAHPEFAIA  59
+            S+ D K +R  ++LA +A   G+ P G+VLVD     + E  N      D TAH E    
+Sbjct  8    SEFDEKMMRYALELADKAEALGEIPVGAVLVDDARNIIGEGWNLSIVQSDPTAHAEIIAL  67
+
+Query  60   RWAARHLTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWLTEWGAQAP  119
+            R  A+++   R   +T+Y + E C MCA A     + R+V+  S  + G   + +     
+Sbjct  68   RNGAKNIQNYRLLNSTLYVTLEPCTMCAGAILHSRIKRLVFGASDYKTGAIGSRFH----  123
+
+Query  120  PVATLPINTVAPGVVVDGPAEELAETMHNLYRAK  153
+                         V     AEE ++ +   ++ +
+Sbjct  124  -FFDDYKMNHTLEVTSGVLAEECSQKLSTFFQKR  156
+
+
+> sp|Q7CQ08|TADA_SALTY tRNA-specific adenosine deaminase OS=Salmonella 
+typhimurium (strain LT2 / SGSC1412 / ATCC 700720) OX=99287 
+GN=tadA PE=3 SV=2
+Length=172
+
+ Score = 165 bits (418),  Expect = 9e-52, Method: Composition-based stats.
+ Identities = 41/158 (26%), Positives = 65/158 (41%), Gaps = 12/158 (8%)
+
+Query  2    ISDAD---LKYLRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRNR---VKDATAHPE  55
+            +SD +     ++R  + LA+ A D+ + P G+VLV H    + E  NR     D TAH E
+Sbjct  1    MSDVELDHEYWMRHALTLAKRAWDEREVPVGAVLV-HNHRVIGEGWNRPIGRHDPTAHAE  59
+
+Query  56   FAIARWAARHLTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWLTEWG  115
+                R     L   R    T+Y + E C MCA A     +GR+V+    A+ G   +   
+Sbjct  60   IMALRQGGLVLQNYRLLDTTLYVTLEPCVMCAGAMVHSRIGRVVFGARDAKTGAAGSLID  119
+
+Query  116  AQAPPVATLPINTVAPGVVVDGPAEELAETMHNLYRAK  153
+                     P       ++     +E A  + + +R +
+Sbjct  120  VLH-----HPGMNHRVEIIEGVLRDECATLLSDFFRMR  152
+
+
+> sp|Q8XGY4|TADA_SALTI tRNA-specific adenosine deaminase OS=Salmonella 
+typhi OX=90370 GN=tadA PE=3 SV=2
+Length=172
+
+ Score = 165 bits (418),  Expect = 9e-52, Method: Composition-based stats.
+ Identities = 41/158 (26%), Positives = 65/158 (41%), Gaps = 12/158 (8%)
+
+Query  2    ISDAD---LKYLRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRNR---VKDATAHPE  55
+            +SD +     ++R  + LA+ A D+ + P G+VLV H    + E  NR     D TAH E
+Sbjct  1    MSDVELDHEYWMRHALTLAKRAWDEREVPVGAVLV-HNHRVIGEGWNRPIGRHDPTAHAE  59
+
+Query  56   FAIARWAARHLTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWLTEWG  115
+                R     L   R    T+Y + E C MCA A     +GR+V+    A+ G   +   
+Sbjct  60   IMALRQGGLVLQNYRLLDTTLYVTLEPCVMCAGAMVHSRIGRVVFGARDAKTGAAGSLID  119
+
+Query  116  AQAPPVATLPINTVAPGVVVDGPAEELAETMHNLYRAK  153
+                     P       ++     +E A  + + +R +
+Sbjct  120  VLH-----HPGMNHRVEIIEGVLRDECATLLSDFFRMR  152
+
+
+> sp|Q4V7V8|ADAT2_XENLA tRNA-specific adenosine deaminase 2 OS=Xenopus 
+laevis OX=8355 GN=adat2 PE=2 SV=1
+Length=175
+
+ Score = 165 bits (417),  Expect = 1e-51, Method: Composition-based stats.
+ Identities = 36/162 (22%), Positives = 70/162 (43%), Gaps = 15/162 (9%)
+
+Query  2    ISDADLKYLRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRNRV---KDATAHPEFAI  58
+            I++    ++ +   +A++AL++G+ P G ++V +    + + RN V   K+AT H E   
+Sbjct  6    ITEEIQNWMHKAFQMAQDALNNGEVPVGCLMV-YGNQVVGKGRNEVNETKNATQHAEMVA  64
+
+Query  59   AR----WAARH--LTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWLT  112
+                  W   +   + D      +Y + E C MCA A   + +  +VY   + + GG  +
+Sbjct  65   IDQVLDWCEMNSKKSTDVFENIVLYVTVEPCIMCAGALRLLKIPLVVYGCRNERFGGCGS  124
+
+Query  113  EWGAQAPPVATLPINTVAPGVVVDG-PAEELAETMHNLYRAK  153
+                       +P +T      + G  AE+  E +   Y+ +
+Sbjct  125  VLNVSGD---DIP-DTGTKFKCIGGYQAEKAIELLKTFYKQE  162
+
+
+> sp|A9CK16|TADA_AGRFC tRNA-specific adenosine deaminase OS=Agrobacterium 
+fabrum (strain C58 / ATCC 33970) OX=176299 GN=tadA 
+PE=1 SV=1
+Length=152
+
+ Score = 160 bits (404),  Expect = 6e-50, Method: Composition-based stats.
+ Identities = 44/148 (30%), Positives = 65/148 (44%), Gaps = 9/148 (6%)
+
+Query  9    YLRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRNRVK---DATAHPEFAIARWAARH  65
+            ++   +  AR A +  + P G+VLV   G  +    NR +   D TAH E A+ R A   
+Sbjct  7    FMELALVEARSAGERDEVPIGAVLVL-DGRVIARSGNRTRELNDVTAHAEIAVIRMACEA  65
+
+Query  66   LTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWLTEWGAQAPPVATLP  125
+            L  +R   A +Y + E C MCAAA ++  + R+ Y     +  G   E G +     + P
+Sbjct  66   LGQERLPGADLYVTLEPCTMCAAAISFARIRRLYYGAQDPK--GGAVESGVR---FFSQP  120
+
+Query  126  INTVAPGVVVDGPAEELAETMHNLYRAK  153
+                AP V       E AE +   +R K
+Sbjct  121  TCHHAPDVYSGLAESESAEILRQFFREK  148
+
+
+> sp|Q5RIV4|ADAT2_DANRE tRNA-specific adenosine deaminase 2 OS=Danio 
+rerio OX=7955 GN=adat2 PE=2 SV=2
+Length=214
+
+ Score = 157 bits (398),  Expect = 4e-48, Method: Composition-based stats.
+ Identities = 41/162 (25%), Positives = 72/162 (44%), Gaps = 16/162 (10%)
+
+Query  3    SDADLK-YLRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRNRV---KDATAHPEFAI  58
+            SD++++ ++ +  D+A EAL++G+ P G ++V +    + + RN V   K+AT H E   
+Sbjct  17   SDSEVQTWMAKAFDMAVEALENGEVPVGCLMV-YNNEIIGKGRNEVNETKNATRHAEMVA  75
+
+Query  59   AR----WAA-RHLTPDRRARAT-VYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWLT  112
+                  W   R          T +Y + E C MCAAA   + +  +VY   + + GG  +
+Sbjct  76   LDQVLDWCRLREKDCKEVCEQTVLYVTVEPCIMCAAALRLLRIPFVVYGCKNERFGGCGS  135
+
+Query  113  EWGAQAPPVATLPINTVAPGVVVDG-PAEELAETMHNLYRAK  153
+                 +        +T      + G  AEE  E +   Y+ +
+Sbjct  136  VLDVSS----DHLPHTGTSFKCIAGYRAEEAVEMLKTFYKQE  173
+
+
+> sp|O67050|TADA_AQUAE tRNA-specific adenosine deaminase OS=Aquifex 
+aeolicus (strain VF5) OX=224324 GN=tadA PE=1 SV=1
+Length=151
+
+ Score = 154 bits (389),  Expect = 1e-47, Method: Composition-based stats.
+ Identities = 32/149 (21%), Positives = 62/149 (42%), Gaps = 10/149 (7%)
+
+Query  7    LKYLRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRNRV---KDATAHPEFAIARWAA  63
+              +L+  +  A+ A + G+ P G+++V   G  + +  N V   KD TAH E    + A 
+Sbjct  4    EYFLKVALREAKRAFEKGEVPVGAIIVKE-GEIISKAHNSVEELKDPTAHAEMLAIKEAC  62
+
+Query  64   RHLTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWLTEWGAQAPPVAT  123
+            R L         +Y + E C MC+ A     + +++++    + GG ++ +     P   
+Sbjct  63   RRLNTKYLEGCELYVTLEPCIMCSYALVLSRIEKVIFSALDKKHGGVVSVFNILDEPT--  120
+
+Query  124  LPINTVAPGVVVDGPAEELAETMHNLYRA  152
+              +N            EE +E +   ++ 
+Sbjct  121  --LNHRVKWEYYPL--EEASELLSEFFKK  145
+
+
+> sp|Q89AM8|TADA_BUCBP tRNA-specific adenosine deaminase OS=Buchnera 
+aphidicola subsp. Baizongia pistaciae (strain Bp) OX=224915 
+GN=tadA PE=3 SV=1
+Length=162
+
+ Score = 153 bits (386),  Expect = 5e-47, Method: Composition-based stats.
+ Identities = 34/155 (22%), Positives = 62/155 (40%), Gaps = 9/155 (6%)
+
+Query  2    ISDADLKYLRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRNRV---KDATAHPEFAI  58
+            + D+D  +++  + LA+ +   G+ P G+VLV    T + +  N      D TAH E   
+Sbjct  1    MHDSDKYFMKCAIFLAKISEMIGEVPVGAVLV-FNNTIIGKGLNSSILNHDPTAHAEIKA  59
+
+Query  59   ARWAARHLTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWLTEWGAQA  118
+             R  A+ L   R    T+Y + E C MC  A     + R+V+      L  ++       
+Sbjct  60   LRNGAKFLKNYRLLHTTLYVTLEPCIMCYGAIIHSRISRLVFGAKYKNLQKYIC-----C  114
+
+Query  119  PPVATLPINTVAPGVVVDGPAEELAETMHNLYRAK  153
+                 +  N     +  +    E +  + + ++ K
+Sbjct  115  KNHFFINKNFRKISITQEVLESECSNLLSSFFKRK  149
+
+
+> sp|P57343|TADA_BUCAI tRNA-specific adenosine deaminase OS=Buchnera 
+aphidicola subsp. Acyrthosiphon pisum (strain APS) OX=107806 
+GN=tadA PE=3 SV=1
+Length=161
+
+ Score = 149 bits (377),  Expect = 1e-45, Method: Composition-based stats.
+ Identities = 29/153 (19%), Positives = 57/153 (37%), Gaps = 9/153 (6%)
+
+Query  4    DADLKYLRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRNRV---KDATAHPEFAIAR  60
+            + D  +++  +  A  A + G+ P G++LV      +    N      D TAH E    R
+Sbjct  4    EKDKNWMKIALKYAYYAKEKGEIPIGAILVFKE-RIIGIGWNSSISKNDPTAHAEIIALR  62
+
+Query  61   WAARHLTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWLTEWGAQAPP  120
+             A + +   R    T+Y + + C MC  A     + R+V+  +        +       P
+Sbjct  63   GAGKKIKNYRLLNTTLYVTLQPCIMCCGAIIQSRIKRLVFGANCNSSDHRFSLKNLFCDP  122
+
+Query  121  VATLPINTVAPGVVVDGPAEELAETMHNLYRAK  153
+                 ++     +       E ++ + N ++ K
+Sbjct  123  QKDYKLDIKKNVM-----QRECSDILINFFQKK  150
+
+
+> sp|Q1RGK7|TADA_RICBR tRNA-specific adenosine deaminase OS=Rickettsia 
+bellii (strain RML369-C) OX=336407 GN=tadA PE=3 SV=2
+Length=145
+
+ Score = 148 bits (373),  Expect = 3e-45, Method: Composition-based stats.
+ Identities = 33/147 (22%), Positives = 54/147 (37%), Gaps = 9/147 (6%)
+
+Query  10   LRRCVDLAREALDDGDEPFGSVLVDHTGT-TLFEDRN---RVKDATAHPEFAIARWAARH  65
+            +R  +  A  A    + P G+V+VD      + +  N      +A  H E      A R 
+Sbjct  1    MREALKQAEIAFSKNEVPVGAVIVDRENQKIISKSYNNTEEKNNALYHAEIIAINEACRI  60
+
+Query  66   LTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWLTEWGAQAPPVATLP  125
+            ++    +   +Y + E C MCAAA A   L R+ Y  S ++ G   +             
+Sbjct  61   ISSKNLSDYDIYVTLEPCAMCAAAIAHSRLKRLFYGASDSKHGAVESNLR-----YFNSK  115
+
+Query  126  INTVAPGVVVDGPAEELAETMHNLYRA  152
+                 P +     AE+ A  M   ++ 
+Sbjct  116  ACFHRPEIYSGIFAEDSALLMKGFFKK  142
+
+
+> sp|Q92G39|TADA_RICCN tRNA-specific adenosine deaminase OS=Rickettsia 
+conorii (strain ATCC VR-613 / Malish 7) OX=272944 GN=tadA 
+PE=3 SV=2
+Length=153
+
+ Score = 147 bits (370),  Expect = 1e-44, Method: Composition-based stats.
+ Identities = 32/146 (22%), Positives = 54/146 (37%), Gaps = 9/146 (6%)
+
+Query  10   LRRCVDLAREALDDGDEPFGSVLVDHTGT-TLFEDRN---RVKDATAHPEFAIARWAARH  65
+            + + +  A+ A D  + P G+V+VD      +    N      +A  H E      A   
+Sbjct  1    MEQALKQAKIAFDKNEVPVGAVVVDRLHQKIIASTHNNTEEKNNALYHAEIIAINEACNL  60
+
+Query  66   LTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWLTEWGAQAPPVATLP  125
+            ++        +Y + E C MCAAA A   L R+ Y  S ++ G  + E   +        
+Sbjct  61   ISSKNLNDYDIYVTLEPCAMCAAAIAHSRLKRLFYGASDSKHG--VVESNLR---YFNSS  115
+
+Query  126  INTVAPGVVVDGPAEELAETMHNLYR  151
+                 P +     AE+    M   ++
+Sbjct  116  ACFHRPEIYSGILAEDSGLLMKEFFK  141
+
+
+> sp|P21335|TADA_BACSU tRNA-specific adenosine deaminase OS=Bacillus 
+subtilis (strain 168) OX=224308 GN=tadA PE=1 SV=1
+Length=161
+
+ Score = 147 bits (370),  Expect = 1e-44, Method: Composition-based stats.
+ Identities = 36/151 (24%), Positives = 58/151 (38%), Gaps = 9/151 (6%)
+
+Query  5    ADLKYLRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRNRVKD---ATAHPEFAIARW  61
+             D  Y++  +  A++A + G+ P G+VLV   G  +    N  +    + AH E  +   
+Sbjct  3    QDELYMKEAIKEAKKAEEKGEVPIGAVLVI-NGEIIARAHNLRETEQRSIAHAEMLVIDE  61
+
+Query  62   AARHLTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWLTEWGAQAPPV  121
+            A + L   R   AT+Y + E CPMCA A     + ++V+     + G   T         
+Sbjct  62   ACKALGTWRLEGATLYVTLEPCPMCAGAVVLSRVEKVVFGAFDPKGGCSGTLMNLLQEER  121
+
+Query  122  ATLPINTVAPGVVVDGPAEELAETMHNLYRA  152
+                       VV     EE    +   +R 
+Sbjct  122  F-----NHQAEVVSGVLEEECGGMLSAFFRE  147
+
+
+> sp|Q4UJW9|TADA_RICFE tRNA-specific adenosine deaminase OS=Rickettsia 
+felis (strain ATCC VR-1525 / URRWXCal2) OX=315456 GN=tadA 
+PE=3 SV=2
+Length=144
+
+ Score = 145 bits (365),  Expect = 5e-44, Method: Composition-based stats.
+ Identities = 31/146 (21%), Positives = 52/146 (36%), Gaps = 9/146 (6%)
+
+Query  10   LRRCVDLAREALDDGDEPFGSVLVDHTGT-TLFEDRN---RVKDATAHPEFAIARWAARH  65
+            + + +  A  A D  + P G+V+VD      +    N      +A  H E      A   
+Sbjct  1    MEQALKQAGIAFDKNEVPVGAVIVDRLNQKIIVSSHNNTEEKNNALYHAEIIAINEACNL  60
+
+Query  66   LTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWLTEWGAQAPPVATLP  125
+            ++        +Y + E C MCAAA A   L R+ Y  S ++ G   +             
+Sbjct  61   ISSKNLNDYDIYVTLEPCAMCAAAIAHSRLKRLFYGASDSKHGAVESNLR-----YFNSS  115
+
+Query  126  INTVAPGVVVDGPAEELAETMHNLYR  151
+            +    P +     AE+    M   ++
+Sbjct  116  VCFYRPEIYSGILAEDSRLLMKEFFK  141
+
+
+> sp|P47058|TAD2_YEAST tRNA-specific adenosine deaminase subunit 
+TAD2 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) 
+OX=559292 GN=TAD2 PE=1 SV=1
+Length=250
+
+ Score = 147 bits (372),  Expect = 9e-44, Method: Composition-based stats.
+ Identities = 41/154 (27%), Positives = 62/154 (40%), Gaps = 10/154 (6%)
+
+Query  7    LKYLRRCVDLAREALDDGDEPFGSVLVD-HTGTTL---FEDRNRVKDATAHPEFAIARWA  62
+            +K++R  V LAR ALD  + P   + V   TG  +     D N+     AH EF      
+Sbjct  4    IKHMRTAVRLARYALDHDETPVACIFVHTPTGQVMAYGMNDTNKSLTGVAHAEFMGIDQI  63
+
+Query  63   ARHLTP----DRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWLTEWGAQA  118
+               L      D     T+Y + E C MCA+A   + +G++V+   + + GG  T      
+Sbjct  64   KAMLGSRGVVDVFKDITLYVTVEPCIMCASALKQLDIGKVVFGCGNERFGGNGTVLSVNH  123
+
+Query  119  PPVATLPINTVAPG-VVVDGPA-EELAETMHNLY  150
+                 +P N  A G   + G   +E    +   Y
+Sbjct  124  DTCTLVPKNNSAAGYESIPGILRKEAIMLLRYFY  157
+
+
+> sp|P68999|TADA_STRP1 tRNA-specific adenosine deaminase OS=Streptococcus 
+pyogenes serotype M1 OX=301447 GN=tadA PE=3 SV=1
+Length=171
+
+ Score = 140 bits (354),  Expect = 5e-42, Method: Composition-based stats.
+ Identities = 28/152 (18%), Positives = 52/152 (34%), Gaps = 9/152 (6%)
+
+Query  4    DADLKYLRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRN---RVKDATAHPEFAIAR  60
+            +    +++  +  A ++L   + P G V+V   G  +    N       A  H E     
+Sbjct  6    EEQTYFMQEALKEAEKSLQKAEIPIGCVIVK-DGEIIGRGHNAREESNQAIMHAEMMAIN  64
+
+Query  61   WAARHLTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWLTEWGAQAPP  120
+             A  H    R    T++ + E C MC+ A     +  ++Y  S+ + GG  + +      
+Sbjct  65   EANAHEGNWRLLDTTLFVTIEPCVMCSGAIGLARIPHVIYGASNQKFGGVDSLYQILTDE  124
+
+Query  121  VATLPINTVAPGVVVDGPAEELAETMHNLYRA  152
+                 +            A + A  M   +R 
+Sbjct  125  RLNHRVQVER-----GLLAADCANIMQTFFRQ  151
+
+
+> sp|O59834|FCYS_SCHPO Probable cytosine deaminase OS=Schizosaccharomyces 
+pombe (strain 972 / ATCC 24843) OX=284812 GN=SPCC965.14c 
+PE=3 SV=1
+Length=162
+
+ Score = 140 bits (352),  Expect = 7e-42, Method: Composition-based stats.
+ Identities = 46/146 (32%), Positives = 71/146 (49%), Gaps = 19/146 (13%)
+
+Query  2    ISDADLKYLRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRNRVKDA--TAHPEFAIA  59
+            +S+ DL YLR  + ++++A D+G  PFG ++VD     +    NRV D   T H E    
+Sbjct  6    LSEKDLAYLREAIKVSQQARDEGQHPFGCIIVDENDNVIMSAGNRVPDGDVTQHAETRAV  65
+
+Query  60   RWAARHLTPDR--RARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWLTEWGAQ  117
+                  +T  R    + T+YTS E C MC+ A  W G+ R+++  S+  L   LT+   +
+Sbjct  66   ----GLITKTRRDLEKCTLYTSTEPCAMCSGAIFWSGIRRMIFGLSNENLIK-LTQKSGE  120
+
+Query  118  APPV----------ATLPINTVAPGV  133
+             PP+          A+ PI  V P +
+Sbjct  121  CPPLYINSRDILGAASHPIEVVGPYI  146
+
+
+> sp|Q9S7I0|TADA_ARATH tRNA(adenine(34)) deaminase, chloroplastic 
+OS=Arabidopsis thaliana OX=3702 GN=TADA PE=1 SV=1
+Length=1307
+
+ Score = 151 bits (381),  Expect = 8e-42, Method: Composition-based stats.
+ Identities = 43/160 (27%), Positives = 71/160 (44%), Gaps = 15/160 (9%)
+
+Query  6     DLKYLRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRNRV---KDATAHPEFAIARWA  62
+             D  ++R  +  A++A D  + P G+VLV H G  +    N V   +D+TAH E    R  
+Sbjct  1110  DEIFMREALVEAKKAADTWEVPVGAVLV-HDGKIIARGYNLVEELRDSTAHAEMICIREG  1168
+
+Query  63    ARHLTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWLT---------E  113
+             ++ L   R A  T+Y + E CPMCA A     +  +V+   +  LG   +          
+Sbjct  1169  SKALRSWRLADTTLYVTLEPCPMCAGAILQARVNTLVWGAPNKLLGADGSWIRLFPGGEG  1228
+
+Query  114   WGAQAPPVATLPINTVAPGVVV--DGPAEELAETMHNLYR  151
+              G++A      P++   P + +       E A+TM   ++
+Sbjct  1229  NGSEASEKPPPPVHPFHPKMTIRRGVLESECAQTMQQFFQ  1268
+
+
+> sp|P0DA21|TADA_STRPQ tRNA-specific adenosine deaminase OS=Streptococcus 
+pyogenes serotype M3 (strain SSI-1) OX=193567 GN=tadA 
+PE=3 SV=1
+Length=171
+
+ Score = 140 bits (352),  Expect = 9e-42, Method: Composition-based stats.
+ Identities = 28/152 (18%), Positives = 52/152 (34%), Gaps = 9/152 (6%)
+
+Query  4    DADLKYLRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRN---RVKDATAHPEFAIAR  60
+            +    +++  +  A ++L   + P G V+V   G  +    N       A  H E     
+Sbjct  6    EEQTYFMQEALKEAEKSLQKAEIPIGCVIVK-DGEIIGRGHNAREESNQAIMHAEMMAIN  64
+
+Query  61   WAARHLTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWLTEWGAQAPP  120
+             A  H    R    T++ + E C MC+ A     +  ++Y  S+ + GG  + +      
+Sbjct  65   EANAHEGNWRLLDTTLFVTIEPCVMCSGAIGLARIPHVIYGASNQKFGGADSLYQILTDE  124
+
+Query  121  VATLPINTVAPGVVVDGPAEELAETMHNLYRA  152
+                 +            A + A  M   +R 
+Sbjct  125  RLNHRVQVER-----GLLAADCANIMQTFFRQ  151
+
+
+> sp|Q5XE14|TADA_STRP6 tRNA-specific adenosine deaminase OS=Streptococcus 
+pyogenes serotype M6 (strain ATCC BAA-946 / MGAS10394) 
+OX=286636 GN=tadA PE=1 SV=2
+Length=171
+
+ Score = 140 bits (352),  Expect = 9e-42, Method: Composition-based stats.
+ Identities = 28/152 (18%), Positives = 52/152 (34%), Gaps = 9/152 (6%)
+
+Query  4    DADLKYLRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRN---RVKDATAHPEFAIAR  60
+            +    +++  +  A ++L   + P G V+V   G  +    N       A  H E     
+Sbjct  6    EEQTYFMQEALKEAEKSLQKAEIPIGCVIVK-DGEIIGRGHNAREESNQAIMHAEMMAIN  64
+
+Query  61   WAARHLTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWLTEWGAQAPP  120
+             A  H    R    T++ + E C MC+ A     +  ++Y  S+ + GG  + +      
+Sbjct  65   EANAHEGNWRLLDTTLFVTIEPCVMCSGAIGLARIPHVIYGASNQKFGGADSLYQILTDE  124
+
+Query  121  VATLPINTVAPGVVVDGPAEELAETMHNLYRA  152
+                 +            A + A  M   +R 
+Sbjct  125  RLNHRVQVER-----GLLAADCANIMQTFFRQ  151
+
+
+> sp|P0DA20|TADA_STRP3 tRNA-specific adenosine deaminase OS=Streptococcus 
+pyogenes serotype M3 (strain ATCC BAA-595 / MGAS315) 
+OX=198466 GN=tadA PE=3 SV=1
+Length=171
+
+ Score = 140 bits (352),  Expect = 9e-42, Method: Composition-based stats.
+ Identities = 28/152 (18%), Positives = 52/152 (34%), Gaps = 9/152 (6%)
+
+Query  4    DADLKYLRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRN---RVKDATAHPEFAIAR  60
+            +    +++  +  A ++L   + P G V+V   G  +    N       A  H E     
+Sbjct  6    EEQTYFMQEALKEAEKSLQKAEIPIGCVIVK-DGEIIGRGHNAREESNQAIMHAEMMAIN  64
+
+Query  61   WAARHLTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWLTEWGAQAPP  120
+             A  H    R    T++ + E C MC+ A     +  ++Y  S+ + GG  + +      
+Sbjct  65   EANAHEGNWRLLDTTLFVTIEPCVMCSGAIGLARIPHVIYGASNQKFGGADSLYQILTDE  124
+
+Query  121  VATLPINTVAPGVVVDGPAEELAETMHNLYRA  152
+                 +            A + A  M   +R 
+Sbjct  125  RLNHRVQVER-----GLLAADCANIMQTFFRQ  151
+
+
+> sp|Q8P2R7|TADA_STRP8 tRNA-specific adenosine deaminase OS=Streptococcus 
+pyogenes serotype M18 (strain MGAS8232) OX=186103 
+GN=tadA PE=3 SV=1
+Length=159
+
+ Score = 139 bits (349),  Expect = 2e-41, Method: Composition-based stats.
+ Identities = 28/152 (18%), Positives = 52/152 (34%), Gaps = 9/152 (6%)
+
+Query  4    DADLKYLRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRN---RVKDATAHPEFAIAR  60
+            +    +++  +  A ++L   + P G V+V   G  +    N       A  H E     
+Sbjct  6    EEQTYFMQEALKEAEKSLQKAEIPIGCVIVK-DGEIIGRGHNAREESNQAIMHAEMMAIN  64
+
+Query  61   WAARHLTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWLTEWGAQAPP  120
+             A  H    R    T++ + E C MC+ A     +  ++Y  S+ + GG  + +      
+Sbjct  65   EANAHEGNWRLLDTTLFVTIEPCVMCSGAIGLARIPHVIYGASNQKFGGADSLYQILTDE  124
+
+Query  121  VATLPINTVAPGVVVDGPAEELAETMHNLYRA  152
+                 +            A + A  M   +R 
+Sbjct  125  RLNHRVQVER-----GLLAADCANIMQTFFRQ  151
+
+
+> sp|Q68Y02|TADA_RICTY tRNA-specific adenosine deaminase OS=Rickettsia 
+typhi (strain ATCC VR-144 / Wilmington) OX=257363 GN=tadA 
+PE=3 SV=1
+Length=148
+
+ Score = 138 bits (347),  Expect = 3e-41, Method: Composition-based stats.
+ Identities = 28/147 (19%), Positives = 50/147 (34%), Gaps = 9/147 (6%)
+
+Query  10   LRRCVDLAREALDDGDEPFGSVLVDHTGT-TLFEDRNRV---KDATAHPEFAIARWAARH  65
+            + + +  AR A D  + P G V+V       +    N +    +A  H E      A   
+Sbjct  1    MEQALKQARLAFDKNEVPVGVVIVYRLNQKIIVSSHNNIEEKNNALCHAEIIAINEACNL  60
+
+Query  66   LTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWLTEWGAQAPPVATLP  125
+            ++        +Y + E C MCA+A +   L R+ Y  S ++ G   +             
+Sbjct  61   ISSKNLNDYDIYVTLEPCAMCASAISHSRLKRLFYGASDSKQGAVESNLR-----YFNSS  115
+
+Query  126  INTVAPGVVVDGPAEELAETMHNLYRA  152
+                 P +     +E     M   ++ 
+Sbjct  116  ACFHRPEIYSGILSEHSRFLMKEFFQK  142
+
+
+> sp|Q99W51|TADA_STAAM tRNA-specific adenosine deaminase OS=Staphylococcus 
+aureus (strain Mu50 / ATCC 700699) OX=158878 GN=tadA 
+PE=1 SV=1
+Length=156
+
+ Score = 136 bits (343),  Expect = 1e-40, Method: Composition-based stats.
+ Identities = 28/150 (19%), Positives = 53/150 (35%), Gaps = 9/150 (6%)
+
+Query  6    DLKYLRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRN---RVKDATAHPEFAIARWA  62
+            D+ ++   ++ A++A   G+ P G+++       +    N    ++  TAH E      A
+Sbjct  4    DIYFMTLAIEEAKKAAQLGEVPIGAIITK-DDEVIARAHNLRETLQQPTAHAEHIAIERA  62
+
+Query  63   ARHLTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWLTEWGAQAPPVA  122
+            A+ L   R    T+Y + E C MCA       + R+VY     + G   +          
+Sbjct  63   AKVLGSWRLEGCTLYVTLEPCVMCAGTIVMSRIPRVVYGADDPKGGCSGSLMNLLQQSNF  122
+
+Query  123  TLPINTVAPGVVVDGPAEELAETMHNLYRA  152
+                      V      E  +  +   ++ 
+Sbjct  123  -----NHRAIVDKGVLKEACSTLLTTFFKN  147
+
+
+> sp|Q9ZCC6|TADA_RICPR tRNA-specific adenosine deaminase OS=Rickettsia 
+prowazekii (strain Madrid E) OX=272947 GN=tadA PE=3 
+SV=1
+Length=148
+
+ Score = 136 bits (342),  Expect = 1e-40, Method: Composition-based stats.
+ Identities = 28/146 (19%), Positives = 50/146 (34%), Gaps = 9/146 (6%)
+
+Query  10   LRRCVDLAREALDDGDEPFGSVLVDHTGT-TLFEDRNRV---KDATAHPEFAIARWAARH  65
+            + + +  AR A D  + P G V+V       +    N +   K+   H E      A   
+Sbjct  1    MEQALKQARLAFDKNEVPVGVVIVCRLNQKIIVSSHNNIEEKKNPLCHAEIIAINTACNL  60
+
+Query  66   LTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWLTEWGAQAPPVATLP  125
+            ++        +Y + E C MCA+A +   L R+ Y  S ++ G   +             
+Sbjct  61   ISSKNLNDYDIYVTLEPCAMCASAISHSRLKRLFYGASDSKHGAVESNLR-----YFNSN  115
+
+Query  126  INTVAPGVVVDGPAEELAETMHNLYR  151
+                 P +     +E     M   ++
+Sbjct  116  SCFYRPEIYSGILSEHSRFLMQEFFQ  141
+
+
+> sp|Q6IDB6|TAD2_ARATH tRNA-specific adenosine deaminase TAD2 OS=Arabidopsis 
+thaliana OX=3702 GN=TAD2 PE=1 SV=1
+Length=182
+
+ Score = 135 bits (339),  Expect = 1e-39, Method: Composition-based stats.
+ Identities = 34/162 (21%), Positives = 62/162 (38%), Gaps = 17/162 (10%)
+
+Query  4    DADLKYLRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRNRV---KDATAHPEFAIAR  60
+            +    Y+   +  A+ AL+  + P G V +   G  +   RNR    ++AT H E     
+Sbjct  7    EDSHNYMGFALHQAKLALEALEVPVGCVFL-EDGKVIASGRNRTNETRNATRHAEMEAID  65
+
+Query  61   -----WAARHLTP----DRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWL  111
+                 W    L+P    ++ ++  +Y + E C MCA+A +++G+  + Y   + + GG  
+Sbjct  66   QLVGQWQKDGLSPSQVAEKFSKCVLYVTCEPCIMCASALSFLGIKEVYYGCPNDKFGGCG  125
+
+Query  112  TEWGAQAPPVATLPINTVAPGVVVDG-PAEELAETMHNLYRA  152
+            +        + +             G  AEE        Y  
+Sbjct  126  SILSLH---LGSEEAQRGKGYKCRGGIMAEEAVSLFKCFYEQ  164
+
+
+> sp|C1D1Q9|TILS_DEIDV tRNA(Ile)-lysidine synthase OS=Deinococcus 
+deserti (strain VCD115 / DSM 17065 / LMG 22923) OX=546414 
+GN=tilS PE=3 SV=1
+Length=533
+
+ Score = 139 bits (351),  Expect = 2e-38, Method: Composition-based stats.
+ Identities = 36/146 (25%), Positives = 57/146 (39%), Gaps = 9/146 (6%)
+
+Query  10   LRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRNRVK---DATAHPEFAIARWAARHL  66
+            +   + LAREA    + P G+V++   G  +   RN  +   D T H E A  R A   L
+Sbjct  383  MGEALGLAREAALAQEVPVGAVVLGPGGRIIGSGRNTSRADSDMTRHAELAALRAATAEL  442
+
+Query  67   TPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWLTEWGAQAPPVATLPI  126
+                    T+  + E CPMC  A     + RIVY  S+ + G         +     +P 
+Sbjct  443  GTAYLTGCTLVVTLEPCPMCLGAALEARVERIVYGASNPKAGALGGVSDLLSSHWGHVPA  502
+
+Query  127  NTVAPGVVVDGPAEELAETMHNLYRA  152
+             T          A++ A  + + ++ 
+Sbjct  503  VTG------GVRAQDAARVLRDSFQE  522
+
+
+> sp|Q94BU8|GSDA_ARATH Guanosine deaminase OS=Arabidopsis thaliana 
+OX=3702 GN=GSDA PE=1 SV=1
+Length=185
+
+ Score = 131 bits (329),  Expect = 5e-38, Method: Composition-based stats.
+ Identities = 38/115 (33%), Positives = 53/115 (46%), Gaps = 5/115 (4%)
+
+Query  1    AISDADLKYLRRCVDLAREALDDGDE-PFGSVLVDHTGTTLFEDRNRV---KDATAHPEF  56
+            A+ D+D K+L + V+ A + +D GD  PFG+V+V H    +    N V    D TAH E 
+Sbjct  25   AVHDSDHKFLTQAVEEAYKGVDCGDGGPFGAVIV-HNNEVVASCHNMVLKYTDPTAHAEV  83
+
+Query  57   AIARWAARHLTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWL  111
+               R A + L     +   +Y S E CPMC  A     L R+VY   +       
+Sbjct  84   TAIREACKKLNKIELSECEIYASCEPCPMCFGAIHLSRLKRLVYGAKAEAAIAIG  138
+
+
+> sp|P78594|FCA1_CANAX Cytosine deaminase OS=Candida albicans OX=5476 
+GN=FCA1 PE=3 SV=1
+Length=150
+
+ Score = 129 bits (324),  Expect = 8e-38, Method: Composition-based stats.
+ Identities = 38/157 (24%), Positives = 59/157 (38%), Gaps = 22/157 (14%)
+
+Query  2    ISDADLKYLRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRNRV---KDATAHPEFAI  58
+            ++  D K L+  +D A+++  +G  P GS ++    T L +  N       A  H E + 
+Sbjct  1    MTFDDKKGLQVALDQAKKSYSEGGIPIGSCIISSDDTVLGQGHNERIQKHSAILHGEMSA  60
+
+Query  59   ARWAARHLTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGG--WLTEWGA  116
+               A R L        T+YT+   C MC  A    G  R+V   +   LG    L E G 
+Sbjct  61   LENAGR-LPGKTYKDCTIYTTLSPCSMCTGAILLYGFKRVVMGENVNFLGNEKLLIENGV  119
+
+Query  117  QAPPVATLPINTVAPGVVVDGPAEELAETMHNLYRAK  153
+            +                VV+   +E  + M    + K
+Sbjct  120  E----------------VVNLNDQECIDLMAKFIKEK  140
+
+
+> sp|O34598|GUAD_BACSU Guanine deaminase OS=Bacillus subtilis (strain 
+168) OX=224308 GN=guaD PE=1 SV=1
+Length=156
+
+ Score = 117 bits (293),  Expect = 6e-33, Method: Composition-based stats.
+ Identities = 36/100 (36%), Positives = 48/100 (48%), Gaps = 5/100 (5%)
+
+Query  7    LKYLRRCVDLAREALDDG-DEPFGSVLVDHTGTTLFEDRNRV---KDATAHPEFAIARWA  62
+              +L+R V LA E ++ G   PFG+V+V   G  + E +N V    D TAH E    R A
+Sbjct  4    ETFLKRAVTLACEGVNAGIGGPFGAVIVK-DGAIIAEGQNNVTTSNDPTAHAEVTAIRKA  62
+
+Query  63   ARHLTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYAT  102
+             + L   +     +YTS E CPMC  A  W     + YA 
+Sbjct  63   CKVLGAYQLDDCILYTSCEPCPMCLGAIYWARPKAVFYAA  102
+
+
+> sp|O94642|TAD2_SCHPO tRNA-specific adenosine deaminase subunit 
+tad2 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) 
+OX=284812 GN=tad2 PE=3 SV=2
+Length=389
+
+ Score = 108 bits (271),  Expect = 1e-27, Method: Composition-based stats.
+ Identities = 25/130 (19%), Positives = 39/130 (30%), Gaps = 9/130 (7%)
+
+Query  27   PFGSVLVDHTGTTLFEDRNRVK---DATAHPEFAIARWAARHLTPDRRARATVYTSGEHC  83
+            P   V V + G  +    N          H E         H         T+Y + E C
+Sbjct  238  PGSCVFV-YKGEVIGRGFNETNCSLSGIRHAELIAIEKILEHYPASVFKETTLYVTVEPC  296
+
+Query  84   PMCAAAHAWVGLGRIVYATSSAQLGGWLTEWGAQAPPVATLPINTVAPGVVVDGPAEELA  143
+             MCAAA   + +  + +   + + GG  + +           I+   P V       E  
+Sbjct  297  LMCAAALKQLHIKAVYFGCGNDRFGGCGSVFSIN----KDQSIDPSYP-VYPGLFYSEAV  351
+
+Query  144  ETMHNLYRAK  153
+              M   Y  +
+Sbjct  352  MLMREFYVQE  361
+
+
+> sp|Q9RV23|TILS_DEIRA tRNA(Ile)-lysidine synthase OS=Deinococcus 
+radiodurans (strain ATCC 13939 / DSM 20539 / JCM 16871 / 
+LMG 4051 / NBRC 15346 / NCIMB 9279 / R1 / VKM B-1422) OX=243230 
+GN=tilS PE=3 SV=2
+Length=582
+
+ Score = 105 bits (262),  Expect = 8e-26, Method: Composition-based stats.
+ Identities = 33/133 (25%), Positives = 50/133 (38%), Gaps = 9/133 (7%)
+
+Query  23   DGDEPFGSVLVDHTGTTLFEDRNRVK---DATAHPEFAIARWAARHLTPDRRARATVYTS  79
+              + P G+V+++  G  +   RN  +   D T H E A  R AA  L     +  T+  +
+Sbjct  421  RQEVPVGAVVLNADGEIVGRGRNTSREDGDMTCHAELAALREAAAGLGTPYLSDCTLVVT  480
+
+Query  80   GEHCPMCAAAHAWVGLGRIVYATSSAQLGGWLTEWGAQAPPVATLPINTVAPGVVVDGPA  139
+             E CPMC  A     +G IVY  ++ + G         A            P V     A
+Sbjct  481  LEPCPMCLGAALEARIGHIVYGAANPKAGALGGVSDLLADHWG------WRPTVQGGVRA  534
+
+Query  140  EELAETMHNLYRA  152
+             E A  +  ++  
+Sbjct  535  GEAARLLREVFGE  547
+
+
+> sp|Q12178|FCY1_YEAST Cytosine deaminase OS=Saccharomyces cerevisiae 
+(strain ATCC 204508 / S288c) OX=559292 GN=FCY1 PE=1 SV=1
+Length=158
+
+ Score = 95.5 bits (236),  Expect = 2e-24, Method: Composition-based stats.
+ Identities = 26/108 (24%), Positives = 38/108 (35%), Gaps = 5/108 (5%)
+
+Query  3    SDADLKYLRRCVDLAREALDDGDEPFG-SVLVDHTGTTLFEDRNRV---KDATAHPEFAI  58
+            S  D K +    + A     +G  P G  ++ +  G+ L    N       AT H E + 
+Sbjct  8    SKWDQKGMDIAYEEAALGYKEGGVPIGGCLINNKDGSVLGRGHNMRFQKGSATLHGEIST  67
+
+Query  59   ARWAARHLTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQ  106
+                 R L        T+YT+   C MC  A    G+ R V   +   
+Sbjct  68   LENCGR-LEGKVYKDTTLYTTLSPCDMCTGAIIMYGIPRCVVGENVNF  114
+
+
+> sp|Q72IF6|TILS_THET2 tRNA(Ile)-lysidine synthase OS=Thermus thermophilus 
+(strain HB27 / ATCC BAA-163 / DSM 7039) OX=262724 
+GN=tilS PE=3 SV=1
+Length=507
+
+ Score = 91.2 bits (225),  Expect = 7e-21, Method: Composition-based stats.
+ Identities = 32/133 (24%), Positives = 48/133 (36%), Gaps = 25/133 (19%)
+
+Query  21   LDDGDEPFGSVLVDHTGTTLFEDRNRV---KDATAHPEFAIARWAARHLTPDRRARATVY  77
+              +G+ P G+VLV      +    NRV   +D TAH E  + R A       R     +Y
+Sbjct  387  FREGEVPVGAVLVLPGR--VLRAHNRVEGLRDPTAHAEMLLLREAGPEARGGR-----LY  439
+
+Query  78   TSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWLTEWGAQAPPVATLPINTVAPGVVVDG  137
+             + E C MC  A A  G+  +VY   + + G               LP            
+Sbjct  440  VTLEPCLMCHHALAQAGVE-VVYGAENLKEGAL---------TRFGLPTRARG-----GV  484
+
+Query  138  PAEELAETMHNLY  150
+               E A+ + + +
+Sbjct  485  RERECAKLLRDFF  497
+
+
+> sp|Q5SI38|TILS_THET8 tRNA(Ile)-lysidine synthase OS=Thermus thermophilus 
+(strain HB8 / ATCC 27634 / DSM 579) OX=300852 GN=tilS 
+PE=3 SV=1
+Length=507
+
+ Score = 90.9 bits (224),  Expect = 8e-21, Method: Composition-based stats.
+ Identities = 32/133 (24%), Positives = 48/133 (36%), Gaps = 25/133 (19%)
+
+Query  21   LDDGDEPFGSVLVDHTGTTLFEDRNRV---KDATAHPEFAIARWAARHLTPDRRARATVY  77
+              +G+ P G+VLV      +    NRV   +D TAH E  + R A       R     +Y
+Sbjct  387  FREGEVPVGAVLVLPGR--VLRAHNRVEGLRDPTAHAEMLLLREAGPEARGGR-----LY  439
+
+Query  78   TSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWLTEWGAQAPPVATLPINTVAPGVVVDG  137
+             + E C MC  A A  G+  +VY   + + G               LP            
+Sbjct  440  VTLEPCLMCHHALAQAGVE-VVYGAENLKEGAL---------TRFGLPTRARG-----GV  484
+
+Query  138  PAEELAETMHNLY  150
+               E A+ + + +
+Sbjct  485  RERECAKLLRDFF  497
+
+
+> sp|Q89AB0|RIBD_BUCBP Riboflavin biosynthesis protein RibD OS=Buchnera 
+aphidicola subsp. Baizongia pistaciae (strain Bp) OX=224915 
+GN=ribD PE=3 SV=1
+Length=372
+
+ Score = 75.5 bits (184),  Expect = 2e-15, Method: Composition-based stats.
+ Identities = 28/157 (18%), Positives = 61/157 (39%), Gaps = 28/157 (18%)
+
+Query  5    ADLKYLRRCVDLARE-ALDDGDEP-FGSVLVDHTGTTLFEDRNRVKDATAHPEFAIARWA  62
+             D+ Y+++ + LA++ +L     P  G ++V +    +    ++ K    H E    +  
+Sbjct  2    KDIFYMKKAIKLAKKGSLTTSPNPNVGCIIV-NNNIIVGSGWHK-KTGMKHAEIYALK--  57
+
+Query  63   ARHLTPDRRARATVYTSGEHC------PMCAAAHAWVGLGRIVYAT--SSAQLGGWLTEW  114
+                + ++   AT Y + E C      P C  A    G+ R+V AT   + ++ G   +W
+Sbjct  58   ---TSGEKAKGATAYITLEPCSHFGKTPPCCVALTKYGISRVVIATLDPNPKVSGNGVKW  114
+
+Query  115  GAQAPPVATLPINTVAPGVVVDGPAEELAETMHNLYR  151
+              +   +           V +   ++E  +     ++
+Sbjct  115  LKKHGIL-----------VTIGTLSKESIKINKGFFQ  140
+
+
+> sp|Q8JFW4|ADAT3_DANRE Probable inactive tRNA-specific adenosine 
+deaminase-like protein 3 OS=Danio rerio OX=7955 GN=adat3 
+PE=2 SV=2
+Length=336
+
+ Score = 75.5 bits (184),  Expect = 2e-15, Method: Composition-based stats.
+ Identities = 23/141 (16%), Positives = 40/141 (28%), Gaps = 32/141 (23%)
+
+Query  9    YLRRCVDLAREALDDGDEPFGSVLVDH-TGTTLFEDRN--RVKDATAHPEFAIAR--WAA  63
+            Y+   V  A+   + G +  G+V+VD  T   +    +  R      H            
+Sbjct  172  YMCVAVKAAKSGRELGMDAVGAVIVDPKTEQIIAVAHDCKRGSHPLHHAVMVCIDLVACG  231
+
+Query  64   RHLTPDRRA--------------------------RATVYTSGEHCPMCAAAHAWVGLGR  97
+            +                                     +Y + E C MCA A     + R
+Sbjct  232  QDGGAYNYEKYPACRFSCSNSVCDGKETGLPYICTGYDLYVTREPCVMCAMALVHSRISR  291
+
+Query  98   IVYATSSAQLGGWLTEWGAQA  118
+            + Y  S+A  G + + +    
+Sbjct  292  VFYGASTAD-GAFGSRYKIHC  311
+
+
+> sp|O66534|RIBD_AQUAE Riboflavin biosynthesis protein RibD OS=Aquifex 
+aeolicus (strain VF5) OX=224324 GN=ribD PE=3 SV=1
+Length=356
+
+ Score = 73.9 bits (180),  Expect = 5e-15, Method: Composition-based stats.
+ Identities = 33/157 (21%), Positives = 58/157 (37%), Gaps = 24/157 (15%)
+
+Query  2    ISDADLKYLRRCVDLARE--ALDDGDEPFGSVLVDHTGTTLFEDRNRVKDATAHPEFAIA  59
+            I + D  Y++  + LA++       +   G+V+V   G  +    +  K    H E    
+Sbjct  2    IREIDKNYMKLALSLAKKRKGYTHPNPTVGAVVVKE-GKIVGLGYHE-KAGKPHAEVMAL  59
+
+Query  60   RWAARHLTPDRRARATVYTSGEHC------PMCAAAHAWVGLGRIVYATSSAQLGGWLTE  113
+              A      ++   AT+Y + E C      P C  A    G+ R+V AT        ++ 
+Sbjct  60   GQAG-----EKAKGATLYVTLEPCTHFGRTPPCTDAIIRSGIKRVVVATLDPN--PLMSG  112
+
+Query  114  WGAQAPPVATLPINTVAPGVVVDGPAEELAETMHNLY  150
+             G +    A + ++    GV      EE  E   + +
+Sbjct  113  KGVEKLRNAGIEVDV---GVC----EEEARELNEDFF  142
+
+
+> sp|P25539|RIBD_ECOLI Riboflavin biosynthesis protein RibD OS=Escherichia 
+coli (strain K12) OX=83333 GN=ribD PE=1 SV=1
+Length=367
+
+ Score = 71.2 bits (173),  Expect = 6e-14, Method: Composition-based stats.
+ Identities = 27/112 (24%), Positives = 39/112 (35%), Gaps = 19/112 (17%)
+
+Query  5    ADLKYLRRCVDLAREALDDGDEP---FGSVLVDHTGTTLFED-RNRVKDATAHPEFAIAR  60
+             D  Y+ R + LA+        P    G V+V   G  + E    R  +   H E    R
+Sbjct  2    QDEYYMARALKLAQRGRFTT-HPNPNVGCVIVK-DGEIVGEGYHQRAGEP--HAEVHALR  57
+
+Query  61   WAARHLTPDRRARATVYTSGEHC------PMCAAAHAWVGLGRIVYATSSAQ  106
+             A      ++   AT Y + E C      P C  A    G+ R+V +     
+Sbjct  58   MAG-----EKAKGATAYVTLEPCSHHGRTPPCCDALIAAGVARVVASMQDPN  104
+
+
+> sp|P17618|RIBD_BACSU Riboflavin biosynthesis protein RibD OS=Bacillus 
+subtilis (strain 168) OX=224308 GN=ribD PE=1 SV=1
+Length=361
+
+ Score = 70.8 bits (172),  Expect = 7e-14, Method: Composition-based stats.
+ Identities = 25/109 (23%), Positives = 41/109 (38%), Gaps = 15/109 (14%)
+
+Query  6    DLKYLRRCVDLAREALDDGDE-P-FGSVLVDHTGTTLFEDRNRVKDATAHPEFAIARWAA  63
+            +  Y++  +DLA++     +  P  G+V+V   G  +    + +K   AH E      A 
+Sbjct  2    EEYYMKLALDLAKQGEGQTESNPLVGAVVVK-DGQIVGMGAH-LKYGEAHAEVHAIHMAG  59
+
+Query  64   RHLTPDRRARATVYTSGEHC------PMCAAAHAWVGLGRIVYATSSAQ  106
+             H        A +Y + E C      P CA      G+ R+  A     
+Sbjct  60   AHA-----EGADIYVTLEPCSHYGKTPPCAELIINSGIKRVFVAMRDPN  103
+
+
+> sp|P57533|RIBD1_BUCAI Diaminohydroxyphosphoribosylamino-pyrimidine 
+deaminase OS=Buchnera aphidicola subsp. Acyrthosiphon 
+pisum (strain APS) OX=107806 GN=ribD1 PE=3 SV=2
+Length=147
+
+ Score = 66.2 bits (160),  Expect = 3e-13, Method: Composition-based stats.
+ Identities = 24/143 (17%), Positives = 47/143 (33%), Gaps = 19/143 (13%)
+
+Query  6    DLKYLRRCVDLAREALDDGDEP---FGSVLVDHTGTTLFEDRNRVKDATAHPEFAIARWA  62
+            D+ Y++R ++L++   +    P    G V+V      + E  +  +    H E      A
+Sbjct  3    DIFYMKRAIELSKLG-EFTTAPNPNVGCVIVK-NNIIVGEGWHE-QAGKNHAEINALIMA  59
+
+Query  63   ARHLTPDRRARATVYTSGEHC------PMCAAAHAWVGLGRIVYAT--SSAQLGGWLTEW  114
+                        T Y + E C      P C  A    G+ R+V +    + ++ G    +
+Sbjct  60   GEKAQ-----GGTAYVTLEPCNHFGKTPPCCNALIKSGINRVVISNIDPNPKISGNGILY  114
+
+Query  115  GAQAPPVATLPINTVAPGVVVDG  137
+              +        + +        G
+Sbjct  115  LKKHGICVKTGLLSKESKQYNKG  137
+
+
+> sp|Q8K9A4|RIBD1_BUCAP Diaminohydroxyphosphoribosylamino-pyrimidine 
+deaminase OS=Buchnera aphidicola subsp. Schizaphis graminum 
+(strain Sg) OX=198804 GN=ribD1 PE=3 SV=1
+Length=147
+
+ Score = 66.2 bits (160),  Expect = 3e-13, Method: Composition-based stats.
+ Identities = 25/157 (16%), Positives = 52/157 (33%), Gaps = 28/157 (18%)
+
+Query  5    ADLKYLRRCVDLAREA-LDDGDEP-FGSVLVDHTGTTLFEDRNRVKDATAHPEFAIARWA  62
+             D  Y+ R + L++         P  G V+V      + E  ++ K    H E      A
+Sbjct  2    KDRFYMTRAIKLSKLGEFTTSPNPNVGCVIV-QNKKIVGEGWHK-KYGENHAEINALNMA  59
+
+Query  63   ARHLTPDRRARATVYTSGEHC------PMCAAAHAWVGLGRIVYAT--SSAQLGGWLTEW  114
+                  ++   +T Y + E C      P C  A    G+  ++ ++   + ++ G     
+Sbjct  60   G-----EKAKGSTAYITLEPCNHFGKTPPCCDAIIQSGIKNVIISSLDPNPKVSGKGV--  112
+
+Query  115  GAQAPPVATLPINTVAPGVVVDGPAEELAETMHNLYR  151
+                     L +      V +   ++E  +     ++
+Sbjct  113  ---------LYLRKKGISVKIGLMSKESQKYNKGFFK  140
+
+
+> sp|B6TRH4|RIBD_MAIZE Riboflavin biosynthesis protein PYRD, chloroplastic 
+OS=Zea mays OX=4577 GN=PYRD PE=2 SV=1
+Length=392
+
+ Score = 68.9 bits (167),  Expect = 4e-13, Method: Composition-based stats.
+ Identities = 31/110 (28%), Positives = 40/110 (36%), Gaps = 17/110 (15%)
+
+Query  6    DLKYLRRCVDLAREALDDGDEP---FGSVLVDHTGTTLFEDRNRVKDATAHPEFAIARWA  62
+            D  Y+RRCV+LAR+A      P    G V+V   G  + E  +  K    H E    R A
+Sbjct  48   DAHYMRRCVELARKAAGHTS-PNPMVGCVIV-RDGRVVGEGFH-PKAGQPHAEVFALRDA  104
+
+Query  63   ARHLTPDRRARATVYTSGEHC------PMCAAAHAWVGLGRIVYATSSAQ  106
+                       AT Y S E C      P C  A     +  +V   +   
+Sbjct  105  GNLA-----ENATAYVSLEPCNHYGRTPPCTEALINAKVKEVVVGMTDPN  149
+
+
+> sp|Q8GWP5|RIBD_ARATH Riboflavin biosynthesis protein PYRD, chloroplastic 
+OS=Arabidopsis thaliana OX=3702 GN=PYRD PE=1 SV=1
+Length=426
+
+ Score = 68.1 bits (165),  Expect = 8e-13, Method: Composition-based stats.
+ Identities = 29/110 (26%), Positives = 40/110 (36%), Gaps = 17/110 (15%)
+
+Query  6    DLKYLRRCVDLAREALDDGDEP---FGSVLVDHTGTTLFEDRNRVKDATAHPEFAIARWA  62
+            D  Y+R+CV+LA+ A+     P    G V+V   G  + +  +  K    H E    R A
+Sbjct  74   DSFYMRKCVELAKRAIGCTS-PNPMVGCVIVK-DGDIVGQGFH-PKAGQPHAEVFALRDA  130
+
+Query  63   ARHLTPDRRARATVYTSGEHC------PMCAAAHAWVGLGRIVYATSSAQ  106
+                       AT Y S E C      P C  A     + R+V       
+Sbjct  131  GELA-----ENATAYVSLEPCNHYGRTPPCTEALIKAKVRRVVIGMVDPN  175
+
+
+> sp|P50853|RIBD_ACTPL Riboflavin biosynthesis protein RibD OS=Actinobacillus 
+pleuropneumoniae OX=715 GN=ribD PE=3 SV=2
+Length=376
+
+ Score = 65.8 bits (159),  Expect = 5e-12, Method: Composition-based stats.
+ Identities = 26/109 (24%), Positives = 41/109 (38%), Gaps = 15/109 (14%)
+
+Query  6    DLKYLRRCVDLAREALD-DGDEP-FGSVLVDHTGTTLFEDRNRVKDATAHPEFAIARWAA  63
+            DL Y+RR + LA++ L      P  G V+V   G  + E  +  K    H E        
+Sbjct  15   DLDYMRRAIALAKQGLGWTNPNPLVGCVIVK-NGEIVAEGYHE-KIGGWHAERNAVLHC-  71
+
+Query  64   RHLTPDRRARATVYTSGEHC------PMCAAAHAWVGLGRIVYATSSAQ  106
+                 +  + AT Y + E C      P C+      G+ ++   +S   
+Sbjct  72   ----KEDLSGATAYVTLEPCCHHGRTPPCSDLLIERGIKKVFIGSSDPN  116
+
+
+> sp|Q55158|RIBD_SYNY3 Riboflavin biosynthesis protein RibD OS=Synechocystis 
+sp. (strain PCC 6803 / Kazusa) OX=1111708 GN=ribD 
+PE=3 SV=1
+Length=368
+
+ Score = 65.1 bits (157),  Expect = 7e-12, Method: Composition-based stats.
+ Identities = 27/111 (24%), Positives = 43/111 (39%), Gaps = 17/111 (15%)
+
+Query  5    ADLKYLRRCVDLAREALDDGDEP---FGSVLVDHTGTTLFEDRNRVKDATAHPEFAIARW  61
+            +D  ++RRC+ LA+ A+     P    GSV+V      + +  +  +    H E      
+Sbjct  3    SDQTHMRRCLTLAKTAIGKT-APNPLVGSVIV-QGDEIVGQGFH-PQAGQPHGEIFALWE  59
+
+Query  62   AARHLTPDRRARATVYTSGEHC------PMCAAAHAWVGLGRIVYATSSAQ  106
+            A      DR   AT+Y + E C      P C  A    G+ ++V       
+Sbjct  60   AG-----DRAKGATLYVNLEPCNHQGRTPPCTEAIIQAGIAKVVVGMVDPN  105
+
+
+> sp|Q6PAT0|ADAT3_MOUSE Probable inactive tRNA-specific adenosine 
+deaminase-like protein 3 OS=Mus musculus OX=10090 GN=Adat3 
+PE=1 SV=1
+Length=349
+
+ Score = 64.7 bits (156),  Expect = 9e-12, Method: Composition-based stats.
+ Identities = 23/132 (17%), Positives = 33/132 (25%), Gaps = 40/132 (30%)
+
+Query  28   FGSVLVDH-TGTTLFEDRN--RVKDATAHPEFAIARWAARHLT-----------------  67
+             G+V+VD  +   L    +   V     H         A+                    
+Sbjct  195  VGAVVVDPASDRVLATGHDCSSVASPLLHAVMVCIDLVAQGQGRGSCDLRSHPACSFTQA  254
+
+Query  68   -------------------PDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLG  108
+                               P       +Y + E C MCA A     + R+ Y   S   G
+Sbjct  255  TATQGARAGSVRKLDEDSLPYVCTGYDLYVTREPCVMCAMALVHARIQRVFYGAPSPD-G  313
+
+Query  109  GWLTEWGAQAPP  120
+               T +   A P
+Sbjct  314  ALGTLFRVHARP  325
+
+
+> sp|P30648|DCTD_CAEEL Probable deoxycytidylate deaminase OS=Caenorhabditis 
+elegans OX=6239 GN=ZK643.2 PE=3 SV=1
+Length=197
+
+ Score = 62.0 bits (149),  Expect = 3e-11, Method: Composition-based stats.
+ Identities = 20/121 (17%), Positives = 36/121 (30%), Gaps = 27/121 (22%)
+
+Query  3    SDADLKYLRRCVDLAREALDDGDEP---FGSVLVDHTGTTLFEDRN-------------R  46
+            ++ DLK  +R + +A+       +P    G V+VD     +    N              
+Sbjct  44   TNGDLKKHQRFLRIAKVTSLRSKDPNTQVGCVIVDKDNCIVSVGYNGFPIGVDDDVFRWD  103
+
+Query  47   VKDA-------TAHPEFAIARWAARHLTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIV  99
+             +D          H E         +         TVY +   C  CA       + ++ 
+Sbjct  104  KEDPEDNKHLYVVHAEMNAI----INKRCTTLHDCTVYVTLFPCNKCAQMLIQSRVKKVY  159
+
+Query  100  Y  100
+            +
+Sbjct  160  F  160
+
+
+> sp|P70814|RIBD_BACAM Riboflavin biosynthesis protein RibD OS=Bacillus 
+amyloliquefaciens OX=1390 GN=ribD PE=3 SV=1
+Length=371
+
+ Score = 63.5 bits (153),  Expect = 3e-11, Method: Composition-based stats.
+ Identities = 22/110 (20%), Positives = 36/110 (33%), Gaps = 17/110 (15%)
+
+Query  6    DLKYLRRCVDLAREALDDGDEP---FGSVLVDHTGTTLFEDRNRVKDATAHPEFAIARWA  62
+            +  Y+   ++LAR        P    G+V+V      +    + ++   AH E      A
+Sbjct  2    EEYYMNTAIELARRGEGQTQ-PNPLVGAVVVKK-RQIVGMGAH-LQYGEAHAEVHAINMA  58
+
+Query  63   ARHLTPDRRARATVYTSGEHC------PMCAAAHAWVGLGRIVYATSSAQ  106
+                       A +Y + E C      P CA      G+ R+  A     
+Sbjct  59   GSLA-----KGADLYVTLEPCSHYGKTPPCAELIMKSGIKRVFIAVEDPN  103
+
+
+> sp|Q561R2|ADAT3_RAT Probable inactive tRNA-specific adenosine 
+deaminase-like protein 3 OS=Rattus norvegicus OX=10116 GN=Adat3 
+PE=2 SV=1
+Length=349
+
+ Score = 62.7 bits (151),  Expect = 5e-11, Method: Composition-based stats.
+ Identities = 18/72 (25%), Positives = 23/72 (32%), Gaps = 1/72 (1%)
+
+Query  49   DATAHPEFAIARWAARHLTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLG  108
+             AT        R       P       +Y + E C MCA A     + R+ Y   S   G
+Sbjct  255  TATQSARAGSVRKLDEDSLPYVCTGYDLYVTREPCVMCAMALVHARIQRVFYGAPSPD-G  313
+
+Query  109  GWLTEWGAQAPP  120
+               T +   A P
+Sbjct  314  ALGTRFRVHARP  325
+
+
+> sp|P9WPH1|RIBD_MYCTU Riboflavin biosynthesis protein RibD OS=Mycobacterium 
+tuberculosis (strain ATCC 25618 / H37Rv) OX=83332 
+GN=ribD PE=1 SV=1
+Length=339
+
+ Score = 62.7 bits (151),  Expect = 5e-11, Method: Composition-based stats.
+ Identities = 25/99 (25%), Positives = 32/99 (32%), Gaps = 14/99 (14%)
+
+Query  27   PFGSVLVDHTGTTLFEDRNRVKDATAHPEFAIARWAARHLTPDRRARATVYTSGEHC---  83
+            P G+V+VD  G  +            H E    R A         A A V  + E C   
+Sbjct  32   PVGAVIVDPNGRIVGAGGTE-PAGGDHAEVVALRRAGGLA-----AGAIVVVTMEPCNHY  85
+
+Query  84   ---PMCAAAHAWVGLGRIVYATSSAQ--LGGWLTEWGAQ  117
+               P C  A     +G +VYA +      GG      A 
+Sbjct  86   GKTPPCVNALIEARVGTVVYAVADPNGIAGGGAGRLSAA  124
+
+
+> sp|P9WPH0|RIBD_MYCTO Riboflavin biosynthesis protein RibD OS=Mycobacterium 
+tuberculosis (strain CDC 1551 / Oshkosh) OX=83331 
+GN=ribD PE=3 SV=1
+Length=339
+
+ Score = 62.7 bits (151),  Expect = 5e-11, Method: Composition-based stats.
+ Identities = 25/99 (25%), Positives = 32/99 (32%), Gaps = 14/99 (14%)
+
+Query  27   PFGSVLVDHTGTTLFEDRNRVKDATAHPEFAIARWAARHLTPDRRARATVYTSGEHC---  83
+            P G+V+VD  G  +            H E    R A         A A V  + E C   
+Sbjct  32   PVGAVIVDPNGRIVGAGGTE-PAGGDHAEVVALRRAGGLA-----AGAIVVVTMEPCNHY  85
+
+Query  84   ---PMCAAAHAWVGLGRIVYATSSAQ--LGGWLTEWGAQ  117
+               P C  A     +G +VYA +      GG      A 
+Sbjct  86   GKTPPCVNALIEARVGTVVYAVADPNGIAGGGAGRLSAA  124
+
+
+> sp|P44326|RIBD_HAEIN Riboflavin biosynthesis protein RibD OS=Haemophilus 
+influenzae (strain ATCC 51907 / DSM 11121 / KW20 
+/ Rd) OX=71421 GN=ribD PE=3 SV=1
+Length=372
+
+ Score = 60.8 bits (146),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 27/112 (24%), Positives = 40/112 (36%), Gaps = 15/112 (13%)
+
+Query  3    SDADLKYLRRCVDLAREA-LDDGDEP-FGSVLVDHTGTTLFEDRNRVKDATAHPEFAIAR  60
+            S  D  +++R +DLA +        P  G VLV   G  + E  +  K    H E     
+Sbjct  5    SSQDCVFMQRALDLAAKGQYTTTPNPSVGCVLVK-NGEIVGEGFH-FKAGQPHAERVALA  62
+
+Query  61   WAARHLTPDRRARATVYTSGEHC------PMCAAAHAWVGLGRIVYATSSAQ  106
+             A  +        AT Y + E C      P CA      G+ +++ A     
+Sbjct  63   QAGENA-----KGATAYVTLEPCAHYGRTPPCALGLIEAGVVKVIAAMQDPN  109
+
+
+> sp|Q96EY9|ADAT3_HUMAN Probable inactive tRNA-specific adenosine 
+deaminase-like protein 3 OS=Homo sapiens OX=9606 GN=ADAT3 
+PE=1 SV=1
+Length=351
+
+ Score = 60.8 bits (146),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 23/134 (17%), Positives = 33/134 (25%), Gaps = 42/134 (31%)
+
+Query  28   FGSVLVDH-TGTTLFEDRNRV--KDATAHPEFAIARWAARHLT-----------------  67
+             G+V+VD  +   L    +     +   H         AR                    
+Sbjct  195  VGAVVVDPASDRVLATGHDCSCADNPLLHAVMVCVDLVARGQGRGTYDFRPFPACSFAPA  254
+
+Query  68   ---------------------PDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQ  106
+                                 P       +Y + E C MCA A     + R+ Y   S  
+Sbjct  255  AAPQAVRAGAVRKLDADEDGLPYLCTGYDLYVTREPCAMCAMALVHARILRVFYGAPSPD  314
+
+Query  107  LGGWLTEWGAQAPP  120
+             G   T +   A P
+Sbjct  315  -GALGTRFRIHARP  327
+
+
+> sp|Q9URQ3|TAD3_YEAST tRNA-specific adenosine deaminase subunit 
+TAD3 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) 
+OX=559292 GN=TAD3 PE=1 SV=1
+Length=322
+
+ Score = 60.8 bits (146),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 23/111 (21%), Positives = 34/111 (31%), Gaps = 13/111 (12%)
+
+Query  18   REALDDGDEPFGSVLVDHT---GTTLFEDRNRVKD--ATAHPEFAIARWAARHL------  66
+            + A      P  SV VD +      + ED    ++     H      R     L      
+Sbjct  176  KMATAGKQFPMVSVFVDPSRKKDKVVAEDGRNCENSLPIDHSVMVGIRAVGERLREGVDE  235
+
+Query  67   --TPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWLTEWG  115
+                       VY + E C MC+ A     + R+V+ T   + G      G
+Sbjct  236  DANSYLCLDYDVYLTHEPCSMCSMALIHSRVRRVVFLTEMQRTGSLKLTSG  286
+
+
+> sp|P00814|DCTD_BPT2 Deoxycytidylate deaminase OS=Enterobacteria 
+phage T2 OX=10664 GN=CD PE=1 SV=1
+Length=188
+
+ Score = 57.4 bits (137),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 17/54 (31%), Positives = 27/54 (50%), Gaps = 2/54 (4%)
+
+Query  53   HPEFAIARWAARHLTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQ  106
+            H E     +AAR+ +      AT+Y +   CP CA A A  G+ ++VY  +  +
+Sbjct  104  HAELNAILFAARNGSS--IEGATMYVTLSPCPDCAKAIAQSGIKKLVYCETYDK  155
+
+
+> sp|Q5RC69|DCTD_PONAB Deoxycytidylate deaminase OS=Pongo abelii 
+OX=9601 GN=DCTD PE=2 SV=1
+Length=178
+
+ Score = 57.0 bits (136),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 14/116 (12%), Positives = 33/116 (28%), Gaps = 27/116 (23%)
+
+Query  7    LKYLRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRNRVKDA----------TA----  52
+              ++      A+ + D   +  G+ +V+     +    N + +           TA    
+Sbjct  17   EYFMAVAFLSAQRSKDPNSQ-VGACIVNSENKIVGIGYNGMPNGCSDDQLPWRRTAKNKL  75
+
+Query  53   --------HPEFAIARWAARHLTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVY  100
+                    H E         +         ++Y +   C  CA      G+  +++
+Sbjct  76   DTKYPYVCHAELNAI----MNKNSTDVKGCSMYVALFPCNECAKLIIQAGIKEVIF  127
+
+
+> sp|P16006|DCTD_BPT4 Deoxycytidylate deaminase OS=Enterobacteria 
+phage T4 OX=10665 GN=CD PE=1 SV=1
+Length=193
+
+ Score = 57.0 bits (136),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 17/54 (31%), Positives = 27/54 (50%), Gaps = 2/54 (4%)
+
+Query  53   HPEFAIARWAARHLTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQ  106
+            H E     +AAR+ +      AT+Y +   CP CA A A  G+ ++VY  +  +
+Sbjct  104  HAELNAILFAARNGSS--IEGATMYVTLSPCPDCAKAIAQSGIKKLVYCETYDK  155
+
+
+> sp|P32321|DCTD_HUMAN Deoxycytidylate deaminase OS=Homo sapiens 
+OX=9606 GN=DCTD PE=1 SV=2
+Length=178
+
+ Score = 56.6 bits (135),  Expect = 3e-09, Method: Composition-based stats.
+ Identities = 14/116 (12%), Positives = 33/116 (28%), Gaps = 27/116 (23%)
+
+Query  7    LKYLRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRNRVKDA----------TA----  52
+              ++      A+ + D   +  G+ +V+     +    N + +           TA    
+Sbjct  17   EYFMAVAFLSAQRSKDPNSQ-VGACIVNSENKIVGIGYNGMPNGCSDDVLPWRRTAENKL  75
+
+Query  53   --------HPEFAIARWAARHLTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVY  100
+                    H E         +         ++Y +   C  CA      G+  +++
+Sbjct  76   DTKYPYVCHAELNAI----MNKNSTDVKGCSMYVALFPCNECAKLIIQAGIKEVIF  127
+
+
+> sp|Q5M9G0|DCTD_RAT Deoxycytidylate deaminase OS=Rattus norvegicus 
+OX=10116 GN=Dctd PE=2 SV=1
+Length=178
+
+ Score = 56.2 bits (134),  Expect = 4e-09, Method: Composition-based stats.
+ Identities = 14/116 (12%), Positives = 33/116 (28%), Gaps = 27/116 (23%)
+
+Query  7    LKYLRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRNRVKDA----------TA----  52
+              ++      A+ + D   +  G+ +V+     +    N + +           TA    
+Sbjct  17   EYFMAVAFLSAQRSKDPSSQ-VGACIVNTENKIVGIGYNGMPNGCSDDLLPWRRTAENKL  75
+
+Query  53   --------HPEFAIARWAARHLTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVY  100
+                    H E         +         ++Y +   C  CA      G+  +++
+Sbjct  76   DTKYPYVCHAELNAI----MNKNSADVKGCSMYVALFPCNECAKLIIQAGIKEVIF  127
+
+
+> sp|Q8K2D6|DCTD_MOUSE Deoxycytidylate deaminase OS=Mus musculus 
+OX=10090 GN=Dctd PE=2 SV=1
+Length=178
+
+ Score = 56.2 bits (134),  Expect = 4e-09, Method: Composition-based stats.
+ Identities = 14/116 (12%), Positives = 33/116 (28%), Gaps = 27/116 (23%)
+
+Query  7    LKYLRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRNRVKDA----------TA----  52
+              ++      A+ + D   +  G+ +V+     +    N + +           TA    
+Sbjct  17   EYFMAVAFLSAQRSKDPSSQ-VGACIVNTENKIVGIGYNGMPNGCSDDLLPWRRTAENKL  75
+
+Query  53   --------HPEFAIARWAARHLTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVY  100
+                    H E         +         ++Y +   C  CA      G+  +++
+Sbjct  76   DTKYPYVCHAELNAI----MNKNSADVKGCSMYVALFPCNECAKLIIQAGIKEVIF  127
+
+
+> sp|O24750|RIBD_CORAM Riboflavin biosynthesis protein RibD OS=Corynebacterium 
+ammoniagenes OX=1697 GN=ribD PE=3 SV=1
+Length=337
+
+ Score = 57.0 bits (136),  Expect = 5e-09, Method: Composition-based stats.
+ Identities = 23/142 (16%), Positives = 42/142 (30%), Gaps = 24/142 (17%)
+
+Query  11   RRCVDLAREALDDGDE--------PFGSVLVDHTGTTLFEDRNRVKDATAHPEFAIARWA  62
+             + +  A  A    +         P G+V++  +G  +     +      H E      A
+Sbjct  16   EQALRTAMSAG--WEVRGTTSPNPPVGAVIISTSGEIVGTGATQPVGGV-HAEVQALADA  72
+
+Query  63   ARHLTPDRRARATVYTSGEHCPM------CAAAHAWVGLGRIVY--ATSSAQLGGWLTEW  114
+            A      +   AT   + E C        C  A    G+  +++  +  +   GG     
+Sbjct  73   AG-----KTEGATAVVTLEPCRHTGRTGPCTQALIEAGIKDVLFLHSDPNPSAGGGEQVL  127
+
+Query  115  GAQAPPVATLPINTVAPGVVVD  136
+                  V  LP     P  ++ 
+Sbjct  128  VDAGINVVQLPSPEGVPDALIP  149
+
+
+> sp|P87241|RIB2_SCHPO Diaminohydroxyphosphoribosylamino-pyrimidine 
+deaminase OS=Schizosaccharomyces pombe (strain 972 / ATCC 
+24843) OX=284812 GN=rib2 PE=3 SV=1
+Length=405
+
+ Score = 54.7 bits (130),  Expect = 3e-08, Method: Composition-based stats.
+ Identities = 16/103 (16%), Positives = 32/103 (31%), Gaps = 9/103 (9%)
+
+Query  7    LKYLRRCVDLAREALDDGDE-PFGSVLVDHTGTTLFEDRNRVKDATAHPEFAIARWAARH  65
+             +Y+ + ++ A++          G+V+V   G  +    +R +    H E          
+Sbjct  259  EEYMLKALNEAKKCEPTDSAFCVGAVIV-QNGKIVSTGYSRERPGNTHAEECAIEKFMLK  317
+
+Query  66   LTPDRRARATVYTSGEHC-------PMCAAAHAWVGLGRIVYA  101
+               D    A +Y++ E C         C           +V  
+Sbjct  318  NPTDSLEGAIMYSTMEPCSKRLSKKVSCTDLIVKQKFSTVVLG  360
+
+
+> sp|F4KH86|TAD3_ARATH tRNA-specific adenosine deaminase TAD3 OS=Arabidopsis 
+thaliana OX=3702 GN=TAD3 PE=1 SV=1
+Length=400
+
+ Score = 54.3 bits (129),  Expect = 4e-08, Method: Composition-based stats.
+ Identities = 13/47 (28%), Positives = 18/47 (38%), Gaps = 0/47 (0%)
+
+Query  67   TPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWLTE  113
+             P       ++   E C MCA A     + RI YA  +   GG  + 
+Sbjct  323  RPYLCTGYDIFLLLEPCTMCAMALVHQRIKRIFYAFPNTTAGGLGSV  369
+
+
+> sp|Q9P7N4|TAD3_SCHPO tRNA-specific adenosine deaminase subunit 
+tad3 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) 
+OX=284812 GN=tad3 PE=3 SV=1
+Length=315
+
+ Score = 53.9 bits (128),  Expect = 7e-08, Method: Composition-based stats.
+ Identities = 24/123 (20%), Positives = 45/123 (37%), Gaps = 16/123 (13%)
+
+Query  10   LRRCVDLAREALDDGDEPFGSVLVDHT-GTTLF---EDRNRVKDATAHPEFAIARWAARH  65
+            L   ++ A  +   G+    + + D T  T L    ++R+++K+   H         A+ 
+Sbjct  164  LEDLINAAGASHKHGEIGCAAAIYDPTTDTVLAVSVDERSKLKNPINHCVMNAINLVAKR  223
+
+Query  66   ----------LTPDRR--ARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWLTE  113
+                       + DR      TV  + E C MC+       + R++Y       GG  + 
+Sbjct  224  ELSRRQNRTDGSKDRYLCKDLTVVMTHEPCVMCSMGLLHSRIRRLIYCKKQPLTGGIESL  283
+
+Query  114  WGA  116
+            +G 
+Sbjct  284  YGI  286
+
+
+> sp|Q9Z735|RIBD_CHLPN Riboflavin biosynthesis protein RibD OS=Chlamydia 
+pneumoniae OX=83558 GN=ribD PE=3 SV=1
+Length=376
+
+ Score = 52.3 bits (124),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 23/122 (19%), Positives = 42/122 (34%), Gaps = 21/122 (17%)
+
+Query  3    SDADLKYLRRCVDLAREALDDGDEP----FGSVLVDHTGTTLFEDRNRVKDATAHPEFAI  58
+            S+  L ++RR +++  +       P     G V+V      + E  +       H E   
+Sbjct  5    SEQQLFFMRRAIEIGEKGRITA--PPNPWVGCVVVQE-NRIIGEGFHAYAGG-PHAEELA  60
+
+Query  59   ARWAARHLTPDRRARATVYTSGEH------CPMCAAAHAWVGLGRIVYAT--SSAQLGGW  110
+             + A+  ++      + VY S E       CP CA       + R+  A      ++ G 
+Sbjct  61   IQNASMPIS-----GSDVYVSLEPCSHFGSCPPCANLLIKHKVSRVFVALVDPDPKVAGQ  115
+
+Query  111  LT  112
+              
+Sbjct  116  GI  117
+
+
+> sp|Q9PLJ6|RIBD_CHLMU Riboflavin biosynthesis protein RibD OS=Chlamydia 
+muridarum (strain MoPn / Nigg) OX=243161 GN=ribD PE=3 
+SV=2
+Length=371
+
+ Score = 52.3 bits (124),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 20/112 (18%), Positives = 32/112 (29%), Gaps = 15/112 (13%)
+
+Query  3    SDADLKYLRRCVDLAREALD-DGDEP-FGSVLVDHTGTTLFEDRNRVKDATAHPEFAIAR  60
+            S+  L ++R  V L           P  G V+V   G  +    ++    + H E    +
+Sbjct  5    SEQQLFFMREAVALGERGRIFAPPNPWVGCVIVK-NGCIIGRGWHKGI-GSPHAEVCAFQ  62
+
+Query  61   WAARHLTPDRRARATVYTSGEHC------PMCAAAHAWVGLGRIVYATSSAQ  106
+                         A VY + E C      P C        +  +  A     
+Sbjct  63   D-----QTSSLVGADVYVTLEPCCHFGRTPPCVDLLIKSKVSSVYIALLDPD  109
+
+
+> sp|O84735|RIBD_CHLTR Riboflavin biosynthesis protein RibD OS=Chlamydia 
+trachomatis (strain D/UW-3/Cx) OX=272561 GN=ribD PE=3 
+SV=1
+Length=375
+
+ Score = 51.6 bits (122),  Expect = 4e-07, Method: Composition-based stats.
+ Identities = 19/113 (17%), Positives = 35/113 (31%), Gaps = 15/113 (13%)
+
+Query  2    ISDADLKYLRRCVDLAREALD-DGDEP-FGSVLVDHTGTTLFEDRNRVKDATAHPEFAIA  59
+            +S+  L ++R+ V L  +        P  G V+V   G  + E  ++    + H E    
+Sbjct  4    LSEQQLFFMRKAVALGEKGRIFAPPNPWVGCVIVK-NGCVIGEGWHQGI-GSPHAEVCAV  61
+
+Query  60   RWAARHLTPDRRARATVYTSGEHC------PMCAAAHAWVGLGRIVYATSSAQ  106
+            +             A V+ + E C      P C        +  +        
+Sbjct  62   QD-----QKCSLEGAEVFVTLEPCCHFGRTPPCVDLLIKSKVAAVYVGLLDPD  109
+
+
+> sp|P32393|COMEB_BACSU ComE operon protein 2 OS=Bacillus subtilis 
+(strain 168) OX=224308 GN=comEB PE=3 SV=1
+Length=189
+
+ Score = 50.8 bits (120),  Expect = 4e-07, Method: Composition-based stats.
+ Identities = 15/98 (15%), Positives = 26/98 (27%), Gaps = 21/98 (21%)
+
+Query  28   FGSVLVDHTGTTLFEDRN---------------RVKDA---TAHPEFAIARWAARHLTPD  69
+             G+ +V      +    N                + D    T H E       ++   P 
+Sbjct  28   VGATIV-RDKRMIAGGYNGSIAGGVHCADEGCLMIDDHCARTIHAEMNAILQCSKFGVPT  86
+
+Query  70   RRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQL  107
+                A +Y +   C  C  +    G+  + YA      
+Sbjct  87   --DGAEIYVTHYPCIQCCKSIIQAGIKTVYYAEDYKTH  122
+
+
+> sp|O22000|DCTD_BPMD2 Deoxycytidylate deaminase OS=Mycobacterium 
+phage D29 OX=28369 GN=36.1 PE=3 SV=2
+Length=128
+
+ Score = 48.5 bits (114),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 24/126 (19%), Positives = 36/126 (29%), Gaps = 35/126 (28%)
+
+Query  4    DADLKYLRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRNRVKDATA-----------  52
+            D D  +L      A+ + D      G+V+V           N      A           
+Sbjct  5    DWDEYFLGIATAAAQRS-DCERSKVGAVVVK-DRRVRGTGYNGAPAGAAGCSTCPRRLSG  62
+
+Query  53   ------------------HPEFAIARWAARHLTPDRRARATVYTSGEHCPMCAAAHAWVG  94
+                              H E     +  R    +    AT+Y + E C  C+   A  G
+Sbjct  63   AVPGVSDYSSGATRCVAVHAEANALLYCDR----EDLIGATLYVTREPCYACSNLIAASG  118
+
+Query  95   LGRIVY  100
+            + R+VY
+Sbjct  119  IERVVY  124
+
+
+> sp|P33968|YLXG_ALIFS Uncharacterized deaminase in luxG 3'region 
+OS=Aliivibrio fischeri OX=668 PE=3 SV=1
+Length=147
+
+ Score = 47.3 bits (111),  Expect = 4e-06, Method: Composition-based stats.
+ Identities = 20/119 (17%), Positives = 35/119 (29%), Gaps = 25/119 (21%)
+
+Query  8    KYLRRCVDLAREALDDGDEP---FGSVLVDHTGTTLFEDRNRVKDA--------------  50
+            K+ +R   +A        +P    G+V+  H    +    N                   
+Sbjct  4    KWAKRFFQMAELVGSWSKDPSTQVGAVITKH-NRIVSVGFNGYPHGVSDSADTDEREIKY  62
+
+Query  51   --TAHPEFAIARWAARHLTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQL  107
+              T H E     +A R L         ++ +   CP CAA     G+ ++     +   
+Sbjct  63   LKTLHAEENAILFAKRDL-----EGCDIWVTHFPCPNCAAKIIQTGISKVYCPEQTEDF  116
+
+
+> sp|Q9VWA2|DCTD_DROME Probable deoxycytidylate deaminase OS=Drosophila 
+melanogaster OX=7227 GN=CG6951 PE=2 SV=1
+Length=203
+
+ Score = 47.7 bits (112),  Expect = 5e-06, Method: Composition-based stats.
+ Identities = 19/122 (16%), Positives = 37/122 (30%), Gaps = 32/122 (26%)
+
+Query  6    DLKYLRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRN--------------RVKDAT  51
+            D  ++   +  A+ + D      G+ +VD     +    N              + K  +
+Sbjct  29   DDYFMATSLLSAKRSKDPV-TQVGACIVDSQNRIVAIGYNGFPRNCSDDVFPWSKAKKGS  87
+
+Query  52   A-------------HPEFAIARWAARHLTPDRRARATVYTSGEHCPMCAAAHAWVGLGRI  98
+                          H E      A  +      +   +YT+   C  CA     VG+ ++
+Sbjct  88   QEFDPLEDKKMYVVHAE----ANAILNSNGMSLSGTRLYTTLFPCNECAKLIIQVGISQV  143
+
+Query  99   VY  100
+            +Y
+Sbjct  144  LY  145
+
+
+> sp|Q12362|RIB2_YEAST Bifunctional protein RIB2 OS=Saccharomyces 
+cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=RIB2 
+PE=1 SV=1
+Length=591
+
+ Score = 47.7 bits (112),  Expect = 9e-06, Method: Composition-based stats.
+ Identities = 21/150 (14%), Positives = 37/150 (25%), Gaps = 25/150 (17%)
+
+Query  8    KYLRRCVDLA-REALDDGDEPFGSVLVDHTGTTLFEDRNRVKDATAHPEFAIA---RWAA  63
+            +Y+   V  A +          G+VLV H    L    +R      H E           
+Sbjct  437  RYMEMAVKEAGKCGPTKTAFSVGAVLV-HGTQVLATGYSRELPGNTHAEQCALIKYSQLH  495
+
+Query  64   RHLTPDRRARATVYTSGEHCPM-------CAAAHA--WVGLGRIVYA--TSSAQLGGWLT  112
+             +          +YT+ E C         C          +G +          +    +
+Sbjct  496  PNCPTIVPMGTVLYTTMEPCSFRLSGNEPCCDRILATQGAIGTVFVGVMEPDTFVKNNTS  555
+
+Query  113  EWGAQAPPVATLPINTVAPGVVVDGPAEEL  142
+                ++              + + G  EE 
+Sbjct  556  LNKLES---------HGVNYIQIPGYEEEC  576
+
+
+> sp|P06773|DCTD_YEAST Deoxycytidylate deaminase OS=Saccharomyces 
+cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=DCD1 
+PE=1 SV=2
+Length=312
+
+ Score = 44.3 bits (103),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 20/123 (16%), Positives = 31/123 (25%), Gaps = 29/123 (24%)
+
+Query  6    DLKYLRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRNRVKDATA-------------  52
+            D  +++    LA    +      G V+V      +    N                    
+Sbjct  164  DSYFMKLA-TLAASRSNCMKRRVGCVIVREC-RVIATGYNGTPRHLTNCFNGGCPRCNDG  221
+
+Query  53   -----------HPEFAIARWAARHLTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYA  101
+                       H E      A R         AT+Y     C  C+      G+  +VY+
+Sbjct  222  DSRNLHTCLCLHAEENALLEAGRDRVG---QNATLYCDTCPCLTCSVKIVQTGISEVVYS  278
+
+Query  102  TSS  104
+             S 
+Sbjct  279  QSY  281
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.136    0.392    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0417    0.140     1.90     42.6     43.6 
+
+Effective search space used: 6815338080
+Results from round 3
+
+
+Query= 5XKO
+
+Length=156
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P68397|TADA_SHIFL tRNA-specific adenosine deaminase OS=Shige...  183     7e-59
+  sp|P68398|TADA_ECOLI tRNA-specific adenosine deaminase OS=Esche...  183     7e-59
+  sp|Q8FF24|TADA_ECOL6 tRNA-specific adenosine deaminase OS=Esche...  182     2e-58
+  sp|Q8XA44|TADA_ECO57 tRNA-specific adenosine deaminase OS=Esche...  182     2e-58
+  sp|P44931|TADA_HAEIN tRNA-specific adenosine deaminase OS=Haemo...  181     5e-58
+  sp|Q7CQ08|TADA_SALTY tRNA-specific adenosine deaminase OS=Salmo...  179     3e-57
+  sp|Q8XGY4|TADA_SALTI tRNA-specific adenosine deaminase OS=Salmo...  179     3e-57
+  sp|Q1RGK7|TADA_RICBR tRNA-specific adenosine deaminase OS=Ricke...  165     2e-52
+  sp|P68999|TADA_STRP1 tRNA-specific adenosine deaminase OS=Strep...  167     2e-52
+  sp|Q99W51|TADA_STAAM tRNA-specific adenosine deaminase OS=Staph...  165     4e-52
+  sp|P0DA21|TADA_STRPQ tRNA-specific adenosine deaminase OS=Strep...  165     5e-52
+  sp|Q5XE14|TADA_STRP6 tRNA-specific adenosine deaminase OS=Strep...  165     5e-52
+  sp|P0DA20|TADA_STRP3 tRNA-specific adenosine deaminase OS=Strep...  165     5e-52
+  sp|Q8P2R7|TADA_STRP8 tRNA-specific adenosine deaminase OS=Strep...  165     8e-52
+  sp|Q4UJW9|TADA_RICFE tRNA-specific adenosine deaminase OS=Ricke...  164     9e-52
+  sp|Q89AM8|TADA_BUCBP tRNA-specific adenosine deaminase OS=Buchn...  165     9e-52
+  sp|P21335|TADA_BACSU tRNA-specific adenosine deaminase OS=Bacil...  164     2e-51
+  sp|P57343|TADA_BUCAI tRNA-specific adenosine deaminase OS=Buchn...  163     3e-51
+  sp|Q92G39|TADA_RICCN tRNA-specific adenosine deaminase OS=Ricke...  162     6e-51
+  sp|O67050|TADA_AQUAE tRNA-specific adenosine deaminase OS=Aquif...  162     6e-51
+  sp|Q68Y02|TADA_RICTY tRNA-specific adenosine deaminase OS=Ricke...  162     8e-51
+  sp|Q5E9J7|ADAT2_BOVIN tRNA-specific adenosine deaminase 2 OS=Bo...  163     1e-50
+  sp|Q6P6J0|ADAT2_MOUSE tRNA-specific adenosine deaminase 2 OS=Mu...  162     3e-50
+  sp|Q0P4H0|ADAT2_XENTR tRNA-specific adenosine deaminase 2 OS=Xe...  161     3e-50
+  sp|Q9ZCC6|TADA_RICPR tRNA-specific adenosine deaminase OS=Ricke...  160     4e-50
+  sp|Q7Z6V5|ADAT2_HUMAN tRNA-specific adenosine deaminase 2 OS=Ho...  161     5e-50
+  sp|Q8K9R4|TADA_BUCAP tRNA-specific adenosine deaminase OS=Buchn...  159     8e-50
+  sp|Q4V7V8|ADAT2_XENLA tRNA-specific adenosine deaminase 2 OS=Xe...  159     3e-49
+  sp|A9CK16|TADA_AGRFC tRNA-specific adenosine deaminase OS=Agrob...  157     5e-49
+  sp|Q9S7I0|TADA_ARATH tRNA(adenine(34)) deaminase, chloroplastic...  165     6e-47
+  sp|Q5RIV4|ADAT2_DANRE tRNA-specific adenosine deaminase 2 OS=Da...  152     4e-46
+  sp|C1D1Q9|TILS_DEIDV tRNA(Ile)-lysidine synthase OS=Deinococcus...  155     3e-44
+  sp|P47058|TAD2_YEAST tRNA-specific adenosine deaminase subunit ...  144     1e-42
+  sp|Q6IDB6|TAD2_ARATH tRNA-specific adenosine deaminase TAD2 OS=...  141     4e-42
+  sp|P78594|FCA1_CANAX Cytosine deaminase OS=Candida albicans OX=...  131     1e-38
+  sp|O94642|TAD2_SCHPO tRNA-specific adenosine deaminase subunit ...  135     1e-37
+  sp|O59834|FCYS_SCHPO Probable cytosine deaminase OS=Schizosacch...  126     2e-36
+  sp|Q8K9A4|RIBD1_BUCAP Diaminohydroxyphosphoribosylamino-pyrimid...  124     5e-36
+  sp|O66534|RIBD_AQUAE Riboflavin biosynthesis protein RibD OS=Aq...  128     3e-35
+  sp|Q94BU8|GSDA_ARATH Guanosine deaminase OS=Arabidopsis thalian...  122     1e-34
+  sp|P57533|RIBD1_BUCAI Diaminohydroxyphosphoribosylamino-pyrimid...  121     1e-34
+  sp|Q89AB0|RIBD_BUCBP Riboflavin biosynthesis protein RibD OS=Bu...  126     2e-34
+  sp|P25539|RIBD_ECOLI Riboflavin biosynthesis protein RibD OS=Es...  125     6e-34
+  sp|Q9RV23|TILS_DEIRA tRNA(Ile)-lysidine synthase OS=Deinococcus...  125     5e-33
+  sp|O34598|GUAD_BACSU Guanine deaminase OS=Bacillus subtilis (st...  115     5e-32
+  sp|Q12178|FCY1_YEAST Cytosine deaminase OS=Saccharomyces cerevi...  113     2e-31
+  sp|P50853|RIBD_ACTPL Riboflavin biosynthesis protein RibD OS=Ac...  116     1e-30
+  sp|Q8GWP5|RIBD_ARATH Riboflavin biosynthesis protein PYRD, chlo...  114     1e-29
+  sp|P17618|RIBD_BACSU Riboflavin biosynthesis protein RibD OS=Ba...  113     2e-29
+  sp|P44326|RIBD_HAEIN Riboflavin biosynthesis protein RibD OS=Ha...  112     7e-29
+  sp|Q55158|RIBD_SYNY3 Riboflavin biosynthesis protein RibD OS=Sy...  110     3e-28
+  sp|Q8JFW4|ADAT3_DANRE Probable inactive tRNA-specific adenosine...  109     4e-28
+  sp|Q5SI38|TILS_THET8 tRNA(Ile)-lysidine synthase OS=Thermus the...  109     2e-27
+  sp|Q72IF6|TILS_THET2 tRNA(Ile)-lysidine synthase OS=Thermus the...  109     2e-27
+  sp|B6TRH4|RIBD_MAIZE Riboflavin biosynthesis protein PYRD, chlo...  107     4e-27
+  sp|P70814|RIBD_BACAM Riboflavin biosynthesis protein RibD OS=Ba...  107     4e-27
+  sp|O84735|RIBD_CHLTR Riboflavin biosynthesis protein RibD OS=Ch...  104     3e-26
+  sp|Q9Z735|RIBD_CHLPN Riboflavin biosynthesis protein RibD OS=Ch...  103     1e-25
+  sp|Q9PLJ6|RIBD_CHLMU Riboflavin biosynthesis protein RibD OS=Ch...  102     2e-25
+  sp|Q6PAT0|ADAT3_MOUSE Probable inactive tRNA-specific adenosine...  102     3e-25
+  sp|Q5RC69|DCTD_PONAB Deoxycytidylate deaminase OS=Pongo abelii ...  97.4    6e-25
+  sp|P32321|DCTD_HUMAN Deoxycytidylate deaminase OS=Homo sapiens ...  97.0    8e-25
+  sp|Q5M9G0|DCTD_RAT Deoxycytidylate deaminase OS=Rattus norvegic...  97.0    9e-25
+  sp|Q8K2D6|DCTD_MOUSE Deoxycytidylate deaminase OS=Mus musculus ...  97.0    9e-25
+  sp|P30648|DCTD_CAEEL Probable deoxycytidylate deaminase OS=Caen...  97.4    1e-24
+  sp|Q12362|RIB2_YEAST Bifunctional protein RIB2 OS=Saccharomyces...  102     1e-24
+  sp|P87241|RIB2_SCHPO Diaminohydroxyphosphoribosylamino-pyrimidi...  99.7    4e-24
+  sp|Q561R2|ADAT3_RAT Probable inactive tRNA-specific adenosine d...  97.8    1e-23
+  sp|P33968|YLXG_ALIFS Uncharacterized deaminase in luxG 3'region...  92.4    2e-23
+  sp|Q96EY9|ADAT3_HUMAN Probable inactive tRNA-specific adenosine...  96.6    2e-23
+  sp|P9WPH1|RIBD_MYCTU Riboflavin biosynthesis protein RibD OS=My...  95.5    6e-23
+  sp|P9WPH0|RIBD_MYCTO Riboflavin biosynthesis protein RibD OS=My...  95.5    6e-23
+  sp|O24750|RIBD_CORAM Riboflavin biosynthesis protein RibD OS=Co...  93.5    3e-22
+  sp|Q9VWA2|DCTD_DROME Probable deoxycytidylate deaminase OS=Dros...  89.3    1e-21
+  sp|P32393|COMEB_BACSU ComE operon protein 2 OS=Bacillus subtili...  86.2    2e-20
+  sp|P06773|DCTD_YEAST Deoxycytidylate deaminase OS=Saccharomyces...  88.1    2e-20
+  sp|Q9P7N4|TAD3_SCHPO tRNA-specific adenosine deaminase subunit ...  87.4    5e-20
+  sp|O22000|DCTD_BPMD2 Deoxycytidylate deaminase OS=Mycobacterium...  80.8    4e-19
+  sp|Q9URQ3|TAD3_YEAST tRNA-specific adenosine deaminase subunit ...  82.4    4e-18
+  sp|P00814|DCTD_BPT2 Deoxycytidylate deaminase OS=Enterobacteria...  76.6    7e-17
+  sp|P16006|DCTD_BPT4 Deoxycytidylate deaminase OS=Enterobacteria...  75.4    2e-16
+  sp|F4KH86|TAD3_ARATH tRNA-specific adenosine deaminase TAD3 OS=...  69.3    2e-13
+
+Sequences not found previously or not previously below threshold:
+
+  sp|O43012|DCTD_SCHPO Deoxycytidylate deaminase OS=Schizosacchar...  87.0    8e-20
+  sp|Q9STY4|RIBRX_ARATH Riboflavin biosynthesis protein PYRR, chl...  61.2    2e-10
+  sp|K7WIZ6|RIBRX_MAIZE Riboflavin biosynthesis protein PYRR, chl...  53.1    1e-07
+  sp|Q8BMD5|CDAC1_MOUSE Cytidine and dCMP deaminase domain-contai...  46.9    2e-05
+  sp|Q5U3U4|CDAC1_DANRE Cytidine and dCMP deaminase domain-contai...  46.9    2e-05
+  sp|Q9BWV3|CDAC1_HUMAN Cytidine and dCMP deaminase domain-contai...  46.5    2e-05
+  sp|Q4R683|CDAC1_MACFA Cytidine and dCMP deaminase domain-contai...  46.2    3e-05
+  sp|Q5RAX4|CDAC1_PONAB Cytidine and dCMP deaminase domain-contai...  46.2    3e-05
+
+
+> sp|P68397|TADA_SHIFL tRNA-specific adenosine deaminase OS=Shigella 
+flexneri OX=623 GN=tadA PE=3 SV=2
+Length=167
+
+ Score = 183 bits (465),  Expect = 7e-59, Method: Composition-based stats.
+ Identities = 40/155 (26%), Positives = 64/155 (41%), Gaps = 9/155 (6%)
+
+Query  2    ISDADLKYLRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRNRV---KDATAHPEFAI  58
+            +  +   ++R  + LA+ A D+ + P G+VLV H    + E  NR     D TAH E   
+Sbjct  4    VEFSHEYWMRHALTLAKRAWDEREVPVGAVLV-HNNRVIGEGWNRPIGRHDPTAHAEIMA  62
+
+Query  59   ARWAARHLTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWLTEWGAQA  118
+             R     +   R   AT+Y + E C MCA A     +GR+V+    A+ G   +      
+Sbjct  63   LRQGGLVMQNYRLIDATLYVTLEPCVMCAGAMIHSRIGRVVFGARDAKTGAAGSLMDVLH  122
+
+Query  119  PPVATLPINTVAPGVVVDGPAEELAETMHNLYRAK  153
+                  P       +     A+E A  + + +R +
+Sbjct  123  -----HPGMNHRVEITEGILADECAALLSDFFRMR  152
+
+
+> sp|P68398|TADA_ECOLI tRNA-specific adenosine deaminase OS=Escherichia 
+coli (strain K12) OX=83333 GN=tadA PE=1 SV=2
+Length=167
+
+ Score = 183 bits (465),  Expect = 7e-59, Method: Composition-based stats.
+ Identities = 40/155 (26%), Positives = 64/155 (41%), Gaps = 9/155 (6%)
+
+Query  2    ISDADLKYLRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRNRV---KDATAHPEFAI  58
+            +  +   ++R  + LA+ A D+ + P G+VLV H    + E  NR     D TAH E   
+Sbjct  4    VEFSHEYWMRHALTLAKRAWDEREVPVGAVLV-HNNRVIGEGWNRPIGRHDPTAHAEIMA  62
+
+Query  59   ARWAARHLTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWLTEWGAQA  118
+             R     +   R   AT+Y + E C MCA A     +GR+V+    A+ G   +      
+Sbjct  63   LRQGGLVMQNYRLIDATLYVTLEPCVMCAGAMIHSRIGRVVFGARDAKTGAAGSLMDVLH  122
+
+Query  119  PPVATLPINTVAPGVVVDGPAEELAETMHNLYRAK  153
+                  P       +     A+E A  + + +R +
+Sbjct  123  -----HPGMNHRVEITEGILADECAALLSDFFRMR  152
+
+
+> sp|Q8FF24|TADA_ECOL6 tRNA-specific adenosine deaminase OS=Escherichia 
+coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC) OX=199310 
+GN=tadA PE=3 SV=2
+Length=167
+
+ Score = 182 bits (461),  Expect = 2e-58, Method: Composition-based stats.
+ Identities = 40/155 (26%), Positives = 64/155 (41%), Gaps = 9/155 (6%)
+
+Query  2    ISDADLKYLRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRNRV---KDATAHPEFAI  58
+            +  +   ++R  + LA+ A D+ + P G+VLV H    + E  NR     D TAH E   
+Sbjct  4    VEFSHEYWMRHAMTLAKRAWDEREVPVGAVLV-HNNRVIGEGWNRPIGRHDPTAHAEIMA  62
+
+Query  59   ARWAARHLTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWLTEWGAQA  118
+             R     +   R   AT+Y + E C MCA A     +GR+V+    A+ G   +      
+Sbjct  63   LRQGGLVMQNYRLIDATLYVTLEPCVMCAGAMIHSRIGRVVFGARDAKTGAAGSLMDVLH  122
+
+Query  119  PPVATLPINTVAPGVVVDGPAEELAETMHNLYRAK  153
+                  P       +     A+E A  + + +R +
+Sbjct  123  -----HPGMNHRVEITEGILADECAALLSDFFRMR  152
+
+
+> sp|Q8XA44|TADA_ECO57 tRNA-specific adenosine deaminase OS=Escherichia 
+coli O157:H7 OX=83334 GN=tadA PE=3 SV=2
+Length=167
+
+ Score = 182 bits (461),  Expect = 2e-58, Method: Composition-based stats.
+ Identities = 40/155 (26%), Positives = 64/155 (41%), Gaps = 9/155 (6%)
+
+Query  2    ISDADLKYLRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRNRV---KDATAHPEFAI  58
+            +  +   ++R  + LA+ A D+ + P G+VLV H    + E  NR     D TAH E   
+Sbjct  4    VEFSHEYWMRHAMTLAKRAWDEREVPVGAVLV-HNNRVIGEGWNRPIGRHDPTAHAEIMA  62
+
+Query  59   ARWAARHLTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWLTEWGAQA  118
+             R     +   R   AT+Y + E C MCA A     +GR+V+    A+ G   +      
+Sbjct  63   LRQGGLVMQNYRLIDATLYVTLEPCVMCAGAMIHSRIGRVVFGARDAKTGAAGSLMDVLH  122
+
+Query  119  PPVATLPINTVAPGVVVDGPAEELAETMHNLYRAK  153
+                  P       +     A+E A  + + +R +
+Sbjct  123  -----HPGMNHRVEITEGILADECAALLSDFFRMR  152
+
+
+> sp|P44931|TADA_HAEIN tRNA-specific adenosine deaminase OS=Haemophilus 
+influenzae (strain ATCC 51907 / DSM 11121 / KW20 / 
+Rd) OX=71421 GN=tadA PE=3 SV=1
+Length=173
+
+ Score = 181 bits (459),  Expect = 5e-58, Method: Composition-based stats.
+ Identities = 40/154 (26%), Positives = 66/154 (43%), Gaps = 8/154 (5%)
+
+Query  3    SDADLKYLRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRNRV---KDATAHPEFAIA  59
+            S+ D K +R  ++LA +A   G+ P G+VLVD     + E  N      D TAH E    
+Sbjct  8    SEFDEKMMRYALELADKAEALGEIPVGAVLVDDARNIIGEGWNLSIVQSDPTAHAEIIAL  67
+
+Query  60   RWAARHLTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWLTEWGAQAP  119
+            R  A+++   R   +T+Y + E C MCA A     + R+V+  S  + G   + +     
+Sbjct  68   RNGAKNIQNYRLLNSTLYVTLEPCTMCAGAILHSRIKRLVFGASDYKTGAIGSRF-----  122
+
+Query  120  PVATLPINTVAPGVVVDGPAEELAETMHNLYRAK  153
+                         V     AEE ++ +   ++ +
+Sbjct  123  HFFDDYKMNHTLEVTSGVLAEECSQKLSTFFQKR  156
+
+
+> sp|Q7CQ08|TADA_SALTY tRNA-specific adenosine deaminase OS=Salmonella 
+typhimurium (strain LT2 / SGSC1412 / ATCC 700720) OX=99287 
+GN=tadA PE=3 SV=2
+Length=172
+
+ Score = 179 bits (454),  Expect = 3e-57, Method: Composition-based stats.
+ Identities = 39/152 (26%), Positives = 61/152 (40%), Gaps = 9/152 (6%)
+
+Query  5    ADLKYLRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRNRV---KDATAHPEFAIARW  61
+                ++R  + LA+ A D+ + P G+VLV H    + E  NR     D TAH E    R 
+Sbjct  7    DHEYWMRHALTLAKRAWDEREVPVGAVLV-HNHRVIGEGWNRPIGRHDPTAHAEIMALRQ  65
+
+Query  62   AARHLTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWLTEWGAQAPPV  121
+                L   R    T+Y + E C MCA A     +GR+V+    A+ G   +         
+Sbjct  66   GGLVLQNYRLLDTTLYVTLEPCVMCAGAMVHSRIGRVVFGARDAKTGAAGSLIDVLH---  122
+
+Query  122  ATLPINTVAPGVVVDGPAEELAETMHNLYRAK  153
+               P       ++     +E A  + + +R +
+Sbjct  123  --HPGMNHRVEIIEGVLRDECATLLSDFFRMR  152
+
+
+> sp|Q8XGY4|TADA_SALTI tRNA-specific adenosine deaminase OS=Salmonella 
+typhi OX=90370 GN=tadA PE=3 SV=2
+Length=172
+
+ Score = 179 bits (454),  Expect = 3e-57, Method: Composition-based stats.
+ Identities = 39/152 (26%), Positives = 61/152 (40%), Gaps = 9/152 (6%)
+
+Query  5    ADLKYLRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRNRV---KDATAHPEFAIARW  61
+                ++R  + LA+ A D+ + P G+VLV H    + E  NR     D TAH E    R 
+Sbjct  7    DHEYWMRHALTLAKRAWDEREVPVGAVLV-HNHRVIGEGWNRPIGRHDPTAHAEIMALRQ  65
+
+Query  62   AARHLTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWLTEWGAQAPPV  121
+                L   R    T+Y + E C MCA A     +GR+V+    A+ G   +         
+Sbjct  66   GGLVLQNYRLLDTTLYVTLEPCVMCAGAMVHSRIGRVVFGARDAKTGAAGSLIDVLH---  122
+
+Query  122  ATLPINTVAPGVVVDGPAEELAETMHNLYRAK  153
+               P       ++     +E A  + + +R +
+Sbjct  123  --HPGMNHRVEIIEGVLRDECATLLSDFFRMR  152
+
+
+> sp|Q1RGK7|TADA_RICBR tRNA-specific adenosine deaminase OS=Rickettsia 
+bellii (strain RML369-C) OX=336407 GN=tadA PE=3 SV=2
+Length=145
+
+ Score = 165 bits (419),  Expect = 2e-52, Method: Composition-based stats.
+ Identities = 33/147 (22%), Positives = 54/147 (37%), Gaps = 9/147 (6%)
+
+Query  10   LRRCVDLAREALDDGDEPFGSVLVDHTGT-TLFEDRN---RVKDATAHPEFAIARWAARH  65
+            +R  +  A  A    + P G+V+VD      + +  N      +A  H E      A R 
+Sbjct  1    MREALKQAEIAFSKNEVPVGAVIVDRENQKIISKSYNNTEEKNNALYHAEIIAINEACRI  60
+
+Query  66   LTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWLTEWGAQAPPVATLP  125
+            ++    +   +Y + E C MCAAA A   L R+ Y  S ++ G   +             
+Sbjct  61   ISSKNLSDYDIYVTLEPCAMCAAAIAHSRLKRLFYGASDSKHGAVESNLR-----YFNSK  115
+
+Query  126  INTVAPGVVVDGPAEELAETMHNLYRA  152
+                 P +     AE+ A  M   ++ 
+Sbjct  116  ACFHRPEIYSGIFAEDSALLMKGFFKK  142
+
+
+> sp|P68999|TADA_STRP1 tRNA-specific adenosine deaminase OS=Streptococcus 
+pyogenes serotype M1 OX=301447 GN=tadA PE=3 SV=1
+Length=171
+
+ Score = 167 bits (422),  Expect = 2e-52, Method: Composition-based stats.
+ Identities = 28/152 (18%), Positives = 52/152 (34%), Gaps = 9/152 (6%)
+
+Query  4    DADLKYLRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRN---RVKDATAHPEFAIAR  60
+            +    +++  +  A ++L   + P G V+V   G  +    N       A  H E     
+Sbjct  6    EEQTYFMQEALKEAEKSLQKAEIPIGCVIVK-DGEIIGRGHNAREESNQAIMHAEMMAIN  64
+
+Query  61   WAARHLTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWLTEWGAQAPP  120
+             A  H    R    T++ + E C MC+ A     +  ++Y  S+ + GG  + +      
+Sbjct  65   EANAHEGNWRLLDTTLFVTIEPCVMCSGAIGLARIPHVIYGASNQKFGGVDSLYQILTDE  124
+
+Query  121  VATLPINTVAPGVVVDGPAEELAETMHNLYRA  152
+                 +            A + A  M   +R 
+Sbjct  125  RLNHRVQVER-----GLLAADCANIMQTFFRQ  151
+
+
+> sp|Q99W51|TADA_STAAM tRNA-specific adenosine deaminase OS=Staphylococcus 
+aureus (strain Mu50 / ATCC 700699) OX=158878 GN=tadA 
+PE=1 SV=1
+Length=156
+
+ Score = 165 bits (419),  Expect = 4e-52, Method: Composition-based stats.
+ Identities = 28/150 (19%), Positives = 53/150 (35%), Gaps = 9/150 (6%)
+
+Query  6    DLKYLRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRN---RVKDATAHPEFAIARWA  62
+            D+ ++   ++ A++A   G+ P G+++       +    N    ++  TAH E      A
+Sbjct  4    DIYFMTLAIEEAKKAAQLGEVPIGAIITK-DDEVIARAHNLRETLQQPTAHAEHIAIERA  62
+
+Query  63   ARHLTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWLTEWGAQAPPVA  122
+            A+ L   R    T+Y + E C MCA       + R+VY     + G   +          
+Sbjct  63   AKVLGSWRLEGCTLYVTLEPCVMCAGTIVMSRIPRVVYGADDPKGGCSGSLMNLLQQSNF  122
+
+Query  123  TLPINTVAPGVVVDGPAEELAETMHNLYRA  152
+                      V      E  +  +   ++ 
+Sbjct  123  -----NHRAIVDKGVLKEACSTLLTTFFKN  147
+
+
+> sp|P0DA21|TADA_STRPQ tRNA-specific adenosine deaminase OS=Streptococcus 
+pyogenes serotype M3 (strain SSI-1) OX=193567 GN=tadA 
+PE=3 SV=1
+Length=171
+
+ Score = 165 bits (419),  Expect = 5e-52, Method: Composition-based stats.
+ Identities = 28/152 (18%), Positives = 52/152 (34%), Gaps = 9/152 (6%)
+
+Query  4    DADLKYLRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRN---RVKDATAHPEFAIAR  60
+            +    +++  +  A ++L   + P G V+V   G  +    N       A  H E     
+Sbjct  6    EEQTYFMQEALKEAEKSLQKAEIPIGCVIVK-DGEIIGRGHNAREESNQAIMHAEMMAIN  64
+
+Query  61   WAARHLTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWLTEWGAQAPP  120
+             A  H    R    T++ + E C MC+ A     +  ++Y  S+ + GG  + +      
+Sbjct  65   EANAHEGNWRLLDTTLFVTIEPCVMCSGAIGLARIPHVIYGASNQKFGGADSLYQILTDE  124
+
+Query  121  VATLPINTVAPGVVVDGPAEELAETMHNLYRA  152
+                 +            A + A  M   +R 
+Sbjct  125  RLNHRVQVER-----GLLAADCANIMQTFFRQ  151
+
+
+> sp|Q5XE14|TADA_STRP6 tRNA-specific adenosine deaminase OS=Streptococcus 
+pyogenes serotype M6 (strain ATCC BAA-946 / MGAS10394) 
+OX=286636 GN=tadA PE=1 SV=2
+Length=171
+
+ Score = 165 bits (419),  Expect = 5e-52, Method: Composition-based stats.
+ Identities = 28/152 (18%), Positives = 52/152 (34%), Gaps = 9/152 (6%)
+
+Query  4    DADLKYLRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRN---RVKDATAHPEFAIAR  60
+            +    +++  +  A ++L   + P G V+V   G  +    N       A  H E     
+Sbjct  6    EEQTYFMQEALKEAEKSLQKAEIPIGCVIVK-DGEIIGRGHNAREESNQAIMHAEMMAIN  64
+
+Query  61   WAARHLTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWLTEWGAQAPP  120
+             A  H    R    T++ + E C MC+ A     +  ++Y  S+ + GG  + +      
+Sbjct  65   EANAHEGNWRLLDTTLFVTIEPCVMCSGAIGLARIPHVIYGASNQKFGGADSLYQILTDE  124
+
+Query  121  VATLPINTVAPGVVVDGPAEELAETMHNLYRA  152
+                 +            A + A  M   +R 
+Sbjct  125  RLNHRVQVER-----GLLAADCANIMQTFFRQ  151
+
+
+> sp|P0DA20|TADA_STRP3 tRNA-specific adenosine deaminase OS=Streptococcus 
+pyogenes serotype M3 (strain ATCC BAA-595 / MGAS315) 
+OX=198466 GN=tadA PE=3 SV=1
+Length=171
+
+ Score = 165 bits (419),  Expect = 5e-52, Method: Composition-based stats.
+ Identities = 28/152 (18%), Positives = 52/152 (34%), Gaps = 9/152 (6%)
+
+Query  4    DADLKYLRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRN---RVKDATAHPEFAIAR  60
+            +    +++  +  A ++L   + P G V+V   G  +    N       A  H E     
+Sbjct  6    EEQTYFMQEALKEAEKSLQKAEIPIGCVIVK-DGEIIGRGHNAREESNQAIMHAEMMAIN  64
+
+Query  61   WAARHLTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWLTEWGAQAPP  120
+             A  H    R    T++ + E C MC+ A     +  ++Y  S+ + GG  + +      
+Sbjct  65   EANAHEGNWRLLDTTLFVTIEPCVMCSGAIGLARIPHVIYGASNQKFGGADSLYQILTDE  124
+
+Query  121  VATLPINTVAPGVVVDGPAEELAETMHNLYRA  152
+                 +            A + A  M   +R 
+Sbjct  125  RLNHRVQVER-----GLLAADCANIMQTFFRQ  151
+
+
+> sp|Q8P2R7|TADA_STRP8 tRNA-specific adenosine deaminase OS=Streptococcus 
+pyogenes serotype M18 (strain MGAS8232) OX=186103 
+GN=tadA PE=3 SV=1
+Length=159
+
+ Score = 165 bits (417),  Expect = 8e-52, Method: Composition-based stats.
+ Identities = 28/152 (18%), Positives = 52/152 (34%), Gaps = 9/152 (6%)
+
+Query  4    DADLKYLRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRN---RVKDATAHPEFAIAR  60
+            +    +++  +  A ++L   + P G V+V   G  +    N       A  H E     
+Sbjct  6    EEQTYFMQEALKEAEKSLQKAEIPIGCVIVK-DGEIIGRGHNAREESNQAIMHAEMMAIN  64
+
+Query  61   WAARHLTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWLTEWGAQAPP  120
+             A  H    R    T++ + E C MC+ A     +  ++Y  S+ + GG  + +      
+Sbjct  65   EANAHEGNWRLLDTTLFVTIEPCVMCSGAIGLARIPHVIYGASNQKFGGADSLYQILTDE  124
+
+Query  121  VATLPINTVAPGVVVDGPAEELAETMHNLYRA  152
+                 +            A + A  M   +R 
+Sbjct  125  RLNHRVQVER-----GLLAADCANIMQTFFRQ  151
+
+
+> sp|Q4UJW9|TADA_RICFE tRNA-specific adenosine deaminase OS=Rickettsia 
+felis (strain ATCC VR-1525 / URRWXCal2) OX=315456 GN=tadA 
+PE=3 SV=2
+Length=144
+
+ Score = 164 bits (416),  Expect = 9e-52, Method: Composition-based stats.
+ Identities = 31/147 (21%), Positives = 52/147 (35%), Gaps = 9/147 (6%)
+
+Query  10   LRRCVDLAREALDDGDEPFGSVLVDHTGT-TLFEDRN---RVKDATAHPEFAIARWAARH  65
+            + + +  A  A D  + P G+V+VD      +    N      +A  H E      A   
+Sbjct  1    MEQALKQAGIAFDKNEVPVGAVIVDRLNQKIIVSSHNNTEEKNNALYHAEIIAINEACNL  60
+
+Query  66   LTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWLTEWGAQAPPVATLP  125
+            ++        +Y + E C MCAAA A   L R+ Y  S ++ G   +             
+Sbjct  61   ISSKNLNDYDIYVTLEPCAMCAAAIAHSRLKRLFYGASDSKHGAVESNLR-----YFNSS  115
+
+Query  126  INTVAPGVVVDGPAEELAETMHNLYRA  152
+            +    P +     AE+    M   ++ 
+Sbjct  116  VCFYRPEIYSGILAEDSRLLMKEFFKR  142
+
+
+> sp|Q89AM8|TADA_BUCBP tRNA-specific adenosine deaminase OS=Buchnera 
+aphidicola subsp. Baizongia pistaciae (strain Bp) OX=224915 
+GN=tadA PE=3 SV=1
+Length=162
+
+ Score = 165 bits (417),  Expect = 9e-52, Method: Composition-based stats.
+ Identities = 34/155 (22%), Positives = 61/155 (39%), Gaps = 9/155 (6%)
+
+Query  2    ISDADLKYLRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRNRV---KDATAHPEFAI  58
+            + D+D  +++  + LA+ +   G+ P G+VLV    T + +  N      D TAH E   
+Sbjct  1    MHDSDKYFMKCAIFLAKISEMIGEVPVGAVLVF-NNTIIGKGLNSSILNHDPTAHAEIKA  59
+
+Query  59   ARWAARHLTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWLTEWGAQA  118
+             R  A+ L   R    T+Y + E C MC  A     + R+V+      L     +     
+Sbjct  60   LRNGAKFLKNYRLLHTTLYVTLEPCIMCYGAIIHSRISRLVFGAKYKNL-----QKYICC  114
+
+Query  119  PPVATLPINTVAPGVVVDGPAEELAETMHNLYRAK  153
+                 +  N     +  +    E +  + + ++ K
+Sbjct  115  KNHFFINKNFRKISITQEVLESECSNLLSSFFKRK  149
+
+
+> sp|P21335|TADA_BACSU tRNA-specific adenosine deaminase OS=Bacillus 
+subtilis (strain 168) OX=224308 GN=tadA PE=1 SV=1
+Length=161
+
+ Score = 164 bits (414),  Expect = 2e-51, Method: Composition-based stats.
+ Identities = 36/151 (24%), Positives = 58/151 (38%), Gaps = 9/151 (6%)
+
+Query  5    ADLKYLRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRNRVKD---ATAHPEFAIARW  61
+             D  Y++  +  A++A + G+ P G+VLV   G  +    N  +    + AH E  +   
+Sbjct  3    QDELYMKEAIKEAKKAEEKGEVPIGAVLVI-NGEIIARAHNLRETEQRSIAHAEMLVIDE  61
+
+Query  62   AARHLTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWLTEWGAQAPPV  121
+            A + L   R   AT+Y + E CPMCA A     + ++V+     + G   T         
+Sbjct  62   ACKALGTWRLEGATLYVTLEPCPMCAGAVVLSRVEKVVFGAFDPKGGCSGTLMNLLQEER  121
+
+Query  122  ATLPINTVAPGVVVDGPAEELAETMHNLYRA  152
+                       VV     EE    +   +R 
+Sbjct  122  F-----NHQAEVVSGVLEEECGGMLSAFFRE  147
+
+
+> sp|P57343|TADA_BUCAI tRNA-specific adenosine deaminase OS=Buchnera 
+aphidicola subsp. Acyrthosiphon pisum (strain APS) OX=107806 
+GN=tadA PE=3 SV=1
+Length=161
+
+ Score = 163 bits (413),  Expect = 3e-51, Method: Composition-based stats.
+ Identities = 29/153 (19%), Positives = 56/153 (37%), Gaps = 9/153 (6%)
+
+Query  4    DADLKYLRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRNRV---KDATAHPEFAIAR  60
+            + D  +++  +  A  A + G+ P G++LV      +    N      D TAH E    R
+Sbjct  4    EKDKNWMKIALKYAYYAKEKGEIPIGAILVFKE-RIIGIGWNSSISKNDPTAHAEIIALR  62
+
+Query  61   WAARHLTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWLTEWGAQAPP  120
+             A + +   R    T+Y + + C MC  A     + R+V+  +        +       P
+Sbjct  63   GAGKKIKNYRLLNTTLYVTLQPCIMCCGAIIQSRIKRLVFGANCNSSDHRFSLKNLFCDP  122
+
+Query  121  VATLPINTVAPGVVVDGPAEELAETMHNLYRAK  153
+                 ++             E ++ + N ++ K
+Sbjct  123  QKDYKLDIKKN-----VMQRECSDILINFFQKK  150
+
+
+> sp|Q92G39|TADA_RICCN tRNA-specific adenosine deaminase OS=Rickettsia 
+conorii (strain ATCC VR-613 / Malish 7) OX=272944 GN=tadA 
+PE=3 SV=2
+Length=153
+
+ Score = 162 bits (411),  Expect = 6e-51, Method: Composition-based stats.
+ Identities = 31/147 (21%), Positives = 52/147 (35%), Gaps = 9/147 (6%)
+
+Query  10   LRRCVDLAREALDDGDEPFGSVLVDHTGT-TLFEDRN---RVKDATAHPEFAIARWAARH  65
+            + + +  A+ A D  + P G+V+VD      +    N      +A  H E      A   
+Sbjct  1    MEQALKQAKIAFDKNEVPVGAVVVDRLHQKIIASTHNNTEEKNNALYHAEIIAINEACNL  60
+
+Query  66   LTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWLTEWGAQAPPVATLP  125
+            ++        +Y + E C MCAAA A   L R+ Y  S ++ G   +             
+Sbjct  61   ISSKNLNDYDIYVTLEPCAMCAAAIAHSRLKRLFYGASDSKHGVVESNLR-----YFNSS  115
+
+Query  126  INTVAPGVVVDGPAEELAETMHNLYRA  152
+                 P +     AE+    M   ++ 
+Sbjct  116  ACFHRPEIYSGILAEDSGLLMKEFFKR  142
+
+
+> sp|O67050|TADA_AQUAE tRNA-specific adenosine deaminase OS=Aquifex 
+aeolicus (strain VF5) OX=224324 GN=tadA PE=1 SV=1
+Length=151
+
+ Score = 162 bits (411),  Expect = 6e-51, Method: Composition-based stats.
+ Identities = 31/149 (21%), Positives = 62/149 (42%), Gaps = 10/149 (7%)
+
+Query  7    LKYLRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRN---RVKDATAHPEFAIARWAA  63
+              +L+  +  A+ A + G+ P G+++V   G  + +  N    +KD TAH E    + A 
+Sbjct  4    EYFLKVALREAKRAFEKGEVPVGAIIVKE-GEIISKAHNSVEELKDPTAHAEMLAIKEAC  62
+
+Query  64   RHLTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWLTEWGAQAPPVAT  123
+            R L         +Y + E C MC+ A     + +++++    + GG ++ +     P   
+Sbjct  63   RRLNTKYLEGCELYVTLEPCIMCSYALVLSRIEKVIFSALDKKHGGVVSVFNILDEPT--  120
+
+Query  124  LPINTVAPGVVVDGPAEELAETMHNLYRA  152
+              +N            EE +E +   ++ 
+Sbjct  121  --LNHRVKWEYYPL--EEASELLSEFFKK  145
+
+
+> sp|Q68Y02|TADA_RICTY tRNA-specific adenosine deaminase OS=Rickettsia 
+typhi (strain ATCC VR-144 / Wilmington) OX=257363 GN=tadA 
+PE=3 SV=1
+Length=148
+
+ Score = 162 bits (410),  Expect = 8e-51, Method: Composition-based stats.
+ Identities = 28/147 (19%), Positives = 49/147 (33%), Gaps = 9/147 (6%)
+
+Query  10   LRRCVDLAREALDDGDEPFGSVLVDHTGT-TLFEDRN---RVKDATAHPEFAIARWAARH  65
+            + + +  AR A D  + P G V+V       +    N      +A  H E      A   
+Sbjct  1    MEQALKQARLAFDKNEVPVGVVIVYRLNQKIIVSSHNNIEEKNNALCHAEIIAINEACNL  60
+
+Query  66   LTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWLTEWGAQAPPVATLP  125
+            ++        +Y + E C MCA+A +   L R+ Y  S ++ G   +             
+Sbjct  61   ISSKNLNDYDIYVTLEPCAMCASAISHSRLKRLFYGASDSKQGAVESNLR-----YFNSS  115
+
+Query  126  INTVAPGVVVDGPAEELAETMHNLYRA  152
+                 P +     +E     M   ++ 
+Sbjct  116  ACFHRPEIYSGILSEHSRFLMKEFFQK  142
+
+
+> sp|Q5E9J7|ADAT2_BOVIN tRNA-specific adenosine deaminase 2 OS=Bos 
+taurus OX=9913 GN=DEADC1 PE=2 SV=1
+Length=191
+
+ Score = 163 bits (412),  Expect = 1e-50, Method: Composition-based stats.
+ Identities = 37/161 (23%), Positives = 69/161 (43%), Gaps = 15/161 (9%)
+
+Query  3    SDADLKYLRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRNRV---KDATAHPEFAIA  59
+            ++   K++ + + +A++ALD+ + P G ++V +    + + RN V   K+AT H E    
+Sbjct  19   AEETEKWMEQAMQMAKDALDNTEVPVGCLMV-YNNEVVGKGRNEVNQTKNATRHAEMVAI  77
+
+Query  60   RWA------ARHLTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWLTE  113
+              A            +      +Y + E C MCAAA   + +  +VY   + + GG  + 
+Sbjct  78   DQALDWCRRRGRSPSEVFEHTVLYVTVEPCIMCAAALRLMRIPLVVYGCQNERFGGCGSV  137
+
+Query  114  WGAQAPPVATLPINTVAPGVVVDG-PAEELAETMHNLYRAK  153
+                +  + +    T  P     G  AEE  E +   Y+ +
+Sbjct  138  LDIASADLPS----TGKPFQCTPGYRAEEAVEMLKTFYKQE  174
+
+
+> sp|Q6P6J0|ADAT2_MOUSE tRNA-specific adenosine deaminase 2 OS=Mus 
+musculus OX=10090 GN=Adat2 PE=1 SV=1
+Length=191
+
+ Score = 162 bits (410),  Expect = 3e-50, Method: Composition-based stats.
+ Identities = 39/160 (24%), Positives = 68/160 (43%), Gaps = 15/160 (9%)
+
+Query  4    DADLKYLRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRNRV---KDATAHPEFAIAR  60
+                K++   + +A+EAL++ + P G ++V +    + + RN V   K+AT H E     
+Sbjct  20   QETEKWMEEAMRMAKEALENIEVPVGCLMV-YNNEVVGKGRNEVNQTKNATRHAEMVAID  78
+
+Query  61   ----WAARHL--TPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWLTEW  114
+                W  +H            +Y + E C MCAAA   + +  +VY   + + GG  +  
+Sbjct  79   QVLDWCHQHGQSPSTVFEHTVLYVTVEPCIMCAAALRLMKIPLVVYGCQNERFGGCGSVL  138
+
+Query  115  GAQAPPVATLPINTVAPGVVVDG-PAEELAETMHNLYRAK  153
+               +  +     NT  P   + G  AEE  E +   Y+ +
+Sbjct  139  NIASADLP----NTGRPFQCIPGYRAEEAVELLKTFYKQE  174
+
+
+> sp|Q0P4H0|ADAT2_XENTR tRNA-specific adenosine deaminase 2 OS=Xenopus 
+tropicalis OX=8364 GN=adat2 PE=2 SV=1
+Length=170
+
+ Score = 161 bits (408),  Expect = 3e-50, Method: Composition-based stats.
+ Identities = 34/162 (21%), Positives = 68/162 (42%), Gaps = 15/162 (9%)
+
+Query  2    ISDADLKYLRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRNRV---KDATAHPEFAI  58
+            +++    ++ +   +A++AL++G+ P G ++V +    + + RN V   K+AT H E   
+Sbjct  1    MTEEIQNWMHKAFQMAQDALNNGEVPVGCLMV-YDNQVVGKGRNEVNETKNATRHAEMVA  59
+
+Query  59   AR----WAARHLTPDR--RARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWLT  112
+                  W  ++    R       +Y + E C MCA A   + +  +VY   + + GG  +
+Sbjct  60   IDQVLDWCEKNSKKSRDVFENIVLYVTVEPCIMCAGALRLLKIPLVVYGCRNERFGGCGS  119
+
+Query  113  EWGAQAPPVATLPINTVAPGVVVDGP-AEELAETMHNLYRAK  153
+                    +      T      + G  AE+  E +   Y+ +
+Sbjct  120  VLNVAGDNIPD----TGTEFKYIGGYQAEKAVELLKTFYKQE  157
+
+
+> sp|Q9ZCC6|TADA_RICPR tRNA-specific adenosine deaminase OS=Rickettsia 
+prowazekii (strain Madrid E) OX=272947 GN=tadA PE=3 
+SV=1
+Length=148
+
+ Score = 160 bits (405),  Expect = 4e-50, Method: Composition-based stats.
+ Identities = 28/147 (19%), Positives = 49/147 (33%), Gaps = 9/147 (6%)
+
+Query  10   LRRCVDLAREALDDGDEPFGSVLVDHTGT-TLFEDRN---RVKDATAHPEFAIARWAARH  65
+            + + +  AR A D  + P G V+V       +    N     K+   H E      A   
+Sbjct  1    MEQALKQARLAFDKNEVPVGVVIVCRLNQKIIVSSHNNIEEKKNPLCHAEIIAINTACNL  60
+
+Query  66   LTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWLTEWGAQAPPVATLP  125
+            ++        +Y + E C MCA+A +   L R+ Y  S ++ G   +             
+Sbjct  61   ISSKNLNDYDIYVTLEPCAMCASAISHSRLKRLFYGASDSKHGAVESNLR-----YFNSN  115
+
+Query  126  INTVAPGVVVDGPAEELAETMHNLYRA  152
+                 P +     +E     M   ++ 
+Sbjct  116  SCFYRPEIYSGILSEHSRFLMQEFFQR  142
+
+
+> sp|Q7Z6V5|ADAT2_HUMAN tRNA-specific adenosine deaminase 2 OS=Homo 
+sapiens OX=9606 GN=ADAT2 PE=1 SV=1
+Length=191
+
+ Score = 161 bits (408),  Expect = 5e-50, Method: Composition-based stats.
+ Identities = 37/161 (23%), Positives = 69/161 (43%), Gaps = 15/161 (9%)
+
+Query  3    SDADLKYLRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRNRV---KDATAHPEFAIA  59
+            ++   K++   + +A+EAL++ + P G ++V +    + + RN V   K+AT H E    
+Sbjct  19   AEETEKWMEEAMHMAKEALENTEVPVGCLMV-YNNEVVGKGRNEVNQTKNATRHAEMVAI  77
+
+Query  60   RWA------ARHLTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWLTE  113
+                     +     +      +Y + E C MCAAA   + +  +VY   + + GG  + 
+Sbjct  78   DQVLDWCRQSGKSPSEVFEHTVLYVTVEPCIMCAAALRLMKIPLVVYGCQNERFGGCGSV  137
+
+Query  114  WGAQAPPVATLPINTVAPGVVVDG-PAEELAETMHNLYRAK  153
+                +  +     NT  P   + G  AEE  E +   Y+ +
+Sbjct  138  LNIASADLP----NTGRPFQCIPGYRAEEAVEMLKTFYKQE  174
+
+
+> sp|Q8K9R4|TADA_BUCAP tRNA-specific adenosine deaminase OS=Buchnera 
+aphidicola subsp. Schizaphis graminum (strain Sg) OX=198804 
+GN=tadA PE=3 SV=1
+Length=151
+
+ Score = 159 bits (403),  Expect = 8e-50, Method: Composition-based stats.
+ Identities = 37/156 (24%), Positives = 66/156 (42%), Gaps = 14/156 (9%)
+
+Query  3    SDADLKYLRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRNRV---KDATAHPEFAIA  59
+            S+ D  +++  +  A  A ++G+ P G++LV      +    N V    D+TAH E    
+Sbjct  3    SNRDSYWMKIALKYAYYAEENGEVPIGAILVFQE-KIIGTGWNSVISQNDSTAHAEIIAL  61
+
+Query  60   RWAARHLTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWLTEWGAQAP  119
+            R A R++   R    T+Y + + C MC  A     + R+V+  S   L         + P
+Sbjct  62   REAGRNIKNYRLVNTTLYVTLQPCMMCCGAIINSRIKRLVFGASYKDL--------KKNP  113
+
+Query  120  PVATLPINTVAPGVVVD--GPAEELAETMHNLYRAK  153
+             +  + IN     + +       E A+ + N ++ K
+Sbjct  114  FLKKIFINLEKNKLKIKKHIMRNECAKILSNFFKNK  149
+
+
+> sp|Q4V7V8|ADAT2_XENLA tRNA-specific adenosine deaminase 2 OS=Xenopus 
+laevis OX=8355 GN=adat2 PE=2 SV=1
+Length=175
+
+ Score = 159 bits (402),  Expect = 3e-49, Method: Composition-based stats.
+ Identities = 35/162 (22%), Positives = 68/162 (42%), Gaps = 15/162 (9%)
+
+Query  2    ISDADLKYLRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRNRV---KDATAHPEFAI  58
+            I++    ++ +   +A++AL++G+ P G ++V +    + + RN V   K+AT H E   
+Sbjct  6    ITEEIQNWMHKAFQMAQDALNNGEVPVGCLMV-YGNQVVGKGRNEVNETKNATQHAEMVA  64
+
+Query  59   AR----WAARHL--TPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWLT  112
+                  W   +   + D      +Y + E C MCA A   + +  +VY   + + GG  +
+Sbjct  65   IDQVLDWCEMNSKKSTDVFENIVLYVTVEPCIMCAGALRLLKIPLVVYGCRNERFGGCGS  124
+
+Query  113  EWGAQAPPVATLPINTVAPGVVVDGP-AEELAETMHNLYRAK  153
+                    +      T      + G  AE+  E +   Y+ +
+Sbjct  125  VLNVSGDDIPD----TGTKFKCIGGYQAEKAIELLKTFYKQE  162
+
+
+> sp|A9CK16|TADA_AGRFC tRNA-specific adenosine deaminase OS=Agrobacterium 
+fabrum (strain C58 / ATCC 33970) OX=176299 GN=tadA 
+PE=1 SV=1
+Length=152
+
+ Score = 157 bits (398),  Expect = 5e-49, Method: Composition-based stats.
+ Identities = 42/149 (28%), Positives = 63/149 (42%), Gaps = 9/149 (6%)
+
+Query  8    KYLRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRNRVK---DATAHPEFAIARWAAR  64
+             ++   +  AR A +  + P G+VLV   G  +    NR +   D TAH E A+ R A  
+Sbjct  6    HFMELALVEARSAGERDEVPIGAVLVL-DGRVIARSGNRTRELNDVTAHAEIAVIRMACE  64
+
+Query  65   HLTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWLTEWGAQAPPVATL  124
+             L  +R   A +Y + E C MCAAA ++  + R+ Y     + G   +          + 
+Sbjct  65   ALGQERLPGADLYVTLEPCTMCAAAISFARIRRLYYGAQDPKGGAVES-----GVRFFSQ  119
+
+Query  125  PINTVAPGVVVDGPAEELAETMHNLYRAK  153
+            P    AP V       E AE +   +R K
+Sbjct  120  PTCHHAPDVYSGLAESESAEILRQFFREK  148
+
+
+> sp|Q9S7I0|TADA_ARATH tRNA(adenine(34)) deaminase, chloroplastic 
+OS=Arabidopsis thaliana OX=3702 GN=TADA PE=1 SV=1
+Length=1307
+
+ Score = 165 bits (419),  Expect = 6e-47, Method: Composition-based stats.
+ Identities = 42/162 (26%), Positives = 72/162 (44%), Gaps = 15/162 (9%)
+
+Query  6     DLKYLRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRN---RVKDATAHPEFAIARWA  62
+             D  ++R  +  A++A D  + P G+VLV H G  +    N    ++D+TAH E    R  
+Sbjct  1110  DEIFMREALVEAKKAADTWEVPVGAVLV-HDGKIIARGYNLVEELRDSTAHAEMICIREG  1168
+
+Query  63    ARHLTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWLT---------E  113
+             ++ L   R A  T+Y + E CPMCA A     +  +V+   +  LG   +          
+Sbjct  1169  SKALRSWRLADTTLYVTLEPCPMCAGAILQARVNTLVWGAPNKLLGADGSWIRLFPGGEG  1228
+
+Query  114   WGAQAPPVATLPINTVAPGVVV--DGPAEELAETMHNLYRAK  153
+              G++A      P++   P + +       E A+TM   ++ +
+Sbjct  1229  NGSEASEKPPPPVHPFHPKMTIRRGVLESECAQTMQQFFQLR  1270
+
+
+> sp|Q5RIV4|ADAT2_DANRE tRNA-specific adenosine deaminase 2 OS=Danio 
+rerio OX=7955 GN=adat2 PE=2 SV=2
+Length=214
+
+ Score = 152 bits (385),  Expect = 4e-46, Method: Composition-based stats.
+ Identities = 36/157 (23%), Positives = 66/157 (42%), Gaps = 15/157 (10%)
+
+Query  7    LKYLRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRNRV---KDATAHPEFAIARWA-  62
+              ++ +  D+A EAL++G+ P G ++V +    + + RN V   K+AT H E        
+Sbjct  22   QTWMAKAFDMAVEALENGEVPVGCLMV-YNNEIIGKGRNEVNETKNATRHAEMVALDQVL  80
+
+Query  63   -----ARHLTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWLTEWGAQ  117
+                       +   +  +Y + E C MCAAA   + +  +VY   + + GG  +     
+Sbjct  81   DWCRLREKDCKEVCEQTVLYVTVEPCIMCAAALRLLRIPFVVYGCKNERFGGCGSVLDVS  140
+
+Query  118  APPVATLPINTVAPGVVVDG-PAEELAETMHNLYRAK  153
+            +  +     +T      + G  AEE  E +   Y+ +
+Sbjct  141  SDHLP----HTGTSFKCIAGYRAEEAVEMLKTFYKQE  173
+
+
+> sp|C1D1Q9|TILS_DEIDV tRNA(Ile)-lysidine synthase OS=Deinococcus 
+deserti (strain VCD115 / DSM 17065 / LMG 22923) OX=546414 
+GN=tilS PE=3 SV=1
+Length=533
+
+ Score = 155 bits (392),  Expect = 3e-44, Method: Composition-based stats.
+ Identities = 36/146 (25%), Positives = 56/146 (38%), Gaps = 9/146 (6%)
+
+Query  10   LRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRNRVK---DATAHPEFAIARWAARHL  66
+            +   + LAREA    + P G+V++   G  +   RN  +   D T H E A  R A   L
+Sbjct  383  MGEALGLAREAALAQEVPVGAVVLGPGGRIIGSGRNTSRADSDMTRHAELAALRAATAEL  442
+
+Query  67   TPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWLTEWGAQAPPVATLPI  126
+                    T+  + E CPMC  A     + RIVY  S+ + G         +        
+Sbjct  443  GTAYLTGCTLVVTLEPCPMCLGAALEARVERIVYGASNPKAGALGGVSDLLSSHWG----  498
+
+Query  127  NTVAPGVVVDGPAEELAETMHNLYRA  152
+                P V     A++ A  + + ++ 
+Sbjct  499  --HVPAVTGGVRAQDAARVLRDSFQE  522
+
+
+> sp|P47058|TAD2_YEAST tRNA-specific adenosine deaminase subunit 
+TAD2 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) 
+OX=559292 GN=TAD2 PE=1 SV=1
+Length=250
+
+ Score = 144 bits (364),  Expect = 1e-42, Method: Composition-based stats.
+ Identities = 39/162 (24%), Positives = 60/162 (37%), Gaps = 10/162 (6%)
+
+Query  5    ADLKYLRRCVDLAREALDDGDEPFGSVLVD-HTGTTLFEDRNRVK---DATAHPEFAIAR  60
+              +K++R  V LAR ALD  + P   + V   TG  +    N         AH EF    
+Sbjct  2    QHIKHMRTAVRLARYALDHDETPVACIFVHTPTGQVMAYGMNDTNKSLTGVAHAEFMGID  61
+
+Query  61   WAARHLTP----DRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWLTEWGA  116
+                 L      D     T+Y + E C MCA+A   + +G++V+   + + GG  T    
+Sbjct  62   QIKAMLGSRGVVDVFKDITLYVTVEPCIMCASALKQLDIGKVVFGCGNERFGGNGTVLSV  121
+
+Query  117  QAPPVATLPINTVAP--GVVVDGPAEELAETMHNLYRAKFGR  156
+                   +P N  A     +     +E    +   Y  +  R
+Sbjct  122  NHDTCTLVPKNNSAAGYESIPGILRKEAIMLLRYFYVRQNER  163
+
+
+> sp|Q6IDB6|TAD2_ARATH tRNA-specific adenosine deaminase TAD2 OS=Arabidopsis 
+thaliana OX=3702 GN=TAD2 PE=1 SV=1
+Length=182
+
+ Score = 141 bits (355),  Expect = 4e-42, Method: Composition-based stats.
+ Identities = 31/162 (19%), Positives = 59/162 (36%), Gaps = 17/162 (10%)
+
+Query  4    DADLKYLRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRNRV---KDATAHPEFAIAR  60
+            +    Y+   +  A+ AL+  + P G V +   G  +   RNR    ++AT H E     
+Sbjct  7    EDSHNYMGFALHQAKLALEALEVPVGCVFL-EDGKVIASGRNRTNETRNATRHAEMEAID  65
+
+Query  61   WA---------ARHLTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWL  111
+                       +     ++ ++  +Y + E C MCA+A +++G+  + Y   + + GG  
+Sbjct  66   QLVGQWQKDGLSPSQVAEKFSKCVLYVTCEPCIMCASALSFLGIKEVYYGCPNDKFGGCG  125
+
+Query  112  TEWGAQAPPVATLPINTVAPGVVVDG-PAEELAETMHNLYRA  152
+            +        + +             G  AEE        Y  
+Sbjct  126  SILSLH---LGSEEAQRGKGYKCRGGIMAEEAVSLFKCFYEQ  164
+
+
+> sp|P78594|FCA1_CANAX Cytosine deaminase OS=Candida albicans OX=5476 
+GN=FCA1 PE=3 SV=1
+Length=150
+
+ Score = 131 bits (329),  Expect = 1e-38, Method: Composition-based stats.
+ Identities = 35/155 (23%), Positives = 56/155 (36%), Gaps = 18/155 (12%)
+
+Query  2    ISDADLKYLRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRNRV---KDATAHPEFAI  58
+            ++  D K L+  +D A+++  +G  P GS ++    T L +  N       A  H E + 
+Sbjct  1    MTFDDKKGLQVALDQAKKSYSEGGIPIGSCIISSDDTVLGQGHNERIQKHSAILHGEMSA  60
+
+Query  59   ARWAARHLTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWLTEWGAQA  118
+               A R L        T+YT+   C MC  A    G  R+V   +   LG          
+Sbjct  61   LENAGR-LPGKTYKDCTIYTTLSPCSMCTGAILLYGFKRVVMGENVNFLG----------  109
+
+Query  119  PPVATLPINTVAPGVVVDGPAEELAETMHNLYRAK  153
+                   +       VV+   +E  + M    + K
+Sbjct  110  ----NEKLLIENGVEVVNLNDQECIDLMAKFIKEK  140
+
+
+> sp|O94642|TAD2_SCHPO tRNA-specific adenosine deaminase subunit 
+tad2 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) 
+OX=284812 GN=tad2 PE=3 SV=2
+Length=389
+
+ Score = 135 bits (340),  Expect = 1e-37, Method: Composition-based stats.
+ Identities = 27/155 (17%), Positives = 46/155 (30%), Gaps = 12/155 (8%)
+
+Query  5    ADLKYLRRC---VDLAREALDDGDEPFGSVLVDHTGTTLFEDRNRVK---DATAHPEFAI  58
+                Y++     ++L    +     P   V V + G  +    N          H E   
+Sbjct  213  QHETYMKLAHEILNLGPYFVIQPRSPGSCVFV-YKGEVIGRGFNETNCSLSGIRHAELIA  271
+
+Query  59   ARWAARHLTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWLTEWGAQA  118
+                  H         T+Y + E C MCAAA   + +  + +   + + GG  + +    
+Sbjct  272  IEKILEHYPASVFKETTLYVTVEPCLMCAAALKQLHIKAVYFGCGNDRFGGCGSVFSIN-  330
+
+Query  119  PPVATLPINTVAPGVVVDGPAEELAETMHNLYRAK  153
+                   I+   P V       E    M   Y  +
+Sbjct  331  ---KDQSIDPSYP-VYPGLFYSEAVMLMREFYVQE  361
+
+
+> sp|O59834|FCYS_SCHPO Probable cytosine deaminase OS=Schizosaccharomyces 
+pombe (strain 972 / ATCC 24843) OX=284812 GN=SPCC965.14c 
+PE=3 SV=1
+Length=162
+
+ Score = 126 bits (316),  Expect = 2e-36, Method: Composition-based stats.
+ Identities = 42/155 (27%), Positives = 67/155 (43%), Gaps = 10/155 (6%)
+
+Query  2    ISDADLKYLRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRNRVKDA--TAHPEFAIA  59
+            +S+ DL YLR  + ++++A D+G  PFG ++VD     +    NRV D   T H E    
+Sbjct  6    LSEKDLAYLREAIKVSQQARDEGQHPFGCIIVDENDNVIMSAGNRVPDGDVTQHAETRAV  65
+
+Query  60   RWAARHLTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWLTEWGAQAP  119
+                +        + T+YTS E C MC+ A  W G+ R+++  S+  L    T+   + P
+Sbjct  66   GLITKTRR--DLEKCTLYTSTEPCAMCSGAIFWSGIRRMIFGLSNENLIKL-TQKSGECP  122
+
+Query  120  PVA-----TLPINTVAPGVVVDGPAEELAETMHNL  149
+            P+       L   +    VV     +E        
+Sbjct  123  PLYINSRDILGAASHPIEVVGPYIEDEAIIPHKGF  157
+
+
+> sp|Q8K9A4|RIBD1_BUCAP Diaminohydroxyphosphoribosylamino-pyrimidine 
+deaminase OS=Buchnera aphidicola subsp. Schizaphis graminum 
+(strain Sg) OX=198804 GN=ribD1 PE=3 SV=1
+Length=147
+
+ Score = 124 bits (312),  Expect = 5e-36, Method: Composition-based stats.
+ Identities = 24/158 (15%), Positives = 50/158 (32%), Gaps = 28/158 (18%)
+
+Query  5    ADLKYLRRCVDLAREA-LDDGDEP-FGSVLVDHTGTTLFEDRNRVKDATAHPEFAIARWA  62
+             D  Y+ R + L++         P  G V+V      + E  ++ K    H E      A
+Sbjct  2    KDRFYMTRAIKLSKLGEFTTSPNPNVGCVIV-QNKKIVGEGWHK-KYGENHAEINALNMA  59
+
+Query  63   ARHLTPDRRARATVYTSGEHC------PMCAAAHAWVGLGRIVYAT--SSAQLGGWLTEW  114
+                       +T Y + E C      P C  A    G+  ++ ++   + ++ G    +
+Sbjct  60   GEKA-----KGSTAYITLEPCNHFGKTPPCCDAIIQSGIKNVIISSLDPNPKVSGKGVLY  114
+
+Query  115  GAQAPPVATLPINTVAPGVVVDGPAEELAETMHNLYRA  152
+                       +      V +   ++E  +     ++ 
+Sbjct  115  -----------LRKKGISVKIGLMSKESQKYNKGFFKR  141
+
+
+> sp|O66534|RIBD_AQUAE Riboflavin biosynthesis protein RibD OS=Aquifex 
+aeolicus (strain VF5) OX=224324 GN=ribD PE=3 SV=1
+Length=356
+
+ Score = 128 bits (322),  Expect = 3e-35, Method: Composition-based stats.
+ Identities = 32/157 (20%), Positives = 53/157 (34%), Gaps = 24/157 (15%)
+
+Query  2    ISDADLKYLRRCVDLARE--ALDDGDEPFGSVLVDHTGTTLFEDRNRVKDATAHPEFAIA  59
+            I + D  Y++  + LA++       +   G+V+V   G  +    +  K    H E    
+Sbjct  2    IREIDKNYMKLALSLAKKRKGYTHPNPTVGAVVVKE-GKIVGLGYHE-KAGKPHAEVMAL  59
+
+Query  60   RWAARHLTPDRRARATVYTSGEHC------PMCAAAHAWVGLGRIVYATSSAQLGGWLTE  113
+              A           AT+Y + E C      P C  A    G+ R+V AT        ++ 
+Sbjct  60   GQAGEKA-----KGATLYVTLEPCTHFGRTPPCTDAIIRSGIKRVVVATLDPN--PLMSG  112
+
+Query  114  WGAQAPPVATLPINTVAPGVVVDGPAEELAETMHNLY  150
+             G +        +      V V    EE  E   + +
+Sbjct  113  KGVE-------KLRNAGIEVDVGVCEEEARELNEDFF  142
+
+
+> sp|Q94BU8|GSDA_ARATH Guanosine deaminase OS=Arabidopsis thaliana 
+OX=3702 GN=GSDA PE=1 SV=1
+Length=185
+
+ Score = 122 bits (306),  Expect = 1e-34, Method: Composition-based stats.
+ Identities = 38/115 (33%), Positives = 53/115 (46%), Gaps = 5/115 (4%)
+
+Query  1    AISDADLKYLRRCVDLAREALDDGDE-PFGSVLVDHTGTTLFEDRNRV---KDATAHPEF  56
+            A+ D+D K+L + V+ A + +D GD  PFG+V+V H    +    N V    D TAH E 
+Sbjct  25   AVHDSDHKFLTQAVEEAYKGVDCGDGGPFGAVIV-HNNEVVASCHNMVLKYTDPTAHAEV  83
+
+Query  57   AIARWAARHLTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWL  111
+               R A + L     +   +Y S E CPMC  A     L R+VY   +       
+Sbjct  84   TAIREACKKLNKIELSECEIYASCEPCPMCFGAIHLSRLKRLVYGAKAEAAIAIG  138
+
+
+> sp|P57533|RIBD1_BUCAI Diaminohydroxyphosphoribosylamino-pyrimidine 
+deaminase OS=Buchnera aphidicola subsp. Acyrthosiphon 
+pisum (strain APS) OX=107806 GN=ribD1 PE=3 SV=2
+Length=147
+
+ Score = 121 bits (303),  Expect = 1e-34, Method: Composition-based stats.
+ Identities = 25/157 (16%), Positives = 50/157 (32%), Gaps = 28/157 (18%)
+
+Query  6    DLKYLRRCVDLAREA-LDDGDEP-FGSVLVDHTGTTLFEDRNRVKDATAHPEFAIARWAA  63
+            D+ Y++R ++L++         P  G V+V      + E  +  +    H E      A 
+Sbjct  3    DIFYMKRAIELSKLGEFTTAPNPNVGCVIVK-NNIIVGEGWHE-QAGKNHAEINALIMAG  60
+
+Query  64   RHLTPDRRARATVYTSGEHC------PMCAAAHAWVGLGRIVYA--TSSAQLGGWLTEWG  115
+                       T Y + E C      P C  A    G+ R+V +    + ++ G    + 
+Sbjct  61   EKAQ-----GGTAYVTLEPCNHFGKTPPCCNALIKSGINRVVISNIDPNPKISGNGILYL  115
+
+Query  116  AQAPPVATLPINTVAPGVVVDGPAEELAETMHNLYRA  152
+             +               V     ++E  +     ++ 
+Sbjct  116  KKHGIC-----------VKTGLLSKESKQYNKGFFKR  141
+
+
+> sp|Q89AB0|RIBD_BUCBP Riboflavin biosynthesis protein RibD OS=Buchnera 
+aphidicola subsp. Baizongia pistaciae (strain Bp) OX=224915 
+GN=ribD PE=3 SV=1
+Length=372
+
+ Score = 126 bits (317),  Expect = 2e-34, Method: Composition-based stats.
+ Identities = 28/158 (18%), Positives = 59/158 (37%), Gaps = 28/158 (18%)
+
+Query  5    ADLKYLRRCVDLAREA-LDDGDEP-FGSVLVDHTGTTLFEDRNRVKDATAHPEFAIARWA  62
+             D+ Y+++ + LA++  L     P  G ++V+     +    ++ K    H E       
+Sbjct  2    KDIFYMKKAIKLAKKGSLTTSPNPNVGCIIVN-NNIIVGSGWHK-KTGMKHAEIYAL---  56
+
+Query  63   ARHLTPDRRARATVYTSGEHC------PMCAAAHAWVGLGRIVYAT--SSAQLGGWLTEW  114
+                + ++   AT Y + E C      P C  A    G+ R+V AT   + ++ G   +W
+Sbjct  57   --KTSGEKAKGATAYITLEPCSHFGKTPPCCVALTKYGISRVVIATLDPNPKVSGNGVKW  114
+
+Query  115  GAQAPPVATLPINTVAPGVVVDGPAEELAETMHNLYRA  152
+              +   +           V +   ++E  +     ++ 
+Sbjct  115  LKKHGIL-----------VTIGTLSKESIKINKGFFQR  141
+
+
+> sp|P25539|RIBD_ECOLI Riboflavin biosynthesis protein RibD OS=Escherichia 
+coli (strain K12) OX=83333 GN=ribD PE=1 SV=1
+Length=367
+
+ Score = 125 bits (313),  Expect = 6e-34, Method: Composition-based stats.
+ Identities = 28/156 (18%), Positives = 43/156 (28%), Gaps = 24/156 (15%)
+
+Query  5    ADLKYLRRCVDLAREALDDG-DEP-FGSVLVDHTGTTLFEDRNRVKDATAHPEFAIARWA  62
+             D  Y+ R + LA+         P  G V+V   G  + E  ++ +    H E    R A
+Sbjct  2    QDEYYMARALKLAQRGRFTTHPNPNVGCVIVK-DGEIVGEGYHQ-RAGEPHAEVHALRMA  59
+
+Query  63   ARHLTPDRRARATVYTSGEHC------PMCAAAHAWVGLGRIVYATSSAQLGGWLTEWGA  116
+                       AT Y + E C      P C  A    G+ R+V +               
+Sbjct  60   GEKA-----KGATAYVTLEPCSHHGRTPPCCDALIAAGVARVVASMQDPNPQVAG-----  109
+
+Query  117  QAPPVATLPINTVAPGVVVDGPAEELAETMHNLYRA  152
+                     +      V       E  +      + 
+Sbjct  110  ----RGLYRLQQAGIDVSHGLMMSEAEQLNKGFLKR  141
+
+
+> sp|Q9RV23|TILS_DEIRA tRNA(Ile)-lysidine synthase OS=Deinococcus 
+radiodurans (strain ATCC 13939 / DSM 20539 / JCM 16871 / 
+LMG 4051 / NBRC 15346 / NCIMB 9279 / R1 / VKM B-1422) OX=243230 
+GN=tilS PE=3 SV=2
+Length=582
+
+ Score = 125 bits (314),  Expect = 5e-33, Method: Composition-based stats.
+ Identities = 33/133 (25%), Positives = 50/133 (38%), Gaps = 9/133 (7%)
+
+Query  23   DGDEPFGSVLVDHTGTTLFEDRNRVK---DATAHPEFAIARWAARHLTPDRRARATVYTS  79
+              + P G+V+++  G  +   RN  +   D T H E A  R AA  L     +  T+  +
+Sbjct  421  RQEVPVGAVVLNADGEIVGRGRNTSREDGDMTCHAELAALREAAAGLGTPYLSDCTLVVT  480
+
+Query  80   GEHCPMCAAAHAWVGLGRIVYATSSAQLGGWLTEWGAQAPPVATLPINTVAPGVVVDGPA  139
+             E CPMC  A     +G IVY  ++ + G         A            P V     A
+Sbjct  481  LEPCPMCLGAALEARIGHIVYGAANPKAGALGGVSDLLADHWG------WRPTVQGGVRA  534
+
+Query  140  EELAETMHNLYRA  152
+             E A  +  ++  
+Sbjct  535  GEAARLLREVFGE  547
+
+
+> sp|O34598|GUAD_BACSU Guanine deaminase OS=Bacillus subtilis (strain 
+168) OX=224308 GN=guaD PE=1 SV=1
+Length=156
+
+ Score = 115 bits (287),  Expect = 5e-32, Method: Composition-based stats.
+ Identities = 36/109 (33%), Positives = 48/109 (44%), Gaps = 5/109 (5%)
+
+Query  7    LKYLRRCVDLAREALDDG-DEPFGSVLVDHTGTTLFEDRNRV---KDATAHPEFAIARWA  62
+              +L+R V LA E ++ G   PFG+V+V   G  + E +N V    D TAH E    R A
+Sbjct  4    ETFLKRAVTLACEGVNAGIGGPFGAVIVK-DGAIIAEGQNNVTTSNDPTAHAEVTAIRKA  62
+
+Query  63   ARHLTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWL  111
+             + L   +     +YTS E CPMC  A  W     + YA          
+Sbjct  63   CKVLGAYQLDDCILYTSCEPCPMCLGAIYWARPKAVFYAAEHTDAAEAG  111
+
+
+> sp|Q12178|FCY1_YEAST Cytosine deaminase OS=Saccharomyces cerevisiae 
+(strain ATCC 204508 / S288c) OX=559292 GN=FCY1 PE=1 SV=1
+Length=158
+
+ Score = 113 bits (283),  Expect = 2e-31, Method: Composition-based stats.
+ Identities = 32/155 (21%), Positives = 46/155 (30%), Gaps = 18/155 (12%)
+
+Query  3    SDADLKYLRRCVDLAREALDDGDEPFG-SVLVDHTGTTLFEDRNRV---KDATAHPEFAI  58
+            S  D K +    + A     +G  P G  ++ +  G+ L    N       AT H E + 
+Sbjct  8    SKWDQKGMDIAYEEAALGYKEGGVPIGGCLINNKDGSVLGRGHNMRFQKGSATLHGEIST  67
+
+Query  59   ARWAARHLTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWLTEWGAQA  118
+                 R L        T+YT+   C MC  A    G+ R V                   
+Sbjct  68   LENCGR-LEGKVYKDTTLYTTLSPCDMCTGAIIMYGIPRCVVGE------------NVNF  114
+
+Query  119  PPVATLPINTVAPGVVVDGPAEELAETMHNLYRAK  153
+                   + T    VVV    E   + M      +
+Sbjct  115  KSKGEKYLQTRGHEVVV-VDDERCKKIMKQFIDER  148
+
+
+> sp|P50853|RIBD_ACTPL Riboflavin biosynthesis protein RibD OS=Actinobacillus 
+pleuropneumoniae OX=715 GN=ribD PE=3 SV=2
+Length=376
+
+ Score = 116 bits (291),  Expect = 1e-30, Method: Composition-based stats.
+ Identities = 30/153 (20%), Positives = 46/153 (30%), Gaps = 24/153 (16%)
+
+Query  6    DLKYLRRCVDLAREALD-DGDEP-FGSVLVDHTGTTLFEDRNRVKDATAHPEFAIARWAA  63
+            DL Y+RR + LA++ L      P  G V+V   G  + E  +  K    H E        
+Sbjct  15   DLDYMRRAIALAKQGLGWTNPNPLVGCVIVK-NGEIVAEGYHE-KIGGWHAERNAVLHCK  72
+
+Query  64   RHLTPDRRARATVYTSGEHC------PMCAAAHAWVGLGRIVYATSSAQLGGWLTEWGAQ  117
+                    + AT Y + E C      P C+      G+ ++   +S              
+Sbjct  73   ED-----LSGATAYVTLEPCCHHGRTPPCSDLLIERGIKKVFIGSSDPN---------PL  118
+
+Query  118  APPVATLPINTVAPGVVVDGPAEELAETMHNLY  150
+                    +      VV     EE        +
+Sbjct  119  VAGRGANQLRQAGVEVVEGLLKEECDALNPIFF  151
+
+
+> sp|Q8GWP5|RIBD_ARATH Riboflavin biosynthesis protein PYRD, chloroplastic 
+OS=Arabidopsis thaliana OX=3702 GN=PYRD PE=1 SV=1
+Length=426
+
+ Score = 114 bits (286),  Expect = 1e-29, Method: Composition-based stats.
+ Identities = 32/154 (21%), Positives = 46/154 (30%), Gaps = 24/154 (16%)
+
+Query  5    ADLKYLRRCVDLAREALDDG-DEP-FGSVLVDHTGTTLFEDRNRVKDATAHPEFAIARWA  62
+             D  Y+R+CV+LA+ A+      P  G V+V   G  + +  +  K    H E    R A
+Sbjct  73   DDSFYMRKCVELAKRAIGCTSPNPMVGCVIVK-DGDIVGQGFH-PKAGQPHAEVFALRDA  130
+
+Query  63   ARHLTPDRRARATVYTSGEHC------PMCAAAHAWVGLGRIVYATSSAQLGGWLTEWGA  116
+                       AT Y S E C      P C  A     + R+V          + +    
+Sbjct  131  GELA-----ENATAYVSLEPCNHYGRTPPCTEALIKAKVRRVVIGMVDPNPIVFSSGISR  185
+
+Query  117  QAPPVATLPINTVAPGVVVDGPAEELAETMHNLY  150
+                            V V    E   +      
+Sbjct  186  LKDA---------GIDVTVSVEEELCKKMNEGFI  210
+
+
+> sp|P17618|RIBD_BACSU Riboflavin biosynthesis protein RibD OS=Bacillus 
+subtilis (strain 168) OX=224308 GN=ribD PE=1 SV=1
+Length=361
+
+ Score = 113 bits (282),  Expect = 2e-29, Method: Composition-based stats.
+ Identities = 29/154 (19%), Positives = 49/154 (32%), Gaps = 28/154 (18%)
+
+Query  6    DLKYLRRCVDLAREALDDGD-EP-FGSVLVDHTGTTLFEDRNRVKDATAHPEFAIARWAA  63
+            +  Y++  +DLA++     +  P  G+V+V   G  +    + +K   AH E      A 
+Sbjct  2    EEYYMKLALDLAKQGEGQTESNPLVGAVVVK-DGQIVGMGAH-LKYGEAHAEVHAIHMAG  59
+
+Query  64   RHLTPDRRARATVYTSGEHC------PMCAAAHAWVGLGRIVYATSSAQ--LGGWLTEWG  115
+             H        A +Y + E C      P CA      G+ R+  A       + G      
+Sbjct  60   AHA-----EGADIYVTLEPCSHYGKTPPCAELIINSGIKRVFVAMRDPNPLVAGRGISMM  114
+
+Query  116  AQAPPVATLPINTVAPGVVVDGPAEELAETMHNL  149
+             +A              V     A++        
+Sbjct  115  KEA-----------GIEVREGILADQAERLNEKF  137
+
+
+> sp|P44326|RIBD_HAEIN Riboflavin biosynthesis protein RibD OS=Haemophilus 
+influenzae (strain ATCC 51907 / DSM 11121 / KW20 
+/ Rd) OX=71421 GN=ribD PE=3 SV=1
+Length=372
+
+ Score = 112 bits (279),  Expect = 7e-29, Method: Composition-based stats.
+ Identities = 28/158 (18%), Positives = 47/158 (30%), Gaps = 24/158 (15%)
+
+Query  3    SDADLKYLRRCVDLAREA-LDDGDEP-FGSVLVDHTGTTLFEDRNRVKDATAHPEFAIAR  60
+            S  D  +++R +DLA +        P  G VLV   G  + E  +  K    H E     
+Sbjct  5    SSQDCVFMQRALDLAAKGQYTTTPNPSVGCVLVK-NGEIVGEGFH-FKAGQPHAERVALA  62
+
+Query  61   WAARHLTPDRRARATVYTSGEHC------PMCAAAHAWVGLGRIVYATSSAQLGGWLTEW  114
+             A  +        AT Y + E C      P CA      G+ +++ A             
+Sbjct  63   QAGENA-----KGATAYVTLEPCAHYGRTPPCALGLIEAGVVKVIAAMQDPNPQVAGKGL  117
+
+Query  115  GAQAPPVATLPINTVAPGVVVDGPAEELAETMHNLYRA  152
+               +                V+   ++  +      + 
+Sbjct  118  KMLSDA---------GIESTVNLLNDQAEKINKGFLKR  146
+
+
+> sp|Q55158|RIBD_SYNY3 Riboflavin biosynthesis protein RibD OS=Synechocystis 
+sp. (strain PCC 6803 / Kazusa) OX=1111708 GN=ribD 
+PE=3 SV=1
+Length=368
+
+ Score = 110 bits (275),  Expect = 3e-28, Method: Composition-based stats.
+ Identities = 34/164 (21%), Positives = 53/164 (32%), Gaps = 31/164 (19%)
+
+Query  5    ADLKYLRRCVDLAREALDDG-DEP-FGSVLVDHTGTTLFEDRNRVKDATAHPEFAIARWA  62
+            +D  ++RRC+ LA+ A+      P  GSV+V      + +  +  +    H E      A
+Sbjct  3    SDQTHMRRCLTLAKTAIGKTAPNPLVGSVIV-QGDEIVGQGFH-PQAGQPHGEIFALWEA  60
+
+Query  63   ARHLTPDRRARATVYTSGEHC------PMCAAAHAWVGLGRIVYATSSAQ---LGGWLTE  113
+                  DR   AT+Y + E C      P C  A    G+ ++V           G  ++ 
+Sbjct  61   G-----DRAKGATLYVNLEPCNHQGRTPPCTEAIIQAGIAKVVVGMVDPNPLVAGKGISR  115
+
+Query  114  WGAQAPPVATLPINTVAPGVVVDGPAEELAETMHNL-YRAKFGR  156
+                               V V    E          +R K  R
+Sbjct  116  LRQA------------GIEVKVGVEEEACQRLNEAFCFRIKHQR  147
+
+
+> sp|Q8JFW4|ADAT3_DANRE Probable inactive tRNA-specific adenosine 
+deaminase-like protein 3 OS=Danio rerio OX=7955 GN=adat3 
+PE=2 SV=2
+Length=336
+
+ Score = 109 bits (272),  Expect = 4e-28, Method: Composition-based stats.
+ Identities = 24/171 (14%), Positives = 42/171 (25%), Gaps = 37/171 (22%)
+
+Query  9    YLRRCVDLAREALDDGDEPFGSVLVDH-TGTTLFEDRN--RVKDATAHPEFAIAR--WAA  63
+            Y+   V  A+   + G +  G+V+VD  T   +    +  R      H            
+Sbjct  172  YMCVAVKAAKSGRELGMDAVGAVIVDPKTEQIIAVAHDCKRGSHPLHHAVMVCIDLVACG  231
+
+Query  64   RHLTPDRRA--------------------------RATVYTSGEHCPMCAAAHAWVGLGR  97
+            +                                     +Y + E C MCA A     + R
+Sbjct  232  QDGGAYNYEKYPACRFSCSNSVCDGKETGLPYICTGYDLYVTREPCVMCAMALVHSRISR  291
+
+Query  98   IVYATSSAQLGGWLTEWGAQAPPVATLPINTVAPGVVVDGPAEELAETMHN  148
+            + Y  S+A  G + + +                  V          +    
+Sbjct  292  VFYGASTAD-GAFGSRYKIHC-----QKDLNHRFEVFKGVMVNACEDLCKE  336
+
+
+> sp|Q5SI38|TILS_THET8 tRNA(Ile)-lysidine synthase OS=Thermus thermophilus 
+(strain HB8 / ATCC 27634 / DSM 579) OX=300852 GN=tilS 
+PE=3 SV=1
+Length=507
+
+ Score = 109 bits (273),  Expect = 2e-27, Method: Composition-based stats.
+ Identities = 32/133 (24%), Positives = 48/133 (36%), Gaps = 25/133 (19%)
+
+Query  21   LDDGDEPFGSVLVDHTGTTLFEDRNRV---KDATAHPEFAIARWAARHLTPDRRARATVY  77
+              +G+ P G+VLV      +    NRV   +D TAH E  + R A       R     +Y
+Sbjct  387  FREGEVPVGAVLVLPGR--VLRAHNRVEGLRDPTAHAEMLLLREAGPEARGGR-----LY  439
+
+Query  78   TSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWLTEWGAQAPPVATLPINTVAPGVVVDG  137
+             + E C MC  A A  G+  +VY   + + G               LP            
+Sbjct  440  VTLEPCLMCHHALAQAGVE-VVYGAENLKEGAL---------TRFGLPTRARG-----GV  484
+
+Query  138  PAEELAETMHNLY  150
+               E A+ + + +
+Sbjct  485  RERECAKLLRDFF  497
+
+
+> sp|Q72IF6|TILS_THET2 tRNA(Ile)-lysidine synthase OS=Thermus thermophilus 
+(strain HB27 / ATCC BAA-163 / DSM 7039) OX=262724 
+GN=tilS PE=3 SV=1
+Length=507
+
+ Score = 109 bits (273),  Expect = 2e-27, Method: Composition-based stats.
+ Identities = 32/133 (24%), Positives = 48/133 (36%), Gaps = 25/133 (19%)
+
+Query  21   LDDGDEPFGSVLVDHTGTTLFEDRNRV---KDATAHPEFAIARWAARHLTPDRRARATVY  77
+              +G+ P G+VLV      +    NRV   +D TAH E  + R A       R     +Y
+Sbjct  387  FREGEVPVGAVLVLPGR--VLRAHNRVEGLRDPTAHAEMLLLREAGPEARGGR-----LY  439
+
+Query  78   TSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWLTEWGAQAPPVATLPINTVAPGVVVDG  137
+             + E C MC  A A  G+  +VY   + + G               LP            
+Sbjct  440  VTLEPCLMCHHALAQAGVE-VVYGAENLKEGAL---------TRFGLPTRARG-----GV  484
+
+Query  138  PAEELAETMHNLY  150
+               E A+ + + +
+Sbjct  485  RERECAKLLRDFF  497
+
+
+> sp|B6TRH4|RIBD_MAIZE Riboflavin biosynthesis protein PYRD, chloroplastic 
+OS=Zea mays OX=4577 GN=PYRD PE=2 SV=1
+Length=392
+
+ Score = 107 bits (268),  Expect = 4e-27, Method: Composition-based stats.
+ Identities = 31/110 (28%), Positives = 40/110 (36%), Gaps = 15/110 (14%)
+
+Query  5    ADLKYLRRCVDLAREALDDG-DEP-FGSVLVDHTGTTLFEDRNRVKDATAHPEFAIARWA  62
+             D  Y+RRCV+LAR+A       P  G V+V   G  + E  +  K    H E    R A
+Sbjct  47   DDAHYMRRCVELARKAAGHTSPNPMVGCVIV-RDGRVVGEGFH-PKAGQPHAEVFALRDA  104
+
+Query  63   ARHLTPDRRARATVYTSGEHC------PMCAAAHAWVGLGRIVYATSSAQ  106
+                       AT Y S E C      P C  A     +  +V   +   
+Sbjct  105  GNLA-----ENATAYVSLEPCNHYGRTPPCTEALINAKVKEVVVGMTDPN  149
+
+
+> sp|P70814|RIBD_BACAM Riboflavin biosynthesis protein RibD OS=Bacillus 
+amyloliquefaciens OX=1390 GN=ribD PE=3 SV=1
+Length=371
+
+ Score = 107 bits (266),  Expect = 4e-27, Method: Composition-based stats.
+ Identities = 26/154 (17%), Positives = 44/154 (29%), Gaps = 28/154 (18%)
+
+Query  6    DLKYLRRCVDLAREALDDG-DEP-FGSVLVDHTGTTLFEDRNRVKDATAHPEFAIARWAA  63
+            +  Y+   ++LAR         P  G+V+V      +    + ++   AH E      A 
+Sbjct  2    EEYYMNTAIELARRGEGQTQPNPLVGAVVVKK-RQIVGMGAH-LQYGEAHAEVHAINMAG  59
+
+Query  64   RHLTPDRRARATVYTSGEHC------PMCAAAHAWVGLGRIVYATSSAQ--LGGWLTEWG  115
+                      A +Y + E C      P CA      G+ R+  A       + G      
+Sbjct  60   SLA-----KGADLYVTLEPCSHYGKTPPCAELIMKSGIKRVFIAVEDPNPLVAGKGITML  114
+
+Query  116  AQAPPVATLPINTVAPGVVVDGPAEELAETMHNL  149
+             +A              V      ++  E     
+Sbjct  115  EEA-----------GIEVKTGLLRQQAEELNKMF  137
+
+
+> sp|O84735|RIBD_CHLTR Riboflavin biosynthesis protein RibD OS=Chlamydia 
+trachomatis (strain D/UW-3/Cx) OX=272561 GN=ribD PE=3 
+SV=1
+Length=375
+
+ Score = 104 bits (260),  Expect = 3e-26, Method: Composition-based stats.
+ Identities = 28/163 (17%), Positives = 53/163 (33%), Gaps = 25/163 (15%)
+
+Query  2    ISDADLKYLRRCVDLAREALD-DGDEP-FGSVLVDHTGTTLFEDRNRVKDATAHPEFAIA  59
+            +S+  L ++R+ V L  +        P  G V+V   G  + E  ++    + H E    
+Sbjct  4    LSEQQLFFMRKAVALGEKGRIFAPPNPWVGCVIVK-NGCVIGEGWHQGI-GSPHAEVCAV  61
+
+Query  60   RWAARHLTPDRRARATVYTSGEHC------PMCAAAHAWVGLGRIVYATSSAQLGGWLTE  113
+            +             A V+ + E C      P C        +  +            + +
+Sbjct  62   QD-----QKCSLEGAEVFVTLEPCCHFGRTPPCVDLLIKSKVAAVYVGLLDPD--PRVCK  114
+
+Query  114  WGAQAPPVATLPINTVAPGVVVDGPAEELAETMH-NLYRAKFG  155
+             G      A +P       V V   ++E   ++   LY+ + G
+Sbjct  115  KGVARLQAAGIP-------VYVGVGSQEAKTSLQPYLYQRERG  150
+
+
+> sp|Q9Z735|RIBD_CHLPN Riboflavin biosynthesis protein RibD OS=Chlamydia 
+pneumoniae OX=83558 GN=ribD PE=3 SV=1
+Length=376
+
+ Score = 103 bits (257),  Expect = 1e-25, Method: Composition-based stats.
+ Identities = 28/161 (17%), Positives = 50/161 (31%), Gaps = 28/161 (17%)
+
+Query  3    SDADLKYLRRCVDLAREAL-DDGDEP-FGSVLVDHTGTTLFEDRNRVKDATAHPEFAIAR  60
+            S+  L ++RR +++  +        P  G V+V      + E  +       H E    +
+Sbjct  5    SEQQLFFMRRAIEIGEKGRITAPPNPWVGCVVV-QENRIIGEGFHAY-AGGPHAEELAIQ  62
+
+Query  61   WAARHLTPDRRARATVYTSGEHC------PMCAAAHAWVGLGRIVYAT--SSAQLGGWLT  112
+             A+  ++      + VY S E C      P CA       + R+  A      ++ G   
+Sbjct  63   NASMPIS-----GSDVYVSLEPCSHFGSCPPCANLLIKHKVSRVFVALVDPDPKVAGQGI  117
+
+Query  113  EWGAQAPPVATLPINTVAPGVVVDGPAEELAETMHNLYRAK  153
+                QA              V V     E   ++      +
+Sbjct  118  AMLRQAGIQ-----------VYVGIGESEAQASLQPYLYQR  147
+
+
+> sp|Q9PLJ6|RIBD_CHLMU Riboflavin biosynthesis protein RibD OS=Chlamydia 
+muridarum (strain MoPn / Nigg) OX=243161 GN=ribD PE=3 
+SV=2
+Length=371
+
+ Score = 102 bits (255),  Expect = 2e-25, Method: Composition-based stats.
+ Identities = 24/159 (15%), Positives = 40/159 (25%), Gaps = 24/159 (15%)
+
+Query  3    SDADLKYLRRCVDLAREALD-DGDEP-FGSVLVDHTGTTLFEDRNRVKDATAHPEFAIAR  60
+            S+  L ++R  V L           P  G V+V   G  +    ++    + H E    +
+Sbjct  5    SEQQLFFMREAVALGERGRIFAPPNPWVGCVIVK-NGCIIGRGWHKGI-GSPHAEVCAFQ  62
+
+Query  61   WAARHLTPDRRARATVYTSGEHC------PMCAAAHAWVGLGRIVYATSSAQLGGWLTEW  114
+                         A VY + E C      P C        +  +  A             
+Sbjct  63   D-----QTSSLVGADVYVTLEPCCHFGRTPPCVDLLIKSKVSSVYIALLDPDPRVC----  113
+
+Query  115  GAQAPPVATLPINTVAPGVVVDGPAEELAETMHNLYRAK  153
+                       +      V V    EE   ++      +
+Sbjct  114  -----KRGVARLKEAGISVYVGIGHEEAKASLQPYLHQR  147
+
+
+> sp|Q6PAT0|ADAT3_MOUSE Probable inactive tRNA-specific adenosine 
+deaminase-like protein 3 OS=Mus musculus OX=10090 GN=Adat3 
+PE=1 SV=1
+Length=349
+
+ Score = 102 bits (253),  Expect = 3e-25, Method: Composition-based stats.
+ Identities = 29/178 (16%), Positives = 44/178 (25%), Gaps = 45/178 (25%)
+
+Query  7    LKYLRRCVDLAREALDDGDEPFGSVLVDH-TGTTLFEDR--NRVKDATAHPEFAIA----  59
+              ++ R V  A+ A   G    G+V+VD  +   L      + V     H          
+Sbjct  174  QTHMERAVCAAQRAAAQGLRAVGAVVVDPASDRVLATGHDCSSVASPLLHAVMVCIDLVA  233
+
+Query  60   --------------------------------RWAARHLTPDRRARATVYTSGEHCPMCA  87
+                                            R       P       +Y + E C MCA
+Sbjct  234  QGQGRGSCDLRSHPACSFTQATATQGARAGSVRKLDEDSLPYVCTGYDLYVTREPCVMCA  293
+
+Query  88   AAHAWVGLGRIVYATSSAQLGGWLTEWGAQAPPVATLPINTVAPGVVVDGPAEELAET  145
+             A     + R+ Y   S   G   T +   A      P       V      ++  + 
+Sbjct  294  MALVHARIQRVFYGAPSPD-GALGTLFRVHAR-----PDLNHRFQVFRGILEDQCRQL  345
+
+
+> sp|Q5RC69|DCTD_PONAB Deoxycytidylate deaminase OS=Pongo abelii 
+OX=9601 GN=DCTD PE=2 SV=1
+Length=178
+
+ Score = 97.4 bits (241),  Expect = 6e-25, Method: Composition-based stats.
+ Identities = 12/119 (10%), Positives = 32/119 (27%), Gaps = 27/119 (23%)
+
+Query  4    DADLKYLRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRNRVKDA-------------  50
+            +    ++      A+ + D   +  G+ +V+     +    N + +              
+Sbjct  14   EWPEYFMAVAFLSAQRSKDPNSQ-VGACIVNSENKIVGIGYNGMPNGCSDDQLPWRRTAK  72
+
+Query  51   ---------TAHPEFAIARWAARHLTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVY  100
+                       H E         +         ++Y +   C  CA      G+  +++
+Sbjct  73   NKLDTKYPYVCHAELNAI----MNKNSTDVKGCSMYVALFPCNECAKLIIQAGIKEVIF  127
+
+
+> sp|P32321|DCTD_HUMAN Deoxycytidylate deaminase OS=Homo sapiens 
+OX=9606 GN=DCTD PE=1 SV=2
+Length=178
+
+ Score = 97.0 bits (240),  Expect = 8e-25, Method: Composition-based stats.
+ Identities = 12/119 (10%), Positives = 32/119 (27%), Gaps = 27/119 (23%)
+
+Query  4    DADLKYLRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRNRVKDA-------------  50
+            +    ++      A+ + D   +  G+ +V+     +    N + +              
+Sbjct  14   EWPEYFMAVAFLSAQRSKDPNSQ-VGACIVNSENKIVGIGYNGMPNGCSDDVLPWRRTAE  72
+
+Query  51   ---------TAHPEFAIARWAARHLTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVY  100
+                       H E         +         ++Y +   C  CA      G+  +++
+Sbjct  73   NKLDTKYPYVCHAELNAI----MNKNSTDVKGCSMYVALFPCNECAKLIIQAGIKEVIF  127
+
+
+> sp|Q5M9G0|DCTD_RAT Deoxycytidylate deaminase OS=Rattus norvegicus 
+OX=10116 GN=Dctd PE=2 SV=1
+Length=178
+
+ Score = 97.0 bits (240),  Expect = 9e-25, Method: Composition-based stats.
+ Identities = 12/119 (10%), Positives = 32/119 (27%), Gaps = 27/119 (23%)
+
+Query  4    DADLKYLRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRNRVKDA-------------  50
+            +    ++      A+ + D   +  G+ +V+     +    N + +              
+Sbjct  14   EWPEYFMAVAFLSAQRSKDPSSQ-VGACIVNTENKIVGIGYNGMPNGCSDDLLPWRRTAE  72
+
+Query  51   ---------TAHPEFAIARWAARHLTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVY  100
+                       H E         +         ++Y +   C  CA      G+  +++
+Sbjct  73   NKLDTKYPYVCHAELNAI----MNKNSADVKGCSMYVALFPCNECAKLIIQAGIKEVIF  127
+
+
+> sp|Q8K2D6|DCTD_MOUSE Deoxycytidylate deaminase OS=Mus musculus 
+OX=10090 GN=Dctd PE=2 SV=1
+Length=178
+
+ Score = 97.0 bits (240),  Expect = 9e-25, Method: Composition-based stats.
+ Identities = 12/119 (10%), Positives = 32/119 (27%), Gaps = 27/119 (23%)
+
+Query  4    DADLKYLRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRNRVKDA-------------  50
+            +    ++      A+ + D   +  G+ +V+     +    N + +              
+Sbjct  14   EWPEYFMAVAFLSAQRSKDPSSQ-VGACIVNTENKIVGIGYNGMPNGCSDDLLPWRRTAE  72
+
+Query  51   ---------TAHPEFAIARWAARHLTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVY  100
+                       H E         +         ++Y +   C  CA      G+  +++
+Sbjct  73   NKLDTKYPYVCHAELNAI----MNKNSADVKGCSMYVALFPCNECAKLIIQAGIKEVIF  127
+
+
+> sp|P30648|DCTD_CAEEL Probable deoxycytidylate deaminase OS=Caenorhabditis 
+elegans OX=6239 GN=ZK643.2 PE=3 SV=1
+Length=197
+
+ Score = 97.4 bits (241),  Expect = 1e-24, Method: Composition-based stats.
+ Identities = 19/121 (16%), Positives = 34/121 (28%), Gaps = 27/121 (22%)
+
+Query  3    SDADLKYLRRCVDLAREALDDGDEP---FGSVLVDHTGTTLFEDRNRVKDATA-------  52
+            ++ DLK  +R + +A+       +P    G V+VD     +    N              
+Sbjct  44   TNGDLKKHQRFLRIAKVTSLRSKDPNTQVGCVIVDKDNCIVSVGYNGFPIGVDDDVFRWD  103
+
+Query  53   -------------HPEFAIARWAARHLTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIV  99
+                         H E         +         TVY +   C  CA       + ++ 
+Sbjct  104  KEDPEDNKHLYVVHAEMNAI----INKRCTTLHDCTVYVTLFPCNKCAQMLIQSRVKKVY  159
+
+Query  100  Y  100
+            +
+Sbjct  160  F  160
+
+
+> sp|Q12362|RIB2_YEAST Bifunctional protein RIB2 OS=Saccharomyces 
+cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=RIB2 
+PE=1 SV=1
+Length=591
+
+ Score = 102 bits (253),  Expect = 1e-24, Method: Composition-based stats.
+ Identities = 21/154 (14%), Positives = 38/154 (25%), Gaps = 25/154 (16%)
+
+Query  4    DADLKYLRRCVDLA-REALDDGDEPFGSVLVDHTGTTLFEDRNRVKDATAHPEFAIA---  59
+            +   +Y+   V  A +          G+VLV H    L    +R      H E       
+Sbjct  433  EPHRRYMEMAVKEAGKCGPTKTAFSVGAVLV-HGTQVLATGYSRELPGNTHAEQCALIKY  491
+
+Query  60   RWAARHLTPDRRARATVYTSGEHCP-------MCAAAHA--WVGLGRIVYA--TSSAQLG  108
+                 +          +YT+ E C         C          +G +          + 
+Sbjct  492  SQLHPNCPTIVPMGTVLYTTMEPCSFRLSGNEPCCDRILATQGAIGTVFVGVMEPDTFVK  551
+
+Query  109  GWLTEWGAQAPPVATLPINTVAPGVVVDGPAEEL  142
+               +    ++              + + G  EE 
+Sbjct  552  NNTSLNKLES---------HGVNYIQIPGYEEEC  576
+
+
+> sp|P87241|RIB2_SCHPO Diaminohydroxyphosphoribosylamino-pyrimidine 
+deaminase OS=Schizosaccharomyces pombe (strain 972 / ATCC 
+24843) OX=284812 GN=rib2 PE=3 SV=1
+Length=405
+
+ Score = 99.7 bits (247),  Expect = 4e-24, Method: Composition-based stats.
+ Identities = 16/108 (15%), Positives = 33/108 (31%), Gaps = 9/108 (8%)
+
+Query  7    LKYLRRCVDLAREALDDGD-EPFGSVLVDHTGTTLFEDRNRVKDATAHPEFAIARWAARH  65
+             +Y+ + ++ A++          G+V+V   G  +    +R +    H E          
+Sbjct  259  EEYMLKALNEAKKCEPTDSAFCVGAVIV-QNGKIVSTGYSRERPGNTHAEECAIEKFMLK  317
+
+Query  66   LTPDRRARATVYTSGEHC-------PMCAAAHAWVGLGRIVYATSSAQ  106
+               D    A +Y++ E C         C           +V  +    
+Sbjct  318  NPTDSLEGAIMYSTMEPCSKRLSKKVSCTDLIVKQKFSTVVLGSLEPD  365
+
+
+> sp|Q561R2|ADAT3_RAT Probable inactive tRNA-specific adenosine 
+deaminase-like protein 3 OS=Rattus norvegicus OX=10116 GN=Adat3 
+PE=2 SV=1
+Length=349
+
+ Score = 97.8 bits (242),  Expect = 1e-23, Method: Composition-based stats.
+ Identities = 28/178 (16%), Positives = 43/178 (24%), Gaps = 45/178 (25%)
+
+Query  7    LKYLRRCVDLAREALDDGDEPFGSVLVDH-TGTTLFEDRNRVK--DATAHPEFAIA----  59
+              ++ R V  A+ A   G    G+V+VD  +   L    +         H          
+Sbjct  174  QTHMERAVRAAQRAAAQGLRAVGAVVVDPASDHVLATGHDCCSEASPLLHAVMVCIDLVA  233
+
+Query  60   --------------------------------RWAARHLTPDRRARATVYTSGEHCPMCA  87
+                                            R       P       +Y + E C MCA
+Sbjct  234  QGQGRGSCDLRRHPACSFTQATATQSARAGSVRKLDEDSLPYVCTGYDLYVTREPCVMCA  293
+
+Query  88   AAHAWVGLGRIVYATSSAQLGGWLTEWGAQAPPVATLPINTVAPGVVVDGPAEELAET  145
+             A     + R+ Y   S   G   T +   A      P       V      ++  + 
+Sbjct  294  MALVHARIQRVFYGAPSPD-GALGTRFRVHAR-----PDLNHRFQVFRGILEDQCRQL  345
+
+
+> sp|P33968|YLXG_ALIFS Uncharacterized deaminase in luxG 3'region 
+OS=Aliivibrio fischeri OX=668 PE=3 SV=1
+Length=147
+
+ Score = 92.4 bits (228),  Expect = 2e-23, Method: Composition-based stats.
+ Identities = 19/119 (16%), Positives = 34/119 (29%), Gaps = 25/119 (21%)
+
+Query  8    KYLRRCVDLAREALDDGDEP---FGSVLVDHTGTTLFEDRNRVKDA--------------  50
+            K+ +R   +A        +P    G+V+  H    +    N                   
+Sbjct  4    KWAKRFFQMAELVGSWSKDPSTQVGAVITKH-NRIVSVGFNGYPHGVSDSADTDEREIKY  62
+
+Query  51   --TAHPEFAIARWAARHLTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQL  107
+              T H E     +A R           ++ +   CP CAA     G+ ++     +   
+Sbjct  63   LKTLHAEENAILFAKRD-----LEGCDIWVTHFPCPNCAAKIIQTGISKVYCPEQTEDF  116
+
+
+> sp|Q96EY9|ADAT3_HUMAN Probable inactive tRNA-specific adenosine 
+deaminase-like protein 3 OS=Homo sapiens OX=9606 GN=ADAT3 
+PE=1 SV=1
+Length=351
+
+ Score = 96.6 bits (239),  Expect = 2e-23, Method: Composition-based stats.
+ Identities = 30/178 (17%), Positives = 43/178 (24%), Gaps = 47/178 (26%)
+
+Query  9    YLRRCVDLAREALDDGDEPFGSVLVDH-TGTTLFEDRNRV--KDATAHPEFAIAR-----  60
+            ++ R V  AR A   G    G+V+VD  +   L    +     +   H            
+Sbjct  176  HMERAVWAARRAAARGLRAVGAVVVDPASDRVLATGHDCSCADNPLLHAVMVCVDLVARG  235
+
+Query  61   ---------------------------------WAARHLTPDRRARATVYTSGEHCPMCA  87
+                                              A     P       +Y + E C MCA
+Sbjct  236  QGRGTYDFRPFPACSFAPAAAPQAVRAGAVRKLDADEDGLPYLCTGYDLYVTREPCAMCA  295
+
+Query  88   AAHAWVGLGRIVYATSSAQLGGWLTEWGAQAPPVATLPINTVAPGVVVDGPAEELAET  145
+             A     + R+ Y   S   G   T +   A      P       V      E+    
+Sbjct  296  MALVHARILRVFYGAPSPD-GALGTRFRIHAR-----PDLNHRFQVFRGVLEEQCRWL  347
+
+
+> sp|P9WPH1|RIBD_MYCTU Riboflavin biosynthesis protein RibD OS=Mycobacterium 
+tuberculosis (strain ATCC 25618 / H37Rv) OX=83332 
+GN=ribD PE=1 SV=1
+Length=339
+
+ Score = 95.5 bits (236),  Expect = 6e-23, Method: Composition-based stats.
+ Identities = 23/117 (20%), Positives = 35/117 (30%), Gaps = 14/117 (12%)
+
+Query  10   LRRCVDLAR--EALDDGDEPFGSVLVDHTGTTLFEDRNRVKDATAHPEFAIARWAARHLT  67
+            +   ++ +   +       P G+V+VD  G  +            H E    R A     
+Sbjct  13   MGLAIEHSYQVKGTTYPKPPVGAVIVDPNGRIVGAGGTE-PAGGDHAEVVALRRAGGLA-  70
+
+Query  68   PDRRARATVYTSGEHC------PMCAAAHAWVGLGRIVYATSSAQLGGWLTEWGAQA  118
+                A A V  + E C      P C  A     +G +VYA +              A
+Sbjct  71   ----AGAIVVVTMEPCNHYGKTPPCVNALIEARVGTVVYAVADPNGIAGGGAGRLSA  123
+
+
+> sp|P9WPH0|RIBD_MYCTO Riboflavin biosynthesis protein RibD OS=Mycobacterium 
+tuberculosis (strain CDC 1551 / Oshkosh) OX=83331 
+GN=ribD PE=3 SV=1
+Length=339
+
+ Score = 95.5 bits (236),  Expect = 6e-23, Method: Composition-based stats.
+ Identities = 23/117 (20%), Positives = 35/117 (30%), Gaps = 14/117 (12%)
+
+Query  10   LRRCVDLAR--EALDDGDEPFGSVLVDHTGTTLFEDRNRVKDATAHPEFAIARWAARHLT  67
+            +   ++ +   +       P G+V+VD  G  +            H E    R A     
+Sbjct  13   MGLAIEHSYQVKGTTYPKPPVGAVIVDPNGRIVGAGGTE-PAGGDHAEVVALRRAGGLA-  70
+
+Query  68   PDRRARATVYTSGEHC------PMCAAAHAWVGLGRIVYATSSAQLGGWLTEWGAQA  118
+                A A V  + E C      P C  A     +G +VYA +              A
+Sbjct  71   ----AGAIVVVTMEPCNHYGKTPPCVNALIEARVGTVVYAVADPNGIAGGGAGRLSA  123
+
+
+> sp|O24750|RIBD_CORAM Riboflavin biosynthesis protein RibD OS=Corynebacterium 
+ammoniagenes OX=1697 GN=ribD PE=3 SV=1
+Length=337
+
+ Score = 93.5 bits (231),  Expect = 3e-22, Method: Composition-based stats.
+ Identities = 22/144 (15%), Positives = 41/144 (28%), Gaps = 20/144 (14%)
+
+Query  11   RRCVDLAR------EALDDGDEPFGSVLVDHTGTTLFEDRNRVKDATAHPEFAIARWAAR  64
+             + +  A             + P G+V++  +G  +     +      H E      AA 
+Sbjct  16   EQALRTAMSAGWEVRGTTSPNPPVGAVIISTSGEIVGTGATQPVGGV-HAEVQALADAAG  74
+
+Query  65   HLTPDRRARATVYTSGEHCP------MCAAAHAWVGLGRIVY--ATSSAQLGGWLTEWGA  116
+                 +   AT   + E C        C  A    G+  +++  +  +   GG       
+Sbjct  75   -----KTEGATAVVTLEPCRHTGRTGPCTQALIEAGIKDVLFLHSDPNPSAGGGEQVLVD  129
+
+Query  117  QAPPVATLPINTVAPGVVVDGPAE  140
+                V  LP     P  ++     
+Sbjct  130  AGINVVQLPSPEGVPDALIPWLKS  153
+
+
+> sp|Q9VWA2|DCTD_DROME Probable deoxycytidylate deaminase OS=Drosophila 
+melanogaster OX=7227 GN=CG6951 PE=2 SV=1
+Length=203
+
+ Score = 89.3 bits (220),  Expect = 1e-21, Method: Composition-based stats.
+ Identities = 18/123 (15%), Positives = 36/123 (29%), Gaps = 32/123 (26%)
+
+Query  5    ADLKYLRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRN--------------RVKDA  50
+             D  ++   +  A+ + D      G+ +VD     +    N              + K  
+Sbjct  28   WDDYFMATSLLSAKRSKDPV-TQVGACIVDSQNRIVAIGYNGFPRNCSDDVFPWSKAKKG  86
+
+Query  51   TA-------------HPEFAIARWAARHLTPDRRARATVYTSGEHCPMCAAAHAWVGLGR  97
+            +              H E         +      +   +YT+   C  CA     VG+ +
+Sbjct  87   SQEFDPLEDKKMYVVHAEANAIL----NSNGMSLSGTRLYTTLFPCNECAKLIIQVGISQ  142
+
+Query  98   IVY  100
+            ++Y
+Sbjct  143  VLY  145
+
+
+> sp|P32393|COMEB_BACSU ComE operon protein 2 OS=Bacillus subtilis 
+(strain 168) OX=224308 GN=comEB PE=3 SV=1
+Length=189
+
+ Score = 86.2 bits (212),  Expect = 2e-20, Method: Composition-based stats.
+ Identities = 16/121 (13%), Positives = 31/121 (26%), Gaps = 22/121 (18%)
+
+Query  5    ADLKYLRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRNRVKDA--------------  50
+             +  ++ +   LA  +        G+ +V      +    N                   
+Sbjct  6    WNQYFMAQSHLLALRS-TCPRLSVGATIV-RDKRMIAGGYNGSIAGGVHCADEGCLMIDD  63
+
+Query  51   ----TAHPEFAIARWAARHLTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQ  106
+                T H E       ++   P     A +Y +   C  C  +    G+  + YA     
+Sbjct  64   HCARTIHAEMNAILQCSKFGVPT--DGAEIYVTHYPCIQCCKSIIQAGIKTVYYAEDYKT  121
+
+Query  107  L  107
+             
+Sbjct  122  H  122
+
+
+> sp|P06773|DCTD_YEAST Deoxycytidylate deaminase OS=Saccharomyces 
+cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=DCD1 
+PE=1 SV=2
+Length=312
+
+ Score = 88.1 bits (217),  Expect = 2e-20, Method: Composition-based stats.
+ Identities = 20/124 (16%), Positives = 31/124 (25%), Gaps = 29/124 (23%)
+
+Query  5    ADLKYLRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRNRVKDATA------------  52
+             D  +++    LA    +      G V+V      +    N                   
+Sbjct  163  WDSYFMKLA-TLAASRSNCMKRRVGCVIVREC-RVIATGYNGTPRHLTNCFNGGCPRCND  220
+
+Query  53   ------------HPEFAIARWAARHLTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVY  100
+                        H E      A R         AT+Y     C  C+      G+  +VY
+Sbjct  221  GDSRNLHTCLCLHAEENALLEAGRDRVG---QNATLYCDTCPCLTCSVKIVQTGISEVVY  277
+
+Query  101  ATSS  104
+            + S 
+Sbjct  278  SQSY  281
+
+
+> sp|Q9P7N4|TAD3_SCHPO tRNA-specific adenosine deaminase subunit 
+tad3 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) 
+OX=284812 GN=tad3 PE=3 SV=1
+Length=315
+
+ Score = 87.4 bits (215),  Expect = 5e-20, Method: Composition-based stats.
+ Identities = 22/131 (17%), Positives = 40/131 (31%), Gaps = 16/131 (12%)
+
+Query  10   LRRCVDLAREALDDGDEPFGSVLVDHT-GTTLFED---RNRVKDATAHPEFAIARWAARH  65
+            L   ++ A  +   G+    + + D T  T L      R+++K+   H         A+ 
+Sbjct  164  LEDLINAAGASHKHGEIGCAAAIYDPTTDTVLAVSVDERSKLKNPINHCVMNAINLVAKR  223
+
+Query  66   ------------LTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWLTE  113
+                                 TV  + E C MC+       + R++Y       GG  + 
+Sbjct  224  ELSRRQNRTDGSKDRYLCKDLTVVMTHEPCVMCSMGLLHSRIRRLIYCKKQPLTGGIESL  283
+
+Query  114  WGAQAPPVATL  124
+            +G         
+Sbjct  284  YGIHWRAELNH  294
+
+
+> sp|O43012|DCTD_SCHPO Deoxycytidylate deaminase OS=Schizosaccharomyces 
+pombe (strain 972 / ATCC 24843) OX=284812 GN=SPBC2G2.13c 
+PE=3 SV=2
+Length=322
+
+ Score = 87.0 bits (214),  Expect = 8e-20, Method: Composition-based stats.
+ Identities = 21/140 (15%), Positives = 33/140 (24%), Gaps = 31/140 (22%)
+
+Query  5    ADLKYLRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRNRVKDATA------------  52
+             D  ++      A+ + +      G VLV      +    N                   
+Sbjct  174  WDSYFMEMASLAAKRS-NCMKRRVGCVLV-RGNRVIATGYNGTPRGATNCNEGGCPRCNS  231
+
+Query  53   --------------HPEFAIARWAARHLTPDRRARATVYTSGEHCPMCAAAHAWVGLGRI  98
+                          H E      A R         A +Y     C  C+     +G+  +
+Sbjct  232  ASSCGKELDTCLCLHAEENALLEAGRERVG---NNAILYCDTCPCLTCSVKITQLGIKEV  288
+
+Query  99   VYATSSAQLGGWLTEWGAQA  118
+            VY TS        +   A  
+Sbjct  289  VYHTSYNMDSHTASLLQAAG  308
+
+
+> sp|O22000|DCTD_BPMD2 Deoxycytidylate deaminase OS=Mycobacterium 
+phage D29 OX=28369 GN=36.1 PE=3 SV=2
+Length=128
+
+ Score = 80.8 bits (198),  Expect = 4e-19, Method: Composition-based stats.
+ Identities = 24/126 (19%), Positives = 36/126 (29%), Gaps = 35/126 (28%)
+
+Query  4    DADLKYLRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRNRVKDATA-----------  52
+            D D  +L      A+ + D      G+V+V           N      A           
+Sbjct  5    DWDEYFLGIATAAAQRS-DCERSKVGAVVVK-DRRVRGTGYNGAPAGAAGCSTCPRRLSG  62
+
+Query  53   ------------------HPEFAIARWAARHLTPDRRARATVYTSGEHCPMCAAAHAWVG  94
+                              H E     +  R    +    AT+Y + E C  C+   A  G
+Sbjct  63   AVPGVSDYSSGATRCVAVHAEANALLYCDR----EDLIGATLYVTREPCYACSNLIAASG  118
+
+Query  95   LGRIVY  100
+            + R+VY
+Sbjct  119  IERVVY  124
+
+
+> sp|Q9URQ3|TAD3_YEAST tRNA-specific adenosine deaminase subunit 
+TAD3 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) 
+OX=559292 GN=TAD3 PE=1 SV=1
+Length=322
+
+ Score = 82.4 bits (202),  Expect = 4e-18, Method: Composition-based stats.
+ Identities = 24/111 (22%), Positives = 33/111 (30%), Gaps = 13/111 (12%)
+
+Query  18   REALDDGDEPFGSVLVDHT---GTTLFE-DRNRVKD-ATAHPEFAIARWAARHL------  66
+            + A      P  SV VD +      + E  RN        H      R     L      
+Sbjct  176  KMATAGKQFPMVSVFVDPSRKKDKVVAEDGRNCENSLPIDHSVMVGIRAVGERLREGVDE  235
+
+Query  67   --TPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWLTEWG  115
+                       VY + E C MC+ A     + R+V+ T   + G      G
+Sbjct  236  DANSYLCLDYDVYLTHEPCSMCSMALIHSRVRRVVFLTEMQRTGSLKLTSG  286
+
+
+> sp|P00814|DCTD_BPT2 Deoxycytidylate deaminase OS=Enterobacteria 
+phage T2 OX=10664 GN=CD PE=1 SV=1
+Length=188
+
+ Score = 76.6 bits (187),  Expect = 7e-17, Method: Composition-based stats.
+ Identities = 21/80 (26%), Positives = 32/80 (40%), Gaps = 3/80 (4%)
+
+Query  53   HPEFAIARWAARHLTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLG-GWL  111
+            H E     +AAR+ +      AT+Y +   CP CA A A  G+ ++VY  +  +   GW 
+Sbjct  104  HAELNAILFAARNGSS--IEGATMYVTLSPCPDCAKAIAQSGIKKLVYCETYDKNKPGWD  161
+
+Query  112  TEWGAQAPPVATLPINTVAP  131
+                     V  +P      
+Sbjct  162  DILRNAGIEVFNVPKLNWEN  181
+
+
+> sp|P16006|DCTD_BPT4 Deoxycytidylate deaminase OS=Enterobacteria 
+phage T4 OX=10665 GN=CD PE=1 SV=1
+Length=193
+
+ Score = 75.4 bits (184),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 21/77 (27%), Positives = 32/77 (42%), Gaps = 3/77 (4%)
+
+Query  53   HPEFAIARWAARHLTPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLG-GWL  111
+            H E     +AAR+ +      AT+Y +   CP CA A A  G+ ++VY  +  +   GW 
+Sbjct  104  HAELNAILFAARNGSS--IEGATMYVTLSPCPDCAKAIAQSGIKKLVYCETYDKNKPGWD  161
+
+Query  112  TEWGAQAPPVATLPINT  128
+                     V  +P   
+Sbjct  162  DILRNAGIEVFNVPKKN  178
+
+
+> sp|F4KH86|TAD3_ARATH tRNA-specific adenosine deaminase TAD3 OS=Arabidopsis 
+thaliana OX=3702 GN=TAD3 PE=1 SV=1
+Length=400
+
+ Score = 69.3 bits (168),  Expect = 2e-13, Method: Composition-based stats.
+ Identities = 14/58 (24%), Positives = 19/58 (33%), Gaps = 0/58 (0%)
+
+Query  67   TPDRRARATVYTSGEHCPMCAAAHAWVGLGRIVYATSSAQLGGWLTEWGAQAPPVATL  124
+             P       ++   E C MCA A     + RI YA  +   GG  +    Q       
+Sbjct  323  RPYLCTGYDIFLLLEPCTMCAMALVHQRIKRIFYAFPNTTAGGLGSVHRLQGEKSLNH  380
+
+
+> sp|Q9STY4|RIBRX_ARATH Riboflavin biosynthesis protein PYRR, chloroplastic 
+OS=Arabidopsis thaliana OX=3702 GN=PYRR PE=1 SV=1
+Length=599
+
+ Score = 61.2 bits (147),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 24/111 (22%), Positives = 32/111 (29%), Gaps = 15/111 (14%)
+
+Query  3    SDADLKYLRRCVDLARE-ALDDGDEP-FGSVLVDHTGTTLFEDRNRVKDATAHPEFAIAR  60
+               D  ++RR  DL+   A      P FG V+   +G    E        T   E     
+Sbjct  29   HTTDAAFIRRAADLSEMSAGLTSPHPNFGCVIATSSGKVAGEGY-LYAQGTKPAEALAVE  87
+
+Query  61   WAARHLTPDRRARATVYTSGEHCPMCAA------AHAWVGLGRIVYATSSA  105
+             A           AT Y + E    C        A    G+ R+V      
+Sbjct  88   AAGEFSR-----GATAYLNMEP-GDCHGDHTAVSALVQAGIERVVVGIRHP  132
+
+
+> sp|K7WIZ6|RIBRX_MAIZE Riboflavin biosynthesis protein PYRR, chloroplastic 
+OS=Zea mays OX=4577 GN=PYRR PE=1 SV=1
+Length=623
+
+ Score = 53.1 bits (126),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 24/114 (21%), Positives = 33/114 (29%), Gaps = 20/114 (18%)
+
+Query  6    DLKYLRRCVDLA-REALDDGDEP-FGSVLVDH-------TGTTLFEDRNRVKDATAHPEF  56
+            D   LRR  D+A R A      P FG V+              + E        T   E 
+Sbjct  54   DAMLLRRAADVADRSAGLTSPHPNFGCVIARPQLNTDSADSWVVGEGF-LYAQGTPCAEL  112
+
+Query  57   AIARWAARHLTPDRRARATVYTSGEH--C---PMCAAAHAWVGLGRIVYATSSA  105
+              ++ A  H         T Y + E   C        +    G+ R+V      
+Sbjct  113  LASQEAGEHAR-----GGTAYLNLEPGDCFGDNTAVGSLVQAGITRVVVGLRHP  161
+
+
+> sp|Q8BMD5|CDAC1_MOUSE Cytidine and dCMP deaminase domain-containing 
+protein 1 OS=Mus musculus OX=10090 GN=Cdadc1 PE=2 SV=1
+Length=523
+
+ Score = 46.9 bits (110),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 17/128 (13%), Positives = 32/128 (25%), Gaps = 36/128 (28%)
+
+Query  10   LRRCVDLAREALDDGDEPFGSVL--------VDHTGTT--LFEDRNRVKDA---------  50
+            + +   LA    D      G+V+         D TG    +    N              
+Sbjct  324  MVQARLLAYRTEDH-KTGVGAVIWAEAKSRSCDGTGAMYFIGCGYNAFPVGSEYADFPHM  382
+
+Query  51   --------------TAHPEFAIARWAARHLTPDRRARATVYTSGEHCPMCAAAHAWVGLG  96
+                            H E     +  + + P+   R+ ++ +   C  C       G+ 
+Sbjct  383  DDKHKDREIRKFRYIIHAEQNALTFRCQDIKPE--ERSMIFVTKCPCDECVPLIKGAGIK  440
+
+Query  97   RIVYATSS  104
+            +I      
+Sbjct  441  QIYAGDVD  448
+
+
+ Score = 41.5 bits (96),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 15/91 (16%), Positives = 25/91 (27%), Gaps = 8/91 (9%)
+
+Query  15   DLAREALDDGDEPFGSVLVDHTGTTLFEDRNRVKDATAHPEFAIARWAARHLTPDRRARA  74
+            +L R + +        ++V      +       +D   H                R    
+Sbjct  75   ELTRVSTEKKQVKKTGLVVVKNMKIIGL-HCSSED--LHTGQIALIK-----HGSRLKNC  126
+
+Query  75   TVYTSGEHCPMCAAAHAWVGLGRIVYATSSA  105
+             +Y S + C  C       G+ RI Y  S  
+Sbjct  127  DLYFSRKPCSACLKMIVNAGVNRISYWPSDP  157
+
+
+> sp|Q5U3U4|CDAC1_DANRE Cytidine and dCMP deaminase domain-containing 
+protein 1 OS=Danio rerio OX=7955 GN=cdadc1 PE=2 SV=1
+Length=471
+
+ Score = 46.9 bits (110),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 14/92 (15%), Positives = 23/92 (25%), Gaps = 8/92 (9%)
+
+Query  9    YLRRCVDLAREALDDGDEPFGSVLVDHTGTTLFEDRNRVKDATAHPEFAIARWAARHLTP  68
+            ++           ++       ++V H    L         A  H               
+Sbjct  58   WMELFPKREACQQENDAAGVSGLVVVHECRVLGL---HCSSAQLHAGQVAVVKHGP----  110
+
+Query  69   DRRARATVYTSGEHCPMCAAAHAWVGLGRIVY  100
+             R     +Y S + C  C       G+ RI Y
+Sbjct  111  -RLKSCELYFSRKPCSTCLKMLINAGVSRISY  141
+
+
+ Score = 44.2 bits (103),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 15/125 (12%), Positives = 30/125 (24%), Gaps = 38/125 (30%)
+
+Query  11   RRCVDLAREALDDGDEP---FGSVLVDHTGT----------TLFEDRNRVKDATA-----  52
+            R CV  AR      ++P    G+V+                 +    N     +      
+Sbjct  315  RHCVIQARLLACRTEDPKVGVGAVIWAEGKQSQCDGTGQLYLVGCGYNAYPVGSQYAEYP  374
+
+Query  53   ------------------HPEFAIARWAARHLTPDRRARATVYTSGEHCPMCAAAHAWVG  94
+                              H E     + +  +  +      ++ +   C  C       G
+Sbjct  375  QMDHKQEERQNRKYRYILHAEQNALTFRSAEIKAE--DNTMMFVTKCPCDECVPLIGCAG  432
+
+Query  95   LGRIV  99
+            + +I 
+Sbjct  433  IKQIY  437
+
+
+> sp|Q9BWV3|CDAC1_HUMAN Cytidine and dCMP deaminase domain-containing 
+protein 1 OS=Homo sapiens OX=9606 GN=CDADC1 PE=1 SV=1
+Length=514
+
+ Score = 46.5 bits (109),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 14/128 (11%), Positives = 30/128 (23%), Gaps = 36/128 (28%)
+
+Query  10   LRRCVDLAREALDDGDEPFGSVLVDHTGT----------TLFEDRNRVKDA---------  50
+            + +   LA    D      G+V+     +           +    N              
+Sbjct  323  MVQARLLAYRTEDH-KTGVGAVIWAEGKSRSCDGTGAMYFVGCGYNAFPVGSEYADFPHM  381
+
+Query  51   --------------TAHPEFAIARWAARHLTPDRRARATVYTSGEHCPMCAAAHAWVGLG  96
+                            H E     +  + + P+   R+ ++ +   C  C       G+ 
+Sbjct  382  DDKQKDREIRKFRYIIHAEQNALTFRCQEIKPE--ERSMIFVTKCPCDECVPLIKGAGIK  439
+
+Query  97   RIVYATSS  104
+            +I      
+Sbjct  440  QIYAGDVD  447
+
+
+ Score = 43.8 bits (102),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 14/77 (18%), Positives = 21/77 (27%), Gaps = 9/77 (12%)
+
+Query  29   GSVLVDHTGTTLFEDRNRVKDATAHPEFAIARWAARHLTPDRRARATVYTSGEHCPMCAA  88
+            G V+V      +       +D   H                R     +Y S + C  C  
+Sbjct  89   GLVVVK-NMKIVGL-HCSSED--LHAGQIALIK-----HGSRLKNCDLYFSRKPCSACLK  139
+
+Query  89   AHAWVGLGRIVYATSSA  105
+                 G+ RI Y  +  
+Sbjct  140  MIVNAGVNRISYWPADP  156
+
+
+> sp|Q4R683|CDAC1_MACFA Cytidine and dCMP deaminase domain-containing 
+protein 1 OS=Macaca fascicularis OX=9541 GN=CDADC1 PE=2 
+SV=1
+Length=515
+
+ Score = 46.2 bits (108),  Expect = 3e-05, Method: Composition-based stats.
+ Identities = 14/128 (11%), Positives = 30/128 (23%), Gaps = 36/128 (28%)
+
+Query  10   LRRCVDLAREALDDGDEPFGSVLVDHTGT----------TLFEDRNRVKDA---------  50
+            + +   LA    D      G+V+     +           +    N              
+Sbjct  324  MVQARLLAYRTEDH-KTGVGAVIWAEGKSRSCDGTGAMYFVGCGYNAFPVGSEYADFPHM  382
+
+Query  51   --------------TAHPEFAIARWAARHLTPDRRARATVYTSGEHCPMCAAAHAWVGLG  96
+                            H E     +  + + P+   R+ ++ +   C  C       G+ 
+Sbjct  383  DDKQKDREIRKFRYIIHAEQNALTFRCQEIKPE--ERSMIFVTKCPCDECVPLIKGAGIK  440
+
+Query  97   RIVYATSS  104
+            +I      
+Sbjct  441  QIYAGDVD  448
+
+
+ Score = 43.8 bits (102),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 14/91 (15%), Positives = 25/91 (27%), Gaps = 8/91 (9%)
+
+Query  15   DLAREALDDGDEPFGSVLVDHTGTTLFEDRNRVKDATAHPEFAIARWAARHLTPDRRARA  74
+            ++ R + D        ++V      +       +D   H                R    
+Sbjct  75   EMTRVSTDKRQVKRTGLVVVKNMKIVGL-HCSSED--LHAGQIALIK-----HGSRLKNC  126
+
+Query  75   TVYTSGEHCPMCAAAHAWVGLGRIVYATSSA  105
+             +Y S + C  C       G+ RI Y  +  
+Sbjct  127  DLYFSRKPCSACLKMIVNAGVNRISYWPADP  157
+
+
+> sp|Q5RAX4|CDAC1_PONAB Cytidine and dCMP deaminase domain-containing 
+protein 1 OS=Pongo abelii OX=9601 GN=CDADC1 PE=2 SV=1
+Length=515
+
+ Score = 46.2 bits (108),  Expect = 3e-05, Method: Composition-based stats.
+ Identities = 14/128 (11%), Positives = 30/128 (23%), Gaps = 36/128 (28%)
+
+Query  10   LRRCVDLAREALDDGDEPFGSVLVDHTGT----------TLFEDRNRVKDA---------  50
+            + +   LA    D      G+V+     +           +    N              
+Sbjct  324  MVQARLLAYRTEDH-KTGVGAVIWAEGKSRSCDGTGAMYFVGCGYNAFPVGSEYADFPHM  382
+
+Query  51   --------------TAHPEFAIARWAARHLTPDRRARATVYTSGEHCPMCAAAHAWVGLG  96
+                            H E     +  + + P+   R+ ++ +   C  C       G+ 
+Sbjct  383  DDKQKDREIRKFRYIIHAERNALTFRCQEIKPE--ERSMIFVTKCPCDECVPLIKGAGIK  440
+
+Query  97   RIVYATSS  104
+            +I      
+Sbjct  441  QIYAGDVD  448
+
+
+ Score = 43.8 bits (102),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 14/91 (15%), Positives = 25/91 (27%), Gaps = 8/91 (9%)
+
+Query  15   DLAREALDDGDEPFGSVLVDHTGTTLFEDRNRVKDATAHPEFAIARWAARHLTPDRRARA  74
+            ++ R + D        ++V      +       +D   H                R    
+Sbjct  75   EMTRVSTDKRQVKRTGLVVVKNMKIVGL-HCSSED--LHAGQIALIK-----HGSRLKNC  126
+
+Query  75   TVYTSGEHCPMCAAAHAWVGLGRIVYATSSA  105
+             +Y S + C  C       G+ RI Y  +  
+Sbjct  127  DLYFSRKPCSACLKMIVNAGVNRISYWPADP  157
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.140    0.416    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0428    0.140     1.90     42.6     43.6 
+
+Effective search space used: 6815338080
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 28, 2021  3:44 PM
+  Number of letters in database: 202,799,066
+  Number of sequences in database:  563,082
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

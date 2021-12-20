@@ -1,0 +1,2628 @@
+PSIBLAST 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           563,082 sequences; 202,799,066 total letters
+
+Results from round 1
+
+
+Query= 5YZ1
+
+Length=160
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|Q8IWT0|ARCH_HUMAN Protein archease OS=Homo sapiens OX=9606 G...  334     2e-118
+  sp|Q2YDE7|ARCH_BOVIN Protein archease OS=Bos taurus OX=9913 GN=...  326     2e-115
+  sp|Q505B7|ARCH_MOUSE Protein archease OS=Mus musculus OX=10090 ...  316     2e-111
+  sp|Q2EGP9|ARCH_ICTPU Protein archease OS=Ictalurus punctatus OX...  275     2e-95 
+  sp|Q566V0|ARCH_DANRE Protein archease OS=Danio rerio OX=7955 GN...  273     2e-94 
+  sp|Q9VD92|ARCH_DROME Protein archease-like OS=Drosophila melano...  174     3e-55 
+  sp|Q9TZN1|ARCH_CAEEL Protein archease-like OS=Caenorhabditis el...  140     5e-42 
+  sp|Q61DI9|ARCH_CAEBR Protein archease-like OS=Caenorhabditis br...  130     2e-38 
+  sp|Q54BU9|ARCH_DICDI Protein archease-like OS=Dictyostelium dis...  129     9e-38 
+  sp|Q975L0|ARCH_SULTO Protein archease OS=Sulfurisphaera tokodai...  102     4e-27 
+  sp|Q8TU10|ARCH_METAC Protein archease OS=Methanosarcina acetivo...  96.7    5e-25 
+  sp|O59205|ARCH_PYRHO Protein archease OS=Pyrococcus horikoshii ...  96.3    6e-25 
+  sp|Q4JB72|ARCH_SULAC Protein archease OS=Sulfolobus acidocaldar...  95.9    9e-25 
+  sp|C3MVY1|ARCH_SULIM Protein archease OS=Sulfolobus islandicus ...  95.1    2e-24 
+  sp|C4KHI6|ARCH_SULIK Protein archease OS=Sulfolobus islandicus ...  95.1    2e-24 
+  sp|C3N5V7|ARCH_SULIA Protein archease OS=Sulfolobus islandicus ...  95.1    2e-24 
+  sp|C3MQ89|ARCH_SULIL Protein archease OS=Sulfolobus islandicus ...  95.1    2e-24 
+  sp|C3NH78|ARCH_SULIN Protein archease OS=Sulfolobus islandicus ...  95.1    2e-24 
+  sp|Q8U0N4|ARCH_PYRFU Protein archease OS=Pyrococcus furiosus (s...  94.0    5e-24 
+  sp|C3NEH3|ARCH_SULIY Protein archease OS=Sulfolobus islandicus ...  94.0    5e-24 
+  sp|Q46D27|ARCH_METBF Protein archease OS=Methanosarcina barkeri...  94.0    7e-24 
+  sp|Q8ZWP9|ARCH_PYRAE Protein archease OS=Pyrobaculum aerophilum...  93.6    7e-24 
+  sp|Q8PWN9|ARCH_METMA Protein archease OS=Methanosarcina mazei (...  92.0    3e-23 
+  sp|Q9UX79|ARCH_SACS2 Protein archease OS=Saccharolobus solfatar...  91.3    7e-23 
+  sp|B1YCY3|ARCH_PYRNV Protein archease OS=Pyrobaculum neutrophil...  90.9    1e-22 
+  sp|Q9YFV2|ARCH_AERPE Protein archease OS=Aeropyrum pernix (stra...  84.7    2e-20 
+  sp|A1RV54|ARCH_PYRIL Protein archease OS=Pyrobaculum islandicum...  84.0    5e-20 
+  sp|Q60334|ARCH_METJA Protein archease OS=Methanocaldococcus jan...  82.8    1e-19 
+  sp|Q5JCY8|ARCH_THEKO Protein archease OS=Thermococcus kodakaren...  81.6    4e-19 
+  sp|A3MTM9|ARCH_PYRCJ Protein archease OS=Pyrobaculum calidifont...  80.5    1e-18 
+  sp|C5A6Z1|ARCH_THEGJ Protein archease OS=Thermococcus gammatole...  79.7    2e-18 
+  sp|O27635|ARCH_METTH Protein archease OS=Methanothermobacter th...  77.4    1e-17 
+  sp|Q9V105|ARCH_PYRAB Protein archease OS=Pyrococcus abyssi (str...  77.0    2e-17 
+  sp|O28777|ARCH_ARCFU Protein archease OS=Archaeoglobus fulgidus...  69.7    1e-14 
+  sp|Q8TYR4|ARCH_METKA Protein archease OS=Methanopyrus kandleri ...  67.8    6e-14 
+  sp|Q97A49|ARCH_THEVO Protein archease OS=Thermoplasma volcanium...  40.0    0.001 
+  sp|Q9HKC1|ARCH_THEAC Protein archease OS=Thermoplasma acidophil...  39.3    0.004 
+
+
+> sp|Q8IWT0|ARCH_HUMAN Protein archease OS=Homo sapiens OX=9606 
+GN=ZBTB8OS PE=1 SV=2
+Length=167
+
+ Score = 334 bits (856),  Expect = 2e-118, Method: Compositional matrix adjust.
+ Identities = 159/159 (100%), Positives = 159/159 (100%), Gaps = 0/159 (0%)
+
+Query  1    RDYNLTEEQKAIKAKYPPVNRKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTG  60
+            RDYNLTEEQKAIKAKYPPVNRKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTG
+Sbjct  9    RDYNLTEEQKAIKAKYPPVNRKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTG  68
+
+Query  61   TVEPLQTVEVETQGDDLQSLLFHFLDEWLYKFSADEFFIPREVKVLSIDQRNFKLRSIGW  120
+            TVEPLQTVEVETQGDDLQSLLFHFLDEWLYKFSADEFFIPREVKVLSIDQRNFKLRSIGW
+Sbjct  69   TVEPLQTVEVETQGDDLQSLLFHFLDEWLYKFSADEFFIPREVKVLSIDQRNFKLRSIGW  128
+
+Query  121  GEEFSLSKHPQGTEVKAITYSAMQVYNEENPEVFVIIDI  159
+            GEEFSLSKHPQGTEVKAITYSAMQVYNEENPEVFVIIDI
+Sbjct  129  GEEFSLSKHPQGTEVKAITYSAMQVYNEENPEVFVIIDI  167
+
+
+> sp|Q2YDE7|ARCH_BOVIN Protein archease OS=Bos taurus OX=9913 GN=ZBTB8OS 
+PE=2 SV=2
+Length=167
+
+ Score = 326 bits (836),  Expect = 2e-115, Method: Compositional matrix adjust.
+ Identities = 154/159 (97%), Positives = 158/159 (99%), Gaps = 0/159 (0%)
+
+Query  1    RDYNLTEEQKAIKAKYPPVNRKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTG  60
+            RDYNLTEEQKAIKAKYPPV+RKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTG
+Sbjct  9    RDYNLTEEQKAIKAKYPPVSRKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTG  68
+
+Query  61   TVEPLQTVEVETQGDDLQSLLFHFLDEWLYKFSADEFFIPREVKVLSIDQRNFKLRSIGW  120
+            TVEPLQT+EVETQGDDLQSLLFHFLDEWLYKFSADEFFIPREVKVL+IDQRNFK+RSIGW
+Sbjct  69   TVEPLQTIEVETQGDDLQSLLFHFLDEWLYKFSADEFFIPREVKVLNIDQRNFKIRSIGW  128
+
+Query  121  GEEFSLSKHPQGTEVKAITYSAMQVYNEENPEVFVIIDI  159
+            GEEFSLSKHPQGTEVKAITYSAMQVYNEE PEVFVIIDI
+Sbjct  129  GEEFSLSKHPQGTEVKAITYSAMQVYNEEKPEVFVIIDI  167
+
+
+> sp|Q505B7|ARCH_MOUSE Protein archease OS=Mus musculus OX=10090 
+GN=Zbtb8os PE=1 SV=2
+Length=168
+
+ Score = 316 bits (810),  Expect = 2e-111, Method: Compositional matrix adjust.
+ Identities = 152/160 (95%), Positives = 156/160 (98%), Gaps = 1/160 (1%)
+
+Query  1    RDYNLTEEQKAIKAKYPPVNRKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTG  60
+            RDYNLTEEQKA K KYPPVNRKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTG
+Sbjct  9    RDYNLTEEQKATKDKYPPVNRKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTG  68
+
+Query  61   TVEPLQTVEVETQGDDLQSLLFHFLDEWLYKFSADEFFIPREVKVLSIDQRNFKLRSIGW  120
+            TVEPL+TVEVETQGDDLQSLLFHFLDEWLYKFSADE+FIPREVKVL+IDQ+NFKLRSIGW
+Sbjct  69   TVEPLRTVEVETQGDDLQSLLFHFLDEWLYKFSADEYFIPREVKVLNIDQKNFKLRSIGW  128
+
+Query  121  GEEFSLSKHPQGTEVKAITYSAMQVYNEENPEV-FVIIDI  159
+            GEEFSLSKHPQGTEVKAITYSAMQVYNEE PEV FVIIDI
+Sbjct  129  GEEFSLSKHPQGTEVKAITYSAMQVYNEEKPEVFFVIIDI  168
+
+
+> sp|Q2EGP9|ARCH_ICTPU Protein archease OS=Ictalurus punctatus 
+OX=7998 PE=2 SV=1
+Length=162
+
+ Score = 275 bits (704),  Expect = 2e-95, Method: Compositional matrix adjust.
+ Identities = 123/159 (77%), Positives = 146/159 (92%), Gaps = 0/159 (0%)
+
+Query  1    RDYNLTEEQKAIKAKYPPVNRKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTG  60
+            R+ +LTE QKAIKAKYP +N+KYEYLDHTADVQLH+WGDTLEEAFEQCAMAMFGYMTDT 
+Sbjct  4    RELDLTEAQKAIKAKYPAINKKYEYLDHTADVQLHSWGDTLEEAFEQCAMAMFGYMTDTE  63
+
+Query  61   TVEPLQTVEVETQGDDLQSLLFHFLDEWLYKFSADEFFIPREVKVLSIDQRNFKLRSIGW  120
+            TVEP+ T+E+E++GDDL+SLLFHFLD+WL+KFSAD FF+PREVKVL +D+  F +RSIGW
+Sbjct  64   TVEPIDTIEIESEGDDLESLLFHFLDDWLFKFSADAFFVPREVKVLQLDRMRFTIRSIGW  123
+
+Query  121  GEEFSLSKHPQGTEVKAITYSAMQVYNEENPEVFVIIDI  159
+            GEEF+L+KHPQGTEVKAITYSAMQ+ ++E PE+F IIDI
+Sbjct  124  GEEFNLAKHPQGTEVKAITYSAMQICDKEKPEIFAIIDI  162
+
+
+> sp|Q566V0|ARCH_DANRE Protein archease OS=Danio rerio OX=7955 
+GN=zbtb8os PE=2 SV=2
+Length=162
+
+ Score = 273 bits (698),  Expect = 2e-94, Method: Compositional matrix adjust.
+ Identities = 122/159 (77%), Positives = 147/159 (92%), Gaps = 0/159 (0%)
+
+Query  1    RDYNLTEEQKAIKAKYPPVNRKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTG  60
+            R+ +LTEEQKA+KAKYPP+ +KYEYLDHTADVQ+H+WG++LEEAFEQCAM MFGYMTDT 
+Sbjct  4    RELDLTEEQKALKAKYPPITKKYEYLDHTADVQIHSWGNSLEEAFEQCAMGMFGYMTDTE  63
+
+Query  61   TVEPLQTVEVETQGDDLQSLLFHFLDEWLYKFSADEFFIPREVKVLSIDQRNFKLRSIGW  120
+            TVEP+ TVEVE++GDD++SLL+HFLD+WL+KFSAD FFIPREVKVL ID+  +K+RSIGW
+Sbjct  64   TVEPIDTVEVESEGDDMESLLYHFLDDWLFKFSADIFFIPREVKVLHIDRMRYKIRSIGW  123
+
+Query  121  GEEFSLSKHPQGTEVKAITYSAMQVYNEENPEVFVIIDI  159
+            GEEFS++KHPQGTEVKAITYSAMQ++  E PE+FVIIDI
+Sbjct  124  GEEFSINKHPQGTEVKAITYSAMQIHETEQPEIFVIIDI  162
+
+
+> sp|Q9VD92|ARCH_DROME Protein archease-like OS=Drosophila melanogaster 
+OX=7227 GN=Archease PE=2 SV=1
+Length=156
+
+ Score = 174 bits (440),  Expect = 3e-55, Method: Compositional matrix adjust.
+ Identities = 83/141 (59%), Positives = 104/141 (74%), Gaps = 3/141 (2%)
+
+Query  22   KYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQGDDLQSLL  81
+            KYEYLDHTADVQ+H WG +L+EAFEQC +AMFGYMT+   V   Q  E+E  GDDL+SLL
+Sbjct  16   KYEYLDHTADVQIHGWGSSLKEAFEQCGVAMFGYMTELDYVSVEQCFEIEAHGDDLESLL  75
+
+Query  82   FHFLDEWLYKFSADEFFIPREVKVLSIDQRNFKLRSIGWGEEFSLSKHPQGTEVKAITYS  141
+            FHFLDE L+ FSA+ + + +++++   D  NF++    +GE F L KHPQGTEVKAITYS
+Sbjct  76   FHFLDELLFLFSAEPYLVCKKLEITKFDVENFEISCHCYGEPFELGKHPQGTEVKAITYS  135
+
+Query  142  AMQVYNE---ENPEVFVIIDI  159
+            AMQ+  +    N EVFVIIDI
+Sbjct  136  AMQIIQDVEASNYEVFVIIDI  156
+
+
+> sp|Q9TZN1|ARCH_CAEEL Protein archease-like OS=Caenorhabditis 
+elegans OX=6239 GN=arch-1 PE=3 SV=1
+Length=155
+
+ Score = 140 bits (353),  Expect = 5e-42, Method: Compositional matrix adjust.
+ Identities = 65/141 (46%), Positives = 93/141 (66%), Gaps = 1/141 (1%)
+
+Query  20   NRKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQGDDLQS  79
+             R++EYLDH AD+QLH+WG T+EEAFE C ++MFGYMTD   V+ +     +  GD L  
+Sbjct  15   RRRFEYLDHPADIQLHSWGSTMEEAFEACLVSMFGYMTDLAKVDEMYEFYWKASGDSLDG  74
+
+Query  80   LLFHFLDEWLYKFSADEFFIPREVKVLSIDQRNFKLRSIGWGEEFSLSKHPQGTEVKAIT  139
+            LLF FLDE L  F A+  F+ + V++L  D++ F++   GWGE F  SKH    ++K+ T
+Sbjct  75   LLFQFLDEALNSFHAEPCFVAKRVEILRFDKKKFEIEFRGWGESFDTSKHETEADIKSPT  134
+
+Query  140  YSAMQVYNE-ENPEVFVIIDI  159
+            YS MQ+  + E  +++VI+DI
+Sbjct  135  YSNMQINEKPERCDIYVIVDI  155
+
+
+> sp|Q61DI9|ARCH_CAEBR Protein archease-like OS=Caenorhabditis 
+briggsae OX=6238 GN=arch-1 PE=3 SV=1
+Length=155
+
+ Score = 130 bits (328),  Expect = 2e-38, Method: Compositional matrix adjust.
+ Identities = 62/141 (44%), Positives = 89/141 (63%), Gaps = 1/141 (1%)
+
+Query  20   NRKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQGDDLQS  79
+             R++EYLDH AD+QLH+WG T+E AFE C ++MFGYMTD   VE       +  GD +  
+Sbjct  15   RRRFEYLDHPADIQLHSWGTTIERAFEACLVSMFGYMTDLEKVEEQYEFYWKVSGDSMDG  74
+
+Query  80   LLFHFLDEWLYKFSADEFFIPREVKVLSIDQRNFKLRSIGWGEEFSLSKHPQGTEVKAIT  139
+            LLF FLDE L  F A+  F+ + V+++  D+   ++   GWGE F  SKH    ++K+ T
+Sbjct  75   LLFQFLDEALNSFHAEPCFVAKRVEIMRFDKEKLEIEFRGWGESFDTSKHETEADIKSPT  134
+
+Query  140  YSAMQVYNE-ENPEVFVIIDI  159
+            YS MQ+  + +  +V+VI+DI
+Sbjct  135  YSNMQIIEKSDRCDVYVIVDI  155
+
+
+> sp|Q54BU9|ARCH_DICDI Protein archease-like OS=Dictyostelium discoideum 
+OX=44689 GN=DDB_G0293404 PE=3 SV=1
+Length=151
+
+ Score = 129 bits (324),  Expect = 9e-38, Method: Compositional matrix adjust.
+ Identities = 69/147 (47%), Positives = 95/147 (65%), Gaps = 13/147 (9%)
+
+Query  21   RKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVE-----PLQTVEVETQGD  75
+            + +EYLDHTAD+  H WG  L+EA EQ  + M  YM +  +VE       QT+ V   G 
+Sbjct  10   KNFEYLDHTADIMFHTWGKDLKEALEQMVLIMNNYMVELDSVELDDSATEQTISV--NGH  67
+
+Query  76   DLQSLLFHFLDEWLYKFSADEFFIPREVKVLSIDQRNFKLRSIGWGEEFSLSKHPQGTEV  135
+            D+ SLLF  LDE+L+ FS  EF I ++V+++S D+ NF +++IG G E   SKH  GTE+
+Sbjct  68   DMDSLLFALLDEFLFVFST-EFIIFKQVQIISFDRENFSIKAIGKGVELDKSKHTTGTEI  126
+
+Query  136  KAITYSAMQVYNEENP---EVFVIIDI  159
+            KAITYS M++  EENP   ++ VI+DI
+Sbjct  127  KAITYSCMKI--EENPDKSDIHVIVDI  151
+
+
+> sp|Q975L0|ARCH_SULTO Protein archease OS=Sulfurisphaera tokodaii 
+(strain DSM 16993 / JCM 10545 / NBRC 100140 / 7) OX=273063 
+GN=STK_04060 PE=3 SV=1
+Length=139
+
+ Score = 102 bits (253),  Expect = 4e-27, Method: Compositional matrix adjust.
+ Identities = 52/140 (37%), Positives = 87/140 (62%), Gaps = 3/140 (2%)
+
+Query  21   RKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQGDDLQSL  80
+            +K+E+ +HTAD+ + A+G  L EAFE  A+A+F  MTDT  VEP +  EV+  G DL++L
+Sbjct  2    QKFEFFEHTADIGIRAYGRNLNEAFENAAVAVFEVMTDTSKVEPKEMREVKIDGYDLENL  61
+
+Query  81   LFHFLDEWLYKFSADEFFIPREVKVLSIDQRNFKLRSIGWGEEFSLSKHPQGTEVKAITY  140
+            L+ +++  L  + ++     +    ++ID++N  L    WGE+F  +KH + T VKA+TY
+Sbjct  62   LYRWIESLLVYYDSEIMLFSK--FYVNIDEKNLTLEGKAWGEKFDPNKHERRTVVKAMTY  119
+
+Query  141  SAMQVYNEENPEVFV-IIDI  159
+              M++ N+ N  +   ++DI
+Sbjct  120  HEMKIENKGNYYILTFVVDI  139
+
+
+> sp|Q8TU10|ARCH_METAC Protein archease OS=Methanosarcina acetivorans 
+(strain ATCC 35395 / DSM 2834 / JCM 12185 / C2A) OX=188937 
+GN=MA_0265 PE=3 SV=1
+Length=146
+
+ Score = 96.7 bits (239),  Expect = 5e-25, Method: Compositional matrix adjust.
+ Identities = 51/130 (39%), Positives = 79/130 (61%), Gaps = 1/130 (1%)
+
+Query  17   PPVNRKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQGDD  76
+            P   +KYEYL+HTAD++  A+G+TL+E FE  A+AMF  + DTG V      EV     D
+Sbjct  2    PSQGKKYEYLEHTADIKFLAYGNTLKEVFENAALAMFNVIIDTGKVSGETAREVCLTSPD  61
+
+Query  77   LQSLLFHFLDEWLYKFSADEF-FIPREVKVLSIDQRNFKLRSIGWGEEFSLSKHPQGTEV  135
+            L+SLL  +L E LY F  DE  F    V+ +  ++  + ++++  GE++    HP  TE+
+Sbjct  62   LESLLVDWLSELLYLFEVDEIVFWKFRVEEIREEEGEYSIKAVASGEQYYPESHPFETEI  121
+
+Query  136  KAITYSAMQV  145
+            KA+TY+ +++
+Sbjct  122  KAVTYNQLEL  131
+
+
+> sp|O59205|ARCH_PYRHO Protein archease OS=Pyrococcus horikoshii 
+(strain ATCC 700860 / DSM 12428 / JCM 9974 / NBRC 100139 / 
+OT-3) OX=70601 GN=PH1536 PE=1 SV=1
+Length=142
+
+ Score = 96.3 bits (238),  Expect = 6e-25, Method: Compositional matrix adjust.
+ Identities = 49/126 (39%), Positives = 80/126 (63%), Gaps = 2/126 (2%)
+
+Query  21   RKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQGDDLQSL  80
+            +K+E+ +HTAD+ +  +GD+LEEAFE  A+A+F  M +   VE  +  E+E + +DL++L
+Sbjct  2    KKWEHYEHTADIGIRGYGDSLEEAFEAVAIALFDVMVNVNKVEKKEVREIEVEAEDLEAL  61
+
+Query  81   LFHFLDEWLYKFSADEF-FIPREVKVLSIDQRNFKLRSIGWGEEFSLSKHPQGTEVKAIT  139
+            L+ FL+E L     +   F   EVK+  ++ + ++LR+  +GE+  L KH    EVKAIT
+Sbjct  62   LYSFLEELLVIHDIEGLVFRDFEVKIERVNGK-YRLRAKAYGEKLDLKKHEPKEEVKAIT  120
+
+Query  140  YSAMQV  145
+            Y  M++
+Sbjct  121  YHDMKI  126
+
+
+> sp|Q4JB72|ARCH_SULAC Protein archease OS=Sulfolobus acidocaldarius 
+(strain ATCC 33909 / DSM 639 / JCM 8929 / NBRC 15157 / 
+NCIMB 11770) OX=330779 GN=Saci_0565 PE=3 SV=1
+Length=139
+
+ Score = 95.9 bits (237),  Expect = 9e-25, Method: Compositional matrix adjust.
+ Identities = 53/139 (38%), Positives = 84/139 (60%), Gaps = 3/139 (2%)
+
+Query  22   KYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQGDDLQSLL  81
+            ++E+ DHTAD+ + A+G +LEEAFE  A+A+F  MTDT  +E    VE+E  G DL++LL
+Sbjct  3    RFEFFDHTADIGIIAYGRSLEEAFESAALAVFEVMTDTSKIEYKVEVEIEEIGSDLENLL  62
+
+Query  82   FHFLDEWLYKFSADEFFIPREVKVLSIDQRNFKLRSIGWGEEFSLSKHPQGTEVKAITYS  141
+            + +++  L  + +D     +  KV SID  N  L+   +GE+F+  KH + T VKA+TY 
+Sbjct  63   YRWIESLLVYYDSDLLLFGK-FKV-SIDLNNMTLKGKAYGEKFNPEKHERRTVVKAMTYH  120
+
+Query  142  AMQVYNEENPEVF-VIIDI  159
+             M +   +   +   ++DI
+Sbjct  121  EMLISQNDGTYILRFVVDI  139
+
+
+> sp|C3MVY1|ARCH_SULIM Protein archease OS=Sulfolobus islandicus 
+(strain M.14.25 / Kamchatka #1) OX=427317 GN=M1425_1450 PE=3 
+SV=1
+Length=139
+
+ Score = 95.1 bits (235),  Expect = 2e-24, Method: Compositional matrix adjust.
+ Identities = 51/140 (36%), Positives = 83/140 (59%), Gaps = 3/140 (2%)
+
+Query  21   RKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQGDDLQSL  80
+            R +E+ +HTADV + A+G +LEEAF   A+ +F  +TDT  V+P++  E+   G DL++L
+Sbjct  2    RSFEFFEHTADVGIRAYGKSLEEAFSNAALGVFEVITDTSKVKPIEYREIYLNGYDLENL  61
+
+Query  81   LFHFLDEWLYKFSADEFFIPREVKVLSIDQRNFKLRSIGWGEEFSLSKHPQGTEVKAITY  140
+            L+ +++E LY + ++     +    L IDQ +  L    WGE+F+   H + T VKA+TY
+Sbjct  62   LYKWIEELLYYYDSELMVFSK--FDLMIDQDSMTLEGKAWGEKFNGKIHERRTVVKAMTY  119
+
+Query  141  SAMQVYNEENPEVFV-IIDI  159
+              + +   EN  V   ++DI
+Sbjct  120  HQLSIEKTENGYVITFVVDI  139
+
+
+> sp|C4KHI6|ARCH_SULIK Protein archease OS=Sulfolobus islandicus 
+(strain M.16.4 / Kamchatka #3) OX=426118 GN=M164_1444 PE=3 
+SV=1
+Length=139
+
+ Score = 95.1 bits (235),  Expect = 2e-24, Method: Compositional matrix adjust.
+ Identities = 51/140 (36%), Positives = 83/140 (59%), Gaps = 3/140 (2%)
+
+Query  21   RKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQGDDLQSL  80
+            R +E+ +HTADV + A+G +LEEAF   A+ +F  +TDT  V+P++  E+   G DL++L
+Sbjct  2    RSFEFFEHTADVGIRAYGKSLEEAFSNAALGVFEVITDTSKVKPIEYREIYLNGYDLENL  61
+
+Query  81   LFHFLDEWLYKFSADEFFIPREVKVLSIDQRNFKLRSIGWGEEFSLSKHPQGTEVKAITY  140
+            L+ +++E LY + ++     +    L IDQ +  L    WGE+F+   H + T VKA+TY
+Sbjct  62   LYKWIEELLYYYDSELMVFSK--FDLMIDQDSMTLEGKAWGEKFNGKIHERRTVVKAMTY  119
+
+Query  141  SAMQVYNEENPEVFV-IIDI  159
+              + +   EN  V   ++DI
+Sbjct  120  HQLSIEKTENGYVITFVVDI  139
+
+
+> sp|C3N5V7|ARCH_SULIA Protein archease OS=Sulfolobus islandicus 
+(strain M.16.27) OX=427318 GN=M1627_1500 PE=3 SV=1
+Length=139
+
+ Score = 95.1 bits (235),  Expect = 2e-24, Method: Compositional matrix adjust.
+ Identities = 51/140 (36%), Positives = 83/140 (59%), Gaps = 3/140 (2%)
+
+Query  21   RKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQGDDLQSL  80
+            R +E+ +HTADV + A+G +LEEAF   A+ +F  +TDT  V+P++  E+   G DL++L
+Sbjct  2    RSFEFFEHTADVGIRAYGKSLEEAFSNAALGVFEVITDTSKVKPIEYREIYLNGYDLENL  61
+
+Query  81   LFHFLDEWLYKFSADEFFIPREVKVLSIDQRNFKLRSIGWGEEFSLSKHPQGTEVKAITY  140
+            L+ +++E LY + ++     +    L IDQ +  L    WGE+F+   H + T VKA+TY
+Sbjct  62   LYKWIEELLYYYDSELMVFSK--FDLMIDQDSMTLEGKAWGEKFNGKIHERRTVVKAMTY  119
+
+Query  141  SAMQVYNEENPEVFV-IIDI  159
+              + +   EN  V   ++DI
+Sbjct  120  HQLSIEKTENGYVITFVVDI  139
+
+
+> sp|C3MQ89|ARCH_SULIL Protein archease OS=Sulfolobus islandicus 
+(strain L.S.2.15 / Lassen #1) OX=429572 GN=LS215_1545 PE=3 
+SV=1
+Length=139
+
+ Score = 95.1 bits (235),  Expect = 2e-24, Method: Compositional matrix adjust.
+ Identities = 51/140 (36%), Positives = 83/140 (59%), Gaps = 3/140 (2%)
+
+Query  21   RKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQGDDLQSL  80
+            R +E+ +HTADV + A+G +LEEAF   A+ +F  +TDT  V+P++  E+   G DL++L
+Sbjct  2    RSFEFFEHTADVGIRAYGKSLEEAFSNAALGVFEVITDTSKVKPIEYREIYLNGYDLENL  61
+
+Query  81   LFHFLDEWLYKFSADEFFIPREVKVLSIDQRNFKLRSIGWGEEFSLSKHPQGTEVKAITY  140
+            L+ +++E LY + ++     +    L IDQ +  L    WGE+F+   H + T VKA+TY
+Sbjct  62   LYKWIEELLYYYDSELMVFSK--FDLMIDQDSMTLEGKAWGEKFNGKIHERRTVVKAMTY  119
+
+Query  141  SAMQVYNEENPEVFV-IIDI  159
+              + +   EN  V   ++DI
+Sbjct  120  HQLSIEKTENCYVITFVVDI  139
+
+
+> sp|C3NH78|ARCH_SULIN Protein archease OS=Sulfolobus islandicus 
+(strain Y.N.15.51 / Yellowstone #2) OX=419942 GN=YN1551_1396 
+PE=3 SV=1
+Length=139
+
+ Score = 95.1 bits (235),  Expect = 2e-24, Method: Compositional matrix adjust.
+ Identities = 51/140 (36%), Positives = 83/140 (59%), Gaps = 3/140 (2%)
+
+Query  21   RKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQGDDLQSL  80
+            R +E+ +HTADV + A+G +LEEAF   A+ +F  +TDT  V+P++  E+   G DL++L
+Sbjct  2    RSFEFFEHTADVGIRAYGKSLEEAFSNAALGVFEIITDTSKVKPIEYREIYLNGYDLENL  61
+
+Query  81   LFHFLDEWLYKFSADEFFIPREVKVLSIDQRNFKLRSIGWGEEFSLSKHPQGTEVKAITY  140
+            L+ +++E LY + ++     +    L IDQ +  L    WGE+F+   H + T VKA+TY
+Sbjct  62   LYKWIEELLYYYDSELMVFSK--FDLMIDQDSMTLEGKAWGEKFNGKIHERRTVVKAMTY  119
+
+Query  141  SAMQVYNEENPEVFV-IIDI  159
+              + +   EN  V   ++DI
+Sbjct  120  HQLSIEKTENCYVITFVVDI  139
+
+
+> sp|Q8U0N4|ARCH_PYRFU Protein archease OS=Pyrococcus furiosus 
+(strain ATCC 43587 / DSM 3638 / JCM 8422 / Vc1) OX=186497 GN=PF1552 
+PE=3 SV=1
+Length=142
+
+ Score = 94.0 bits (232),  Expect = 5e-24, Method: Compositional matrix adjust.
+ Identities = 52/127 (41%), Positives = 81/127 (64%), Gaps = 4/127 (3%)
+
+Query  21   RKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQGDDLQSL  80
+            R++E+ +HTAD+ +  +GDTLEEAFE  A+A+F  + +   +E    +++E +G+DL+SL
+Sbjct  2    RQWEHYEHTADIGIRGYGDTLEEAFEAVALALFDVIVNVRKIEKKVEIDIEVEGEDLESL  61
+
+Query  81   LFHFLDEWLYKFSADEFFIPREVKVLSIDQRNFK--LRSIGWGEEFSLSKHPQGTEVKAI  138
+            L+ FL+E LY     E  +  + KV  I+Q++ K  LR   +GE+F   KH    EVKAI
+Sbjct  62   LYSFLEELLYLHDI-EGLVFGDFKV-KIEQKDGKYILRGKAYGEKFDPEKHEPKEEVKAI  119
+
+Query  139  TYSAMQV  145
+            TY  M++
+Sbjct  120  TYHDMKI  126
+
+
+> sp|C3NEH3|ARCH_SULIY Protein archease OS=Sulfolobus islandicus 
+(strain Y.G.57.14 / Yellowstone #1) OX=439386 GN=YG5714_1445 
+PE=3 SV=1
+Length=139
+
+ Score = 94.0 bits (232),  Expect = 5e-24, Method: Compositional matrix adjust.
+ Identities = 50/140 (36%), Positives = 83/140 (59%), Gaps = 3/140 (2%)
+
+Query  21   RKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQGDDLQSL  80
+            R +E+ +HTADV + A+G +LEEAF   A+ +F  +TDT  V+P++  E+   G DL++L
+Sbjct  2    RSFEFFEHTADVGIRAYGKSLEEAFSNAALGVFEIITDTSKVKPIEYREIYLNGYDLENL  61
+
+Query  81   LFHFLDEWLYKFSADEFFIPREVKVLSIDQRNFKLRSIGWGEEFSLSKHPQGTEVKAITY  140
+            L+ +++E LY + ++     +    L IDQ +  L    WGE+F+   H + T VKA+TY
+Sbjct  62   LYKWIEELLYYYDSELMVFSK--FDLMIDQDSMTLEGKAWGEKFNGKIHERRTVVKAMTY  119
+
+Query  141  SAMQVYNEENPEVFV-IIDI  159
+              + +   EN  +   ++DI
+Sbjct  120  HQLSIEKTENCYLITFVVDI  139
+
+
+> sp|Q46D27|ARCH_METBF Protein archease OS=Methanosarcina barkeri 
+(strain Fusaro / DSM 804) OX=269797 GN=Mbar_A1251 PE=3 SV=1
+Length=146
+
+ Score = 94.0 bits (232),  Expect = 7e-24, Method: Compositional matrix adjust.
+ Identities = 53/143 (37%), Positives = 84/143 (59%), Gaps = 4/143 (3%)
+
+Query  20   NRKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQGDDLQS  79
+             ++YEYLDHTAD++  A+G T EE FE  A+AMF  + DT  +      E+  +  DL+S
+Sbjct  5    GKQYEYLDHTADIKFQAYGKTREEVFENAALAMFNVIIDTKKISGDTAREIFLKSPDLES  64
+
+Query  80   LLFHFLDEWLYKFSADEFFIPREVKVLSIDQRN--FKLRSIGWGEEFSLSKHPQGTEVKA  137
+            LL  +L E LY F  DE  + RE +V +I + N  + + +   GE++ L   P  TE+KA
+Sbjct  65   LLVDWLSELLYLFEVDE-IVFREFRVDNIREENGEYSITAQALGEKYDLKSLPFETEIKA  123
+
+Query  138  ITYSAMQVYNEENP-EVFVIIDI  159
+            +TY+ +++    +  +  V++DI
+Sbjct  124  VTYNQLEITKTADGWKAQVVVDI  146
+
+
+> sp|Q8ZWP9|ARCH_PYRAE Protein archease OS=Pyrobaculum aerophilum 
+(strain ATCC 51768 / IM2 / DSM 7523 / JCM 9630 / NBRC 100827) 
+OX=178306 GN=PAE1678 PE=3 SV=1
+Length=147
+
+ Score = 93.6 bits (231),  Expect = 7e-24, Method: Compositional matrix adjust.
+ Identities = 49/129 (38%), Positives = 82/129 (64%), Gaps = 1/129 (1%)
+
+Query  23   YEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQGDDLQSLLF  82
+            Y+Y +HTADV + A+G TLEEAF+  A+A+      +  VEP ++ EV  + +DL+ LLF
+Sbjct  9    YKYGEHTADVLIQAYGCTLEEAFKNAALALADLTYYSSRVEPKESREVAVEYEDLEGLLF  68
+
+Query  83   HFLDEWLYKFSADEFFIPREVKVLSIDQRNFKLRSIGWGEEFSLSKHP-QGTEVKAITYS  141
+             ++DE LY F A++F + R ++V       + +R++ +GE++ ++KH   G  VKA+TY 
+Sbjct  69   RWIDELLYLFDAEKFALSRRIEVKLEKGNGYAIRALLYGEKYDINKHGFTGLIVKAMTYH  128
+
+Query  142  AMQVYNEEN  150
+             M++   E+
+Sbjct  129  MMEIKKVED  137
+
+
+> sp|Q8PWN9|ARCH_METMA Protein archease OS=Methanosarcina mazei 
+(strain ATCC BAA-159 / DSM 3647 / Goe1 / Go1 / JCM 11833 / 
+OCM 88) OX=192952 GN=MM_1537 PE=3 SV=1
+Length=146
+
+ Score = 92.0 bits (227),  Expect = 3e-23, Method: Compositional matrix adjust.
+ Identities = 50/130 (38%), Positives = 79/130 (61%), Gaps = 1/130 (1%)
+
+Query  17   PPVNRKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQGDD  76
+            P   +KYEYL+HTAD++  A+G+T+EE FE  A+AMF  + DT  V      EV     D
+Sbjct  2    PSQGKKYEYLEHTADIKFLAYGETVEEVFENAALAMFNVIIDTEKVSGETEREVLLTSPD  61
+
+Query  77   LQSLLFHFLDEWLYKFSADE-FFIPREVKVLSIDQRNFKLRSIGWGEEFSLSKHPQGTEV  135
+            L+SLL  +L E LY F  DE  F   +V+ +  ++  + ++++  GE++    HP  TE+
+Sbjct  62   LESLLVDWLSELLYLFEVDEVVFWKFQVEEIREEEGEYSIKALASGEKYYPESHPFETEI  121
+
+Query  136  KAITYSAMQV  145
+            KA+TY+ +++
+Sbjct  122  KAVTYNQLEL  131
+
+
+> sp|Q9UX79|ARCH_SACS2 Protein archease OS=Saccharolobus solfataricus 
+(strain ATCC 35092 / DSM 1617 / JCM 11322 / P2) OX=273057 
+GN=SSO0690 PE=3 SV=1
+Length=139
+
+ Score = 91.3 bits (225),  Expect = 7e-23, Method: Compositional matrix adjust.
+ Identities = 50/140 (36%), Positives = 84/140 (60%), Gaps = 3/140 (2%)
+
+Query  21   RKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQGDDLQSL  80
+            R++E+ +HTADV + ++G +LEEAF   A+ +F  +TDT  V P++  E+   G DL++L
+Sbjct  2    RQFEFFEHTADVGIKSYGRSLEEAFSNAALGVFEVITDTSKVRPVEYREIYLNGYDLENL  61
+
+Query  81   LFHFLDEWLYKFSADEFFIPREVKVLSIDQRNFKLRSIGWGEEFSLSKHPQGTEVKAITY  140
+            L+ +++E LY + + E  I  +  ++ IDQ +  L    WGE F+   H + T VKA+TY
+Sbjct  62   LYKWIEELLYYYDS-ELMIFSKFDLM-IDQDSITLEGKAWGERFNDKIHERRTVVKAMTY  119
+
+Query  141  SAMQVYNEENPEVFV-IIDI  159
+              + +   E+  V   ++DI
+Sbjct  120  HQLSIEKTESGYVITFVVDI  139
+
+
+> sp|B1YCY3|ARCH_PYRNV Protein archease OS=Pyrobaculum neutrophilum 
+(strain DSM 2338 / JCM 9278 / NBRC 100436 / V24Sta) OX=444157 
+GN=Tneu_0707 PE=3 SV=1
+Length=147
+
+ Score = 90.9 bits (224),  Expect = 1e-22, Method: Compositional matrix adjust.
+ Identities = 49/124 (40%), Positives = 77/124 (62%), Gaps = 1/124 (1%)
+
+Query  23   YEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQGDDLQSLLF  82
+            Y Y +HTADV + A+G TLEEAF   A+A+      T  VEP  + EVE + DDL+ LLF
+Sbjct  9    YRYGEHTADVLIQAYGCTLEEAFVNAAVALAEVTYSTSKVEPKHSREVEVEYDDLEGLLF  68
+
+Query  83   HFLDEWLYKFSADEFFIPREVKVLSIDQRNFKLRSIGWGEEFSLSKHP-QGTEVKAITYS  141
+             ++DE LY F A++F I R++ +       ++++++ +G+ +S  KH   G  VKA+T+ 
+Sbjct  69   KWIDELLYLFDAEKFAISRKIDLKLEKDGGYRIKAVLYGDIYSQEKHGFTGLIVKAMTFH  128
+
+Query  142  AMQV  145
+             M++
+Sbjct  129  MMEI  132
+
+
+> sp|Q9YFV2|ARCH_AERPE Protein archease OS=Aeropyrum pernix (strain 
+ATCC 700893 / DSM 11879 / JCM 9820 / NBRC 100138 / K1) 
+OX=272557 GN=APE_0148.1 PE=3 SV=2
+Length=144
+
+ Score = 84.7 bits (208),  Expect = 2e-20, Method: Compositional matrix adjust.
+ Identities = 52/136 (38%), Positives = 79/136 (58%), Gaps = 4/136 (3%)
+
+Query  27   DHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQGDDLQSLLFHFLD  86
+            +HTADV + A+G TLEEAFE  A  ++  +TDT  VEP + V+   +G DL++LL+ F++
+Sbjct  10   EHTADVLVIAYGRTLEEAFENAARGVYEVVTDTSRVEPRRRVDASIEGIDLENLLYRFIE  69
+
+Query  87   EWL-YKFSADEFFIPREVKVLSIDQRNFKLRSIGWGEEFSLSKHPQGTEVKAITYSAMQV  145
+              + Y  S    F    V  +  +  +  + +  WGEEF  S+H   T VKA+TY+ M++
+Sbjct  70   NLIAYTDSEGLVFGLFRVCKIECNGESCSIVASAWGEEFDPSRHEHRTIVKAMTYADMEI  129
+
+Query  146  YNEENP--EVFVIIDI  159
+              EEN    V  ++DI
+Sbjct  130  -KEENGCWRVQFVVDI  144
+
+
+> sp|A1RV54|ARCH_PYRIL Protein archease OS=Pyrobaculum islandicum 
+(strain DSM 4184 / JCM 9189 / GEO3) OX=384616 GN=Pisl_1685 
+PE=3 SV=1
+Length=147
+
+ Score = 84.0 bits (206),  Expect = 5e-20, Method: Compositional matrix adjust.
+ Identities = 49/130 (38%), Positives = 81/130 (62%), Gaps = 5/130 (4%)
+
+Query  18   PVNRKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQGDDL  77
+            PV+  Y Y +HTADV + A+G TLEEAF+  A+A+      T  VEP    E+    +DL
+Sbjct  6    PVD--YRYGEHTADVLIQAYGCTLEEAFKNAAIALAELTYHTEKVEPRYAKEITIDYNDL  63
+
+Query  78   QSLLFHFLDEWLYKFSADEFFIPREVKVLSIDQRN-FKLRSIGWGEEFSLSKHP-QGTEV  135
+            + LLF ++DE L+ F  ++F I RE+ VL++ + + + ++++ +GE + + KH   G  V
+Sbjct  64   EGLLFRWIDELLFLFDTEKFAISREI-VLNLGKNDVYYIKAVLYGEPYDIEKHGFTGLIV  122
+
+Query  136  KAITYSAMQV  145
+            KA+T+  M++
+Sbjct  123  KAMTFHMMEI  132
+
+
+> sp|Q60334|ARCH_METJA Protein archease OS=Methanocaldococcus jannaschii 
+(strain ATCC 43067 / DSM 2661 / JAL-1 / JCM 10045 
+/ NBRC 100440) OX=243232 GN=MJ0024 PE=3 SV=1
+Length=139
+
+ Score = 82.8 bits (203),  Expect = 1e-19, Method: Compositional matrix adjust.
+ Identities = 46/139 (33%), Positives = 81/139 (58%), Gaps = 3/139 (2%)
+
+Query  23   YEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQGDDLQSLLF  82
+            + Y + TAD+ + A G +LEEAF++ A  ++  M D   V+  + +E E  G+DL+ LL+
+Sbjct  2    FNYFETTADLGVEAKGKSLEEAFKEGAKGLYNIMVDIDKVDKKEKIEFEITGEDLEELLY  61
+
+Query  83   HFLDEWLYKFSADEF-FIPREVKVLSIDQRNFKLRSIGWGEEFSLSKHPQGTEVKAITYS  141
+            +FL+E L+    +   F   +VK+   D   ++L+   +GE+ +  KH    EVKA+TY 
+Sbjct  62   NFLNELLFYTDVENLVFNDFDVKIEKNDN-GYRLKCTAYGEKINKEKHNIKEEVKAVTYH  120
+
+Query  142  AMQVYNEENP-EVFVIIDI  159
+             M++  EE+  ++  I+D+
+Sbjct  121  KMEIKQEEDGWKIRYIVDL  139
+
+
+> sp|Q5JCY8|ARCH_THEKO Protein archease OS=Thermococcus kodakarensis 
+(strain ATCC BAA-918 / JCM 12380 / KOD1) OX=69014 GN=TK0361 
+PE=3 SV=1
+Length=142
+
+ Score = 81.6 bits (200),  Expect = 4e-19, Method: Compositional matrix adjust.
+ Identities = 50/126 (40%), Positives = 76/126 (60%), Gaps = 2/126 (2%)
+
+Query  21   RKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQGDDLQSL  80
+            RK+E+ +HTAD+ +  +G TLEEAFE  A+ +F  M +   VEP +  EVE + +DL++L
+Sbjct  2    RKWEHYEHTADIGVRGYGSTLEEAFEAVALGLFDVMVNVKKVEPKECREVEVEEEDLEAL  61
+
+Query  81   LFHFLDEWLYKFSADEFFIPREVKV-LSIDQRNFKLRSIGWGEEFSLSKHPQGTEVKAIT  139
+            L+ FL+E L      E  +  +VKV +   +  +KL++   GE  +  KH    EVKAIT
+Sbjct  62   LYSFLEELLVLHDM-EGLVFGDVKVRIEKTENGYKLKAKACGEVLNPEKHEPKEEVKAIT  120
+
+Query  140  YSAMQV  145
+            Y  M++
+Sbjct  121  YHDMKI  126
+
+
+> sp|A3MTM9|ARCH_PYRCJ Protein archease OS=Pyrobaculum calidifontis 
+(strain JCM 11548 / VA1) OX=410359 GN=Pcal_0569 PE=3 SV=1
+Length=147
+
+ Score = 80.5 bits (197),  Expect = 1e-18, Method: Compositional matrix adjust.
+ Identities = 48/129 (37%), Positives = 76/129 (59%), Gaps = 3/129 (2%)
+
+Query  18   PVNRKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQGDDL  77
+            P N  Y Y +HTADV + A+G TLEEAF+  A+A+      +  VEP    +VE + DDL
+Sbjct  6    PAN--YRYGEHTADVLVQAFGCTLEEAFKNAAVALADLTYYSERVEPRMAKKVEVEYDDL  63
+
+Query  78   QSLLFHFLDEWLYKFSADEFFIPREVKVLSIDQRNFKLRSIGWGEEFSLSKHP-QGTEVK  136
+            + LLF ++DE L+ F A++F   R ++V       +++ +   GE + ++KH   G  VK
+Sbjct  64   EGLLFKWIDELLFLFDAEKFAWGRNIEVELRQGVGYRISATLHGEMYDINKHGFTGLIVK  123
+
+Query  137  AITYSAMQV  145
+            A+T+  M++
+Sbjct  124  AMTFHMMEI  132
+
+
+> sp|C5A6Z1|ARCH_THEGJ Protein archease OS=Thermococcus gammatolerans 
+(strain DSM 15229 / JCM 11827 / EJ3) OX=593117 GN=TGAM_1501 
+PE=3 SV=1
+Length=142
+
+ Score = 79.7 bits (195),  Expect = 2e-18, Method: Compositional matrix adjust.
+ Identities = 48/126 (38%), Positives = 75/126 (60%), Gaps = 2/126 (2%)
+
+Query  21   RKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQGDDLQSL  80
+            R++E+ +HTAD+ +  +G TLEEAFE  A+ +F  M D   VEP +  EVE + +DL++L
+Sbjct  2    RRWEHYEHTADIGVRGYGSTLEEAFEAVALGLFDVMVDVRKVEPRECREVEVEEEDLEAL  61
+
+Query  81   LFHFLDEWLYKFSADEFFIPREVKV-LSIDQRNFKLRSIGWGEEFSLSKHPQGTEVKAIT  139
+            L+ FL+E L      E  +  +V+V +   +  ++L++   GE     KH    EVKAIT
+Sbjct  62   LYSFLEELLVLHDM-EGLVFGDVRVRIEKTENGYRLKAKACGEVLDYEKHEPKEEVKAIT  120
+
+Query  140  YSAMQV  145
+            Y  M++
+Sbjct  121  YHDMRI  126
+
+
+> sp|O27635|ARCH_METTH Protein archease OS=Methanothermobacter 
+thermautotrophicus (strain ATCC 29096 / DSM 1053 / JCM 10044 
+/ NBRC 100330 / Delta H) OX=187420 GN=MTH_1598 PE=1 SV=1
+Length=140
+
+ Score = 77.4 bits (189),  Expect = 1e-17, Method: Compositional matrix adjust.
+ Identities = 53/142 (37%), Positives = 78/142 (55%), Gaps = 6/142 (4%)
+
+Query  21   RKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQGDDLQSL  80
+            + +E+ D TAD    A+G  LEE FE  A+AMF  MTDT  VE  +   VE   +D  SL
+Sbjct  2    KGFEFFDVTADAGFWAYGHDLEEVFENAALAMFEVMTDTSLVEAAEERRVEITSEDRVSL  61
+
+Query  81   LFHFLDEWLYKFSADEFFIPREVKVLSIDQRN--FKLRSIGWGEEFSLSKHPQGTEVKAI  138
+            L+ +LDE L+     EF +  + KV  ID+++    L     GEE     H +  EVKA+
+Sbjct  62   LYDWLDELLFIHDT-EFILFSKFKV-KIDEKDDGLHLTGTAMGEEIK-EGHERRDEVKAV  118
+
+Query  139  TYSAMQVYNEEN-PEVFVIIDI  159
+            T+  M++ +E+   +  VI+D+
+Sbjct  119  TFHMMEILDEDGLIKARVILDL  140
+
+
+> sp|Q9V105|ARCH_PYRAB Protein archease OS=Pyrococcus abyssi (strain 
+GE5 / Orsay) OX=272844 GN=PYRAB06240 PE=1 SV=1
+Length=142
+
+ Score = 77.0 bits (188),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 49/126 (39%), Positives = 80/126 (63%), Gaps = 2/126 (2%)
+
+Query  21   RKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQGDDLQSL  80
+            +++E+ +HTAD+ +  +GD+LEEAFE  A+A+F  + +   VE  +  EVE +G+DL+SL
+Sbjct  2    KRWEHYEHTADIGIRGYGDSLEEAFEAVAIALFDVIVNVNKVEKKEVREVEVEGEDLESL  61
+
+Query  81   LFHFLDEWLYKFSADEF-FIPREVKVLSIDQRNFKLRSIGWGEEFSLSKHPQGTEVKAIT  139
+            L++FL+E L     +   F   EVK+    ++ +KL++  +GE+    KH    EVKAIT
+Sbjct  62   LYNFLEELLVIHDIEGLVFRDFEVKIEKT-EKGYKLKAKAYGEKLDPEKHEPKEEVKAIT  120
+
+Query  140  YSAMQV  145
+            Y  M++
+Sbjct  121  YHDMKI  126
+
+
+> sp|O28777|ARCH_ARCFU Protein archease OS=Archaeoglobus fulgidus 
+(strain ATCC 49558 / VC-16 / DSM 4304 / JCM 9628 / NBRC 100126) 
+OX=224325 GN=AF_1495 PE=3 SV=1
+Length=137
+
+ Score = 69.7 bits (169),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 47/139 (34%), Positives = 70/139 (50%), Gaps = 4/139 (3%)
+
+Query  22   KYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQGDDLQSLL  81
+            KY ++DHTAD+    +G  L E FE  A+A +    DT  +   + V VE +G+D++  L
+Sbjct  2    KYRFIDHTADIAFEVYGSNLRELFENAALAFYDAFVDTSGIGIEREVGVECEGEDVEITL  61
+
+Query  82   FHFLDEWLYKFSADEFFIPREVKVLSIDQRNFKLRSIGWGEEFSLSKHPQGTEVKAITYS  141
+            + +L+E LY F   EFF  ++V+V   +    K      G  FS        E KAIT  
+Sbjct  62   YRWLNELLYLFDT-EFFAAKDVEVEVEEGDGVKASGKLRGGRFSAEMVK--VEPKAITLH  118
+
+Query  142  AMQVYNEENPEV-FVIIDI  159
+              +V   +   V FV++DI
+Sbjct  119  KFRVEKTDKGYVAFVVVDI  137
+
+
+> sp|Q8TYR4|ARCH_METKA Protein archease OS=Methanopyrus kandleri 
+(strain AV19 / DSM 6324 / JCM 9639 / NBRC 100938) OX=190192 
+GN=MK0228 PE=3 SV=1
+Length=140
+
+ Score = 67.8 bits (164),  Expect = 6e-14, Method: Compositional matrix adjust.
+ Identities = 49/129 (38%), Positives = 73/129 (57%), Gaps = 2/129 (2%)
+
+Query  23   YEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQGDDLQSLLF  82
+            +E ++HTAD     W DT E+   + A A+F  +TD   VEP + VE+E +G DL  LL 
+Sbjct  3    WEEIEHTADAAFRVWADTPEDLLVEAAKALFDLITDLDAVEPEEEVEIEAEGGDLVELLH  62
+
+Query  83   HFLDEWLYKFSADE-FFIPREVKVLSIDQRNFKLRSIGWGEEFSLSKHPQGTEVKAITYS  141
+             +L+E  ++   D   F   EVK L  ++  +K+R +  GE +   +HP  TEVKA+TY 
+Sbjct  63   DWLEEIHFRHEIDGMLFSDFEVKELKKEE-GWKVRGVARGEPYDPDRHPFHTEVKAVTYH  121
+
+Query  142  AMQVYNEEN  150
+             M+V  E+ 
+Sbjct  122  NMKVEREDG  130
+
+
+> sp|Q97A49|ARCH_THEVO Protein archease OS=Thermoplasma volcanium 
+(strain ATCC 51530 / DSM 4299 / JCM 9571 / NBRC 15438 / GSS1) 
+OX=273116 GN=TV0961 PE=3 SV=1
+Length=133
+
+ Score = 40.0 bits (92),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 32/138 (23%), Positives = 58/138 (42%), Gaps = 25/138 (18%)
+
+Query  23   YEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQGDDLQSLLF  82
+            YE LDH +D+ +  +G T EE F     AM   + D G ++  + +    +G+  + ++ 
+Sbjct  3    YEILDHESDIGIMVYGTTYEELFSNAVYAMADLILDVGKLKEKRKMHEIIRGNTPEDIMV  62
+
+Query  83   HFLDEWLYKFSADEFFIPREVKVLSIDQRNFKLRSIGWGEEFSLSKHPQGTE--------  134
+            + L   L  F  D ++                 R+    E+ +L  +  G+E        
+Sbjct  63   NLLSRVL--FYVDTYY-------------TLYFRATCKYEDSTLDVYLYGSEIPEEVEYR  107
+
+Query  135  --VKAITYSAMQVYNEEN  150
+              +KA+TYS + V  E+ 
+Sbjct  108  NVIKAVTYSEIAVKPEDG  125
+
+
+> sp|Q9HKC1|ARCH_THEAC Protein archease OS=Thermoplasma acidophilum 
+(strain ATCC 25905 / DSM 1728 / JCM 9062 / NBRC 15155 / 
+AMRC-C165) OX=273075 GN=Ta0680 PE=3 SV=1
+Length=141
+
+ Score = 39.3 bits (90),  Expect = 0.004, Method: Compositional matrix adjust.
+ Identities = 33/132 (25%), Positives = 59/132 (45%), Gaps = 13/132 (10%)
+
+Query  23   YEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQGDDLQSLLF  82
+            YE +DH +D+ +  +G T EE F     AM   + D   ++  + +     G   + ++ 
+Sbjct  11   YEVVDHESDIGVIVYGKTYEELFSNAVYAMADLIVDVSRLKENRKMHEVITGKTPEDIMV  70
+
+Query  83   HFLDEWLYKFSADEFFIPREVKVLSIDQRNFKLRSIGWGEEFSLSKHPQGTE----VKAI  138
+            + L   L  F  D ++I      ++    + +L +  +G E      P+G E    +KA+
+Sbjct  71   NLLSRVL--FYLDTYYILY--YRITSKYSDGELDAYFYGSEI-----PEGIEYRNVIKAV  121
+
+Query  139  TYSAMQVYNEEN  150
+            TYS + V  EE 
+Sbjct  122  TYSDLAVKPEEG  133
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.135    0.402    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 7383282920
+Results from round 2
+
+
+Query= 5YZ1
+
+Length=160
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q2YDE7|ARCH_BOVIN Protein archease OS=Bos taurus OX=9913 GN=...  232     3e-78
+  sp|Q8IWT0|ARCH_HUMAN Protein archease OS=Homo sapiens OX=9606 G...  232     3e-78
+  sp|Q566V0|ARCH_DANRE Protein archease OS=Danio rerio OX=7955 GN...  223     1e-74
+  sp|Q2EGP9|ARCH_ICTPU Protein archease OS=Ictalurus punctatus OX...  222     2e-74
+  sp|Q505B7|ARCH_MOUSE Protein archease OS=Mus musculus OX=10090 ...  220     1e-73
+  sp|Q9VD92|ARCH_DROME Protein archease-like OS=Drosophila melano...  173     6e-55
+  sp|Q9TZN1|ARCH_CAEEL Protein archease-like OS=Caenorhabditis el...  171     3e-54
+  sp|Q61DI9|ARCH_CAEBR Protein archease-like OS=Caenorhabditis br...  169     2e-53
+  sp|Q975L0|ARCH_SULTO Protein archease OS=Sulfurisphaera tokodai...  168     4e-53
+  sp|Q8TU10|ARCH_METAC Protein archease OS=Methanosarcina acetivo...  168     4e-53
+  sp|Q8ZWP9|ARCH_PYRAE Protein archease OS=Pyrobaculum aerophilum...  166     2e-52
+  sp|C3MQ89|ARCH_SULIL Protein archease OS=Sulfolobus islandicus ...  164     7e-52
+  sp|C3MVY1|ARCH_SULIM Protein archease OS=Sulfolobus islandicus ...  164     1e-51
+  sp|C4KHI6|ARCH_SULIK Protein archease OS=Sulfolobus islandicus ...  164     1e-51
+  sp|C3N5V7|ARCH_SULIA Protein archease OS=Sulfolobus islandicus ...  164     1e-51
+  sp|C3NH78|ARCH_SULIN Protein archease OS=Sulfolobus islandicus ...  163     1e-51
+  sp|C3NEH3|ARCH_SULIY Protein archease OS=Sulfolobus islandicus ...  163     2e-51
+  sp|A3MTM9|ARCH_PYRCJ Protein archease OS=Pyrobaculum calidifont...  162     1e-50
+  sp|Q9UX79|ARCH_SACS2 Protein archease OS=Saccharolobus solfatar...  161     2e-50
+  sp|Q8PWN9|ARCH_METMA Protein archease OS=Methanosarcina mazei (...  161     2e-50
+  sp|Q9YFV2|ARCH_AERPE Protein archease OS=Aeropyrum pernix (stra...  160     6e-50
+  sp|B1YCY3|ARCH_PYRNV Protein archease OS=Pyrobaculum neutrophil...  160     8e-50
+  sp|Q4JB72|ARCH_SULAC Protein archease OS=Sulfolobus acidocaldar...  159     1e-49
+  sp|Q46D27|ARCH_METBF Protein archease OS=Methanosarcina barkeri...  157     1e-48
+  sp|A1RV54|ARCH_PYRIL Protein archease OS=Pyrobaculum islandicum...  155     7e-48
+  sp|Q8U0N4|ARCH_PYRFU Protein archease OS=Pyrococcus furiosus (s...  154     1e-47
+  sp|Q5JCY8|ARCH_THEKO Protein archease OS=Thermococcus kodakaren...  151     2e-46
+  sp|O59205|ARCH_PYRHO Protein archease OS=Pyrococcus horikoshii ...  150     4e-46
+  sp|Q54BU9|ARCH_DICDI Protein archease-like OS=Dictyostelium dis...  146     2e-44
+  sp|C5A6Z1|ARCH_THEGJ Protein archease OS=Thermococcus gammatole...  144     6e-44
+  sp|O28777|ARCH_ARCFU Protein archease OS=Archaeoglobus fulgidus...  137     3e-41
+  sp|Q60334|ARCH_METJA Protein archease OS=Methanocaldococcus jan...  137     3e-41
+  sp|Q9V105|ARCH_PYRAB Protein archease OS=Pyrococcus abyssi (str...  137     5e-41
+  sp|O27635|ARCH_METTH Protein archease OS=Methanothermobacter th...  136     9e-41
+  sp|Q8TYR4|ARCH_METKA Protein archease OS=Methanopyrus kandleri ...  125     2e-36
+  sp|Q97A49|ARCH_THEVO Protein archease OS=Thermoplasma volcanium...  100     1e-26
+
+Sequences not found previously or not previously below threshold:
+
+  sp|Q9HKC1|ARCH_THEAC Protein archease OS=Thermoplasma acidophil...  94.6    3e-24
+  sp|P9WQ03|ARCH_MYCTU Probable protein archease OS=Mycobacterium...  47.6    4e-06
+  sp|P9WQ02|ARCH_MYCTO Probable protein archease OS=Mycobacterium...  47.6    4e-06
+  sp|Q9X0H1|ARCH_THEMA Protein archease OS=Thermotoga maritima (s...  39.1    0.003
+
+
+> sp|Q2YDE7|ARCH_BOVIN Protein archease OS=Bos taurus OX=9913 GN=ZBTB8OS 
+PE=2 SV=2
+Length=167
+
+ Score = 232 bits (593),  Expect = 3e-78, Method: Composition-based stats.
+ Identities = 154/159 (97%), Positives = 158/159 (99%), Gaps = 0/159 (0%)
+
+Query  1    RDYNLTEEQKAIKAKYPPVNRKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTG  60
+            RDYNLTEEQKAIKAKYPPV+RKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTG
+Sbjct  9    RDYNLTEEQKAIKAKYPPVSRKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTG  68
+
+Query  61   TVEPLQTVEVETQGDDLQSLLFHFLDEWLYKFSADEFFIPREVKVLSIDQRNFKLRSIGW  120
+            TVEPLQT+EVETQGDDLQSLLFHFLDEWLYKFSADEFFIPREVKVL+IDQRNFK+RSIGW
+Sbjct  69   TVEPLQTIEVETQGDDLQSLLFHFLDEWLYKFSADEFFIPREVKVLNIDQRNFKIRSIGW  128
+
+Query  121  GEEFSLSKHPQGTEVKAITYSAMQVYNEENPEVFVIIDI  159
+            GEEFSLSKHPQGTEVKAITYSAMQVYNEE PEVFVIIDI
+Sbjct  129  GEEFSLSKHPQGTEVKAITYSAMQVYNEEKPEVFVIIDI  167
+
+
+> sp|Q8IWT0|ARCH_HUMAN Protein archease OS=Homo sapiens OX=9606 
+GN=ZBTB8OS PE=1 SV=2
+Length=167
+
+ Score = 232 bits (592),  Expect = 3e-78, Method: Composition-based stats.
+ Identities = 159/159 (100%), Positives = 159/159 (100%), Gaps = 0/159 (0%)
+
+Query  1    RDYNLTEEQKAIKAKYPPVNRKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTG  60
+            RDYNLTEEQKAIKAKYPPVNRKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTG
+Sbjct  9    RDYNLTEEQKAIKAKYPPVNRKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTG  68
+
+Query  61   TVEPLQTVEVETQGDDLQSLLFHFLDEWLYKFSADEFFIPREVKVLSIDQRNFKLRSIGW  120
+            TVEPLQTVEVETQGDDLQSLLFHFLDEWLYKFSADEFFIPREVKVLSIDQRNFKLRSIGW
+Sbjct  69   TVEPLQTVEVETQGDDLQSLLFHFLDEWLYKFSADEFFIPREVKVLSIDQRNFKLRSIGW  128
+
+Query  121  GEEFSLSKHPQGTEVKAITYSAMQVYNEENPEVFVIIDI  159
+            GEEFSLSKHPQGTEVKAITYSAMQVYNEENPEVFVIIDI
+Sbjct  129  GEEFSLSKHPQGTEVKAITYSAMQVYNEENPEVFVIIDI  167
+
+
+> sp|Q566V0|ARCH_DANRE Protein archease OS=Danio rerio OX=7955 
+GN=zbtb8os PE=2 SV=2
+Length=162
+
+ Score = 223 bits (568),  Expect = 1e-74, Method: Composition-based stats.
+ Identities = 122/159 (77%), Positives = 147/159 (92%), Gaps = 0/159 (0%)
+
+Query  1    RDYNLTEEQKAIKAKYPPVNRKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTG  60
+            R+ +LTEEQKA+KAKYPP+ +KYEYLDHTADVQ+H+WG++LEEAFEQCAM MFGYMTDT 
+Sbjct  4    RELDLTEEQKALKAKYPPITKKYEYLDHTADVQIHSWGNSLEEAFEQCAMGMFGYMTDTE  63
+
+Query  61   TVEPLQTVEVETQGDDLQSLLFHFLDEWLYKFSADEFFIPREVKVLSIDQRNFKLRSIGW  120
+            TVEP+ TVEVE++GDD++SLL+HFLD+WL+KFSAD FFIPREVKVL ID+  +K+RSIGW
+Sbjct  64   TVEPIDTVEVESEGDDMESLLYHFLDDWLFKFSADIFFIPREVKVLHIDRMRYKIRSIGW  123
+
+Query  121  GEEFSLSKHPQGTEVKAITYSAMQVYNEENPEVFVIIDI  159
+            GEEFS++KHPQGTEVKAITYSAMQ++  E PE+FVIIDI
+Sbjct  124  GEEFSINKHPQGTEVKAITYSAMQIHETEQPEIFVIIDI  162
+
+
+> sp|Q2EGP9|ARCH_ICTPU Protein archease OS=Ictalurus punctatus 
+OX=7998 PE=2 SV=1
+Length=162
+
+ Score = 222 bits (567),  Expect = 2e-74, Method: Composition-based stats.
+ Identities = 123/159 (77%), Positives = 146/159 (92%), Gaps = 0/159 (0%)
+
+Query  1    RDYNLTEEQKAIKAKYPPVNRKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTG  60
+            R+ +LTE QKAIKAKYP +N+KYEYLDHTADVQLH+WGDTLEEAFEQCAMAMFGYMTDT 
+Sbjct  4    RELDLTEAQKAIKAKYPAINKKYEYLDHTADVQLHSWGDTLEEAFEQCAMAMFGYMTDTE  63
+
+Query  61   TVEPLQTVEVETQGDDLQSLLFHFLDEWLYKFSADEFFIPREVKVLSIDQRNFKLRSIGW  120
+            TVEP+ T+E+E++GDDL+SLLFHFLD+WL+KFSAD FF+PREVKVL +D+  F +RSIGW
+Sbjct  64   TVEPIDTIEIESEGDDLESLLFHFLDDWLFKFSADAFFVPREVKVLQLDRMRFTIRSIGW  123
+
+Query  121  GEEFSLSKHPQGTEVKAITYSAMQVYNEENPEVFVIIDI  159
+            GEEF+L+KHPQGTEVKAITYSAMQ+ ++E PE+F IIDI
+Sbjct  124  GEEFNLAKHPQGTEVKAITYSAMQICDKEKPEIFAIIDI  162
+
+
+> sp|Q505B7|ARCH_MOUSE Protein archease OS=Mus musculus OX=10090 
+GN=Zbtb8os PE=1 SV=2
+Length=168
+
+ Score = 220 bits (562),  Expect = 1e-73, Method: Composition-based stats.
+ Identities = 152/160 (95%), Positives = 156/160 (98%), Gaps = 1/160 (1%)
+
+Query  1    RDYNLTEEQKAIKAKYPPVNRKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTG  60
+            RDYNLTEEQKA K KYPPVNRKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTG
+Sbjct  9    RDYNLTEEQKATKDKYPPVNRKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTG  68
+
+Query  61   TVEPLQTVEVETQGDDLQSLLFHFLDEWLYKFSADEFFIPREVKVLSIDQRNFKLRSIGW  120
+            TVEPL+TVEVETQGDDLQSLLFHFLDEWLYKFSADE+FIPREVKVL+IDQ+NFKLRSIGW
+Sbjct  69   TVEPLRTVEVETQGDDLQSLLFHFLDEWLYKFSADEYFIPREVKVLNIDQKNFKLRSIGW  128
+
+Query  121  GEEFSLSKHPQGTEVKAITYSAMQVYNEENPEV-FVIIDI  159
+            GEEFSLSKHPQGTEVKAITYSAMQVYNEE PEV FVIIDI
+Sbjct  129  GEEFSLSKHPQGTEVKAITYSAMQVYNEEKPEVFFVIIDI  168
+
+
+> sp|Q9VD92|ARCH_DROME Protein archease-like OS=Drosophila melanogaster 
+OX=7227 GN=Archease PE=2 SV=1
+Length=156
+
+ Score = 173 bits (438),  Expect = 6e-55, Method: Composition-based stats.
+ Identities = 83/141 (59%), Positives = 104/141 (74%), Gaps = 3/141 (2%)
+
+Query  22   KYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQGDDLQSLL  81
+            KYEYLDHTADVQ+H WG +L+EAFEQC +AMFGYMT+   V   Q  E+E  GDDL+SLL
+Sbjct  16   KYEYLDHTADVQIHGWGSSLKEAFEQCGVAMFGYMTELDYVSVEQCFEIEAHGDDLESLL  75
+
+Query  82   FHFLDEWLYKFSADEFFIPREVKVLSIDQRNFKLRSIGWGEEFSLSKHPQGTEVKAITYS  141
+            FHFLDE L+ FSA+ + + +++++   D  NF++    +GE F L KHPQGTEVKAITYS
+Sbjct  76   FHFLDELLFLFSAEPYLVCKKLEITKFDVENFEISCHCYGEPFELGKHPQGTEVKAITYS  135
+
+Query  142  AMQVYNE---ENPEVFVIIDI  159
+            AMQ+  +    N EVFVIIDI
+Sbjct  136  AMQIIQDVEASNYEVFVIIDI  156
+
+
+> sp|Q9TZN1|ARCH_CAEEL Protein archease-like OS=Caenorhabditis 
+elegans OX=6239 GN=arch-1 PE=3 SV=1
+Length=155
+
+ Score = 171 bits (434),  Expect = 3e-54, Method: Composition-based stats.
+ Identities = 65/141 (46%), Positives = 93/141 (66%), Gaps = 1/141 (1%)
+
+Query  20   NRKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQGDDLQS  79
+             R++EYLDH AD+QLH+WG T+EEAFE C ++MFGYMTD   V+ +     +  GD L  
+Sbjct  15   RRRFEYLDHPADIQLHSWGSTMEEAFEACLVSMFGYMTDLAKVDEMYEFYWKASGDSLDG  74
+
+Query  80   LLFHFLDEWLYKFSADEFFIPREVKVLSIDQRNFKLRSIGWGEEFSLSKHPQGTEVKAIT  139
+            LLF FLDE L  F A+  F+ + V++L  D++ F++   GWGE F  SKH    ++K+ T
+Sbjct  75   LLFQFLDEALNSFHAEPCFVAKRVEILRFDKKKFEIEFRGWGESFDTSKHETEADIKSPT  134
+
+Query  140  YSAMQVYNE-ENPEVFVIIDI  159
+            YS MQ+  + E  +++VI+DI
+Sbjct  135  YSNMQINEKPERCDIYVIVDI  155
+
+
+> sp|Q61DI9|ARCH_CAEBR Protein archease-like OS=Caenorhabditis 
+briggsae OX=6238 GN=arch-1 PE=3 SV=1
+Length=155
+
+ Score = 169 bits (429),  Expect = 2e-53, Method: Composition-based stats.
+ Identities = 62/141 (44%), Positives = 88/141 (62%), Gaps = 1/141 (1%)
+
+Query  20   NRKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQGDDLQS  79
+             R++EYLDH AD+QLH+WG T+E AFE C ++MFGYMTD   VE       +  GD +  
+Sbjct  15   RRRFEYLDHPADIQLHSWGTTIERAFEACLVSMFGYMTDLEKVEEQYEFYWKVSGDSMDG  74
+
+Query  80   LLFHFLDEWLYKFSADEFFIPREVKVLSIDQRNFKLRSIGWGEEFSLSKHPQGTEVKAIT  139
+            LLF FLDE L  F A+  F+ + V+++  D+   ++   GWGE F  SKH    ++K+ T
+Sbjct  75   LLFQFLDEALNSFHAEPCFVAKRVEIMRFDKEKLEIEFRGWGESFDTSKHETEADIKSPT  134
+
+Query  140  YSAMQ-VYNEENPEVFVIIDI  159
+            YS MQ +   +  +V+VI+DI
+Sbjct  135  YSNMQIIEKSDRCDVYVIVDI  155
+
+
+> sp|Q975L0|ARCH_SULTO Protein archease OS=Sulfurisphaera tokodaii 
+(strain DSM 16993 / JCM 10545 / NBRC 100140 / 7) OX=273063 
+GN=STK_04060 PE=3 SV=1
+Length=139
+
+ Score = 168 bits (425),  Expect = 4e-53, Method: Composition-based stats.
+ Identities = 52/140 (37%), Positives = 87/140 (62%), Gaps = 3/140 (2%)
+
+Query  21   RKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQGDDLQSL  80
+            +K+E+ +HTAD+ + A+G  L EAFE  A+A+F  MTDT  VEP +  EV+  G DL++L
+Sbjct  2    QKFEFFEHTADIGIRAYGRNLNEAFENAAVAVFEVMTDTSKVEPKEMREVKIDGYDLENL  61
+
+Query  81   LFHFLDEWLYKFSADEFFIPREVKVLSIDQRNFKLRSIGWGEEFSLSKHPQGTEVKAITY  140
+            L+ +++  L  + ++     +    ++ID++N  L    WGE+F  +KH + T VKA+TY
+Sbjct  62   LYRWIESLLVYYDSEIMLFSK--FYVNIDEKNLTLEGKAWGEKFDPNKHERRTVVKAMTY  119
+
+Query  141  SAMQVYNEENPEVF-VIIDI  159
+              M++ N+ N  +   ++DI
+Sbjct  120  HEMKIENKGNYYILTFVVDI  139
+
+
+> sp|Q8TU10|ARCH_METAC Protein archease OS=Methanosarcina acetivorans 
+(strain ATCC 35395 / DSM 2834 / JCM 12185 / C2A) OX=188937 
+GN=MA_0265 PE=3 SV=1
+Length=146
+
+ Score = 168 bits (425),  Expect = 4e-53, Method: Composition-based stats.
+ Identities = 54/145 (37%), Positives = 86/145 (59%), Gaps = 2/145 (1%)
+
+Query  17   PPVNRKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQGDD  76
+            P   +KYEYL+HTAD++  A+G+TL+E FE  A+AMF  + DTG V      EV     D
+Sbjct  2    PSQGKKYEYLEHTADIKFLAYGNTLKEVFENAALAMFNVIIDTGKVSGETAREVCLTSPD  61
+
+Query  77   LQSLLFHFLDEWLYKFSADE-FFIPREVKVLSIDQRNFKLRSIGWGEEFSLSKHPQGTEV  135
+            L+SLL  +L E LY F  DE  F    V+ +  ++  + ++++  GE++    HP  TE+
+Sbjct  62   LESLLVDWLSELLYLFEVDEIVFWKFRVEEIREEEGEYSIKAVASGEQYYPESHPFETEI  121
+
+Query  136  KAITYSAMQVYNEENP-EVFVIIDI  159
+            KA+TY+ +++    +  +  V++DI
+Sbjct  122  KAVTYNQLELEKTADGWKAQVVVDI  146
+
+
+> sp|Q8ZWP9|ARCH_PYRAE Protein archease OS=Pyrobaculum aerophilum 
+(strain ATCC 51768 / IM2 / DSM 7523 / JCM 9630 / NBRC 100827) 
+OX=178306 GN=PAE1678 PE=3 SV=1
+Length=147
+
+ Score = 166 bits (421),  Expect = 2e-52, Method: Composition-based stats.
+ Identities = 52/139 (37%), Positives = 87/139 (63%), Gaps = 2/139 (1%)
+
+Query  23   YEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQGDDLQSLLF  82
+            Y+Y +HTADV + A+G TLEEAF+  A+A+      +  VEP ++ EV  + +DL+ LLF
+Sbjct  9    YKYGEHTADVLIQAYGCTLEEAFKNAALALADLTYYSSRVEPKESREVAVEYEDLEGLLF  68
+
+Query  83   HFLDEWLYKFSADEFFIPREVKVLSIDQRNFKLRSIGWGEEFSLSKHP-QGTEVKAITYS  141
+             ++DE LY F A++F + R ++V       + +R++ +GE++ ++KH   G  VKA+TY 
+Sbjct  69   RWIDELLYLFDAEKFALSRRIEVKLEKGNGYAIRALLYGEKYDINKHGFTGLIVKAMTYH  128
+
+Query  142  AMQVYNEENPE-VFVIIDI  159
+             M++   E+   V  ++DI
+Sbjct  129  MMEIKKVEDYWLVQYVVDI  147
+
+
+> sp|C3MQ89|ARCH_SULIL Protein archease OS=Sulfolobus islandicus 
+(strain L.S.2.15 / Lassen #1) OX=429572 GN=LS215_1545 PE=3 
+SV=1
+Length=139
+
+ Score = 164 bits (416),  Expect = 7e-52, Method: Composition-based stats.
+ Identities = 51/140 (36%), Positives = 83/140 (59%), Gaps = 3/140 (2%)
+
+Query  21   RKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQGDDLQSL  80
+            R +E+ +HTADV + A+G +LEEAF   A+ +F  +TDT  V+P++  E+   G DL++L
+Sbjct  2    RSFEFFEHTADVGIRAYGKSLEEAFSNAALGVFEVITDTSKVKPIEYREIYLNGYDLENL  61
+
+Query  81   LFHFLDEWLYKFSADEFFIPREVKVLSIDQRNFKLRSIGWGEEFSLSKHPQGTEVKAITY  140
+            L+ +++E LY + ++     +    L IDQ +  L    WGE+F+   H + T VKA+TY
+Sbjct  62   LYKWIEELLYYYDSELMVFSK--FDLMIDQDSMTLEGKAWGEKFNGKIHERRTVVKAMTY  119
+
+Query  141  SAMQVYNEENPEVF-VIIDI  159
+              + +   EN  V   ++DI
+Sbjct  120  HQLSIEKTENCYVITFVVDI  139
+
+
+> sp|C3MVY1|ARCH_SULIM Protein archease OS=Sulfolobus islandicus 
+(strain M.14.25 / Kamchatka #1) OX=427317 GN=M1425_1450 PE=3 
+SV=1
+Length=139
+
+ Score = 164 bits (415),  Expect = 1e-51, Method: Composition-based stats.
+ Identities = 51/140 (36%), Positives = 83/140 (59%), Gaps = 3/140 (2%)
+
+Query  21   RKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQGDDLQSL  80
+            R +E+ +HTADV + A+G +LEEAF   A+ +F  +TDT  V+P++  E+   G DL++L
+Sbjct  2    RSFEFFEHTADVGIRAYGKSLEEAFSNAALGVFEVITDTSKVKPIEYREIYLNGYDLENL  61
+
+Query  81   LFHFLDEWLYKFSADEFFIPREVKVLSIDQRNFKLRSIGWGEEFSLSKHPQGTEVKAITY  140
+            L+ +++E LY + ++     +    L IDQ +  L    WGE+F+   H + T VKA+TY
+Sbjct  62   LYKWIEELLYYYDSELMVFSK--FDLMIDQDSMTLEGKAWGEKFNGKIHERRTVVKAMTY  119
+
+Query  141  SAMQVYNEENPEVF-VIIDI  159
+              + +   EN  V   ++DI
+Sbjct  120  HQLSIEKTENGYVITFVVDI  139
+
+
+> sp|C4KHI6|ARCH_SULIK Protein archease OS=Sulfolobus islandicus 
+(strain M.16.4 / Kamchatka #3) OX=426118 GN=M164_1444 PE=3 
+SV=1
+Length=139
+
+ Score = 164 bits (415),  Expect = 1e-51, Method: Composition-based stats.
+ Identities = 51/140 (36%), Positives = 83/140 (59%), Gaps = 3/140 (2%)
+
+Query  21   RKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQGDDLQSL  80
+            R +E+ +HTADV + A+G +LEEAF   A+ +F  +TDT  V+P++  E+   G DL++L
+Sbjct  2    RSFEFFEHTADVGIRAYGKSLEEAFSNAALGVFEVITDTSKVKPIEYREIYLNGYDLENL  61
+
+Query  81   LFHFLDEWLYKFSADEFFIPREVKVLSIDQRNFKLRSIGWGEEFSLSKHPQGTEVKAITY  140
+            L+ +++E LY + ++     +    L IDQ +  L    WGE+F+   H + T VKA+TY
+Sbjct  62   LYKWIEELLYYYDSELMVFSK--FDLMIDQDSMTLEGKAWGEKFNGKIHERRTVVKAMTY  119
+
+Query  141  SAMQVYNEENPEVF-VIIDI  159
+              + +   EN  V   ++DI
+Sbjct  120  HQLSIEKTENGYVITFVVDI  139
+
+
+> sp|C3N5V7|ARCH_SULIA Protein archease OS=Sulfolobus islandicus 
+(strain M.16.27) OX=427318 GN=M1627_1500 PE=3 SV=1
+Length=139
+
+ Score = 164 bits (415),  Expect = 1e-51, Method: Composition-based stats.
+ Identities = 51/140 (36%), Positives = 83/140 (59%), Gaps = 3/140 (2%)
+
+Query  21   RKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQGDDLQSL  80
+            R +E+ +HTADV + A+G +LEEAF   A+ +F  +TDT  V+P++  E+   G DL++L
+Sbjct  2    RSFEFFEHTADVGIRAYGKSLEEAFSNAALGVFEVITDTSKVKPIEYREIYLNGYDLENL  61
+
+Query  81   LFHFLDEWLYKFSADEFFIPREVKVLSIDQRNFKLRSIGWGEEFSLSKHPQGTEVKAITY  140
+            L+ +++E LY + ++     +    L IDQ +  L    WGE+F+   H + T VKA+TY
+Sbjct  62   LYKWIEELLYYYDSELMVFSK--FDLMIDQDSMTLEGKAWGEKFNGKIHERRTVVKAMTY  119
+
+Query  141  SAMQVYNEENPEVF-VIIDI  159
+              + +   EN  V   ++DI
+Sbjct  120  HQLSIEKTENGYVITFVVDI  139
+
+
+> sp|C3NH78|ARCH_SULIN Protein archease OS=Sulfolobus islandicus 
+(strain Y.N.15.51 / Yellowstone #2) OX=419942 GN=YN1551_1396 
+PE=3 SV=1
+Length=139
+
+ Score = 163 bits (414),  Expect = 1e-51, Method: Composition-based stats.
+ Identities = 51/140 (36%), Positives = 83/140 (59%), Gaps = 3/140 (2%)
+
+Query  21   RKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQGDDLQSL  80
+            R +E+ +HTADV + A+G +LEEAF   A+ +F  +TDT  V+P++  E+   G DL++L
+Sbjct  2    RSFEFFEHTADVGIRAYGKSLEEAFSNAALGVFEIITDTSKVKPIEYREIYLNGYDLENL  61
+
+Query  81   LFHFLDEWLYKFSADEFFIPREVKVLSIDQRNFKLRSIGWGEEFSLSKHPQGTEVKAITY  140
+            L+ +++E LY + ++     +    L IDQ +  L    WGE+F+   H + T VKA+TY
+Sbjct  62   LYKWIEELLYYYDSELMVFSK--FDLMIDQDSMTLEGKAWGEKFNGKIHERRTVVKAMTY  119
+
+Query  141  SAMQVYNEENPEVF-VIIDI  159
+              + +   EN  V   ++DI
+Sbjct  120  HQLSIEKTENCYVITFVVDI  139
+
+
+> sp|C3NEH3|ARCH_SULIY Protein archease OS=Sulfolobus islandicus 
+(strain Y.G.57.14 / Yellowstone #1) OX=439386 GN=YG5714_1445 
+PE=3 SV=1
+Length=139
+
+ Score = 163 bits (413),  Expect = 2e-51, Method: Composition-based stats.
+ Identities = 50/140 (36%), Positives = 83/140 (59%), Gaps = 3/140 (2%)
+
+Query  21   RKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQGDDLQSL  80
+            R +E+ +HTADV + A+G +LEEAF   A+ +F  +TDT  V+P++  E+   G DL++L
+Sbjct  2    RSFEFFEHTADVGIRAYGKSLEEAFSNAALGVFEIITDTSKVKPIEYREIYLNGYDLENL  61
+
+Query  81   LFHFLDEWLYKFSADEFFIPREVKVLSIDQRNFKLRSIGWGEEFSLSKHPQGTEVKAITY  140
+            L+ +++E LY + ++     +    L IDQ +  L    WGE+F+   H + T VKA+TY
+Sbjct  62   LYKWIEELLYYYDSELMVFSK--FDLMIDQDSMTLEGKAWGEKFNGKIHERRTVVKAMTY  119
+
+Query  141  SAMQVYNEENPE-VFVIIDI  159
+              + +   EN   +  ++DI
+Sbjct  120  HQLSIEKTENCYLITFVVDI  139
+
+
+> sp|A3MTM9|ARCH_PYRCJ Protein archease OS=Pyrobaculum calidifontis 
+(strain JCM 11548 / VA1) OX=410359 GN=Pcal_0569 PE=3 SV=1
+Length=147
+
+ Score = 162 bits (410),  Expect = 1e-50, Method: Composition-based stats.
+ Identities = 49/140 (35%), Positives = 81/140 (58%), Gaps = 2/140 (1%)
+
+Query  22   KYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQGDDLQSLL  81
+             Y Y +HTADV + A+G TLEEAF+  A+A+      +  VEP    +VE + DDL+ LL
+Sbjct  8    NYRYGEHTADVLVQAFGCTLEEAFKNAAVALADLTYYSERVEPRMAKKVEVEYDDLEGLL  67
+
+Query  82   FHFLDEWLYKFSADEFFIPREVKVLSIDQRNFKLRSIGWGEEFSLSKHPQ-GTEVKAITY  140
+            F ++DE L+ F A++F   R ++V       +++ +   GE + ++KH   G  VKA+T+
+Sbjct  68   FKWIDELLFLFDAEKFAWGRNIEVELRQGVGYRISATLHGEMYDINKHGFTGLIVKAMTF  127
+
+Query  141  SAMQVYNEENPEV-FVIIDI  159
+              M++   ++  V   ++DI
+Sbjct  128  HMMEIKKVDDYWVLQYVVDI  147
+
+
+> sp|Q9UX79|ARCH_SACS2 Protein archease OS=Saccharolobus solfataricus 
+(strain ATCC 35092 / DSM 1617 / JCM 11322 / P2) OX=273057 
+GN=SSO0690 PE=3 SV=1
+Length=139
+
+ Score = 161 bits (407),  Expect = 2e-50, Method: Composition-based stats.
+ Identities = 49/140 (35%), Positives = 82/140 (59%), Gaps = 3/140 (2%)
+
+Query  21   RKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQGDDLQSL  80
+            R++E+ +HTADV + ++G +LEEAF   A+ +F  +TDT  V P++  E+   G DL++L
+Sbjct  2    RQFEFFEHTADVGIKSYGRSLEEAFSNAALGVFEVITDTSKVRPVEYREIYLNGYDLENL  61
+
+Query  81   LFHFLDEWLYKFSADEFFIPREVKVLSIDQRNFKLRSIGWGEEFSLSKHPQGTEVKAITY  140
+            L+ +++E LY + ++     +    L IDQ +  L    WGE F+   H + T VKA+TY
+Sbjct  62   LYKWIEELLYYYDSELMIFSK--FDLMIDQDSITLEGKAWGERFNDKIHERRTVVKAMTY  119
+
+Query  141  SAMQVYNEENPEVF-VIIDI  159
+              + +   E+  V   ++DI
+Sbjct  120  HQLSIEKTESGYVITFVVDI  139
+
+
+> sp|Q8PWN9|ARCH_METMA Protein archease OS=Methanosarcina mazei 
+(strain ATCC BAA-159 / DSM 3647 / Goe1 / Go1 / JCM 11833 / 
+OCM 88) OX=192952 GN=MM_1537 PE=3 SV=1
+Length=146
+
+ Score = 161 bits (407),  Expect = 2e-50, Method: Composition-based stats.
+ Identities = 53/145 (37%), Positives = 85/145 (59%), Gaps = 2/145 (1%)
+
+Query  17   PPVNRKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQGDD  76
+            P   +KYEYL+HTAD++  A+G+T+EE FE  A+AMF  + DT  V      EV     D
+Sbjct  2    PSQGKKYEYLEHTADIKFLAYGETVEEVFENAALAMFNVIIDTEKVSGETEREVLLTSPD  61
+
+Query  77   LQSLLFHFLDEWLYKFSADE-FFIPREVKVLSIDQRNFKLRSIGWGEEFSLSKHPQGTEV  135
+            L+SLL  +L E LY F  DE  F   +V+ +  ++  + ++++  GE++    HP  TE+
+Sbjct  62   LESLLVDWLSELLYLFEVDEVVFWKFQVEEIREEEGEYSIKALASGEKYYPESHPFETEI  121
+
+Query  136  KAITYSAMQVYNEENP-EVFVIIDI  159
+            KA+TY+ +++       +  V++DI
+Sbjct  122  KAVTYNQLELEKTAGGWKAQVVVDI  146
+
+
+> sp|Q9YFV2|ARCH_AERPE Protein archease OS=Aeropyrum pernix (strain 
+ATCC 700893 / DSM 11879 / JCM 9820 / NBRC 100138 / K1) 
+OX=272557 GN=APE_0148.1 PE=3 SV=2
+Length=144
+
+ Score = 160 bits (404),  Expect = 6e-50, Method: Composition-based stats.
+ Identities = 48/139 (35%), Positives = 79/139 (57%), Gaps = 2/139 (1%)
+
+Query  23   YEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQGDDLQSLLF  82
+            + + +HTADV + A+G TLEEAFE  A  ++  +TDT  VEP + V+   +G DL++LL+
+Sbjct  6    WMHEEHTADVLVIAYGRTLEEAFENAARGVYEVVTDTSRVEPRRRVDASIEGIDLENLLY  65
+
+Query  83   HFLDEWLYKFSADEF-FIPREVKVLSIDQRNFKLRSIGWGEEFSLSKHPQGTEVKAITYS  141
+             F++  +    ++   F    V  +  +  +  + +  WGEEF  S+H   T VKA+TY+
+Sbjct  66   RFIENLIAYTDSEGLVFGLFRVCKIECNGESCSIVASAWGEEFDPSRHEHRTIVKAMTYA  125
+
+Query  142  AMQVYNEENP-EVFVIIDI  159
+             M++  E     V  ++DI
+Sbjct  126  DMEIKEENGCWRVQFVVDI  144
+
+
+> sp|B1YCY3|ARCH_PYRNV Protein archease OS=Pyrobaculum neutrophilum 
+(strain DSM 2338 / JCM 9278 / NBRC 100436 / V24Sta) OX=444157 
+GN=Tneu_0707 PE=3 SV=1
+Length=147
+
+ Score = 160 bits (404),  Expect = 8e-50, Method: Composition-based stats.
+ Identities = 52/139 (37%), Positives = 83/139 (60%), Gaps = 2/139 (1%)
+
+Query  23   YEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQGDDLQSLLF  82
+            Y Y +HTADV + A+G TLEEAF   A+A+      T  VEP  + EVE + DDL+ LLF
+Sbjct  9    YRYGEHTADVLIQAYGCTLEEAFVNAAVALAEVTYSTSKVEPKHSREVEVEYDDLEGLLF  68
+
+Query  83   HFLDEWLYKFSADEFFIPREVKVLSIDQRNFKLRSIGWGEEFSLSKHPQ-GTEVKAITYS  141
+             ++DE LY F A++F I R++ +       ++++++ +G+ +S  KH   G  VKA+T+ 
+Sbjct  69   KWIDELLYLFDAEKFAISRKIDLKLEKDGGYRIKAVLYGDIYSQEKHGFTGLIVKAMTFH  128
+
+Query  142  AMQVYNEENPE-VFVIIDI  159
+             M++    +   V  ++DI
+Sbjct  129  MMEIRQIGDYWMVQYVVDI  147
+
+
+> sp|Q4JB72|ARCH_SULAC Protein archease OS=Sulfolobus acidocaldarius 
+(strain ATCC 33909 / DSM 639 / JCM 8929 / NBRC 15157 / 
+NCIMB 11770) OX=330779 GN=Saci_0565 PE=3 SV=1
+Length=139
+
+ Score = 159 bits (402),  Expect = 1e-49, Method: Composition-based stats.
+ Identities = 51/139 (37%), Positives = 83/139 (60%), Gaps = 3/139 (2%)
+
+Query  22   KYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQGDDLQSLL  81
+            ++E+ DHTAD+ + A+G +LEEAFE  A+A+F  MTDT  +E    VE+E  G DL++LL
+Sbjct  3    RFEFFDHTADIGIIAYGRSLEEAFESAALAVFEVMTDTSKIEYKVEVEIEEIGSDLENLL  62
+
+Query  82   FHFLDEWLYKFSADEFFIPREVKVLSIDQRNFKLRSIGWGEEFSLSKHPQGTEVKAITYS  141
+            + +++  L  + +D     +    +SID  N  L+   +GE+F+  KH + T VKA+TY 
+Sbjct  63   YRWIESLLVYYDSDLLLFGK--FKVSIDLNNMTLKGKAYGEKFNPEKHERRTVVKAMTYH  120
+
+Query  142  AMQVYNEENPEV-FVIIDI  159
+             M +   +   +   ++DI
+Sbjct  121  EMLISQNDGTYILRFVVDI  139
+
+
+> sp|Q46D27|ARCH_METBF Protein archease OS=Methanosarcina barkeri 
+(strain Fusaro / DSM 804) OX=269797 GN=Mbar_A1251 PE=3 SV=1
+Length=146
+
+ Score = 157 bits (396),  Expect = 1e-48, Method: Composition-based stats.
+ Identities = 50/144 (35%), Positives = 79/144 (55%), Gaps = 2/144 (1%)
+
+Query  18   PVNRKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQGDDL  77
+               ++YEYLDHTAD++  A+G T EE FE  A+AMF  + DT  +      E+  +  DL
+Sbjct  3    SQGKQYEYLDHTADIKFQAYGKTREEVFENAALAMFNVIIDTKKISGDTAREIFLKSPDL  62
+
+Query  78   QSLLFHFLDEWLYKFSADE-FFIPREVKVLSIDQRNFKLRSIGWGEEFSLSKHPQGTEVK  136
+            +SLL  +L E LY F  DE  F    V  +  +   + + +   GE++ L   P  TE+K
+Sbjct  63   ESLLVDWLSELLYLFEVDEIVFREFRVDNIREENGEYSITAQALGEKYDLKSLPFETEIK  122
+
+Query  137  AITYSAMQVYNEENP-EVFVIIDI  159
+            A+TY+ +++    +  +  V++DI
+Sbjct  123  AVTYNQLEITKTADGWKAQVVVDI  146
+
+
+> sp|A1RV54|ARCH_PYRIL Protein archease OS=Pyrobaculum islandicum 
+(strain DSM 4184 / JCM 9189 / GEO3) OX=384616 GN=Pisl_1685 
+PE=3 SV=1
+Length=147
+
+ Score = 155 bits (391),  Expect = 7e-48, Method: Composition-based stats.
+ Identities = 46/139 (33%), Positives = 80/139 (58%), Gaps = 2/139 (1%)
+
+Query  23   YEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQGDDLQSLLF  82
+            Y Y +HTADV + A+G TLEEAF+  A+A+      T  VEP    E+    +DL+ LLF
+Sbjct  9    YRYGEHTADVLIQAYGCTLEEAFKNAAIALAELTYHTEKVEPRYAKEITIDYNDLEGLLF  68
+
+Query  83   HFLDEWLYKFSADEFFIPREVKVLSIDQRNFKLRSIGWGEEFSLSKHP-QGTEVKAITYS  141
+             ++DE L+ F  ++F I RE+ +       + ++++ +GE + + KH   G  VKA+T+ 
+Sbjct  69   RWIDELLFLFDTEKFAISREIVLNLGKNDVYYIKAVLYGEPYDIEKHGFTGLIVKAMTFH  128
+
+Query  142  AMQVYNEENPE-VFVIIDI  159
+             M++   ++   +  ++D+
+Sbjct  129  MMEIRQIDDYWMLQYVVDV  147
+
+
+> sp|Q8U0N4|ARCH_PYRFU Protein archease OS=Pyrococcus furiosus 
+(strain ATCC 43587 / DSM 3638 / JCM 8422 / Vc1) OX=186497 GN=PF1552 
+PE=3 SV=1
+Length=142
+
+ Score = 154 bits (389),  Expect = 1e-47, Method: Composition-based stats.
+ Identities = 52/142 (37%), Positives = 84/142 (59%), Gaps = 4/142 (3%)
+
+Query  21   RKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQGDDLQSL  80
+            R++E+ +HTAD+ +  +GDTLEEAFE  A+A+F  + +   +E    +++E +G+DL+SL
+Sbjct  2    RQWEHYEHTADIGIRGYGDTLEEAFEAVALALFDVIVNVRKIEKKVEIDIEVEGEDLESL  61
+
+Query  81   LFHFLDEWLYKFSADEF-FIPREVKVLSIDQRNFKLRSIGWGEEFSLSKHPQGTEVKAIT  139
+            L+ FL+E LY    +   F   +VK+   D + + LR   +GE+F   KH    EVKAIT
+Sbjct  62   LYSFLEELLYLHDIEGLVFGDFKVKIEQKDGK-YILRGKAYGEKFDPEKHEPKEEVKAIT  120
+
+Query  140  YSAMQVYNEENPE--VFVIIDI  159
+            Y  M++    +      ++ DI
+Sbjct  121  YHDMKIERLPDGRWMAQLVPDI  142
+
+
+> sp|Q5JCY8|ARCH_THEKO Protein archease OS=Thermococcus kodakarensis 
+(strain ATCC BAA-918 / JCM 12380 / KOD1) OX=69014 GN=TK0361 
+PE=3 SV=1
+Length=142
+
+ Score = 151 bits (381),  Expect = 2e-46, Method: Composition-based stats.
+ Identities = 50/142 (35%), Positives = 80/142 (56%), Gaps = 4/142 (3%)
+
+Query  21   RKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQGDDLQSL  80
+            RK+E+ +HTAD+ +  +G TLEEAFE  A+ +F  M +   VEP +  EVE + +DL++L
+Sbjct  2    RKWEHYEHTADIGVRGYGSTLEEAFEAVALGLFDVMVNVKKVEPKECREVEVEEEDLEAL  61
+
+Query  81   LFHFLDEWLYKFSADEFFIPREVKV-LSIDQRNFKLRSIGWGEEFSLSKHPQGTEVKAIT  139
+            L+ FL+E L     +   +  +VKV +   +  +KL++   GE  +  KH    EVKAIT
+Sbjct  62   LYSFLEELLVLHDMEGL-VFGDVKVRIEKTENGYKLKAKACGEVLNPEKHEPKEEVKAIT  120
+
+Query  140  YSAMQVYNEENPE--VFVIIDI  159
+            Y  M++    +       + D+
+Sbjct  121  YHDMKIEKLPDGRWMAQFVPDL  142
+
+
+> sp|O59205|ARCH_PYRHO Protein archease OS=Pyrococcus horikoshii 
+(strain ATCC 700860 / DSM 12428 / JCM 9974 / NBRC 100139 / 
+OT-3) OX=70601 GN=PH1536 PE=1 SV=1
+Length=142
+
+ Score = 150 bits (379),  Expect = 4e-46, Method: Composition-based stats.
+ Identities = 52/142 (37%), Positives = 86/142 (61%), Gaps = 4/142 (3%)
+
+Query  21   RKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQGDDLQSL  80
+            +K+E+ +HTAD+ +  +GD+LEEAFE  A+A+F  M +   VE  +  E+E + +DL++L
+Sbjct  2    KKWEHYEHTADIGIRGYGDSLEEAFEAVAIALFDVMVNVNKVEKKEVREIEVEAEDLEAL  61
+
+Query  81   LFHFLDEWLYKFSADEF-FIPREVKVLSIDQRNFKLRSIGWGEEFSLSKHPQGTEVKAIT  139
+            L+ FL+E L     +   F   EVK+  ++ + ++LR+  +GE+  L KH    EVKAIT
+Sbjct  62   LYSFLEELLVIHDIEGLVFRDFEVKIERVNGK-YRLRAKAYGEKLDLKKHEPKEEVKAIT  120
+
+Query  140  YSAMQVYNEENPE--VFVIIDI  159
+            Y  M++    N +    ++ DI
+Sbjct  121  YHDMKIERLPNGKWMAQLVPDI  142
+
+
+> sp|Q54BU9|ARCH_DICDI Protein archease-like OS=Dictyostelium discoideum 
+OX=44689 GN=DDB_G0293404 PE=3 SV=1
+Length=151
+
+ Score = 146 bits (368),  Expect = 2e-44, Method: Composition-based stats.
+ Identities = 61/143 (43%), Positives = 89/143 (62%), Gaps = 5/143 (3%)
+
+Query  21   RKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVE---PLQTVEVETQGDDL  77
+            + +EYLDHTAD+  H WG  L+EA EQ  + M  YM +  +VE         +   G D+
+Sbjct  10   KNFEYLDHTADIMFHTWGKDLKEALEQMVLIMNNYMVELDSVELDDSATEQTISVNGHDM  69
+
+Query  78   QSLLFHFLDEWLYKFSADEFFIPREVKVLSIDQRNFKLRSIGWGEEFSLSKHPQGTEVKA  137
+             SLLF  LDE+L+ FS + F I ++V+++S D+ NF +++IG G E   SKH  GTE+KA
+Sbjct  70   DSLLFALLDEFLFVFSTE-FIIFKQVQIISFDRENFSIKAIGKGVELDKSKHTTGTEIKA  128
+
+Query  138  ITYSAMQVYNE-ENPEVFVIIDI  159
+            ITYS M++    +  ++ VI+DI
+Sbjct  129  ITYSCMKIEENPDKSDIHVIVDI  151
+
+
+> sp|C5A6Z1|ARCH_THEGJ Protein archease OS=Thermococcus gammatolerans 
+(strain DSM 15229 / JCM 11827 / EJ3) OX=593117 GN=TGAM_1501 
+PE=3 SV=1
+Length=142
+
+ Score = 144 bits (364),  Expect = 6e-44, Method: Composition-based stats.
+ Identities = 45/132 (34%), Positives = 71/132 (54%), Gaps = 0/132 (0%)
+
+Query  21   RKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQGDDLQSL  80
+            R++E+ +HTAD+ +  +G TLEEAFE  A+ +F  M D   VEP +  EVE + +DL++L
+Sbjct  2    RRWEHYEHTADIGVRGYGSTLEEAFEAVALGLFDVMVDVRKVEPRECREVEVEEEDLEAL  61
+
+Query  81   LFHFLDEWLYKFSADEFFIPREVKVLSIDQRNFKLRSIGWGEEFSLSKHPQGTEVKAITY  140
+            L+ FL+E L     +          +   +  ++L++   GE     KH    EVKAITY
+Sbjct  62   LYSFLEELLVLHDMEGLVFGDVRVRIEKTENGYRLKAKACGEVLDYEKHEPKEEVKAITY  121
+
+Query  141  SAMQVYNEENPE  152
+              M++    +  
+Sbjct  122  HDMRIEKLPDGR  133
+
+
+> sp|O28777|ARCH_ARCFU Protein archease OS=Archaeoglobus fulgidus 
+(strain ATCC 49558 / VC-16 / DSM 4304 / JCM 9628 / NBRC 100126) 
+OX=224325 GN=AF_1495 PE=3 SV=1
+Length=137
+
+ Score = 137 bits (346),  Expect = 3e-41, Method: Composition-based stats.
+ Identities = 46/139 (33%), Positives = 70/139 (50%), Gaps = 4/139 (3%)
+
+Query  22   KYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQGDDLQSLL  81
+            KY ++DHTAD+    +G  L E FE  A+A +    DT  +   + V VE +G+D++  L
+Sbjct  2    KYRFIDHTADIAFEVYGSNLRELFENAALAFYDAFVDTSGIGIEREVGVECEGEDVEITL  61
+
+Query  82   FHFLDEWLYKFSADEFFIPREVKVLSIDQRNFKLRSIGWGEEFSLSKHPQGTEVKAITYS  141
+            + +L+E LY F  + FF  ++V+V   +    K      G  FS        E KAIT  
+Sbjct  62   YRWLNELLYLFDTE-FFAAKDVEVEVEEGDGVKASGKLRGGRFSAEMV--KVEPKAITLH  118
+
+Query  142  AMQVYNEENPEV-FVIIDI  159
+              +V   +   V FV++DI
+Sbjct  119  KFRVEKTDKGYVAFVVVDI  137
+
+
+> sp|Q60334|ARCH_METJA Protein archease OS=Methanocaldococcus jannaschii 
+(strain ATCC 43067 / DSM 2661 / JAL-1 / JCM 10045 
+/ NBRC 100440) OX=243232 GN=MJ0024 PE=3 SV=1
+Length=139
+
+ Score = 137 bits (346),  Expect = 3e-41, Method: Composition-based stats.
+ Identities = 46/139 (33%), Positives = 81/139 (58%), Gaps = 3/139 (2%)
+
+Query  23   YEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQGDDLQSLLF  82
+            + Y + TAD+ + A G +LEEAF++ A  ++  M D   V+  + +E E  G+DL+ LL+
+Sbjct  2    FNYFETTADLGVEAKGKSLEEAFKEGAKGLYNIMVDIDKVDKKEKIEFEITGEDLEELLY  61
+
+Query  83   HFLDEWLYKFSADEF-FIPREVKVLSIDQRNFKLRSIGWGEEFSLSKHPQGTEVKAITYS  141
+            +FL+E L+    +   F   +VK+   D   ++L+   +GE+ +  KH    EVKA+TY 
+Sbjct  62   NFLNELLFYTDVENLVFNDFDVKIEKND-NGYRLKCTAYGEKINKEKHNIKEEVKAVTYH  120
+
+Query  142  AMQVYNEENP-EVFVIIDI  159
+             M++  EE+  ++  I+D+
+Sbjct  121  KMEIKQEEDGWKIRYIVDL  139
+
+
+> sp|Q9V105|ARCH_PYRAB Protein archease OS=Pyrococcus abyssi (strain 
+GE5 / Orsay) OX=272844 GN=PYRAB06240 PE=1 SV=1
+Length=142
+
+ Score = 137 bits (345),  Expect = 5e-41, Method: Composition-based stats.
+ Identities = 51/142 (36%), Positives = 85/142 (60%), Gaps = 4/142 (3%)
+
+Query  21   RKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQGDDLQSL  80
+            +++E+ +HTAD+ +  +GD+LEEAFE  A+A+F  + +   VE  +  EVE +G+DL+SL
+Sbjct  2    KRWEHYEHTADIGIRGYGDSLEEAFEAVAIALFDVIVNVNKVEKKEVREVEVEGEDLESL  61
+
+Query  81   LFHFLDEWLYKFSADEF-FIPREVKVLSIDQRNFKLRSIGWGEEFSLSKHPQGTEVKAIT  139
+            L++FL+E L     +   F   EVK+    ++ +KL++  +GE+    KH    EVKAIT
+Sbjct  62   LYNFLEELLVIHDIEGLVFRDFEVKIEK-TEKGYKLKAKAYGEKLDPEKHEPKEEVKAIT  120
+
+Query  140  YSAMQVYNEENPE--VFVIIDI  159
+            Y  M++    +      ++ DI
+Sbjct  121  YHDMKIEKLPDGRWMAQLVPDI  142
+
+
+> sp|O27635|ARCH_METTH Protein archease OS=Methanothermobacter 
+thermautotrophicus (strain ATCC 29096 / DSM 1053 / JCM 10044 
+/ NBRC 100330 / Delta H) OX=187420 GN=MTH_1598 PE=1 SV=1
+Length=140
+
+ Score = 136 bits (343),  Expect = 9e-41, Method: Composition-based stats.
+ Identities = 47/140 (34%), Positives = 70/140 (50%), Gaps = 2/140 (1%)
+
+Query  21   RKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQGDDLQSL  80
+            + +E+ D TAD    A+G  LEE FE  A+AMF  MTDT  VE  +   VE   +D  SL
+Sbjct  2    KGFEFFDVTADAGFWAYGHDLEEVFENAALAMFEVMTDTSLVEAAEERRVEITSEDRVSL  61
+
+Query  81   LFHFLDEWLYKFSADEFFIPREVKVLSIDQRNFKLRSIGWGEEFSLSKHPQGTEVKAITY  140
+            L+ +LDE L+    +     +    +        L     GEE     H +  EVKA+T+
+Sbjct  62   LYDWLDELLFIHDTEFILFSKFKVKIDEKDDGLHLTGTAMGEEI-KEGHERRDEVKAVTF  120
+
+Query  141  SAMQVYNEEN-PEVFVIIDI  159
+              M++ +E+   +  VI+D+
+Sbjct  121  HMMEILDEDGLIKARVILDL  140
+
+
+> sp|Q8TYR4|ARCH_METKA Protein archease OS=Methanopyrus kandleri 
+(strain AV19 / DSM 6324 / JCM 9639 / NBRC 100938) OX=190192 
+GN=MK0228 PE=3 SV=1
+Length=140
+
+ Score = 125 bits (314),  Expect = 2e-36, Method: Composition-based stats.
+ Identities = 51/139 (37%), Positives = 78/139 (56%), Gaps = 3/139 (2%)
+
+Query  23   YEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQGDDLQSLLF  82
+            +E ++HTAD     W DT E+   + A A+F  +TD   VEP + VE+E +G DL  LL 
+Sbjct  3    WEEIEHTADAAFRVWADTPEDLLVEAAKALFDLITDLDAVEPEEEVEIEAEGGDLVELLH  62
+
+Query  83   HFLDEWLYKFSADE-FFIPREVKVLSIDQRNFKLRSIGWGEEFSLSKHPQGTEVKAITYS  141
+             +L+E  ++   D   F   EVK L  ++  +K+R +  GE +   +HP  TEVKA+TY 
+Sbjct  63   DWLEEIHFRHEIDGMLFSDFEVKELKKEE-GWKVRGVARGEPYDPDRHPFHTEVKAVTYH  121
+
+Query  142  AMQVYNEENPEV-FVIIDI  159
+             M+V  E+   V   ++D+
+Sbjct  122  NMKVEREDGRWVAEYVVDL  140
+
+
+> sp|Q97A49|ARCH_THEVO Protein archease OS=Thermoplasma volcanium 
+(strain ATCC 51530 / DSM 4299 / JCM 9571 / NBRC 15438 / GSS1) 
+OX=273116 GN=TV0961 PE=3 SV=1
+Length=133
+
+ Score = 100 bits (250),  Expect = 1e-26, Method: Composition-based stats.
+ Identities = 32/137 (23%), Positives = 56/137 (41%), Gaps = 6/137 (4%)
+
+Query  23   YEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQGDDLQSLLF  82
+            YE LDH +D+ +  +G T EE F     AM   + D G ++  + +    +G+  + ++ 
+Sbjct  3    YEILDHESDIGIMVYGTTYEELFSNAVYAMADLILDVGKLKEKRKMHEIIRGNTPEDIMV  62
+
+Query  83   HFLDEWLYKFSADEFFIPREVKVLSIDQRNFKLRSIGWGEEFSLSKHPQGTEVKAITYSA  142
+            + L   L+          R          +  L    +G E    +      +KA+TYS 
+Sbjct  63   NLLSRVLFYVDTYYTLYFRATCKYEDSTLDVYL----YGSEI-PEEVEYRNVIKAVTYSE  117
+
+Query  143  MQVYNEENPEVFVIIDI  159
+            + V  E+     VI D+
+Sbjct  118  IAVKPED-GFARVIFDL  133
+
+
+> sp|Q9HKC1|ARCH_THEAC Protein archease OS=Thermoplasma acidophilum 
+(strain ATCC 25905 / DSM 1728 / JCM 9062 / NBRC 15155 / 
+AMRC-C165) OX=273075 GN=Ta0680 PE=3 SV=1
+Length=141
+
+ Score = 94.6 bits (234),  Expect = 3e-24, Method: Composition-based stats.
+ Identities = 30/137 (22%), Positives = 55/137 (40%), Gaps = 6/137 (4%)
+
+Query  23   YEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQGDDLQSLLF  82
+            YE +DH +D+ +  +G T EE F     AM   + D   ++  + +     G   + ++ 
+Sbjct  11   YEVVDHESDIGVIVYGKTYEELFSNAVYAMADLIVDVSRLKENRKMHEVITGKTPEDIMV  70
+
+Query  83   HFLDEWLYKFSADEFFIPREVKVLSIDQRNFKLRSIGWGEEFSLSKHPQGTEVKAITYSA  142
+            + L   L+      + +   +     D     L +  +G E           +KA+TYS 
+Sbjct  71   NLLSRVLFYLDTY-YILYYRITSKYSDGE---LDAYFYGSEI-PEGIEYRNVIKAVTYSD  125
+
+Query  143  MQVYNEENPEVFVIIDI  159
+            + V  EE     +I D+
+Sbjct  126  LAVKPEE-GYAKIIFDL  141
+
+
+> sp|P9WQ03|ARCH_MYCTU Probable protein archease OS=Mycobacterium 
+tuberculosis (strain ATCC 25618 / H37Rv) OX=83332 GN=Rv2630 
+PE=1 SV=1
+Length=179
+
+ Score = 47.6 bits (112),  Expect = 4e-06, Method: Composition-based stats.
+ Identities = 18/85 (21%), Positives = 33/85 (39%), Gaps = 0/85 (0%)
+
+Query  10   KAIKAKYPPVNRKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVE  69
+            + ++A  P  +  +  + HTAD+++ AW  T +    Q  +       D  +   + T  
+Sbjct  34   RCVQAGKPGTSSGHRSVPHTADLRIEAWAPTRDGCIRQAVLGTVESFLDLESAHAVHTRL  93
+
+Query  70   VETQGDDLQSLLFHFLDEWLYKFSA  94
+                 D    LL   L+E +Y    
+Sbjct  94   RRLTADRDDDLLVAVLEEVIYLLDT  118
+
+
+> sp|P9WQ02|ARCH_MYCTO Probable protein archease OS=Mycobacterium 
+tuberculosis (strain CDC 1551 / Oshkosh) OX=83331 GN=MT2705 
+PE=2 SV=1
+Length=179
+
+ Score = 47.6 bits (112),  Expect = 4e-06, Method: Composition-based stats.
+ Identities = 18/85 (21%), Positives = 33/85 (39%), Gaps = 0/85 (0%)
+
+Query  10   KAIKAKYPPVNRKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVE  69
+            + ++A  P  +  +  + HTAD+++ AW  T +    Q  +       D  +   + T  
+Sbjct  34   RCVQAGKPGTSSGHRSVPHTADLRIEAWAPTRDGCIRQAVLGTVESFLDLESAHAVHTRL  93
+
+Query  70   VETQGDDLQSLLFHFLDEWLYKFSA  94
+                 D    LL   L+E +Y    
+Sbjct  94   RRLTADRDDDLLVAVLEEVIYLLDT  118
+
+
+> sp|Q9X0H1|ARCH_THEMA Protein archease OS=Thermotoga maritima 
+(strain ATCC 43589 / MSB8 / DSM 3109 / JCM 10099) OX=243274 
+GN=TM_1083 PE=1 SV=1
+Length=124
+
+ Score = 39.1 bits (90),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 25/128 (20%), Positives = 52/128 (41%), Gaps = 21/128 (16%)
+
+Query  26   LDHTADVQLHAWGDTLEEAFEQCAMAMFG---YMTDTGTVEPLQTVEVETQGDDLQSLLF  82
+            ++HTAD+     G++ EE  E+    +      + DT   E +  +E        +   F
+Sbjct  5    IEHTADIAYEISGNSYEELLEEARNILLEEEGIVLDTEEKEKMYPLEET------EDAFF  58
+
+Query  83   HFLDEWLYKFSADEFFIPREVKVLSIDQRNFKLRSIGWGEEFSLSKHPQGTEVKAITYSA  142
+              +++W+         I +      I +   +L+       F   +  +GTE+KA+TY  
+Sbjct  59   DTVNDWI-------LEISKGWAPWRIKREGNELKVT-----FRKIRKKEGTEIKALTYHL  106
+
+Query  143  MQVYNEEN  150
+            ++   + +
+Sbjct  107  LKFERDGD  114
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.147    0.405    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0450    0.140     1.90     42.6     43.6 
+
+Effective search space used: 7383282920
+Results from round 3
+
+
+Query= 5YZ1
+
+Length=160
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q2YDE7|ARCH_BOVIN Protein archease OS=Bos taurus OX=9913 GN=...  219     8e-73
+  sp|Q8IWT0|ARCH_HUMAN Protein archease OS=Homo sapiens OX=9606 G...  217     2e-72
+  sp|Q566V0|ARCH_DANRE Protein archease OS=Danio rerio OX=7955 GN...  212     2e-70
+  sp|Q2EGP9|ARCH_ICTPU Protein archease OS=Ictalurus punctatus OX...  210     8e-70
+  sp|Q505B7|ARCH_MOUSE Protein archease OS=Mus musculus OX=10090 ...  207     4e-68
+  sp|Q8ZWP9|ARCH_PYRAE Protein archease OS=Pyrobaculum aerophilum...  168     2e-53
+  sp|Q9YFV2|ARCH_AERPE Protein archease OS=Aeropyrum pernix (stra...  168     4e-53
+  sp|Q8TU10|ARCH_METAC Protein archease OS=Methanosarcina acetivo...  167     7e-53
+  sp|Q9TZN1|ARCH_CAEEL Protein archease-like OS=Caenorhabditis el...  167     1e-52
+  sp|Q975L0|ARCH_SULTO Protein archease OS=Sulfurisphaera tokodai...  166     2e-52
+  sp|Q61DI9|ARCH_CAEBR Protein archease-like OS=Caenorhabditis br...  166     4e-52
+  sp|Q9VD92|ARCH_DROME Protein archease-like OS=Drosophila melano...  165     8e-52
+  sp|C3MQ89|ARCH_SULIL Protein archease OS=Sulfolobus islandicus ...  164     1e-51
+  sp|C3NH78|ARCH_SULIN Protein archease OS=Sulfolobus islandicus ...  163     2e-51
+  sp|C3MVY1|ARCH_SULIM Protein archease OS=Sulfolobus islandicus ...  163     2e-51
+  sp|C4KHI6|ARCH_SULIK Protein archease OS=Sulfolobus islandicus ...  163     2e-51
+  sp|C3N5V7|ARCH_SULIA Protein archease OS=Sulfolobus islandicus ...  163     2e-51
+  sp|A3MTM9|ARCH_PYRCJ Protein archease OS=Pyrobaculum calidifont...  163     2e-51
+  sp|C3NEH3|ARCH_SULIY Protein archease OS=Sulfolobus islandicus ...  163     2e-51
+  sp|B1YCY3|ARCH_PYRNV Protein archease OS=Pyrobaculum neutrophil...  163     3e-51
+  sp|Q5JCY8|ARCH_THEKO Protein archease OS=Thermococcus kodakaren...  161     2e-50
+  sp|Q8U0N4|ARCH_PYRFU Protein archease OS=Pyrococcus furiosus (s...  160     2e-50
+  sp|Q8PWN9|ARCH_METMA Protein archease OS=Methanosarcina mazei (...  160     3e-50
+  sp|Q9UX79|ARCH_SACS2 Protein archease OS=Saccharolobus solfatar...  160     3e-50
+  sp|A1RV54|ARCH_PYRIL Protein archease OS=Pyrobaculum islandicum...  160     5e-50
+  sp|Q4JB72|ARCH_SULAC Protein archease OS=Sulfolobus acidocaldar...  159     7e-50
+  sp|Q46D27|ARCH_METBF Protein archease OS=Methanosarcina barkeri...  157     7e-49
+  sp|C5A6Z1|ARCH_THEGJ Protein archease OS=Thermococcus gammatole...  154     9e-48
+  sp|O59205|ARCH_PYRHO Protein archease OS=Pyrococcus horikoshii ...  153     2e-47
+  sp|Q54BU9|ARCH_DICDI Protein archease-like OS=Dictyostelium dis...  148     2e-45
+  sp|Q9V105|ARCH_PYRAB Protein archease OS=Pyrococcus abyssi (str...  145     3e-44
+  sp|Q60334|ARCH_METJA Protein archease OS=Methanocaldococcus jan...  143     2e-43
+  sp|O27635|ARCH_METTH Protein archease OS=Methanothermobacter th...  142     9e-43
+  sp|O28777|ARCH_ARCFU Protein archease OS=Archaeoglobus fulgidus...  133     9e-40
+  sp|Q8TYR4|ARCH_METKA Protein archease OS=Methanopyrus kandleri ...  132     3e-39
+  sp|Q97A49|ARCH_THEVO Protein archease OS=Thermoplasma volcanium...  118     2e-33
+  sp|Q9HKC1|ARCH_THEAC Protein archease OS=Thermoplasma acidophil...  116     1e-32
+  sp|P9WQ03|ARCH_MYCTU Probable protein archease OS=Mycobacterium...  97.7    4e-25
+  sp|P9WQ02|ARCH_MYCTO Probable protein archease OS=Mycobacterium...  97.7    4e-25
+
+Sequences not found previously or not previously below threshold:
+
+  sp|Q9X0H1|ARCH_THEMA Protein archease OS=Thermotoga maritima (s...  40.3    0.001
+
+
+> sp|Q2YDE7|ARCH_BOVIN Protein archease OS=Bos taurus OX=9913 GN=ZBTB8OS 
+PE=2 SV=2
+Length=167
+
+ Score = 219 bits (557),  Expect = 8e-73, Method: Composition-based stats.
+ Identities = 154/159 (97%), Positives = 158/159 (99%), Gaps = 0/159 (0%)
+
+Query  1    RDYNLTEEQKAIKAKYPPVNRKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTG  60
+            RDYNLTEEQKAIKAKYPPV+RKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTG
+Sbjct  9    RDYNLTEEQKAIKAKYPPVSRKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTG  68
+
+Query  61   TVEPLQTVEVETQGDDLQSLLFHFLDEWLYKFSADEFFIPREVKVLSIDQRNFKLRSIGW  120
+            TVEPLQT+EVETQGDDLQSLLFHFLDEWLYKFSADEFFIPREVKVL+IDQRNFK+RSIGW
+Sbjct  69   TVEPLQTIEVETQGDDLQSLLFHFLDEWLYKFSADEFFIPREVKVLNIDQRNFKIRSIGW  128
+
+Query  121  GEEFSLSKHPQGTEVKAITYSAMQVYNEENPEVFVIIDI  159
+            GEEFSLSKHPQGTEVKAITYSAMQVYNEE PEVFVIIDI
+Sbjct  129  GEEFSLSKHPQGTEVKAITYSAMQVYNEEKPEVFVIIDI  167
+
+
+> sp|Q8IWT0|ARCH_HUMAN Protein archease OS=Homo sapiens OX=9606 
+GN=ZBTB8OS PE=1 SV=2
+Length=167
+
+ Score = 217 bits (554),  Expect = 2e-72, Method: Composition-based stats.
+ Identities = 159/159 (100%), Positives = 159/159 (100%), Gaps = 0/159 (0%)
+
+Query  1    RDYNLTEEQKAIKAKYPPVNRKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTG  60
+            RDYNLTEEQKAIKAKYPPVNRKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTG
+Sbjct  9    RDYNLTEEQKAIKAKYPPVNRKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTG  68
+
+Query  61   TVEPLQTVEVETQGDDLQSLLFHFLDEWLYKFSADEFFIPREVKVLSIDQRNFKLRSIGW  120
+            TVEPLQTVEVETQGDDLQSLLFHFLDEWLYKFSADEFFIPREVKVLSIDQRNFKLRSIGW
+Sbjct  69   TVEPLQTVEVETQGDDLQSLLFHFLDEWLYKFSADEFFIPREVKVLSIDQRNFKLRSIGW  128
+
+Query  121  GEEFSLSKHPQGTEVKAITYSAMQVYNEENPEVFVIIDI  159
+            GEEFSLSKHPQGTEVKAITYSAMQVYNEENPEVFVIIDI
+Sbjct  129  GEEFSLSKHPQGTEVKAITYSAMQVYNEENPEVFVIIDI  167
+
+
+> sp|Q566V0|ARCH_DANRE Protein archease OS=Danio rerio OX=7955 
+GN=zbtb8os PE=2 SV=2
+Length=162
+
+ Score = 212 bits (540),  Expect = 2e-70, Method: Composition-based stats.
+ Identities = 122/159 (77%), Positives = 147/159 (92%), Gaps = 0/159 (0%)
+
+Query  1    RDYNLTEEQKAIKAKYPPVNRKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTG  60
+            R+ +LTEEQKA+KAKYPP+ +KYEYLDHTADVQ+H+WG++LEEAFEQCAM MFGYMTDT 
+Sbjct  4    RELDLTEEQKALKAKYPPITKKYEYLDHTADVQIHSWGNSLEEAFEQCAMGMFGYMTDTE  63
+
+Query  61   TVEPLQTVEVETQGDDLQSLLFHFLDEWLYKFSADEFFIPREVKVLSIDQRNFKLRSIGW  120
+            TVEP+ TVEVE++GDD++SLL+HFLD+WL+KFSAD FFIPREVKVL ID+  +K+RSIGW
+Sbjct  64   TVEPIDTVEVESEGDDMESLLYHFLDDWLFKFSADIFFIPREVKVLHIDRMRYKIRSIGW  123
+
+Query  121  GEEFSLSKHPQGTEVKAITYSAMQVYNEENPEVFVIIDI  159
+            GEEFS++KHPQGTEVKAITYSAMQ++  E PE+FVIIDI
+Sbjct  124  GEEFSINKHPQGTEVKAITYSAMQIHETEQPEIFVIIDI  162
+
+
+> sp|Q2EGP9|ARCH_ICTPU Protein archease OS=Ictalurus punctatus 
+OX=7998 PE=2 SV=1
+Length=162
+
+ Score = 210 bits (536),  Expect = 8e-70, Method: Composition-based stats.
+ Identities = 123/159 (77%), Positives = 146/159 (92%), Gaps = 0/159 (0%)
+
+Query  1    RDYNLTEEQKAIKAKYPPVNRKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTG  60
+            R+ +LTE QKAIKAKYP +N+KYEYLDHTADVQLH+WGDTLEEAFEQCAMAMFGYMTDT 
+Sbjct  4    RELDLTEAQKAIKAKYPAINKKYEYLDHTADVQLHSWGDTLEEAFEQCAMAMFGYMTDTE  63
+
+Query  61   TVEPLQTVEVETQGDDLQSLLFHFLDEWLYKFSADEFFIPREVKVLSIDQRNFKLRSIGW  120
+            TVEP+ T+E+E++GDDL+SLLFHFLD+WL+KFSAD FF+PREVKVL +D+  F +RSIGW
+Sbjct  64   TVEPIDTIEIESEGDDLESLLFHFLDDWLFKFSADAFFVPREVKVLQLDRMRFTIRSIGW  123
+
+Query  121  GEEFSLSKHPQGTEVKAITYSAMQVYNEENPEVFVIIDI  159
+            GEEF+L+KHPQGTEVKAITYSAMQ+ ++E PE+F IIDI
+Sbjct  124  GEEFNLAKHPQGTEVKAITYSAMQICDKEKPEIFAIIDI  162
+
+
+> sp|Q505B7|ARCH_MOUSE Protein archease OS=Mus musculus OX=10090 
+GN=Zbtb8os PE=1 SV=2
+Length=168
+
+ Score = 207 bits (526),  Expect = 4e-68, Method: Composition-based stats.
+ Identities = 148/157 (94%), Positives = 153/157 (97%), Gaps = 0/157 (0%)
+
+Query  1    RDYNLTEEQKAIKAKYPPVNRKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTG  60
+            RDYNLTEEQKA K KYPPVNRKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTG
+Sbjct  9    RDYNLTEEQKATKDKYPPVNRKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTG  68
+
+Query  61   TVEPLQTVEVETQGDDLQSLLFHFLDEWLYKFSADEFFIPREVKVLSIDQRNFKLRSIGW  120
+            TVEPL+TVEVETQGDDLQSLLFHFLDEWLYKFSADE+FIPREVKVL+IDQ+NFKLRSIGW
+Sbjct  69   TVEPLRTVEVETQGDDLQSLLFHFLDEWLYKFSADEYFIPREVKVLNIDQKNFKLRSIGW  128
+
+Query  121  GEEFSLSKHPQGTEVKAITYSAMQVYNEENPEVFVII  157
+            GEEFSLSKHPQGTEVKAITYSAMQVYNEE PEVF +I
+Sbjct  129  GEEFSLSKHPQGTEVKAITYSAMQVYNEEKPEVFFVI  165
+
+
+> sp|Q8ZWP9|ARCH_PYRAE Protein archease OS=Pyrobaculum aerophilum 
+(strain ATCC 51768 / IM2 / DSM 7523 / JCM 9630 / NBRC 100827) 
+OX=178306 GN=PAE1678 PE=3 SV=1
+Length=147
+
+ Score = 168 bits (427),  Expect = 2e-53, Method: Composition-based stats.
+ Identities = 53/147 (36%), Positives = 88/147 (60%), Gaps = 5/147 (3%)
+
+Query  15   KYPPVNRKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQG  74
+              P     Y+Y +HTADV + A+G TLEEAF+  A+A+      +  VEP ++ EV  + 
+Sbjct  4    GKPG---DYKYGEHTADVLIQAYGCTLEEAFKNAALALADLTYYSSRVEPKESREVAVEY  60
+
+Query  75   DDLQSLLFHFLDEWLYKFSADEFFIPREVKVLSIDQRNFKLRSIGWGEEFSLSKHPQ-GT  133
+            +DL+ LLF ++DE LY F A++F + R ++V       + +R++ +GE++ ++KH   G 
+Sbjct  61   EDLEGLLFRWIDELLYLFDAEKFALSRRIEVKLEKGNGYAIRALLYGEKYDINKHGFTGL  120
+
+Query  134  EVKAITYSAMQVYNEENPE-VFVIIDI  159
+             VKA+TY  M++   E+   V  ++DI
+Sbjct  121  IVKAMTYHMMEIKKVEDYWLVQYVVDI  147
+
+
+> sp|Q9YFV2|ARCH_AERPE Protein archease OS=Aeropyrum pernix (strain 
+ATCC 700893 / DSM 11879 / JCM 9820 / NBRC 100138 / K1) 
+OX=272557 GN=APE_0148.1 PE=3 SV=2
+Length=144
+
+ Score = 168 bits (425),  Expect = 4e-53, Method: Composition-based stats.
+ Identities = 48/140 (34%), Positives = 79/140 (56%), Gaps = 2/140 (1%)
+
+Query  22   KYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQGDDLQSLL  81
+             + + +HTADV + A+G TLEEAFE  A  ++  +TDT  VEP + V+   +G DL++LL
+Sbjct  5    GWMHEEHTADVLVIAYGRTLEEAFENAARGVYEVVTDTSRVEPRRRVDASIEGIDLENLL  64
+
+Query  82   FHFLDEWLYKFSADEF-FIPREVKVLSIDQRNFKLRSIGWGEEFSLSKHPQGTEVKAITY  140
+            + F++  +    ++   F    V  +  +  +  + +  WGEEF  S+H   T VKA+TY
+Sbjct  65   YRFIENLIAYTDSEGLVFGLFRVCKIECNGESCSIVASAWGEEFDPSRHEHRTIVKAMTY  124
+
+Query  141  SAMQVYNEENPE-VFVIIDI  159
+            + M++  E     V  ++DI
+Sbjct  125  ADMEIKEENGCWRVQFVVDI  144
+
+
+> sp|Q8TU10|ARCH_METAC Protein archease OS=Methanosarcina acetivorans 
+(strain ATCC 35395 / DSM 2834 / JCM 12185 / C2A) OX=188937 
+GN=MA_0265 PE=3 SV=1
+Length=146
+
+ Score = 167 bits (424),  Expect = 7e-53, Method: Composition-based stats.
+ Identities = 54/145 (37%), Positives = 85/145 (59%), Gaps = 2/145 (1%)
+
+Query  17   PPVNRKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQGDD  76
+            P   +KYEYL+HTAD++  A+G+TL+E FE  A+AMF  + DTG V      EV     D
+Sbjct  2    PSQGKKYEYLEHTADIKFLAYGNTLKEVFENAALAMFNVIIDTGKVSGETAREVCLTSPD  61
+
+Query  77   LQSLLFHFLDEWLYKFSADEF-FIPREVKVLSIDQRNFKLRSIGWGEEFSLSKHPQGTEV  135
+            L+SLL  +L E LY F  DE  F    V+ +  ++  + ++++  GE++    HP  TE+
+Sbjct  62   LESLLVDWLSELLYLFEVDEIVFWKFRVEEIREEEGEYSIKAVASGEQYYPESHPFETEI  121
+
+Query  136  KAITYSAMQVYNEENPE-VFVIIDI  159
+            KA+TY+ +++    +     V++DI
+Sbjct  122  KAVTYNQLELEKTADGWKAQVVVDI  146
+
+
+> sp|Q9TZN1|ARCH_CAEEL Protein archease-like OS=Caenorhabditis 
+elegans OX=6239 GN=arch-1 PE=3 SV=1
+Length=155
+
+ Score = 167 bits (423),  Expect = 1e-52, Method: Composition-based stats.
+ Identities = 65/141 (46%), Positives = 92/141 (65%), Gaps = 1/141 (1%)
+
+Query  20   NRKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQGDDLQS  79
+             R++EYLDH AD+QLH+WG T+EEAFE C ++MFGYMTD   V+ +     +  GD L  
+Sbjct  15   RRRFEYLDHPADIQLHSWGSTMEEAFEACLVSMFGYMTDLAKVDEMYEFYWKASGDSLDG  74
+
+Query  80   LLFHFLDEWLYKFSADEFFIPREVKVLSIDQRNFKLRSIGWGEEFSLSKHPQGTEVKAIT  139
+            LLF FLDE L  F A+  F+ + V++L  D++ F++   GWGE F  SKH    ++K+ T
+Sbjct  75   LLFQFLDEALNSFHAEPCFVAKRVEILRFDKKKFEIEFRGWGESFDTSKHETEADIKSPT  134
+
+Query  140  YSAMQV-YNEENPEVFVIIDI  159
+            YS MQ+    E  +++VI+DI
+Sbjct  135  YSNMQINEKPERCDIYVIVDI  155
+
+
+> sp|Q975L0|ARCH_SULTO Protein archease OS=Sulfurisphaera tokodaii 
+(strain DSM 16993 / JCM 10545 / NBRC 100140 / 7) OX=273063 
+GN=STK_04060 PE=3 SV=1
+Length=139
+
+ Score = 166 bits (420),  Expect = 2e-52, Method: Composition-based stats.
+ Identities = 52/140 (37%), Positives = 87/140 (62%), Gaps = 3/140 (2%)
+
+Query  21   RKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQGDDLQSL  80
+            +K+E+ +HTAD+ + A+G  L EAFE  A+A+F  MTDT  VEP +  EV+  G DL++L
+Sbjct  2    QKFEFFEHTADIGIRAYGRNLNEAFENAAVAVFEVMTDTSKVEPKEMREVKIDGYDLENL  61
+
+Query  81   LFHFLDEWLYKFSADEFFIPREVKVLSIDQRNFKLRSIGWGEEFSLSKHPQGTEVKAITY  140
+            L+ +++  L  + ++     +    ++ID++N  L    WGE+F  +KH + T VKA+TY
+Sbjct  62   LYRWIESLLVYYDSEIMLFSK--FYVNIDEKNLTLEGKAWGEKFDPNKHERRTVVKAMTY  119
+
+Query  141  SAMQVYNEENPEVF-VIIDI  159
+              M++ N+ N  +   ++DI
+Sbjct  120  HEMKIENKGNYYILTFVVDI  139
+
+
+> sp|Q61DI9|ARCH_CAEBR Protein archease-like OS=Caenorhabditis 
+briggsae OX=6238 GN=arch-1 PE=3 SV=1
+Length=155
+
+ Score = 166 bits (420),  Expect = 4e-52, Method: Composition-based stats.
+ Identities = 62/141 (44%), Positives = 88/141 (62%), Gaps = 1/141 (1%)
+
+Query  20   NRKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQGDDLQS  79
+             R++EYLDH AD+QLH+WG T+E AFE C ++MFGYMTD   VE       +  GD +  
+Sbjct  15   RRRFEYLDHPADIQLHSWGTTIERAFEACLVSMFGYMTDLEKVEEQYEFYWKVSGDSMDG  74
+
+Query  80   LLFHFLDEWLYKFSADEFFIPREVKVLSIDQRNFKLRSIGWGEEFSLSKHPQGTEVKAIT  139
+            LLF FLDE L  F A+  F+ + V+++  D+   ++   GWGE F  SKH    ++K+ T
+Sbjct  75   LLFQFLDEALNSFHAEPCFVAKRVEIMRFDKEKLEIEFRGWGESFDTSKHETEADIKSPT  134
+
+Query  140  YSAMQ-VYNEENPEVFVIIDI  159
+            YS MQ +   +  +V+VI+DI
+Sbjct  135  YSNMQIIEKSDRCDVYVIVDI  155
+
+
+> sp|Q9VD92|ARCH_DROME Protein archease-like OS=Drosophila melanogaster 
+OX=7227 GN=Archease PE=2 SV=1
+Length=156
+
+ Score = 165 bits (418),  Expect = 8e-52, Method: Composition-based stats.
+ Identities = 83/141 (59%), Positives = 104/141 (74%), Gaps = 3/141 (2%)
+
+Query  22   KYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQGDDLQSLL  81
+            KYEYLDHTADVQ+H WG +L+EAFEQC +AMFGYMT+   V   Q  E+E  GDDL+SLL
+Sbjct  16   KYEYLDHTADVQIHGWGSSLKEAFEQCGVAMFGYMTELDYVSVEQCFEIEAHGDDLESLL  75
+
+Query  82   FHFLDEWLYKFSADEFFIPREVKVLSIDQRNFKLRSIGWGEEFSLSKHPQGTEVKAITYS  141
+            FHFLDE L+ FSA+ + + +++++   D  NF++    +GE F L KHPQGTEVKAITYS
+Sbjct  76   FHFLDELLFLFSAEPYLVCKKLEITKFDVENFEISCHCYGEPFELGKHPQGTEVKAITYS  135
+
+Query  142  AMQVYNE---ENPEVFVIIDI  159
+            AMQ+  +    N EVFVIIDI
+Sbjct  136  AMQIIQDVEASNYEVFVIIDI  156
+
+
+> sp|C3MQ89|ARCH_SULIL Protein archease OS=Sulfolobus islandicus 
+(strain L.S.2.15 / Lassen #1) OX=429572 GN=LS215_1545 PE=3 
+SV=1
+Length=139
+
+ Score = 164 bits (415),  Expect = 1e-51, Method: Composition-based stats.
+ Identities = 51/140 (36%), Positives = 83/140 (59%), Gaps = 3/140 (2%)
+
+Query  21   RKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQGDDLQSL  80
+            R +E+ +HTADV + A+G +LEEAF   A+ +F  +TDT  V+P++  E+   G DL++L
+Sbjct  2    RSFEFFEHTADVGIRAYGKSLEEAFSNAALGVFEVITDTSKVKPIEYREIYLNGYDLENL  61
+
+Query  81   LFHFLDEWLYKFSADEFFIPREVKVLSIDQRNFKLRSIGWGEEFSLSKHPQGTEVKAITY  140
+            L+ +++E LY + ++     +    L IDQ +  L    WGE+F+   H + T VKA+TY
+Sbjct  62   LYKWIEELLYYYDSELMVFSK--FDLMIDQDSMTLEGKAWGEKFNGKIHERRTVVKAMTY  119
+
+Query  141  SAMQVYNEENPEVF-VIIDI  159
+              + +   EN  V   ++DI
+Sbjct  120  HQLSIEKTENCYVITFVVDI  139
+
+
+> sp|C3NH78|ARCH_SULIN Protein archease OS=Sulfolobus islandicus 
+(strain Y.N.15.51 / Yellowstone #2) OX=419942 GN=YN1551_1396 
+PE=3 SV=1
+Length=139
+
+ Score = 163 bits (414),  Expect = 2e-51, Method: Composition-based stats.
+ Identities = 51/140 (36%), Positives = 83/140 (59%), Gaps = 3/140 (2%)
+
+Query  21   RKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQGDDLQSL  80
+            R +E+ +HTADV + A+G +LEEAF   A+ +F  +TDT  V+P++  E+   G DL++L
+Sbjct  2    RSFEFFEHTADVGIRAYGKSLEEAFSNAALGVFEIITDTSKVKPIEYREIYLNGYDLENL  61
+
+Query  81   LFHFLDEWLYKFSADEFFIPREVKVLSIDQRNFKLRSIGWGEEFSLSKHPQGTEVKAITY  140
+            L+ +++E LY + ++     +    L IDQ +  L    WGE+F+   H + T VKA+TY
+Sbjct  62   LYKWIEELLYYYDSELMVFSK--FDLMIDQDSMTLEGKAWGEKFNGKIHERRTVVKAMTY  119
+
+Query  141  SAMQVYNEENPEVF-VIIDI  159
+              + +   EN  V   ++DI
+Sbjct  120  HQLSIEKTENCYVITFVVDI  139
+
+
+> sp|C3MVY1|ARCH_SULIM Protein archease OS=Sulfolobus islandicus 
+(strain M.14.25 / Kamchatka #1) OX=427317 GN=M1425_1450 PE=3 
+SV=1
+Length=139
+
+ Score = 163 bits (413),  Expect = 2e-51, Method: Composition-based stats.
+ Identities = 51/140 (36%), Positives = 83/140 (59%), Gaps = 3/140 (2%)
+
+Query  21   RKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQGDDLQSL  80
+            R +E+ +HTADV + A+G +LEEAF   A+ +F  +TDT  V+P++  E+   G DL++L
+Sbjct  2    RSFEFFEHTADVGIRAYGKSLEEAFSNAALGVFEVITDTSKVKPIEYREIYLNGYDLENL  61
+
+Query  81   LFHFLDEWLYKFSADEFFIPREVKVLSIDQRNFKLRSIGWGEEFSLSKHPQGTEVKAITY  140
+            L+ +++E LY + ++     +    L IDQ +  L    WGE+F+   H + T VKA+TY
+Sbjct  62   LYKWIEELLYYYDSELMVFSK--FDLMIDQDSMTLEGKAWGEKFNGKIHERRTVVKAMTY  119
+
+Query  141  SAMQVYNEENPEVF-VIIDI  159
+              + +   EN  V   ++DI
+Sbjct  120  HQLSIEKTENGYVITFVVDI  139
+
+
+> sp|C4KHI6|ARCH_SULIK Protein archease OS=Sulfolobus islandicus 
+(strain M.16.4 / Kamchatka #3) OX=426118 GN=M164_1444 PE=3 
+SV=1
+Length=139
+
+ Score = 163 bits (413),  Expect = 2e-51, Method: Composition-based stats.
+ Identities = 51/140 (36%), Positives = 83/140 (59%), Gaps = 3/140 (2%)
+
+Query  21   RKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQGDDLQSL  80
+            R +E+ +HTADV + A+G +LEEAF   A+ +F  +TDT  V+P++  E+   G DL++L
+Sbjct  2    RSFEFFEHTADVGIRAYGKSLEEAFSNAALGVFEVITDTSKVKPIEYREIYLNGYDLENL  61
+
+Query  81   LFHFLDEWLYKFSADEFFIPREVKVLSIDQRNFKLRSIGWGEEFSLSKHPQGTEVKAITY  140
+            L+ +++E LY + ++     +    L IDQ +  L    WGE+F+   H + T VKA+TY
+Sbjct  62   LYKWIEELLYYYDSELMVFSK--FDLMIDQDSMTLEGKAWGEKFNGKIHERRTVVKAMTY  119
+
+Query  141  SAMQVYNEENPEVF-VIIDI  159
+              + +   EN  V   ++DI
+Sbjct  120  HQLSIEKTENGYVITFVVDI  139
+
+
+> sp|C3N5V7|ARCH_SULIA Protein archease OS=Sulfolobus islandicus 
+(strain M.16.27) OX=427318 GN=M1627_1500 PE=3 SV=1
+Length=139
+
+ Score = 163 bits (413),  Expect = 2e-51, Method: Composition-based stats.
+ Identities = 51/140 (36%), Positives = 83/140 (59%), Gaps = 3/140 (2%)
+
+Query  21   RKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQGDDLQSL  80
+            R +E+ +HTADV + A+G +LEEAF   A+ +F  +TDT  V+P++  E+   G DL++L
+Sbjct  2    RSFEFFEHTADVGIRAYGKSLEEAFSNAALGVFEVITDTSKVKPIEYREIYLNGYDLENL  61
+
+Query  81   LFHFLDEWLYKFSADEFFIPREVKVLSIDQRNFKLRSIGWGEEFSLSKHPQGTEVKAITY  140
+            L+ +++E LY + ++     +    L IDQ +  L    WGE+F+   H + T VKA+TY
+Sbjct  62   LYKWIEELLYYYDSELMVFSK--FDLMIDQDSMTLEGKAWGEKFNGKIHERRTVVKAMTY  119
+
+Query  141  SAMQVYNEENPEVF-VIIDI  159
+              + +   EN  V   ++DI
+Sbjct  120  HQLSIEKTENGYVITFVVDI  139
+
+
+> sp|A3MTM9|ARCH_PYRCJ Protein archease OS=Pyrobaculum calidifontis 
+(strain JCM 11548 / VA1) OX=410359 GN=Pcal_0569 PE=3 SV=1
+Length=147
+
+ Score = 163 bits (414),  Expect = 2e-51, Method: Composition-based stats.
+ Identities = 49/140 (35%), Positives = 81/140 (58%), Gaps = 2/140 (1%)
+
+Query  22   KYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQGDDLQSLL  81
+             Y Y +HTADV + A+G TLEEAF+  A+A+      +  VEP    +VE + DDL+ LL
+Sbjct  8    NYRYGEHTADVLVQAFGCTLEEAFKNAAVALADLTYYSERVEPRMAKKVEVEYDDLEGLL  67
+
+Query  82   FHFLDEWLYKFSADEFFIPREVKVLSIDQRNFKLRSIGWGEEFSLSKHPQ-GTEVKAITY  140
+            F ++DE L+ F A++F   R ++V       +++ +   GE + ++KH   G  VKA+T+
+Sbjct  68   FKWIDELLFLFDAEKFAWGRNIEVELRQGVGYRISATLHGEMYDINKHGFTGLIVKAMTF  127
+
+Query  141  SAMQVYNEENPEV-FVIIDI  159
+              M++   ++  V   ++DI
+Sbjct  128  HMMEIKKVDDYWVLQYVVDI  147
+
+
+> sp|C3NEH3|ARCH_SULIY Protein archease OS=Sulfolobus islandicus 
+(strain Y.G.57.14 / Yellowstone #1) OX=439386 GN=YG5714_1445 
+PE=3 SV=1
+Length=139
+
+ Score = 163 bits (413),  Expect = 2e-51, Method: Composition-based stats.
+ Identities = 50/140 (36%), Positives = 83/140 (59%), Gaps = 3/140 (2%)
+
+Query  21   RKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQGDDLQSL  80
+            R +E+ +HTADV + A+G +LEEAF   A+ +F  +TDT  V+P++  E+   G DL++L
+Sbjct  2    RSFEFFEHTADVGIRAYGKSLEEAFSNAALGVFEIITDTSKVKPIEYREIYLNGYDLENL  61
+
+Query  81   LFHFLDEWLYKFSADEFFIPREVKVLSIDQRNFKLRSIGWGEEFSLSKHPQGTEVKAITY  140
+            L+ +++E LY + ++     +    L IDQ +  L    WGE+F+   H + T VKA+TY
+Sbjct  62   LYKWIEELLYYYDSELMVFSK--FDLMIDQDSMTLEGKAWGEKFNGKIHERRTVVKAMTY  119
+
+Query  141  SAMQVYNEENPE-VFVIIDI  159
+              + +   EN   +  ++DI
+Sbjct  120  HQLSIEKTENCYLITFVVDI  139
+
+
+> sp|B1YCY3|ARCH_PYRNV Protein archease OS=Pyrobaculum neutrophilum 
+(strain DSM 2338 / JCM 9278 / NBRC 100436 / V24Sta) OX=444157 
+GN=Tneu_0707 PE=3 SV=1
+Length=147
+
+ Score = 163 bits (413),  Expect = 3e-51, Method: Composition-based stats.
+ Identities = 52/139 (37%), Positives = 83/139 (60%), Gaps = 2/139 (1%)
+
+Query  23   YEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQGDDLQSLLF  82
+            Y Y +HTADV + A+G TLEEAF   A+A+      T  VEP  + EVE + DDL+ LLF
+Sbjct  9    YRYGEHTADVLIQAYGCTLEEAFVNAAVALAEVTYSTSKVEPKHSREVEVEYDDLEGLLF  68
+
+Query  83   HFLDEWLYKFSADEFFIPREVKVLSIDQRNFKLRSIGWGEEFSLSKHPQ-GTEVKAITYS  141
+             ++DE LY F A++F I R++ +       ++++++ +G+ +S  KH   G  VKA+T+ 
+Sbjct  69   KWIDELLYLFDAEKFAISRKIDLKLEKDGGYRIKAVLYGDIYSQEKHGFTGLIVKAMTFH  128
+
+Query  142  AMQVYNEENPE-VFVIIDI  159
+             M++    +   V  ++DI
+Sbjct  129  MMEIRQIGDYWMVQYVVDI  147
+
+
+> sp|Q5JCY8|ARCH_THEKO Protein archease OS=Thermococcus kodakarensis 
+(strain ATCC BAA-918 / JCM 12380 / KOD1) OX=69014 GN=TK0361 
+PE=3 SV=1
+Length=142
+
+ Score = 161 bits (408),  Expect = 2e-50, Method: Composition-based stats.
+ Identities = 47/141 (33%), Positives = 75/141 (53%), Gaps = 2/141 (1%)
+
+Query  21   RKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQGDDLQSL  80
+            RK+E+ +HTAD+ +  +G TLEEAFE  A+ +F  M +   VEP +  EVE + +DL++L
+Sbjct  2    RKWEHYEHTADIGVRGYGSTLEEAFEAVALGLFDVMVNVKKVEPKECREVEVEEEDLEAL  61
+
+Query  81   LFHFLDEWLYKFSADEFFIPREVKVLSIDQRNFKLRSIGWGEEFSLSKHPQGTEVKAITY  140
+            L+ FL+E L     +          +   +  +KL++   GE  +  KH    EVKAITY
+Sbjct  62   LYSFLEELLVLHDMEGLVFGDVKVRIEKTENGYKLKAKACGEVLNPEKHEPKEEVKAITY  121
+
+Query  141  SAMQVYNEENPE--VFVIIDI  159
+              M++    +       + D+
+Sbjct  122  HDMKIEKLPDGRWMAQFVPDL  142
+
+
+> sp|Q8U0N4|ARCH_PYRFU Protein archease OS=Pyrococcus furiosus 
+(strain ATCC 43587 / DSM 3638 / JCM 8422 / Vc1) OX=186497 GN=PF1552 
+PE=3 SV=1
+Length=142
+
+ Score = 160 bits (406),  Expect = 2e-50, Method: Composition-based stats.
+ Identities = 48/141 (34%), Positives = 78/141 (55%), Gaps = 2/141 (1%)
+
+Query  21   RKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQGDDLQSL  80
+            R++E+ +HTAD+ +  +GDTLEEAFE  A+A+F  + +   +E    +++E +G+DL+SL
+Sbjct  2    RQWEHYEHTADIGIRGYGDTLEEAFEAVALALFDVIVNVRKIEKKVEIDIEVEGEDLESL  61
+
+Query  81   LFHFLDEWLYKFSADEFFIPREVKVLSIDQRNFKLRSIGWGEEFSLSKHPQGTEVKAITY  140
+            L+ FL+E LY    +          +      + LR   +GE+F   KH    EVKAITY
+Sbjct  62   LYSFLEELLYLHDIEGLVFGDFKVKIEQKDGKYILRGKAYGEKFDPEKHEPKEEVKAITY  121
+
+Query  141  SAMQVYNEENPE--VFVIIDI  159
+              M++    +      ++ DI
+Sbjct  122  HDMKIERLPDGRWMAQLVPDI  142
+
+
+> sp|Q8PWN9|ARCH_METMA Protein archease OS=Methanosarcina mazei 
+(strain ATCC BAA-159 / DSM 3647 / Goe1 / Go1 / JCM 11833 / 
+OCM 88) OX=192952 GN=MM_1537 PE=3 SV=1
+Length=146
+
+ Score = 160 bits (406),  Expect = 3e-50, Method: Composition-based stats.
+ Identities = 53/145 (37%), Positives = 84/145 (58%), Gaps = 2/145 (1%)
+
+Query  17   PPVNRKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQGDD  76
+            P   +KYEYL+HTAD++  A+G+T+EE FE  A+AMF  + DT  V      EV     D
+Sbjct  2    PSQGKKYEYLEHTADIKFLAYGETVEEVFENAALAMFNVIIDTEKVSGETEREVLLTSPD  61
+
+Query  77   LQSLLFHFLDEWLYKFSADE-FFIPREVKVLSIDQRNFKLRSIGWGEEFSLSKHPQGTEV  135
+            L+SLL  +L E LY F  DE  F   +V+ +  ++  + ++++  GE++    HP  TE+
+Sbjct  62   LESLLVDWLSELLYLFEVDEVVFWKFQVEEIREEEGEYSIKALASGEKYYPESHPFETEI  121
+
+Query  136  KAITYSAMQVYNEENPE-VFVIIDI  159
+            KA+TY+ +++          V++DI
+Sbjct  122  KAVTYNQLELEKTAGGWKAQVVVDI  146
+
+
+> sp|Q9UX79|ARCH_SACS2 Protein archease OS=Saccharolobus solfataricus 
+(strain ATCC 35092 / DSM 1617 / JCM 11322 / P2) OX=273057 
+GN=SSO0690 PE=3 SV=1
+Length=139
+
+ Score = 160 bits (406),  Expect = 3e-50, Method: Composition-based stats.
+ Identities = 49/140 (35%), Positives = 82/140 (59%), Gaps = 3/140 (2%)
+
+Query  21   RKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQGDDLQSL  80
+            R++E+ +HTADV + ++G +LEEAF   A+ +F  +TDT  V P++  E+   G DL++L
+Sbjct  2    RQFEFFEHTADVGIKSYGRSLEEAFSNAALGVFEVITDTSKVRPVEYREIYLNGYDLENL  61
+
+Query  81   LFHFLDEWLYKFSADEFFIPREVKVLSIDQRNFKLRSIGWGEEFSLSKHPQGTEVKAITY  140
+            L+ +++E LY + ++     +    L IDQ +  L    WGE F+   H + T VKA+TY
+Sbjct  62   LYKWIEELLYYYDSELMIFSK--FDLMIDQDSITLEGKAWGERFNDKIHERRTVVKAMTY  119
+
+Query  141  SAMQVYNEENPEVF-VIIDI  159
+              + +   E+  V   ++DI
+Sbjct  120  HQLSIEKTESGYVITFVVDI  139
+
+
+> sp|A1RV54|ARCH_PYRIL Protein archease OS=Pyrobaculum islandicum 
+(strain DSM 4184 / JCM 9189 / GEO3) OX=384616 GN=Pisl_1685 
+PE=3 SV=1
+Length=147
+
+ Score = 160 bits (405),  Expect = 5e-50, Method: Composition-based stats.
+ Identities = 48/150 (32%), Positives = 83/150 (55%), Gaps = 5/150 (3%)
+
+Query  12   IKAKYPPVNRKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVE  71
+            +K   P     Y Y +HTADV + A+G TLEEAF+  A+A+      T  VEP    E+ 
+Sbjct  1    MKCGKPV---DYRYGEHTADVLIQAYGCTLEEAFKNAAIALAELTYHTEKVEPRYAKEIT  57
+
+Query  72   TQGDDLQSLLFHFLDEWLYKFSADEFFIPREVKVLSIDQRNFKLRSIGWGEEFSLSKHPQ  131
+               +DL+ LLF ++DE L+ F  ++F I RE+ +       + ++++ +GE + + KH  
+Sbjct  58   IDYNDLEGLLFRWIDELLFLFDTEKFAISREIVLNLGKNDVYYIKAVLYGEPYDIEKHGF  117
+
+Query  132  -GTEVKAITYSAMQVYNEENPE-VFVIIDI  159
+             G  VKA+T+  M++   ++   +  ++D+
+Sbjct  118  TGLIVKAMTFHMMEIRQIDDYWMLQYVVDV  147
+
+
+> sp|Q4JB72|ARCH_SULAC Protein archease OS=Sulfolobus acidocaldarius 
+(strain ATCC 33909 / DSM 639 / JCM 8929 / NBRC 15157 / 
+NCIMB 11770) OX=330779 GN=Saci_0565 PE=3 SV=1
+Length=139
+
+ Score = 159 bits (403),  Expect = 7e-50, Method: Composition-based stats.
+ Identities = 51/139 (37%), Positives = 83/139 (60%), Gaps = 3/139 (2%)
+
+Query  22   KYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQGDDLQSLL  81
+            ++E+ DHTAD+ + A+G +LEEAFE  A+A+F  MTDT  +E    VE+E  G DL++LL
+Sbjct  3    RFEFFDHTADIGIIAYGRSLEEAFESAALAVFEVMTDTSKIEYKVEVEIEEIGSDLENLL  62
+
+Query  82   FHFLDEWLYKFSADEFFIPREVKVLSIDQRNFKLRSIGWGEEFSLSKHPQGTEVKAITYS  141
+            + +++  L  + +D     +    +SID  N  L+   +GE+F+  KH + T VKA+TY 
+Sbjct  63   YRWIESLLVYYDSDLLLFGK--FKVSIDLNNMTLKGKAYGEKFNPEKHERRTVVKAMTYH  120
+
+Query  142  AMQVYNEENPEV-FVIIDI  159
+             M +   +   +   ++DI
+Sbjct  121  EMLISQNDGTYILRFVVDI  139
+
+
+> sp|Q46D27|ARCH_METBF Protein archease OS=Methanosarcina barkeri 
+(strain Fusaro / DSM 804) OX=269797 GN=Mbar_A1251 PE=3 SV=1
+Length=146
+
+ Score = 157 bits (397),  Expect = 7e-49, Method: Composition-based stats.
+ Identities = 50/144 (35%), Positives = 78/144 (54%), Gaps = 2/144 (1%)
+
+Query  18   PVNRKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQGDDL  77
+               ++YEYLDHTAD++  A+G T EE FE  A+AMF  + DT  +      E+  +  DL
+Sbjct  3    SQGKQYEYLDHTADIKFQAYGKTREEVFENAALAMFNVIIDTKKISGDTAREIFLKSPDL  62
+
+Query  78   QSLLFHFLDEWLYKFSADE-FFIPREVKVLSIDQRNFKLRSIGWGEEFSLSKHPQGTEVK  136
+            +SLL  +L E LY F  DE  F    V  +  +   + + +   GE++ L   P  TE+K
+Sbjct  63   ESLLVDWLSELLYLFEVDEIVFREFRVDNIREENGEYSITAQALGEKYDLKSLPFETEIK  122
+
+Query  137  AITYSAMQVYNEENPE-VFVIIDI  159
+            A+TY+ +++    +     V++DI
+Sbjct  123  AVTYNQLEITKTADGWKAQVVVDI  146
+
+
+> sp|C5A6Z1|ARCH_THEGJ Protein archease OS=Thermococcus gammatolerans 
+(strain DSM 15229 / JCM 11827 / EJ3) OX=593117 GN=TGAM_1501 
+PE=3 SV=1
+Length=142
+
+ Score = 154 bits (390),  Expect = 9e-48, Method: Composition-based stats.
+ Identities = 46/141 (33%), Positives = 74/141 (52%), Gaps = 2/141 (1%)
+
+Query  21   RKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQGDDLQSL  80
+            R++E+ +HTAD+ +  +G TLEEAFE  A+ +F  M D   VEP +  EVE + +DL++L
+Sbjct  2    RRWEHYEHTADIGVRGYGSTLEEAFEAVALGLFDVMVDVRKVEPRECREVEVEEEDLEAL  61
+
+Query  81   LFHFLDEWLYKFSADEFFIPREVKVLSIDQRNFKLRSIGWGEEFSLSKHPQGTEVKAITY  140
+            L+ FL+E L     +          +   +  ++L++   GE     KH    EVKAITY
+Sbjct  62   LYSFLEELLVLHDMEGLVFGDVRVRIEKTENGYRLKAKACGEVLDYEKHEPKEEVKAITY  121
+
+Query  141  SAMQVYNEENPE--VFVIIDI  159
+              M++    +       + D+
+Sbjct  122  HDMRIEKLPDGRWMAQFVPDL  142
+
+
+> sp|O59205|ARCH_PYRHO Protein archease OS=Pyrococcus horikoshii 
+(strain ATCC 700860 / DSM 12428 / JCM 9974 / NBRC 100139 / 
+OT-3) OX=70601 GN=PH1536 PE=1 SV=1
+Length=142
+
+ Score = 153 bits (388),  Expect = 2e-47, Method: Composition-based stats.
+ Identities = 52/142 (37%), Positives = 86/142 (61%), Gaps = 4/142 (3%)
+
+Query  21   RKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQGDDLQSL  80
+            +K+E+ +HTAD+ +  +GD+LEEAFE  A+A+F  M +   VE  +  E+E + +DL++L
+Sbjct  2    KKWEHYEHTADIGIRGYGDSLEEAFEAVAIALFDVMVNVNKVEKKEVREIEVEAEDLEAL  61
+
+Query  81   LFHFLDEWLYKFSADEF-FIPREVKVLSIDQRNFKLRSIGWGEEFSLSKHPQGTEVKAIT  139
+            L+ FL+E L     +   F   EVK+  ++ + ++LR+  +GE+  L KH    EVKAIT
+Sbjct  62   LYSFLEELLVIHDIEGLVFRDFEVKIERVNGK-YRLRAKAYGEKLDLKKHEPKEEVKAIT  120
+
+Query  140  YSAMQVYNEENPE--VFVIIDI  159
+            Y  M++    N +    ++ DI
+Sbjct  121  YHDMKIERLPNGKWMAQLVPDI  142
+
+
+> sp|Q54BU9|ARCH_DICDI Protein archease-like OS=Dictyostelium discoideum 
+OX=44689 GN=DDB_G0293404 PE=3 SV=1
+Length=151
+
+ Score = 148 bits (375),  Expect = 2e-45, Method: Composition-based stats.
+ Identities = 61/146 (42%), Positives = 89/146 (61%), Gaps = 5/146 (3%)
+
+Query  18   PVNRKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVE---PLQTVEVETQG  74
+               + +EYLDHTAD+  H WG  L+EA EQ  + M  YM +  +VE         +   G
+Sbjct  7    GQLKNFEYLDHTADIMFHTWGKDLKEALEQMVLIMNNYMVELDSVELDDSATEQTISVNG  66
+
+Query  75   DDLQSLLFHFLDEWLYKFSADEFFIPREVKVLSIDQRNFKLRSIGWGEEFSLSKHPQGTE  134
+             D+ SLLF  LDE+L+ FS + F I ++V+++S D+ NF +++IG G E   SKH  GTE
+Sbjct  67   HDMDSLLFALLDEFLFVFSTE-FIIFKQVQIISFDRENFSIKAIGKGVELDKSKHTTGTE  125
+
+Query  135  VKAITYSAMQVYNE-ENPEVFVIIDI  159
+            +KAITYS M++    +  ++ VI+DI
+Sbjct  126  IKAITYSCMKIEENPDKSDIHVIVDI  151
+
+
+> sp|Q9V105|ARCH_PYRAB Protein archease OS=Pyrococcus abyssi (strain 
+GE5 / Orsay) OX=272844 GN=PYRAB06240 PE=1 SV=1
+Length=142
+
+ Score = 145 bits (367),  Expect = 3e-44, Method: Composition-based stats.
+ Identities = 47/141 (33%), Positives = 81/141 (57%), Gaps = 2/141 (1%)
+
+Query  21   RKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQGDDLQSL  80
+            +++E+ +HTAD+ +  +GD+LEEAFE  A+A+F  + +   VE  +  EVE +G+DL+SL
+Sbjct  2    KRWEHYEHTADIGIRGYGDSLEEAFEAVAIALFDVIVNVNKVEKKEVREVEVEGEDLESL  61
+
+Query  81   LFHFLDEWLYKFSADEFFIPREVKVLSIDQRNFKLRSIGWGEEFSLSKHPQGTEVKAITY  140
+            L++FL+E L     +          +   ++ +KL++  +GE+    KH    EVKAITY
+Sbjct  62   LYNFLEELLVIHDIEGLVFRDFEVKIEKTEKGYKLKAKAYGEKLDPEKHEPKEEVKAITY  121
+
+Query  141  SAMQVYNEENPE--VFVIIDI  159
+              M++    +      ++ DI
+Sbjct  122  HDMKIEKLPDGRWMAQLVPDI  142
+
+
+> sp|Q60334|ARCH_METJA Protein archease OS=Methanocaldococcus jannaschii 
+(strain ATCC 43067 / DSM 2661 / JAL-1 / JCM 10045 
+/ NBRC 100440) OX=243232 GN=MJ0024 PE=3 SV=1
+Length=139
+
+ Score = 143 bits (361),  Expect = 2e-43, Method: Composition-based stats.
+ Identities = 42/138 (30%), Positives = 76/138 (55%), Gaps = 1/138 (1%)
+
+Query  23   YEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQGDDLQSLLF  82
+            + Y + TAD+ + A G +LEEAF++ A  ++  M D   V+  + +E E  G+DL+ LL+
+Sbjct  2    FNYFETTADLGVEAKGKSLEEAFKEGAKGLYNIMVDIDKVDKKEKIEFEITGEDLEELLY  61
+
+Query  83   HFLDEWLYKFSADEFFIPREVKVLSIDQRNFKLRSIGWGEEFSLSKHPQGTEVKAITYSA  142
+            +FL+E L+    +          +  +   ++L+   +GE+ +  KH    EVKA+TY  
+Sbjct  62   NFLNELLFYTDVENLVFNDFDVKIEKNDNGYRLKCTAYGEKINKEKHNIKEEVKAVTYHK  121
+
+Query  143  MQVYNEENPE-VFVIIDI  159
+            M++  EE+   +  I+D+
+Sbjct  122  MEIKQEEDGWKIRYIVDL  139
+
+
+> sp|O27635|ARCH_METTH Protein archease OS=Methanothermobacter 
+thermautotrophicus (strain ATCC 29096 / DSM 1053 / JCM 10044 
+/ NBRC 100330 / Delta H) OX=187420 GN=MTH_1598 PE=1 SV=1
+Length=140
+
+ Score = 142 bits (357),  Expect = 9e-43, Method: Composition-based stats.
+ Identities = 47/140 (34%), Positives = 70/140 (50%), Gaps = 2/140 (1%)
+
+Query  21   RKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQGDDLQSL  80
+            + +E+ D TAD    A+G  LEE FE  A+AMF  MTDT  VE  +   VE   +D  SL
+Sbjct  2    KGFEFFDVTADAGFWAYGHDLEEVFENAALAMFEVMTDTSLVEAAEERRVEITSEDRVSL  61
+
+Query  81   LFHFLDEWLYKFSADEFFIPREVKVLSIDQRNFKLRSIGWGEEFSLSKHPQGTEVKAITY  140
+            L+ +LDE L+    +     +    +        L     GEE     H +  EVKA+T+
+Sbjct  62   LYDWLDELLFIHDTEFILFSKFKVKIDEKDDGLHLTGTAMGEEI-KEGHERRDEVKAVTF  120
+
+Query  141  SAMQVYNEEN-PEVFVIIDI  159
+              M++ +E+   +  VI+D+
+Sbjct  121  HMMEILDEDGLIKARVILDL  140
+
+
+> sp|O28777|ARCH_ARCFU Protein archease OS=Archaeoglobus fulgidus 
+(strain ATCC 49558 / VC-16 / DSM 4304 / JCM 9628 / NBRC 100126) 
+OX=224325 GN=AF_1495 PE=3 SV=1
+Length=137
+
+ Score = 133 bits (336),  Expect = 9e-40, Method: Composition-based stats.
+ Identities = 46/139 (33%), Positives = 70/139 (50%), Gaps = 4/139 (3%)
+
+Query  22   KYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQGDDLQSLL  81
+            KY ++DHTAD+    +G  L E FE  A+A +    DT  +   + V VE +G+D++  L
+Sbjct  2    KYRFIDHTADIAFEVYGSNLRELFENAALAFYDAFVDTSGIGIEREVGVECEGEDVEITL  61
+
+Query  82   FHFLDEWLYKFSADEFFIPREVKVLSIDQRNFKLRSIGWGEEFSLSKHPQGTEVKAITYS  141
+            + +L+E LY F  + FF  ++V+V   +    K      G  FS        E KAIT  
+Sbjct  62   YRWLNELLYLFDTE-FFAAKDVEVEVEEGDGVKASGKLRGGRFSAEMV--KVEPKAITLH  118
+
+Query  142  AMQVYNEENPEV-FVIIDI  159
+              +V   +   V FV++DI
+Sbjct  119  KFRVEKTDKGYVAFVVVDI  137
+
+
+> sp|Q8TYR4|ARCH_METKA Protein archease OS=Methanopyrus kandleri 
+(strain AV19 / DSM 6324 / JCM 9639 / NBRC 100938) OX=190192 
+GN=MK0228 PE=3 SV=1
+Length=140
+
+ Score = 132 bits (333),  Expect = 3e-39, Method: Composition-based stats.
+ Identities = 46/138 (33%), Positives = 72/138 (52%), Gaps = 1/138 (1%)
+
+Query  23   YEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQGDDLQSLLF  82
+            +E ++HTAD     W DT E+   + A A+F  +TD   VEP + VE+E +G DL  LL 
+Sbjct  3    WEEIEHTADAAFRVWADTPEDLLVEAAKALFDLITDLDAVEPEEEVEIEAEGGDLVELLH  62
+
+Query  83   HFLDEWLYKFSADEFFIPREVKVLSIDQRNFKLRSIGWGEEFSLSKHPQGTEVKAITYSA  142
+             +L+E  ++   D              +  +K+R +  GE +   +HP  TEVKA+TY  
+Sbjct  63   DWLEEIHFRHEIDGMLFSDFEVKELKKEEGWKVRGVARGEPYDPDRHPFHTEVKAVTYHN  122
+
+Query  143  MQVYNEENPEV-FVIIDI  159
+            M+V  E+   V   ++D+
+Sbjct  123  MKVEREDGRWVAEYVVDL  140
+
+
+> sp|Q97A49|ARCH_THEVO Protein archease OS=Thermoplasma volcanium 
+(strain ATCC 51530 / DSM 4299 / JCM 9571 / NBRC 15438 / GSS1) 
+OX=273116 GN=TV0961 PE=3 SV=1
+Length=133
+
+ Score = 118 bits (295),  Expect = 2e-33, Method: Composition-based stats.
+ Identities = 32/137 (23%), Positives = 56/137 (41%), Gaps = 6/137 (4%)
+
+Query  23   YEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQGDDLQSLLF  82
+            YE LDH +D+ +  +G T EE F     AM   + D G ++  + +    +G+  + ++ 
+Sbjct  3    YEILDHESDIGIMVYGTTYEELFSNAVYAMADLILDVGKLKEKRKMHEIIRGNTPEDIMV  62
+
+Query  83   HFLDEWLYKFSADEFFIPREVKVLSIDQRNFKLRSIGWGEEFSLSKHPQGTEVKAITYSA  142
+            + L   L+          R          +  L    +G E    +      +KA+TYS 
+Sbjct  63   NLLSRVLFYVDTYYTLYFRATCKYEDSTLDVYL----YGSEI-PEEVEYRNVIKAVTYSE  117
+
+Query  143  MQVYNEENPEVFVIIDI  159
+            + V  E+     VI D+
+Sbjct  118  IAVKPED-GFARVIFDL  133
+
+
+> sp|Q9HKC1|ARCH_THEAC Protein archease OS=Thermoplasma acidophilum 
+(strain ATCC 25905 / DSM 1728 / JCM 9062 / NBRC 15155 / 
+AMRC-C165) OX=273075 GN=Ta0680 PE=3 SV=1
+Length=141
+
+ Score = 116 bits (290),  Expect = 1e-32, Method: Composition-based stats.
+ Identities = 30/137 (22%), Positives = 55/137 (40%), Gaps = 6/137 (4%)
+
+Query  23   YEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVEVETQGDDLQSLLF  82
+            YE +DH +D+ +  +G T EE F     AM   + D   ++  + +     G   + ++ 
+Sbjct  11   YEVVDHESDIGVIVYGKTYEELFSNAVYAMADLIVDVSRLKENRKMHEVITGKTPEDIMV  70
+
+Query  83   HFLDEWLYKFSADEFFIPREVKVLSIDQRNFKLRSIGWGEEFSLSKHPQGTEVKAITYSA  142
+            + L   L+      + +   +     D     L +  +G E           +KA+TYS 
+Sbjct  71   NLLSRVLFYLDTY-YILYYRITSKYSDGE---LDAYFYGSEI-PEGIEYRNVIKAVTYSD  125
+
+Query  143  MQVYNEENPEVFVIIDI  159
+            + V  EE     +I D+
+Sbjct  126  LAVKPEE-GYAKIIFDL  141
+
+
+> sp|P9WQ03|ARCH_MYCTU Probable protein archease OS=Mycobacterium 
+tuberculosis (strain ATCC 25618 / H37Rv) OX=83332 GN=Rv2630 
+PE=1 SV=1
+Length=179
+
+ Score = 97.7 bits (242),  Expect = 4e-25, Method: Composition-based stats.
+ Identities = 18/85 (21%), Positives = 33/85 (39%), Gaps = 0/85 (0%)
+
+Query  10   KAIKAKYPPVNRKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVE  69
+            + ++A  P  +  +  + HTAD+++ AW  T +    Q  +       D  +   + T  
+Sbjct  34   RCVQAGKPGTSSGHRSVPHTADLRIEAWAPTRDGCIRQAVLGTVESFLDLESAHAVHTRL  93
+
+Query  70   VETQGDDLQSLLFHFLDEWLYKFSA  94
+                 D    LL   L+E +Y    
+Sbjct  94   RRLTADRDDDLLVAVLEEVIYLLDT  118
+
+
+> sp|P9WQ02|ARCH_MYCTO Probable protein archease OS=Mycobacterium 
+tuberculosis (strain CDC 1551 / Oshkosh) OX=83331 GN=MT2705 
+PE=2 SV=1
+Length=179
+
+ Score = 97.7 bits (242),  Expect = 4e-25, Method: Composition-based stats.
+ Identities = 18/85 (21%), Positives = 33/85 (39%), Gaps = 0/85 (0%)
+
+Query  10   KAIKAKYPPVNRKYEYLDHTADVQLHAWGDTLEEAFEQCAMAMFGYMTDTGTVEPLQTVE  69
+            + ++A  P  +  +  + HTAD+++ AW  T +    Q  +       D  +   + T  
+Sbjct  34   RCVQAGKPGTSSGHRSVPHTADLRIEAWAPTRDGCIRQAVLGTVESFLDLESAHAVHTRL  93
+
+Query  70   VETQGDDLQSLLFHFLDEWLYKFSA  94
+                 D    LL   L+E +Y    
+Sbjct  94   RRLTADRDDDLLVAVLEEVIYLLDT  118
+
+
+> sp|Q9X0H1|ARCH_THEMA Protein archease OS=Thermotoga maritima 
+(strain ATCC 43589 / MSB8 / DSM 3109 / JCM 10099) OX=243274 
+GN=TM_1083 PE=1 SV=1
+Length=124
+
+ Score = 40.3 bits (93),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 27/137 (20%), Positives = 56/137 (41%), Gaps = 22/137 (16%)
+
+Query  26   LDHTADVQLHAWGDTLEEAFEQCAMAMFG---YMTDTGTVEPLQTVEVETQGDDLQSLLF  82
+            ++HTAD+     G++ EE  E+    +      + DT   E +  +E        +   F
+Sbjct  5    IEHTADIAYEISGNSYEELLEEARNILLEEEGIVLDTEEKEKMYPLEET------EDAFF  58
+
+Query  83   HFLDEWLYKFSADEFFIPREVKVLSIDQRNFKLRSIGWGEEFSLSKHPQGTEVKAITYSA  142
+              +++W+         I +      I +   +L+       F   +  +GTE+KA+TY  
+Sbjct  59   DTVNDWI-------LEISKGWAPWRIKREGNELKVT-----FRKIRKKEGTEIKALTYHL  106
+
+Query  143  MQVYNEENP-EVFVIID  158
+            ++   + +  +  V+ D
+Sbjct  107  LKFERDGDVLKTKVVFD  123
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.146    0.384    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0446    0.140     1.90     42.6     43.6 
+
+Effective search space used: 7383282920
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 28, 2021  3:44 PM
+  Number of letters in database: 202,799,066
+  Number of sequences in database:  563,082
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

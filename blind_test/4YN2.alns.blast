@@ -1,0 +1,1267 @@
+PSIBLAST 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           563,082 sequences; 202,799,066 total letters
+
+Results from round 1
+
+
+Query= 4YN2
+
+Length=281
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|P23061|SPIN_CBEPV Spindolin OS=Choristoneura biennis entomop...  354     7e-122
+  sp|Q05894|SPIN_HAEPV Spindolin OS=Heliothis armigera entomopoxv...  352     1e-120
+  sp|P23058|SPLR_NPVAC Spheroidin-like protein OS=Autographa cali...  201     3e-62 
+  sp|Q65328|SPLR_NPVOP Spheroidin-like protein OS=Orgyia pseudots...  182     1e-54 
+  sp|A3KKC4|LCEMO_STRA7 Lytic cellulose monooxygenase OS=Streptom...  46.2    1e-04 
+  sp|Q02I11|CBPD_PSEAB Chitin-binding protein CbpD OS=Pseudomonas...  42.7    0.003 
+  sp|Q9I589|CBPD_PSEAE Chitin-binding protein CbpD OS=Pseudomonas...  42.4    0.003 
+
+
+> sp|P23061|SPIN_CBEPV Spindolin OS=Choristoneura biennis entomopoxvirus 
+OX=10288 GN=SPH PE=1 SV=1
+Length=341
+
+ Score = 354 bits (909),  Expect = 7e-122, Method: Compositional matrix adjust.
+ Identities = 182/288 (63%), Positives = 212/288 (74%), Gaps = 12/288 (4%)
+
+Query  1    HGYMSFPIARQRRCSMESF-WYPTNGDGITDPMCRAAYQYVYDKVLDETGS-TTDAISAA  58
+            HGYM+FPIARQRRCS     WYP  G GI DPMCRAAYQ V++KVL+  G    DA  AA
+Sbjct  21   HGYMTFPIARQRRCSAAGGNWYPVGGGGIQDPMCRAAYQNVFNKVLNSNGGDVIDASEAA  80
+
+Query  59   QYEFQQDNEYAALAGPDYWDKCHITQQVVPNYLCAAGAHSWS-NPFGDKSGVDISGSWRP  117
+             Y + QDNEYAALAGPDY + CHI Q+VVP+YLCAAGA  WS  PFGDKSG+D+ GSW P
+Sbjct  81   NYMYTQDNEYAALAGPDYTNICHIQQRVVPSYLCAAGASDWSIRPFGDKSGMDLPGSWTP  140
+
+Query  118  TVIPLSDNHQVSVPLELEFCPTAVHEPSYYEVYITKPSFNVFIDRVVWGNLDLIYNDTVP  177
+            T+I LSDN Q +V +ELEFCPTAVH+PSYYEVYIT PSFNV+ D VVW NLDLIYN+TV 
+Sbjct  141  TIIQLSDNQQSNVVMELEFCPTAVHDPSYYEVYITNPSFNVYTDNVVWANLDLIYNNTVT  200
+
+Query  178  LDPRLPYSICDAD-LVYRFTVPIPIRQSQAVLYVRWQRLDPVGEGFYNCVDINFDYNNGP  236
+            L P+LP S C A+ +VYRF V IP+R SQ VLYVRWQR+DPVGEGFYNCVD+ F Y+ GP
+Sbjct  201  LRPKLPESTCAANSMVYRFEVSIPVRPSQFVLYVRWQRIDPVGEGFYNCVDMKFKYSEGP  260
+
+Query  237  DDEDIIVP--DVPNQCASTFNY-----NEGVPGFDTEEYYKYMYESLR  277
+            D+EDII P  +V N+ A  F Y     N  V      +Y  Y  +++R
+Sbjct  261  DEEDIIEPEYEVDNE-AECFAYRTNSGNVNVNPLQENKYMAYANKAIR  307
+
+
+> sp|Q05894|SPIN_HAEPV Spindolin OS=Heliothis armigera entomopoxvirus 
+OX=10290 PE=1 SV=1
+Length=351
+
+ Score = 352 bits (902),  Expect = 1e-120, Method: Compositional matrix adjust.
+ Identities = 183/294 (62%), Positives = 217/294 (74%), Gaps = 13/294 (4%)
+
+Query  1    HGYMSFPIARQRRCSMESF-WYPTNGDGITDPMCRAAYQYVYDKVLDETGSTTDAISAAQ  59
+            HGYM+FPIARQRRCS+    W+P NGDGITD MCRAAYQ VY+KVL++     +A +AAQ
+Sbjct  21   HGYMTFPIARQRRCSVRGGQWWPPNGDGITDTMCRAAYQNVYNKVLNQYNDPQEAATAAQ  80
+
+Query  60   YEFQQDNEYAALAGPDYWDKCHITQQVVPNYLCAAGAHSWSN-PFGDKSGVDISGSWRPT  118
+            Y FQQDNEYAALAGPDY + C++ Q VVPN LCAAGA  W   PFGDKSG+D+ G+W PT
+Sbjct  81   YMFQQDNEYAALAGPDYTNLCNLQQNVVPNNLCAAGADDWDVVPFGDKSGMDLPGNWVPT  140
+
+Query  119  VIPLSDNHQVSVPLELEFCPTAVHEPSYYEVYITKPSFNVFIDRVVWGNLDLIYNDTVPL  178
+            VIPL  NHQ SV LELEFCPTAVH+PSYYEVYIT   FNV  D VVWGNL+LI+NDTVPL
+Sbjct  141  VIPLDSNHQSSVALELEFCPTAVHDPSYYEVYITNSGFNVHTDNVVWGNLELIFNDTVPL  200
+
+Query  179  DPRLPYSICDAD-LVYRFTVPIPIRQSQAVLYVRWQRLDPVGEGFYNCVDINFDYNNGPD  237
+             P+   S C+A+  VYRFTV IP+R +Q VLYVRWQR+DPVGEGFYNCVD+ FDY  GP 
+Sbjct  201  RPKSSTSTCNANPNVYRFTVSIPVRPAQFVLYVRWQRIDPVGEGFYNCVDMAFDYAAGPS  260
+
+Query  238  DEDIIVPD--VPNQCASTFNYNEGVPG------FDTEEYYKYMYESL--RFNRY  281
+            +ED+I PD   P Q A T + N    G       D ++Y   + ES+  R+++Y
+Sbjct  261  EEDVIYPDYEAPGQNAYTCHANRNKYGGNYENTIDEDKYQAQLDESIKSRYDKY  314
+
+
+> sp|P23058|SPLR_NPVAC Spheroidin-like protein OS=Autographa californica 
+nuclear polyhedrosis virus OX=46015 GN=SLP PE=2 SV=1
+Length=302
+
+ Score = 201 bits (511),  Expect = 3e-62, Method: Compositional matrix adjust.
+ Identities = 111/233 (48%), Positives = 150/233 (64%), Gaps = 4/233 (2%)
+
+Query  1    HGYMSFPIARQRRCSME-SFWYPTNGDGITDPMCRAAYQYVYDKVLDETGSTTDAISAAQ  59
+            HGY+S P ARQ +C  + +F++P NGD I D  CR AY+ VY K       +  A S AQ
+Sbjct  20   HGYLSVPTARQYKCFKDGNFYWPDNGDNIPDAACRNAYKSVYYKYRALDLESGAAASTAQ  79
+
+Query  60   YEFQQDNEYAALAGPDYWDKCHITQQVVPNYLCAAGAHSWSNPFGDKSGVDIS-GSWRPT  118
+            Y FQQ  EYAA+AGP+Y D   I Q+VVP+ LC AG++  ++ FGDKSG+D    +WRP 
+Sbjct  80   YMFQQYMEYAAVAGPNYDDFDLIKQRVVPHTLCGAGSNDRNSVFGDKSGMDEPFNNWRPN  139
+
+Query  119  VIPLSDNHQVSVPLELEFCPTAVHEPSYYEVYITKPSFNVFIDRVVWGNLDLIYNDTVPL  178
+             + L + +Q    + + FCPTA+HEPSY+EV+ITK +++   + + W  L+ I  +   L
+Sbjct  140  TLYL-NRYQPVYQMNVHFCPTAIHEPSYFEVFITKSNWDR-RNPITWNELEYIGGNDSNL  197
+
+Query  179  DPRLPYSICDADLVYRFTVPIPIRQSQAVLYVRWQRLDPVGEGFYNCVDINFD  231
+             P    S+CD  LVY   V IP R +Q V+YVRWQR+DPVGEGFYNC D+ F+
+Sbjct  198  IPNPGDSLCDNSLVYSIPVVIPYRSNQFVMYVRWQRIDPVGEGFYNCADLVFE  250
+
+
+> sp|Q65328|SPLR_NPVOP Spheroidin-like protein OS=Orgyia pseudotsugata 
+multicapsid polyhedrosis virus OX=262177 GN=SLP PE=2 
+SV=1
+Length=321
+
+ Score = 182 bits (463),  Expect = 1e-54, Method: Compositional matrix adjust.
+ Identities = 103/236 (44%), Positives = 146/236 (62%), Gaps = 4/236 (2%)
+
+Query  1    HGYMSFPIARQRRCSME-SFWYPTNGDGITDPMCRAAYQYVYDKVLDETGSTTDAISAAQ  59
+            HGY+S P+ARQ +C  + +F++P NGDG+ D  CR AY+ V+ +         +A +AAQ
+Sbjct  19   HGYLSTPVARQYKCFADGNFYWPDNGDGVPDEACRNAYKKVFHRYRAVGAPPGEAAAAAQ  78
+
+Query  60   YEFQQDNEYAALAGPDYWDKCHITQQVVPNYLCAAGAHSWSNPFGDKSGVDIS-GSWRPT  118
+            Y FQQ  EYAA+AGP+Y D   + ++V+P+ LC A A+     FGDKSG+D    +WRP 
+Sbjct  79   YMFQQYAEYAAVAGPNYRDLELVKREVLPHTLCGAAANDRHALFGDKSGMDEPFHNWRPD  138
+
+Query  119  VIPLSDNHQVSVPLELEFCPTAVHEPSYYEVYITKPSFNVFIDRVVWGNLDLIYNDTVPL  178
+            V+ + + +Q +    + FCPTAVHEPSY+EVY+TK +++     V W  L+ I  +   L
+Sbjct  139  VLYV-NRYQRAHSFNVHFCPTAVHEPSYFEVYVTKFTWDR-RSPVTWNELEYIGGNGSGL  196
+
+Query  179  DPRLPYSICDADLVYRFTVPIPIRQSQAVLYVRWQRLDPVGEGFYNCVDINFDYNN  234
+             P    + C +  +Y   V +P R    V+YVRWQR+DPVGEGFYNC D+ F   N
+Sbjct  197  VPNPGDAFCASGQLYSIPVSVPYRPGPFVMYVRWQRIDPVGEGFYNCADLVFGTEN  252
+
+
+> sp|A3KKC4|LCEMO_STRA7 Lytic cellulose monooxygenase OS=Streptomyces 
+ambofaciens (strain ATCC 23877 / 3486 / DSM 40053 / JCM 
+4204 / NBRC 12836 / NRRL B-2516) OX=278992 GN=SAM23877_1271 
+PE=1 SV=1
+Length=364
+
+ Score = 46.2 bits (108),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 67/241 (28%), Positives = 103/241 (43%), Gaps = 49/241 (20%)
+
+Query  1    HGYMSFPIARQRRCSMESFWYPTNGDGI---TDPMCRAAYQYVYDKVLDETGSTTDAISA  57
+            HG    P +R   C +++      G G    T+P CR+A        LD +G+T      
+Sbjct  35   HGVAMMPGSRTYLCQLDA----KTGTGALDPTNPACRSA--------LDTSGAT------  76
+
+Query  58   AQYE-FQQDNEYAALAGPDYWDKCHITQQVVPNYLCAAGAHSWSNPFGDKSGVDISGS-W  115
+            A Y  F   +  A   G  Y         V    LC+AG  S   P+ D  G + + S W
+Sbjct  77   ALYNWFAVLDSNAGGRGAGY---------VPDGTLCSAGNRS---PY-DFRGYNAARSDW  123
+
+Query  116  RPTVIPLSDNHQVSVPLELEFCPTAVHEPSYYEVYITKPSFNVFIDRVVWGNLDLIYNDT  175
+              T +      QV       +   A H P  + VY+TKP ++     + W +L+LI  +T
+Sbjct  124  PRTHLTSGSTIQV------NYSNWAAH-PGDFRVYLTKPGWSP-TSELGWDDLELI--ET  173
+
+Query  176  VPLDPRLPYSICDADLVYRFTVPIPI-RQSQAVLYVRWQRLDPVGEGFYNCVDINFDYNN  234
+            V   P+   +  D    Y + + +P  R   A+++++W R D   E F++C D+ FD  N
+Sbjct  174  VTDPPQRGSAGADGGHYY-WDLALPSGRSGDALIFMQWVRSDSQ-ENFFSCSDVVFDGGN  231
+
+Query  235  G  235
+            G
+Sbjct  232  G  232
+
+
+> sp|Q02I11|CBPD_PSEAB Chitin-binding protein CbpD OS=Pseudomonas 
+aeruginosa (strain UCBPP-PA14) OX=208963 GN=cpbD PE=1 SV=1
+Length=389
+
+ Score = 42.7 bits (99),  Expect = 0.003, Method: Compositional matrix adjust.
+ Identities = 44/152 (29%), Positives = 67/152 (44%), Gaps = 27/152 (18%)
+
+Query  84   QQVVPN-YLCAAGAHSWSNPFGDKSGVDISGSWRPTVIPLSDNHQVSVPLELEFCPTAVH  142
+            Q VVP+  LC AG   +        G++++ S  P+     D    S   +  +  +A H
+Sbjct  80   QAVVPDGQLCGAGKALFK-------GLNLARSDWPSTAIAPD---ASGNFQFVYKASAPH  129
+
+Query  143  EPSYYEVYITKPSFNVFIDRVVWGNLDLIYNDTVPLDPRLPYSICDADL---VYRFTVPI  199
+               Y++ YITK  +N            L ++D   L+P    SI    L    YR   P+
+Sbjct  130  ATRYFDFYITKDGYNP--------EKPLAWSD---LEPAPFCSITSVKLENGTYRMNCPL  178
+
+Query  200  PI-RQSQAVLYVRWQRLDPVGEGFYNCVDINF  230
+            P  +  + V+Y  WQR D   E FY C+D++F
+Sbjct  179  PQGKTGKHVIYNVWQRSDSP-EAFYACIDVSF  209
+
+
+> sp|Q9I589|CBPD_PSEAE Chitin-binding protein CbpD OS=Pseudomonas 
+aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 / 
+JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1) OX=208964 GN=cbpD 
+PE=1 SV=1
+Length=389
+
+ Score = 42.4 bits (98),  Expect = 0.003, Method: Compositional matrix adjust.
+ Identities = 44/152 (29%), Positives = 67/152 (44%), Gaps = 27/152 (18%)
+
+Query  84   QQVVPN-YLCAAGAHSWSNPFGDKSGVDISGSWRPTVIPLSDNHQVSVPLELEFCPTAVH  142
+            Q VVP+  LC AG   +        G++++ S  P+     D    S   +  +  +A H
+Sbjct  80   QAVVPDGQLCGAGKALFK-------GLNLARSDWPSTAIAPD---ASGNFQFVYKASAPH  129
+
+Query  143  EPSYYEVYITKPSFNVFIDRVVWGNLDLIYNDTVPLDPRLPYSICDADL---VYRFTVPI  199
+               Y++ YITK  +N            L ++D   L+P    SI    L    YR   P+
+Sbjct  130  ATRYFDFYITKDGYNP--------EKPLAWSD---LEPAPFCSITSVKLENGTYRMNCPL  178
+
+Query  200  PI-RQSQAVLYVRWQRLDPVGEGFYNCVDINF  230
+            P  +  + V+Y  WQR D   E FY C+D++F
+Sbjct  179  PQGKTGKHVIYNVWQRSDSP-EAFYACIDVSF  209
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.139    0.454    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22684456410
+Results from round 2
+
+
+Query= 4YN2
+
+Length=281
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q05894|SPIN_HAEPV Spindolin OS=Heliothis armigera entomopoxv...  414     2e-145
+  sp|P23061|SPIN_CBEPV Spindolin OS=Choristoneura biennis entomop...  401     2e-140
+  sp|P23058|SPLR_NPVAC Spheroidin-like protein OS=Autographa cali...  346     3e-119
+  sp|Q65328|SPLR_NPVOP Spheroidin-like protein OS=Orgyia pseudots...  339     3e-116
+  sp|A3KKC4|LCEMO_STRA7 Lytic cellulose monooxygenase OS=Streptom...  211     3e-65 
+
+Sequences not found previously or not previously below threshold:
+
+  sp|Q9I589|CBPD_PSEAE Chitin-binding protein CbpD OS=Pseudomonas...  73.7    1e-13
+  sp|Q02I11|CBPD_PSEAB Chitin-binding protein CbpD OS=Pseudomonas...  73.7    1e-13
+  sp|Q8GBD4|GBPA_YEREN GlcNAc-binding protein A OS=Yersinia enter...  56.7    6e-08
+  sp|A1JQE6|GBPA_YERE8 GlcNAc-binding protein A OS=Yersinia enter...  56.7    6e-08
+  sp|Q7MEW9|GBPA_VIBVY GlcNAc-binding protein A OS=Vibrio vulnifi...  49.4    2e-05
+  sp|Q8D7V4|GBPA_VIBVU GlcNAc-binding protein A OS=Vibrio vulnifi...  49.0    2e-05
+  sp|A5F0H4|GBPA_VIBC3 GlcNAc-binding protein A OS=Vibrio cholera...  47.1    9e-05
+  sp|Q9KLD5|GBPA_VIBCH GlcNAc-binding protein A OS=Vibrio cholera...  47.1    1e-04
+  sp|C3LW75|GBPA_VIBCM GlcNAc-binding protein A OS=Vibrio cholera...  46.3    1e-04
+  sp|A7N3J0|GBPA_VIBCB GlcNAc-binding protein A OS=Vibrio campbel...  45.9    2e-04
+  sp|Q87FT0|GBPA_VIBPA GlcNAc-binding protein A OS=Vibrio parahae...  44.8    6e-04
+
+
+> sp|Q05894|SPIN_HAEPV Spindolin OS=Heliothis armigera entomopoxvirus 
+OX=10290 PE=1 SV=1
+Length=351
+
+ Score = 414 bits (1064),  Expect = 2e-145, Method: Composition-based stats.
+ Identities = 183/294 (62%), Positives = 217/294 (74%), Gaps = 13/294 (4%)
+
+Query  1    HGYMSFPIARQRRCSMESF-WYPTNGDGITDPMCRAAYQYVYDKVLDETGSTTDAISAAQ  59
+            HGYM+FPIARQRRCS+    W+P NGDGITD MCRAAYQ VY+KVL++     +A +AAQ
+Sbjct  21   HGYMTFPIARQRRCSVRGGQWWPPNGDGITDTMCRAAYQNVYNKVLNQYNDPQEAATAAQ  80
+
+Query  60   YEFQQDNEYAALAGPDYWDKCHITQQVVPNYLCAAGAHSWSN-PFGDKSGVDISGSWRPT  118
+            Y FQQDNEYAALAGPDY + C++ Q VVPN LCAAGA  W   PFGDKSG+D+ G+W PT
+Sbjct  81   YMFQQDNEYAALAGPDYTNLCNLQQNVVPNNLCAAGADDWDVVPFGDKSGMDLPGNWVPT  140
+
+Query  119  VIPLSDNHQVSVPLELEFCPTAVHEPSYYEVYITKPSFNVFIDRVVWGNLDLIYNDTVPL  178
+            VIPL  NHQ SV LELEFCPTAVH+PSYYEVYIT   FNV  D VVWGNL+LI+NDTVPL
+Sbjct  141  VIPLDSNHQSSVALELEFCPTAVHDPSYYEVYITNSGFNVHTDNVVWGNLELIFNDTVPL  200
+
+Query  179  DPRLPYSICDAD-LVYRFTVPIPIRQSQAVLYVRWQRLDPVGEGFYNCVDINFDYNNGPD  237
+             P+   S C+A+  VYRFTV IP+R +Q VLYVRWQR+DPVGEGFYNCVD+ FDY  GP 
+Sbjct  201  RPKSSTSTCNANPNVYRFTVSIPVRPAQFVLYVRWQRIDPVGEGFYNCVDMAFDYAAGPS  260
+
+Query  238  DEDIIVPD--VPNQCASTFNYNEGVPG------FDTEEYYKYMYESL--RFNRY  281
+            +ED+I PD   P Q A T + N    G       D ++Y   + ES+  R+++Y
+Sbjct  261  EEDVIYPDYEAPGQNAYTCHANRNKYGGNYENTIDEDKYQAQLDESIKSRYDKY  314
+
+
+> sp|P23061|SPIN_CBEPV Spindolin OS=Choristoneura biennis entomopoxvirus 
+OX=10288 GN=SPH PE=1 SV=1
+Length=341
+
+ Score = 401 bits (1031),  Expect = 2e-140, Method: Composition-based stats.
+ Identities = 182/288 (63%), Positives = 212/288 (74%), Gaps = 12/288 (4%)
+
+Query  1    HGYMSFPIARQRRCSMESF-WYPTNGDGITDPMCRAAYQYVYDKVLDETG-STTDAISAA  58
+            HGYM+FPIARQRRCS     WYP  G GI DPMCRAAYQ V++KVL+  G    DA  AA
+Sbjct  21   HGYMTFPIARQRRCSAAGGNWYPVGGGGIQDPMCRAAYQNVFNKVLNSNGGDVIDASEAA  80
+
+Query  59   QYEFQQDNEYAALAGPDYWDKCHITQQVVPNYLCAAGAHSWS-NPFGDKSGVDISGSWRP  117
+             Y + QDNEYAALAGPDY + CHI Q+VVP+YLCAAGA  WS  PFGDKSG+D+ GSW P
+Sbjct  81   NYMYTQDNEYAALAGPDYTNICHIQQRVVPSYLCAAGASDWSIRPFGDKSGMDLPGSWTP  140
+
+Query  118  TVIPLSDNHQVSVPLELEFCPTAVHEPSYYEVYITKPSFNVFIDRVVWGNLDLIYNDTVP  177
+            T+I LSDN Q +V +ELEFCPTAVH+PSYYEVYIT PSFNV+ D VVW NLDLIYN+TV 
+Sbjct  141  TIIQLSDNQQSNVVMELEFCPTAVHDPSYYEVYITNPSFNVYTDNVVWANLDLIYNNTVT  200
+
+Query  178  LDPRLPYSICDAD-LVYRFTVPIPIRQSQAVLYVRWQRLDPVGEGFYNCVDINFDYNNGP  236
+            L P+LP S C A+ +VYRF V IP+R SQ VLYVRWQR+DPVGEGFYNCVD+ F Y+ GP
+Sbjct  201  LRPKLPESTCAANSMVYRFEVSIPVRPSQFVLYVRWQRIDPVGEGFYNCVDMKFKYSEGP  260
+
+Query  237  DDEDIIVP--DVPNQCASTFNY-----NEGVPGFDTEEYYKYMYESLR  277
+            D+EDII P  +V N+ A  F Y     N  V      +Y  Y  +++R
+Sbjct  261  DEEDIIEPEYEVDNE-AECFAYRTNSGNVNVNPLQENKYMAYANKAIR  307
+
+
+> sp|P23058|SPLR_NPVAC Spheroidin-like protein OS=Autographa californica 
+nuclear polyhedrosis virus OX=46015 GN=SLP PE=2 SV=1
+Length=302
+
+ Score = 346 bits (888),  Expect = 3e-119, Method: Composition-based stats.
+ Identities = 111/234 (47%), Positives = 150/234 (64%), Gaps = 4/234 (2%)
+
+Query  1    HGYMSFPIARQRRCSME-SFWYPTNGDGITDPMCRAAYQYVYDKVLDETGSTTDAISAAQ  59
+            HGY+S P ARQ +C  + +F++P NGD I D  CR AY+ VY K       +  A S AQ
+Sbjct  20   HGYLSVPTARQYKCFKDGNFYWPDNGDNIPDAACRNAYKSVYYKYRALDLESGAAASTAQ  79
+
+Query  60   YEFQQDNEYAALAGPDYWDKCHITQQVVPNYLCAAGAHSWSNPFGDKSGVDIS-GSWRPT  118
+            Y FQQ  EYAA+AGP+Y D   I Q+VVP+ LC AG++  ++ FGDKSG+D    +WRP 
+Sbjct  80   YMFQQYMEYAAVAGPNYDDFDLIKQRVVPHTLCGAGSNDRNSVFGDKSGMDEPFNNWRPN  139
+
+Query  119  VIPLSDNHQVSVPLELEFCPTAVHEPSYYEVYITKPSFNVFIDRVVWGNLDLIYNDTVPL  178
+             + L + +Q    + + FCPTA+HEPSY+EV+ITK +++   + + W  L+ I  +   L
+Sbjct  140  TLYL-NRYQPVYQMNVHFCPTAIHEPSYFEVFITKSNWDR-RNPITWNELEYIGGNDSNL  197
+
+Query  179  DPRLPYSICDADLVYRFTVPIPIRQSQAVLYVRWQRLDPVGEGFYNCVDINFDY  232
+             P    S+CD  LVY   V IP R +Q V+YVRWQR+DPVGEGFYNC D+ F+ 
+Sbjct  198  IPNPGDSLCDNSLVYSIPVVIPYRSNQFVMYVRWQRIDPVGEGFYNCADLVFET  251
+
+
+> sp|Q65328|SPLR_NPVOP Spheroidin-like protein OS=Orgyia pseudotsugata 
+multicapsid polyhedrosis virus OX=262177 GN=SLP PE=2 
+SV=1
+Length=321
+
+ Score = 339 bits (870),  Expect = 3e-116, Method: Composition-based stats.
+ Identities = 103/236 (44%), Positives = 146/236 (62%), Gaps = 4/236 (2%)
+
+Query  1    HGYMSFPIARQRRCSME-SFWYPTNGDGITDPMCRAAYQYVYDKVLDETGSTTDAISAAQ  59
+            HGY+S P+ARQ +C  + +F++P NGDG+ D  CR AY+ V+ +         +A +AAQ
+Sbjct  19   HGYLSTPVARQYKCFADGNFYWPDNGDGVPDEACRNAYKKVFHRYRAVGAPPGEAAAAAQ  78
+
+Query  60   YEFQQDNEYAALAGPDYWDKCHITQQVVPNYLCAAGAHSWSNPFGDKSGVDIS-GSWRPT  118
+            Y FQQ  EYAA+AGP+Y D   + ++V+P+ LC A A+     FGDKSG+D    +WRP 
+Sbjct  79   YMFQQYAEYAAVAGPNYRDLELVKREVLPHTLCGAAANDRHALFGDKSGMDEPFHNWRPD  138
+
+Query  119  VIPLSDNHQVSVPLELEFCPTAVHEPSYYEVYITKPSFNVFIDRVVWGNLDLIYNDTVPL  178
+            V+ + + +Q +    + FCPTAVHEPSY+EVY+TK +++     V W  L+ I  +   L
+Sbjct  139  VLYV-NRYQRAHSFNVHFCPTAVHEPSYFEVYVTKFTWDR-RSPVTWNELEYIGGNGSGL  196
+
+Query  179  DPRLPYSICDADLVYRFTVPIPIRQSQAVLYVRWQRLDPVGEGFYNCVDINFDYNN  234
+             P    + C +  +Y   V +P R    V+YVRWQR+DPVGEGFYNC D+ F   N
+Sbjct  197  VPNPGDAFCASGQLYSIPVSVPYRPGPFVMYVRWQRIDPVGEGFYNCADLVFGTEN  252
+
+
+> sp|A3KKC4|LCEMO_STRA7 Lytic cellulose monooxygenase OS=Streptomyces 
+ambofaciens (strain ATCC 23877 / 3486 / DSM 40053 / JCM 
+4204 / NBRC 12836 / NRRL B-2516) OX=278992 GN=SAM23877_1271 
+PE=1 SV=1
+Length=364
+
+ Score = 211 bits (536),  Expect = 3e-65, Method: Composition-based stats.
+ Identities = 66/241 (27%), Positives = 103/241 (43%), Gaps = 49/241 (20%)
+
+Query  1    HGYMSFPIARQRRCSMESFWYPTNGDGI---TDPMCRAAYQYVYDKVLDETGSTTDAISA  57
+            HG    P +R   C +++      G G    T+P CR+A        LD +G+T      
+Sbjct  35   HGVAMMPGSRTYLCQLDA----KTGTGALDPTNPACRSA--------LDTSGAT------  76
+
+Query  58   AQYE-FQQDNEYAALAGPDYWDKCHITQQVVPNYLCAAGAHSWSNPFGDKSGVDISGS-W  115
+            A Y  F   +  A   G  Y         V    LC+AG  S   P+ D  G + + S W
+Sbjct  77   ALYNWFAVLDSNAGGRGAGY---------VPDGTLCSAGNRS---PY-DFRGYNAARSDW  123
+
+Query  116  RPTVIPLSDNHQVSVPLELEFCPTAVHEPSYYEVYITKPSFNVFIDRVVWGNLDLIYNDT  175
+              T +      Q      + +   A H P  + VY+TKP ++     + W +L+LI  +T
+Sbjct  124  PRTHLTSGSTIQ------VNYSNWAAH-PGDFRVYLTKPGWSP-TSELGWDDLELI--ET  173
+
+Query  176  VPLDPRLPYSICDADLVYRFTVPIPI-RQSQAVLYVRWQRLDPVGEGFYNCVDINFDYNN  234
+            V   P+   +  D    Y + + +P  R   A+++++W R D   E F++C D+ FD  N
+Sbjct  174  VTDPPQRGSAGADGGHYY-WDLALPSGRSGDALIFMQWVRSDSQ-ENFFSCSDVVFDGGN  231
+
+Query  235  G  235
+            G
+Sbjct  232  G  232
+
+
+> sp|Q9I589|CBPD_PSEAE Chitin-binding protein CbpD OS=Pseudomonas 
+aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 / 
+JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1) OX=208964 GN=cbpD 
+PE=1 SV=1
+Length=389
+
+ Score = 73.7 bits (179),  Expect = 1e-13, Method: Composition-based stats.
+ Identities = 52/235 (22%), Positives = 82/235 (35%), Gaps = 50/235 (21%)
+
+Query  1    HGYMSFPIARQRRCSMESFWYPTNGDGITDPMCRAAYQYVYDKVLDETGSTTDAISAAQY  60
+            HG M  P +R   C +E    P                    K      +     + A Y
+Sbjct  26   HGSMETPPSRVYGCFLEGPENP--------------------KSAACKAAVAAGGTQALY  65
+
+Query  61   EFQQDNEYAALAGPDYWDKCHITQQVVPNYLCAAGAHSWSNPFGDKSGVDISGS-WRPTV  119
+            ++   N+  A          +    V    LC AG            G++++ S W  T 
+Sbjct  66   DWNGVNQGNANG--------NHQAVVPDGQLCGAGK-------ALFKGLNLARSDWPSTA  110
+
+Query  120  IPLSDNHQVSVPLELEFCPTAVHEPSYYEVYITKPSFNVFIDRVVWGNLDLIYNDTVPLD  179
+            I        S   +  +  +A H   Y++ YITK  +N     + W +L+       P  
+Sbjct  111  IAPD----ASGNFQFVYKASAPHATRYFDFYITKDGYNPEK-PLAWSDLE-------PAP  158
+
+Query  180  PRLPYSICDADLVYRFTVPIPI-RQSQAVLYVRWQRLDPVGEGFYNCVDINFDYN  233
+                 S+   +  YR   P+P  +  + V+Y  WQR D   E FY C+D++F   
+Sbjct  159  FCSITSVKLENGTYRMNCPLPQGKTGKHVIYNVWQRSDS-PEAFYACIDVSFSGA  212
+
+
+> sp|Q02I11|CBPD_PSEAB Chitin-binding protein CbpD OS=Pseudomonas 
+aeruginosa (strain UCBPP-PA14) OX=208963 GN=cpbD PE=1 SV=1
+Length=389
+
+ Score = 73.7 bits (179),  Expect = 1e-13, Method: Composition-based stats.
+ Identities = 52/235 (22%), Positives = 82/235 (35%), Gaps = 50/235 (21%)
+
+Query  1    HGYMSFPIARQRRCSMESFWYPTNGDGITDPMCRAAYQYVYDKVLDETGSTTDAISAAQY  60
+            HG M  P +R   C +E    P                    K      +     + A Y
+Sbjct  26   HGSMETPPSRVYGCFLEGPENP--------------------KSAACKAAVAAGGTQALY  65
+
+Query  61   EFQQDNEYAALAGPDYWDKCHITQQVVPNYLCAAGAHSWSNPFGDKSGVDISGS-WRPTV  119
+            ++   N+  A          +    V    LC AG            G++++ S W  T 
+Sbjct  66   DWNGVNQGNANG--------NHQAVVPDGQLCGAGK-------ALFKGLNLARSDWPSTA  110
+
+Query  120  IPLSDNHQVSVPLELEFCPTAVHEPSYYEVYITKPSFNVFIDRVVWGNLDLIYNDTVPLD  179
+            I        S   +  +  +A H   Y++ YITK  +N     + W +L+       P  
+Sbjct  111  IAPD----ASGNFQFVYKASAPHATRYFDFYITKDGYNPEK-PLAWSDLE-------PAP  158
+
+Query  180  PRLPYSICDADLVYRFTVPIPI-RQSQAVLYVRWQRLDPVGEGFYNCVDINFDYN  233
+                 S+   +  YR   P+P  +  + V+Y  WQR D   E FY C+D++F   
+Sbjct  159  FCSITSVKLENGTYRMNCPLPQGKTGKHVIYNVWQRSDS-PEAFYACIDVSFSGA  212
+
+
+> sp|Q8GBD4|GBPA_YEREN GlcNAc-binding protein A OS=Yersinia enterocolitica 
+OX=630 GN=gbpA PE=3 SV=1
+Length=494
+
+ Score = 56.7 bits (135),  Expect = 6e-08, Method: Composition-based stats.
+ Identities = 49/235 (21%), Positives = 74/235 (31%), Gaps = 59/235 (25%)
+
+Query  1    HGYMSFPIARQRRCSMESFWYPTNGDGITDPMCRAAYQYVYDKVLDETGSTTDAISAAQY  60
+            HGY+  P +R   C+ +      +  G+                              QY
+Sbjct  22   HGYIENPPSRNFLCNAQGGSLNKDCGGV------------------------------QY  51
+
+Query  61   EFQQDNEYAALAGPDYWDKCHITQQVVPNYLCAAGAHSWSNPFGDKSGVDISGSWRPTVI  120
+            E Q   E A              Q  V   L  A   +W +   ++     +  W    +
+Sbjct  52   EPQSSGETADG---------FPQQGPVDGKL--ASGDNWVSVNLNQQ---TAERWTKVKM  97
+
+Query  121  PLSDNHQVSVPLELEFCPTAVHEPSYYEVYITKPSFNVFIDRVVWGNLDLIYNDTVPLDP  180
+                      P E ++  TA H  + ++ Y+TK  +N     +   +LDL     +P  P
+Sbjct  98   KAG-------PQEFKWKFTAAHPIADFKYYMTKQDWNPN-QPLTRDSLDLTPFCVIPGGP  149
+
+Query  181  RLPYSICDADLVYRFTVPIPIRQSQAVLYVRWQRLDPVGEGFYNCVDINFDYNNG  235
+                +          T  IP R    V+Y  W   D  G  FYN +D  FD   G
+Sbjct  150  --ASTTGSTTH----TCNIPERTGYQVIYGAWDVSDTPGT-FYNMIDAEFDGATG  197
+
+
+> sp|A1JQE6|GBPA_YERE8 GlcNAc-binding protein A OS=Yersinia enterocolitica 
+serotype O:8 / biotype 1B (strain NCTC 13174 / 8081) 
+OX=393305 GN=gbpA PE=3 SV=1
+Length=494
+
+ Score = 56.7 bits (135),  Expect = 6e-08, Method: Composition-based stats.
+ Identities = 49/235 (21%), Positives = 74/235 (31%), Gaps = 59/235 (25%)
+
+Query  1    HGYMSFPIARQRRCSMESFWYPTNGDGITDPMCRAAYQYVYDKVLDETGSTTDAISAAQY  60
+            HGY+  P +R   C+ +      +  G+                              QY
+Sbjct  22   HGYIENPPSRNFLCNAQGGSLNKDCGGV------------------------------QY  51
+
+Query  61   EFQQDNEYAALAGPDYWDKCHITQQVVPNYLCAAGAHSWSNPFGDKSGVDISGSWRPTVI  120
+            E Q   E A              Q  V   L  A   +W +   ++     +  W    +
+Sbjct  52   EPQSSGETADG---------FPQQGPVDGKL--ASGDNWVSVNLNQQ---TAERWTKVKM  97
+
+Query  121  PLSDNHQVSVPLELEFCPTAVHEPSYYEVYITKPSFNVFIDRVVWGNLDLIYNDTVPLDP  180
+                      P E ++  TA H  + ++ Y+TK  +N     +   +LDL     +P  P
+Sbjct  98   KAG-------PQEFKWKFTAAHPIADFKYYMTKQDWNPN-QPLTRDSLDLTPFCVIPGGP  149
+
+Query  181  RLPYSICDADLVYRFTVPIPIRQSQAVLYVRWQRLDPVGEGFYNCVDINFDYNNG  235
+                +          T  IP R    V+Y  W   D  G  FYN +D  FD   G
+Sbjct  150  --ASTTGSTTH----TCNIPERTGYQVIYGAWDVSDTPGT-FYNMIDAEFDGATG  197
+
+
+> sp|Q7MEW9|GBPA_VIBVY GlcNAc-binding protein A OS=Vibrio vulnificus 
+(strain YJ016) OX=196600 GN=gbpA PE=3 SV=1
+Length=485
+
+ Score = 49.4 bits (116),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 33/133 (25%), Positives = 50/133 (38%), Gaps = 20/133 (15%)
+
+Query  131  PLELEFCPTAVHEPSYYEVYITKPSFNVFIDRVVWGNLDL----IYNDTVPLDPRLPYSI  186
+                E+  TA H    ++ YITKP +N     +   + DL    + +  +   P+     
+Sbjct  109  AQNFEWTFTANHVTKDWKYYITKPDWNPN-QPLARASFDLTPFCVVDGGMVQPPKRVSHT  167
+
+Query  187  CDADLVYRFTVPIPIRQSQAVLYVRWQRLDPVGEGFYNCVDINFDYNNGPDDEDIIVPDV  246
+            C+          +P R+   V+   W   D     FYN +D+ FD  +GP   D      
+Sbjct  168  CN----------VPEREGYQVILAVWDVGDTAA-SFYNVIDVKFD-GDGPALPDW---QQ  212
+
+Query  247  PNQCASTFNYNEG  259
+              Q   T N N G
+Sbjct  213  GGQIIPTMNLNVG  225
+
+
+> sp|Q8D7V4|GBPA_VIBVU GlcNAc-binding protein A OS=Vibrio vulnificus 
+(strain CMCP6) OX=216895 GN=gbpA PE=3 SV=1
+Length=485
+
+ Score = 49.0 bits (115),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 33/133 (25%), Positives = 50/133 (38%), Gaps = 20/133 (15%)
+
+Query  131  PLELEFCPTAVHEPSYYEVYITKPSFNVFIDRVVWGNLDL----IYNDTVPLDPRLPYSI  186
+                E+  TA H    ++ YITKP +N     +   + DL    + +  +   P+     
+Sbjct  109  AQNFEWTFTANHVTKDWKYYITKPDWNPN-QPLARASFDLTPFCVVDGGMVQPPKRVSHT  167
+
+Query  187  CDADLVYRFTVPIPIRQSQAVLYVRWQRLDPVGEGFYNCVDINFDYNNGPDDEDIIVPDV  246
+            C+          +P R+   V+   W   D     FYN +D+ FD  +GP   D      
+Sbjct  168  CN----------VPEREGYQVILAVWDVGDTAA-SFYNVIDVKFD-GDGPALPDW---QQ  212
+
+Query  247  PNQCASTFNYNEG  259
+              Q   T N N G
+Sbjct  213  GGQIIPTMNLNVG  225
+
+
+> sp|A5F0H4|GBPA_VIBC3 GlcNAc-binding protein A OS=Vibrio cholerae 
+serotype O1 (strain ATCC 39541 / Classical Ogawa 395 / O395) 
+OX=345073 GN=gbpA PE=3 SV=1
+Length=485
+
+ Score = 47.1 bits (110),  Expect = 9e-05, Method: Composition-based stats.
+ Identities = 29/110 (26%), Positives = 43/110 (39%), Gaps = 17/110 (15%)
+
+Query  131  PLELEFCPTAVHEPSYYEVYITKPSFNVF----IDRVVWGNLDLIYNDTVPLDPRLPYSI  186
+            P   E+  TA H    ++ YITKP++N       D        ++  + V   P+     
+Sbjct  110  PQTFEWTFTANHVTKDWKYYITKPNWNPNQPLSRDAFDLNPFCVVEGNMVQ-PPKRVSHE  168
+
+Query  187  CDADLVYRFTVPIPIRQSQAVLYVRWQRLDPVGEGFYNCVDINFDYNNGP  236
+            C           +P R+   V+   W   D     FYN +D+ FD  NGP
+Sbjct  169  C----------IVPEREGYQVILAVWDVGDTAA-SFYNVIDVKFD-GNGP  206
+
+
+> sp|Q9KLD5|GBPA_VIBCH GlcNAc-binding protein A OS=Vibrio cholerae 
+serotype O1 (strain ATCC 39315 / El Tor Inaba N16961) OX=243277 
+GN=gbpA PE=1 SV=1
+Length=485
+
+ Score = 47.1 bits (110),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 29/110 (26%), Positives = 43/110 (39%), Gaps = 17/110 (15%)
+
+Query  131  PLELEFCPTAVHEPSYYEVYITKPSFNVF----IDRVVWGNLDLIYNDTVPLDPRLPYSI  186
+            P   E+  TA H    ++ YITKP++N       D        ++  + V   P+     
+Sbjct  110  PQTFEWTFTANHVTKDWKYYITKPNWNPNQPLSRDAFDLNPFCVVEGNMVQ-PPKRVSHE  168
+
+Query  187  CDADLVYRFTVPIPIRQSQAVLYVRWQRLDPVGEGFYNCVDINFDYNNGP  236
+            C           +P R+   V+   W   D     FYN +D+ FD  NGP
+Sbjct  169  C----------IVPEREGYQVILAVWDVGDTAA-SFYNVIDVKFD-GNGP  206
+
+
+> sp|C3LW75|GBPA_VIBCM GlcNAc-binding protein A OS=Vibrio cholerae 
+serotype O1 (strain M66-2) OX=579112 GN=gbpA PE=3 SV=1
+Length=485
+
+ Score = 46.3 bits (108),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 29/110 (26%), Positives = 43/110 (39%), Gaps = 17/110 (15%)
+
+Query  131  PLELEFCPTAVHEPSYYEVYITKPSFNVF----IDRVVWGNLDLIYNDTVPLDPRLPYSI  186
+            P   E+  TA H    ++ YITKP++N       D        ++  + V   P+     
+Sbjct  110  PQTFEWTFTANHVTKDWKYYITKPNWNPNQPLSRDAFDLNPFCVVEGNMVQ-PPKRVNHE  168
+
+Query  187  CDADLVYRFTVPIPIRQSQAVLYVRWQRLDPVGEGFYNCVDINFDYNNGP  236
+            C           +P R+   V+   W   D     FYN +D+ FD  NGP
+Sbjct  169  C----------IVPEREGYQVILAVWDVGDTAA-SFYNVIDVKFD-GNGP  206
+
+
+> sp|A7N3J0|GBPA_VIBCB GlcNAc-binding protein A OS=Vibrio campbellii 
+(strain ATCC BAA-1116 / BB120) OX=338187 GN=gbpA PE=3 
+SV=1
+Length=487
+
+ Score = 45.9 bits (107),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 28/127 (22%), Positives = 47/127 (37%), Gaps = 23/127 (18%)
+
+Query  112  SGSWRPTVIPLSDNHQVSVPLELEFCPTAVHEPSYYEVYITKPSFNVFIDRVVWGNLDL-  170
+            +  W    I   + H      E  F  TA H    ++ YITK  +N     +   + DL 
+Sbjct  98   ADRWVKRPIQSGNQH-----FEWNF--TANHITKDWKYYITKADWNPN-QPLARDSFDLN  149
+
+Query  171  ---IYNDTVPLDPRLPYSICDADLVYRFTVPIPIRQSQAVLYVRWQRLDPVGEGFYNCVD  227
+               + +  +   P     +C+          +P R+   V+   W   D     FYN +D
+Sbjct  150  PFCVVDGGMVKPPMRVSHLCN----------VPEREGYQVILAVWDVGDTAA-SFYNVID  198
+
+Query  228  INFDYNN  234
+            + FD ++
+Sbjct  199  VKFDGDS  205
+
+
+> sp|Q87FT0|GBPA_VIBPA GlcNAc-binding protein A OS=Vibrio parahaemolyticus 
+serotype O3:K6 (strain RIMD 2210633) OX=223926 GN=gbpA 
+PE=3 SV=1
+Length=487
+
+ Score = 44.8 bits (104),  Expect = 6e-04, Method: Composition-based stats.
+ Identities = 27/115 (23%), Positives = 46/115 (40%), Gaps = 22/115 (19%)
+
+Query  135  EFCPTAVHEPSYYEVYITKPSFNVF----IDRVVWGNLDLIYNDTVPLDPRLPYSICDAD  190
+            E+  TA H    ++ YITKP++N       D        ++  + V   P+     C+  
+Sbjct  114  EWTFTANHVTRDWKYYITKPNWNPNASLSRDSFDLNPFCVVDGNMVQ-PPKQMSHQCN--  170
+
+Query  191  LVYRFTVPIPIRQSQAVLYVRWQRLDPVGEGFYNCVDINFDYNNGPDDEDIIVPD  245
+                    +P R+   V+   W   D     FYN +D+ FD       +D ++P+
+Sbjct  171  --------VPEREGYHVILAVWDVGDTAA-SFYNVIDVKFDG------DDPVIPE  210
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.125    0.354    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0382    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22684456410
+Results from round 3
+
+
+Query= 4YN2
+
+Length=281
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q05894|SPIN_HAEPV Spindolin OS=Heliothis armigera entomopoxv...  363     3e-125
+  sp|P23061|SPIN_CBEPV Spindolin OS=Choristoneura biennis entomop...  349     1e-119
+  sp|P23058|SPLR_NPVAC Spheroidin-like protein OS=Autographa cali...  301     3e-101
+  sp|Q65328|SPLR_NPVOP Spheroidin-like protein OS=Orgyia pseudots...  293     4e-98 
+  sp|Q8GBD4|GBPA_YEREN GlcNAc-binding protein A OS=Yersinia enter...  187     1e-54 
+  sp|A1JQE6|GBPA_YERE8 GlcNAc-binding protein A OS=Yersinia enter...  187     1e-54 
+  sp|A3KKC4|LCEMO_STRA7 Lytic cellulose monooxygenase OS=Streptom...  173     7e-51 
+  sp|Q9I589|CBPD_PSEAE Chitin-binding protein CbpD OS=Pseudomonas...  173     2e-50 
+  sp|Q02I11|CBPD_PSEAB Chitin-binding protein CbpD OS=Pseudomonas...  173     3e-50 
+  sp|Q8D7V4|GBPA_VIBVU GlcNAc-binding protein A OS=Vibrio vulnifi...  163     1e-45 
+  sp|Q7MEW9|GBPA_VIBVY GlcNAc-binding protein A OS=Vibrio vulnifi...  162     3e-45 
+  sp|A7N3J0|GBPA_VIBCB GlcNAc-binding protein A OS=Vibrio campbel...  146     2e-39 
+  sp|Q87FT0|GBPA_VIBPA GlcNAc-binding protein A OS=Vibrio parahae...  144     2e-38 
+  sp|A5F0H4|GBPA_VIBC3 GlcNAc-binding protein A OS=Vibrio cholera...  141     2e-37 
+  sp|Q9KLD5|GBPA_VIBCH GlcNAc-binding protein A OS=Vibrio cholera...  141     2e-37 
+  sp|C3LW75|GBPA_VIBCM GlcNAc-binding protein A OS=Vibrio cholera...  140     6e-37 
+
+Sequences not found previously or not previously below threshold:
+
+  sp|Q5E183|GBPA_ALIF1 GlcNAc-binding protein A OS=Aliivibrio fis...  138     2e-36
+  sp|B5ESR7|GBPA_ALIFM GlcNAc-binding protein A OS=Aliivibrio fis...  138     3e-36
+  sp|Q6LKG5|GBPA_PHOPR GlcNAc-binding protein A OS=Photobacterium...  128     7e-33
+  sp|Q8EHY2|GBPA_SHEON GlcNAc-binding protein A OS=Shewanella one...  101     4e-23
+  sp|Q838S1|LCHMO_ENTFA Lytic chitin monooxygenase OS=Enterococcu...  84.6    2e-18
+  sp|A3KIM2|LCHMO_STRA7 Lytic chitin monooxygenase OS=Streptomyce...  46.9    3e-05
+
+
+> sp|Q05894|SPIN_HAEPV Spindolin OS=Heliothis armigera entomopoxvirus 
+OX=10290 PE=1 SV=1
+Length=351
+
+ Score = 363 bits (932),  Expect = 3e-125, Method: Composition-based stats.
+ Identities = 183/294 (62%), Positives = 217/294 (74%), Gaps = 13/294 (4%)
+
+Query  1    HGYMSFPIARQRRCSMESF-WYPTNGDGITDPMCRAAYQYVYDKVLDETGSTTDAISAAQ  59
+            HGYM+FPIARQRRCS+    W+P NGDGITD MCRAAYQ VY+KVL++     +A +AAQ
+Sbjct  21   HGYMTFPIARQRRCSVRGGQWWPPNGDGITDTMCRAAYQNVYNKVLNQYNDPQEAATAAQ  80
+
+Query  60   YEFQQDNEYAALAGPDYWDKCHITQQVVPNYLCAAGAHSWSN-PFGDKSGVDISGSWRPT  118
+            Y FQQDNEYAALAGPDY + C++ Q VVPN LCAAGA  W   PFGDKSG+D+ G+W PT
+Sbjct  81   YMFQQDNEYAALAGPDYTNLCNLQQNVVPNNLCAAGADDWDVVPFGDKSGMDLPGNWVPT  140
+
+Query  119  VIPLSDNHQVSVPLELEFCPTAVHEPSYYEVYITKPSFNVFIDRVVWGNLDLIYNDTVPL  178
+            VIPL  NHQ SV LELEFCPTAVH+PSYYEVYIT   FNV  D VVWGNL+LI+NDTVPL
+Sbjct  141  VIPLDSNHQSSVALELEFCPTAVHDPSYYEVYITNSGFNVHTDNVVWGNLELIFNDTVPL  200
+
+Query  179  DPRLPYSICDAD-LVYRFTVPIPIRQSQAVLYVRWQRLDPVGEGFYNCVDINFDYNNGPD  237
+             P+   S C+A+  VYRFTV IP+R +Q VLYVRWQR+DPVGEGFYNCVD+ FDY  GP 
+Sbjct  201  RPKSSTSTCNANPNVYRFTVSIPVRPAQFVLYVRWQRIDPVGEGFYNCVDMAFDYAAGPS  260
+
+Query  238  DEDIIVPD--VPNQCASTFNYNEGVPG------FDTEEYYKYMYESL--RFNRY  281
+            +ED+I PD   P Q A T + N    G       D ++Y   + ES+  R+++Y
+Sbjct  261  EEDVIYPDYEAPGQNAYTCHANRNKYGGNYENTIDEDKYQAQLDESIKSRYDKY  314
+
+
+> sp|P23061|SPIN_CBEPV Spindolin OS=Choristoneura biennis entomopoxvirus 
+OX=10288 GN=SPH PE=1 SV=1
+Length=341
+
+ Score = 349 bits (894),  Expect = 1e-119, Method: Composition-based stats.
+ Identities = 182/288 (63%), Positives = 212/288 (74%), Gaps = 12/288 (4%)
+
+Query  1    HGYMSFPIARQRRCSMESF-WYPTNGDGITDPMCRAAYQYVYDKVLDETG-STTDAISAA  58
+            HGYM+FPIARQRRCS     WYP  G GI DPMCRAAYQ V++KVL+  G    DA  AA
+Sbjct  21   HGYMTFPIARQRRCSAAGGNWYPVGGGGIQDPMCRAAYQNVFNKVLNSNGGDVIDASEAA  80
+
+Query  59   QYEFQQDNEYAALAGPDYWDKCHITQQVVPNYLCAAGAHSWS-NPFGDKSGVDISGSWRP  117
+             Y + QDNEYAALAGPDY + CHI Q+VVP+YLCAAGA  WS  PFGDKSG+D+ GSW P
+Sbjct  81   NYMYTQDNEYAALAGPDYTNICHIQQRVVPSYLCAAGASDWSIRPFGDKSGMDLPGSWTP  140
+
+Query  118  TVIPLSDNHQVSVPLELEFCPTAVHEPSYYEVYITKPSFNVFIDRVVWGNLDLIYNDTVP  177
+            T+I LSDN Q +V +ELEFCPTAVH+PSYYEVYIT PSFNV+ D VVW NLDLIYN+TV 
+Sbjct  141  TIIQLSDNQQSNVVMELEFCPTAVHDPSYYEVYITNPSFNVYTDNVVWANLDLIYNNTVT  200
+
+Query  178  LDPRLPYSICDAD-LVYRFTVPIPIRQSQAVLYVRWQRLDPVGEGFYNCVDINFDYNNGP  236
+            L P+LP S C A+ +VYRF V IP+R SQ VLYVRWQR+DPVGEGFYNCVD+ F Y+ GP
+Sbjct  201  LRPKLPESTCAANSMVYRFEVSIPVRPSQFVLYVRWQRIDPVGEGFYNCVDMKFKYSEGP  260
+
+Query  237  DDEDIIVP--DVPNQCASTFNY-----NEGVPGFDTEEYYKYMYESLR  277
+            D+EDII P  +V N+ A  F Y     N  V      +Y  Y  +++R
+Sbjct  261  DEEDIIEPEYEVDNE-AECFAYRTNSGNVNVNPLQENKYMAYANKAIR  307
+
+
+> sp|P23058|SPLR_NPVAC Spheroidin-like protein OS=Autographa californica 
+nuclear polyhedrosis virus OX=46015 GN=SLP PE=2 SV=1
+Length=302
+
+ Score = 301 bits (769),  Expect = 3e-101, Method: Composition-based stats.
+ Identities = 111/234 (47%), Positives = 149/234 (64%), Gaps = 4/234 (2%)
+
+Query  1    HGYMSFPIARQRRCSMES-FWYPTNGDGITDPMCRAAYQYVYDKVLDETGSTTDAISAAQ  59
+            HGY+S P ARQ +C  +  F++P NGD I D  CR AY+ VY K       +  A S AQ
+Sbjct  20   HGYLSVPTARQYKCFKDGNFYWPDNGDNIPDAACRNAYKSVYYKYRALDLESGAAASTAQ  79
+
+Query  60   YEFQQDNEYAALAGPDYWDKCHITQQVVPNYLCAAGAHSWSNPFGDKSGVDIS-GSWRPT  118
+            Y FQQ  EYAA+AGP+Y D   I Q+VVP+ LC AG++  ++ FGDKSG+D    +WRP 
+Sbjct  80   YMFQQYMEYAAVAGPNYDDFDLIKQRVVPHTLCGAGSNDRNSVFGDKSGMDEPFNNWRPN  139
+
+Query  119  VIPLSDNHQVSVPLELEFCPTAVHEPSYYEVYITKPSFNVFIDRVVWGNLDLIYNDTVPL  178
+             + L + +Q    + + FCPTA+HEPSY+EV+ITK +++   + + W  L+ I  +   L
+Sbjct  140  TLYL-NRYQPVYQMNVHFCPTAIHEPSYFEVFITKSNWDR-RNPITWNELEYIGGNDSNL  197
+
+Query  179  DPRLPYSICDADLVYRFTVPIPIRQSQAVLYVRWQRLDPVGEGFYNCVDINFDY  232
+             P    S+CD  LVY   V IP R +Q V+YVRWQR+DPVGEGFYNC D+ F+ 
+Sbjct  198  IPNPGDSLCDNSLVYSIPVVIPYRSNQFVMYVRWQRIDPVGEGFYNCADLVFET  251
+
+
+> sp|Q65328|SPLR_NPVOP Spheroidin-like protein OS=Orgyia pseudotsugata 
+multicapsid polyhedrosis virus OX=262177 GN=SLP PE=2 
+SV=1
+Length=321
+
+ Score = 293 bits (750),  Expect = 4e-98, Method: Composition-based stats.
+ Identities = 103/236 (44%), Positives = 145/236 (61%), Gaps = 4/236 (2%)
+
+Query  1    HGYMSFPIARQRRCSMES-FWYPTNGDGITDPMCRAAYQYVYDKVLDETGSTTDAISAAQ  59
+            HGY+S P+ARQ +C  +  F++P NGDG+ D  CR AY+ V+ +         +A +AAQ
+Sbjct  19   HGYLSTPVARQYKCFADGNFYWPDNGDGVPDEACRNAYKKVFHRYRAVGAPPGEAAAAAQ  78
+
+Query  60   YEFQQDNEYAALAGPDYWDKCHITQQVVPNYLCAAGAHSWSNPFGDKSGVDIS-GSWRPT  118
+            Y FQQ  EYAA+AGP+Y D   + ++V+P+ LC A A+     FGDKSG+D    +WRP 
+Sbjct  79   YMFQQYAEYAAVAGPNYRDLELVKREVLPHTLCGAAANDRHALFGDKSGMDEPFHNWRPD  138
+
+Query  119  VIPLSDNHQVSVPLELEFCPTAVHEPSYYEVYITKPSFNVFIDRVVWGNLDLIYNDTVPL  178
+            V+ + + +Q +    + FCPTAVHEPSY+EVY+TK +++     V W  L+ I  +   L
+Sbjct  139  VLYV-NRYQRAHSFNVHFCPTAVHEPSYFEVYVTKFTWDR-RSPVTWNELEYIGGNGSGL  196
+
+Query  179  DPRLPYSICDADLVYRFTVPIPIRQSQAVLYVRWQRLDPVGEGFYNCVDINFDYNN  234
+             P    + C +  +Y   V +P R    V+YVRWQR+DPVGEGFYNC D+ F   N
+Sbjct  197  VPNPGDAFCASGQLYSIPVSVPYRPGPFVMYVRWQRIDPVGEGFYNCADLVFGTEN  252
+
+
+> sp|Q8GBD4|GBPA_YEREN GlcNAc-binding protein A OS=Yersinia enterocolitica 
+OX=630 GN=gbpA PE=3 SV=1
+Length=494
+
+ Score = 187 bits (473),  Expect = 1e-54, Method: Composition-based stats.
+ Identities = 49/235 (21%), Positives = 74/235 (31%), Gaps = 59/235 (25%)
+
+Query  1    HGYMSFPIARQRRCSMESFWYPTNGDGITDPMCRAAYQYVYDKVLDETGSTTDAISAAQY  60
+            HGY+  P +R   C+ +      +  G+                              QY
+Sbjct  22   HGYIENPPSRNFLCNAQGGSLNKDCGGV------------------------------QY  51
+
+Query  61   EFQQDNEYAALAGPDYWDKCHITQQVVPNYLCAAGAHSWSNPFGDKSGVDISGSWRPTVI  120
+            E Q   E A              Q  V   L  A   +W +   ++     +  W    +
+Sbjct  52   EPQSSGETADG---------FPQQGPVDGKL--ASGDNWVSVNLNQQ---TAERWTKVKM  97
+
+Query  121  PLSDNHQVSVPLELEFCPTAVHEPSYYEVYITKPSFNVFIDRVVWGNLDLIYNDTVPLDP  180
+                      P E ++  TA H  + ++ Y+TK  +N     +   +LDL     +P  P
+Sbjct  98   KAG-------PQEFKWKFTAAHPIADFKYYMTKQDWNPN-QPLTRDSLDLTPFCVIPGGP  149
+
+Query  181  RLPYSICDADLVYRFTVPIPIRQSQAVLYVRWQRLDPVGEGFYNCVDINFDYNNG  235
+                +          T  IP R    V+Y  W   D  G  FYN +D  FD   G
+Sbjct  150  --ASTTGSTTH----TCNIPERTGYQVIYGAWDVSDTPGT-FYNMIDAEFDGATG  197
+
+
+> sp|A1JQE6|GBPA_YERE8 GlcNAc-binding protein A OS=Yersinia enterocolitica 
+serotype O:8 / biotype 1B (strain NCTC 13174 / 8081) 
+OX=393305 GN=gbpA PE=3 SV=1
+Length=494
+
+ Score = 187 bits (473),  Expect = 1e-54, Method: Composition-based stats.
+ Identities = 49/235 (21%), Positives = 74/235 (31%), Gaps = 59/235 (25%)
+
+Query  1    HGYMSFPIARQRRCSMESFWYPTNGDGITDPMCRAAYQYVYDKVLDETGSTTDAISAAQY  60
+            HGY+  P +R   C+ +      +  G+                              QY
+Sbjct  22   HGYIENPPSRNFLCNAQGGSLNKDCGGV------------------------------QY  51
+
+Query  61   EFQQDNEYAALAGPDYWDKCHITQQVVPNYLCAAGAHSWSNPFGDKSGVDISGSWRPTVI  120
+            E Q   E A              Q  V   L  A   +W +   ++     +  W    +
+Sbjct  52   EPQSSGETADG---------FPQQGPVDGKL--ASGDNWVSVNLNQQ---TAERWTKVKM  97
+
+Query  121  PLSDNHQVSVPLELEFCPTAVHEPSYYEVYITKPSFNVFIDRVVWGNLDLIYNDTVPLDP  180
+                      P E ++  TA H  + ++ Y+TK  +N     +   +LDL     +P  P
+Sbjct  98   KAG-------PQEFKWKFTAAHPIADFKYYMTKQDWNPN-QPLTRDSLDLTPFCVIPGGP  149
+
+Query  181  RLPYSICDADLVYRFTVPIPIRQSQAVLYVRWQRLDPVGEGFYNCVDINFDYNNG  235
+                +          T  IP R    V+Y  W   D  G  FYN +D  FD   G
+Sbjct  150  --ASTTGSTTH----TCNIPERTGYQVIYGAWDVSDTPGT-FYNMIDAEFDGATG  197
+
+
+> sp|A3KKC4|LCEMO_STRA7 Lytic cellulose monooxygenase OS=Streptomyces 
+ambofaciens (strain ATCC 23877 / 3486 / DSM 40053 / JCM 
+4204 / NBRC 12836 / NRRL B-2516) OX=278992 GN=SAM23877_1271 
+PE=1 SV=1
+Length=364
+
+ Score = 173 bits (439),  Expect = 7e-51, Method: Composition-based stats.
+ Identities = 64/241 (27%), Positives = 103/241 (43%), Gaps = 49/241 (20%)
+
+Query  1    HGYMSFPIARQRRCSMESFWYPTNGDGI---TDPMCRAAYQYVYDKVLDETGSTTDAISA  57
+            HG    P +R   C +++      G G    T+P CR+A        LD +G+T      
+Sbjct  35   HGVAMMPGSRTYLCQLDA----KTGTGALDPTNPACRSA--------LDTSGAT------  76
+
+Query  58   AQYEF-QQDNEYAALAGPDYWDKCHITQQVVPNYLCAAGAHSWSNPFGDKSGVDISGS-W  115
+            A Y +    +  A   G  Y         V    LC+AG     +P+ D  G + + S W
+Sbjct  77   ALYNWFAVLDSNAGGRGAGY---------VPDGTLCSAGNR---SPY-DFRGYNAARSDW  123
+
+Query  116  RPTVIPLSDNHQVSVPLELEFCPTAVHEPSYYEVYITKPSFNVFIDRVVWGNLDLIYNDT  175
+              T +      Q      + +   A H P  + VY+TKP ++     + W +L+LI  +T
+Sbjct  124  PRTHLTSGSTIQ------VNYSNWAAH-PGDFRVYLTKPGWSP-TSELGWDDLELI--ET  173
+
+Query  176  VPLDPRLPYSICDADLVYRFTVPIPI-RQSQAVLYVRWQRLDPVGEGFYNCVDINFDYNN  234
+            V   P+   +  D    Y + + +P  R   A+++++W R D   E F++C D+ FD  N
+Sbjct  174  VTDPPQRGSAGADGGHYY-WDLALPSGRSGDALIFMQWVRSDSQ-ENFFSCSDVVFDGGN  231
+
+Query  235  G  235
+            G
+Sbjct  232  G  232
+
+
+> sp|Q9I589|CBPD_PSEAE Chitin-binding protein CbpD OS=Pseudomonas 
+aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 / 
+JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1) OX=208964 GN=cbpD 
+PE=1 SV=1
+Length=389
+
+ Score = 173 bits (437),  Expect = 2e-50, Method: Composition-based stats.
+ Identities = 52/235 (22%), Positives = 82/235 (35%), Gaps = 50/235 (21%)
+
+Query  1    HGYMSFPIARQRRCSMESFWYPTNGDGITDPMCRAAYQYVYDKVLDETGSTTDAISAAQY  60
+            HG M  P +R   C +E    P                    K      +     + A Y
+Sbjct  26   HGSMETPPSRVYGCFLEGPENP--------------------KSAACKAAVAAGGTQALY  65
+
+Query  61   EFQQDNEYAALAGPDYWDKCHITQQVVPNYLCAAGAHSWSNPFGDKSGVDISGS-WRPTV  119
+            ++   N+  A          +    V    LC AG            G++++ S W  T 
+Sbjct  66   DWNGVNQGNANG--------NHQAVVPDGQLCGAGK-------ALFKGLNLARSDWPSTA  110
+
+Query  120  IPLSDNHQVSVPLELEFCPTAVHEPSYYEVYITKPSFNVFIDRVVWGNLDLIYNDTVPLD  179
+            I        S   +  +  +A H   Y++ YITK  +N     + W +L+       P  
+Sbjct  111  IAPD----ASGNFQFVYKASAPHATRYFDFYITKDGYNPEK-PLAWSDLE-------PAP  158
+
+Query  180  PRLPYSICDADLVYRFTVPIPI-RQSQAVLYVRWQRLDPVGEGFYNCVDINFDYN  233
+                 S+   +  YR   P+P  +  + V+Y  WQR D   E FY C+D++F   
+Sbjct  159  FCSITSVKLENGTYRMNCPLPQGKTGKHVIYNVWQRSDS-PEAFYACIDVSFSGA  212
+
+
+> sp|Q02I11|CBPD_PSEAB Chitin-binding protein CbpD OS=Pseudomonas 
+aeruginosa (strain UCBPP-PA14) OX=208963 GN=cpbD PE=1 SV=1
+Length=389
+
+ Score = 173 bits (437),  Expect = 3e-50, Method: Composition-based stats.
+ Identities = 52/235 (22%), Positives = 82/235 (35%), Gaps = 50/235 (21%)
+
+Query  1    HGYMSFPIARQRRCSMESFWYPTNGDGITDPMCRAAYQYVYDKVLDETGSTTDAISAAQY  60
+            HG M  P +R   C +E    P                    K      +     + A Y
+Sbjct  26   HGSMETPPSRVYGCFLEGPENP--------------------KSAACKAAVAAGGTQALY  65
+
+Query  61   EFQQDNEYAALAGPDYWDKCHITQQVVPNYLCAAGAHSWSNPFGDKSGVDISGS-WRPTV  119
+            ++   N+  A          +    V    LC AG            G++++ S W  T 
+Sbjct  66   DWNGVNQGNANG--------NHQAVVPDGQLCGAGK-------ALFKGLNLARSDWPSTA  110
+
+Query  120  IPLSDNHQVSVPLELEFCPTAVHEPSYYEVYITKPSFNVFIDRVVWGNLDLIYNDTVPLD  179
+            I        S   +  +  +A H   Y++ YITK  +N     + W +L+       P  
+Sbjct  111  IAPD----ASGNFQFVYKASAPHATRYFDFYITKDGYNPEK-PLAWSDLE-------PAP  158
+
+Query  180  PRLPYSICDADLVYRFTVPIPI-RQSQAVLYVRWQRLDPVGEGFYNCVDINFDYN  233
+                 S+   +  YR   P+P  +  + V+Y  WQR D   E FY C+D++F   
+Sbjct  159  FCSITSVKLENGTYRMNCPLPQGKTGKHVIYNVWQRSDS-PEAFYACIDVSFSGA  212
+
+
+> sp|Q8D7V4|GBPA_VIBVU GlcNAc-binding protein A OS=Vibrio vulnificus 
+(strain CMCP6) OX=216895 GN=gbpA PE=3 SV=1
+Length=485
+
+ Score = 163 bits (411),  Expect = 1e-45, Method: Composition-based stats.
+ Identities = 50/221 (23%), Positives = 69/221 (31%), Gaps = 42/221 (19%)
+
+Query  43   KVLDETGSTTDAISAAQYEFQQDNEYAALAGPDYWDKCHITQQVVPNYLCAAGAHSWSNP  102
+            K    TG       A QYE Q       + GPD               +  A A S    
+Sbjct  43   KFAASTGEKNTNCGAIQYEPQS------VEGPD----GFPASGPRDGKI--ASAESALAN  90
+
+Query  103  FGDKSGVDISGSWRPTVIPLSDNHQVSVPLELEFCPTAVHEPSYYEVYITKPSFNVFIDR  162
+              D+     +  W    I              E+  TA H    ++ YITKP +N     
+Sbjct  91   ALDEQ---TADRWVKRPIQAG-------AQNFEWTFTANHVTKDWKYYITKPDWNPN-QP  139
+
+Query  163  VVWGNLDLIYND----TVPLDPRLPYSICDADLVYRFTVPIPIRQSQAVLYVRWQRLDPV  218
+            +   + DL         +   P+     C+          +P R+   V+   W   D  
+Sbjct  140  LARASFDLTPFCVVDGGMVQPPKRVSHTCN----------VPEREGYQVILAVWDVGDTA  189
+
+Query  219  GEGFYNCVDINFDYNNGPDDEDIIVPDVPNQCASTFNYNEG  259
+               FYN +D+ FD  +GP   D        Q   T N N G
+Sbjct  190  A-SFYNVIDVKFDG-DGPALPDW---QQGGQIIPTMNLNVG  225
+
+
+> sp|Q7MEW9|GBPA_VIBVY GlcNAc-binding protein A OS=Vibrio vulnificus 
+(strain YJ016) OX=196600 GN=gbpA PE=3 SV=1
+Length=485
+
+ Score = 162 bits (408),  Expect = 3e-45, Method: Composition-based stats.
+ Identities = 50/221 (23%), Positives = 69/221 (31%), Gaps = 42/221 (19%)
+
+Query  43   KVLDETGSTTDAISAAQYEFQQDNEYAALAGPDYWDKCHITQQVVPNYLCAAGAHSWSNP  102
+            K    TG       A QYE Q       + GPD               +  A A S    
+Sbjct  43   KFAASTGEKNTNCGAIQYEPQS------VEGPD----GFPASGPRDGKI--ASAESALAN  90
+
+Query  103  FGDKSGVDISGSWRPTVIPLSDNHQVSVPLELEFCPTAVHEPSYYEVYITKPSFNVFIDR  162
+              D+     +  W    I              E+  TA H    ++ YITKP +N     
+Sbjct  91   ALDEQ---TADRWVKHPIQTG-------AQNFEWTFTANHVTKDWKYYITKPDWNPN-QP  139
+
+Query  163  VVWGNLDLIYND----TVPLDPRLPYSICDADLVYRFTVPIPIRQSQAVLYVRWQRLDPV  218
+            +   + DL         +   P+     C+          +P R+   V+   W   D  
+Sbjct  140  LARASFDLTPFCVVDGGMVQPPKRVSHTCN----------VPEREGYQVILAVWDVGDTA  189
+
+Query  219  GEGFYNCVDINFDYNNGPDDEDIIVPDVPNQCASTFNYNEG  259
+               FYN +D+ FD  +GP   D        Q   T N N G
+Sbjct  190  A-SFYNVIDVKFDG-DGPALPDW---QQGGQIIPTMNLNVG  225
+
+
+> sp|A7N3J0|GBPA_VIBCB GlcNAc-binding protein A OS=Vibrio campbellii 
+(strain ATCC BAA-1116 / BB120) OX=338187 GN=gbpA PE=3 
+SV=1
+Length=487
+
+ Score = 146 bits (368),  Expect = 2e-39, Method: Composition-based stats.
+ Identities = 45/233 (19%), Positives = 76/233 (33%), Gaps = 50/233 (21%)
+
+Query  31   PMCRAAYQYVYDKVLDETGSTTDAISAAQYEFQQDNEYAALAGPDYWDKCHITQQVVPNY  90
+             +CR       +K  +  G         +YE Q       + GPD               
+Sbjct  40   TLCRVPANDTNEKNTNCGG--------IEYEPQS------VEGPD----GFPETGPRDGK  81
+
+Query  91   LCAAGAHSWSNPFGDKSGVDISGSWRPTVIPLSDNHQVSVPLELEFCPTAVHEPSYYEVY  150
+            +  A A +      D+     +  W    I   + H        E+  TA H    ++ Y
+Sbjct  82   I--ASAENSLAAALDEQ---TADRWVKRPIQSGNQH-------FEWNFTANHITKDWKYY  129
+
+Query  151  ITKPSFNVFIDRVVWGNLDL----IYNDTVPLDPRLPYSICDADLVYRFTVPIPIRQSQA  206
+            ITK  +N     +   + DL    + +  +   P     +C+          +P R+   
+Sbjct  130  ITKADWNPN-QPLARDSFDLNPFCVVDGGMVKPPMRVSHLCN----------VPEREGYQ  178
+
+Query  207  VLYVRWQRLDPVGEGFYNCVDINFDYNNGPDDEDIIVPDVPNQCASTFNYNEG  259
+            V+   W   D     FYN +D+ FD ++ P   D    +   Q   + + N G
+Sbjct  179  VILAVWDVGDTAA-SFYNVIDVKFDGDS-PVLPDW---NQGGQIYPSQDLNVG  226
+
+
+> sp|Q87FT0|GBPA_VIBPA GlcNAc-binding protein A OS=Vibrio parahaemolyticus 
+serotype O3:K6 (strain RIMD 2210633) OX=223926 GN=gbpA 
+PE=3 SV=1
+Length=487
+
+ Score = 144 bits (362),  Expect = 2e-38, Method: Composition-based stats.
+ Identities = 51/250 (20%), Positives = 81/250 (32%), Gaps = 51/250 (20%)
+
+Query  16   MESFWYPTNGDGITDPMCRAAYQYVYDKVLDETGSTTDAISAAQYEFQQDNEYAALAGPD  75
+            +   +   + DG+     RAA         +E  +   AI   QYE Q       + GPD
+Sbjct  22   LAHGYVSESNDGV--AASRAALCKYPTSDTNERNTNCGAI---QYEPQS------VEGPD  70
+
+Query  76   YWDKCHITQQVVPNYLCAAGAHSWSNPFGDKSGVDISGSWRPTVIPLSDNHQVSVPLELE  135
+                           +  A A +      D+     +  W    I              E
+Sbjct  71   ----GFPETGPRDGKI--ASAETALAAALDEQ---TADRWVKRPIKSGT-------QTFE  114
+
+Query  136  FCPTAVHEPSYYEVYITKPSFNVF----IDRVVWGNLDLIYNDTVPLDPRLPYSICDADL  191
+            +  TA H    ++ YITKP++N       D        ++  + V   P+     C+   
+Sbjct  115  WTFTANHVTRDWKYYITKPNWNPNASLSRDSFDLNPFCVVDGNMVQ-PPKQMSHQCN---  170
+
+Query  192  VYRFTVPIPIRQSQAVLYVRWQRLDPVGEGFYNCVDINFDYNNGPDDEDIIVPD--VPNQ  249
+                   +P R+   V+   W   D     FYN +D+ FD       +D ++P+     Q
+Sbjct  171  -------VPEREGYHVILAVWDVGDTAA-SFYNVIDVKFDG------DDPVIPEWTQGGQ  216
+
+Query  250  CASTFNYNEG  259
+               T N   G
+Sbjct  217  IIPTMNLKVG  226
+
+
+> sp|A5F0H4|GBPA_VIBC3 GlcNAc-binding protein A OS=Vibrio cholerae 
+serotype O1 (strain ATCC 39541 / Classical Ogawa 395 / O395) 
+OX=345073 GN=gbpA PE=3 SV=1
+Length=485
+
+ Score = 141 bits (354),  Expect = 2e-37, Method: Composition-based stats.
+ Identities = 45/219 (21%), Positives = 68/219 (31%), Gaps = 42/219 (19%)
+
+Query  45   LDETGSTTDAISAAQYEFQQDNEYAALAGPDYWDKCHITQQVVPNYLCAAGAHSWSNPFG  104
+             + TG       A QYE Q       + GPD               +      S  +   
+Sbjct  46   ANGTGEKNTHCGAIQYEPQS------VEGPD----GFPVTGPRDGKI-----ASAESALA  90
+
+Query  105  DKSGVDISGSWRPTVIPLSDNHQVSVPLELEFCPTAVHEPSYYEVYITKPSFNVF----I  160
+                   +  W    I          P   E+  TA H    ++ YITKP++N       
+Sbjct  91   AALDEQTADRWVKRPIQAG-------PQTFEWTFTANHVTKDWKYYITKPNWNPNQPLSR  143
+
+Query  161  DRVVWGNLDLIYNDTVPLDPRLPYSICDADLVYRFTVPIPIRQSQAVLYVRWQRLDPVGE  220
+            D        ++  + V   P+     C           +P R+   V+   W   D    
+Sbjct  144  DAFDLNPFCVVEGNMVQ-PPKRVSHEC----------IVPEREGYQVILAVWDVGDTAA-  191
+
+Query  221  GFYNCVDINFDYNNGPDDEDIIVPDVPNQCASTFNYNEG  259
+             FYN +D+ FD  NGP   D    +   Q   + + + G
+Sbjct  192  SFYNVIDVKFDG-NGPVLPDW---NPAGQIIPSMDLSIG  226
+
+
+> sp|Q9KLD5|GBPA_VIBCH GlcNAc-binding protein A OS=Vibrio cholerae 
+serotype O1 (strain ATCC 39315 / El Tor Inaba N16961) OX=243277 
+GN=gbpA PE=1 SV=1
+Length=485
+
+ Score = 141 bits (354),  Expect = 2e-37, Method: Composition-based stats.
+ Identities = 45/219 (21%), Positives = 68/219 (31%), Gaps = 42/219 (19%)
+
+Query  45   LDETGSTTDAISAAQYEFQQDNEYAALAGPDYWDKCHITQQVVPNYLCAAGAHSWSNPFG  104
+             + TG       A QYE Q       + GPD               +      S  +   
+Sbjct  46   ANGTGEKNTHCGAIQYEPQS------VEGPD----GFPVTGPRDGKI-----ASAESALA  90
+
+Query  105  DKSGVDISGSWRPTVIPLSDNHQVSVPLELEFCPTAVHEPSYYEVYITKPSFNVF----I  160
+                   +  W    I          P   E+  TA H    ++ YITKP++N       
+Sbjct  91   AALDEQTADRWVKRPIQAG-------PQTFEWTFTANHVTKDWKYYITKPNWNPNQPLSR  143
+
+Query  161  DRVVWGNLDLIYNDTVPLDPRLPYSICDADLVYRFTVPIPIRQSQAVLYVRWQRLDPVGE  220
+            D        ++  + V   P+     C           +P R+   V+   W   D    
+Sbjct  144  DAFDLNPFCVVEGNMVQ-PPKRVSHEC----------IVPEREGYQVILAVWDVGDTAA-  191
+
+Query  221  GFYNCVDINFDYNNGPDDEDIIVPDVPNQCASTFNYNEG  259
+             FYN +D+ FD  NGP   D    +   Q   + + + G
+Sbjct  192  SFYNVIDVKFDG-NGPVLPDW---NPAGQIIPSMDLSIG  226
+
+
+> sp|C3LW75|GBPA_VIBCM GlcNAc-binding protein A OS=Vibrio cholerae 
+serotype O1 (strain M66-2) OX=579112 GN=gbpA PE=3 SV=1
+Length=485
+
+ Score = 140 bits (351),  Expect = 6e-37, Method: Composition-based stats.
+ Identities = 45/219 (21%), Positives = 68/219 (31%), Gaps = 42/219 (19%)
+
+Query  45   LDETGSTTDAISAAQYEFQQDNEYAALAGPDYWDKCHITQQVVPNYLCAAGAHSWSNPFG  104
+             + TG       A QYE Q       + GPD               +      S  +   
+Sbjct  46   ANGTGEKNTHCGAIQYEPQS------VEGPD----GFPVTGPRDGKI-----ASAESALA  90
+
+Query  105  DKSGVDISGSWRPTVIPLSDNHQVSVPLELEFCPTAVHEPSYYEVYITKPSFNVF----I  160
+                   +  W    I          P   E+  TA H    ++ YITKP++N       
+Sbjct  91   AALDEQTADRWVKRPIQAG-------PQTFEWTFTANHVTKDWKYYITKPNWNPNQPLSR  143
+
+Query  161  DRVVWGNLDLIYNDTVPLDPRLPYSICDADLVYRFTVPIPIRQSQAVLYVRWQRLDPVGE  220
+            D        ++  + V   P+     C           +P R+   V+   W   D    
+Sbjct  144  DAFDLNPFCVVEGNMVQ-PPKRVNHEC----------IVPEREGYQVILAVWDVGDTAA-  191
+
+Query  221  GFYNCVDINFDYNNGPDDEDIIVPDVPNQCASTFNYNEG  259
+             FYN +D+ FD  NGP   D    +   Q   + + + G
+Sbjct  192  SFYNVIDVKFDG-NGPVLPDW---NPAGQIIPSMDLSIG  226
+
+
+> sp|Q5E183|GBPA_ALIF1 GlcNAc-binding protein A OS=Aliivibrio fischeri 
+(strain ATCC 700601 / ES114) OX=312309 GN=gbpA PE=3 
+SV=1
+Length=492
+
+ Score = 138 bits (347),  Expect = 2e-36, Method: Composition-based stats.
+ Identities = 49/263 (19%), Positives = 76/263 (29%), Gaps = 60/263 (23%)
+
+Query  1    HGYMSFPIARQRRCSMESFWYPTNGDGITDPMCRAAYQYVYDKVLDETGSTTDAISAAQY  60
+            HGY+S                     G    +C+       +K  D          A Q+
+Sbjct  24   HGYVS--------------ETNDGIAGSRAALCKFPTSDTQEKNRDCG--------AVQW  61
+
+Query  61   EFQQDNEYAALAGPDYWDKCHITQQVVPNYLCAAGAHSWSNPFGDKSGVDISGSWRPTVI  120
+            E Q       + GP+        +      +  AG   +S           +  W    I
+Sbjct  62   EPQS------VEGPE----GFPEKGPADGQIAGAGLVQFSELNE-----QTADRWVKRPI  106
+
+Query  121  PLSDNHQVSVPLELEFCPTAVHEPSYYEVYITKPSFNVFIDRVVWGNLDLIYND----TV  176
+                          E+  TA H    ++ Y+TK ++N     +   + DL         +
+Sbjct  107  TAG-------AQTFEWTFTANHVTRTWKYYMTKQNWNPNAV-LTRDSFDLTPFCELEYNM  158
+
+Query  177  PLDPRLPYSICDADLVYRFTVPIPIRQSQAVLYVRWQRLDPVGEGFYNCVDINFDYNNGP  236
+               P  P         +     +P R+   V+   W   D     FYN +D+ FD N G 
+Sbjct  159  EKPPLYP-------NTFSHECIVPEREGYQVILAVWDVGDTAA-AFYNVIDVKFDGNGGV  210
+
+Query  237  DDEDIIVPDVPNQCASTFNYNEG  259
+             D          Q   T + N G
+Sbjct  211  VDPTW---SQGGQINPTRDLNVG  230
+
+
+> sp|B5ESR7|GBPA_ALIFM GlcNAc-binding protein A OS=Aliivibrio fischeri 
+(strain MJ11) OX=388396 GN=gbpA PE=3 SV=1
+Length=492
+
+ Score = 138 bits (346),  Expect = 3e-36, Method: Composition-based stats.
+ Identities = 49/263 (19%), Positives = 76/263 (29%), Gaps = 60/263 (23%)
+
+Query  1    HGYMSFPIARQRRCSMESFWYPTNGDGITDPMCRAAYQYVYDKVLDETGSTTDAISAAQY  60
+            HGY+S                     G    +C+       +K  D          A Q+
+Sbjct  24   HGYVS--------------ETNDGIAGSRAALCKFPTSDTQEKNRDCG--------AVQW  61
+
+Query  61   EFQQDNEYAALAGPDYWDKCHITQQVVPNYLCAAGAHSWSNPFGDKSGVDISGSWRPTVI  120
+            E Q       + GP+        +      +  AG   +S           +  W    I
+Sbjct  62   EPQS------VEGPE----GFPEKGPADGQIAGAGLVQFSELNE-----QTADRWVKRPI  106
+
+Query  121  PLSDNHQVSVPLELEFCPTAVHEPSYYEVYITKPSFNVFIDRVVWGNLDLIYND----TV  176
+                          E+  TA H    ++ Y+TK ++N     +   + DL         +
+Sbjct  107  TAG-------AQTFEWTFTANHVTRTWKYYMTKQNWNPNAV-LTRDSFDLTPFCELEYNM  158
+
+Query  177  PLDPRLPYSICDADLVYRFTVPIPIRQSQAVLYVRWQRLDPVGEGFYNCVDINFDYNNGP  236
+               P  P         +     +P R+   V+   W   D     FYN +D+ FD N G 
+Sbjct  159  EKPPLYP-------NTFSHECIVPEREGYQVILAVWDVGDTAA-AFYNVIDVKFDGNGGV  210
+
+Query  237  DDEDIIVPDVPNQCASTFNYNEG  259
+             D          Q   T + N G
+Sbjct  211  VDPTW---SQGGQINPTRDLNVG  230
+
+
+> sp|Q6LKG5|GBPA_PHOPR GlcNAc-binding protein A OS=Photobacterium 
+profundum (strain SS9) OX=298386 GN=gbpA PE=3 SV=1
+Length=488
+
+ Score = 128 bits (322),  Expect = 7e-33, Method: Composition-based stats.
+ Identities = 53/268 (20%), Positives = 81/268 (30%), Gaps = 74/268 (28%)
+
+Query  1    HGYMS-----FPIARQRRCSMESFWYPTNGDGITDPMCRAAYQYVYDKVLDETGSTTDAI  55
+            HGY+S        +R   C      +P NG G  +  C +                    
+Sbjct  25   HGYVSSVEGGVAESRAALCK-----FPANGTGEKNTNCGSV-------------------  60
+
+Query  56   SAAQYEFQQDNEYAALAGPDYWDKCHITQQVVPNYLCAAGAHSWSNPFGDKSGVDISGSW  115
+               Q+E Q       + GPD               + +AG   +S    D+  VD    W
+Sbjct  61   ---QWEPQS------VEGPD----GFPETGPPDGKIASAGLSQFSPL--DEQTVD---RW  102
+
+Query  116  RPTVIPLSDNHQVSVPLELEFCPTAVHEPSYYEVYITKPSFNVFIDRVVWGNLDLIYND-  174
+                +              E+  TA H    +  YITK  +N     +     DL     
+Sbjct  103  VKRPMQAG-------IQNFEWTFTANHITRNWRYYITKQDWNPNKS-LTRSAFDLTPFCQ  154
+
+Query  175  ---TVPLDPRLPYSICDADLVYRFTVPIPIRQSQAVLYVRWQRLDPVGEGFYNCVDINFD  231
+                +   P   +  C+          +P R+   V+   W+  D     FYN +D+ FD
+Sbjct  155  ISGDMAKPPMRVHHSCN----------VPERKDYQVILAVWEVGDTAA-SFYNVIDVMFD  203
+
+Query  232  YNNGPDDEDIIVPDVPNQCASTFNYNEG  259
+              + P   D     V  Q   + +   G
+Sbjct  204  G-DLPTVPDWA---VGGQIYPSMDLKSG  227
+
+
+> sp|Q8EHY2|GBPA_SHEON GlcNAc-binding protein A OS=Shewanella oneidensis 
+(strain MR-1) OX=211586 GN=gbpA PE=3 SV=2
+Length=475
+
+ Score = 101 bits (251),  Expect = 4e-23, Method: Composition-based stats.
+ Identities = 40/241 (17%), Positives = 66/241 (27%), Gaps = 76/241 (32%)
+
+Query  1    HGYMSFPIARQRRCSMESFWYPTNGDGITDPMCRAAYQYVYDKVLDETGSTTDAISAAQY  60
+            HGY+  P +R   C          G  +                            A Q+
+Sbjct  28   HGYVVSPESRSYAC--------KTGSNVN-------------------------CGAVQW  54
+
+Query  61   EFQQDNEYAALAGPDYWDKCHITQQVVPNYLCAAGAHSWSNPFGDKSGVDI--SGSWRPT  118
+            E Q   E A+                    + +A         G  S +D      W   
+Sbjct  55   EPQSV-EGASG---------FPESGPADGKIASAAN-------GAFSPLDEQSPSRWSKR  97
+
+Query  119  VIPLSDNHQVSVPLELEFCPTAVHEPSYYEVYITKPSFNVFIDRVVWGNLDL----IYND  174
+             I    N       +  +  TA H    +  Y+T+  ++     +   + DL    + + 
+Sbjct  98   DIKSGWN-------DFSWQFTANHVTRNWRYYLTRQGWDQN-QPLSRASFDLAPFCVIDG  149
+
+Query  175  TVPLDPRLPYSICDADLVYRFTVPIPI-RQSQAVLYVRWQRLDPVGEGFYNCVDINFDYN  233
+             +   P+L                +P  R    V+   W+  D     FYN +D+NF   
+Sbjct  150  GMVQPPKLVTH----------NCYVPEDRSGYQVILAVWEVGDTT-NSFYNAIDVNFSSG  198
+
+Query  234  N  234
+             
+Sbjct  199  A  199
+
+
+> sp|Q838S1|LCHMO_ENTFA Lytic chitin monooxygenase OS=Enterococcus 
+faecalis (strain ATCC 700802 / V583) OX=226185 GN=EF_0362 
+PE=1 SV=1
+Length=194
+
+ Score = 84.6 bits (207),  Expect = 2e-18, Method: Composition-based stats.
+ Identities = 48/231 (21%), Positives = 72/231 (31%), Gaps = 69/231 (30%)
+
+Query  1    HGYMSFPIARQRRCSMESFWYPTNGDGITDPMCRAAYQYVYDKVLDETGSTTDAISAAQY  60
+            HGY++ P +R    S       TN                                 AQ+
+Sbjct  29   HGYVASPGSRAFFGSSAGGNLNTNVG------------------------------RAQW  58
+
+Query  61   EFQQDNEYAALAGPDYWDKCHITQQVVPNYLCAAGAHSWSNPFGDKSGVDISGSWRPTVI  120
+            E Q                       +   L +AG   +     D+     +  W  T I
+Sbjct  59   EPQS--------------IEAPKNTFITGKLASAGVSGFEPL--DEQ---TATRWHKTNI  99
+
+Query  121  PLSDNHQVSVPLELEFCPTAVHEPSYYEVYITKPSFNVFIDRVVWGNLDLIYN-DTVPLD  179
+                      PL++ +  TA H  + ++ YITK  +N     +   N D I + D     
+Sbjct  100  TTG-------PLDITWNLTAQHRTASWDYYITKNGWNPN-QPLDIKNFDKIASIDGKQEV  151
+
+Query  180  PRLPYSICDADLVYRFTVPIP-IRQSQAVLYVRWQRLDPVGEGFYNCVDIN  229
+            P           V + T+ IP  R+   V+Y  W   D V   FY  +D+N
+Sbjct  152  PNK---------VVKQTINIPTDRKGYHVIYAVWGIGDTV-NAFYQAIDVN  192
+
+
+> sp|A3KIM2|LCHMO_STRA7 Lytic chitin monooxygenase OS=Streptomyces 
+ambofaciens (strain ATCC 23877 / 3486 / DSM 40053 / JCM 
+4204 / NBRC 12836 / NRRL B-2516) OX=278992 GN=SAM23877_0645 
+PE=1 SV=1
+Length=172
+
+ Score = 46.9 bits (109),  Expect = 3e-05, Method: Composition-based stats.
+ Identities = 36/232 (16%), Positives = 60/232 (26%), Gaps = 90/232 (39%)
+
+Query  1    HGYMSFPIARQRRCSMESFWYPTNGDGITDPMCRAAYQYVYDKVLDETGSTTDAISAAQY  60
+            HGY+S P +RQ +C+  +     +   IT                              Y
+Sbjct  31   HGYISNPPSRQAQCAAGT----VSCGDIT------------------------------Y  56
+
+Query  61   EFQQDNEYAALAGPDYWDKCHITQQVVPNYLCAAGAHSWSNPFGDKSGVDISGSWRPTVI  120
+            E Q                    +       C+ G   ++    D  G      W  T +
+Sbjct  57   EPQSV------------------EGPKGLTSCSGGNSRFAELDDDSKG------WAVTPV  92
+
+Query  121  PLSDNHQVSVPLELEFCPTAVHEPSYYEVYITKPSFNVFIDRVVWGNLDLIYNDTVPLDP  180
+            P              +  TA H  S +E Y+          R+       +++D      
+Sbjct  93   P--------RNATFSWKLTAQHSTSTWEYYV-------GGQRIA------LFDDGGAKPG  131
+
+Query  181  RLPYSICDADLVYRFTVPIPIRQSQAVLYVRWQRLDPVGEGFYNCVDINFDY  232
+             +     D   +            +  +   W   D     FY C+D+N   
+Sbjct  132  AVVDHQVDFGGL----------DGRQKVLAVWNVADT-DNAFYACIDVNVGG  172
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.111    0.294    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0341    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22684456410
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 28, 2021  3:44 PM
+  Number of letters in database: 202,799,066
+  Number of sequences in database:  563,082
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

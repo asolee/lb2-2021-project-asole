@@ -1,0 +1,139 @@
+PSIBLAST 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           563,082 sequences; 202,799,066 total letters
+
+Results from round 1
+
+
+Query= 6IEW
+
+Length=91
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|Q9VV73|NXF2_DROME Nuclear RNA export factor 2 OS=Drosophila ...  118     2e-31
+  sp|Q9W2H9|PANX_DROME Protein panoramix OS=Drosophila melanogast...  52.4    3e-08
+
+
+> sp|Q9VV73|NXF2_DROME Nuclear RNA export factor 2 OS=Drosophila 
+melanogaster OX=7227 GN=nxf2 PE=1 SV=1
+Length=841
+
+ Score = 118 bits (296),  Expect = 2e-31, Method: Composition-based stats.
+ Identities = 54/54 (100%), Positives = 54/54 (100%), Gaps = 0/54 (0%)
+
+Query  6    DVKDHKLLLFQEVTGLISTWVTSIVEEADWDFERALKLFIQKNADHEIPDLAFA  59
+            DVKDHKLLLFQEVTGLISTWVTSIVEEADWDFERALKLFIQKNADHEIPDLAFA
+Sbjct  788  DVKDHKLLLFQEVTGLISTWVTSIVEEADWDFERALKLFIQKNADHEIPDLAFA  841
+
+
+> sp|Q9W2H9|PANX_DROME Protein panoramix OS=Drosophila melanogaster 
+OX=7227 GN=Panx PE=1 SV=1
+Length=541
+
+ Score = 52.4 bits (124),  Expect = 3e-08, Method: Composition-based stats.
+ Identities = 27/28 (96%), Positives = 28/28 (100%), Gaps = 0/28 (0%)
+
+Query  64   SLSKADKRSLAVARAELVLEQIQQKANK  91
+            +LSKADKRSLAVARAELVLEQIQQKANK
+Sbjct  314  NLSKADKRSLAVARAELVLEQIQQKANK  341
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.131    0.366    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5053531920
+Results from round 2
+
+
+Query= 6IEW
+
+Length=91
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q9VV73|NXF2_DROME Nuclear RNA export factor 2 OS=Drosophila ...  119     1e-31
+  sp|Q9W2H9|PANX_DROME Protein panoramix OS=Drosophila melanogast...  57.4    6e-10
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|Q9VV73|NXF2_DROME Nuclear RNA export factor 2 OS=Drosophila 
+melanogaster OX=7227 GN=nxf2 PE=1 SV=1
+Length=841
+
+ Score = 119 bits (297),  Expect = 1e-31, Method: Composition-based stats.
+ Identities = 54/54 (100%), Positives = 54/54 (100%), Gaps = 0/54 (0%)
+
+Query  6    DVKDHKLLLFQEVTGLISTWVTSIVEEADWDFERALKLFIQKNADHEIPDLAFA  59
+            DVKDHKLLLFQEVTGLISTWVTSIVEEADWDFERALKLFIQKNADHEIPDLAFA
+Sbjct  788  DVKDHKLLLFQEVTGLISTWVTSIVEEADWDFERALKLFIQKNADHEIPDLAFA  841
+
+
+> sp|Q9W2H9|PANX_DROME Protein panoramix OS=Drosophila melanogaster 
+OX=7227 GN=Panx PE=1 SV=1
+Length=541
+
+ Score = 57.4 bits (137),  Expect = 6e-10, Method: Composition-based stats.
+ Identities = 27/28 (96%), Positives = 28/28 (100%), Gaps = 0/28 (0%)
+
+Query  64   SLSKADKRSLAVARAELVLEQIQQKANK  91
+            +LSKADKRSLAVARAELVLEQIQQKANK
+Sbjct  314  NLSKADKRSLAVARAELVLEQIQQKANK  341
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.134    0.382    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0412    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5053531920
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 28, 2021  3:44 PM
+  Number of letters in database: 202,799,066
+  Number of sequences in database:  563,082
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

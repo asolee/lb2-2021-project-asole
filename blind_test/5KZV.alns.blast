@@ -1,0 +1,3359 @@
+PSIBLAST 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           563,082 sequences; 202,799,066 total letters
+
+Results from round 1
+
+
+Query= 5KZV
+
+Length=117
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|P56726|SMO_MOUSE Smoothened homolog OS=Mus musculus OX=10090...  188     6e-56
+  sp|P97698|SMO_RAT Smoothened homolog OS=Rattus norvegicus OX=10...  188     6e-56
+  sp|O42224|SMO_CHICK Smoothened homolog (Fragment) OS=Gallus gal...  187     8e-56
+  sp|Q99835|SMO_HUMAN Smoothened homolog OS=Homo sapiens OX=9606 ...  186     2e-55
+  sp|P91682|SMO_DROME Protein smoothened OS=Drosophila melanogast...  96.7    2e-23
+  sp|Q9NPG1|FZD3_HUMAN Frizzled-3 OS=Homo sapiens OX=9606 GN=FZD3...  46.6    9e-06
+  sp|Q61086|FZD3_MOUSE Frizzled-3 OS=Mus musculus OX=10090 GN=Fzd...  46.6    9e-06
+  sp|O54858|CBPZ_RAT Carboxypeptidase Z OS=Rattus norvegicus OX=1...  43.9    7e-05
+  sp|Q8R4V4|CBPZ_MOUSE Carboxypeptidase Z OS=Mus musculus OX=1009...  43.5    9e-05
+  sp|Q66K79|CBPZ_HUMAN Carboxypeptidase Z OS=Homo sapiens OX=9606...  43.5    1e-04
+  sp|O42579|FZD3_XENLA Frizzled-3 OS=Xenopus laevis OX=8355 GN=fz...  41.2    6e-04
+  sp|Q8K480|MFRP_MOUSE Membrane frizzled-related protein OS=Mus m...  37.7    0.010
+
+
+> sp|P56726|SMO_MOUSE Smoothened homolog OS=Mus musculus OX=10090 
+GN=Smo PE=1 SV=2
+Length=793
+
+ Score = 188 bits (477),  Expect = 6e-56, Method: Compositional matrix adjust.
+ Identities = 84/117 (72%), Positives = 95/117 (81%), Gaps = 0/117 (0%)
+
+Query  1    KCKKTTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAI  60
+             C +   CEPL+YN+CLGS LPY  T+T+LA DS SQ+E H KL LWSGLRNAPRCW  I
+Sbjct  67   HCGRAAHCEPLRYNVCLGSALPYGATTTLLAGDSDSQEEAHGKLVLWSGLRNAPRCWAVI  126
+
+Query  61   RPLLCAVYMPKCEGGKVELPSQGLCQTTRVPCAIVARERGWPDFLKCTTDYFPEGCP  117
+            +PLLCAVYMPKCE  +VELPS+ LCQ TR PCAIV RERGWPDFL+CT D+FPEGCP
+Sbjct  127  QPLLCAVYMPKCENDRVELPSRTLCQATRGPCAIVERERGWPDFLRCTPDHFPEGCP  183
+
+
+> sp|P97698|SMO_RAT Smoothened homolog OS=Rattus norvegicus OX=10116 
+GN=Smo PE=2 SV=1
+Length=793
+
+ Score = 188 bits (477),  Expect = 6e-56, Method: Compositional matrix adjust.
+ Identities = 84/117 (72%), Positives = 95/117 (81%), Gaps = 0/117 (0%)
+
+Query  1    KCKKTTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAI  60
+             C +   CEPL+YN+CLGS LPY  T+T+LA DS SQ+E H KL LWSGLRNAPRCW  I
+Sbjct  67   HCGRAAHCEPLRYNVCLGSALPYGATTTLLAGDSDSQEEAHSKLVLWSGLRNAPRCWAVI  126
+
+Query  61   RPLLCAVYMPKCEGGKVELPSQGLCQTTRVPCAIVARERGWPDFLKCTTDYFPEGCP  117
+            +PLLCAVYMPKCE  +VELPS+ LCQ TR PCAIV RERGWPDFL+CT D+FPEGCP
+Sbjct  127  QPLLCAVYMPKCENDRVELPSRTLCQATRGPCAIVERERGWPDFLRCTPDHFPEGCP  183
+
+
+> sp|O42224|SMO_CHICK Smoothened homolog (Fragment) OS=Gallus gallus 
+OX=9031 GN=SMO PE=2 SV=1
+Length=794
+
+ Score = 187 bits (476),  Expect = 8e-56, Method: Compositional matrix adjust.
+ Identities = 86/117 (74%), Positives = 95/117 (81%), Gaps = 0/117 (0%)
+
+Query  1    KCKKTTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAI  60
+            +C++   CE L++  CLGS LPYA TST+LA DS SQ+E H KL LWSGLRNAPRCWD I
+Sbjct  33   RCRRPAACERLRFGSCLGSALPYAHTSTLLAADSGSQEEAHGKLLLWSGLRNAPRCWDVI  92
+
+Query  61   RPLLCAVYMPKCEGGKVELPSQGLCQTTRVPCAIVARERGWPDFLKCTTDYFPEGCP  117
+            +PLLCAVYMPKCE G+VELPSQ LCQ TR PC IV RERGWPDFLKCT D FPEGCP
+Sbjct  93   QPLLCAVYMPKCEDGQVELPSQTLCQATRAPCTIVERERGWPDFLKCTPDRFPEGCP  149
+
+
+> sp|Q99835|SMO_HUMAN Smoothened homolog OS=Homo sapiens OX=9606 
+GN=SMO PE=1 SV=1
+Length=787
+
+ Score = 186 bits (473),  Expect = 2e-55, Method: Compositional matrix adjust.
+ Identities = 85/116 (73%), Positives = 94/116 (81%), Gaps = 0/116 (0%)
+
+Query  1    KCKKTTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAI  60
+             C +   CEPL+YN+CLGSVLPY  TST+LA DS SQ+E H KL LWSGLRNAPRCW  I
+Sbjct  63   HCGRAAPCEPLRYNVCLGSVLPYGATSTLLAGDSDSQEEAHGKLVLWSGLRNAPRCWAVI  122
+
+Query  61   RPLLCAVYMPKCEGGKVELPSQGLCQTTRVPCAIVARERGWPDFLKCTTDYFPEGC  116
+            +PLLCAVYMPKCE  +VELPS+ LCQ TR PCAIV RERGWPDFL+CT D FPEGC
+Sbjct  123  QPLLCAVYMPKCENDRVELPSRTLCQATRGPCAIVERERGWPDFLRCTPDRFPEGC  178
+
+
+> sp|P91682|SMO_DROME Protein smoothened OS=Drosophila melanogaster 
+OX=7227 GN=smo PE=1 SV=1
+Length=1036
+
+ Score = 96.7 bits (239),  Expect = 2e-23, Method: Composition-based stats.
+ Identities = 49/122 (40%), Positives = 68/122 (56%), Gaps = 7/122 (6%)
+
+Query  1    KCKKTTTCEPLK--YNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWD  58
+            +C +   C P     N C GS LPY L+S  L  D  ++ E++DKL+ +  L++ P+CW 
+Sbjct  83   QCVRRARCYPTSNATNTCFGSKLPYELSSLDLT-DFHTEKELNDKLNDYYALKHVPKCWA  141
+
+Query  59   AIRPLLCAVYMPKCEG----GKVELPSQGLCQTTRVPCAIVARERGWPDFLKCTTDYFPE  114
+            AI+P LCAV+ PKCE       V LPS  +C+ T  PC I+     +P FL+C    FP 
+Sbjct  142  AIQPFLCAVFKPKCEKINGEDMVYLPSYEMCRITMEPCRILYNTTFFPKFLRCNETLFPT  201
+
+Query  115  GC  116
+             C
+Sbjct  202  KC  203
+
+
+> sp|Q9NPG1|FZD3_HUMAN Frizzled-3 OS=Homo sapiens OX=9606 GN=FZD3 
+PE=1 SV=1
+Length=666
+
+ Score = 46.6 bits (109),  Expect = 9e-06, Method: Composition-based stats.
+ Identities = 34/111 (31%), Positives = 51/111 (46%), Gaps = 8/111 (7%)
+
+Query  7    TCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPLLCA  66
+            +CEP+   +C    LPY  T      +   Q      +  +  + N   C    RP LCA
+Sbjct  27   SCEPITLRMC--QDLPYNTTFMPNLLNHYDQQTAALAMEPFHPMVNLD-CSRDFRPFLCA  83
+
+Query  67   VYMPKC-EGGKVELPSQGLCQTTRVPCAIVARERG--WPDFLKCTTDYFPE  114
+            +Y P C E G+V LP + LCQ     C+ +    G  WP+ ++C+   FP+
+Sbjct  84   LYAPICMEYGRVTLPCRRLCQRAYSECSKLMEMFGVPWPEDMECSR--FPD  132
+
+
+> sp|Q61086|FZD3_MOUSE Frizzled-3 OS=Mus musculus OX=10090 GN=Fzd3 
+PE=1 SV=1
+Length=666
+
+ Score = 46.6 bits (109),  Expect = 9e-06, Method: Composition-based stats.
+ Identities = 34/111 (31%), Positives = 51/111 (46%), Gaps = 8/111 (7%)
+
+Query  7    TCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPLLCA  66
+            +CEP+   +C    LPY  T      +   Q      +  +  + N   C    RP LCA
+Sbjct  27   SCEPITLRMC--QDLPYNTTFMPNLLNHYDQQTAALAMEPFHPMVNLD-CSRDFRPFLCA  83
+
+Query  67   VYMPKC-EGGKVELPSQGLCQTTRVPCAIVARERG--WPDFLKCTTDYFPE  114
+            +Y P C E G+V LP + LCQ     C+ +    G  WP+ ++C+   FP+
+Sbjct  84   LYAPICMEYGRVTLPCRRLCQRAYSECSKLMEMFGVPWPEDMECSR--FPD  132
+
+
+> sp|O54858|CBPZ_RAT Carboxypeptidase Z OS=Rattus norvegicus OX=10116 
+GN=Cpz PE=2 SV=1
+Length=652
+
+ Score = 43.9 bits (102),  Expect = 7e-05, Method: Compositional matrix adjust.
+ Identities = 35/119 (29%), Positives = 51/119 (43%), Gaps = 6/119 (5%)
+
+Query  4    KTTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRN--APRCWDAIR  61
+             + TC  L    C  +   +    T L   S    E   + +L   L      +C   +R
+Sbjct  42   HSATCVDLHLRTCADAAYNHTSFPTPLEHRSWEAVEASPEYTLLGVLHFLLEGQCNPDLR  101
+
+Query  62   PLLCAVYMPKCEGGKVELPSQGLCQTTRVPC--AIVARERGWPDFLKCTTDYFP--EGC  116
+             L C+V  P+C+GG  + P + +C+  R  C  A  A +  WP FL CT  + P  EGC
+Sbjct  102  LLGCSVLAPRCQGGHTQRPCRRVCEGLREACQPAFDAIDMAWPYFLDCTQYFAPEEEGC  160
+
+
+> sp|Q8R4V4|CBPZ_MOUSE Carboxypeptidase Z OS=Mus musculus OX=10090 
+GN=Cpz PE=2 SV=2
+Length=654
+
+ Score = 43.5 bits (101),  Expect = 9e-05, Method: Compositional matrix adjust.
+ Identities = 25/66 (38%), Positives = 35/66 (53%), Gaps = 4/66 (6%)
+
+Query  55   RCWDAIRPLLCAVYMPKCEGGKVELPSQGLCQTTRVPC--AIVARERGWPDFLKCTTDYF  112
+            +C   +R L C+V  P+CEGG  + P + +C+  R  C  A  A +  WP FL C   + 
+Sbjct  97   QCNPDLRLLGCSVLAPRCEGGHTQRPCRHVCEGLREACQPAFDAIDMAWPYFLDCAQYFA  156
+
+Query  113  P--EGC  116
+            P  EGC
+Sbjct  157  PEEEGC  162
+
+
+> sp|Q66K79|CBPZ_HUMAN Carboxypeptidase Z OS=Homo sapiens OX=9606 
+GN=CPZ PE=1 SV=2
+Length=652
+
+ Score = 43.5 bits (101),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 38/119 (32%), Positives = 51/119 (43%), Gaps = 8/119 (7%)
+
+Query  5    TTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRN--APRCWDAIRP  62
+            + TC  L+   C  +   +     +L   S    E   +  L S L      +C   +R 
+Sbjct  40   SATCVDLQLRTCSDAAYNHTTFPNLLQHRSWEVVEASSEYILLSVLHQLLEGQCNPDLRL  99
+
+Query  63   LLCAVYMPKCEGGKVELPSQGLCQTTRVPC--AIVARERGWPDFLKCTTDYF---PEGC  116
+            L CAV  P+CEGG V  P + +C+  R  C  A  A +  WP FL C   YF    EGC
+Sbjct  100  LGCAVLAPRCEGGWVRRPCRHICEGLREVCQPAFDAIDMAWPYFLDCHR-YFTREDEGC  157
+
+
+> sp|O42579|FZD3_XENLA Frizzled-3 OS=Xenopus laevis OX=8355 GN=fzd3 
+PE=1 SV=1
+Length=664
+
+ Score = 41.2 bits (95),  Expect = 6e-04, Method: Compositional matrix adjust.
+ Identities = 35/112 (31%), Positives = 55/112 (49%), Gaps = 12/112 (11%)
+
+Query  8    CEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSL--WSGLRNAPRCWDAIRPLLC  65
+            CEP+   +C    LPY   ST +    +  D+    L++  +  + N   C   +RP LC
+Sbjct  27   CEPITLRMCQD--LPY--NSTFMPNLLNHYDQQTAALAMEPFHPMVNL-ECSRDLRPFLC  81
+
+Query  66   AVYMPKC-EGGKVELPSQGLCQTTRVPCAIVARERG--WPDFLKCTTDYFPE  114
+            A+Y P C E G++ LP + LCQ     C  +    G  WP+ ++C+   FP+
+Sbjct  82   ALYTPVCMEYGRMTLPCRKLCQRAYNECFKLMEMFGVPWPEEMECSR--FPD  131
+
+
+> sp|Q8K480|MFRP_MOUSE Membrane frizzled-related protein OS=Mus 
+musculus OX=10090 GN=Mfrp PE=1 SV=1
+Length=584
+
+ Score = 37.7 bits (86),  Expect = 0.010, Method: Compositional matrix adjust.
+ Identities = 27/88 (31%), Positives = 44/88 (50%), Gaps = 5/88 (6%)
+
+Query  7    TCEPLKYNICLGSVLPYALTST-VLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPLLC  65
+            TCEP++  +CLG  L Y  T+   +    ++Q EV D L  +  L + P C+   +  LC
+Sbjct  470  TCEPVQVEMCLG--LSYNTTAFPNIWVGLATQTEVTDILRGYKSLTSLP-CYQTFQRFLC  526
+
+Query  66   AVYMPKCEG-GKVELPSQGLCQTTRVPC  92
+             + +P+C   G +  P + +CQ     C
+Sbjct  527  GLLVPRCTSLGTILPPCRSVCQAAEQQC  554
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.137    0.464    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4957987072
+Results from round 2
+
+
+Query= 5KZV
+
+Length=117
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P56726|SMO_MOUSE Smoothened homolog OS=Mus musculus OX=10090...  184     1e-54
+  sp|P97698|SMO_RAT Smoothened homolog OS=Rattus norvegicus OX=10...  184     2e-54
+  sp|Q99835|SMO_HUMAN Smoothened homolog OS=Homo sapiens OX=9606 ...  180     5e-53
+  sp|O42224|SMO_CHICK Smoothened homolog (Fragment) OS=Gallus gal...  178     2e-52
+  sp|P91682|SMO_DROME Protein smoothened OS=Drosophila melanogast...  154     2e-43
+  sp|O54858|CBPZ_RAT Carboxypeptidase Z OS=Rattus norvegicus OX=1...  153     2e-43
+  sp|Q8R4V4|CBPZ_MOUSE Carboxypeptidase Z OS=Mus musculus OX=1009...  151     1e-42
+  sp|Q66K79|CBPZ_HUMAN Carboxypeptidase Z OS=Homo sapiens OX=9606...  150     1e-42
+  sp|Q61086|FZD3_MOUSE Frizzled-3 OS=Mus musculus OX=10090 GN=Fzd...  128     1e-34
+  sp|Q9NPG1|FZD3_HUMAN Frizzled-3 OS=Homo sapiens OX=9606 GN=FZD3...  128     2e-34
+  sp|O42579|FZD3_XENLA Frizzled-3 OS=Xenopus laevis OX=8355 GN=fz...  126     5e-34
+
+Sequences not found previously or not previously below threshold:
+
+  sp|Q8QGP3|CBPZ_CHICK Carboxypeptidase Z OS=Gallus gallus OX=903...  116     2e-30
+  sp|Q8WMU5|FZD6_CANLF Frizzled-6 OS=Canis lupus familiaris OX=96...  79.5    3e-17
+  sp|O60353|FZD6_HUMAN Frizzled-6 OS=Homo sapiens OX=9606 GN=FZD6...  79.1    4e-17
+  sp|Q5RCN4|FZD6_PONAB Frizzled-6 OS=Pongo abelii OX=9601 GN=FZD6...  79.1    4e-17
+  sp|Q8AVJ9|FZD7B_XENLA Frizzled-7-B OS=Xenopus laevis OX=8355 GN...  77.1    2e-16
+  sp|A0A0K3AWM6|MOM5_CAEEL Protein mom-5 OS=Caenorhabditis elegan...  76.8    2e-16
+  sp|Q5BL72|FZD7_XENTR Frizzled-7 OS=Xenopus tropicalis OX=8364 G...  76.8    2e-16
+  sp|Q498S8|FZD8_RAT Frizzled-8 OS=Rattus norvegicus OX=10116 GN=...  76.4    3e-16
+  sp|Q61089|FZD6_MOUSE Frizzled-6 OS=Mus musculus OX=10090 GN=Fzd...  76.4    3e-16
+  sp|O75084|FZD7_HUMAN Frizzled-7 OS=Homo sapiens OX=9606 GN=FZD7...  76.4    3e-16
+  sp|Q9PUK8|FZD7A_XENLA Frizzled-7-A OS=Xenopus laevis OX=8355 GN...  76.4    3e-16
+  sp|Q61090|FZD7_MOUSE Frizzled-7 OS=Mus musculus OX=10090 GN=Fzd...  76.4    3e-16
+  sp|Q9JIP6|FZD2_MOUSE Frizzled-2 OS=Mus musculus OX=10090 GN=Fzd...  76.0    4e-16
+  sp|Q61091|FZD8_MOUSE Frizzled-8 OS=Mus musculus OX=10090 GN=Fzd...  76.0    4e-16
+  sp|Q9I9M5|FZD1_XENLA Frizzled-1 OS=Xenopus laevis OX=8355 GN=fz...  76.0    4e-16
+  sp|Q9UP38|FZD1_HUMAN Frizzled-1 OS=Homo sapiens OX=9606 GN=FZD1...  76.0    4e-16
+  sp|Q9H461|FZD8_HUMAN Frizzled-8 OS=Homo sapiens OX=9606 GN=FZD8...  76.0    5e-16
+  sp|Q14332|FZD2_HUMAN Frizzled-2 OS=Homo sapiens OX=9606 GN=FZD2...  76.0    5e-16
+  sp|Q08464|FZD2_RAT Frizzled-2 OS=Rattus norvegicus OX=10116 GN=...  76.0    5e-16
+  sp|O70421|FZD1_MOUSE Frizzled-1 OS=Mus musculus OX=10090 GN=Fzd...  75.6    6e-16
+  sp|Q9PUU6|FZD2_XENLA Frizzled-2 OS=Xenopus laevis OX=8355 GN=fz...  75.2    7e-16
+  sp|O93274|FZD8_XENLA Frizzled-8 OS=Xenopus laevis OX=8355 GN=fz...  75.2    7e-16
+  sp|O57328|FZD1_CHICK Frizzled-1 OS=Gallus gallus OX=9031 GN=FZD...  74.4    1e-15
+  sp|P18537|FRIZ_DROME Frizzled OS=Drosophila melanogaster OX=722...  73.7    2e-15
+  sp|Q13467|FZD5_HUMAN Frizzled-5 OS=Homo sapiens OX=9606 GN=FZD5...  73.3    3e-15
+  sp|O57329|FZD7_CHICK Frizzled-7 OS=Gallus gallus OX=9031 GN=FZD...  73.3    4e-15
+  sp|Q9VVX3|FRIZ2_DROME Frizzled-2 OS=Drosophila melanogaster OX=...  72.9    5e-15
+  sp|Q8CHL0|FZD5_RAT Frizzled-5 OS=Rattus norvegicus OX=10116 GN=...  72.9    6e-15
+  sp|Q9EQD0|FZD5_MOUSE Frizzled-5 OS=Mus musculus OX=10090 GN=Fzd...  72.5    6e-15
+  sp|P58421|FZD5_XENLA Frizzled-5 OS=Xenopus laevis OX=8355 GN=fz...  72.1    9e-15
+  sp|Q24760|FRIZ_DROVI Frizzled OS=Drosophila virilis OX=7244 GN=...  71.7    1e-14
+  sp|Q9IA06|FZD2_CHICK Frizzled-2 (Fragment) OS=Gallus gallus OX=...  71.7    1e-14
+  sp|Q8K4C8|FZD9_RAT Frizzled-9 OS=Rattus norvegicus OX=10116 GN=...  71.0    3e-14
+  sp|Q9R216|FZD9_MOUSE Frizzled-9 OS=Mus musculus OX=10090 GN=Fzd...  71.0    3e-14
+  sp|Q08463|FZD1_RAT Frizzled-1 OS=Rattus norvegicus OX=10116 GN=...  69.4    9e-14
+  sp|Q9IA96|SFRP2_CHICK Secreted frizzled-related protein 2 OS=Ga...  66.7    5e-13
+  sp|G5ECQ2|FRIZ2_CAEEL Frizzled-2 OS=Caenorhabditis elegans OX=6...  66.7    8e-13
+  sp|Q61088|FZD4_MOUSE Frizzled-4 OS=Mus musculus OX=10090 GN=Fzd...  65.6    2e-12
+  sp|Q8BKG4|FZD10_MOUSE Frizzled-10 OS=Mus musculus OX=10090 GN=F...  65.2    2e-12
+  sp|Q9PWH2|FZD10_CHICK Frizzled-10 OS=Gallus gallus OX=9031 GN=F...  65.2    3e-12
+  sp|Q9PT62|FZD4_XENLA Frizzled-4 OS=Xenopus laevis OX=8355 GN=fz...  65.2    3e-12
+  sp|Q9DEB5|FZ10A_XENLA Frizzled-10-A OS=Xenopus laevis OX=8355 G...  64.8    3e-12
+  sp|Q9QZH0|FZD4_RAT Frizzled-4 OS=Rattus norvegicus OX=10116 GN=...  64.8    3e-12
+  sp|Q9ULV1|FZD4_HUMAN Frizzled-4 OS=Homo sapiens OX=9606 GN=FZD4...  64.8    3e-12
+  sp|Q9W742|FZ10B_XENLA Frizzled-10-B OS=Xenopus laevis OX=8355 G...  64.4    5e-12
+  sp|Q9ULW2|FZD10_HUMAN Frizzled-10 OS=Homo sapiens OX=9606 GN=FZ...  64.4    5e-12
+  sp|Q5RF67|SFRP3_PONAB Secreted frizzled-related protein 3 OS=Po...  63.7    7e-12
+  sp|Q92765|SFRP3_HUMAN Secreted frizzled-related protein 3 OS=Ho...  63.7    7e-12
+  sp|Q95117|SFRP3_BOVIN Secreted frizzled-related protein 3 OS=Bo...  63.7    7e-12
+  sp|P97401|SFRP3_MOUSE Secreted frizzled-related protein 3 OS=Mu...  62.5    2e-11
+  sp|Q9IA05|FZD4_CHICK Frizzled-4 OS=Gallus gallus OX=9031 GN=FZD...  62.5    2e-11
+  sp|Q9IA95|SFRP3_CHICK Secreted frizzled-related protein 3 OS=Ga...  61.3    4e-11
+  sp|Q6FHJ7|SFRP4_HUMAN Secreted frizzled-related protein 4 OS=Ho...  61.3    4e-11
+  sp|Q9Z1N6|SFRP4_MOUSE Secreted frizzled-related sequence protei...  61.3    6e-11
+  sp|O00144|FZD9_HUMAN Frizzled-9 OS=Homo sapiens OX=9606 GN=FZD9...  61.3    6e-11
+  sp|Q7YRN1|SFRP4_MACMU Secreted frizzled-related protein 4 OS=Ma...  60.6    9e-11
+  sp|Q8C4U3|SFRP1_MOUSE Secreted frizzled-related protein 1 OS=Mu...  60.2    1e-10
+  sp|Q9Z319|CORIN_MOUSE Atrial natriuretic peptide-converting enz...  60.6    1e-10
+  sp|Q9JLS4|SFRP4_RAT Secreted frizzled-related protein 4 OS=Ratt...  59.8    2e-10
+  sp|Q96HF1|SFRP2_HUMAN Secreted frizzled-related protein 2 OS=Ho...  59.4    2e-10
+  sp|Q80YN4|CORIN_RAT Atrial natriuretic peptide-converting enzym...  59.8    2e-10
+  sp|Q8N474|SFRP1_HUMAN Secreted frizzled-related protein 1 OS=Ho...  59.4    2e-10
+  sp|Q863H1|SFRP2_CANLF Secreted frizzled-related protein 2 OS=Ca...  59.4    2e-10
+  sp|P97299|SFRP2_MOUSE Secreted frizzled-related protein 2 OS=Mu...  58.6    4e-10
+  sp|Q8K480|MFRP_MOUSE Membrane frizzled-related protein OS=Mus m...  58.6    5e-10
+  sp|O19116|SFRP1_BOVIN Secreted frizzled-related protein 1 OS=Bo...  57.5    1e-09
+  sp|Q9WU66|SFRP5_MOUSE Secreted frizzled-related protein 5 OS=Mu...  56.7    2e-09
+  sp|Q9NBW1|FRIZ4_DROME Frizzled-4 OS=Drosophila melanogaster OX=...  56.7    2e-09
+  sp|Q9XSC1|SFRP5_BOVIN Secreted frizzled-related protein 5 OS=Bo...  56.3    2e-09
+  sp|Q9Y5Q5|CORIN_HUMAN Atrial natriuretic peptide-converting enz...  56.7    3e-09
+  sp|Q5T4F7|SFRP5_HUMAN Secreted frizzled-related protein 5 OS=Ho...  56.0    4e-09
+  sp|Q9DEQ4|SFRP1_CHICK Secreted frizzled-related protein 1 OS=Ga...  55.6    5e-09
+  sp|Q9BY79|MFRP_HUMAN Membrane frizzled-related protein OS=Homo ...  54.0    2e-08
+  sp|O77438|FRIZ3_DROME Frizzled-3 OS=Drosophila melanogaster OX=...  53.6    3e-08
+
+
+> sp|P56726|SMO_MOUSE Smoothened homolog OS=Mus musculus OX=10090 
+GN=Smo PE=1 SV=2
+Length=793
+
+ Score = 184 bits (468),  Expect = 1e-54, Method: Composition-based stats.
+ Identities = 84/117 (72%), Positives = 95/117 (81%), Gaps = 0/117 (0%)
+
+Query  1    KCKKTTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAI  60
+             C +   CEPL+YN+CLGS LPY  T+T+LA DS SQ+E H KL LWSGLRNAPRCW  I
+Sbjct  67   HCGRAAHCEPLRYNVCLGSALPYGATTTLLAGDSDSQEEAHGKLVLWSGLRNAPRCWAVI  126
+
+Query  61   RPLLCAVYMPKCEGGKVELPSQGLCQTTRVPCAIVARERGWPDFLKCTTDYFPEGCP  117
+            +PLLCAVYMPKCE  +VELPS+ LCQ TR PCAIV RERGWPDFL+CT D+FPEGCP
+Sbjct  127  QPLLCAVYMPKCENDRVELPSRTLCQATRGPCAIVERERGWPDFLRCTPDHFPEGCP  183
+
+
+> sp|P97698|SMO_RAT Smoothened homolog OS=Rattus norvegicus OX=10116 
+GN=Smo PE=2 SV=1
+Length=793
+
+ Score = 184 bits (466),  Expect = 2e-54, Method: Composition-based stats.
+ Identities = 84/117 (72%), Positives = 95/117 (81%), Gaps = 0/117 (0%)
+
+Query  1    KCKKTTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAI  60
+             C +   CEPL+YN+CLGS LPY  T+T+LA DS SQ+E H KL LWSGLRNAPRCW  I
+Sbjct  67   HCGRAAHCEPLRYNVCLGSALPYGATTTLLAGDSDSQEEAHSKLVLWSGLRNAPRCWAVI  126
+
+Query  61   RPLLCAVYMPKCEGGKVELPSQGLCQTTRVPCAIVARERGWPDFLKCTTDYFPEGCP  117
+            +PLLCAVYMPKCE  +VELPS+ LCQ TR PCAIV RERGWPDFL+CT D+FPEGCP
+Sbjct  127  QPLLCAVYMPKCENDRVELPSRTLCQATRGPCAIVERERGWPDFLRCTPDHFPEGCP  183
+
+
+> sp|Q99835|SMO_HUMAN Smoothened homolog OS=Homo sapiens OX=9606 
+GN=SMO PE=1 SV=1
+Length=787
+
+ Score = 180 bits (456),  Expect = 5e-53, Method: Composition-based stats.
+ Identities = 85/116 (73%), Positives = 94/116 (81%), Gaps = 0/116 (0%)
+
+Query  1    KCKKTTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAI  60
+             C +   CEPL+YN+CLGSVLPY  TST+LA DS SQ+E H KL LWSGLRNAPRCW  I
+Sbjct  63   HCGRAAPCEPLRYNVCLGSVLPYGATSTLLAGDSDSQEEAHGKLVLWSGLRNAPRCWAVI  122
+
+Query  61   RPLLCAVYMPKCEGGKVELPSQGLCQTTRVPCAIVARERGWPDFLKCTTDYFPEGC  116
+            +PLLCAVYMPKCE  +VELPS+ LCQ TR PCAIV RERGWPDFL+CT D FPEGC
+Sbjct  123  QPLLCAVYMPKCENDRVELPSRTLCQATRGPCAIVERERGWPDFLRCTPDRFPEGC  178
+
+
+> sp|O42224|SMO_CHICK Smoothened homolog (Fragment) OS=Gallus gallus 
+OX=9031 GN=SMO PE=2 SV=1
+Length=794
+
+ Score = 178 bits (451),  Expect = 2e-52, Method: Composition-based stats.
+ Identities = 86/117 (74%), Positives = 95/117 (81%), Gaps = 0/117 (0%)
+
+Query  1    KCKKTTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAI  60
+            +C++   CE L++  CLGS LPYA TST+LA DS SQ+E H KL LWSGLRNAPRCWD I
+Sbjct  33   RCRRPAACERLRFGSCLGSALPYAHTSTLLAADSGSQEEAHGKLLLWSGLRNAPRCWDVI  92
+
+Query  61   RPLLCAVYMPKCEGGKVELPSQGLCQTTRVPCAIVARERGWPDFLKCTTDYFPEGCP  117
+            +PLLCAVYMPKCE G+VELPSQ LCQ TR PC IV RERGWPDFLKCT D FPEGCP
+Sbjct  93   QPLLCAVYMPKCEDGQVELPSQTLCQATRAPCTIVERERGWPDFLKCTPDRFPEGCP  149
+
+
+> sp|P91682|SMO_DROME Protein smoothened OS=Drosophila melanogaster 
+OX=7227 GN=smo PE=1 SV=1
+Length=1036
+
+ Score = 154 bits (389),  Expect = 2e-43, Method: Composition-based stats.
+ Identities = 49/122 (40%), Positives = 68/122 (56%), Gaps = 7/122 (6%)
+
+Query  1    KCKKTTTCEPLK--YNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWD  58
+            +C +   C P     N C GS LPY L+S  L  D  ++ E++DKL+ +  L++ P+CW 
+Sbjct  83   QCVRRARCYPTSNATNTCFGSKLPYELSSLDLT-DFHTEKELNDKLNDYYALKHVPKCWA  141
+
+Query  59   AIRPLLCAVYMPKCEG----GKVELPSQGLCQTTRVPCAIVARERGWPDFLKCTTDYFPE  114
+            AI+P LCAV+ PKCE       V LPS  +C+ T  PC I+     +P FL+C    FP 
+Sbjct  142  AIQPFLCAVFKPKCEKINGEDMVYLPSYEMCRITMEPCRILYNTTFFPKFLRCNETLFPT  201
+
+Query  115  GC  116
+             C
+Sbjct  202  KC  203
+
+
+> sp|O54858|CBPZ_RAT Carboxypeptidase Z OS=Rattus norvegicus OX=10116 
+GN=Cpz PE=2 SV=1
+Length=652
+
+ Score = 153 bits (385),  Expect = 2e-43, Method: Composition-based stats.
+ Identities = 35/119 (29%), Positives = 51/119 (43%), Gaps = 6/119 (5%)
+
+Query  4    KTTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRN--APRCWDAIR  61
+             + TC  L    C  +   +    T L   S    E   + +L   L      +C   +R
+Sbjct  42   HSATCVDLHLRTCADAAYNHTSFPTPLEHRSWEAVEASPEYTLLGVLHFLLEGQCNPDLR  101
+
+Query  62   PLLCAVYMPKCEGGKVELPSQGLCQTTRVPC--AIVARERGWPDFLKCTTDYFP--EGC  116
+             L C+V  P+C+GG  + P + +C+  R  C  A  A +  WP FL CT  + P  EGC
+Sbjct  102  LLGCSVLAPRCQGGHTQRPCRRVCEGLREACQPAFDAIDMAWPYFLDCTQYFAPEEEGC  160
+
+
+> sp|Q8R4V4|CBPZ_MOUSE Carboxypeptidase Z OS=Mus musculus OX=10090 
+GN=Cpz PE=2 SV=2
+Length=654
+
+ Score = 151 bits (380),  Expect = 1e-42, Method: Composition-based stats.
+ Identities = 34/119 (29%), Positives = 49/119 (41%), Gaps = 6/119 (5%)
+
+Query  4    KTTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRN--APRCWDAIR  61
+             + TC  L    C  +   +    T L   S    E   +  L   +      +C   +R
+Sbjct  44   HSATCVDLHLRTCADAAYNHTSFPTPLEHRSWEAVESSPEYMLLGVIHFLLEGQCNPDLR  103
+
+Query  62   PLLCAVYMPKCEGGKVELPSQGLCQTTRVPC--AIVARERGWPDFLKCTTDYFP--EGC  116
+             L C+V  P+CEGG  + P + +C+  R  C  A  A +  WP FL C   + P  EGC
+Sbjct  104  LLGCSVLAPRCEGGHTQRPCRHVCEGLREACQPAFDAIDMAWPYFLDCAQYFAPEEEGC  162
+
+
+> sp|Q66K79|CBPZ_HUMAN Carboxypeptidase Z OS=Homo sapiens OX=9606 
+GN=CPZ PE=1 SV=2
+Length=652
+
+ Score = 150 bits (379),  Expect = 1e-42, Method: Composition-based stats.
+ Identities = 36/118 (31%), Positives = 50/118 (42%), Gaps = 6/118 (5%)
+
+Query  5    TTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRN--APRCWDAIRP  62
+            + TC  L+   C  +   +     +L   S    E   +  L S L      +C   +R 
+Sbjct  40   SATCVDLQLRTCSDAAYNHTTFPNLLQHRSWEVVEASSEYILLSVLHQLLEGQCNPDLRL  99
+
+Query  63   LLCAVYMPKCEGGKVELPSQGLCQTTRVPC--AIVARERGWPDFLKCTTDYF--PEGC  116
+            L CAV  P+CEGG V  P + +C+  R  C  A  A +  WP FL C   +    EGC
+Sbjct  100  LGCAVLAPRCEGGWVRRPCRHICEGLREVCQPAFDAIDMAWPYFLDCHRYFTREDEGC  157
+
+
+> sp|Q61086|FZD3_MOUSE Frizzled-3 OS=Mus musculus OX=10090 GN=Fzd3 
+PE=1 SV=1
+Length=666
+
+ Score = 128 bits (322),  Expect = 1e-34, Method: Composition-based stats.
+ Identities = 34/111 (31%), Positives = 51/111 (46%), Gaps = 8/111 (7%)
+
+Query  7    TCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPLLCA  66
+            +CEP+   +C    LPY  T      +   Q      +  +  + N   C    RP LCA
+Sbjct  27   SCEPITLRMCQD--LPYNTTFMPNLLNHYDQQTAALAMEPFHPMVNLD-CSRDFRPFLCA  83
+
+Query  67   VYMPKC-EGGKVELPSQGLCQTTRVPCAIVARERG--WPDFLKCTTDYFPE  114
+            +Y P C E G+V LP + LCQ     C+ +    G  WP+ ++C+   FP+
+Sbjct  84   LYAPICMEYGRVTLPCRRLCQRAYSECSKLMEMFGVPWPEDMECSR--FPD  132
+
+
+> sp|Q9NPG1|FZD3_HUMAN Frizzled-3 OS=Homo sapiens OX=9606 GN=FZD3 
+PE=1 SV=1
+Length=666
+
+ Score = 128 bits (321),  Expect = 2e-34, Method: Composition-based stats.
+ Identities = 34/111 (31%), Positives = 51/111 (46%), Gaps = 8/111 (7%)
+
+Query  7    TCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPLLCA  66
+            +CEP+   +C    LPY  T      +   Q      +  +  + N   C    RP LCA
+Sbjct  27   SCEPITLRMCQD--LPYNTTFMPNLLNHYDQQTAALAMEPFHPMVNLD-CSRDFRPFLCA  83
+
+Query  67   VYMPKC-EGGKVELPSQGLCQTTRVPCAIVARERG--WPDFLKCTTDYFPE  114
+            +Y P C E G+V LP + LCQ     C+ +    G  WP+ ++C+   FP+
+Sbjct  84   LYAPICMEYGRVTLPCRRLCQRAYSECSKLMEMFGVPWPEDMECSR--FPD  132
+
+
+> sp|O42579|FZD3_XENLA Frizzled-3 OS=Xenopus laevis OX=8355 GN=fzd3 
+PE=1 SV=1
+Length=664
+
+ Score = 126 bits (317),  Expect = 5e-34, Method: Composition-based stats.
+ Identities = 33/111 (30%), Positives = 50/111 (45%), Gaps = 8/111 (7%)
+
+Query  7    TCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPLLCA  66
+             CEP+   +C    LPY  T      +   Q      +  +  + N   C   +RP LCA
+Sbjct  26   ACEPITLRMCQD--LPYNSTFMPNLLNHYDQQTAALAMEPFHPMVNL-ECSRDLRPFLCA  82
+
+Query  67   VYMPKC-EGGKVELPSQGLCQTTRVPCAIVARERG--WPDFLKCTTDYFPE  114
+            +Y P C E G++ LP + LCQ     C  +    G  WP+ ++C+   FP+
+Sbjct  83   LYTPVCMEYGRMTLPCRKLCQRAYNECFKLMEMFGVPWPEEMECSR--FPD  131
+
+
+> sp|Q8QGP3|CBPZ_CHICK Carboxypeptidase Z OS=Gallus gallus OX=9031 
+GN=CPZ PE=1 SV=1
+Length=647
+
+ Score = 116 bits (290),  Expect = 2e-30, Method: Composition-based stats.
+ Identities = 32/122 (26%), Positives = 48/122 (39%), Gaps = 6/122 (5%)
+
+Query  1    KCKKTTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNA--PRCWD  58
+            +  +   C  +  + C        +    L + S    E   +  L S L N     C  
+Sbjct  33   QTAQKAKCVDISLSSCTDVTYTQTMYPNFLDQKSREVIEYSSEYILISVLHNLLQGECNP  92
+
+Query  59   AIRPLLCAVYMPKCEGGKVELPSQGLCQTTRVPC--AIVARERGWPDFLKCTTDYF--PE  114
+             +R L C+V  P+CE  KV  P + +C+  +  C  A  A +  WP FL C   +    E
+Sbjct  93   DLRLLGCSVLAPQCEKDKVIKPCRHVCENLKKNCLSAFDAIDMAWPYFLDCDRFFAGEEE  152
+
+Query  115  GC  116
+            GC
+Sbjct  153  GC  154
+
+
+> sp|Q8WMU5|FZD6_CANLF Frizzled-6 OS=Canis lupus familiaris OX=9615 
+GN=FZD6 PE=2 SV=1
+Length=712
+
+ Score = 79.5 bits (194),  Expect = 3e-17, Method: Composition-based stats.
+ Identities = 24/111 (22%), Positives = 39/111 (35%), Gaps = 6/111 (5%)
+
+Query  7    TCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPLLCA  66
+            TCEP+    C+           ++      Q     K+  +  L N   C   I   LC 
+Sbjct  23   TCEPITVPRCMKMAYNMTFFPNLM--RHYDQSTAAVKMEPFLPLANL-ECSPNIETFLCK  79
+
+Query  67   VYMPKCEGG-KVELPSQGLCQTTRVPCAIVARERG--WPDFLKCTTDYFPE  114
+             ++P C     V  P +  C+     C  +    G  WP+ L+C    + +
+Sbjct  80   AFVPACTDQINVVPPCRKFCEKVYSDCKKLIDTFGMRWPEELECDRLQYCD  130
+
+
+> sp|O60353|FZD6_HUMAN Frizzled-6 OS=Homo sapiens OX=9606 GN=FZD6 
+PE=1 SV=2
+Length=706
+
+ Score = 79.1 bits (193),  Expect = 4e-17, Method: Composition-based stats.
+ Identities = 25/111 (23%), Positives = 41/111 (37%), Gaps = 6/111 (5%)
+
+Query  7    TCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPLLCA  66
+            TCEP+    C+           ++      Q     ++  +  L N   C   I   LC 
+Sbjct  23   TCEPITVPRCMKMAYNMTFFPNLMGH--YDQSIAAVEMEHFLPLANL-ECSPNIETFLCK  79
+
+Query  67   VYMPKC-EGGKVELPSQGLCQTTRVPCAIVARERG--WPDFLKCTTDYFPE  114
+             ++P C E   V  P + LC+     C  +    G  WP+ L+C    + +
+Sbjct  80   AFVPTCIEQIHVVPPCRKLCEKVYSDCKKLIDTFGIRWPEELECDRLQYCD  130
+
+
+> sp|Q5RCN4|FZD6_PONAB Frizzled-6 OS=Pongo abelii OX=9601 GN=FZD6 
+PE=2 SV=1
+Length=707
+
+ Score = 79.1 bits (193),  Expect = 4e-17, Method: Composition-based stats.
+ Identities = 25/111 (23%), Positives = 41/111 (37%), Gaps = 6/111 (5%)
+
+Query  7    TCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPLLCA  66
+            TCEP+    C+           ++      Q     ++  +  L N   C   I   LC 
+Sbjct  24   TCEPITVPRCMKMAYNMTFFPNLMGH--YDQSIAAVEMEHFLPLANL-ECSPNIETFLCK  80
+
+Query  67   VYMPKC-EGGKVELPSQGLCQTTRVPCAIVARERG--WPDFLKCTTDYFPE  114
+             ++P C E   V  P + LC+     C  +    G  WP+ L+C    + +
+Sbjct  81   AFVPTCTEQIHVVPPCRKLCEKVYSDCKKLIDTFGIRWPEELECDRLQYCD  131
+
+
+> sp|Q8AVJ9|FZD7B_XENLA Frizzled-7-B OS=Xenopus laevis OX=8355 
+GN=fzd7-b PE=1 SV=1
+Length=548
+
+ Score = 77.1 bits (188),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 23/103 (22%), Positives = 45/103 (44%), Gaps = 6/103 (6%)
+
+Query  8    CEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPLLCAV  67
+            C+P+   +C        +   +L     +Q++   ++  +  L    +C   +R  LC++
+Sbjct  36   CQPISIPLCTDIAYNQTIMPNLLGHT--NQEDAGLEVHQFYPLVKV-QCSPELRFFLCSM  92
+
+Query  68   YMPKCEG-GKVELPSQGLCQTTRVPCAIVARERG--WPDFLKC  107
+            Y P C    +   P + LC+  R  C  +  + G  WP+ L+C
+Sbjct  93   YAPVCTVLEQAIPPCRSLCERARQGCEALMNKFGFQWPERLRC  135
+
+
+> sp|A0A0K3AWM6|MOM5_CAEEL Protein mom-5 OS=Caenorhabditis elegans 
+OX=6239 GN=mom-5 PE=1 SV=1
+Length=570
+
+ Score = 76.8 bits (187),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 28/112 (25%), Positives = 46/112 (41%), Gaps = 6/112 (5%)
+
+Query  8    CEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPLLCAV  67
+            CE +   +C        +   +L     +Q E    ++ ++ L    +C + IR  LC V
+Sbjct  37   CEHITIPMCKNLDYNQTVFPNLLGHT--TQSEAGPAIAQFNPLIKV-KCSEDIRLFLCTV  93
+
+Query  68   YMPKCEG-GKVELPSQGLCQTTRVPCAIVARERG--WPDFLKCTTDYFPEGC  116
+            Y P C    K   P + LC + +  C  + ++ G  WPD L C      + C
+Sbjct  94   YAPVCTVLEKPIQPCRELCLSAKNGCESLMKKFGFQWPDQLDCNKFPVTDLC  145
+
+
+> sp|Q5BL72|FZD7_XENTR Frizzled-7 OS=Xenopus tropicalis OX=8364 
+GN=fzd7 PE=2 SV=1
+Length=548
+
+ Score = 76.8 bits (187),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 23/103 (22%), Positives = 45/103 (44%), Gaps = 6/103 (6%)
+
+Query  8    CEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPLLCAV  67
+            C+P+   +C        +   +L     +Q++   ++  +  L    +C   +R  LC++
+Sbjct  36   CQPISIPLCTDIAYNQTIMPNLLGHT--NQEDAGLEVHQFYPLVKV-QCSPELRFFLCSM  92
+
+Query  68   YMPKCEG-GKVELPSQGLCQTTRVPCAIVARERG--WPDFLKC  107
+            Y P C    +   P + LC+  R  C  +  + G  WP+ L+C
+Sbjct  93   YAPVCTVLEQAIPPCRSLCERARQGCEALMNKFGFQWPERLRC  135
+
+
+> sp|Q498S8|FZD8_RAT Frizzled-8 OS=Rattus norvegicus OX=10116 GN=Fzd8 
+PE=2 SV=1
+Length=684
+
+ Score = 76.4 bits (186),  Expect = 3e-16, Method: Composition-based stats.
+ Identities = 26/110 (24%), Positives = 48/110 (44%), Gaps = 7/110 (6%)
+
+Query  4    KTTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPL  63
+            K   C+ +   +C G    Y  T      +  +QDE   ++  +  L    +C   ++  
+Sbjct  31   KELACQEITVPLCKGIGYNY--TYMPNQFNHDTQDEAGLEVHQFWPLVEI-QCSPDLKFF  87
+
+Query  64   LCAVYMPKC--EGGKVELPSQGLCQTTRVPCAIVARE--RGWPDFLKCTT  109
+            LC++Y P C  +  K   P + +C+  +  CA + R+    WPD ++C  
+Sbjct  88   LCSMYTPICLEDYKKPLPPCRSVCERAKAGCAPLMRQYGFAWPDRMRCDR  137
+
+
+> sp|Q61089|FZD6_MOUSE Frizzled-6 OS=Mus musculus OX=10090 GN=Fzd6 
+PE=1 SV=1
+Length=709
+
+ Score = 76.4 bits (186),  Expect = 3e-16, Method: Composition-based stats.
+ Identities = 26/106 (25%), Positives = 40/106 (38%), Gaps = 6/106 (6%)
+
+Query  7    TCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPLLCA  66
+            TCEP+    C+           ++      Q     ++  +  L N   C   I   LC 
+Sbjct  23   TCEPITVPRCMKMTYNMTFFPNLMGH--YDQGIAAVEMGHFLHLANL-ECSPNIEMFLCQ  79
+
+Query  67   VYMPKC-EGGKVELPSQGLCQTTRVPCAIVARERG--WPDFLKCTT  109
+             ++P C E   V LP + LC+     C  +    G  WP+ L+C  
+Sbjct  80   AFIPTCTEQIHVVLPCRKLCEKIVSDCKKLMDTFGIRWPEELECNR  125
+
+
+> sp|O75084|FZD7_HUMAN Frizzled-7 OS=Homo sapiens OX=9606 GN=FZD7 
+PE=1 SV=2
+Length=574
+
+ Score = 76.4 bits (186),  Expect = 3e-16, Method: Composition-based stats.
+ Identities = 23/103 (22%), Positives = 45/103 (44%), Gaps = 6/103 (6%)
+
+Query  8    CEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPLLCAV  67
+            C+P+   +C        +   +L     +Q++   ++  +  L    +C   +R  LC++
+Sbjct  49   CQPISIPLCTDIAYNQTILPNLLGHT--NQEDAGLEVHQFYPLVKV-QCSPELRFFLCSM  105
+
+Query  68   YMPKCEG-GKVELPSQGLCQTTRVPCAIVARERG--WPDFLKC  107
+            Y P C    +   P + LC+  R  C  +  + G  WP+ L+C
+Sbjct  106  YAPVCTVLDQAIPPCRSLCERARQGCEALMNKFGFQWPERLRC  148
+
+
+> sp|Q9PUK8|FZD7A_XENLA Frizzled-7-A OS=Xenopus laevis OX=8355 
+GN=fzd7-a PE=1 SV=2
+Length=549
+
+ Score = 76.4 bits (186),  Expect = 3e-16, Method: Composition-based stats.
+ Identities = 23/103 (22%), Positives = 45/103 (44%), Gaps = 6/103 (6%)
+
+Query  8    CEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPLLCAV  67
+            C+P+   +C        +   +L     +Q++   ++  +  L    +C   +R  LC++
+Sbjct  37   CQPISIPLCTDIAYNQTIMPNLLGHT--NQEDAGLEVHQFYPLVKV-QCSPELRFFLCSM  93
+
+Query  68   YMPKCEG-GKVELPSQGLCQTTRVPCAIVARERG--WPDFLKC  107
+            Y P C    +   P + LC+  R  C  +  + G  WP+ L+C
+Sbjct  94   YAPVCTVLEQAIPPCRSLCERARQGCEALMNKFGFQWPERLRC  136
+
+
+> sp|Q61090|FZD7_MOUSE Frizzled-7 OS=Mus musculus OX=10090 GN=Fzd7 
+PE=1 SV=2
+Length=572
+
+ Score = 76.4 bits (186),  Expect = 3e-16, Method: Composition-based stats.
+ Identities = 23/103 (22%), Positives = 45/103 (44%), Gaps = 6/103 (6%)
+
+Query  8    CEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPLLCAV  67
+            C+P+   +C        +   +L     +Q++   ++  +  L    +C   +R  LC++
+Sbjct  49   CQPISIPLCTDIAYNQTILPNLLGHT--NQEDAGLEVHQFYPLVKV-QCSPELRFFLCSM  105
+
+Query  68   YMPKCEG-GKVELPSQGLCQTTRVPCAIVARERG--WPDFLKC  107
+            Y P C    +   P + LC+  R  C  +  + G  WP+ L+C
+Sbjct  106  YAPVCTVLDQAIPPCRSLCERARQGCEALMNKFGFQWPERLRC  148
+
+
+> sp|Q9JIP6|FZD2_MOUSE Frizzled-2 OS=Mus musculus OX=10090 GN=Fzd2 
+PE=2 SV=1
+Length=570
+
+ Score = 76.0 bits (185),  Expect = 4e-16, Method: Composition-based stats.
+ Identities = 24/109 (22%), Positives = 49/109 (45%), Gaps = 8/109 (7%)
+
+Query  8    CEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPLLCAV  67
+            C+P+   +C        +   +L     +Q++   ++  +  L    +C   +R  LC++
+Sbjct  44   CQPISIPLCTDIAYNQTIMPNLLGHT--NQEDAGLEVHQFYPLVKV-QCSPELRFFLCSM  100
+
+Query  68   YMPKCEG-GKVELPSQGLCQTTRVPCAIVARERG--WPDFLKCTTDYFP  113
+            Y P C    +   P + +C+  R  C  +  + G  WP+ L+C  ++FP
+Sbjct  101  YAPVCTVLEQAIPPCRSICERARQGCEALMNKFGFQWPERLRC--EHFP  147
+
+
+> sp|Q61091|FZD8_MOUSE Frizzled-8 OS=Mus musculus OX=10090 GN=Fzd8 
+PE=1 SV=2
+Length=685
+
+ Score = 76.0 bits (185),  Expect = 4e-16, Method: Composition-based stats.
+ Identities = 26/110 (24%), Positives = 48/110 (44%), Gaps = 7/110 (6%)
+
+Query  4    KTTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPL  63
+            K   C+ +   +C G    Y  T      +  +QDE   ++  +  L    +C   ++  
+Sbjct  31   KELACQEITVPLCKGIGYNY--TYMPNQFNHDTQDEAGLEVHQFWPLVEI-QCSPDLKFF  87
+
+Query  64   LCAVYMPKC--EGGKVELPSQGLCQTTRVPCAIVARE--RGWPDFLKCTT  109
+            LC++Y P C  +  K   P + +C+  +  CA + R+    WPD ++C  
+Sbjct  88   LCSMYTPICLEDYKKPLPPCRSVCERAKAGCAPLMRQYGFAWPDRMRCDR  137
+
+
+> sp|Q9I9M5|FZD1_XENLA Frizzled-1 OS=Xenopus laevis OX=8355 GN=fzd1 
+PE=1 SV=1
+Length=559
+
+ Score = 76.0 bits (185),  Expect = 4e-16, Method: Composition-based stats.
+ Identities = 25/109 (23%), Positives = 47/109 (43%), Gaps = 8/109 (7%)
+
+Query  8    CEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPLLCAV  67
+            C+P+   +C        +   +L     +Q++   ++  +  L    +C   ++  LC++
+Sbjct  51   CQPISIPLCTDIAYNQTIMPNLLGHT--NQEDAGLEVHQFYPLVKV-QCSPELKFFLCSI  107
+
+Query  68   YMPKCEGGKVEL-PSQGLCQTTRVPCAIVARERG--WPDFLKCTTDYFP  113
+            Y P C   +  L P + LC   R  C  +  + G  WP+ L+C    FP
+Sbjct  108  YAPVCTVLEQALPPCRSLCDRARQGCEALMNKFGFQWPESLRCEK--FP  154
+
+
+> sp|Q9UP38|FZD1_HUMAN Frizzled-1 OS=Homo sapiens OX=9606 GN=FZD1 
+PE=1 SV=2
+Length=647
+
+ Score = 76.0 bits (185),  Expect = 4e-16, Method: Composition-based stats.
+ Identities = 27/109 (25%), Positives = 48/109 (44%), Gaps = 8/109 (7%)
+
+Query  8    CEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPLLCAV  67
+            C+P+   +C        +   +L     +Q++   ++  +  L    +C   ++  LC++
+Sbjct  116  CQPISIPLCTDIAYNQTIMPNLLGHT--NQEDAGLEVHQFYPLVKV-QCSAELKFFLCSM  172
+
+Query  68   YMPKCEGGKVELP-SQGLCQTTRVPCAIVARERG--WPDFLKCTTDYFP  113
+            Y P C   +  LP  + LC+  R  C  +  + G  WPD LKC    FP
+Sbjct  173  YAPVCTVLEQALPPCRSLCERARQGCEALMNKFGFQWPDTLKCEK--FP  219
+
+
+> sp|Q9H461|FZD8_HUMAN Frizzled-8 OS=Homo sapiens OX=9606 GN=FZD8 
+PE=1 SV=1
+Length=694
+
+ Score = 76.0 bits (185),  Expect = 5e-16, Method: Composition-based stats.
+ Identities = 26/110 (24%), Positives = 48/110 (44%), Gaps = 7/110 (6%)
+
+Query  4    KTTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPL  63
+            K   C+ +   +C G    Y  T      +  +QDE   ++  +  L    +C   ++  
+Sbjct  31   KELACQEITVPLCKGIGYNY--TYMPNQFNHDTQDEAGLEVHQFWPLVEI-QCSPDLKFF  87
+
+Query  64   LCAVYMPKC--EGGKVELPSQGLCQTTRVPCAIVARE--RGWPDFLKCTT  109
+            LC++Y P C  +  K   P + +C+  +  CA + R+    WPD ++C  
+Sbjct  88   LCSMYTPICLEDYKKPLPPCRSVCERAKAGCAPLMRQYGFAWPDRMRCDR  137
+
+
+> sp|Q14332|FZD2_HUMAN Frizzled-2 OS=Homo sapiens OX=9606 GN=FZD2 
+PE=1 SV=1
+Length=565
+
+ Score = 76.0 bits (185),  Expect = 5e-16, Method: Composition-based stats.
+ Identities = 24/109 (22%), Positives = 49/109 (45%), Gaps = 8/109 (7%)
+
+Query  8    CEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPLLCAV  67
+            C+P+   +C        +   +L     +Q++   ++  +  L    +C   +R  LC++
+Sbjct  39   CQPISIPLCTDIAYNQTIMPNLLGHT--NQEDAGLEVHQFYPLVKV-QCSPELRFFLCSM  95
+
+Query  68   YMPKCEG-GKVELPSQGLCQTTRVPCAIVARERG--WPDFLKCTTDYFP  113
+            Y P C    +   P + +C+  R  C  +  + G  WP+ L+C  ++FP
+Sbjct  96   YAPVCTVLEQAIPPCRSICERARQGCEALMNKFGFQWPERLRC--EHFP  142
+
+
+> sp|Q08464|FZD2_RAT Frizzled-2 OS=Rattus norvegicus OX=10116 GN=Fzd2 
+PE=1 SV=1
+Length=570
+
+ Score = 76.0 bits (185),  Expect = 5e-16, Method: Composition-based stats.
+ Identities = 24/109 (22%), Positives = 49/109 (45%), Gaps = 8/109 (7%)
+
+Query  8    CEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPLLCAV  67
+            C+P+   +C        +   +L     +Q++   ++  +  L    +C   +R  LC++
+Sbjct  44   CQPISIPLCTDIAYNQTIMPNLLGHT--NQEDAGLEVHQFYPLVKV-QCSPELRFFLCSM  100
+
+Query  68   YMPKCEG-GKVELPSQGLCQTTRVPCAIVARERG--WPDFLKCTTDYFP  113
+            Y P C    +   P + +C+  R  C  +  + G  WP+ L+C  ++FP
+Sbjct  101  YAPVCTVLEQAIPPCRSICERARQGCEALMNKFGFQWPERLRC--EHFP  147
+
+
+> sp|O70421|FZD1_MOUSE Frizzled-1 OS=Mus musculus OX=10090 GN=Fzd1 
+PE=1 SV=3
+Length=642
+
+ Score = 75.6 bits (184),  Expect = 6e-16, Method: Composition-based stats.
+ Identities = 27/109 (25%), Positives = 48/109 (44%), Gaps = 8/109 (7%)
+
+Query  8    CEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPLLCAV  67
+            C+P+   +C        +   +L     +Q++   ++  +  L    +C   ++  LC++
+Sbjct  111  CQPISIPLCTDIAYNQTIMPNLLGHT--NQEDAGLEVHQFYPLVKV-QCSAELKFFLCSM  167
+
+Query  68   YMPKCEGGKVELP-SQGLCQTTRVPCAIVARERG--WPDFLKCTTDYFP  113
+            Y P C   +  LP  + LC+  R  C  +  + G  WPD LKC    FP
+Sbjct  168  YAPVCTVLEQALPPCRSLCERARQGCEALMNKFGFQWPDTLKCEK--FP  214
+
+
+> sp|Q9PUU6|FZD2_XENLA Frizzled-2 OS=Xenopus laevis OX=8355 GN=fzd2 
+PE=2 SV=1
+Length=551
+
+ Score = 75.2 bits (183),  Expect = 7e-16, Method: Composition-based stats.
+ Identities = 22/103 (21%), Positives = 45/103 (44%), Gaps = 6/103 (6%)
+
+Query  8    CEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPLLCAV  67
+            C+P+   +C        +   +L     +Q++   ++  +  L    +C   +R  LC++
+Sbjct  38   CQPISIPLCTDIAYNQTIMPNLLGHT--NQEDAGLEVHQFYPLVKV-QCSSELRFFLCSM  94
+
+Query  68   YMPKCEG-GKVELPSQGLCQTTRVPCAIVARERG--WPDFLKC  107
+            Y P C    +   P + +C+  R  C  +  + G  WP+ L+C
+Sbjct  95   YAPVCTVLEQAIPPCRSICERARHGCEALMNKFGFQWPERLRC  137
+
+
+> sp|O93274|FZD8_XENLA Frizzled-8 OS=Xenopus laevis OX=8355 GN=fzd8 
+PE=1 SV=1
+Length=581
+
+ Score = 75.2 bits (183),  Expect = 7e-16, Method: Composition-based stats.
+ Identities = 26/110 (24%), Positives = 47/110 (43%), Gaps = 7/110 (6%)
+
+Query  4    KTTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPL  63
+            K  +C+ +   +C      Y  T      +  +QDE   ++  +  L     C   ++  
+Sbjct  24   KELSCQEITVPLCKDIGYNY--TYMPNQFNHDTQDEAGMEVHQFWPLV-VIHCSPDLKFF  80
+
+Query  64   LCAVYMPKC--EGGKVELPSQGLCQTTRVPCAIVARE--RGWPDFLKCTT  109
+            LC++Y P C  +  K   P + +C+  R  CA + R+    WPD ++C  
+Sbjct  81   LCSMYTPICLEDYKKPLPPCRSVCERARAGCAPLMRQYGFAWPDRMRCDR  130
+
+
+> sp|O57328|FZD1_CHICK Frizzled-1 OS=Gallus gallus OX=9031 GN=FZD1 
+PE=2 SV=1
+Length=592
+
+ Score = 74.4 bits (181),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 26/109 (24%), Positives = 48/109 (44%), Gaps = 8/109 (7%)
+
+Query  8    CEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPLLCAV  67
+            C+P+   +C        +   +L     +Q++   ++  +  L    +C   ++  LC++
+Sbjct  70   CQPISIPLCTDIAYNQTIMPNLLGHT--NQEDAGLEVHQFYPLVKV-QCSAELKFFLCSM  126
+
+Query  68   YMPKCEGGKVELP-SQGLCQTTRVPCAIVARERG--WPDFLKCTTDYFP  113
+            Y P C   +  LP  + LC+  R  C  +  + G  WPD L+C    FP
+Sbjct  127  YAPVCTVLEQALPPCRSLCERARQGCEALMNKFGFQWPDTLRCEK--FP  173
+
+
+> sp|P18537|FRIZ_DROME Frizzled OS=Drosophila melanogaster OX=7227 
+GN=fz PE=1 SV=1
+Length=581
+
+ Score = 73.7 bits (179),  Expect = 2e-15, Method: Composition-based stats.
+ Identities = 29/113 (26%), Positives = 53/113 (47%), Gaps = 9/113 (8%)
+
+Query  4    KTTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPL  63
+                CEP+  +IC    +PY +T        + Q+E   ++  ++ L     C D ++  
+Sbjct  49   HHNRCEPITISICKN--IPYNMTIMPNLIGHTKQEEAGLEVHQFAPLVKIG-CSDDLQLF  105
+
+Query  64   LCAVYMPKCE-GGKVELPSQGLCQTTRVPCAIVARE--RGWPDFLKCTTDYFP  113
+            LC++Y+P C    +   P + LC++ R  C  + +     WP+ L+C+   FP
+Sbjct  106  LCSLYVPVCTILERPIPPCRSLCESAR-VCEKLMKTYNFNWPENLECSK--FP  155
+
+
+> sp|Q13467|FZD5_HUMAN Frizzled-5 OS=Homo sapiens OX=9606 GN=FZD5 
+PE=1 SV=2
+Length=585
+
+ Score = 73.3 bits (178),  Expect = 3e-15, Method: Composition-based stats.
+ Identities = 26/110 (24%), Positives = 49/110 (45%), Gaps = 7/110 (6%)
+
+Query  4    KTTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPL  63
+            K   C+ +   +C G  + Y LT      +  +QDE   ++  +  L    +C   +R  
+Sbjct  29   KAPVCQEITVPMCRG--IGYNLTHMPNQFNHDTQDEAGLEVHQFWPLVEI-QCSPDLRFF  85
+
+Query  64   LCAVYMPKC--EGGKVELPSQGLCQTTRVPCAIVARE--RGWPDFLKCTT  109
+            LC++Y P C  +  K   P + +C+  +  C+ + R+    WP+ + C  
+Sbjct  86   LCSMYTPICLPDYHKPLPPCRSVCERAKAGCSPLMRQYGFAWPERMSCDR  135
+
+
+> sp|O57329|FZD7_CHICK Frizzled-7 OS=Gallus gallus OX=9031 GN=FZD7 
+PE=2 SV=1
+Length=567
+
+ Score = 73.3 bits (178),  Expect = 4e-15, Method: Composition-based stats.
+ Identities = 22/103 (21%), Positives = 45/103 (44%), Gaps = 6/103 (6%)
+
+Query  8    CEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPLLCAV  67
+            C+P+   +C        +   +L     +Q++   ++  +  L    +C   ++  LC++
+Sbjct  47   CQPISIPLCTDIAYNQTILPNLLGHT--NQEDAGLEVHQFYPLVKV-QCSAELKFFLCSM  103
+
+Query  68   YMPKCEG-GKVELPSQGLCQTTRVPCAIVARERG--WPDFLKC  107
+            Y P C    +   P + LC+  R  C  +  + G  WP+ L+C
+Sbjct  104  YAPVCTVLEQAIPPCRSLCERARQGCEALMNKFGFQWPERLRC  146
+
+
+> sp|Q9VVX3|FRIZ2_DROME Frizzled-2 OS=Drosophila melanogaster OX=7227 
+GN=fz2 PE=1 SV=1
+Length=694
+
+ Score = 72.9 bits (177),  Expect = 5e-15, Method: Composition-based stats.
+ Identities = 27/105 (26%), Positives = 49/105 (47%), Gaps = 7/105 (7%)
+
+Query  7    TCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPLLCA  66
+             CE +   +C G  + Y +TS     +  +QDE   ++  +  L    +C   ++  LC+
+Sbjct  63   RCEEITIPMCRG--IGYNMTSFPNEMNHETQDEAGLEVHQFWPLVEI-KCSPDLKFFLCS  119
+
+Query  67   VYMPKC-EGGKVELP-SQGLCQTTRVPCAIVARE--RGWPDFLKC  107
+            +Y P C E     LP  + +C+  R  CA + ++    WP+ + C
+Sbjct  120  MYTPICLEDYHKPLPVCRSVCERARSGCAPIMQQYSFEWPERMAC  164
+
+
+> sp|Q8CHL0|FZD5_RAT Frizzled-5 OS=Rattus norvegicus OX=10116 GN=Fzd5 
+PE=2 SV=1
+Length=585
+
+ Score = 72.9 bits (177),  Expect = 6e-15, Method: Composition-based stats.
+ Identities = 26/110 (24%), Positives = 48/110 (44%), Gaps = 7/110 (6%)
+
+Query  4    KTTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPL  63
+            K   C+ +   +C G  + Y LT      +  +QDE   ++  +  L     C   +R  
+Sbjct  29   KAPVCQEITVPMCRG--IGYNLTHMPNQFNHDTQDEAGLEVHQFWPLVEI-HCSPDLRFF  85
+
+Query  64   LCAVYMPKC--EGGKVELPSQGLCQTTRVPCAIVARE--RGWPDFLKCTT  109
+            LC++Y P C  +  K   P + +C+  +  C+ + R+    WP+ + C  
+Sbjct  86   LCSMYTPICLPDYHKPLPPCRSVCERAKAGCSPLMRQYGFAWPERMSCDR  135
+
+
+> sp|Q9EQD0|FZD5_MOUSE Frizzled-5 OS=Mus musculus OX=10090 GN=Fzd5 
+PE=1 SV=3
+Length=585
+
+ Score = 72.5 bits (176),  Expect = 6e-15, Method: Composition-based stats.
+ Identities = 26/110 (24%), Positives = 48/110 (44%), Gaps = 7/110 (6%)
+
+Query  4    KTTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPL  63
+            K   C+ +   +C G  + Y LT      +  +QDE   ++  +  L     C   +R  
+Sbjct  29   KAPVCQEITVPMCRG--IGYNLTHMPNQFNHDTQDEAGLEVHQFWPLVEI-HCSPDLRFF  85
+
+Query  64   LCAVYMPKC--EGGKVELPSQGLCQTTRVPCAIVARE--RGWPDFLKCTT  109
+            LC++Y P C  +  K   P + +C+  +  C+ + R+    WP+ + C  
+Sbjct  86   LCSMYTPICLPDYHKPLPPCRSVCERAKAGCSPLMRQYGFAWPERMSCDR  135
+
+
+> sp|P58421|FZD5_XENLA Frizzled-5 OS=Xenopus laevis OX=8355 GN=fzd5 
+PE=2 SV=1
+Length=559
+
+ Score = 72.1 bits (175),  Expect = 9e-15, Method: Composition-based stats.
+ Identities = 23/110 (21%), Positives = 47/110 (43%), Gaps = 7/110 (6%)
+
+Query  4    KTTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPL  63
+            K   C+ +   +C G    +  T      +  +QDE   ++  +  L    +C   ++  
+Sbjct  29   KAIVCQEITVPMCKGIGYNH--TYMPNQFNHDTQDEAGMEVHQFWPLV-VIQCSLDLKFF  85
+
+Query  64   LCAVYMPKC--EGGKVELPSQGLCQTTRVPCAIVARE--RGWPDFLKCTT  109
+            LC++Y P C  +  K   P + +C+  +  C+ + R+    WP+ + C  
+Sbjct  86   LCSMYTPICLPDYRKPLPPCRSVCERAKAGCSPLMRKYGFAWPERMNCDR  135
+
+
+> sp|Q24760|FRIZ_DROVI Frizzled OS=Drosophila virilis OX=7244 GN=fz 
+PE=2 SV=3
+Length=580
+
+ Score = 71.7 bits (174),  Expect = 1e-14, Method: Composition-based stats.
+ Identities = 26/110 (24%), Positives = 50/110 (45%), Gaps = 7/110 (6%)
+
+Query  4    KTTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPL  63
+                CEP+  +IC    +PY +T        + Q+E   ++  ++ L     C   ++  
+Sbjct  49   HHNRCEPITISICKN--IPYNMTIMPNLIGHTKQEEAGLEVHQFAPLVKIG-CSADLQLF  105
+
+Query  64   LCAVYMPKCE-GGKVELPSQGLCQTTRVPCAIVARE--RGWPDFLKCTTD  110
+            LC++Y+P C    +   P + LC++ R  C  + +     WP+ L+C+  
+Sbjct  106  LCSLYVPVCTILERPIPPCRSLCESAR-VCETLMKTYNFNWPENLECSKF  154
+
+
+> sp|Q9IA06|FZD2_CHICK Frizzled-2 (Fragment) OS=Gallus gallus OX=9031 
+GN=FZD2 PE=2 SV=1
+Length=523
+
+ Score = 71.7 bits (174),  Expect = 1e-14, Method: Composition-based stats.
+ Identities = 21/103 (20%), Positives = 45/103 (44%), Gaps = 6/103 (6%)
+
+Query  8    CEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPLLCAV  67
+            C+P+   +C        +   +L     +Q++   ++  +  L    +C   ++  LC++
+Sbjct  6    CQPISIPLCTDIAYNQTIMPNLLGHT--NQEDAGLEVHQFYPLVKV-QCSLELKFFLCSM  62
+
+Query  68   YMPKCEG-GKVELPSQGLCQTTRVPCAIVARERG--WPDFLKC  107
+            Y P C    +   P + +C+  R  C  +  + G  WP+ L+C
+Sbjct  63   YAPVCTVLEQAIPPCRSICERARQGCEALMNKFGFQWPERLRC  105
+
+
+> sp|Q8K4C8|FZD9_RAT Frizzled-9 OS=Rattus norvegicus OX=10116 GN=Fzd9 
+PE=2 SV=1
+Length=592
+
+ Score = 71.0 bits (172),  Expect = 3e-14, Method: Composition-based stats.
+ Identities = 31/114 (27%), Positives = 52/114 (46%), Gaps = 9/114 (8%)
+
+Query  1    KCKKTTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAI  60
+            + +    C+ ++  +C G  + Y LT        +SQ E   +L+ +S L     C   +
+Sbjct  33   RGRGPAPCQAMEIPMCRG--IGYNLTRMPNLLGHTSQGEAAAQLAEFSPLVQYG-CHSHL  89
+
+Query  61   RPLLCAVYMPKCEGGKVELP---SQGLCQTTRVPCAIVARE--RGWPDFLKCTT  109
+            R  LC++Y P C   +V  P    + +C+  R+ CA +  +   GWPD L C  
+Sbjct  90   RFFLCSLYAPMCT-DQVSTPIPACRPMCEQARLRCAPIMEQFNFGWPDSLDCAR  142
+
+
+> sp|Q9R216|FZD9_MOUSE Frizzled-9 OS=Mus musculus OX=10090 GN=Fzd9 
+PE=2 SV=1
+Length=592
+
+ Score = 71.0 bits (172),  Expect = 3e-14, Method: Composition-based stats.
+ Identities = 31/114 (27%), Positives = 52/114 (46%), Gaps = 9/114 (8%)
+
+Query  1    KCKKTTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAI  60
+            + +    C+ ++  +C G  + Y LT        +SQ E   +L+ +S L     C   +
+Sbjct  33   RGRGPAPCQAMEIPMCRG--IGYNLTRMPNLLGHTSQGEAAAQLAEFSPLVQYG-CHSHL  89
+
+Query  61   RPLLCAVYMPKCEGGKVELP---SQGLCQTTRVPCAIVARE--RGWPDFLKCTT  109
+            R  LC++Y P C   +V  P    + +C+  R+ CA +  +   GWPD L C  
+Sbjct  90   RFFLCSLYAPMCT-DQVSTPIPACRPMCEQARLRCAPIMEQFNFGWPDSLDCAR  142
+
+
+> sp|Q08463|FZD1_RAT Frizzled-1 OS=Rattus norvegicus OX=10116 GN=Fzd1 
+PE=1 SV=1
+Length=641
+
+ Score = 69.4 bits (168),  Expect = 9e-14, Method: Composition-based stats.
+ Identities = 26/109 (24%), Positives = 48/109 (44%), Gaps = 9/109 (8%)
+
+Query  8    CEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPLLCAV  67
+            C+P+   +C        +   +L     +Q++   ++  +  L    +C   ++  LC++
+Sbjct  111  CQPISIPLCTDIAYNQTIMPNLLGHT--NQEDAGLEVHQFYPLVKV-QCSAELKFFLCSM  167
+
+Query  68   YMPKCEGGKVEL-PSQGLCQTTRVPCAIVARERG--WPDFLKCTTDYFP  113
+            Y P C   +  L P + LC+  +  C  +  + G  WPD LKC    FP
+Sbjct  168  YAPVCTVLEQALPPCRSLCERAQG-CEALMNKFGFQWPDTLKCEK--FP  213
+
+
+> sp|Q9IA96|SFRP2_CHICK Secreted frizzled-related protein 2 OS=Gallus 
+gallus OX=9031 GN=SFRP2 PE=2 SV=1
+Length=292
+
+ Score = 66.7 bits (161),  Expect = 5e-13, Method: Composition-based stats.
+ Identities = 27/111 (24%), Positives = 46/111 (41%), Gaps = 5/111 (5%)
+
+Query  4    KTTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPL  63
+            K + C+P+   + L   + Y            +  EV ++ + W  L    +C    R  
+Sbjct  33   KRSNCKPIPAPMLLCRGIEYQSMRLPNLLGHETVQEVLEQATTWIPLVQK-QCHPDTRKF  91
+
+Query  64   LCAVYMPKC--EGGKVELPSQGLCQTTRVPCAIVARERG--WPDFLKCTTD  110
+            LC+++ P C  +  ++  P   LC+  +  CA V    G  WPD L C+  
+Sbjct  92   LCSLFAPVCIDDLDEIIQPCHSLCEEVKESCAPVMSAFGFPWPDMLDCSRF  142
+
+
+> sp|G5ECQ2|FRIZ2_CAEEL Frizzled-2 OS=Caenorhabditis elegans OX=6239 
+GN=cfz-2 PE=2 SV=1
+Length=578
+
+ Score = 66.7 bits (161),  Expect = 8e-13, Method: Composition-based stats.
+ Identities = 29/109 (27%), Positives = 47/109 (43%), Gaps = 7/109 (6%)
+
+Query  3    KKTTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRP  62
+             K   CE +   +C G  + Y +TS   +     Q+E   ++  +  L     C+  ++ 
+Sbjct  20   GKRQKCEQITIPLCKG--IGYNMTSFPNSYGHEKQEEAGLEVHQFYPLVEVG-CFQHLKF  76
+
+Query  63   LLCAVYMPKCE--GGKVELPSQGLCQTTRVPCAIVARERG--WPDFLKC  107
+             LC +Y P C+    K  LP   LC   R  C+ +  + G  WP+ L C
+Sbjct  77   FLCTMYTPICQENYDKPILPCMELCVEARSKCSPIMAKYGFRWPETLSC  125
+
+
+> sp|Q61088|FZD4_MOUSE Frizzled-4 OS=Mus musculus OX=10090 GN=Fzd4 
+PE=1 SV=1
+Length=537
+
+ Score = 65.6 bits (158),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 32/111 (29%), Positives = 52/111 (47%), Gaps = 9/111 (8%)
+
+Query  7    TCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPLLCA  66
+             C+P++  +C    L Y +T          Q +   +L+ ++ L     C   ++  LC+
+Sbjct  44   RCDPIRIAMCQN--LGYNVTKMPNLVGHELQTDAELQLTTFTPLIQYG-CSSQLQFFLCS  100
+
+Query  67   VYMPKC-EGGKVEL-PSQGLCQTTRVPCAIVARERG--WPDFLKCTTDYFP  113
+            VY+P C E   + + P  G+C + +  C  V RE G  WPD L C+   FP
+Sbjct  101  VYVPMCTEKINIPIGPCGGMCLSVKRRCEPVLREFGFAWPDTLNCSK--FP  149
+
+
+> sp|Q8BKG4|FZD10_MOUSE Frizzled-10 OS=Mus musculus OX=10090 GN=Fzd10 
+PE=1 SV=1
+Length=582
+
+ Score = 65.2 bits (157),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 26/106 (25%), Positives = 47/106 (44%), Gaps = 7/106 (7%)
+
+Query  8    CEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPLLCAV  67
+            C+P++  +C    + Y  T         +Q E   +L  ++ L     C   +R  LC++
+Sbjct  35   CQPVEIPMCKD--IGYNTTRMPNLMGHENQREAAIQLHEFAPLVEYG-CHSHLRFFLCSL  91
+
+Query  68   YMPKC-EGGKVELP-SQGLCQTTRVPCAIVARERG--WPDFLKCTT  109
+            Y P C E     +P  + +C+  R+ C+ +  +    WPD L C+ 
+Sbjct  92   YAPMCTEQVSTPIPACRVMCEQARLKCSPIMEQFKFRWPDSLDCSK  137
+
+
+> sp|Q9PWH2|FZD10_CHICK Frizzled-10 OS=Gallus gallus OX=9031 GN=FZD10 
+PE=1 SV=1
+Length=585
+
+ Score = 65.2 bits (157),  Expect = 3e-12, Method: Composition-based stats.
+ Identities = 23/107 (21%), Positives = 47/107 (44%), Gaps = 7/107 (7%)
+
+Query  7    TCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPLLCA  66
+             C+P++  +C            ++  +  +Q E   +L  ++ L     C   ++  LC+
+Sbjct  37   RCQPIEIPMCKDIGYNMTRMPNLMGHE--NQREAAIQLHEFAPLVEYG-CHGHLKFFLCS  93
+
+Query  67   VYMPKC-EGGKVELP-SQGLCQTTRVPCAIVARERG--WPDFLKCTT  109
+            +Y P C E     +P  + +C+  R+ C+ +  +    WPD L C+ 
+Sbjct  94   LYAPMCTEQVSTPIPACRVMCEQARLKCSPIMEQFNFKWPDSLDCSK  140
+
+
+> sp|Q9PT62|FZD4_XENLA Frizzled-4 OS=Xenopus laevis OX=8355 GN=fzd4 
+PE=2 SV=1
+Length=523
+
+ Score = 65.2 bits (157),  Expect = 3e-12, Method: Composition-based stats.
+ Identities = 30/111 (27%), Positives = 53/111 (48%), Gaps = 9/111 (8%)
+
+Query  7    TCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPLLCA  66
+            +C+P++  +C    L Y +T          Q +   +L+ ++ L     C   ++  LC+
+Sbjct  30   SCDPIRITMCQN--LGYNVTKMPNLVGHELQADAELQLTTFTPLIQYG-CSSQLQFFLCS  86
+
+Query  67   VYMPKC-EGGKVEL-PSQGLCQTTRVPCAIVARERG--WPDFLKCTTDYFP  113
+            VY+P C E   + + P  G+C + +  C  V +E G  WP+ L C+   FP
+Sbjct  87   VYVPMCTEKINIPIGPCGGMCLSVKRRCEPVLKEFGFAWPESLNCSK--FP  135
+
+
+> sp|Q9DEB5|FZ10A_XENLA Frizzled-10-A OS=Xenopus laevis OX=8355 
+GN=fzd10-a PE=2 SV=1
+Length=586
+
+ Score = 64.8 bits (156),  Expect = 3e-12, Method: Composition-based stats.
+ Identities = 22/107 (21%), Positives = 46/107 (43%), Gaps = 7/107 (7%)
+
+Query  7    TCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPLLCA  66
+             C+ ++  +C            ++  +  +Q E   +L  ++ L     C   ++  LC+
+Sbjct  39   RCQAIEIPMCKDIGYNMTRMPNLMGHE--NQKEAAIQLHEFAPLVEYG-CHSHLKFFLCS  95
+
+Query  67   VYMPKC-EGGKVELP-SQGLCQTTRVPCAIVARERG--WPDFLKCTT  109
+            +Y P C E     +P  + +C+  R+ C+ +  +    WPD L C+ 
+Sbjct  96   LYAPMCTEQVSTPIPACRVMCEQARLKCSPIMEQFNFKWPDSLDCSK  142
+
+
+> sp|Q9QZH0|FZD4_RAT Frizzled-4 OS=Rattus norvegicus OX=10116 GN=Fzd4 
+PE=2 SV=1
+Length=538
+
+ Score = 64.8 bits (156),  Expect = 3e-12, Method: Composition-based stats.
+ Identities = 31/111 (28%), Positives = 52/111 (47%), Gaps = 9/111 (8%)
+
+Query  7    TCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPLLCA  66
+             C+P++  +C    L Y +T          Q +   +L+ ++ L     C   ++  LC+
+Sbjct  45   RCDPIRIAMCQN--LGYNVTKMPNLVGHELQTDAELQLTTFTPLIQYG-CSSQLQFFLCS  101
+
+Query  67   VYMPKC-EGGKVEL-PSQGLCQTTRVPCAIVARERG--WPDFLKCTTDYFP  113
+            VY+P C E   + + P  G+C + +  C  V +E G  WPD L C+   FP
+Sbjct  102  VYVPMCTEKINIPIGPCGGMCLSVKRRCEPVLKEFGFAWPDSLNCSK--FP  150
+
+
+> sp|Q9ULV1|FZD4_HUMAN Frizzled-4 OS=Homo sapiens OX=9606 GN=FZD4 
+PE=1 SV=2
+Length=537
+
+ Score = 64.8 bits (156),  Expect = 3e-12, Method: Composition-based stats.
+ Identities = 30/111 (27%), Positives = 53/111 (48%), Gaps = 9/111 (8%)
+
+Query  7    TCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPLLCA  66
+             C+P++ ++C    L Y +T          Q +   +L+ ++ L     C   ++  LC+
+Sbjct  44   RCDPIRISMCQN--LGYNVTKMPNLVGHELQTDAELQLTTFTPLIQYG-CSSQLQFFLCS  100
+
+Query  67   VYMPKC-EGGKVEL-PSQGLCQTTRVPCAIVARERG--WPDFLKCTTDYFP  113
+            VY+P C E   + + P  G+C + +  C  V +E G  WP+ L C+   FP
+Sbjct  101  VYVPMCTEKINIPIGPCGGMCLSVKRRCEPVLKEFGFAWPESLNCSK--FP  149
+
+
+> sp|Q9W742|FZ10B_XENLA Frizzled-10-B OS=Xenopus laevis OX=8355 
+GN=fzd10-b PE=2 SV=1
+Length=580
+
+ Score = 64.4 bits (155),  Expect = 5e-12, Method: Composition-based stats.
+ Identities = 22/107 (21%), Positives = 46/107 (43%), Gaps = 7/107 (7%)
+
+Query  7    TCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPLLCA  66
+             C+ ++  +C            ++  +  +Q E   +L  ++ L     C   ++  LC+
+Sbjct  33   RCQAIEIPMCKDIGYNMTRMPNLMGHE--NQKEAAIQLHEFAPLVEYG-CHSHLKFFLCS  89
+
+Query  67   VYMPKC-EGGKVELP-SQGLCQTTRVPCAIVARERG--WPDFLKCTT  109
+            +Y P C E     +P  + +C+  R+ C+ +  +    WPD L C+ 
+Sbjct  90   LYAPMCTEQVSTPIPACRVMCEQARLKCSPIMEQFNFKWPDSLDCSK  136
+
+
+> sp|Q9ULW2|FZD10_HUMAN Frizzled-10 OS=Homo sapiens OX=9606 GN=FZD10 
+PE=1 SV=1
+Length=581
+
+ Score = 64.4 bits (155),  Expect = 5e-12, Method: Composition-based stats.
+ Identities = 24/106 (23%), Positives = 46/106 (43%), Gaps = 7/106 (7%)
+
+Query  8    CEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPLLCAV  67
+            C+P++  +C            ++  +  +Q E   +L  ++ L     C   +R  LC++
+Sbjct  34   CQPIEIPMCKDIGYNMTRMPNLMGHE--NQREAAIQLHEFAPLVEYG-CHGHLRFFLCSL  90
+
+Query  68   YMPKC-EGGKVELP-SQGLCQTTRVPCAIVARERG--WPDFLKCTT  109
+            Y P C E     +P  + +C+  R+ C+ +  +    WPD L C  
+Sbjct  91   YAPMCTEQVSTPIPACRVMCEQARLKCSPIMEQFNFKWPDSLDCRK  136
+
+
+> sp|Q5RF67|SFRP3_PONAB Secreted frizzled-related protein 3 OS=Pongo 
+abelii OX=9601 GN=FRZB PE=2 SV=1
+Length=325
+
+ Score = 63.7 bits (153),  Expect = 7e-12, Method: Composition-based stats.
+ Identities = 26/111 (23%), Positives = 43/111 (39%), Gaps = 8/111 (7%)
+
+Query  4    KTTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPL  63
+            +   CEP++  +C    LP+ +T        S+Q      +  + GL     C   +   
+Sbjct  31   RAAACEPVRIPLC--KSLPWNMTKMPNHLHHSTQANAILAIEQFEGLLGT-HCSPDLLFF  87
+
+Query  64   LCAVYMPKCEGGKVE---LPSQGLCQTTRVPCAIVARER--GWPDFLKCTT  109
+            LCA+Y P C          P + +C+  R  C  +  +    WP+ L C  
+Sbjct  88   LCAMYAPICTIDFQHEPIKPCKSVCERARQGCEPILIKYRHSWPENLACEE  138
+
+
+> sp|Q92765|SFRP3_HUMAN Secreted frizzled-related protein 3 OS=Homo 
+sapiens OX=9606 GN=FRZB PE=1 SV=2
+Length=325
+
+ Score = 63.7 bits (153),  Expect = 7e-12, Method: Composition-based stats.
+ Identities = 26/111 (23%), Positives = 43/111 (39%), Gaps = 8/111 (7%)
+
+Query  4    KTTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPL  63
+            +   CEP++  +C    LP+ +T        S+Q      +  + GL     C   +   
+Sbjct  31   RAAACEPVRIPLC--KSLPWNMTKMPNHLHHSTQANAILAIEQFEGLLGT-HCSPDLLFF  87
+
+Query  64   LCAVYMPKCEGGKVE---LPSQGLCQTTRVPCAIVARER--GWPDFLKCTT  109
+            LCA+Y P C          P + +C+  R  C  +  +    WP+ L C  
+Sbjct  88   LCAMYAPICTIDFQHEPIKPCKSVCERARQGCEPILIKYRHSWPENLACEE  138
+
+
+> sp|Q95117|SFRP3_BOVIN Secreted frizzled-related protein 3 OS=Bos 
+taurus OX=9913 GN=FRZB PE=1 SV=1
+Length=325
+
+ Score = 63.7 bits (153),  Expect = 7e-12, Method: Composition-based stats.
+ Identities = 26/111 (23%), Positives = 43/111 (39%), Gaps = 8/111 (7%)
+
+Query  4    KTTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPL  63
+            +   CEP++  +C    LP+ +T        S+Q      +  + GL     C   +   
+Sbjct  31   RAAACEPVRIPLC--KSLPWNMTKMPNHLHHSTQANAILAIEQFEGLLGT-HCSPDLLFF  87
+
+Query  64   LCAVYMPKCEGGKVE---LPSQGLCQTTRVPCAIVARER--GWPDFLKCTT  109
+            LCA+Y P C          P + +C+  R  C  +  +    WP+ L C  
+Sbjct  88   LCAMYAPICTIDFQHEPIKPCKSVCERARQGCEPILIKYRHSWPESLACEE  138
+
+
+> sp|P97401|SFRP3_MOUSE Secreted frizzled-related protein 3 OS=Mus 
+musculus OX=10090 GN=Frzb PE=1 SV=1
+Length=323
+
+ Score = 62.5 bits (150),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 26/111 (23%), Positives = 43/111 (39%), Gaps = 8/111 (7%)
+
+Query  4    KTTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPL  63
+            +   CEP++  +C    LP+ +T        S+Q      +  + GL     C   +   
+Sbjct  31   QAAACEPVRIPLC--KSLPWNMTKMPNHLHHSTQANAILAMEQFEGLLGT-HCSPDLLFF  87
+
+Query  64   LCAVYMPKCEGGKVE---LPSQGLCQTTRVPCAIVARER--GWPDFLKCTT  109
+            LCA+Y P C          P + +C+  R  C  +  +    WP+ L C  
+Sbjct  88   LCAMYAPICTIDFQHEPIKPCKSVCERARQGCEPILIKYRHSWPESLACDE  138
+
+
+> sp|Q9IA05|FZD4_CHICK Frizzled-4 OS=Gallus gallus OX=9031 GN=FZD4 
+PE=1 SV=1
+Length=525
+
+ Score = 62.5 bits (150),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 30/111 (27%), Positives = 51/111 (46%), Gaps = 9/111 (8%)
+
+Query  7    TCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPLLCA  66
+             C+ ++  +C    L Y +T          Q +   +L+ ++ L     C   ++  LC+
+Sbjct  32   RCDAIRIAMCQN--LGYNVTKMPNLVGHELQADAELQLTTFTPLIQYG-CSSQLQFFLCS  88
+
+Query  67   VYMPKC-EGGKVEL-PSQGLCQTTRVPCAIVARERG--WPDFLKCTTDYFP  113
+            VY+P C E   + + P  G+C + +  C  V +E G  WPD L C+   FP
+Sbjct  89   VYVPMCTEKINIPIGPCGGMCLSVKRRCEPVLKEFGFAWPDSLNCSK--FP  137
+
+
+> sp|Q9IA95|SFRP3_CHICK Secreted frizzled-related protein 3 OS=Gallus 
+gallus OX=9031 GN=FRZB PE=2 SV=1
+Length=315
+
+ Score = 61.3 bits (147),  Expect = 4e-11, Method: Composition-based stats.
+ Identities = 27/107 (25%), Positives = 41/107 (38%), Gaps = 8/107 (7%)
+
+Query  8    CEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPLLCAV  67
+            CEP++  +C    LP+ +T        S+Q      +  + GL     C   +   LCA+
+Sbjct  27   CEPVRIPLC--KPLPWNMTKMPNHLHHSTQANAVLAMEQFEGLLGT-NCSPDLLFFLCAM  83
+
+Query  68   YMPKCEGGKVE---LPSQGLCQTTRVPCAIVARER--GWPDFLKCTT  109
+            Y P C          P + +C+  R  C  V       WP+ L C  
+Sbjct  84   YAPICTIDFQHEPIKPCKSVCERARAGCEPVLIRYRHAWPESLACDE  130
+
+
+> sp|Q6FHJ7|SFRP4_HUMAN Secreted frizzled-related protein 4 OS=Homo 
+sapiens OX=9606 GN=SFRP4 PE=1 SV=2
+Length=346
+
+ Score = 61.3 bits (147),  Expect = 4e-11, Method: Composition-based stats.
+ Identities = 25/112 (22%), Positives = 45/112 (40%), Gaps = 8/112 (7%)
+
+Query  3    KKTTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRP  62
+             +   CE ++  +C    +P+ +T        S+Q+     +  +  L +   C   +R 
+Sbjct  19   VRGAPCEAVRIPMC--RHMPWNITRMPNHLHHSTQENAILAIEQYEELVDV-NCSAVLRF  75
+
+Query  63   LLCAVYMPKCEGGKVE---LPSQGLCQTTRVPCAIVARER--GWPDFLKCTT  109
+             LCA+Y P C    +     P + +CQ  R  C  + +     WP+ L C  
+Sbjct  76   FLCAMYAPICTLEFLHDPIKPCKSVCQRARDDCEPLMKMYNHSWPESLACDE  127
+
+
+> sp|Q9Z1N6|SFRP4_MOUSE Secreted frizzled-related sequence protein 
+4 OS=Mus musculus OX=10090 GN=Sfrp4 PE=2 SV=1
+Length=351
+
+ Score = 61.3 bits (147),  Expect = 6e-11, Method: Composition-based stats.
+ Identities = 25/112 (22%), Positives = 45/112 (40%), Gaps = 8/112 (7%)
+
+Query  3    KKTTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRP  62
+             +   CE ++  +C    +P+ +T        S+Q+     +  +  L +   C   +R 
+Sbjct  19   VRGAPCEAVRIPMC--RHMPWNITRMPNHLHHSTQENAILAIEQYEELVDV-NCSSVLRF  75
+
+Query  63   LLCAVYMPKCEGGKVE---LPSQGLCQTTRVPCAIVARER--GWPDFLKCTT  109
+             LCA+Y P C    +     P + +CQ  R  C  + +     WP+ L C  
+Sbjct  76   FLCAMYAPICTLEFLHDPIKPCKSVCQRARDDCEPLMKMYNHSWPESLACDE  127
+
+
+> sp|O00144|FZD9_HUMAN Frizzled-9 OS=Homo sapiens OX=9606 GN=FZD9 
+PE=2 SV=1
+Length=591
+
+ Score = 61.3 bits (147),  Expect = 6e-11, Method: Composition-based stats.
+ Identities = 30/114 (26%), Positives = 52/114 (46%), Gaps = 9/114 (8%)
+
+Query  1    KCKKTTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAI  60
+            + +    C+ ++  +C G  + Y LT        +SQ E   +L+ ++ L     C   +
+Sbjct  32   RGRGAAPCQAVEIPMCRG--IGYNLTRMPNLLGHTSQGEAAAELAEFAPLVQYG-CHSHL  88
+
+Query  61   RPLLCAVYMPKCEGGKVELP---SQGLCQTTRVPCAIVARE--RGWPDFLKCTT  109
+            R  LC++Y P C   +V  P    + +C+  R+ CA +  +   GWPD L C  
+Sbjct  89   RFFLCSLYAPMCT-DQVSTPIPACRPMCEQARLRCAPIMEQFNFGWPDSLDCAR  141
+
+
+> sp|Q7YRN1|SFRP4_MACMU Secreted frizzled-related protein 4 OS=Macaca 
+mulatta OX=9544 GN=SFRP4 PE=2 SV=1
+Length=346
+
+ Score = 60.6 bits (145),  Expect = 9e-11, Method: Composition-based stats.
+ Identities = 25/112 (22%), Positives = 45/112 (40%), Gaps = 8/112 (7%)
+
+Query  3    KKTTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRP  62
+             +   CE ++  +C    +P+ +T        S+Q+     +  +  L +   C   +R 
+Sbjct  19   VRGAPCEAVRIPMC--RHMPWNITRMPNHLHHSTQENAILAIEQYEELVDV-NCSSVLRF  75
+
+Query  63   LLCAVYMPKCEGGKVE---LPSQGLCQTTRVPCAIVARER--GWPDFLKCTT  109
+             LCA+Y P C    +     P + +CQ  R  C  + +     WP+ L C  
+Sbjct  76   FLCAMYAPICTLEFLHDPIKPCKSVCQRARDDCEPLMKMYNHSWPESLACDE  127
+
+
+> sp|Q8C4U3|SFRP1_MOUSE Secreted frizzled-related protein 1 OS=Mus 
+musculus OX=10090 GN=Sfrp1 PE=1 SV=3
+Length=314
+
+ Score = 60.2 bits (144),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 31/116 (27%), Positives = 49/116 (42%), Gaps = 10/116 (9%)
+
+Query  4    KTTTCE--PLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIR  61
+            K   C   P+   +C        +   +L  ++ ++ +     S W  L N   C    +
+Sbjct  54   KPPQCVDIPVDLRLCHNVGYKKMVLPNLLEHETMAEVKQQA--SSWVPLLNK-NCHMGTQ  110
+
+Query  62   PLLCAVYMPKCEGGKVELPSQGLCQTTRVPCAIVARERG--WPDFLKCTTDYFPEG  115
+              LC+++ P C   +   P + LC+  R  C  V +  G  WP+ LKC  D FPEG
+Sbjct  111  VFLCSLFAPVC-LDRPIYPCRWLCEAVRDSCEPVMQFFGFYWPEMLKC--DKFPEG  163
+
+
+> sp|Q9Z319|CORIN_MOUSE Atrial natriuretic peptide-converting enzyme 
+OS=Mus musculus OX=10090 GN=Corin PE=2 SV=2
+Length=1113
+
+ Score = 60.6 bits (145),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 25/113 (22%), Positives = 46/113 (41%), Gaps = 7/113 (6%)
+
+Query  6    TTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPLLC  65
+            + CEP+   +C+     +      L   +  +  +  + SL+  L     C+  +    C
+Sbjct  521  SQCEPITLELCMNLPYNHTHYPNYLGHRTQKEASISWESSLFPALVQT-NCYKYLMFFAC  579
+
+Query  66   AVYMPKCEGGKVEL--PSQGLCQTTRVPCAIVARERG--WPDFLKCTTDYFPE  114
+             + +PKC+    +   P + LC+ ++  C  V    G  WP+   C    FPE
+Sbjct  580  TILVPKCDVNTGQRIPPCRLLCEHSKERCESVLGIVGLQWPEDTDCNQ--FPE  630
+
+
+ Score = 46.7 bits (109),  Expect = 8e-06, Method: Composition-based stats.
+ Identities = 26/115 (23%), Positives = 46/115 (40%), Gaps = 10/115 (9%)
+
+Query  3    KKTTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRP  62
+            + T+TC  + ++ C   +LPY  T   L     + D   +K   +    +   C+  I  
+Sbjct  201  RNTSTCMNITHSQC--QILPYHSTLAPLLPIVKNMD--MEKFLKFFTYLHRLSCYQHILL  256
+
+Query  63   LLCAVYMPKC----EGGKVELPSQGLCQTTRVPCAIV--ARERGWPDFLKCTTDY  111
+              C++  P+C    +     LP +  C+  +  C  V       WPD L+C+   
+Sbjct  257  FGCSLAFPECVVDGDDRHGLLPCRSFCEAAKEGCESVLGMVNSSWPDSLRCSQFR  311
+
+
+> sp|Q9JLS4|SFRP4_RAT Secreted frizzled-related protein 4 OS=Rattus 
+norvegicus OX=10116 GN=Sfrp4 PE=2 SV=2
+Length=348
+
+ Score = 59.8 bits (143),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 25/112 (22%), Positives = 45/112 (40%), Gaps = 8/112 (7%)
+
+Query  3    KKTTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRP  62
+             +   CE ++  +C    +P+ +T        S+Q+     +  +  L +   C   +R 
+Sbjct  19   VRGAPCEAVRIPMC--RHMPWNITRMPNHLHHSTQENAILAIEQYEELVDV-NCSSVLRF  75
+
+Query  63   LLCAVYMPKCEGGKVE---LPSQGLCQTTRVPCAIVARER--GWPDFLKCTT  109
+             LCA+Y P C    +     P + +CQ  R  C  + +     WP+ L C  
+Sbjct  76   FLCAMYAPICTLEFLHDPIKPCKSVCQRARDDCEPLMKMYNHSWPESLACDE  127
+
+
+> sp|Q96HF1|SFRP2_HUMAN Secreted frizzled-related protein 2 OS=Homo 
+sapiens OX=9606 GN=SFRP2 PE=1 SV=2
+Length=295
+
+ Score = 59.4 bits (142),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 30/115 (26%), Positives = 48/115 (42%), Gaps = 7/115 (6%)
+
+Query  4    KTTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPL  63
+            K + C+P+  N+ L   + Y            +  EV ++   W  L    +C    +  
+Sbjct  36   KRSNCKPIPANLQLCHGIEYQNMRLPNLLGHETMKEVLEQAGAWIPLV-MKQCHPDTKKF  94
+
+Query  64   LCAVYMPKC--EGGKVELPSQGLCQTTRVPCAIVARERG--WPDFLKCTTDYFPE  114
+            LC+++ P C  +  +   P   LC   +  CA V    G  WPD L+C  D FP+
+Sbjct  95   LCSLFAPVCLDDLDETIQPCHSLCVQVKDRCAPVMSAFGFPWPDMLEC--DRFPQ  147
+
+
+> sp|Q80YN4|CORIN_RAT Atrial natriuretic peptide-converting enzyme 
+OS=Rattus norvegicus OX=10116 GN=Corin PE=1 SV=2
+Length=1111
+
+ Score = 59.8 bits (143),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 25/113 (22%), Positives = 47/113 (42%), Gaps = 7/113 (6%)
+
+Query  6    TTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPLLC  65
+            + CEP+   +C+            L   +  +  +  + +L+  L     C+  +    C
+Sbjct  519  SHCEPITLELCMNLPYNLTHYPNYLGHRTQKEASISWESALFPALVQT-NCYKYLMFFAC  577
+
+Query  66   AVYMPKCE--GGKVELPSQGLCQTTRVPCAIVARERG--WPDFLKCTTDYFPE  114
+             + +PKC+   G+   P + LC+ ++  C  V    G  WP+   C+   FPE
+Sbjct  578  TILVPKCDVNTGQRVPPCRLLCEHSKERCESVLGIVGLQWPEDTDCSQ--FPE  628
+
+
+ Score = 52.5 bits (124),  Expect = 8e-08, Method: Composition-based stats.
+ Identities = 27/116 (23%), Positives = 45/116 (39%), Gaps = 10/116 (9%)
+
+Query  3    KKTTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRP  62
+              T+TC  + +  C   +LPY  T   L     + D   +K   +    +   C+  I  
+Sbjct  199  GNTSTCVNITHRQC--QILPYHSTLAPLLPIVKNMD--TEKFLKFFTYLHRLGCYQHILL  254
+
+Query  63   LLCAVYMPKC----EGGKVELPSQGLCQTTRVPCAIV--ARERGWPDFLKCTTDYF  112
+              C++  PKC    +     LP +  C+  +  C  V       WPD L+C+   +
+Sbjct  255  FGCSLAFPKCIVDGDDRHGLLPCRSFCEAAKEGCESVLGMVNSSWPDSLRCSQFRY  310
+
+
+> sp|Q8N474|SFRP1_HUMAN Secreted frizzled-related protein 1 OS=Homo 
+sapiens OX=9606 GN=SFRP1 PE=1 SV=1
+Length=314
+
+ Score = 59.4 bits (142),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 30/116 (26%), Positives = 48/116 (41%), Gaps = 10/116 (9%)
+
+Query  4    KTTTCEPL--KYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIR  61
+            K   C  +     +C        +   +L  ++ ++ +     S W  L N   C    +
+Sbjct  54   KPPQCVDIPADLRLCHNVGYKKMVLPNLLEHETMAEVKQQA--SSWVPLLNK-NCHAGTQ  110
+
+Query  62   PLLCAVYMPKCEGGKVELPSQGLCQTTRVPCAIVARERG--WPDFLKCTTDYFPEG  115
+              LC+++ P C   +   P + LC+  R  C  V +  G  WP+ LKC  D FPEG
+Sbjct  111  VFLCSLFAPVC-LDRPIYPCRWLCEAVRDSCEPVMQFFGFYWPEMLKC--DKFPEG  163
+
+
+> sp|Q863H1|SFRP2_CANLF Secreted frizzled-related protein 2 OS=Canis 
+lupus familiaris OX=9615 GN=SFRP2 PE=2 SV=1
+Length=294
+
+ Score = 59.4 bits (142),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 30/115 (26%), Positives = 48/115 (42%), Gaps = 7/115 (6%)
+
+Query  4    KTTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPL  63
+            K + C+P+  N+ L   + Y            +  EV ++   W  L    +C    +  
+Sbjct  35   KRSNCKPIPANLQLCHGIEYQNMRLPNLLGHETMKEVLEQAGAWIPLV-MKQCHPDTKKF  93
+
+Query  64   LCAVYMPKC--EGGKVELPSQGLCQTTRVPCAIVARERG--WPDFLKCTTDYFPE  114
+            LC+++ P C  +  +   P   LC   +  CA V    G  WPD L+C  D FP+
+Sbjct  94   LCSLFAPVCLDDLDETIQPCHSLCVQVKDRCAPVMSAFGFPWPDMLEC--DRFPQ  146
+
+
+> sp|P97299|SFRP2_MOUSE Secreted frizzled-related protein 2 OS=Mus 
+musculus OX=10090 GN=Sfrp2 PE=1 SV=2
+Length=295
+
+ Score = 58.6 bits (140),  Expect = 4e-10, Method: Composition-based stats.
+ Identities = 30/115 (26%), Positives = 48/115 (42%), Gaps = 7/115 (6%)
+
+Query  4    KTTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPL  63
+            K + C+P+  N+ L   + Y            +  EV ++   W  L    +C    +  
+Sbjct  36   KRSNCKPIPANLQLCHGIEYQNMRLPNLLGHETMKEVLEQAGAWIPLV-MKQCHPDTKKF  94
+
+Query  64   LCAVYMPKC--EGGKVELPSQGLCQTTRVPCAIVARERG--WPDFLKCTTDYFPE  114
+            LC+++ P C  +  +   P   LC   +  CA V    G  WPD L+C  D FP+
+Sbjct  95   LCSLFAPVCLDDLDETIQPCHSLCVQVKDRCAPVMSAFGFPWPDMLEC--DRFPQ  147
+
+
+> sp|Q8K480|MFRP_MOUSE Membrane frizzled-related protein OS=Mus 
+musculus OX=10090 GN=Mfrp PE=1 SV=1
+Length=584
+
+ Score = 58.6 bits (140),  Expect = 5e-10, Method: Composition-based stats.
+ Identities = 27/104 (26%), Positives = 43/104 (41%), Gaps = 3/104 (3%)
+
+Query  7    TCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPLLCA  66
+            TCEP++  +CLG          +    + +Q EV D L  +  L + P C+   +  LC 
+Sbjct  470  TCEPVQVEMCLGLSYNTTAFPNIWVGLA-TQTEVTDILRGYKSLTSLP-CYQTFQRFLCG  527
+
+Query  67   VYMPKCEG-GKVELPSQGLCQTTRVPCAIVARERGWPDFLKCTT  109
+            + +P+C   G +  P + +CQ     C       G P    C  
+Sbjct  528  LLVPRCTSLGTILPPCRSVCQAAEQQCQSSLALLGTPWPFNCNR  571
+
+
+> sp|O19116|SFRP1_BOVIN Secreted frizzled-related protein 1 OS=Bos 
+taurus OX=9913 GN=SFRP1 PE=2 SV=1
+Length=308
+
+ Score = 57.5 bits (137),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 30/116 (26%), Positives = 48/116 (41%), Gaps = 10/116 (9%)
+
+Query  4    KTTTCEPL--KYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIR  61
+            K   C  +     +C        +   +L  ++ ++ +     S W  L N   C    +
+Sbjct  48   KPPQCVDIPADLRLCHNVGYKRMVLPNLLEHETMAEVKQQA--SSWVPLLNK-NCHIGTQ  104
+
+Query  62   PLLCAVYMPKCEGGKVELPSQGLCQTTRVPCAIVARERG--WPDFLKCTTDYFPEG  115
+              LC+++ P C   +   P + LC+  R  C  V +  G  WP+ LKC  D FPEG
+Sbjct  105  VFLCSLFAPVC-LDRPIYPCRWLCEAVRDSCEPVMQFFGFYWPEMLKC--DKFPEG  157
+
+
+> sp|Q9WU66|SFRP5_MOUSE Secreted frizzled-related protein 5 OS=Mus 
+musculus OX=10090 GN=Sfrp5 PE=2 SV=1
+Length=314
+
+ Score = 56.7 bits (135),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 28/109 (26%), Positives = 43/109 (39%), Gaps = 4/109 (4%)
+
+Query  4    KTTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPL  63
+            K   C  +  ++ L   + Y         +  S  EV  + S W  L  A RC    +  
+Sbjct  46   KPPQCLDIPADLPLCHTVGYKRMRLPNLLEHESLAEVKQQASSWLPLL-AKRCHSDTQVF  104
+
+Query  64   LCAVYMPKCEGGKVELPSQGLCQTTRVPCAIVARERG--WPDFLKCTTD  110
+            LC+++ P C   +   P + LC+  R  CA +    G  WP+ L C   
+Sbjct  105  LCSLFAPVC-LDRPIYPCRSLCEAARAGCAPLMEAYGFPWPEMLHCHKF  152
+
+
+> sp|Q9NBW1|FRIZ4_DROME Frizzled-4 OS=Drosophila melanogaster OX=7227 
+GN=fz4 PE=2 SV=2
+Length=705
+
+ Score = 56.7 bits (135),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 27/111 (24%), Positives = 44/111 (40%), Gaps = 10/111 (9%)
+
+Query  8    CEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPLLCAV  67
+            CE ++  +C            ++  +  +  E    L  ++ L     C   ++  LCA 
+Sbjct  46   CETIRIEMCRKIGYNETSMPNLVGNEMQTDVEYT--LQTFAPLIEYD-CSSQLKLFLCAA  102
+
+Query  68   YMPKCEGG---KVELPSQGLCQTTRVPCAIVARERG--WPDFLKCTTDYFP  113
+            Y+P C          P + LC++ R+ C  V +  G  WP  L C  D FP
+Sbjct  103  YVPMCTPKAPVHAIGPCRSLCESVRIRCHPVLQGFGFPWPPALDC--DKFP  151
+
+
+> sp|Q9XSC1|SFRP5_BOVIN Secreted frizzled-related protein 5 OS=Bos 
+taurus OX=9913 GN=SFRP5 PE=2 SV=1
+Length=315
+
+ Score = 56.3 bits (134),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 28/109 (26%), Positives = 43/109 (39%), Gaps = 4/109 (4%)
+
+Query  4    KTTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPL  63
+            K   C  +  ++ L   + Y         +  S  EV  + S W  L  A RC    +  
+Sbjct  47   KPPQCLDIPADLPLCHTVGYKRMRLPNLLEHESLAEVKQQASSWLPLL-AKRCHSDTQVF  105
+
+Query  64   LCAVYMPKCEGGKVELPSQGLCQTTRVPCAIVARERG--WPDFLKCTTD  110
+            LC+++ P C   +   P + LC+  R  CA +    G  WP+ L C   
+Sbjct  106  LCSLFAPVC-LDRPIYPCRSLCEAVRAGCAPLMEAYGFPWPEMLHCHKF  153
+
+
+> sp|Q9Y5Q5|CORIN_HUMAN Atrial natriuretic peptide-converting enzyme 
+OS=Homo sapiens OX=9606 GN=CORIN PE=1 SV=2
+Length=1042
+
+ Score = 56.7 bits (135),  Expect = 3e-09, Method: Composition-based stats.
+ Identities = 25/113 (22%), Positives = 46/113 (41%), Gaps = 7/113 (6%)
+
+Query  6    TTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPLLC  65
+            + CEP+   +C+                +  +  +  + SL+  L     C+  +    C
+Sbjct  453  SQCEPITLELCMNLPYNSTSYPNYFGHRTQKEASISWESSLFPALVQT-NCYKYLMFFSC  511
+
+Query  66   AVYMPKCE--GGKVELPSQGLCQTTRVPCAIVARERG--WPDFLKCTTDYFPE  114
+             + +PKC+   G+   P + LC+ ++  C  V    G  WP+   C+   FPE
+Sbjct  512  TILVPKCDVNTGEHIPPCRALCEHSKERCESVLGIVGLQWPEDTDCSQ--FPE  562
+
+
+ Score = 51.3 bits (121),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 26/115 (23%), Positives = 46/115 (40%), Gaps = 10/115 (9%)
+
+Query  3    KKTTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRP  62
+            + T+ C  + ++ C   +LPY  T T L     + +   +K   +    +   C+  I  
+Sbjct  134  RNTSACMNITHSQC--QMLPYHATLTPLLSVVRNME--MEKFLKFFTYLHRLSCYQHIML  189
+
+Query  63   LLCAVYMPKC----EGGKVELPSQGLCQTTRVPCAIV--ARERGWPDFLKCTTDY  111
+              C +  P+C    +     LP +  C+  +  C  V       WPDFL+C+   
+Sbjct  190  FGCTLAFPECIIDGDDSHGLLPCRSFCEAAKEGCESVLGMVNYSWPDFLRCSQFR  244
+
+
+> sp|Q5T4F7|SFRP5_HUMAN Secreted frizzled-related protein 5 OS=Homo 
+sapiens OX=9606 GN=SFRP5 PE=2 SV=3
+Length=317
+
+ Score = 56.0 bits (133),  Expect = 4e-09, Method: Composition-based stats.
+ Identities = 28/109 (26%), Positives = 43/109 (39%), Gaps = 4/109 (4%)
+
+Query  4    KTTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPL  63
+            K   C  +  ++ L   + Y         +  S  EV  + S W  L  A RC    +  
+Sbjct  49   KPPQCLDIPADLPLCHTVGYKRMRLPNLLEHESLAEVKQQASSWLPLL-AKRCHSDTQVF  107
+
+Query  64   LCAVYMPKCEGGKVELPSQGLCQTTRVPCAIVARERG--WPDFLKCTTD  110
+            LC+++ P C   +   P + LC+  R  CA +    G  WP+ L C   
+Sbjct  108  LCSLFAPVC-LDRPIYPCRSLCEAVRAGCAPLMEAYGFPWPEMLHCHKF  155
+
+
+> sp|Q9DEQ4|SFRP1_CHICK Secreted frizzled-related protein 1 OS=Gallus 
+gallus OX=9031 GN=SFRP1 PE=2 SV=1
+Length=314
+
+ Score = 55.6 bits (132),  Expect = 5e-09, Method: Composition-based stats.
+ Identities = 31/113 (27%), Positives = 44/113 (39%), Gaps = 8/113 (7%)
+
+Query  4    KTTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPL  63
+                  P    +C    + Y         D  +  EV  + S W  L N   C    +  
+Sbjct  56   HQCVAIPADLRLC--HSVGYDKMVLPNLLDHETMAEVKHQASSWVPLLNK-NCHMGTQVF  112
+
+Query  64   LCAVYMPKCEGGKVELPSQGLCQTTRVPCAIVARERG--WPDFLKCTTDYFPE  114
+            LC+++ P C    V  P + LC+  R  C  V +  G  WP+ LKC  D FP+
+Sbjct  113  LCSLFAPVCLDRPVY-PCRWLCEAVRDSCEPVMQFFGFFWPEMLKC--DQFPQ  162
+
+
+> sp|Q9BY79|MFRP_HUMAN Membrane frizzled-related protein OS=Homo 
+sapiens OX=9606 GN=MFRP PE=1 SV=1
+Length=579
+
+ Score = 54.0 bits (128),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 29/104 (28%), Positives = 44/104 (42%), Gaps = 3/104 (3%)
+
+Query  7    TCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPLLCA  66
+             CEP++  +CLG          +      +Q+EV + LS +  L + P C+   R LLC 
+Sbjct  465  ACEPVQVEMCLGLSYNTTAFPNIWVGMI-TQEEVVEVLSGYKSLTSLP-CYQHFRRLLCG  522
+
+Query  67   VYMPKCEG-GKVELPSQGLCQTTRVPCAIVARERGWPDFLKCTT  109
+            + +P+C   G V  P + +CQ     C       G P    C  
+Sbjct  523  LLVPRCTPLGSVLPPCRSVCQEAEHQCQSGLALLGTPWPFNCNR  566
+
+
+> sp|O77438|FRIZ3_DROME Frizzled-3 OS=Drosophila melanogaster OX=7227 
+GN=fz3 PE=2 SV=2
+Length=581
+
+ Score = 53.6 bits (127),  Expect = 3e-08, Method: Composition-based stats.
+ Identities = 32/114 (28%), Positives = 46/114 (40%), Gaps = 10/114 (9%)
+
+Query  8    CEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPLLCAV  67
+            C+P+  + C G  L Y +T+       ++Q E   +++    L  +  C    R LLC+ 
+Sbjct  40   CQPIAVSACQG--LGYNMTALPNLAGHTNQLEAELQIAKLVPLIESG-CSRRARFLLCSS  96
+
+Query  68   YMPKCEGGKVELP---SQGLCQTTRVPC---AIVARERGWPDFLKCTTDYFPEG  115
+              P C    V  P    + LC+T R  C   A       WP FL C     PE 
+Sbjct  97   LFPLCTPD-VPRPVAACKLLCETVRGECMENAPPELMELWPSFLNCDGLPQPEK  149
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.123    0.376    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0375    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4957987072
+Results from round 3
+
+
+Query= 5KZV
+
+Length=117
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P56726|SMO_MOUSE Smoothened homolog OS=Mus musculus OX=10090...  158     4e-45
+  sp|P97698|SMO_RAT Smoothened homolog OS=Rattus norvegicus OX=10...  158     5e-45
+  sp|Q99835|SMO_HUMAN Smoothened homolog OS=Homo sapiens OX=9606 ...  155     5e-44
+  sp|O42224|SMO_CHICK Smoothened homolog (Fragment) OS=Gallus gal...  150     2e-42
+  sp|Q8AVJ9|FZD7B_XENLA Frizzled-7-B OS=Xenopus laevis OX=8355 GN...  144     1e-40
+  sp|Q5BL72|FZD7_XENTR Frizzled-7 OS=Xenopus tropicalis OX=8364 G...  143     2e-40
+  sp|Q498S8|FZD8_RAT Frizzled-8 OS=Rattus norvegicus OX=10116 GN=...  144     3e-40
+  sp|Q9PUK8|FZD7A_XENLA Frizzled-7-A OS=Xenopus laevis OX=8355 GN...  143     3e-40
+  sp|Q9PUU6|FZD2_XENLA Frizzled-2 OS=Xenopus laevis OX=8355 GN=fz...  142     4e-40
+  sp|Q61091|FZD8_MOUSE Frizzled-8 OS=Mus musculus OX=10090 GN=Fzd...  143     5e-40
+  sp|Q9UP38|FZD1_HUMAN Frizzled-1 OS=Homo sapiens OX=9606 GN=FZD1...  143     5e-40
+  sp|O70421|FZD1_MOUSE Frizzled-1 OS=Mus musculus OX=10090 GN=Fzd...  143     6e-40
+  sp|Q9H461|FZD8_HUMAN Frizzled-8 OS=Homo sapiens OX=9606 GN=FZD8...  142     1e-39
+  sp|Q9JIP6|FZD2_MOUSE Frizzled-2 OS=Mus musculus OX=10090 GN=Fzd...  141     2e-39
+  sp|O75084|FZD7_HUMAN Frizzled-7 OS=Homo sapiens OX=9606 GN=FZD7...  141     2e-39
+  sp|Q61090|FZD7_MOUSE Frizzled-7 OS=Mus musculus OX=10090 GN=Fzd...  141     2e-39
+  sp|Q08464|FZD2_RAT Frizzled-2 OS=Rattus norvegicus OX=10116 GN=...  141     2e-39
+  sp|Q9I9M5|FZD1_XENLA Frizzled-1 OS=Xenopus laevis OX=8355 GN=fz...  140     2e-39
+  sp|Q14332|FZD2_HUMAN Frizzled-2 OS=Homo sapiens OX=9606 GN=FZD2...  140     3e-39
+  sp|O57328|FZD1_CHICK Frizzled-1 OS=Gallus gallus OX=9031 GN=FZD...  140     3e-39
+  sp|O93274|FZD8_XENLA Frizzled-8 OS=Xenopus laevis OX=8355 GN=fz...  140     3e-39
+  sp|P58421|FZD5_XENLA Frizzled-5 OS=Xenopus laevis OX=8355 GN=fz...  140     4e-39
+  sp|Q8CHL0|FZD5_RAT Frizzled-5 OS=Rattus norvegicus OX=10116 GN=...  140     6e-39
+  sp|Q9EQD0|FZD5_MOUSE Frizzled-5 OS=Mus musculus OX=10090 GN=Fzd...  139     8e-39
+  sp|Q13467|FZD5_HUMAN Frizzled-5 OS=Homo sapiens OX=9606 GN=FZD5...  139     8e-39
+  sp|O57329|FZD7_CHICK Frizzled-7 OS=Gallus gallus OX=9031 GN=FZD...  138     1e-38
+  sp|Q9IA06|FZD2_CHICK Frizzled-2 (Fragment) OS=Gallus gallus OX=...  138     1e-38
+  sp|Q61086|FZD3_MOUSE Frizzled-3 OS=Mus musculus OX=10090 GN=Fzd...  137     1e-37
+  sp|Q9NPG1|FZD3_HUMAN Frizzled-3 OS=Homo sapiens OX=9606 GN=FZD3...  137     1e-37
+  sp|Q08463|FZD1_RAT Frizzled-1 OS=Rattus norvegicus OX=10116 GN=...  135     4e-37
+  sp|O42579|FZD3_XENLA Frizzled-3 OS=Xenopus laevis OX=8355 GN=fz...  135     7e-37
+  sp|A0A0K3AWM6|MOM5_CAEEL Protein mom-5 OS=Caenorhabditis elegan...  133     1e-36
+  sp|Q8K4C8|FZD9_RAT Frizzled-9 OS=Rattus norvegicus OX=10116 GN=...  133     2e-36
+  sp|Q9R216|FZD9_MOUSE Frizzled-9 OS=Mus musculus OX=10090 GN=Fzd...  133     2e-36
+  sp|Q9VVX3|FRIZ2_DROME Frizzled-2 OS=Drosophila melanogaster OX=...  133     2e-36
+  sp|Q9DEB5|FZ10A_XENLA Frizzled-10-A OS=Xenopus laevis OX=8355 G...  132     4e-36
+  sp|O60353|FZD6_HUMAN Frizzled-6 OS=Homo sapiens OX=9606 GN=FZD6...  131     1e-35
+  sp|Q5RCN4|FZD6_PONAB Frizzled-6 OS=Pongo abelii OX=9601 GN=FZD6...  131     1e-35
+  sp|Q9W742|FZ10B_XENLA Frizzled-10-B OS=Xenopus laevis OX=8355 G...  130     1e-35
+  sp|P18537|FRIZ_DROME Frizzled OS=Drosophila melanogaster OX=722...  130     2e-35
+  sp|Q9PWH2|FZD10_CHICK Frizzled-10 OS=Gallus gallus OX=9031 GN=F...  130     2e-35
+  sp|Q66K79|CBPZ_HUMAN Carboxypeptidase Z OS=Homo sapiens OX=9606...  130     3e-35
+  sp|Q9IA96|SFRP2_CHICK Secreted frizzled-related protein 2 OS=Ga...  125     4e-35
+  sp|Q9ULW2|FZD10_HUMAN Frizzled-10 OS=Homo sapiens OX=9606 GN=FZ...  129     5e-35
+  sp|Q8BKG4|FZD10_MOUSE Frizzled-10 OS=Mus musculus OX=10090 GN=F...  128     6e-35
+  sp|Q24760|FRIZ_DROVI Frizzled OS=Drosophila virilis OX=7244 GN=...  128     8e-35
+  sp|O54858|CBPZ_RAT Carboxypeptidase Z OS=Rattus norvegicus OX=1...  128     1e-34
+  sp|Q8WMU5|FZD6_CANLF Frizzled-6 OS=Canis lupus familiaris OX=96...  128     2e-34
+  sp|Q8C4U3|SFRP1_MOUSE Secreted frizzled-related protein 1 OS=Mu...  123     3e-34
+  sp|Q8QGP3|CBPZ_CHICK Carboxypeptidase Z OS=Gallus gallus OX=903...  127     5e-34
+  sp|Q95117|SFRP3_BOVIN Secreted frizzled-related protein 3 OS=Bo...  122     7e-34
+  sp|G5ECQ2|FRIZ2_CAEEL Frizzled-2 OS=Caenorhabditis elegans OX=6...  125     8e-34
+  sp|P97401|SFRP3_MOUSE Secreted frizzled-related protein 3 OS=Mu...  122     8e-34
+  sp|Q5RF67|SFRP3_PONAB Secreted frizzled-related protein 3 OS=Po...  121     1e-33
+  sp|Q92765|SFRP3_HUMAN Secreted frizzled-related protein 3 OS=Ho...  121     1e-33
+  sp|Q9IA95|SFRP3_CHICK Secreted frizzled-related protein 3 OS=Ga...  121     1e-33
+  sp|Q96HF1|SFRP2_HUMAN Secreted frizzled-related protein 2 OS=Ho...  120     2e-33
+  sp|Q61089|FZD6_MOUSE Frizzled-6 OS=Mus musculus OX=10090 GN=Fzd...  125     3e-33
+  sp|Q863H1|SFRP2_CANLF Secreted frizzled-related protein 2 OS=Ca...  120     3e-33
+  sp|Q9ULV1|FZD4_HUMAN Frizzled-4 OS=Homo sapiens OX=9606 GN=FZD4...  123     3e-33
+  sp|Q8N474|SFRP1_HUMAN Secreted frizzled-related protein 1 OS=Ho...  120     3e-33
+  sp|Q8R4V4|CBPZ_MOUSE Carboxypeptidase Z OS=Mus musculus OX=1009...  124     4e-33
+  sp|Q61088|FZD4_MOUSE Frizzled-4 OS=Mus musculus OX=10090 GN=Fzd...  123     5e-33
+  sp|Q9QZH0|FZD4_RAT Frizzled-4 OS=Rattus norvegicus OX=10116 GN=...  123     5e-33
+  sp|P97299|SFRP2_MOUSE Secreted frizzled-related protein 2 OS=Mu...  119     5e-33
+  sp|Q9PT62|FZD4_XENLA Frizzled-4 OS=Xenopus laevis OX=8355 GN=fz...  123     6e-33
+  sp|P91682|SMO_DROME Protein smoothened OS=Drosophila melanogast...  123     8e-33
+  sp|Q9DEQ4|SFRP1_CHICK Secreted frizzled-related protein 1 OS=Ga...  119     1e-32
+  sp|Q9IA05|FZD4_CHICK Frizzled-4 OS=Gallus gallus OX=9031 GN=FZD...  122     1e-32
+  sp|O00144|FZD9_HUMAN Frizzled-9 OS=Homo sapiens OX=9606 GN=FZD9...  122     1e-32
+  sp|O19116|SFRP1_BOVIN Secreted frizzled-related protein 1 OS=Bo...  117     3e-32
+  sp|Q9Z1N6|SFRP4_MOUSE Secreted frizzled-related sequence protei...  117     9e-32
+  sp|Q9WU66|SFRP5_MOUSE Secreted frizzled-related protein 5 OS=Mu...  116     1e-31
+  sp|Q6FHJ7|SFRP4_HUMAN Secreted frizzled-related protein 4 OS=Ho...  116     2e-31
+  sp|Q9XSC1|SFRP5_BOVIN Secreted frizzled-related protein 5 OS=Bo...  115     2e-31
+  sp|Q5T4F7|SFRP5_HUMAN Secreted frizzled-related protein 5 OS=Ho...  115     3e-31
+  sp|Q7YRN1|SFRP4_MACMU Secreted frizzled-related protein 4 OS=Ma...  115     3e-31
+  sp|Q9JLS4|SFRP4_RAT Secreted frizzled-related protein 4 OS=Ratt...  115     6e-31
+  sp|Q9NBW1|FRIZ4_DROME Frizzled-4 OS=Drosophila melanogaster OX=...  117     1e-30
+  sp|Q9Z319|CORIN_MOUSE Atrial natriuretic peptide-converting enz...  113     4e-29
+  sp|Q80YN4|CORIN_RAT Atrial natriuretic peptide-converting enzym...  111     2e-28
+  sp|Q9Y5Q5|CORIN_HUMAN Atrial natriuretic peptide-converting enz...  110     3e-28
+  sp|Q8K480|MFRP_MOUSE Membrane frizzled-related protein OS=Mus m...  102     2e-25
+  sp|Q9BY79|MFRP_HUMAN Membrane frizzled-related protein OS=Homo ...  101     3e-25
+  sp|O77438|FRIZ3_DROME Frizzled-3 OS=Drosophila melanogaster OX=...  99.3    3e-24
+
+Sequences not found previously or not previously below threshold:
+
+  sp|P39060|COIA1_HUMAN Collagen alpha-1(XVIII) chain OS=Homo sap...  53.8    3e-08
+  sp|P39061|COIA1_MOUSE Collagen alpha-1(XVIII) chain OS=Mus musc...  47.3    5e-06
+  sp|Q1ZXI9|FSLO_DICDI Frizzled and smoothened-like protein O OS=...  44.6    4e-05
+  sp|Q9R168|SFRP1_RAT Secreted frizzled-related protein 1 (Fragme...  39.2    0.002
+
+
+> sp|P56726|SMO_MOUSE Smoothened homolog OS=Mus musculus OX=10090 
+GN=Smo PE=1 SV=2
+Length=793
+
+ Score = 158 bits (400),  Expect = 4e-45, Method: Composition-based stats.
+ Identities = 84/117 (72%), Positives = 95/117 (81%), Gaps = 0/117 (0%)
+
+Query  1    KCKKTTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAI  60
+             C +   CEPL+YN+CLGS LPY  T+T+LA DS SQ+E H KL LWSGLRNAPRCW  I
+Sbjct  67   HCGRAAHCEPLRYNVCLGSALPYGATTTLLAGDSDSQEEAHGKLVLWSGLRNAPRCWAVI  126
+
+Query  61   RPLLCAVYMPKCEGGKVELPSQGLCQTTRVPCAIVARERGWPDFLKCTTDYFPEGCP  117
+            +PLLCAVYMPKCE  +VELPS+ LCQ TR PCAIV RERGWPDFL+CT D+FPEGCP
+Sbjct  127  QPLLCAVYMPKCENDRVELPSRTLCQATRGPCAIVERERGWPDFLRCTPDHFPEGCP  183
+
+
+> sp|P97698|SMO_RAT Smoothened homolog OS=Rattus norvegicus OX=10116 
+GN=Smo PE=2 SV=1
+Length=793
+
+ Score = 158 bits (399),  Expect = 5e-45, Method: Composition-based stats.
+ Identities = 84/117 (72%), Positives = 95/117 (81%), Gaps = 0/117 (0%)
+
+Query  1    KCKKTTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAI  60
+             C +   CEPL+YN+CLGS LPY  T+T+LA DS SQ+E H KL LWSGLRNAPRCW  I
+Sbjct  67   HCGRAAHCEPLRYNVCLGSALPYGATTTLLAGDSDSQEEAHSKLVLWSGLRNAPRCWAVI  126
+
+Query  61   RPLLCAVYMPKCEGGKVELPSQGLCQTTRVPCAIVARERGWPDFLKCTTDYFPEGCP  117
+            +PLLCAVYMPKCE  +VELPS+ LCQ TR PCAIV RERGWPDFL+CT D+FPEGCP
+Sbjct  127  QPLLCAVYMPKCENDRVELPSRTLCQATRGPCAIVERERGWPDFLRCTPDHFPEGCP  183
+
+
+> sp|Q99835|SMO_HUMAN Smoothened homolog OS=Homo sapiens OX=9606 
+GN=SMO PE=1 SV=1
+Length=787
+
+ Score = 155 bits (392),  Expect = 5e-44, Method: Composition-based stats.
+ Identities = 85/116 (73%), Positives = 94/116 (81%), Gaps = 0/116 (0%)
+
+Query  1    KCKKTTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAI  60
+             C +   CEPL+YN+CLGSVLPY  TST+LA DS SQ+E H KL LWSGLRNAPRCW  I
+Sbjct  63   HCGRAAPCEPLRYNVCLGSVLPYGATSTLLAGDSDSQEEAHGKLVLWSGLRNAPRCWAVI  122
+
+Query  61   RPLLCAVYMPKCEGGKVELPSQGLCQTTRVPCAIVARERGWPDFLKCTTDYFPEGC  116
+            +PLLCAVYMPKCE  +VELPS+ LCQ TR PCAIV RERGWPDFL+CT D FPEGC
+Sbjct  123  QPLLCAVYMPKCENDRVELPSRTLCQATRGPCAIVERERGWPDFLRCTPDRFPEGC  178
+
+
+> sp|O42224|SMO_CHICK Smoothened homolog (Fragment) OS=Gallus gallus 
+OX=9031 GN=SMO PE=2 SV=1
+Length=794
+
+ Score = 150 bits (380),  Expect = 2e-42, Method: Composition-based stats.
+ Identities = 86/117 (74%), Positives = 95/117 (81%), Gaps = 0/117 (0%)
+
+Query  1    KCKKTTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAI  60
+            +C++   CE L++  CLGS LPYA TST+LA DS SQ+E H KL LWSGLRNAPRCWD I
+Sbjct  33   RCRRPAACERLRFGSCLGSALPYAHTSTLLAADSGSQEEAHGKLLLWSGLRNAPRCWDVI  92
+
+Query  61   RPLLCAVYMPKCEGGKVELPSQGLCQTTRVPCAIVARERGWPDFLKCTTDYFPEGCP  117
+            +PLLCAVYMPKCE G+VELPSQ LCQ TR PC IV RERGWPDFLKCT D FPEGCP
+Sbjct  93   QPLLCAVYMPKCEDGQVELPSQTLCQATRAPCTIVERERGWPDFLKCTPDRFPEGCP  149
+
+
+> sp|Q8AVJ9|FZD7B_XENLA Frizzled-7-B OS=Xenopus laevis OX=8355 
+GN=fzd7-b PE=1 SV=1
+Length=548
+
+ Score = 144 bits (363),  Expect = 1e-40, Method: Composition-based stats.
+ Identities = 23/107 (21%), Positives = 46/107 (43%), Gaps = 6/107 (6%)
+
+Query  8    CEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPLLCAV  67
+            C+P+   +C        +   +L    ++Q++   ++  +  L    +C   +R  LC++
+Sbjct  36   CQPISIPLCTDIAYNQTIMPNLLG--HTNQEDAGLEVHQFYPLVKV-QCSPELRFFLCSM  92
+
+Query  68   YMPKCE-GGKVELPSQGLCQTTRVPCAIVARERG--WPDFLKCTTDY  111
+            Y P C    +   P + LC+  R  C  +  + G  WP+ L+C    
+Sbjct  93   YAPVCTVLEQAIPPCRSLCERARQGCEALMNKFGFQWPERLRCENFP  139
+
+
+> sp|Q5BL72|FZD7_XENTR Frizzled-7 OS=Xenopus tropicalis OX=8364 
+GN=fzd7 PE=2 SV=1
+Length=548
+
+ Score = 143 bits (361),  Expect = 2e-40, Method: Composition-based stats.
+ Identities = 23/107 (21%), Positives = 46/107 (43%), Gaps = 6/107 (6%)
+
+Query  8    CEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPLLCAV  67
+            C+P+   +C        +   +L    ++Q++   ++  +  L    +C   +R  LC++
+Sbjct  36   CQPISIPLCTDIAYNQTIMPNLLG--HTNQEDAGLEVHQFYPLVKV-QCSPELRFFLCSM  92
+
+Query  68   YMPKCE-GGKVELPSQGLCQTTRVPCAIVARERG--WPDFLKCTTDY  111
+            Y P C    +   P + LC+  R  C  +  + G  WP+ L+C    
+Sbjct  93   YAPVCTVLEQAIPPCRSLCERARQGCEALMNKFGFQWPERLRCENFP  139
+
+
+> sp|Q498S8|FZD8_RAT Frizzled-8 OS=Rattus norvegicus OX=10116 GN=Fzd8 
+PE=2 SV=1
+Length=684
+
+ Score = 144 bits (364),  Expect = 3e-40, Method: Composition-based stats.
+ Identities = 26/112 (23%), Positives = 48/112 (43%), Gaps = 7/112 (6%)
+
+Query  4    KTTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPL  63
+            K   C+ +   +C G    Y         +  +QDE   ++  +  L    +C   ++  
+Sbjct  31   KELACQEITVPLCKGIGYNYT--YMPNQFNHDTQDEAGLEVHQFWPLVEI-QCSPDLKFF  87
+
+Query  64   LCAVYMPKC--EGGKVELPSQGLCQTTRVPCAIVARERG--WPDFLKCTTDY  111
+            LC++Y P C  +  K   P + +C+  +  CA + R+ G  WPD ++C    
+Sbjct  88   LCSMYTPICLEDYKKPLPPCRSVCERAKAGCAPLMRQYGFAWPDRMRCDRLP  139
+
+
+> sp|Q9PUK8|FZD7A_XENLA Frizzled-7-A OS=Xenopus laevis OX=8355 
+GN=fzd7-a PE=1 SV=2
+Length=549
+
+ Score = 143 bits (360),  Expect = 3e-40, Method: Composition-based stats.
+ Identities = 23/107 (21%), Positives = 46/107 (43%), Gaps = 6/107 (6%)
+
+Query  8    CEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPLLCAV  67
+            C+P+   +C        +   +L    ++Q++   ++  +  L    +C   +R  LC++
+Sbjct  37   CQPISIPLCTDIAYNQTIMPNLLG--HTNQEDAGLEVHQFYPLVKV-QCSPELRFFLCSM  93
+
+Query  68   YMPKCE-GGKVELPSQGLCQTTRVPCAIVARERG--WPDFLKCTTDY  111
+            Y P C    +   P + LC+  R  C  +  + G  WP+ L+C    
+Sbjct  94   YAPVCTVLEQAIPPCRSLCERARQGCEALMNKFGFQWPERLRCENFP  140
+
+
+> sp|Q9PUU6|FZD2_XENLA Frizzled-2 OS=Xenopus laevis OX=8355 GN=fzd2 
+PE=2 SV=1
+Length=551
+
+ Score = 142 bits (359),  Expect = 4e-40, Method: Composition-based stats.
+ Identities = 22/107 (21%), Positives = 46/107 (43%), Gaps = 6/107 (6%)
+
+Query  8    CEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPLLCAV  67
+            C+P+   +C        +   +L    ++Q++   ++  +  L    +C   +R  LC++
+Sbjct  38   CQPISIPLCTDIAYNQTIMPNLLG--HTNQEDAGLEVHQFYPLVKV-QCSSELRFFLCSM  94
+
+Query  68   YMPKCE-GGKVELPSQGLCQTTRVPCAIVARERG--WPDFLKCTTDY  111
+            Y P C    +   P + +C+  R  C  +  + G  WP+ L+C    
+Sbjct  95   YAPVCTVLEQAIPPCRSICERARHGCEALMNKFGFQWPERLRCENFP  141
+
+
+> sp|Q61091|FZD8_MOUSE Frizzled-8 OS=Mus musculus OX=10090 GN=Fzd8 
+PE=1 SV=2
+Length=685
+
+ Score = 143 bits (362),  Expect = 5e-40, Method: Composition-based stats.
+ Identities = 26/112 (23%), Positives = 48/112 (43%), Gaps = 7/112 (6%)
+
+Query  4    KTTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPL  63
+            K   C+ +   +C G    Y         +  +QDE   ++  +  L    +C   ++  
+Sbjct  31   KELACQEITVPLCKGIGYNYT--YMPNQFNHDTQDEAGLEVHQFWPLVEI-QCSPDLKFF  87
+
+Query  64   LCAVYMPKC--EGGKVELPSQGLCQTTRVPCAIVARERG--WPDFLKCTTDY  111
+            LC++Y P C  +  K   P + +C+  +  CA + R+ G  WPD ++C    
+Sbjct  88   LCSMYTPICLEDYKKPLPPCRSVCERAKAGCAPLMRQYGFAWPDRMRCDRLP  139
+
+
+> sp|Q9UP38|FZD1_HUMAN Frizzled-1 OS=Homo sapiens OX=9606 GN=FZD1 
+PE=1 SV=2
+Length=647
+
+ Score = 143 bits (361),  Expect = 5e-40, Method: Composition-based stats.
+ Identities = 24/107 (22%), Positives = 46/107 (43%), Gaps = 6/107 (6%)
+
+Query  8    CEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPLLCAV  67
+            C+P+   +C        +   +L    ++Q++   ++  +  L    +C   ++  LC++
+Sbjct  116  CQPISIPLCTDIAYNQTIMPNLLG--HTNQEDAGLEVHQFYPLVKV-QCSAELKFFLCSM  172
+
+Query  68   YMPKCE-GGKVELPSQGLCQTTRVPCAIVARERG--WPDFLKCTTDY  111
+            Y P C    +   P + LC+  R  C  +  + G  WPD LKC    
+Sbjct  173  YAPVCTVLEQALPPCRSLCERARQGCEALMNKFGFQWPDTLKCEKFP  219
+
+
+> sp|O70421|FZD1_MOUSE Frizzled-1 OS=Mus musculus OX=10090 GN=Fzd1 
+PE=1 SV=3
+Length=642
+
+ Score = 143 bits (360),  Expect = 6e-40, Method: Composition-based stats.
+ Identities = 24/107 (22%), Positives = 46/107 (43%), Gaps = 6/107 (6%)
+
+Query  8    CEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPLLCAV  67
+            C+P+   +C        +   +L    ++Q++   ++  +  L    +C   ++  LC++
+Sbjct  111  CQPISIPLCTDIAYNQTIMPNLLG--HTNQEDAGLEVHQFYPLVKV-QCSAELKFFLCSM  167
+
+Query  68   YMPKCE-GGKVELPSQGLCQTTRVPCAIVARERG--WPDFLKCTTDY  111
+            Y P C    +   P + LC+  R  C  +  + G  WPD LKC    
+Sbjct  168  YAPVCTVLEQALPPCRSLCERARQGCEALMNKFGFQWPDTLKCEKFP  214
+
+
+> sp|Q9H461|FZD8_HUMAN Frizzled-8 OS=Homo sapiens OX=9606 GN=FZD8 
+PE=1 SV=1
+Length=694
+
+ Score = 142 bits (359),  Expect = 1e-39, Method: Composition-based stats.
+ Identities = 26/112 (23%), Positives = 48/112 (43%), Gaps = 7/112 (6%)
+
+Query  4    KTTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPL  63
+            K   C+ +   +C G    Y         +  +QDE   ++  +  L    +C   ++  
+Sbjct  31   KELACQEITVPLCKGIGYNYT--YMPNQFNHDTQDEAGLEVHQFWPLVEI-QCSPDLKFF  87
+
+Query  64   LCAVYMPKC--EGGKVELPSQGLCQTTRVPCAIVARERG--WPDFLKCTTDY  111
+            LC++Y P C  +  K   P + +C+  +  CA + R+ G  WPD ++C    
+Sbjct  88   LCSMYTPICLEDYKKPLPPCRSVCERAKAGCAPLMRQYGFAWPDRMRCDRLP  139
+
+
+> sp|Q9JIP6|FZD2_MOUSE Frizzled-2 OS=Mus musculus OX=10090 GN=Fzd2 
+PE=2 SV=1
+Length=570
+
+ Score = 141 bits (355),  Expect = 2e-39, Method: Composition-based stats.
+ Identities = 22/107 (21%), Positives = 46/107 (43%), Gaps = 6/107 (6%)
+
+Query  8    CEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPLLCAV  67
+            C+P+   +C        +   +L    ++Q++   ++  +  L    +C   +R  LC++
+Sbjct  44   CQPISIPLCTDIAYNQTIMPNLLG--HTNQEDAGLEVHQFYPLVKV-QCSPELRFFLCSM  100
+
+Query  68   YMPKCE-GGKVELPSQGLCQTTRVPCAIVARERG--WPDFLKCTTDY  111
+            Y P C    +   P + +C+  R  C  +  + G  WP+ L+C    
+Sbjct  101  YAPVCTVLEQAIPPCRSICERARQGCEALMNKFGFQWPERLRCEHFP  147
+
+
+> sp|O75084|FZD7_HUMAN Frizzled-7 OS=Homo sapiens OX=9606 GN=FZD7 
+PE=1 SV=2
+Length=574
+
+ Score = 141 bits (355),  Expect = 2e-39, Method: Composition-based stats.
+ Identities = 23/107 (21%), Positives = 46/107 (43%), Gaps = 6/107 (6%)
+
+Query  8    CEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPLLCAV  67
+            C+P+   +C        +   +L    ++Q++   ++  +  L    +C   +R  LC++
+Sbjct  49   CQPISIPLCTDIAYNQTILPNLLG--HTNQEDAGLEVHQFYPLVKV-QCSPELRFFLCSM  105
+
+Query  68   YMPKCE-GGKVELPSQGLCQTTRVPCAIVARERG--WPDFLKCTTDY  111
+            Y P C    +   P + LC+  R  C  +  + G  WP+ L+C    
+Sbjct  106  YAPVCTVLDQAIPPCRSLCERARQGCEALMNKFGFQWPERLRCENFP  152
+
+
+> sp|Q61090|FZD7_MOUSE Frizzled-7 OS=Mus musculus OX=10090 GN=Fzd7 
+PE=1 SV=2
+Length=572
+
+ Score = 141 bits (355),  Expect = 2e-39, Method: Composition-based stats.
+ Identities = 23/107 (21%), Positives = 46/107 (43%), Gaps = 6/107 (6%)
+
+Query  8    CEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPLLCAV  67
+            C+P+   +C        +   +L    ++Q++   ++  +  L    +C   +R  LC++
+Sbjct  49   CQPISIPLCTDIAYNQTILPNLLG--HTNQEDAGLEVHQFYPLVKV-QCSPELRFFLCSM  105
+
+Query  68   YMPKCE-GGKVELPSQGLCQTTRVPCAIVARERG--WPDFLKCTTDY  111
+            Y P C    +   P + LC+  R  C  +  + G  WP+ L+C    
+Sbjct  106  YAPVCTVLDQAIPPCRSLCERARQGCEALMNKFGFQWPERLRCENFP  152
+
+
+> sp|Q08464|FZD2_RAT Frizzled-2 OS=Rattus norvegicus OX=10116 GN=Fzd2 
+PE=1 SV=1
+Length=570
+
+ Score = 141 bits (355),  Expect = 2e-39, Method: Composition-based stats.
+ Identities = 22/107 (21%), Positives = 46/107 (43%), Gaps = 6/107 (6%)
+
+Query  8    CEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPLLCAV  67
+            C+P+   +C        +   +L    ++Q++   ++  +  L    +C   +R  LC++
+Sbjct  44   CQPISIPLCTDIAYNQTIMPNLLG--HTNQEDAGLEVHQFYPLVKV-QCSPELRFFLCSM  100
+
+Query  68   YMPKCE-GGKVELPSQGLCQTTRVPCAIVARERG--WPDFLKCTTDY  111
+            Y P C    +   P + +C+  R  C  +  + G  WP+ L+C    
+Sbjct  101  YAPVCTVLEQAIPPCRSICERARQGCEALMNKFGFQWPERLRCEHFP  147
+
+
+> sp|Q9I9M5|FZD1_XENLA Frizzled-1 OS=Xenopus laevis OX=8355 GN=fzd1 
+PE=1 SV=1
+Length=559
+
+ Score = 140 bits (354),  Expect = 2e-39, Method: Composition-based stats.
+ Identities = 22/107 (21%), Positives = 45/107 (42%), Gaps = 6/107 (6%)
+
+Query  8    CEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPLLCAV  67
+            C+P+   +C        +   +L    ++Q++   ++  +  L    +C   ++  LC++
+Sbjct  51   CQPISIPLCTDIAYNQTIMPNLLG--HTNQEDAGLEVHQFYPLVKV-QCSPELKFFLCSI  107
+
+Query  68   YMPKCE-GGKVELPSQGLCQTTRVPCAIVARERG--WPDFLKCTTDY  111
+            Y P C    +   P + LC   R  C  +  + G  WP+ L+C    
+Sbjct  108  YAPVCTVLEQALPPCRSLCDRARQGCEALMNKFGFQWPESLRCEKFP  154
+
+
+> sp|Q14332|FZD2_HUMAN Frizzled-2 OS=Homo sapiens OX=9606 GN=FZD2 
+PE=1 SV=1
+Length=565
+
+ Score = 140 bits (354),  Expect = 3e-39, Method: Composition-based stats.
+ Identities = 22/107 (21%), Positives = 46/107 (43%), Gaps = 6/107 (6%)
+
+Query  8    CEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPLLCAV  67
+            C+P+   +C        +   +L    ++Q++   ++  +  L    +C   +R  LC++
+Sbjct  39   CQPISIPLCTDIAYNQTIMPNLLG--HTNQEDAGLEVHQFYPLVKV-QCSPELRFFLCSM  95
+
+Query  68   YMPKCE-GGKVELPSQGLCQTTRVPCAIVARERG--WPDFLKCTTDY  111
+            Y P C    +   P + +C+  R  C  +  + G  WP+ L+C    
+Sbjct  96   YAPVCTVLEQAIPPCRSICERARQGCEALMNKFGFQWPERLRCEHFP  142
+
+
+> sp|O57328|FZD1_CHICK Frizzled-1 OS=Gallus gallus OX=9031 GN=FZD1 
+PE=2 SV=1
+Length=592
+
+ Score = 140 bits (354),  Expect = 3e-39, Method: Composition-based stats.
+ Identities = 23/107 (21%), Positives = 46/107 (43%), Gaps = 6/107 (6%)
+
+Query  8    CEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPLLCAV  67
+            C+P+   +C        +   +L    ++Q++   ++  +  L    +C   ++  LC++
+Sbjct  70   CQPISIPLCTDIAYNQTIMPNLLG--HTNQEDAGLEVHQFYPLVKV-QCSAELKFFLCSM  126
+
+Query  68   YMPKCE-GGKVELPSQGLCQTTRVPCAIVARERG--WPDFLKCTTDY  111
+            Y P C    +   P + LC+  R  C  +  + G  WPD L+C    
+Sbjct  127  YAPVCTVLEQALPPCRSLCERARQGCEALMNKFGFQWPDTLRCEKFP  173
+
+
+> sp|O93274|FZD8_XENLA Frizzled-8 OS=Xenopus laevis OX=8355 GN=fzd8 
+PE=1 SV=1
+Length=581
+
+ Score = 140 bits (354),  Expect = 3e-39, Method: Composition-based stats.
+ Identities = 26/113 (23%), Positives = 47/113 (42%), Gaps = 7/113 (6%)
+
+Query  3    KKTTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRP  62
+             K  +C+ +   +C      Y         +  +QDE   ++  +  L     C   ++ 
+Sbjct  23   AKELSCQEITVPLCKDIGYNYT--YMPNQFNHDTQDEAGMEVHQFWPLV-VIHCSPDLKF  79
+
+Query  63   LLCAVYMPKC--EGGKVELPSQGLCQTTRVPCAIVARERG--WPDFLKCTTDY  111
+             LC++Y P C  +  K   P + +C+  R  CA + R+ G  WPD ++C    
+Sbjct  80   FLCSMYTPICLEDYKKPLPPCRSVCERARAGCAPLMRQYGFAWPDRMRCDRLP  132
+
+
+> sp|P58421|FZD5_XENLA Frizzled-5 OS=Xenopus laevis OX=8355 GN=fzd5 
+PE=2 SV=1
+Length=559
+
+ Score = 140 bits (352),  Expect = 4e-39, Method: Composition-based stats.
+ Identities = 23/112 (21%), Positives = 47/112 (42%), Gaps = 7/112 (6%)
+
+Query  4    KTTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPL  63
+            K   C+ +   +C G    +         +  +QDE   ++  +  L    +C   ++  
+Sbjct  29   KAIVCQEITVPMCKGIGYNHT--YMPNQFNHDTQDEAGMEVHQFWPLV-VIQCSLDLKFF  85
+
+Query  64   LCAVYMPKC--EGGKVELPSQGLCQTTRVPCAIVARERG--WPDFLKCTTDY  111
+            LC++Y P C  +  K   P + +C+  +  C+ + R+ G  WP+ + C    
+Sbjct  86   LCSMYTPICLPDYRKPLPPCRSVCERAKAGCSPLMRKYGFAWPERMNCDRLP  137
+
+
+> sp|Q8CHL0|FZD5_RAT Frizzled-5 OS=Rattus norvegicus OX=10116 GN=Fzd5 
+PE=2 SV=1
+Length=585
+
+ Score = 140 bits (352),  Expect = 6e-39, Method: Composition-based stats.
+ Identities = 24/112 (21%), Positives = 45/112 (40%), Gaps = 7/112 (6%)
+
+Query  4    KTTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPL  63
+            K   C+ +   +C G              +  +QDE   ++  +  L     C   +R  
+Sbjct  29   KAPVCQEITVPMCRGIGYNLTH--MPNQFNHDTQDEAGLEVHQFWPLVEI-HCSPDLRFF  85
+
+Query  64   LCAVYMPKC--EGGKVELPSQGLCQTTRVPCAIVARERG--WPDFLKCTTDY  111
+            LC++Y P C  +  K   P + +C+  +  C+ + R+ G  WP+ + C    
+Sbjct  86   LCSMYTPICLPDYHKPLPPCRSVCERAKAGCSPLMRQYGFAWPERMSCDRLP  137
+
+
+> sp|Q9EQD0|FZD5_MOUSE Frizzled-5 OS=Mus musculus OX=10090 GN=Fzd5 
+PE=1 SV=3
+Length=585
+
+ Score = 139 bits (351),  Expect = 8e-39, Method: Composition-based stats.
+ Identities = 24/112 (21%), Positives = 45/112 (40%), Gaps = 7/112 (6%)
+
+Query  4    KTTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPL  63
+            K   C+ +   +C G              +  +QDE   ++  +  L     C   +R  
+Sbjct  29   KAPVCQEITVPMCRGIGYNLTH--MPNQFNHDTQDEAGLEVHQFWPLVEI-HCSPDLRFF  85
+
+Query  64   LCAVYMPKC--EGGKVELPSQGLCQTTRVPCAIVARERG--WPDFLKCTTDY  111
+            LC++Y P C  +  K   P + +C+  +  C+ + R+ G  WP+ + C    
+Sbjct  86   LCSMYTPICLPDYHKPLPPCRSVCERAKAGCSPLMRQYGFAWPERMSCDRLP  137
+
+
+> sp|Q13467|FZD5_HUMAN Frizzled-5 OS=Homo sapiens OX=9606 GN=FZD5 
+PE=1 SV=2
+Length=585
+
+ Score = 139 bits (351),  Expect = 8e-39, Method: Composition-based stats.
+ Identities = 24/112 (21%), Positives = 46/112 (41%), Gaps = 7/112 (6%)
+
+Query  4    KTTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPL  63
+            K   C+ +   +C G              +  +QDE   ++  +  L    +C   +R  
+Sbjct  29   KAPVCQEITVPMCRGIGYNLTH--MPNQFNHDTQDEAGLEVHQFWPLVEI-QCSPDLRFF  85
+
+Query  64   LCAVYMPKC--EGGKVELPSQGLCQTTRVPCAIVARERG--WPDFLKCTTDY  111
+            LC++Y P C  +  K   P + +C+  +  C+ + R+ G  WP+ + C    
+Sbjct  86   LCSMYTPICLPDYHKPLPPCRSVCERAKAGCSPLMRQYGFAWPERMSCDRLP  137
+
+
+> sp|O57329|FZD7_CHICK Frizzled-7 OS=Gallus gallus OX=9031 GN=FZD7 
+PE=2 SV=1
+Length=567
+
+ Score = 138 bits (349),  Expect = 1e-38, Method: Composition-based stats.
+ Identities = 22/107 (21%), Positives = 46/107 (43%), Gaps = 6/107 (6%)
+
+Query  8    CEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPLLCAV  67
+            C+P+   +C        +   +L    ++Q++   ++  +  L    +C   ++  LC++
+Sbjct  47   CQPISIPLCTDIAYNQTILPNLLG--HTNQEDAGLEVHQFYPLVKV-QCSAELKFFLCSM  103
+
+Query  68   YMPKCE-GGKVELPSQGLCQTTRVPCAIVARERG--WPDFLKCTTDY  111
+            Y P C    +   P + LC+  R  C  +  + G  WP+ L+C    
+Sbjct  104  YAPVCTVLEQAIPPCRSLCERARQGCEALMNKFGFQWPERLRCENFP  150
+
+
+> sp|Q9IA06|FZD2_CHICK Frizzled-2 (Fragment) OS=Gallus gallus OX=9031 
+GN=FZD2 PE=2 SV=1
+Length=523
+
+ Score = 138 bits (348),  Expect = 1e-38, Method: Composition-based stats.
+ Identities = 21/107 (20%), Positives = 46/107 (43%), Gaps = 6/107 (6%)
+
+Query  8    CEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPLLCAV  67
+            C+P+   +C        +   +L    ++Q++   ++  +  L    +C   ++  LC++
+Sbjct  6    CQPISIPLCTDIAYNQTIMPNLLG--HTNQEDAGLEVHQFYPLVKV-QCSLELKFFLCSM  62
+
+Query  68   YMPKCE-GGKVELPSQGLCQTTRVPCAIVARERG--WPDFLKCTTDY  111
+            Y P C    +   P + +C+  R  C  +  + G  WP+ L+C    
+Sbjct  63   YAPVCTVLEQAIPPCRSICERARQGCEALMNKFGFQWPERLRCENFP  109
+
+
+> sp|Q61086|FZD3_MOUSE Frizzled-3 OS=Mus musculus OX=10090 GN=Fzd3 
+PE=1 SV=1
+Length=666
+
+ Score = 137 bits (345),  Expect = 1e-37, Method: Composition-based stats.
+ Identities = 29/111 (26%), Positives = 47/111 (42%), Gaps = 6/111 (5%)
+
+Query  7    TCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPLLCA  66
+            +CEP+   +C            +L  +   Q      +  +  + N   C    RP LCA
+Sbjct  27   SCEPITLRMCQDLPYNTTFMPNLL--NHYDQQTAALAMEPFHPMVNLD-CSRDFRPFLCA  83
+
+Query  67   VYMPKC-EGGKVELPSQGLCQTTRVPCAIVARERG--WPDFLKCTTDYFPE  114
+            +Y P C E G+V LP + LCQ     C+ +    G  WP+ ++C+     +
+Sbjct  84   LYAPICMEYGRVTLPCRRLCQRAYSECSKLMEMFGVPWPEDMECSRFPDCD  134
+
+
+> sp|Q9NPG1|FZD3_HUMAN Frizzled-3 OS=Homo sapiens OX=9606 GN=FZD3 
+PE=1 SV=1
+Length=666
+
+ Score = 137 bits (344),  Expect = 1e-37, Method: Composition-based stats.
+ Identities = 29/111 (26%), Positives = 47/111 (42%), Gaps = 6/111 (5%)
+
+Query  7    TCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPLLCA  66
+            +CEP+   +C            +L  +   Q      +  +  + N   C    RP LCA
+Sbjct  27   SCEPITLRMCQDLPYNTTFMPNLL--NHYDQQTAALAMEPFHPMVNLD-CSRDFRPFLCA  83
+
+Query  67   VYMPKC-EGGKVELPSQGLCQTTRVPCAIVARERG--WPDFLKCTTDYFPE  114
+            +Y P C E G+V LP + LCQ     C+ +    G  WP+ ++C+     +
+Sbjct  84   LYAPICMEYGRVTLPCRRLCQRAYSECSKLMEMFGVPWPEDMECSRFPDCD  134
+
+
+> sp|Q08463|FZD1_RAT Frizzled-1 OS=Rattus norvegicus OX=10116 GN=Fzd1 
+PE=1 SV=1
+Length=641
+
+ Score = 135 bits (340),  Expect = 4e-37, Method: Composition-based stats.
+ Identities = 23/107 (21%), Positives = 45/107 (42%), Gaps = 7/107 (7%)
+
+Query  8    CEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPLLCAV  67
+            C+P+   +C        +   +L    ++Q++   ++  +  L    +C   ++  LC++
+Sbjct  111  CQPISIPLCTDIAYNQTIMPNLLG--HTNQEDAGLEVHQFYPLVKV-QCSAELKFFLCSM  167
+
+Query  68   YMPKCE-GGKVELPSQGLCQTTRVPCAIVARERG--WPDFLKCTTDY  111
+            Y P C    +   P + LC+     C  +  + G  WPD LKC    
+Sbjct  168  YAPVCTVLEQALPPCRSLCERA-QGCEALMNKFGFQWPDTLKCEKFP  213
+
+
+> sp|O42579|FZD3_XENLA Frizzled-3 OS=Xenopus laevis OX=8355 GN=fzd3 
+PE=1 SV=1
+Length=664
+
+ Score = 135 bits (339),  Expect = 7e-37, Method: Composition-based stats.
+ Identities = 31/111 (28%), Positives = 48/111 (43%), Gaps = 6/111 (5%)
+
+Query  7    TCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPLLCA  66
+             CEP+   +C    LPY  T      +   Q      +  +  + N   C   +RP LCA
+Sbjct  26   ACEPITLRMCQD--LPYNSTFMPNLLNHYDQQTAALAMEPFHPMVNL-ECSRDLRPFLCA  82
+
+Query  67   VYMPKC-EGGKVELPSQGLCQTTRVPCAIVARERG--WPDFLKCTTDYFPE  114
+            +Y P C E G++ LP + LCQ     C  +    G  WP+ ++C+     +
+Sbjct  83   LYTPVCMEYGRMTLPCRKLCQRAYNECFKLMEMFGVPWPEEMECSRFPDCD  133
+
+
+> sp|A0A0K3AWM6|MOM5_CAEEL Protein mom-5 OS=Caenorhabditis elegans 
+OX=6239 GN=mom-5 PE=1 SV=1
+Length=570
+
+ Score = 133 bits (335),  Expect = 1e-36, Method: Composition-based stats.
+ Identities = 28/113 (25%), Positives = 47/113 (42%), Gaps = 6/113 (5%)
+
+Query  7    TCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPLLCA  66
+             CE +   +C        +   +L    ++Q E    ++ ++ L    +C + IR  LC 
+Sbjct  36   KCEHITIPMCKNLDYNQTVFPNLLG--HTTQSEAGPAIAQFNPLIKV-KCSEDIRLFLCT  92
+
+Query  67   VYMPKCE-GGKVELPSQGLCQTTRVPCAIVARERG--WPDFLKCTTDYFPEGC  116
+            VY P C    K   P + LC + +  C  + ++ G  WPD L C      + C
+Sbjct  93   VYAPVCTVLEKPIQPCRELCLSAKNGCESLMKKFGFQWPDQLDCNKFPVTDLC  145
+
+
+> sp|Q8K4C8|FZD9_RAT Frizzled-9 OS=Rattus norvegicus OX=10116 GN=Fzd9 
+PE=2 SV=1
+Length=592
+
+ Score = 133 bits (334),  Expect = 2e-36, Method: Composition-based stats.
+ Identities = 28/115 (24%), Positives = 47/115 (41%), Gaps = 7/115 (6%)
+
+Query  1    KCKKTTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAI  60
+            + +    C+ ++  +C G      LT        +SQ E   +L+ +S L     C   +
+Sbjct  33   RGRGPAPCQAMEIPMCRGIGYN--LTRMPNLLGHTSQGEAAAQLAEFSPLVQYG-CHSHL  89
+
+Query  61   RPLLCAVYMPKCEGG--KVELPSQGLCQTTRVPCAIVARE--RGWPDFLKCTTDY  111
+            R  LC++Y P C           + +C+  R+ CA +  +   GWPD L C    
+Sbjct  90   RFFLCSLYAPMCTDQVSTPIPACRPMCEQARLRCAPIMEQFNFGWPDSLDCARLP  144
+
+
+> sp|Q9R216|FZD9_MOUSE Frizzled-9 OS=Mus musculus OX=10090 GN=Fzd9 
+PE=2 SV=1
+Length=592
+
+ Score = 133 bits (334),  Expect = 2e-36, Method: Composition-based stats.
+ Identities = 28/115 (24%), Positives = 47/115 (41%), Gaps = 7/115 (6%)
+
+Query  1    KCKKTTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAI  60
+            + +    C+ ++  +C G      LT        +SQ E   +L+ +S L     C   +
+Sbjct  33   RGRGPAPCQAMEIPMCRGIGYN--LTRMPNLLGHTSQGEAAAQLAEFSPLVQYG-CHSHL  89
+
+Query  61   RPLLCAVYMPKCEGG--KVELPSQGLCQTTRVPCAIVARE--RGWPDFLKCTTDY  111
+            R  LC++Y P C           + +C+  R+ CA +  +   GWPD L C    
+Sbjct  90   RFFLCSLYAPMCTDQVSTPIPACRPMCEQARLRCAPIMEQFNFGWPDSLDCARLP  144
+
+
+> sp|Q9VVX3|FRIZ2_DROME Frizzled-2 OS=Drosophila melanogaster OX=7227 
+GN=fz2 PE=1 SV=1
+Length=694
+
+ Score = 133 bits (336),  Expect = 2e-36, Method: Composition-based stats.
+ Identities = 22/109 (20%), Positives = 43/109 (39%), Gaps = 7/109 (6%)
+
+Query  7    TCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPLLCA  66
+             CE +   +C G              +  +QDE   ++  +  L    +C   ++  LC+
+Sbjct  63   RCEEITIPMCRGIGYNMTSFPN--EMNHETQDEAGLEVHQFWPLVEI-KCSPDLKFFLCS  119
+
+Query  67   VYMPKC--EGGKVELPSQGLCQTTRVPCAIVARE--RGWPDFLKCTTDY  111
+            +Y P C  +  K     + +C+  R  CA + ++    WP+ + C    
+Sbjct  120  MYTPICLEDYHKPLPVCRSVCERARSGCAPIMQQYSFEWPERMACEHLP  168
+
+
+> sp|Q9DEB5|FZ10A_XENLA Frizzled-10-A OS=Xenopus laevis OX=8355 
+GN=fzd10-a PE=2 SV=1
+Length=586
+
+ Score = 132 bits (332),  Expect = 4e-36, Method: Composition-based stats.
+ Identities = 21/109 (19%), Positives = 42/109 (39%), Gaps = 7/109 (6%)
+
+Query  7    TCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPLLCA  66
+             C+ ++  +C        +T         +Q E   +L  ++ L     C   ++  LC+
+Sbjct  39   RCQAIEIPMCKDIGYN--MTRMPNLMGHENQKEAAIQLHEFAPLVEYG-CHSHLKFFLCS  95
+
+Query  67   VYMPKCE--GGKVELPSQGLCQTTRVPCAIVARERG--WPDFLKCTTDY  111
+            +Y P C           + +C+  R+ C+ +  +    WPD L C+   
+Sbjct  96   LYAPMCTEQVSTPIPACRVMCEQARLKCSPIMEQFNFKWPDSLDCSKLP  144
+
+
+> sp|O60353|FZD6_HUMAN Frizzled-6 OS=Homo sapiens OX=9606 GN=FZD6 
+PE=1 SV=2
+Length=706
+
+ Score = 131 bits (330),  Expect = 1e-35, Method: Composition-based stats.
+ Identities = 25/111 (23%), Positives = 41/111 (37%), Gaps = 6/111 (5%)
+
+Query  7    TCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPLLCA  66
+            TCEP+    C+           ++      Q     ++  +  L N   C   I   LC 
+Sbjct  23   TCEPITVPRCMKMAYNMTFFPNLMG--HYDQSIAAVEMEHFLPLANL-ECSPNIETFLCK  79
+
+Query  67   VYMPKC-EGGKVELPSQGLCQTTRVPCAIVARERG--WPDFLKCTTDYFPE  114
+             ++P C E   V  P + LC+     C  +    G  WP+ L+C    + +
+Sbjct  80   AFVPTCIEQIHVVPPCRKLCEKVYSDCKKLIDTFGIRWPEELECDRLQYCD  130
+
+
+> sp|Q5RCN4|FZD6_PONAB Frizzled-6 OS=Pongo abelii OX=9601 GN=FZD6 
+PE=2 SV=1
+Length=707
+
+ Score = 131 bits (330),  Expect = 1e-35, Method: Composition-based stats.
+ Identities = 25/111 (23%), Positives = 41/111 (37%), Gaps = 6/111 (5%)
+
+Query  7    TCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPLLCA  66
+            TCEP+    C+           ++      Q     ++  +  L N   C   I   LC 
+Sbjct  24   TCEPITVPRCMKMAYNMTFFPNLMG--HYDQSIAAVEMEHFLPLANL-ECSPNIETFLCK  80
+
+Query  67   VYMPKC-EGGKVELPSQGLCQTTRVPCAIVARERG--WPDFLKCTTDYFPE  114
+             ++P C E   V  P + LC+     C  +    G  WP+ L+C    + +
+Sbjct  81   AFVPTCTEQIHVVPPCRKLCEKVYSDCKKLIDTFGIRWPEELECDRLQYCD  131
+
+
+> sp|Q9W742|FZ10B_XENLA Frizzled-10-B OS=Xenopus laevis OX=8355 
+GN=fzd10-b PE=2 SV=1
+Length=580
+
+ Score = 130 bits (328),  Expect = 1e-35, Method: Composition-based stats.
+ Identities = 21/109 (19%), Positives = 42/109 (39%), Gaps = 7/109 (6%)
+
+Query  7    TCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPLLCA  66
+             C+ ++  +C        +T         +Q E   +L  ++ L     C   ++  LC+
+Sbjct  33   RCQAIEIPMCKDIGYN--MTRMPNLMGHENQKEAAIQLHEFAPLVEYG-CHSHLKFFLCS  89
+
+Query  67   VYMPKCE--GGKVELPSQGLCQTTRVPCAIVARERG--WPDFLKCTTDY  111
+            +Y P C           + +C+  R+ C+ +  +    WPD L C+   
+Sbjct  90   LYAPMCTEQVSTPIPACRVMCEQARLKCSPIMEQFNFKWPDSLDCSKLP  138
+
+
+> sp|P18537|FRIZ_DROME Frizzled OS=Drosophila melanogaster OX=7227 
+GN=fz PE=1 SV=1
+Length=581
+
+ Score = 130 bits (326),  Expect = 2e-35, Method: Composition-based stats.
+ Identities = 25/111 (23%), Positives = 50/111 (45%), Gaps = 7/111 (6%)
+
+Query  4    KTTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPL  63
+                CEP+  +IC        +   ++    + Q+E   ++  ++ L     C D ++  
+Sbjct  49   HHNRCEPITISICKNIPYNMTIMPNLIG--HTKQEEAGLEVHQFAPLVKIG-CSDDLQLF  105
+
+Query  64   LCAVYMPKCE-GGKVELPSQGLCQTTRVPCAIVARE--RGWPDFLKCTTDY  111
+            LC++Y+P C    +   P + LC++ RV C  + +     WP+ L+C+   
+Sbjct  106  LCSLYVPVCTILERPIPPCRSLCESARV-CEKLMKTYNFNWPENLECSKFP  155
+
+
+> sp|Q9PWH2|FZD10_CHICK Frizzled-10 OS=Gallus gallus OX=9031 GN=FZD10 
+PE=1 SV=1
+Length=585
+
+ Score = 130 bits (326),  Expect = 2e-35, Method: Composition-based stats.
+ Identities = 22/109 (20%), Positives = 43/109 (39%), Gaps = 7/109 (6%)
+
+Query  7    TCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPLLCA  66
+             C+P++  +C        +T         +Q E   +L  ++ L     C   ++  LC+
+Sbjct  37   RCQPIEIPMCKDIGYN--MTRMPNLMGHENQREAAIQLHEFAPLVEYG-CHGHLKFFLCS  93
+
+Query  67   VYMPKCE--GGKVELPSQGLCQTTRVPCAIVARERG--WPDFLKCTTDY  111
+            +Y P C           + +C+  R+ C+ +  +    WPD L C+   
+Sbjct  94   LYAPMCTEQVSTPIPACRVMCEQARLKCSPIMEQFNFKWPDSLDCSKLP  142
+
+
+> sp|Q66K79|CBPZ_HUMAN Carboxypeptidase Z OS=Homo sapiens OX=9606 
+GN=CPZ PE=1 SV=2
+Length=652
+
+ Score = 130 bits (327),  Expect = 3e-35, Method: Composition-based stats.
+ Identities = 35/118 (30%), Positives = 49/118 (42%), Gaps = 6/118 (5%)
+
+Query  5    TTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNA--PRCWDAIRP  62
+            + TC  L+   C  +   +     +L   S    E   +  L S L      +C   +R 
+Sbjct  40   SATCVDLQLRTCSDAAYNHTTFPNLLQHRSWEVVEASSEYILLSVLHQLLEGQCNPDLRL  99
+
+Query  63   LLCAVYMPKCEGGKVELPSQGLCQTTRVPCAI--VARERGWPDFLKCTTDYF--PEGC  116
+            L CAV  P+CEGG V  P + +C+  R  C     A +  WP FL C   +    EGC
+Sbjct  100  LGCAVLAPRCEGGWVRRPCRHICEGLREVCQPAFDAIDMAWPYFLDCHRYFTREDEGC  157
+
+
+> sp|Q9IA96|SFRP2_CHICK Secreted frizzled-related protein 2 OS=Gallus 
+gallus OX=9031 GN=SFRP2 PE=2 SV=1
+Length=292
+
+ Score = 125 bits (313),  Expect = 4e-35, Method: Composition-based stats.
+ Identities = 27/112 (24%), Positives = 46/112 (41%), Gaps = 5/112 (4%)
+
+Query  4    KTTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPL  63
+            K + C+P+   + L   + Y            +  EV ++ + W  L    +C    R  
+Sbjct  33   KRSNCKPIPAPMLLCRGIEYQSMRLPNLLGHETVQEVLEQATTWIPLVQ-KQCHPDTRKF  91
+
+Query  64   LCAVYMPKC--EGGKVELPSQGLCQTTRVPCAIVARERG--WPDFLKCTTDY  111
+            LC+++ P C  +  ++  P   LC+  +  CA V    G  WPD L C+   
+Sbjct  92   LCSLFAPVCIDDLDEIIQPCHSLCEEVKESCAPVMSAFGFPWPDMLDCSRFP  143
+
+
+> sp|Q9ULW2|FZD10_HUMAN Frizzled-10 OS=Homo sapiens OX=9606 GN=FZD10 
+PE=1 SV=1
+Length=581
+
+ Score = 129 bits (324),  Expect = 5e-35, Method: Composition-based stats.
+ Identities = 23/109 (21%), Positives = 42/109 (39%), Gaps = 7/109 (6%)
+
+Query  7    TCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPLLCA  66
+             C+P++  +C        +T         +Q E   +L  ++ L     C   +R  LC+
+Sbjct  33   KCQPIEIPMCKDIGYN--MTRMPNLMGHENQREAAIQLHEFAPLVEYG-CHGHLRFFLCS  89
+
+Query  67   VYMPKCE--GGKVELPSQGLCQTTRVPCAIVARERG--WPDFLKCTTDY  111
+            +Y P C           + +C+  R+ C+ +  +    WPD L C    
+Sbjct  90   LYAPMCTEQVSTPIPACRVMCEQARLKCSPIMEQFNFKWPDSLDCRKLP  138
+
+
+> sp|Q8BKG4|FZD10_MOUSE Frizzled-10 OS=Mus musculus OX=10090 GN=Fzd10 
+PE=1 SV=1
+Length=582
+
+ Score = 128 bits (323),  Expect = 6e-35, Method: Composition-based stats.
+ Identities = 22/109 (20%), Positives = 43/109 (39%), Gaps = 7/109 (6%)
+
+Query  7    TCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPLLCA  66
+             C+P++  +C            ++     +Q E   +L  ++ L     C   +R  LC+
+Sbjct  34   KCQPVEIPMCKDIGYNTTRMPNLM--GHENQREAAIQLHEFAPLVEYG-CHSHLRFFLCS  90
+
+Query  67   VYMPKCE--GGKVELPSQGLCQTTRVPCAIVARERG--WPDFLKCTTDY  111
+            +Y P C           + +C+  R+ C+ +  +    WPD L C+   
+Sbjct  91   LYAPMCTEQVSTPIPACRVMCEQARLKCSPIMEQFKFRWPDSLDCSKLP  139
+
+
+> sp|Q24760|FRIZ_DROVI Frizzled OS=Drosophila virilis OX=7244 GN=fz 
+PE=2 SV=3
+Length=580
+
+ Score = 128 bits (322),  Expect = 8e-35, Method: Composition-based stats.
+ Identities = 24/111 (22%), Positives = 49/111 (44%), Gaps = 7/111 (6%)
+
+Query  4    KTTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPL  63
+                CEP+  +IC        +   ++    + Q+E   ++  ++ L     C   ++  
+Sbjct  49   HHNRCEPITISICKNIPYNMTIMPNLIG--HTKQEEAGLEVHQFAPLVKIG-CSADLQLF  105
+
+Query  64   LCAVYMPKCE-GGKVELPSQGLCQTTRVPCAIVARE--RGWPDFLKCTTDY  111
+            LC++Y+P C    +   P + LC++ RV C  + +     WP+ L+C+   
+Sbjct  106  LCSLYVPVCTILERPIPPCRSLCESARV-CETLMKTYNFNWPENLECSKFP  155
+
+
+> sp|O54858|CBPZ_RAT Carboxypeptidase Z OS=Rattus norvegicus OX=10116 
+GN=Cpz PE=2 SV=1
+Length=652
+
+ Score = 128 bits (323),  Expect = 1e-34, Method: Composition-based stats.
+ Identities = 34/119 (29%), Positives = 50/119 (42%), Gaps = 6/119 (5%)
+
+Query  4    KTTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNA--PRCWDAIR  61
+             + TC  L    C  +   +    T L   S    E   + +L   L      +C   +R
+Sbjct  42   HSATCVDLHLRTCADAAYNHTSFPTPLEHRSWEAVEASPEYTLLGVLHFLLEGQCNPDLR  101
+
+Query  62   PLLCAVYMPKCEGGKVELPSQGLCQTTRVPCAI--VARERGWPDFLKCTTDYFP--EGC  116
+             L C+V  P+C+GG  + P + +C+  R  C     A +  WP FL CT  + P  EGC
+Sbjct  102  LLGCSVLAPRCQGGHTQRPCRRVCEGLREACQPAFDAIDMAWPYFLDCTQYFAPEEEGC  160
+
+
+> sp|Q8WMU5|FZD6_CANLF Frizzled-6 OS=Canis lupus familiaris OX=9615 
+GN=FZD6 PE=2 SV=1
+Length=712
+
+ Score = 128 bits (321),  Expect = 2e-34, Method: Composition-based stats.
+ Identities = 24/111 (22%), Positives = 39/111 (35%), Gaps = 6/111 (5%)
+
+Query  7    TCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPLLCA  66
+            TCEP+    C+           ++      Q     K+  +  L N   C   I   LC 
+Sbjct  23   TCEPITVPRCMKMAYNMTFFPNLM--RHYDQSTAAVKMEPFLPLANL-ECSPNIETFLCK  79
+
+Query  67   VYMPKCEGG-KVELPSQGLCQTTRVPCAIVARERG--WPDFLKCTTDYFPE  114
+             ++P C     V  P +  C+     C  +    G  WP+ L+C    + +
+Sbjct  80   AFVPACTDQINVVPPCRKFCEKVYSDCKKLIDTFGMRWPEELECDRLQYCD  130
+
+
+> sp|Q8C4U3|SFRP1_MOUSE Secreted frizzled-related protein 1 OS=Mus 
+musculus OX=10090 GN=Sfrp1 PE=1 SV=3
+Length=314
+
+ Score = 123 bits (308),  Expect = 3e-34, Method: Composition-based stats.
+ Identities = 31/114 (27%), Positives = 47/114 (41%), Gaps = 6/114 (5%)
+
+Query  4    KTTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPL  63
+            K   C  +  ++ L   + Y         +  +  EV  + S W  L N   C    +  
+Sbjct  54   KPPQCVDIPVDLRLCHNVGYKKMVLPNLLEHETMAEVKQQASSWVPLLN-KNCHMGTQVF  112
+
+Query  64   LCAVYMPKCEGGKVELPSQGLCQTTRVPCAIVARERG--WPDFLKCTTDYFPEG  115
+            LC+++ P C   +   P + LC+  R  C  V +  G  WP+ LKC    FPEG
+Sbjct  113  LCSLFAPVC-LDRPIYPCRWLCEAVRDSCEPVMQFFGFYWPEMLKCDK--FPEG  163
+
+
+> sp|Q8QGP3|CBPZ_CHICK Carboxypeptidase Z OS=Gallus gallus OX=9031 
+GN=CPZ PE=1 SV=1
+Length=647
+
+ Score = 127 bits (318),  Expect = 5e-34, Method: Composition-based stats.
+ Identities = 32/122 (26%), Positives = 48/122 (39%), Gaps = 6/122 (5%)
+
+Query  1    KCKKTTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNA--PRCWD  58
+            +  +   C  +  + C        +    L + S    E   +  L S L N     C  
+Sbjct  33   QTAQKAKCVDISLSSCTDVTYTQTMYPNFLDQKSREVIEYSSEYILISVLHNLLQGECNP  92
+
+Query  59   AIRPLLCAVYMPKCEGGKVELPSQGLCQTTRVPC--AIVARERGWPDFLKCTTDYF--PE  114
+             +R L C+V  P+CE  KV  P + +C+  +  C  A  A +  WP FL C   +    E
+Sbjct  93   DLRLLGCSVLAPQCEKDKVIKPCRHVCENLKKNCLSAFDAIDMAWPYFLDCDRFFAGEEE  152
+
+Query  115  GC  116
+            GC
+Sbjct  153  GC  154
+
+
+> sp|Q95117|SFRP3_BOVIN Secreted frizzled-related protein 3 OS=Bos 
+taurus OX=9913 GN=FRZB PE=1 SV=1
+Length=325
+
+ Score = 122 bits (307),  Expect = 7e-34, Method: Composition-based stats.
+ Identities = 26/115 (23%), Positives = 44/115 (38%), Gaps = 8/115 (7%)
+
+Query  2    CKKTTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIR  61
+              +   CEP++  +C    LP+ +T        S+Q      +  + GL     C   + 
+Sbjct  29   GARAAACEPVRIPLCK--SLPWNMTKMPNHLHHSTQANAILAIEQFEGLLGT-HCSPDLL  85
+
+Query  62   PLLCAVYMPKCEGG---KVELPSQGLCQTTRVPCAIVARER--GWPDFLKCTTDY  111
+              LCA+Y P C      +   P + +C+  R  C  +  +    WP+ L C    
+Sbjct  86   FFLCAMYAPICTIDFQHEPIKPCKSVCERARQGCEPILIKYRHSWPESLACEELP  140
+
+
+> sp|G5ECQ2|FRIZ2_CAEEL Frizzled-2 OS=Caenorhabditis elegans OX=6239 
+GN=cfz-2 PE=2 SV=1
+Length=578
+
+ Score = 125 bits (315),  Expect = 8e-34, Method: Composition-based stats.
+ Identities = 26/113 (23%), Positives = 42/113 (37%), Gaps = 7/113 (6%)
+
+Query  3    KKTTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRP  62
+             K   CE +   +C G            +     Q+E   ++  +  L     C+  ++ 
+Sbjct  20   GKRQKCEQITIPLCKGIGYNMTSFPN--SYGHEKQEEAGLEVHQFYPLVEVG-CFQHLKF  76
+
+Query  63   LLCAVYMPKCE--GGKVELPSQGLCQTTRVPCAIVARERG--WPDFLKCTTDY  111
+             LC +Y P C+    K  LP   LC   R  C+ +  + G  WP+ L C    
+Sbjct  77   FLCTMYTPICQENYDKPILPCMELCVEARSKCSPIMAKYGFRWPETLSCEALP  129
+
+
+> sp|P97401|SFRP3_MOUSE Secreted frizzled-related protein 3 OS=Mus 
+musculus OX=10090 GN=Frzb PE=1 SV=1
+Length=323
+
+ Score = 122 bits (306),  Expect = 8e-34, Method: Composition-based stats.
+ Identities = 26/115 (23%), Positives = 44/115 (38%), Gaps = 8/115 (7%)
+
+Query  2    CKKTTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIR  61
+              +   CEP++  +C    LP+ +T        S+Q      +  + GL     C   + 
+Sbjct  29   GAQAAACEPVRIPLCK--SLPWNMTKMPNHLHHSTQANAILAMEQFEGLLGT-HCSPDLL  85
+
+Query  62   PLLCAVYMPKCEGG---KVELPSQGLCQTTRVPCAIVARER--GWPDFLKCTTDY  111
+              LCA+Y P C      +   P + +C+  R  C  +  +    WP+ L C    
+Sbjct  86   FFLCAMYAPICTIDFQHEPIKPCKSVCERARQGCEPILIKYRHSWPESLACDELP  140
+
+
+> sp|Q5RF67|SFRP3_PONAB Secreted frizzled-related protein 3 OS=Pongo 
+abelii OX=9601 GN=FRZB PE=2 SV=1
+Length=325
+
+ Score = 121 bits (305),  Expect = 1e-33, Method: Composition-based stats.
+ Identities = 26/115 (23%), Positives = 44/115 (38%), Gaps = 8/115 (7%)
+
+Query  2    CKKTTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIR  61
+              +   CEP++  +C    LP+ +T        S+Q      +  + GL     C   + 
+Sbjct  29   GARAAACEPVRIPLCK--SLPWNMTKMPNHLHHSTQANAILAIEQFEGLLGT-HCSPDLL  85
+
+Query  62   PLLCAVYMPKCEGG---KVELPSQGLCQTTRVPCAIVARER--GWPDFLKCTTDY  111
+              LCA+Y P C      +   P + +C+  R  C  +  +    WP+ L C    
+Sbjct  86   FFLCAMYAPICTIDFQHEPIKPCKSVCERARQGCEPILIKYRHSWPENLACEELP  140
+
+
+> sp|Q92765|SFRP3_HUMAN Secreted frizzled-related protein 3 OS=Homo 
+sapiens OX=9606 GN=FRZB PE=1 SV=2
+Length=325
+
+ Score = 121 bits (305),  Expect = 1e-33, Method: Composition-based stats.
+ Identities = 26/115 (23%), Positives = 44/115 (38%), Gaps = 8/115 (7%)
+
+Query  2    CKKTTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIR  61
+              +   CEP++  +C    LP+ +T        S+Q      +  + GL     C   + 
+Sbjct  29   GARAAACEPVRIPLCK--SLPWNMTKMPNHLHHSTQANAILAIEQFEGLLGT-HCSPDLL  85
+
+Query  62   PLLCAVYMPKCEGG---KVELPSQGLCQTTRVPCAIVARER--GWPDFLKCTTDY  111
+              LCA+Y P C      +   P + +C+  R  C  +  +    WP+ L C    
+Sbjct  86   FFLCAMYAPICTIDFQHEPIKPCKSVCERARQGCEPILIKYRHSWPENLACEELP  140
+
+
+> sp|Q9IA95|SFRP3_CHICK Secreted frizzled-related protein 3 OS=Gallus 
+gallus OX=9031 GN=FRZB PE=2 SV=1
+Length=315
+
+ Score = 121 bits (304),  Expect = 1e-33, Method: Composition-based stats.
+ Identities = 27/109 (25%), Positives = 42/109 (39%), Gaps = 8/109 (7%)
+
+Query  8    CEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPLLCAV  67
+            CEP++  +C    LP+ +T        S+Q      +  + GL     C   +   LCA+
+Sbjct  27   CEPVRIPLCK--PLPWNMTKMPNHLHHSTQANAVLAMEQFEGLLGT-NCSPDLLFFLCAM  83
+
+Query  68   YMPKCEGG---KVELPSQGLCQTTRVPCAIVARER--GWPDFLKCTTDY  111
+            Y P C      +   P + +C+  R  C  V       WP+ L C    
+Sbjct  84   YAPICTIDFQHEPIKPCKSVCERARAGCEPVLIRYRHAWPESLACDELP  132
+
+
+> sp|Q96HF1|SFRP2_HUMAN Secreted frizzled-related protein 2 OS=Homo 
+sapiens OX=9606 GN=SFRP2 PE=1 SV=2
+Length=295
+
+ Score = 120 bits (301),  Expect = 2e-33, Method: Composition-based stats.
+ Identities = 27/112 (24%), Positives = 44/112 (39%), Gaps = 5/112 (4%)
+
+Query  4    KTTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPL  63
+            K + C+P+  N+ L   + Y            +  EV ++   W  L    +C    +  
+Sbjct  36   KRSNCKPIPANLQLCHGIEYQNMRLPNLLGHETMKEVLEQAGAWIPLV-MKQCHPDTKKF  94
+
+Query  64   LCAVYMPKC--EGGKVELPSQGLCQTTRVPCAIVARERG--WPDFLKCTTDY  111
+            LC+++ P C  +  +   P   LC   +  CA V    G  WPD L+C    
+Sbjct  95   LCSLFAPVCLDDLDETIQPCHSLCVQVKDRCAPVMSAFGFPWPDMLECDRFP  146
+
+
+> sp|Q61089|FZD6_MOUSE Frizzled-6 OS=Mus musculus OX=10090 GN=Fzd6 
+PE=1 SV=1
+Length=709
+
+ Score = 125 bits (313),  Expect = 3e-33, Method: Composition-based stats.
+ Identities = 26/111 (23%), Positives = 41/111 (37%), Gaps = 6/111 (5%)
+
+Query  7    TCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPLLCA  66
+            TCEP+    C+           ++      Q     ++  +  L N   C   I   LC 
+Sbjct  23   TCEPITVPRCMKMTYNMTFFPNLMG--HYDQGIAAVEMGHFLHLANL-ECSPNIEMFLCQ  79
+
+Query  67   VYMPKC-EGGKVELPSQGLCQTTRVPCAIVARERG--WPDFLKCTTDYFPE  114
+             ++P C E   V LP + LC+     C  +    G  WP+ L+C      +
+Sbjct  80   AFIPTCTEQIHVVLPCRKLCEKIVSDCKKLMDTFGIRWPEELECNRLPHCD  130
+
+
+> sp|Q863H1|SFRP2_CANLF Secreted frizzled-related protein 2 OS=Canis 
+lupus familiaris OX=9615 GN=SFRP2 PE=2 SV=1
+Length=294
+
+ Score = 120 bits (300),  Expect = 3e-33, Method: Composition-based stats.
+ Identities = 27/112 (24%), Positives = 44/112 (39%), Gaps = 5/112 (4%)
+
+Query  4    KTTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPL  63
+            K + C+P+  N+ L   + Y            +  EV ++   W  L    +C    +  
+Sbjct  35   KRSNCKPIPANLQLCHGIEYQNMRLPNLLGHETMKEVLEQAGAWIPLV-MKQCHPDTKKF  93
+
+Query  64   LCAVYMPKC--EGGKVELPSQGLCQTTRVPCAIVARERG--WPDFLKCTTDY  111
+            LC+++ P C  +  +   P   LC   +  CA V    G  WPD L+C    
+Sbjct  94   LCSLFAPVCLDDLDETIQPCHSLCVQVKDRCAPVMSAFGFPWPDMLECDRFP  145
+
+
+> sp|Q9ULV1|FZD4_HUMAN Frizzled-4 OS=Homo sapiens OX=9606 GN=FZD4 
+PE=1 SV=2
+Length=537
+
+ Score = 123 bits (310),  Expect = 3e-33, Method: Composition-based stats.
+ Identities = 27/109 (25%), Positives = 48/109 (44%), Gaps = 7/109 (6%)
+
+Query  7    TCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPLLCA  66
+             C+P++ ++C    L Y +T          Q +   +L+ ++ L     C   ++  LC+
+Sbjct  44   RCDPIRISMCQN--LGYNVTKMPNLVGHELQTDAELQLTTFTPLIQYG-CSSQLQFFLCS  100
+
+Query  67   VYMPKCE--GGKVELPSQGLCQTTRVPCAIVARERG--WPDFLKCTTDY  111
+            VY+P C         P  G+C + +  C  V +E G  WP+ L C+   
+Sbjct  101  VYVPMCTEKINIPIGPCGGMCLSVKRRCEPVLKEFGFAWPESLNCSKFP  149
+
+
+> sp|Q8N474|SFRP1_HUMAN Secreted frizzled-related protein 1 OS=Homo 
+sapiens OX=9606 GN=SFRP1 PE=1 SV=1
+Length=314
+
+ Score = 120 bits (301),  Expect = 3e-33, Method: Composition-based stats.
+ Identities = 31/114 (27%), Positives = 47/114 (41%), Gaps = 6/114 (5%)
+
+Query  4    KTTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPL  63
+            K   C  +  ++ L   + Y         +  +  EV  + S W  L N   C    +  
+Sbjct  54   KPPQCVDIPADLRLCHNVGYKKMVLPNLLEHETMAEVKQQASSWVPLLN-KNCHAGTQVF  112
+
+Query  64   LCAVYMPKCEGGKVELPSQGLCQTTRVPCAIVARERG--WPDFLKCTTDYFPEG  115
+            LC+++ P C   +   P + LC+  R  C  V +  G  WP+ LKC    FPEG
+Sbjct  113  LCSLFAPVC-LDRPIYPCRWLCEAVRDSCEPVMQFFGFYWPEMLKCDK--FPEG  163
+
+
+> sp|Q8R4V4|CBPZ_MOUSE Carboxypeptidase Z OS=Mus musculus OX=10090 
+GN=Cpz PE=2 SV=2
+Length=654
+
+ Score = 124 bits (311),  Expect = 4e-33, Method: Composition-based stats.
+ Identities = 33/119 (28%), Positives = 48/119 (40%), Gaps = 6/119 (5%)
+
+Query  4    KTTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNA--PRCWDAIR  61
+             + TC  L    C  +   +    T L   S    E   +  L   +      +C   +R
+Sbjct  44   HSATCVDLHLRTCADAAYNHTSFPTPLEHRSWEAVESSPEYMLLGVIHFLLEGQCNPDLR  103
+
+Query  62   PLLCAVYMPKCEGGKVELPSQGLCQTTRVPCAI--VARERGWPDFLKCTTDYFP--EGC  116
+             L C+V  P+CEGG  + P + +C+  R  C     A +  WP FL C   + P  EGC
+Sbjct  104  LLGCSVLAPRCEGGHTQRPCRHVCEGLREACQPAFDAIDMAWPYFLDCAQYFAPEEEGC  162
+
+
+> sp|Q61088|FZD4_MOUSE Frizzled-4 OS=Mus musculus OX=10090 GN=Fzd4 
+PE=1 SV=1
+Length=537
+
+ Score = 123 bits (309),  Expect = 5e-33, Method: Composition-based stats.
+ Identities = 29/109 (27%), Positives = 47/109 (43%), Gaps = 7/109 (6%)
+
+Query  7    TCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPLLCA  66
+             C+P++  +C    L Y +T          Q +   +L+ ++ L     C   ++  LC+
+Sbjct  44   RCDPIRIAMCQN--LGYNVTKMPNLVGHELQTDAELQLTTFTPLIQYG-CSSQLQFFLCS  100
+
+Query  67   VYMPKCE--GGKVELPSQGLCQTTRVPCAIVARERG--WPDFLKCTTDY  111
+            VY+P C         P  G+C + +  C  V RE G  WPD L C+   
+Sbjct  101  VYVPMCTEKINIPIGPCGGMCLSVKRRCEPVLREFGFAWPDTLNCSKFP  149
+
+
+> sp|Q9QZH0|FZD4_RAT Frizzled-4 OS=Rattus norvegicus OX=10116 GN=Fzd4 
+PE=2 SV=1
+Length=538
+
+ Score = 123 bits (309),  Expect = 5e-33, Method: Composition-based stats.
+ Identities = 28/109 (26%), Positives = 47/109 (43%), Gaps = 7/109 (6%)
+
+Query  7    TCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPLLCA  66
+             C+P++  +C    L Y +T          Q +   +L+ ++ L     C   ++  LC+
+Sbjct  45   RCDPIRIAMCQN--LGYNVTKMPNLVGHELQTDAELQLTTFTPLIQYG-CSSQLQFFLCS  101
+
+Query  67   VYMPKCE--GGKVELPSQGLCQTTRVPCAIVARERG--WPDFLKCTTDY  111
+            VY+P C         P  G+C + +  C  V +E G  WPD L C+   
+Sbjct  102  VYVPMCTEKINIPIGPCGGMCLSVKRRCEPVLKEFGFAWPDSLNCSKFP  150
+
+
+> sp|P97299|SFRP2_MOUSE Secreted frizzled-related protein 2 OS=Mus 
+musculus OX=10090 GN=Sfrp2 PE=1 SV=2
+Length=295
+
+ Score = 119 bits (299),  Expect = 5e-33, Method: Composition-based stats.
+ Identities = 27/112 (24%), Positives = 44/112 (39%), Gaps = 5/112 (4%)
+
+Query  4    KTTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPL  63
+            K + C+P+  N+ L   + Y            +  EV ++   W  L    +C    +  
+Sbjct  36   KRSNCKPIPANLQLCHGIEYQNMRLPNLLGHETMKEVLEQAGAWIPLV-MKQCHPDTKKF  94
+
+Query  64   LCAVYMPKC--EGGKVELPSQGLCQTTRVPCAIVARERG--WPDFLKCTTDY  111
+            LC+++ P C  +  +   P   LC   +  CA V    G  WPD L+C    
+Sbjct  95   LCSLFAPVCLDDLDETIQPCHSLCVQVKDRCAPVMSAFGFPWPDMLECDRFP  146
+
+
+> sp|Q9PT62|FZD4_XENLA Frizzled-4 OS=Xenopus laevis OX=8355 GN=fzd4 
+PE=2 SV=1
+Length=523
+
+ Score = 123 bits (308),  Expect = 6e-33, Method: Composition-based stats.
+ Identities = 27/109 (25%), Positives = 48/109 (44%), Gaps = 7/109 (6%)
+
+Query  7    TCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPLLCA  66
+            +C+P++  +C    L Y +T          Q +   +L+ ++ L     C   ++  LC+
+Sbjct  30   SCDPIRITMCQN--LGYNVTKMPNLVGHELQADAELQLTTFTPLIQYG-CSSQLQFFLCS  86
+
+Query  67   VYMPKCE--GGKVELPSQGLCQTTRVPCAIVARERG--WPDFLKCTTDY  111
+            VY+P C         P  G+C + +  C  V +E G  WP+ L C+   
+Sbjct  87   VYVPMCTEKINIPIGPCGGMCLSVKRRCEPVLKEFGFAWPESLNCSKFP  135
+
+
+> sp|P91682|SMO_DROME Protein smoothened OS=Drosophila melanogaster 
+OX=7227 GN=smo PE=1 SV=1
+Length=1036
+
+ Score = 123 bits (310),  Expect = 8e-33, Method: Composition-based stats.
+ Identities = 49/122 (40%), Positives = 68/122 (56%), Gaps = 7/122 (6%)
+
+Query  1    KCKKTTTCEPLK--YNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWD  58
+            +C +   C P     N C GS LPY L+S  L  D  ++ E++DKL+ +  L++ P+CW 
+Sbjct  83   QCVRRARCYPTSNATNTCFGSKLPYELSSLDLT-DFHTEKELNDKLNDYYALKHVPKCWA  141
+
+Query  59   AIRPLLCAVYMPKCEG----GKVELPSQGLCQTTRVPCAIVARERGWPDFLKCTTDYFPE  114
+            AI+P LCAV+ PKCE       V LPS  +C+ T  PC I+     +P FL+C    FP 
+Sbjct  142  AIQPFLCAVFKPKCEKINGEDMVYLPSYEMCRITMEPCRILYNTTFFPKFLRCNETLFPT  201
+
+Query  115  GC  116
+             C
+Sbjct  202  KC  203
+
+
+> sp|Q9DEQ4|SFRP1_CHICK Secreted frizzled-related protein 1 OS=Gallus 
+gallus OX=9031 GN=SFRP1 PE=2 SV=1
+Length=314
+
+ Score = 119 bits (298),  Expect = 1e-32, Method: Composition-based stats.
+ Identities = 29/115 (25%), Positives = 44/115 (38%), Gaps = 4/115 (3%)
+
+Query  4    KTTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPL  63
+            K   C  +  ++ L   + Y         D  +  EV  + S W  L N   C    +  
+Sbjct  54   KPHQCVAIPADLRLCHSVGYDKMVLPNLLDHETMAEVKHQASSWVPLLN-KNCHMGTQVF  112
+
+Query  64   LCAVYMPKCEGGKVELPSQGLCQTTRVPCAIVARERG--WPDFLKCTTDYFPEGC  116
+            LC+++ P C   +   P + LC+  R  C  V +  G  WP+ LKC        C
+Sbjct  113  LCSLFAPVC-LDRPVYPCRWLCEAVRDSCEPVMQFFGFFWPEMLKCDQFPQDYVC  166
+
+
+> sp|Q9IA05|FZD4_CHICK Frizzled-4 OS=Gallus gallus OX=9031 GN=FZD4 
+PE=1 SV=1
+Length=525
+
+ Score = 122 bits (306),  Expect = 1e-32, Method: Composition-based stats.
+ Identities = 27/109 (25%), Positives = 46/109 (42%), Gaps = 7/109 (6%)
+
+Query  7    TCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPLLCA  66
+             C+ ++  +C    L Y +T          Q +   +L+ ++ L     C   ++  LC+
+Sbjct  32   RCDAIRIAMCQN--LGYNVTKMPNLVGHELQADAELQLTTFTPLIQYG-CSSQLQFFLCS  88
+
+Query  67   VYMPKCE--GGKVELPSQGLCQTTRVPCAIVARERG--WPDFLKCTTDY  111
+            VY+P C         P  G+C + +  C  V +E G  WPD L C+   
+Sbjct  89   VYVPMCTEKINIPIGPCGGMCLSVKRRCEPVLKEFGFAWPDSLNCSKFP  137
+
+
+> sp|O00144|FZD9_HUMAN Frizzled-9 OS=Homo sapiens OX=9606 GN=FZD9 
+PE=2 SV=1
+Length=591
+
+ Score = 122 bits (307),  Expect = 1e-32, Method: Composition-based stats.
+ Identities = 27/115 (23%), Positives = 47/115 (41%), Gaps = 7/115 (6%)
+
+Query  1    KCKKTTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAI  60
+            + +    C+ ++  +C G      LT        +SQ E   +L+ ++ L     C   +
+Sbjct  32   RGRGAAPCQAVEIPMCRGIGYN--LTRMPNLLGHTSQGEAAAELAEFAPLVQYG-CHSHL  88
+
+Query  61   RPLLCAVYMPKCEGG--KVELPSQGLCQTTRVPCAIVARE--RGWPDFLKCTTDY  111
+            R  LC++Y P C           + +C+  R+ CA +  +   GWPD L C    
+Sbjct  89   RFFLCSLYAPMCTDQVSTPIPACRPMCEQARLRCAPIMEQFNFGWPDSLDCARLP  143
+
+
+> sp|O19116|SFRP1_BOVIN Secreted frizzled-related protein 1 OS=Bos 
+taurus OX=9913 GN=SFRP1 PE=2 SV=1
+Length=308
+
+ Score = 117 bits (294),  Expect = 3e-32, Method: Composition-based stats.
+ Identities = 31/114 (27%), Positives = 47/114 (41%), Gaps = 6/114 (5%)
+
+Query  4    KTTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPL  63
+            K   C  +  ++ L   + Y         +  +  EV  + S W  L N   C    +  
+Sbjct  48   KPPQCVDIPADLRLCHNVGYKRMVLPNLLEHETMAEVKQQASSWVPLLN-KNCHIGTQVF  106
+
+Query  64   LCAVYMPKCEGGKVELPSQGLCQTTRVPCAIVARERG--WPDFLKCTTDYFPEG  115
+            LC+++ P C   +   P + LC+  R  C  V +  G  WP+ LKC    FPEG
+Sbjct  107  LCSLFAPVC-LDRPIYPCRWLCEAVRDSCEPVMQFFGFYWPEMLKCDK--FPEG  157
+
+
+> sp|Q9Z1N6|SFRP4_MOUSE Secreted frizzled-related sequence protein 
+4 OS=Mus musculus OX=10090 GN=Sfrp4 PE=2 SV=1
+Length=351
+
+ Score = 117 bits (294),  Expect = 9e-32, Method: Composition-based stats.
+ Identities = 25/115 (22%), Positives = 44/115 (38%), Gaps = 8/115 (7%)
+
+Query  2    CKKTTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIR  61
+              +   CE ++  +C    +P+ +T        S+Q+     +  +  L +   C   +R
+Sbjct  18   GVRGAPCEAVRIPMCR--HMPWNITRMPNHLHHSTQENAILAIEQYEELVDV-NCSSVLR  74
+
+Query  62   PLLCAVYMPKCEGGK---VELPSQGLCQTTRVPCAIVARER--GWPDFLKCTTDY  111
+              LCA+Y P C          P + +CQ  R  C  + +     WP+ L C    
+Sbjct  75   FFLCAMYAPICTLEFLHDPIKPCKSVCQRARDDCEPLMKMYNHSWPESLACDELP  129
+
+
+> sp|Q9WU66|SFRP5_MOUSE Secreted frizzled-related protein 5 OS=Mus 
+musculus OX=10090 GN=Sfrp5 PE=2 SV=1
+Length=314
+
+ Score = 116 bits (291),  Expect = 1e-31, Method: Composition-based stats.
+ Identities = 28/110 (25%), Positives = 43/110 (39%), Gaps = 4/110 (4%)
+
+Query  4    KTTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPL  63
+            K   C  +  ++ L   + Y         +  S  EV  + S W  L  A RC    +  
+Sbjct  46   KPPQCLDIPADLPLCHTVGYKRMRLPNLLEHESLAEVKQQASSWLPLL-AKRCHSDTQVF  104
+
+Query  64   LCAVYMPKCEGGKVELPSQGLCQTTRVPCAIVARERG--WPDFLKCTTDY  111
+            LC+++ P C   +   P + LC+  R  CA +    G  WP+ L C    
+Sbjct  105  LCSLFAPVC-LDRPIYPCRSLCEAARAGCAPLMEAYGFPWPEMLHCHKFP  153
+
+
+> sp|Q6FHJ7|SFRP4_HUMAN Secreted frizzled-related protein 4 OS=Homo 
+sapiens OX=9606 GN=SFRP4 PE=1 SV=2
+Length=346
+
+ Score = 116 bits (291),  Expect = 2e-31, Method: Composition-based stats.
+ Identities = 25/115 (22%), Positives = 44/115 (38%), Gaps = 8/115 (7%)
+
+Query  2    CKKTTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIR  61
+              +   CE ++  +C    +P+ +T        S+Q+     +  +  L +   C   +R
+Sbjct  18   GVRGAPCEAVRIPMCR--HMPWNITRMPNHLHHSTQENAILAIEQYEELVDV-NCSAVLR  74
+
+Query  62   PLLCAVYMPKCEGGK---VELPSQGLCQTTRVPCAIVARER--GWPDFLKCTTDY  111
+              LCA+Y P C          P + +CQ  R  C  + +     WP+ L C    
+Sbjct  75   FFLCAMYAPICTLEFLHDPIKPCKSVCQRARDDCEPLMKMYNHSWPESLACDELP  129
+
+
+> sp|Q9XSC1|SFRP5_BOVIN Secreted frizzled-related protein 5 OS=Bos 
+taurus OX=9913 GN=SFRP5 PE=2 SV=1
+Length=315
+
+ Score = 115 bits (289),  Expect = 2e-31, Method: Composition-based stats.
+ Identities = 28/110 (25%), Positives = 43/110 (39%), Gaps = 4/110 (4%)
+
+Query  4    KTTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPL  63
+            K   C  +  ++ L   + Y         +  S  EV  + S W  L  A RC    +  
+Sbjct  47   KPPQCLDIPADLPLCHTVGYKRMRLPNLLEHESLAEVKQQASSWLPLL-AKRCHSDTQVF  105
+
+Query  64   LCAVYMPKCEGGKVELPSQGLCQTTRVPCAIVARERG--WPDFLKCTTDY  111
+            LC+++ P C   +   P + LC+  R  CA +    G  WP+ L C    
+Sbjct  106  LCSLFAPVC-LDRPIYPCRSLCEAVRAGCAPLMEAYGFPWPEMLHCHKFP  154
+
+
+> sp|Q5T4F7|SFRP5_HUMAN Secreted frizzled-related protein 5 OS=Homo 
+sapiens OX=9606 GN=SFRP5 PE=2 SV=3
+Length=317
+
+ Score = 115 bits (288),  Expect = 3e-31, Method: Composition-based stats.
+ Identities = 28/110 (25%), Positives = 43/110 (39%), Gaps = 4/110 (4%)
+
+Query  4    KTTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPL  63
+            K   C  +  ++ L   + Y         +  S  EV  + S W  L  A RC    +  
+Sbjct  49   KPPQCLDIPADLPLCHTVGYKRMRLPNLLEHESLAEVKQQASSWLPLL-AKRCHSDTQVF  107
+
+Query  64   LCAVYMPKCEGGKVELPSQGLCQTTRVPCAIVARERG--WPDFLKCTTDY  111
+            LC+++ P C   +   P + LC+  R  CA +    G  WP+ L C    
+Sbjct  108  LCSLFAPVC-LDRPIYPCRSLCEAVRAGCAPLMEAYGFPWPEMLHCHKFP  156
+
+
+> sp|Q7YRN1|SFRP4_MACMU Secreted frizzled-related protein 4 OS=Macaca 
+mulatta OX=9544 GN=SFRP4 PE=2 SV=1
+Length=346
+
+ Score = 115 bits (289),  Expect = 3e-31, Method: Composition-based stats.
+ Identities = 25/115 (22%), Positives = 44/115 (38%), Gaps = 8/115 (7%)
+
+Query  2    CKKTTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIR  61
+              +   CE ++  +C    +P+ +T        S+Q+     +  +  L +   C   +R
+Sbjct  18   GVRGAPCEAVRIPMCR--HMPWNITRMPNHLHHSTQENAILAIEQYEELVDV-NCSSVLR  74
+
+Query  62   PLLCAVYMPKCEGGK---VELPSQGLCQTTRVPCAIVARER--GWPDFLKCTTDY  111
+              LCA+Y P C          P + +CQ  R  C  + +     WP+ L C    
+Sbjct  75   FFLCAMYAPICTLEFLHDPIKPCKSVCQRARDDCEPLMKMYNHSWPESLACDELP  129
+
+
+> sp|Q9JLS4|SFRP4_RAT Secreted frizzled-related protein 4 OS=Rattus 
+norvegicus OX=10116 GN=Sfrp4 PE=2 SV=2
+Length=348
+
+ Score = 115 bits (288),  Expect = 6e-31, Method: Composition-based stats.
+ Identities = 25/115 (22%), Positives = 44/115 (38%), Gaps = 8/115 (7%)
+
+Query  2    CKKTTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIR  61
+              +   CE ++  +C    +P+ +T        S+Q+     +  +  L +   C   +R
+Sbjct  18   GVRGAPCEAVRIPMCR--HMPWNITRMPNHLHHSTQENAILAIEQYEELVDV-NCSSVLR  74
+
+Query  62   PLLCAVYMPKCEGGK---VELPSQGLCQTTRVPCAIVARER--GWPDFLKCTTDY  111
+              LCA+Y P C          P + +CQ  R  C  + +     WP+ L C    
+Sbjct  75   FFLCAMYAPICTLEFLHDPIKPCKSVCQRARDDCEPLMKMYNHSWPESLACDELP  129
+
+
+> sp|Q9NBW1|FRIZ4_DROME Frizzled-4 OS=Drosophila melanogaster OX=7227 
+GN=fz4 PE=2 SV=2
+Length=705
+
+ Score = 117 bits (293),  Expect = 1e-30, Method: Composition-based stats.
+ Identities = 23/110 (21%), Positives = 41/110 (37%), Gaps = 8/110 (7%)
+
+Query  7    TCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPLLCA  66
+             CE ++  +C            ++  +  +  E   +   ++ L     C   ++  LCA
+Sbjct  45   QCETIRIEMCRKIGYNETSMPNLVGNEMQTDVEYTLQ--TFAPLIEYD-CSSQLKLFLCA  101
+
+Query  67   VYMPKCEGG---KVELPSQGLCQTTRVPCAIVARERG--WPDFLKCTTDY  111
+             Y+P C          P + LC++ R+ C  V +  G  WP  L C    
+Sbjct  102  AYVPMCTPKAPVHAIGPCRSLCESVRIRCHPVLQGFGFPWPPALDCDKFP  151
+
+
+> sp|Q9Z319|CORIN_MOUSE Atrial natriuretic peptide-converting enzyme 
+OS=Mus musculus OX=10090 GN=Corin PE=2 SV=2
+Length=1113
+
+ Score = 113 bits (282),  Expect = 4e-29, Method: Composition-based stats.
+ Identities = 23/110 (21%), Positives = 44/110 (40%), Gaps = 5/110 (5%)
+
+Query  6    TTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPLLC  65
+            + CEP+   +C+     +      L   +  +  +  + SL+  L     C+  +    C
+Sbjct  521  SQCEPITLELCMNLPYNHTHYPNYLGHRTQKEASISWESSLFPALVQT-NCYKYLMFFAC  579
+
+Query  66   AVYMPKCEG--GKVELPSQGLCQTTRVPCAIVARERG--WPDFLKCTTDY  111
+             + +PKC+   G+   P + LC+ ++  C  V    G  WP+   C    
+Sbjct  580  TILVPKCDVNTGQRIPPCRLLCEHSKERCESVLGIVGLQWPEDTDCNQFP  629
+
+
+ Score = 69.2 bits (168),  Expect = 9e-14, Method: Composition-based stats.
+ Identities = 21/115 (18%), Positives = 41/115 (36%), Gaps = 10/115 (9%)
+
+Query  3    KKTTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRP  62
+            + T+TC  + ++ C        L   +    +   +    K   +    +   C+  I  
+Sbjct  201  RNTSTCMNITHSQCQILPYHSTLAPLLPIVKNMDME----KFLKFFTYLHRLSCYQHILL  256
+
+Query  63   LLCAVYMPKC----EGGKVELPSQGLCQTTRVPCAIVARER--GWPDFLKCTTDY  111
+              C++  P+C    +     LP +  C+  +  C  V       WPD L+C+   
+Sbjct  257  FGCSLAFPECVVDGDDRHGLLPCRSFCEAAKEGCESVLGMVNSSWPDSLRCSQFR  311
+
+
+> sp|Q80YN4|CORIN_RAT Atrial natriuretic peptide-converting enzyme 
+OS=Rattus norvegicus OX=10116 GN=Corin PE=1 SV=2
+Length=1111
+
+ Score = 111 bits (278),  Expect = 2e-28, Method: Composition-based stats.
+ Identities = 22/110 (20%), Positives = 44/110 (40%), Gaps = 5/110 (5%)
+
+Query  6    TTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPLLC  65
+            + CEP+   +C+            L   +  +  +  + +L+  L     C+  +    C
+Sbjct  519  SHCEPITLELCMNLPYNLTHYPNYLGHRTQKEASISWESALFPALVQT-NCYKYLMFFAC  577
+
+Query  66   AVYMPKCEG--GKVELPSQGLCQTTRVPCAIVARERG--WPDFLKCTTDY  111
+             + +PKC+   G+   P + LC+ ++  C  V    G  WP+   C+   
+Sbjct  578  TILVPKCDVNTGQRVPPCRLLCEHSKERCESVLGIVGLQWPEDTDCSQFP  627
+
+
+ Score = 72.3 bits (176),  Expect = 8e-15, Method: Composition-based stats.
+ Identities = 22/116 (19%), Positives = 40/116 (34%), Gaps = 10/116 (9%)
+
+Query  3    KKTTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRP  62
+              T+TC  + +  C        L   +    +       +K   +    +   C+  I  
+Sbjct  199  GNTSTCVNITHRQCQILPYHSTLAPLLPIVKNMD----TEKFLKFFTYLHRLGCYQHILL  254
+
+Query  63   LLCAVYMPKC----EGGKVELPSQGLCQTTRVPCAIVARER--GWPDFLKCTTDYF  112
+              C++  PKC    +     LP +  C+  +  C  V       WPD L+C+   +
+Sbjct  255  FGCSLAFPKCIVDGDDRHGLLPCRSFCEAAKEGCESVLGMVNSSWPDSLRCSQFRY  310
+
+
+> sp|Q9Y5Q5|CORIN_HUMAN Atrial natriuretic peptide-converting enzyme 
+OS=Homo sapiens OX=9606 GN=CORIN PE=1 SV=2
+Length=1042
+
+ Score = 110 bits (275),  Expect = 3e-28, Method: Composition-based stats.
+ Identities = 22/110 (20%), Positives = 43/110 (39%), Gaps = 5/110 (5%)
+
+Query  6    TTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPLLC  65
+            + CEP+   +C+                +  +  +  + SL+  L     C+  +    C
+Sbjct  453  SQCEPITLELCMNLPYNSTSYPNYFGHRTQKEASISWESSLFPALVQT-NCYKYLMFFSC  511
+
+Query  66   AVYMPKCEG--GKVELPSQGLCQTTRVPCAIVARERG--WPDFLKCTTDY  111
+             + +PKC+   G+   P + LC+ ++  C  V    G  WP+   C+   
+Sbjct  512  TILVPKCDVNTGEHIPPCRALCEHSKERCESVLGIVGLQWPEDTDCSQFP  561
+
+
+ Score = 74.6 bits (182),  Expect = 2e-15, Method: Composition-based stats.
+ Identities = 22/115 (19%), Positives = 41/115 (36%), Gaps = 10/115 (9%)
+
+Query  3    KKTTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRP  62
+            + T+ C  + ++ C        LT  +    +   +    K   +    +   C+  I  
+Sbjct  134  RNTSACMNITHSQCQMLPYHATLTPLLSVVRNMEME----KFLKFFTYLHRLSCYQHIML  189
+
+Query  63   LLCAVYMPKC----EGGKVELPSQGLCQTTRVPCAIV--ARERGWPDFLKCTTDY  111
+              C +  P+C    +     LP +  C+  +  C  V       WPDFL+C+   
+Sbjct  190  FGCTLAFPECIIDGDDSHGLLPCRSFCEAAKEGCESVLGMVNYSWPDFLRCSQFR  244
+
+
+> sp|Q8K480|MFRP_MOUSE Membrane frizzled-related protein OS=Mus 
+musculus OX=10090 GN=Mfrp PE=1 SV=1
+Length=584
+
+ Score = 102 bits (254),  Expect = 2e-25, Method: Composition-based stats.
+ Identities = 27/106 (25%), Positives = 43/106 (41%), Gaps = 3/106 (3%)
+
+Query  7    TCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPLLCA  66
+            TCEP++  +CLG          +     ++Q EV D L  +  L + P C+   +  LC 
+Sbjct  470  TCEPVQVEMCLGLSYNTTAFPNIWV-GLATQTEVTDILRGYKSLTSLP-CYQTFQRFLCG  527
+
+Query  67   VYMPKCE-GGKVELPSQGLCQTTRVPCAIVARERGWPDFLKCTTDY  111
+            + +P+C   G +  P + +CQ     C       G P    C    
+Sbjct  528  LLVPRCTSLGTILPPCRSVCQAAEQQCQSSLALLGTPWPFNCNRLP  573
+
+
+> sp|Q9BY79|MFRP_HUMAN Membrane frizzled-related protein OS=Homo 
+sapiens OX=9606 GN=MFRP PE=1 SV=1
+Length=579
+
+ Score = 101 bits (253),  Expect = 3e-25, Method: Composition-based stats.
+ Identities = 29/106 (27%), Positives = 44/106 (42%), Gaps = 3/106 (3%)
+
+Query  7    TCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPLLCA  66
+             CEP++  +CLG          +      +Q+EV + LS +  L + P C+   R LLC 
+Sbjct  465  ACEPVQVEMCLGLSYNTTAFPNIWV-GMITQEEVVEVLSGYKSLTSLP-CYQHFRRLLCG  522
+
+Query  67   VYMPKCEG-GKVELPSQGLCQTTRVPCAIVARERGWPDFLKCTTDY  111
+            + +P+C   G V  P + +CQ     C       G P    C    
+Sbjct  523  LLVPRCTPLGSVLPPCRSVCQEAEHQCQSGLALLGTPWPFNCNRLP  568
+
+
+> sp|O77438|FRIZ3_DROME Frizzled-3 OS=Drosophila melanogaster OX=7227 
+GN=fz3 PE=2 SV=2
+Length=581
+
+ Score = 99.3 bits (246),  Expect = 3e-24, Method: Composition-based stats.
+ Identities = 27/117 (23%), Positives = 40/117 (34%), Gaps = 8/117 (7%)
+
+Query  4    KTTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPL  63
+                C+P+  + C G                ++Q E   +++    L  +  C    R L
+Sbjct  36   NGLQCQPIAVSACQGLGYNMTA--LPNLAGHTNQLEAELQIAKLVPLIESG-CSRRARFL  92
+
+Query  64   LCAVYMPKCEGG--KVELPSQGLCQTTRVPC---AIVARERGWPDFLKCTTDYFPEG  115
+            LC+   P C     +     + LC+T R  C   A       WP FL C     PE 
+Sbjct  93   LCSSLFPLCTPDVPRPVAACKLLCETVRGECMENAPPELMELWPSFLNCDGLPQPEK  149
+
+
+> sp|P39060|COIA1_HUMAN Collagen alpha-1(XVIII) chain OS=Homo sapiens 
+OX=9606 GN=COL18A1 PE=1 SV=5
+Length=1754
+
+ Score = 53.8 bits (128),  Expect = 3e-08, Method: Composition-based stats.
+ Identities = 16/88 (18%), Positives = 27/88 (31%), Gaps = 3/88 (3%)
+
+Query  7    TCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPLLCA  66
+             C PL  ++ +   L  +           S ++V      W GL     C   +    C 
+Sbjct  333  RCLPLPPSLPVCGHLGISRFWLPNHLHHESGEQVRAGARAWGGLLQT-HCHPFLAWFFCL  391
+
+Query  67   VYMPKC--EGGKVELPSQGLCQTTRVPC  92
+            + +P C         P    C+  +  C
+Sbjct  392  LLVPPCGSVPPPAPPPCCQFCEALQDAC  419
+
+
+> sp|P39061|COIA1_MOUSE Collagen alpha-1(XVIII) chain OS=Mus musculus 
+OX=10090 GN=Col18a1 PE=1 SV=4
+Length=1774
+
+ Score = 47.3 bits (111),  Expect = 5e-06, Method: Composition-based stats.
+ Identities = 15/90 (17%), Positives = 24/90 (27%), Gaps = 3/90 (3%)
+
+Query  5    TTTCEPLKYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNAPRCWDAIRPLL  64
+            T+ C PL   + L S L             +   EV   +  W    +   C   +    
+Sbjct  367  TSRCLPLPPTLTLCSRLGIGHFWLPNHLHHTDSVEVEATVQAWGRFLHT-NCHPFLAWFF  425
+
+Query  65   CAVYM--PKCEGGKVELPSQGLCQTTRVPC  92
+            C +              P +  C+     C
+Sbjct  426  CLLLAPSCGPGPPPPLPPCRQFCEALEDEC  455
+
+
+> sp|Q1ZXI9|FSLO_DICDI Frizzled and smoothened-like protein O OS=Dictyostelium 
+discoideum OX=44689 GN=fslO PE=3 SV=1
+Length=695
+
+ Score = 44.6 bits (104),  Expect = 4e-05, Method: Composition-based stats.
+ Identities = 20/116 (17%), Positives = 36/116 (31%), Gaps = 18/116 (16%)
+
+Query  5    TTTCEPL-KYNICLGSVLPYALTSTVLAEDSSSQDEVHDKLSLWSGLRNA--PRCWDAIR  61
+            T  CE +   + C    L Y            +Q  +  +++      +     C   ++
+Sbjct  30   TAKCELIDSLSPCKD-NLNYTHIYLPTG---YTQAAISAQITPLFQQASILPTDCQSNLK  85
+
+Query  62   PLLC-AVYM------PKCEGGKVEL--PSQGLCQTTRVPCAIVARERGWPDFLKCT  108
+             LLC + YM      P           P    C+  +  C+      G P  + C+
+Sbjct  86   NLLCISSYMECNENIPNISPSFPLPSYPCNKYCEKVKDVCSAYMAILG-PY-VNCS  139
+
+
+> sp|Q9R168|SFRP1_RAT Secreted frizzled-related protein 1 (Fragment) 
+OS=Rattus norvegicus OX=10116 GN=Sfrp1 PE=2 SV=1
+Length=158
+
+ Score = 39.2 bits (90),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 13/30 (43%), Positives = 15/30 (50%), Gaps = 4/30 (13%)
+
+Query  88   TRVPCAIVARERG--WPDFLKCTTDYFPEG  115
+             R  C  V +  G  WP+ LKC    FPEG
+Sbjct  1    VRDSCEPVMQFFGFYWPEMLKCDK--FPEG  28
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.142    0.531    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0433    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4957987072
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 28, 2021  3:44 PM
+  Number of letters in database: 202,799,066
+  Number of sequences in database:  563,082
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

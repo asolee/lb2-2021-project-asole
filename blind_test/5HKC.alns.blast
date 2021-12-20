@@ -1,0 +1,1757 @@
+PSIBLAST 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           563,082 sequences; 202,799,066 total letters
+
+Results from round 1
+
+
+Query= 5HKC
+
+Length=114
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|P9WII3|MAZF6_MYCTU Endoribonuclease MazF6 OS=Mycobacterium t...  219     9e-75
+  sp|P9WII2|MAZF6_MYCTO Endoribonuclease MazF6 OS=Mycobacterium t...  219     9e-75
+  sp|P64912|MAZF2_MYCBO Endoribonuclease MazF2 OS=Mycobacterium b...  219     9e-75
+  sp|P96622|ENDOA_BACSU Endoribonuclease EndoA OS=Bacillus subtil...  75.5    1e-17
+  sp|Q4L7V3|MAZF_STAHJ Endoribonuclease MazF OS=Staphylococcus ha...  68.6    6e-15
+  sp|Q8CRQ1|MAZF_STAES Endoribonuclease MazF OS=Staphylococcus ep...  67.4    2e-14
+  sp|Q5HME7|MAZF_STAEQ Endoribonuclease MazF OS=Staphylococcus ep...  67.4    2e-14
+  sp|Q9F7V5|MAZF_STAEP Endoribonuclease MazF OS=Staphylococcus ep...  67.0    2e-14
+  sp|Q6GF05|MAZF_STAAR Endoribonuclease MazF OS=Staphylococcus au...  66.2    4e-14
+  sp|Q7A0D7|MAZF_STAAW Endoribonuclease MazF OS=Staphylococcus au...  66.2    4e-14
+  sp|Q6G7P1|MAZF_STAAS Endoribonuclease MazF OS=Staphylococcus au...  66.2    4e-14
+  sp|Q7A4G9|MAZF_STAAN Endoribonuclease MazF OS=Staphylococcus au...  66.2    4e-14
+  sp|Q7A2N3|MAZF_STAAM Endoribonuclease MazF OS=Staphylococcus au...  66.2    4e-14
+  sp|A6QIR4|MAZF_STAAE Endoribonuclease MazF OS=Staphylococcus au...  66.2    4e-14
+  sp|Q5HED3|MAZF_STAAC Endoribonuclease MazF OS=Staphylococcus au...  66.2    4e-14
+  sp|Q2FWI8|MAZF_STAA8 Endoribonuclease MazF OS=Staphylococcus au...  66.2    4e-14
+  sp|Q2FF56|MAZF_STAA3 Endoribonuclease MazF OS=Staphylococcus au...  66.2    4e-14
+  sp|A7X4P5|MAZF_STAA1 Endoribonuclease MazF OS=Staphylococcus au...  66.2    4e-14
+  sp|Q2YUI5|MAZF_STAAB Endoribonuclease MazF OS=Staphylococcus au...  66.2    5e-14
+  sp|Q49Z22|MAZF_STAS1 Endoribonuclease MazF OS=Staphylococcus sa...  62.8    1e-12
+  sp|P71650|MAZF9_MYCTU Endoribonuclease MazF9 OS=Mycobacterium t...  50.8    4e-08
+  sp|P9WII1|MAZF2_MYCTU Probable endoribonuclease MazF2 OS=Mycoba...  45.1    5e-06
+  sp|P9WII0|MAZF2_MYCTO Probable endoribonuclease MazF2 OS=Mycoba...  45.1    5e-06
+  sp|A0R0N4|MAZF_MYCS2 Probable endoribonuclease MazF OS=Mycolici...  38.9    0.001
+
+
+> sp|P9WII3|MAZF6_MYCTU Endoribonuclease MazF6 OS=Mycobacterium 
+tuberculosis (strain ATCC 25618 / H37Rv) OX=83332 GN=mazF6 
+PE=1 SV=1
+Length=114
+
+ Score = 219 bits (559),  Expect = 9e-75, Method: Compositional matrix adjust.
+ Identities = 112/114 (98%), Positives = 112/114 (98%), Gaps = 0/114 (0%)
+
+Query  1    MVISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSNDALAAMPGN  60
+            MVISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSN ALAAMPGN
+Sbjct  1    MVISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSNTALAAMPGN  60
+
+Query  61   VDLPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGLRRVLDL  114
+            V LPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGLRRVLDL
+Sbjct  61   VFLPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGLRRVLDL  114
+
+
+> sp|P9WII2|MAZF6_MYCTO Endoribonuclease MazF6 OS=Mycobacterium 
+tuberculosis (strain CDC 1551 / Oshkosh) OX=83331 GN=mazF6 
+PE=3 SV=1
+Length=114
+
+ Score = 219 bits (559),  Expect = 9e-75, Method: Compositional matrix adjust.
+ Identities = 112/114 (98%), Positives = 112/114 (98%), Gaps = 0/114 (0%)
+
+Query  1    MVISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSNDALAAMPGN  60
+            MVISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSN ALAAMPGN
+Sbjct  1    MVISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSNTALAAMPGN  60
+
+Query  61   VDLPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGLRRVLDL  114
+            V LPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGLRRVLDL
+Sbjct  61   VFLPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGLRRVLDL  114
+
+
+> sp|P64912|MAZF2_MYCBO Endoribonuclease MazF2 OS=Mycobacterium 
+bovis (strain ATCC BAA-935 / AF2122/97) OX=233413 GN=mazF2 
+PE=3 SV=1
+Length=114
+
+ Score = 219 bits (559),  Expect = 9e-75, Method: Compositional matrix adjust.
+ Identities = 112/114 (98%), Positives = 112/114 (98%), Gaps = 0/114 (0%)
+
+Query  1    MVISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSNDALAAMPGN  60
+            MVISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSN ALAAMPGN
+Sbjct  1    MVISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSNTALAAMPGN  60
+
+Query  61   VDLPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGLRRVLDL  114
+            V LPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGLRRVLDL
+Sbjct  61   VFLPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGLRRVLDL  114
+
+
+> sp|P96622|ENDOA_BACSU Endoribonuclease EndoA OS=Bacillus subtilis 
+(strain 168) OX=224308 GN=ndoA PE=1 SV=1
+Length=116
+
+ Score = 75.5 bits (184),  Expect = 1e-17, Method: Compositional matrix adjust.
+ Identities = 42/110 (38%), Positives = 65/110 (59%), Gaps = 3/110 (3%)
+
+Query  1    MVISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLA-TVIAAVITSNDALAAMPG  59
+            M++ R ++Y+ADL P  GS+    RPVLVIQ+D  N  R + T I A IT+    A +P 
+Sbjct  1    MIVKRGDVYFADLSPVVGSEQGGVRPVLVIQNDIGN--RFSPTAIVAAITAQIQKAKLPT  58
+
+Query  60   NVDLPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGLR  109
+            +V++ A      RDSV+ +  I T++K  LTD++  +   +M +VD  L+
+Sbjct  59   HVEIDAKRYGFERDSVILLEQIRTIDKQRLTDKITHLDDEMMDKVDEALQ  108
+
+
+> sp|Q4L7V3|MAZF_STAHJ Endoribonuclease MazF OS=Staphylococcus 
+haemolyticus (strain JCSC1435) OX=279808 GN=mazF PE=3 SV=1
+Length=121
+
+ Score = 68.6 bits (166),  Expect = 6e-15, Method: Compositional matrix adjust.
+ Identities = 40/107 (37%), Positives = 59/107 (55%), Gaps = 1/107 (1%)
+
+Query  2    VISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSNDALAAMPGNV  61
+            +I R ++Y ADL P  GS+    RPV++IQ+D  N     TVI A IT     A +P +V
+Sbjct  1    MIRRGDVYLADLSPVQGSEQGGVRPVVIIQNDTGNKYS-PTVIVAAITGRINKAKIPTHV  59
+
+Query  62   DLPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGL  108
+            ++     RL +DSV+ +  I TL+K  L +++  +    M EVD  L
+Sbjct  60   EIEKKKYRLDKDSVILLEQIRTLDKKRLKEKLTYLSDEKMQEVDEAL  106
+
+
+> sp|Q8CRQ1|MAZF_STAES Endoribonuclease MazF OS=Staphylococcus 
+epidermidis (strain ATCC 12228 / FDA PCI 1200) OX=176280 GN=mazF 
+PE=3 SV=1
+Length=120
+
+ Score = 67.4 bits (163),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 40/107 (37%), Positives = 60/107 (56%), Gaps = 1/107 (1%)
+
+Query  2    VISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSNDALAAMPGNV  61
+            +I R ++Y ADL P  GS+    RPV++IQ+D  N     TVI A IT     A +P +V
+Sbjct  1    MIRRGDVYLADLSPVQGSEQGGVRPVVIIQNDTGNKYS-PTVIVAAITGRINKAKIPTHV  59
+
+Query  62   DLPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGL  108
+            ++     +L +DSV+ +  I TL+K  L +++  +  S M EVD  L
+Sbjct  60   EIEKKKYKLDKDSVILLEQIRTLDKKRLKEKLTFLSESKMIEVDNAL  106
+
+
+> sp|Q5HME7|MAZF_STAEQ Endoribonuclease MazF OS=Staphylococcus 
+epidermidis (strain ATCC 35984 / RP62A) OX=176279 GN=mazF PE=3 
+SV=1
+Length=120
+
+ Score = 67.4 bits (163),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 40/107 (37%), Positives = 60/107 (56%), Gaps = 1/107 (1%)
+
+Query  2    VISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSNDALAAMPGNV  61
+            +I R ++Y ADL P  GS+    RPV++IQ+D  N     TVI A IT     A +P +V
+Sbjct  1    MIRRGDVYLADLSPVQGSEQGGVRPVVIIQNDTGNKYS-PTVIVAAITGRINKAKIPTHV  59
+
+Query  62   DLPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGL  108
+            ++     +L +DSV+ +  I TL+K  L +++  +  S M EVD  L
+Sbjct  60   EIEKKKYKLDKDSVILLEQIRTLDKKRLKEKLTFLSESKMIEVDNAL  106
+
+
+> sp|Q9F7V5|MAZF_STAEP Endoribonuclease MazF OS=Staphylococcus 
+epidermidis OX=1282 GN=mazF PE=3 SV=1
+Length=120
+
+ Score = 67.0 bits (162),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 40/107 (37%), Positives = 60/107 (56%), Gaps = 1/107 (1%)
+
+Query  2    VISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSNDALAAMPGNV  61
+            +I R ++Y ADL P  GS+    RPV++IQ+D  N     TVI A IT     A +P +V
+Sbjct  1    MIRRGDVYLADLSPVQGSEQGGVRPVVIIQNDTGNKYS-PTVIVAAITDGINKAKIPTHV  59
+
+Query  62   DLPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGL  108
+            ++     +L +DSV+ +  I TL+K  L +++  +  S M EVD  L
+Sbjct  60   EIEKKKYKLDKDSVILLEQIRTLDKKRLKEKLTFLSESKMIEVDNAL  106
+
+
+> sp|Q6GF05|MAZF_STAAR Endoribonuclease MazF OS=Staphylococcus 
+aureus (strain MRSA252) OX=282458 GN=mazF PE=3 SV=1
+Length=120
+
+ Score = 66.2 bits (160),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 39/107 (36%), Positives = 59/107 (55%), Gaps = 1/107 (1%)
+
+Query  2    VISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSNDALAAMPGNV  61
+            +I R ++Y ADL P  GS+    RPV++IQ+D  N     TVI A IT     A +P +V
+Sbjct  1    MIRRGDVYLADLSPVQGSEQGGVRPVVIIQNDTGNKYS-PTVIVAAITGRINKAKIPTHV  59
+
+Query  62   DLPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGL  108
+            ++     +L +DSV+ +  I TL+K  L +++  +    M EVD  L
+Sbjct  60   EIEKKKYKLDKDSVILLEQIRTLDKKRLKEKLTYLSDDKMKEVDNAL  106
+
+
+> sp|Q7A0D7|MAZF_STAAW Endoribonuclease MazF OS=Staphylococcus 
+aureus (strain MW2) OX=196620 GN=mazF PE=3 SV=1
+Length=120
+
+ Score = 66.2 bits (160),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 39/107 (36%), Positives = 59/107 (55%), Gaps = 1/107 (1%)
+
+Query  2    VISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSNDALAAMPGNV  61
+            +I R ++Y ADL P  GS+    RPV++IQ+D  N     TVI A IT     A +P +V
+Sbjct  1    MIRRGDVYLADLSPVQGSEQGGVRPVVIIQNDTGNKYS-PTVIVAAITGRINKAKIPTHV  59
+
+Query  62   DLPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGL  108
+            ++     +L +DSV+ +  I TL+K  L +++  +    M EVD  L
+Sbjct  60   EIEKKKYKLDKDSVILLEQIRTLDKKRLKEKLTYLSDDKMKEVDNAL  106
+
+
+> sp|Q6G7P1|MAZF_STAAS Endoribonuclease MazF OS=Staphylococcus 
+aureus (strain MSSA476) OX=282459 GN=mazF PE=3 SV=1
+Length=120
+
+ Score = 66.2 bits (160),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 39/107 (36%), Positives = 59/107 (55%), Gaps = 1/107 (1%)
+
+Query  2    VISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSNDALAAMPGNV  61
+            +I R ++Y ADL P  GS+    RPV++IQ+D  N     TVI A IT     A +P +V
+Sbjct  1    MIRRGDVYLADLSPVQGSEQGGVRPVVIIQNDTGNKYS-PTVIVAAITGRINKAKIPTHV  59
+
+Query  62   DLPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGL  108
+            ++     +L +DSV+ +  I TL+K  L +++  +    M EVD  L
+Sbjct  60   EIEKKKYKLDKDSVILLEQIRTLDKKRLKEKLTYLSDDKMKEVDNAL  106
+
+
+> sp|Q7A4G9|MAZF_STAAN Endoribonuclease MazF OS=Staphylococcus 
+aureus (strain N315) OX=158879 GN=mazF PE=1 SV=1
+Length=120
+
+ Score = 66.2 bits (160),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 39/107 (36%), Positives = 59/107 (55%), Gaps = 1/107 (1%)
+
+Query  2    VISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSNDALAAMPGNV  61
+            +I R ++Y ADL P  GS+    RPV++IQ+D  N     TVI A IT     A +P +V
+Sbjct  1    MIRRGDVYLADLSPVQGSEQGGVRPVVIIQNDTGNKYS-PTVIVAAITGRINKAKIPTHV  59
+
+Query  62   DLPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGL  108
+            ++     +L +DSV+ +  I TL+K  L +++  +    M EVD  L
+Sbjct  60   EIEKKKYKLDKDSVILLEQIRTLDKKRLKEKLTYLSDDKMKEVDNAL  106
+
+
+> sp|Q7A2N3|MAZF_STAAM Endoribonuclease MazF OS=Staphylococcus 
+aureus (strain Mu50 / ATCC 700699) OX=158878 GN=mazF PE=1 SV=1
+Length=120
+
+ Score = 66.2 bits (160),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 39/107 (36%), Positives = 59/107 (55%), Gaps = 1/107 (1%)
+
+Query  2    VISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSNDALAAMPGNV  61
+            +I R ++Y ADL P  GS+    RPV++IQ+D  N     TVI A IT     A +P +V
+Sbjct  1    MIRRGDVYLADLSPVQGSEQGGVRPVVIIQNDTGNKYS-PTVIVAAITGRINKAKIPTHV  59
+
+Query  62   DLPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGL  108
+            ++     +L +DSV+ +  I TL+K  L +++  +    M EVD  L
+Sbjct  60   EIEKKKYKLDKDSVILLEQIRTLDKKRLKEKLTYLSDDKMKEVDNAL  106
+
+
+> sp|A6QIR4|MAZF_STAAE Endoribonuclease MazF OS=Staphylococcus 
+aureus (strain Newman) OX=426430 GN=mazF PE=1 SV=1
+Length=120
+
+ Score = 66.2 bits (160),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 39/107 (36%), Positives = 59/107 (55%), Gaps = 1/107 (1%)
+
+Query  2    VISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSNDALAAMPGNV  61
+            +I R ++Y ADL P  GS+    RPV++IQ+D  N     TVI A IT     A +P +V
+Sbjct  1    MIRRGDVYLADLSPVQGSEQGGVRPVVIIQNDTGNKYS-PTVIVAAITGRINKAKIPTHV  59
+
+Query  62   DLPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGL  108
+            ++     +L +DSV+ +  I TL+K  L +++  +    M EVD  L
+Sbjct  60   EIEKKKYKLDKDSVILLEQIRTLDKKRLKEKLTYLSDDKMKEVDNAL  106
+
+
+> sp|Q5HED3|MAZF_STAAC Endoribonuclease MazF OS=Staphylococcus 
+aureus (strain COL) OX=93062 GN=mazF PE=3 SV=1
+Length=120
+
+ Score = 66.2 bits (160),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 39/107 (36%), Positives = 59/107 (55%), Gaps = 1/107 (1%)
+
+Query  2    VISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSNDALAAMPGNV  61
+            +I R ++Y ADL P  GS+    RPV++IQ+D  N     TVI A IT     A +P +V
+Sbjct  1    MIRRGDVYLADLSPVQGSEQGGVRPVVIIQNDTGNKYS-PTVIVAAITGRINKAKIPTHV  59
+
+Query  62   DLPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGL  108
+            ++     +L +DSV+ +  I TL+K  L +++  +    M EVD  L
+Sbjct  60   EIEKKKYKLDKDSVILLEQIRTLDKKRLKEKLTYLSDDKMKEVDNAL  106
+
+
+> sp|Q2FWI8|MAZF_STAA8 Endoribonuclease MazF OS=Staphylococcus 
+aureus (strain NCTC 8325 / PS 47) OX=93061 GN=mazF PE=1 SV=1
+Length=120
+
+ Score = 66.2 bits (160),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 39/107 (36%), Positives = 59/107 (55%), Gaps = 1/107 (1%)
+
+Query  2    VISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSNDALAAMPGNV  61
+            +I R ++Y ADL P  GS+    RPV++IQ+D  N     TVI A IT     A +P +V
+Sbjct  1    MIRRGDVYLADLSPVQGSEQGGVRPVVIIQNDTGNKYS-PTVIVAAITGRINKAKIPTHV  59
+
+Query  62   DLPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGL  108
+            ++     +L +DSV+ +  I TL+K  L +++  +    M EVD  L
+Sbjct  60   EIEKKKYKLDKDSVILLEQIRTLDKKRLKEKLTYLSDDKMKEVDNAL  106
+
+
+> sp|Q2FF56|MAZF_STAA3 Endoribonuclease MazF OS=Staphylococcus 
+aureus (strain USA300) OX=367830 GN=mazF PE=3 SV=1
+Length=120
+
+ Score = 66.2 bits (160),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 39/107 (36%), Positives = 59/107 (55%), Gaps = 1/107 (1%)
+
+Query  2    VISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSNDALAAMPGNV  61
+            +I R ++Y ADL P  GS+    RPV++IQ+D  N     TVI A IT     A +P +V
+Sbjct  1    MIRRGDVYLADLSPVQGSEQGGVRPVVIIQNDTGNKYS-PTVIVAAITGRINKAKIPTHV  59
+
+Query  62   DLPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGL  108
+            ++     +L +DSV+ +  I TL+K  L +++  +    M EVD  L
+Sbjct  60   EIEKKKYKLDKDSVILLEQIRTLDKKRLKEKLTYLSDDKMKEVDNAL  106
+
+
+> sp|A7X4P5|MAZF_STAA1 Endoribonuclease MazF OS=Staphylococcus 
+aureus (strain Mu3 / ATCC 700698) OX=418127 GN=mazF PE=3 SV=1
+Length=120
+
+ Score = 66.2 bits (160),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 39/107 (36%), Positives = 59/107 (55%), Gaps = 1/107 (1%)
+
+Query  2    VISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSNDALAAMPGNV  61
+            +I R ++Y ADL P  GS+    RPV++IQ+D  N     TVI A IT     A +P +V
+Sbjct  1    MIRRGDVYLADLSPVQGSEQGGVRPVVIIQNDTGNKYS-PTVIVAAITGRINKAKIPTHV  59
+
+Query  62   DLPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGL  108
+            ++     +L +DSV+ +  I TL+K  L +++  +    M EVD  L
+Sbjct  60   EIEKKKYKLDKDSVILLEQIRTLDKKRLKEKLTYLSDDKMKEVDNAL  106
+
+
+> sp|Q2YUI5|MAZF_STAAB Endoribonuclease MazF OS=Staphylococcus 
+aureus (strain bovine RF122 / ET3-1) OX=273036 GN=mazF PE=3 
+SV=1
+Length=117
+
+ Score = 66.2 bits (160),  Expect = 5e-14, Method: Compositional matrix adjust.
+ Identities = 39/107 (36%), Positives = 59/107 (55%), Gaps = 1/107 (1%)
+
+Query  2    VISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSNDALAAMPGNV  61
+            +I R ++Y ADL P  GS+    RPV++IQ+D  N     TVI A IT     A +P +V
+Sbjct  1    MIRRGDVYLADLSPVQGSEQGGVRPVVIIQNDTGNKYS-PTVIVAAITGRINKAKIPTHV  59
+
+Query  62   DLPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGL  108
+            ++     +L +DSV+ +  I TL+K  L +++  +    M EVD  L
+Sbjct  60   EIEKKKYKLDKDSVILLEQIRTLDKKRLKEKLTYLSDDKMKEVDNAL  106
+
+
+> sp|Q49Z22|MAZF_STAS1 Endoribonuclease MazF OS=Staphylococcus 
+saprophyticus subsp. saprophyticus (strain ATCC 15305 / DSM 
+20229 / NCIMB 8711 / NCTC 7292 / S-41) OX=342451 GN=mazF PE=3 
+SV=1
+Length=120
+
+ Score = 62.8 bits (151),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 36/107 (34%), Positives = 60/107 (56%), Gaps = 1/107 (1%)
+
+Query  2    VISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSNDALAAMPGNV  61
+            ++ R ++Y ADL P  GS+    RPV++IQ+D  N     TVI A IT     A +P +V
+Sbjct  1    MMRRGDVYLADLSPVQGSEQGGIRPVVIIQNDTGNKYS-PTVIVAAITGRINKAKIPTHV  59
+
+Query  62   DLPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGL  108
+            ++  +  +L +DSV+ +  I TL+K  L +++  +    M EV+  +
+Sbjct  60   EIEKSKYKLDKDSVILLEQIRTLDKNRLKEKLTYLSDKKMKEVNNAI  106
+
+
+> sp|P71650|MAZF9_MYCTU Endoribonuclease MazF9 OS=Mycobacterium 
+tuberculosis (strain ATCC 25618 / H37Rv) OX=83332 GN=mazF9 
+PE=1 SV=2
+Length=118
+
+ Score = 50.8 bits (120),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 40/117 (34%), Positives = 59/117 (50%), Gaps = 5/117 (4%)
+
+Query  2    VISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYN--ASRLATVIAAV--ITSNDALAAM  57
+            ++ R EI+  DL P  GS+   +RP +V+ +D  N  A+RL   +  V  +TSN A    
+Sbjct  1    MMRRGEIWQVDLDPARGSEANNQRPAVVVSNDRANATATRLGRGVITVVPVTSNIA-KVY  59
+
+Query  58   PGNVDLPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGLRRVLDL  114
+            P  V L ATTT L  D       I ++    L   +G V A+ + ++D  L+  LDL
+Sbjct  60   PFQVLLSATTTGLQVDCKAQAEQIRSIATERLLRPIGRVSAAELAQLDEALKLHLDL  116
+
+
+> sp|P9WII1|MAZF2_MYCTU Probable endoribonuclease MazF2 OS=Mycobacterium 
+tuberculosis (strain ATCC 25618 / H37Rv) OX=83332 
+GN=mazF2 PE=1 SV=1
+Length=102
+
+ Score = 45.1 bits (105),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 32/107 (30%), Positives = 51/107 (48%), Gaps = 10/107 (9%)
+
+Query  3    ISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSNDALAAMPGNVD  62
+            + R E+++A       + P   RPVLV+  DP  A R+  V+   +T       +   ++
+Sbjct  1    MRRGELWFA-------ATPGGDRPVLVLTRDPV-ADRIGAVVVVALTRTRR--GLVSELE  50
+
+Query  63   LPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGLR  109
+            L A   R+P D VVN   I TL +T    R+  +  + +HE  + LR
+Sbjct  51   LTAVENRVPSDCVVNFDNIHTLPRTAFRRRITRLSPARLHEACQTLR  97
+
+
+> sp|P9WII0|MAZF2_MYCTO Probable endoribonuclease MazF2 OS=Mycobacterium 
+tuberculosis (strain CDC 1551 / Oshkosh) OX=83331 
+GN=mazF2 PE=3 SV=1
+Length=102
+
+ Score = 45.1 bits (105),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 32/107 (30%), Positives = 51/107 (48%), Gaps = 10/107 (9%)
+
+Query  3    ISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSNDALAAMPGNVD  62
+            + R E+++A       + P   RPVLV+  DP  A R+  V+   +T       +   ++
+Sbjct  1    MRRGELWFA-------ATPGGDRPVLVLTRDPV-ADRIGAVVVVALTRTRR--GLVSELE  50
+
+Query  63   LPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGLR  109
+            L A   R+P D VVN   I TL +T    R+  +  + +HE  + LR
+Sbjct  51   LTAVENRVPSDCVVNFDNIHTLPRTAFRRRITRLSPARLHEACQTLR  97
+
+
+> sp|A0R0N4|MAZF_MYCS2 Probable endoribonuclease MazF OS=Mycolicibacterium 
+smegmatis (strain ATCC 700084 / mc(2)155) OX=246196 
+GN=mazF PE=1 SV=1
+Length=109
+
+ Score = 38.9 bits (89),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 33/106 (31%), Positives = 52/106 (49%), Gaps = 5/106 (5%)
+
+Query  3    ISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSNDALAAMPGNVD  62
+            + R +IY A      G+   K RPVL+IQ D ++A+   TV+    T++D  A +     
+Sbjct  1    MRRGDIYTA---AARGAYTGKPRPVLIIQDDRFDATASVTVVP--FTTSDTDAPLLRIRI  55
+
+Query  63   LPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGL  108
+             P   T L   S + +  + T+ ++ LT RVG +  + M   DR L
+Sbjct  56   EPTPATGLSTVSSLMIDKVTTVPRSSLTHRVGRLAETDMVRTDRAL  101
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.132    0.373    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5012042944
+Results from round 2
+
+
+Query= 5HKC
+
+Length=114
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q8CRQ1|MAZF_STAES Endoribonuclease MazF OS=Staphylococcus ep...  139     8e-43
+  sp|Q5HME7|MAZF_STAEQ Endoribonuclease MazF OS=Staphylococcus ep...  139     8e-43
+  sp|P9WII3|MAZF6_MYCTU Endoribonuclease MazF6 OS=Mycobacterium t...  137     2e-42
+  sp|P9WII2|MAZF6_MYCTO Endoribonuclease MazF6 OS=Mycobacterium t...  137     2e-42
+  sp|P64912|MAZF2_MYCBO Endoribonuclease MazF2 OS=Mycobacterium b...  137     2e-42
+  sp|Q4L7V3|MAZF_STAHJ Endoribonuclease MazF OS=Staphylococcus ha...  137     4e-42
+  sp|Q9F7V5|MAZF_STAEP Endoribonuclease MazF OS=Staphylococcus ep...  137     4e-42
+  sp|Q7A0D7|MAZF_STAAW Endoribonuclease MazF OS=Staphylococcus au...  137     5e-42
+  sp|Q6G7P1|MAZF_STAAS Endoribonuclease MazF OS=Staphylococcus au...  137     5e-42
+  sp|Q7A4G9|MAZF_STAAN Endoribonuclease MazF OS=Staphylococcus au...  137     5e-42
+  sp|Q7A2N3|MAZF_STAAM Endoribonuclease MazF OS=Staphylococcus au...  137     5e-42
+  sp|A6QIR4|MAZF_STAAE Endoribonuclease MazF OS=Staphylococcus au...  137     5e-42
+  sp|Q5HED3|MAZF_STAAC Endoribonuclease MazF OS=Staphylococcus au...  137     5e-42
+  sp|Q2FWI8|MAZF_STAA8 Endoribonuclease MazF OS=Staphylococcus au...  137     5e-42
+  sp|Q2FF56|MAZF_STAA3 Endoribonuclease MazF OS=Staphylococcus au...  137     5e-42
+  sp|A7X4P5|MAZF_STAA1 Endoribonuclease MazF OS=Staphylococcus au...  137     5e-42
+  sp|Q49Z22|MAZF_STAS1 Endoribonuclease MazF OS=Staphylococcus sa...  137     6e-42
+  sp|Q6GF05|MAZF_STAAR Endoribonuclease MazF OS=Staphylococcus au...  137     6e-42
+  sp|Q2YUI5|MAZF_STAAB Endoribonuclease MazF OS=Staphylococcus au...  136     8e-42
+  sp|P96622|ENDOA_BACSU Endoribonuclease EndoA OS=Bacillus subtil...  134     5e-41
+  sp|P71650|MAZF9_MYCTU Endoribonuclease MazF9 OS=Mycobacterium t...  116     8e-34
+  sp|P9WII1|MAZF2_MYCTU Probable endoribonuclease MazF2 OS=Mycoba...  98.3    9e-27
+  sp|P9WII0|MAZF2_MYCTO Probable endoribonuclease MazF2 OS=Mycoba...  98.3    9e-27
+  sp|A0R0N4|MAZF_MYCS2 Probable endoribonuclease MazF OS=Mycolici...  95.6    1e-25
+
+Sequences not found previously or not previously below threshold:
+
+  sp|Q6MX40|MAZF1_MYCTU Probable endoribonuclease MazF1 OS=Mycoba...  55.1    5e-10
+  sp|P0AE70|MAZF_ECOLI Endoribonuclease toxin MazF OS=Escherichia...  54.0    2e-09
+  sp|P0AE71|MAZF_ECO57 Endoribonuclease MazF OS=Escherichia coli ...  54.0    2e-09
+  sp|P0CL62|MAZF7_MYCTU Probable endoribonuclease MazF7 OS=Mycoba...  54.0    4e-09
+  sp|P13976|PEMK_ECOLX Endoribonuclease PemK OS=Escherichia coli ...  52.5    1e-08
+  sp|P95272|MAZF5_MYCTU Probable endoribonuclease MazF5 OS=Mycoba...  50.9    3e-08
+  sp|P33647|CHPB_ECOLI Endoribonuclease toxin ChpB OS=Escherichia...  42.8    4e-05
+  sp|P9WIH9|MAZF3_MYCTU Endoribonuclease MazF3 OS=Mycobacterium t...  40.5    3e-04
+  sp|P9WIH8|MAZF3_MYCTO Endoribonuclease MazF3 OS=Mycobacterium t...  40.5    3e-04
+
+
+> sp|Q8CRQ1|MAZF_STAES Endoribonuclease MazF OS=Staphylococcus 
+epidermidis (strain ATCC 12228 / FDA PCI 1200) OX=176280 GN=mazF 
+PE=3 SV=1
+Length=120
+
+ Score = 139 bits (350),  Expect = 8e-43, Method: Composition-based stats.
+ Identities = 42/113 (37%), Positives = 62/113 (55%), Gaps = 1/113 (1%)
+
+Query  2    VISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSNDALAAMPGNV  61
+            +I R ++Y ADL P  GS+    RPV++IQ+D  N     TVI A IT     A +P +V
+Sbjct  1    MIRRGDVYLADLSPVQGSEQGGVRPVVIIQNDTGNKYS-PTVIVAAITGRINKAKIPTHV  59
+
+Query  62   DLPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGLRRVLDL  114
+            ++     +L +DSV+ +  I TL+K  L +++  +  S M EVD  L   L L
+Sbjct  60   EIEKKKYKLDKDSVILLEQIRTLDKKRLKEKLTFLSESKMIEVDNALDISLGL  112
+
+
+> sp|Q5HME7|MAZF_STAEQ Endoribonuclease MazF OS=Staphylococcus 
+epidermidis (strain ATCC 35984 / RP62A) OX=176279 GN=mazF PE=3 
+SV=1
+Length=120
+
+ Score = 139 bits (350),  Expect = 8e-43, Method: Composition-based stats.
+ Identities = 42/113 (37%), Positives = 62/113 (55%), Gaps = 1/113 (1%)
+
+Query  2    VISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSNDALAAMPGNV  61
+            +I R ++Y ADL P  GS+    RPV++IQ+D  N     TVI A IT     A +P +V
+Sbjct  1    MIRRGDVYLADLSPVQGSEQGGVRPVVIIQNDTGNKYS-PTVIVAAITGRINKAKIPTHV  59
+
+Query  62   DLPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGLRRVLDL  114
+            ++     +L +DSV+ +  I TL+K  L +++  +  S M EVD  L   L L
+Sbjct  60   EIEKKKYKLDKDSVILLEQIRTLDKKRLKEKLTFLSESKMIEVDNALDISLGL  112
+
+
+> sp|P9WII3|MAZF6_MYCTU Endoribonuclease MazF6 OS=Mycobacterium 
+tuberculosis (strain ATCC 25618 / H37Rv) OX=83332 GN=mazF6 
+PE=1 SV=1
+Length=114
+
+ Score = 137 bits (346),  Expect = 2e-42, Method: Composition-based stats.
+ Identities = 112/114 (98%), Positives = 112/114 (98%), Gaps = 0/114 (0%)
+
+Query  1    MVISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSNDALAAMPGN  60
+            MVISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSN ALAAMPGN
+Sbjct  1    MVISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSNTALAAMPGN  60
+
+Query  61   VDLPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGLRRVLDL  114
+            V LPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGLRRVLDL
+Sbjct  61   VFLPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGLRRVLDL  114
+
+
+> sp|P9WII2|MAZF6_MYCTO Endoribonuclease MazF6 OS=Mycobacterium 
+tuberculosis (strain CDC 1551 / Oshkosh) OX=83331 GN=mazF6 
+PE=3 SV=1
+Length=114
+
+ Score = 137 bits (346),  Expect = 2e-42, Method: Composition-based stats.
+ Identities = 112/114 (98%), Positives = 112/114 (98%), Gaps = 0/114 (0%)
+
+Query  1    MVISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSNDALAAMPGN  60
+            MVISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSN ALAAMPGN
+Sbjct  1    MVISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSNTALAAMPGN  60
+
+Query  61   VDLPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGLRRVLDL  114
+            V LPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGLRRVLDL
+Sbjct  61   VFLPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGLRRVLDL  114
+
+
+> sp|P64912|MAZF2_MYCBO Endoribonuclease MazF2 OS=Mycobacterium 
+bovis (strain ATCC BAA-935 / AF2122/97) OX=233413 GN=mazF2 
+PE=3 SV=1
+Length=114
+
+ Score = 137 bits (346),  Expect = 2e-42, Method: Composition-based stats.
+ Identities = 112/114 (98%), Positives = 112/114 (98%), Gaps = 0/114 (0%)
+
+Query  1    MVISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSNDALAAMPGN  60
+            MVISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSN ALAAMPGN
+Sbjct  1    MVISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSNTALAAMPGN  60
+
+Query  61   VDLPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGLRRVLDL  114
+            V LPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGLRRVLDL
+Sbjct  61   VFLPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGLRRVLDL  114
+
+
+> sp|Q4L7V3|MAZF_STAHJ Endoribonuclease MazF OS=Staphylococcus 
+haemolyticus (strain JCSC1435) OX=279808 GN=mazF PE=3 SV=1
+Length=121
+
+ Score = 137 bits (346),  Expect = 4e-42, Method: Composition-based stats.
+ Identities = 42/113 (37%), Positives = 61/113 (54%), Gaps = 1/113 (1%)
+
+Query  2    VISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSNDALAAMPGNV  61
+            +I R ++Y ADL P  GS+    RPV++IQ+D  N     TVI A IT     A +P +V
+Sbjct  1    MIRRGDVYLADLSPVQGSEQGGVRPVVIIQNDTGNKYS-PTVIVAAITGRINKAKIPTHV  59
+
+Query  62   DLPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGLRRVLDL  114
+            ++     RL +DSV+ +  I TL+K  L +++  +    M EVD  L   L L
+Sbjct  60   EIEKKKYRLDKDSVILLEQIRTLDKKRLKEKLTYLSDEKMQEVDEALDISLGL  112
+
+
+> sp|Q9F7V5|MAZF_STAEP Endoribonuclease MazF OS=Staphylococcus 
+epidermidis OX=1282 GN=mazF PE=3 SV=1
+Length=120
+
+ Score = 137 bits (345),  Expect = 4e-42, Method: Composition-based stats.
+ Identities = 42/113 (37%), Positives = 62/113 (55%), Gaps = 1/113 (1%)
+
+Query  2    VISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSNDALAAMPGNV  61
+            +I R ++Y ADL P  GS+    RPV++IQ+D  N     TVI A IT     A +P +V
+Sbjct  1    MIRRGDVYLADLSPVQGSEQGGVRPVVIIQNDTGNKYS-PTVIVAAITDGINKAKIPTHV  59
+
+Query  62   DLPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGLRRVLDL  114
+            ++     +L +DSV+ +  I TL+K  L +++  +  S M EVD  L   L L
+Sbjct  60   EIEKKKYKLDKDSVILLEQIRTLDKKRLKEKLTFLSESKMIEVDNALDISLGL  112
+
+
+> sp|Q7A0D7|MAZF_STAAW Endoribonuclease MazF OS=Staphylococcus 
+aureus (strain MW2) OX=196620 GN=mazF PE=3 SV=1
+Length=120
+
+ Score = 137 bits (345),  Expect = 5e-42, Method: Composition-based stats.
+ Identities = 41/113 (36%), Positives = 61/113 (54%), Gaps = 1/113 (1%)
+
+Query  2    VISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSNDALAAMPGNV  61
+            +I R ++Y ADL P  GS+    RPV++IQ+D  N     TVI A IT     A +P +V
+Sbjct  1    MIRRGDVYLADLSPVQGSEQGGVRPVVIIQNDTGNKYS-PTVIVAAITGRINKAKIPTHV  59
+
+Query  62   DLPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGLRRVLDL  114
+            ++     +L +DSV+ +  I TL+K  L +++  +    M EVD  L   L L
+Sbjct  60   EIEKKKYKLDKDSVILLEQIRTLDKKRLKEKLTYLSDDKMKEVDNALMISLGL  112
+
+
+> sp|Q6G7P1|MAZF_STAAS Endoribonuclease MazF OS=Staphylococcus 
+aureus (strain MSSA476) OX=282459 GN=mazF PE=3 SV=1
+Length=120
+
+ Score = 137 bits (345),  Expect = 5e-42, Method: Composition-based stats.
+ Identities = 41/113 (36%), Positives = 61/113 (54%), Gaps = 1/113 (1%)
+
+Query  2    VISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSNDALAAMPGNV  61
+            +I R ++Y ADL P  GS+    RPV++IQ+D  N     TVI A IT     A +P +V
+Sbjct  1    MIRRGDVYLADLSPVQGSEQGGVRPVVIIQNDTGNKYS-PTVIVAAITGRINKAKIPTHV  59
+
+Query  62   DLPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGLRRVLDL  114
+            ++     +L +DSV+ +  I TL+K  L +++  +    M EVD  L   L L
+Sbjct  60   EIEKKKYKLDKDSVILLEQIRTLDKKRLKEKLTYLSDDKMKEVDNALMISLGL  112
+
+
+> sp|Q7A4G9|MAZF_STAAN Endoribonuclease MazF OS=Staphylococcus 
+aureus (strain N315) OX=158879 GN=mazF PE=1 SV=1
+Length=120
+
+ Score = 137 bits (345),  Expect = 5e-42, Method: Composition-based stats.
+ Identities = 41/113 (36%), Positives = 61/113 (54%), Gaps = 1/113 (1%)
+
+Query  2    VISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSNDALAAMPGNV  61
+            +I R ++Y ADL P  GS+    RPV++IQ+D  N     TVI A IT     A +P +V
+Sbjct  1    MIRRGDVYLADLSPVQGSEQGGVRPVVIIQNDTGNKYS-PTVIVAAITGRINKAKIPTHV  59
+
+Query  62   DLPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGLRRVLDL  114
+            ++     +L +DSV+ +  I TL+K  L +++  +    M EVD  L   L L
+Sbjct  60   EIEKKKYKLDKDSVILLEQIRTLDKKRLKEKLTYLSDDKMKEVDNALMISLGL  112
+
+
+> sp|Q7A2N3|MAZF_STAAM Endoribonuclease MazF OS=Staphylococcus 
+aureus (strain Mu50 / ATCC 700699) OX=158878 GN=mazF PE=1 SV=1
+Length=120
+
+ Score = 137 bits (345),  Expect = 5e-42, Method: Composition-based stats.
+ Identities = 41/113 (36%), Positives = 61/113 (54%), Gaps = 1/113 (1%)
+
+Query  2    VISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSNDALAAMPGNV  61
+            +I R ++Y ADL P  GS+    RPV++IQ+D  N     TVI A IT     A +P +V
+Sbjct  1    MIRRGDVYLADLSPVQGSEQGGVRPVVIIQNDTGNKYS-PTVIVAAITGRINKAKIPTHV  59
+
+Query  62   DLPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGLRRVLDL  114
+            ++     +L +DSV+ +  I TL+K  L +++  +    M EVD  L   L L
+Sbjct  60   EIEKKKYKLDKDSVILLEQIRTLDKKRLKEKLTYLSDDKMKEVDNALMISLGL  112
+
+
+> sp|A6QIR4|MAZF_STAAE Endoribonuclease MazF OS=Staphylococcus 
+aureus (strain Newman) OX=426430 GN=mazF PE=1 SV=1
+Length=120
+
+ Score = 137 bits (345),  Expect = 5e-42, Method: Composition-based stats.
+ Identities = 41/113 (36%), Positives = 61/113 (54%), Gaps = 1/113 (1%)
+
+Query  2    VISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSNDALAAMPGNV  61
+            +I R ++Y ADL P  GS+    RPV++IQ+D  N     TVI A IT     A +P +V
+Sbjct  1    MIRRGDVYLADLSPVQGSEQGGVRPVVIIQNDTGNKYS-PTVIVAAITGRINKAKIPTHV  59
+
+Query  62   DLPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGLRRVLDL  114
+            ++     +L +DSV+ +  I TL+K  L +++  +    M EVD  L   L L
+Sbjct  60   EIEKKKYKLDKDSVILLEQIRTLDKKRLKEKLTYLSDDKMKEVDNALMISLGL  112
+
+
+> sp|Q5HED3|MAZF_STAAC Endoribonuclease MazF OS=Staphylococcus 
+aureus (strain COL) OX=93062 GN=mazF PE=3 SV=1
+Length=120
+
+ Score = 137 bits (345),  Expect = 5e-42, Method: Composition-based stats.
+ Identities = 41/113 (36%), Positives = 61/113 (54%), Gaps = 1/113 (1%)
+
+Query  2    VISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSNDALAAMPGNV  61
+            +I R ++Y ADL P  GS+    RPV++IQ+D  N     TVI A IT     A +P +V
+Sbjct  1    MIRRGDVYLADLSPVQGSEQGGVRPVVIIQNDTGNKYS-PTVIVAAITGRINKAKIPTHV  59
+
+Query  62   DLPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGLRRVLDL  114
+            ++     +L +DSV+ +  I TL+K  L +++  +    M EVD  L   L L
+Sbjct  60   EIEKKKYKLDKDSVILLEQIRTLDKKRLKEKLTYLSDDKMKEVDNALMISLGL  112
+
+
+> sp|Q2FWI8|MAZF_STAA8 Endoribonuclease MazF OS=Staphylococcus 
+aureus (strain NCTC 8325 / PS 47) OX=93061 GN=mazF PE=1 SV=1
+Length=120
+
+ Score = 137 bits (345),  Expect = 5e-42, Method: Composition-based stats.
+ Identities = 41/113 (36%), Positives = 61/113 (54%), Gaps = 1/113 (1%)
+
+Query  2    VISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSNDALAAMPGNV  61
+            +I R ++Y ADL P  GS+    RPV++IQ+D  N     TVI A IT     A +P +V
+Sbjct  1    MIRRGDVYLADLSPVQGSEQGGVRPVVIIQNDTGNKYS-PTVIVAAITGRINKAKIPTHV  59
+
+Query  62   DLPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGLRRVLDL  114
+            ++     +L +DSV+ +  I TL+K  L +++  +    M EVD  L   L L
+Sbjct  60   EIEKKKYKLDKDSVILLEQIRTLDKKRLKEKLTYLSDDKMKEVDNALMISLGL  112
+
+
+> sp|Q2FF56|MAZF_STAA3 Endoribonuclease MazF OS=Staphylococcus 
+aureus (strain USA300) OX=367830 GN=mazF PE=3 SV=1
+Length=120
+
+ Score = 137 bits (345),  Expect = 5e-42, Method: Composition-based stats.
+ Identities = 41/113 (36%), Positives = 61/113 (54%), Gaps = 1/113 (1%)
+
+Query  2    VISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSNDALAAMPGNV  61
+            +I R ++Y ADL P  GS+    RPV++IQ+D  N     TVI A IT     A +P +V
+Sbjct  1    MIRRGDVYLADLSPVQGSEQGGVRPVVIIQNDTGNKYS-PTVIVAAITGRINKAKIPTHV  59
+
+Query  62   DLPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGLRRVLDL  114
+            ++     +L +DSV+ +  I TL+K  L +++  +    M EVD  L   L L
+Sbjct  60   EIEKKKYKLDKDSVILLEQIRTLDKKRLKEKLTYLSDDKMKEVDNALMISLGL  112
+
+
+> sp|A7X4P5|MAZF_STAA1 Endoribonuclease MazF OS=Staphylococcus 
+aureus (strain Mu3 / ATCC 700698) OX=418127 GN=mazF PE=3 SV=1
+Length=120
+
+ Score = 137 bits (345),  Expect = 5e-42, Method: Composition-based stats.
+ Identities = 41/113 (36%), Positives = 61/113 (54%), Gaps = 1/113 (1%)
+
+Query  2    VISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSNDALAAMPGNV  61
+            +I R ++Y ADL P  GS+    RPV++IQ+D  N     TVI A IT     A +P +V
+Sbjct  1    MIRRGDVYLADLSPVQGSEQGGVRPVVIIQNDTGNKYS-PTVIVAAITGRINKAKIPTHV  59
+
+Query  62   DLPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGLRRVLDL  114
+            ++     +L +DSV+ +  I TL+K  L +++  +    M EVD  L   L L
+Sbjct  60   EIEKKKYKLDKDSVILLEQIRTLDKKRLKEKLTYLSDDKMKEVDNALMISLGL  112
+
+
+> sp|Q49Z22|MAZF_STAS1 Endoribonuclease MazF OS=Staphylococcus 
+saprophyticus subsp. saprophyticus (strain ATCC 15305 / DSM 
+20229 / NCIMB 8711 / NCTC 7292 / S-41) OX=342451 GN=mazF PE=3 
+SV=1
+Length=120
+
+ Score = 137 bits (344),  Expect = 6e-42, Method: Composition-based stats.
+ Identities = 38/113 (34%), Positives = 62/113 (55%), Gaps = 1/113 (1%)
+
+Query  2    VISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSNDALAAMPGNV  61
+            ++ R ++Y ADL P  GS+    RPV++IQ+D  N     TVI A IT     A +P +V
+Sbjct  1    MMRRGDVYLADLSPVQGSEQGGIRPVVIIQNDTGNKYS-PTVIVAAITGRINKAKIPTHV  59
+
+Query  62   DLPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGLRRVLDL  114
+            ++  +  +L +DSV+ +  I TL+K  L +++  +    M EV+  +   L L
+Sbjct  60   EIEKSKYKLDKDSVILLEQIRTLDKNRLKEKLTYLSDKKMKEVNNAIDISLGL  112
+
+
+> sp|Q6GF05|MAZF_STAAR Endoribonuclease MazF OS=Staphylococcus 
+aureus (strain MRSA252) OX=282458 GN=mazF PE=3 SV=1
+Length=120
+
+ Score = 137 bits (344),  Expect = 6e-42, Method: Composition-based stats.
+ Identities = 41/113 (36%), Positives = 61/113 (54%), Gaps = 1/113 (1%)
+
+Query  2    VISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSNDALAAMPGNV  61
+            +I R ++Y ADL P  GS+    RPV++IQ+D  N     TVI A IT     A +P +V
+Sbjct  1    MIRRGDVYLADLSPVQGSEQGGVRPVVIIQNDTGNKYS-PTVIVAAITGRINKAKIPTHV  59
+
+Query  62   DLPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGLRRVLDL  114
+            ++     +L +DSV+ +  I TL+K  L +++  +    M EVD  L   L L
+Sbjct  60   EIEKKKYKLDKDSVILLEQIRTLDKKRLKEKLTYLSDDKMKEVDNALMISLGL  112
+
+
+> sp|Q2YUI5|MAZF_STAAB Endoribonuclease MazF OS=Staphylococcus 
+aureus (strain bovine RF122 / ET3-1) OX=273036 GN=mazF PE=3 
+SV=1
+Length=117
+
+ Score = 136 bits (343),  Expect = 8e-42, Method: Composition-based stats.
+ Identities = 41/113 (36%), Positives = 61/113 (54%), Gaps = 1/113 (1%)
+
+Query  2    VISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSNDALAAMPGNV  61
+            +I R ++Y ADL P  GS+    RPV++IQ+D  N     TVI A IT     A +P +V
+Sbjct  1    MIRRGDVYLADLSPVQGSEQGGVRPVVIIQNDTGNKYS-PTVIVAAITGRINKAKIPTHV  59
+
+Query  62   DLPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGLRRVLDL  114
+            ++     +L +DSV+ +  I TL+K  L +++  +    M EVD  L   L L
+Sbjct  60   EIEKKKYKLDKDSVILLEQIRTLDKKRLKEKLTYLSDDKMKEVDNALMISLGL  112
+
+
+> sp|P96622|ENDOA_BACSU Endoribonuclease EndoA OS=Bacillus subtilis 
+(strain 168) OX=224308 GN=ndoA PE=1 SV=1
+Length=116
+
+ Score = 134 bits (338),  Expect = 5e-41, Method: Composition-based stats.
+ Identities = 43/114 (38%), Positives = 65/114 (57%), Gaps = 1/114 (1%)
+
+Query  1    MVISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSNDALAAMPGN  60
+            M++ R ++Y+ADL P  GS+    RPVLVIQ+D  N     T I A IT+    A +P +
+Sbjct  1    MIVKRGDVYFADLSPVVGSEQGGVRPVLVIQNDIGNRFS-PTAIVAAITAQIQKAKLPTH  59
+
+Query  61   VDLPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGLRRVLDL  114
+            V++ A      RDSV+ +  I T++K  LTD++  +   +M +VD  L+  L L
+Sbjct  60   VEIDAKRYGFERDSVILLEQIRTIDKQRLTDKITHLDDEMMDKVDEALQISLAL  113
+
+
+> sp|P71650|MAZF9_MYCTU Endoribonuclease MazF9 OS=Mycobacterium 
+tuberculosis (strain ATCC 25618 / H37Rv) OX=83332 GN=mazF9 
+PE=1 SV=2
+Length=118
+
+ Score = 116 bits (290),  Expect = 8e-34, Method: Composition-based stats.
+ Identities = 37/116 (32%), Positives = 57/116 (49%), Gaps = 3/116 (3%)
+
+Query  2    VISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNAS--RLATVIAAVITSNDALAA-MP  58
+            ++ R EI+  DL P  GS+   +RP +V+ +D  NA+  RL   +  V+     +A   P
+Sbjct  1    MMRRGEIWQVDLDPARGSEANNQRPAVVVSNDRANATATRLGRGVITVVPVTSNIAKVYP  60
+
+Query  59   GNVDLPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGLRRVLDL  114
+              V L ATTT L  D       I ++    L   +G V A+ + ++D  L+  LDL
+Sbjct  61   FQVLLSATTTGLQVDCKAQAEQIRSIATERLLRPIGRVSAAELAQLDEALKLHLDL  116
+
+
+> sp|P9WII1|MAZF2_MYCTU Probable endoribonuclease MazF2 OS=Mycobacterium 
+tuberculosis (strain ATCC 25618 / H37Rv) OX=83332 
+GN=mazF2 PE=1 SV=1
+Length=102
+
+ Score = 98.3 bits (243),  Expect = 9e-27, Method: Composition-based stats.
+ Identities = 32/107 (30%), Positives = 51/107 (48%), Gaps = 10/107 (9%)
+
+Query  3    ISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSNDALAAMPGNVD  62
+            + R E+++A       + P   RPVLV+  DP  A R+  V+   +T       +   ++
+Sbjct  1    MRRGELWFA-------ATPGGDRPVLVLTRDPV-ADRIGAVVVVALTRTRR--GLVSELE  50
+
+Query  63   LPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGLR  109
+            L A   R+P D VVN   I TL +T    R+  +  + +HE  + LR
+Sbjct  51   LTAVENRVPSDCVVNFDNIHTLPRTAFRRRITRLSPARLHEACQTLR  97
+
+
+> sp|P9WII0|MAZF2_MYCTO Probable endoribonuclease MazF2 OS=Mycobacterium 
+tuberculosis (strain CDC 1551 / Oshkosh) OX=83331 
+GN=mazF2 PE=3 SV=1
+Length=102
+
+ Score = 98.3 bits (243),  Expect = 9e-27, Method: Composition-based stats.
+ Identities = 32/107 (30%), Positives = 51/107 (48%), Gaps = 10/107 (9%)
+
+Query  3    ISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSNDALAAMPGNVD  62
+            + R E+++A       + P   RPVLV+  DP  A R+  V+   +T       +   ++
+Sbjct  1    MRRGELWFA-------ATPGGDRPVLVLTRDPV-ADRIGAVVVVALTRTRR--GLVSELE  50
+
+Query  63   LPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGLR  109
+            L A   R+P D VVN   I TL +T    R+  +  + +HE  + LR
+Sbjct  51   LTAVENRVPSDCVVNFDNIHTLPRTAFRRRITRLSPARLHEACQTLR  97
+
+
+> sp|A0R0N4|MAZF_MYCS2 Probable endoribonuclease MazF OS=Mycolicibacterium 
+smegmatis (strain ATCC 700084 / mc(2)155) OX=246196 
+GN=mazF PE=1 SV=1
+Length=109
+
+ Score = 95.6 bits (236),  Expect = 1e-25, Method: Composition-based stats.
+ Identities = 34/112 (30%), Positives = 54/112 (48%), Gaps = 5/112 (4%)
+
+Query  3    ISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSNDALAAMPGNVD  62
+            + R +IY A      G+   K RPVL+IQ D ++A+   TV+    T++D  A +     
+Sbjct  1    MRRGDIYTA---AARGAYTGKPRPVLIIQDDRFDATASVTVVP--FTTSDTDAPLLRIRI  55
+
+Query  63   LPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGLRRVLDL  114
+             P   T L   S + +  + T+ ++ LT RVG +  + M   DR L   L +
+Sbjct  56   EPTPATGLSTVSSLMIDKVTTVPRSSLTHRVGRLAETDMVRTDRALLVFLGI  107
+
+
+> sp|Q6MX40|MAZF1_MYCTU Probable endoribonuclease MazF1 OS=Mycobacterium 
+tuberculosis (strain ATCC 25618 / H37Rv) OX=83332 
+GN=mazF1 PE=3 SV=1
+Length=93
+
+ Score = 55.1 bits (131),  Expect = 5e-10, Method: Composition-based stats.
+ Identities = 21/63 (33%), Positives = 31/63 (49%), Gaps = 4/63 (6%)
+
+Query  3   ISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRL----ATVIAAVITSNDALAAMP  58
+           + R EI+  DL P  GS    RRP +++ +D  NA+ +      V    +TSN     +P
+Sbjct  1   MLRGEIWQVDLDPARGSAANMRRPAVIVSNDRANAAAIRLDRGVVPVVPVTSNTEKVPIP  60
+
+Query  59  GNV  61
+           G V
+Sbjct  61  GVV  63
+
+
+> sp|P0AE70|MAZF_ECOLI Endoribonuclease toxin MazF OS=Escherichia 
+coli (strain K12) OX=83333 GN=mazF PE=1 SV=1
+Length=111
+
+ Score = 54.0 bits (128),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 20/98 (20%), Positives = 33/98 (34%), Gaps = 8/98 (8%)
+
+Query  6    AEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSNDALAAMPGNVDLPA  65
+             ++ W D  P  GS+ A  RP +V+    YN     T +   +         P  V L  
+Sbjct  10   GDLIWVDFDPTKGSEQAGHRPAVVLSPFMYNNK---TGMCLCVPCTTQSKGYPFEVVLS-  65
+
+Query  66   TTTRLPRDSVVNVTAIVTLN-KTDLTDRVGEVPASLMH  102
+                  RD V     + ++  +     + G V    + 
+Sbjct  66   ---GQERDGVALADQVKSIAWRARGATKKGTVAPEELQ  100
+
+
+> sp|P0AE71|MAZF_ECO57 Endoribonuclease MazF OS=Escherichia coli 
+O157:H7 OX=83334 GN=mazF PE=3 SV=1
+Length=111
+
+ Score = 54.0 bits (128),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 20/98 (20%), Positives = 33/98 (34%), Gaps = 8/98 (8%)
+
+Query  6    AEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSNDALAAMPGNVDLPA  65
+             ++ W D  P  GS+ A  RP +V+    YN     T +   +         P  V L  
+Sbjct  10   GDLIWVDFDPTKGSEQAGHRPAVVLSPFMYNNK---TGMCLCVPCTTQSKGYPFEVVLS-  65
+
+Query  66   TTTRLPRDSVVNVTAIVTLN-KTDLTDRVGEVPASLMH  102
+                  RD V     + ++  +     + G V    + 
+Sbjct  66   ---GQERDGVALADQVKSIAWRARGATKKGTVAPEELQ  100
+
+
+> sp|P0CL62|MAZF7_MYCTU Probable endoribonuclease MazF7 OS=Mycobacterium 
+tuberculosis (strain ATCC 25618 / H37Rv) OX=83332 
+GN=mazF7 PE=1 SV=1
+Length=136
+
+ Score = 54.0 bits (128),  Expect = 4e-09, Method: Composition-based stats.
+ Identities = 23/114 (20%), Positives = 44/114 (39%), Gaps = 8/114 (7%)
+
+Query  4    SRAEIYWADLGPPSGSQPAKRRPVLVIQSD---PYNASRLATVIAAVITSNDALAAMPGN  60
+             R +++   LG     +P K RP +V+  D         L  V+    + +      P  
+Sbjct  5    RRGDLWLVSLGAARAGEPGKHRPAVVVSVDELLTGIDDELVVVVPVSSSRSRTPLRPPV-  63
+
+Query  61   VDLPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGLRRVLDL  114
+                A +  +  DSV     +  + +  L +R+G +  + M  ++  L  +L L
+Sbjct  64   ----APSEGVAADSVAVCRGVRAVARARLVERLGALKPATMRAIENALTLILGL  113
+
+
+> sp|P13976|PEMK_ECOLX Endoribonuclease PemK OS=Escherichia coli 
+OX=562 GN=pemK PE=1 SV=1
+Length=133
+
+ Score = 52.5 bits (124),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 31/112 (28%), Positives = 48/112 (43%), Gaps = 5/112 (4%)
+
+Query  3    ISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNA-SRLATVIAAVITSNDALAAMPGNV  61
+            + R EI+   L P +G +    RPVL++    +N  +RL  V+      N A  A    V
+Sbjct  24   MERGEIWLVSLDPTAGHEQQGTRPVLIVTPAAFNRVTRLPVVVPVTSGGNFARTA-GFAV  82
+
+Query  62   DLPATTTRLPRDSVVNVTAIVTLN-KTDLTDRVGEVPASLMHEVDRGLRRVL  112
+             L      +    VV      T++ K     R+  VP ++M+EV   L  +L
+Sbjct  83   SLDGV--GIRTTGVVRCDQPRTIDMKARGGKRLERVPETIMNEVLGRLSTIL  132
+
+
+> sp|P95272|MAZF5_MYCTU Probable endoribonuclease MazF5 OS=Mycobacterium 
+tuberculosis (strain ATCC 25618 / H37Rv) OX=83332 
+GN=mazF5 PE=1 SV=4
+Length=109
+
+ Score = 50.9 bits (120),  Expect = 3e-08, Method: Composition-based stats.
+ Identities = 26/109 (24%), Positives = 48/109 (44%), Gaps = 9/109 (8%)
+
+Query  5    RAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSNDALAAMPGNVDLP  64
+            R E++W ++          RRPV+V+  D     RL   + A  T+      +   V L 
+Sbjct  7    RGEVWWCEMAEI------GRRPVVVLSRDAA-IPRLRRALVAPCTTTIR--GLASEVVLE  57
+
+Query  65   ATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGLRRVLD  113
+              +  +PR S VN+ ++ +++   L +R+G +    M  +   L   +D
+Sbjct  58   PGSDPIPRRSAVNLDSVESVSVAVLVNRLGRLADIRMRAICTALEVAVD  106
+
+
+> sp|P33647|CHPB_ECOLI Endoribonuclease toxin ChpB OS=Escherichia 
+coli (strain K12) OX=83333 GN=chpB PE=1 SV=1
+Length=116
+
+ Score = 42.8 bits (99),  Expect = 4e-05, Method: Composition-based stats.
+ Identities = 26/111 (23%), Positives = 42/111 (38%), Gaps = 5/111 (5%)
+
+Query  5    RAEIYWADLGPPSGSQ-PAKRRPVLVIQSDPYNASRLATVIAAVITSNDALAAMPGNVDL  63
+            R +I      P SG +     RP LV+    +N  +L   + A IT     A   G   +
+Sbjct  9    RGDIVLVGFDPASGHEQQGAGRPALVLSVQAFN--QLGMTLVAPITQGGNFARYAG-FSV  65
+
+Query  64   PATTTRLPRDSVVNVTAIVTLN-KTDLTDRVGEVPASLMHEVDRGLRRVLD  113
+            P          VV V  +  ++    L  R+G     ++ E    L+ V++
+Sbjct  66   PLHCEEGDVHGVVLVNQVRMMDLHARLAKRIGLAADEVVEEALLRLQAVVE  116
+
+
+> sp|P9WIH9|MAZF3_MYCTU Endoribonuclease MazF3 OS=Mycobacterium 
+tuberculosis (strain ATCC 25618 / H37Rv) OX=83332 GN=mazF3 
+PE=1 SV=1
+Length=103
+
+ Score = 40.5 bits (93),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 26/102 (25%), Positives = 42/102 (41%), Gaps = 4/102 (4%)
+
+Query  13   LGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSNDALAAMPGNVDLPATTTRLPR  72
+            + P   +Q  K RPVL++  +      L  V  A IT+      +   V + A    L +
+Sbjct  1    MRPIHIAQLDKARPVLILTREVVRPH-LTNVTVAPITTTVR--GLATEVPVDAV-NGLNQ  56
+
+Query  73   DSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGLRRVLDL  114
+             SVV+     T+   DL  ++G + AS    +   +    DL
+Sbjct  57   PSVVSCDNTQTIPVCDLGRQIGYLLASQEPALAEAIGNAFDL  98
+
+
+> sp|P9WIH8|MAZF3_MYCTO Endoribonuclease MazF3 OS=Mycobacterium 
+tuberculosis (strain CDC 1551 / Oshkosh) OX=83331 GN=mazF3 
+PE=3 SV=1
+Length=103
+
+ Score = 40.5 bits (93),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 26/102 (25%), Positives = 42/102 (41%), Gaps = 4/102 (4%)
+
+Query  13   LGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSNDALAAMPGNVDLPATTTRLPR  72
+            + P   +Q  K RPVL++  +      L  V  A IT+      +   V + A    L +
+Sbjct  1    MRPIHIAQLDKARPVLILTREVVRPH-LTNVTVAPITTTVR--GLATEVPVDAV-NGLNQ  56
+
+Query  73   DSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGLRRVLDL  114
+             SVV+     T+   DL  ++G + AS    +   +    DL
+Sbjct  57   PSVVSCDNTQTIPVCDLGRQIGYLLASQEPALAEAIGNAFDL  98
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.125    0.284    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0384    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5012042944
+Results from round 3
+
+
+Query= 5HKC
+
+Length=114
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q8CRQ1|MAZF_STAES Endoribonuclease MazF OS=Staphylococcus ep...  137     3e-42
+  sp|Q5HME7|MAZF_STAEQ Endoribonuclease MazF OS=Staphylococcus ep...  137     3e-42
+  sp|Q9F7V5|MAZF_STAEP Endoribonuclease MazF OS=Staphylococcus ep...  137     4e-42
+  sp|Q49Z22|MAZF_STAS1 Endoribonuclease MazF OS=Staphylococcus sa...  135     4e-41
+  sp|Q4L7V3|MAZF_STAHJ Endoribonuclease MazF OS=Staphylococcus ha...  134     6e-41
+  sp|Q7A0D7|MAZF_STAAW Endoribonuclease MazF OS=Staphylococcus au...  133     1e-40
+  sp|Q6G7P1|MAZF_STAAS Endoribonuclease MazF OS=Staphylococcus au...  133     1e-40
+  sp|Q7A4G9|MAZF_STAAN Endoribonuclease MazF OS=Staphylococcus au...  133     1e-40
+  sp|Q7A2N3|MAZF_STAAM Endoribonuclease MazF OS=Staphylococcus au...  133     1e-40
+  sp|A6QIR4|MAZF_STAAE Endoribonuclease MazF OS=Staphylococcus au...  133     1e-40
+  sp|Q5HED3|MAZF_STAAC Endoribonuclease MazF OS=Staphylococcus au...  133     1e-40
+  sp|Q2FWI8|MAZF_STAA8 Endoribonuclease MazF OS=Staphylococcus au...  133     1e-40
+  sp|Q2FF56|MAZF_STAA3 Endoribonuclease MazF OS=Staphylococcus au...  133     1e-40
+  sp|A7X4P5|MAZF_STAA1 Endoribonuclease MazF OS=Staphylococcus au...  133     1e-40
+  sp|Q6GF05|MAZF_STAAR Endoribonuclease MazF OS=Staphylococcus au...  133     2e-40
+  sp|Q2YUI5|MAZF_STAAB Endoribonuclease MazF OS=Staphylococcus au...  132     5e-40
+  sp|P96622|ENDOA_BACSU Endoribonuclease EndoA OS=Bacillus subtil...  127     5e-38
+  sp|P9WII3|MAZF6_MYCTU Endoribonuclease MazF6 OS=Mycobacterium t...  116     9e-34
+  sp|P9WII2|MAZF6_MYCTO Endoribonuclease MazF6 OS=Mycobacterium t...  116     9e-34
+  sp|P64912|MAZF2_MYCBO Endoribonuclease MazF2 OS=Mycobacterium b...  116     9e-34
+  sp|P71650|MAZF9_MYCTU Endoribonuclease MazF9 OS=Mycobacterium t...  109     7e-31
+  sp|P0AE70|MAZF_ECOLI Endoribonuclease toxin MazF OS=Escherichia...  93.7    7e-25
+  sp|P0AE71|MAZF_ECO57 Endoribonuclease MazF OS=Escherichia coli ...  93.7    7e-25
+  sp|P13976|PEMK_ECOLX Endoribonuclease PemK OS=Escherichia coli ...  92.2    5e-24
+  sp|P33647|CHPB_ECOLI Endoribonuclease toxin ChpB OS=Escherichia...  90.6    1e-23
+  sp|A0R0N4|MAZF_MYCS2 Probable endoribonuclease MazF OS=Mycolici...  85.6    8e-22
+  sp|P9WII1|MAZF2_MYCTU Probable endoribonuclease MazF2 OS=Mycoba...  83.7    4e-21
+  sp|P9WII0|MAZF2_MYCTO Probable endoribonuclease MazF2 OS=Mycoba...  83.7    4e-21
+  sp|P0CL62|MAZF7_MYCTU Probable endoribonuclease MazF7 OS=Mycoba...  77.5    2e-18
+  sp|P95272|MAZF5_MYCTU Probable endoribonuclease MazF5 OS=Mycoba...  75.6    7e-18
+  sp|P9WIH9|MAZF3_MYCTU Endoribonuclease MazF3 OS=Mycobacterium t...  74.1    3e-17
+  sp|P9WIH8|MAZF3_MYCTO Endoribonuclease MazF3 OS=Mycobacterium t...  74.1    3e-17
+  sp|Q6MX40|MAZF1_MYCTU Probable endoribonuclease MazF1 OS=Mycoba...  59.4    1e-11
+
+Sequences not found previously or not previously below threshold:
+
+  sp|P9WII5|MAZF4_MYCTU Endoribonuclease MazF4 OS=Mycobacterium t...  52.1    1e-08
+  sp|P9WII4|MAZF4_MYCTO Endoribonuclease MazF4 OS=Mycobacterium t...  52.1    1e-08
+  sp|P64860|MAZF1_MYCBO Endoribonuclease MazF1 OS=Mycobacterium b...  52.1    1e-08
+  sp|V5QRX7|3098A_MYCTU Putative toxin Rv3098A/RVBD_3098A OS=Myco...  44.0    1e-05
+
+
+> sp|Q8CRQ1|MAZF_STAES Endoribonuclease MazF OS=Staphylococcus 
+epidermidis (strain ATCC 12228 / FDA PCI 1200) OX=176280 GN=mazF 
+PE=3 SV=1
+Length=120
+
+ Score = 137 bits (346),  Expect = 3e-42, Method: Composition-based stats.
+ Identities = 42/113 (37%), Positives = 62/113 (55%), Gaps = 1/113 (1%)
+
+Query  2    VISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSNDALAAMPGNV  61
+            +I R ++Y ADL P  GS+    RPV++IQ+D  N     TVI A IT     A +P +V
+Sbjct  1    MIRRGDVYLADLSPVQGSEQGGVRPVVIIQNDTGNKYS-PTVIVAAITGRINKAKIPTHV  59
+
+Query  62   DLPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGLRRVLDL  114
+            ++     +L +DSV+ +  I TL+K  L +++  +  S M EVD  L   L L
+Sbjct  60   EIEKKKYKLDKDSVILLEQIRTLDKKRLKEKLTFLSESKMIEVDNALDISLGL  112
+
+
+> sp|Q5HME7|MAZF_STAEQ Endoribonuclease MazF OS=Staphylococcus 
+epidermidis (strain ATCC 35984 / RP62A) OX=176279 GN=mazF PE=3 
+SV=1
+Length=120
+
+ Score = 137 bits (346),  Expect = 3e-42, Method: Composition-based stats.
+ Identities = 42/113 (37%), Positives = 62/113 (55%), Gaps = 1/113 (1%)
+
+Query  2    VISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSNDALAAMPGNV  61
+            +I R ++Y ADL P  GS+    RPV++IQ+D  N     TVI A IT     A +P +V
+Sbjct  1    MIRRGDVYLADLSPVQGSEQGGVRPVVIIQNDTGNKYS-PTVIVAAITGRINKAKIPTHV  59
+
+Query  62   DLPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGLRRVLDL  114
+            ++     +L +DSV+ +  I TL+K  L +++  +  S M EVD  L   L L
+Sbjct  60   EIEKKKYKLDKDSVILLEQIRTLDKKRLKEKLTFLSESKMIEVDNALDISLGL  112
+
+
+> sp|Q9F7V5|MAZF_STAEP Endoribonuclease MazF OS=Staphylococcus 
+epidermidis OX=1282 GN=mazF PE=3 SV=1
+Length=120
+
+ Score = 137 bits (345),  Expect = 4e-42, Method: Composition-based stats.
+ Identities = 42/113 (37%), Positives = 62/113 (55%), Gaps = 1/113 (1%)
+
+Query  2    VISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSNDALAAMPGNV  61
+            +I R ++Y ADL P  GS+    RPV++IQ+D  N     TVI A IT     A +P +V
+Sbjct  1    MIRRGDVYLADLSPVQGSEQGGVRPVVIIQNDTGNKYS-PTVIVAAITDGINKAKIPTHV  59
+
+Query  62   DLPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGLRRVLDL  114
+            ++     +L +DSV+ +  I TL+K  L +++  +  S M EVD  L   L L
+Sbjct  60   EIEKKKYKLDKDSVILLEQIRTLDKKRLKEKLTFLSESKMIEVDNALDISLGL  112
+
+
+> sp|Q49Z22|MAZF_STAS1 Endoribonuclease MazF OS=Staphylococcus 
+saprophyticus subsp. saprophyticus (strain ATCC 15305 / DSM 
+20229 / NCIMB 8711 / NCTC 7292 / S-41) OX=342451 GN=mazF PE=3 
+SV=1
+Length=120
+
+ Score = 135 bits (339),  Expect = 4e-41, Method: Composition-based stats.
+ Identities = 38/113 (34%), Positives = 62/113 (55%), Gaps = 1/113 (1%)
+
+Query  2    VISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSNDALAAMPGNV  61
+            ++ R ++Y ADL P  GS+    RPV++IQ+D  N     TVI A IT     A +P +V
+Sbjct  1    MMRRGDVYLADLSPVQGSEQGGIRPVVIIQNDTGNKYS-PTVIVAAITGRINKAKIPTHV  59
+
+Query  62   DLPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGLRRVLDL  114
+            ++  +  +L +DSV+ +  I TL+K  L +++  +    M EV+  +   L L
+Sbjct  60   EIEKSKYKLDKDSVILLEQIRTLDKNRLKEKLTYLSDKKMKEVNNAIDISLGL  112
+
+
+> sp|Q4L7V3|MAZF_STAHJ Endoribonuclease MazF OS=Staphylococcus 
+haemolyticus (strain JCSC1435) OX=279808 GN=mazF PE=3 SV=1
+Length=121
+
+ Score = 134 bits (337),  Expect = 6e-41, Method: Composition-based stats.
+ Identities = 42/113 (37%), Positives = 61/113 (54%), Gaps = 1/113 (1%)
+
+Query  2    VISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSNDALAAMPGNV  61
+            +I R ++Y ADL P  GS+    RPV++IQ+D  N     TVI A IT     A +P +V
+Sbjct  1    MIRRGDVYLADLSPVQGSEQGGVRPVVIIQNDTGNKYS-PTVIVAAITGRINKAKIPTHV  59
+
+Query  62   DLPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGLRRVLDL  114
+            ++     RL +DSV+ +  I TL+K  L +++  +    M EVD  L   L L
+Sbjct  60   EIEKKKYRLDKDSVILLEQIRTLDKKRLKEKLTYLSDEKMQEVDEALDISLGL  112
+
+
+> sp|Q7A0D7|MAZF_STAAW Endoribonuclease MazF OS=Staphylococcus 
+aureus (strain MW2) OX=196620 GN=mazF PE=3 SV=1
+Length=120
+
+ Score = 133 bits (335),  Expect = 1e-40, Method: Composition-based stats.
+ Identities = 41/113 (36%), Positives = 61/113 (54%), Gaps = 1/113 (1%)
+
+Query  2    VISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSNDALAAMPGNV  61
+            +I R ++Y ADL P  GS+    RPV++IQ+D  N     TVI A IT     A +P +V
+Sbjct  1    MIRRGDVYLADLSPVQGSEQGGVRPVVIIQNDTGNKYS-PTVIVAAITGRINKAKIPTHV  59
+
+Query  62   DLPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGLRRVLDL  114
+            ++     +L +DSV+ +  I TL+K  L +++  +    M EVD  L   L L
+Sbjct  60   EIEKKKYKLDKDSVILLEQIRTLDKKRLKEKLTYLSDDKMKEVDNALMISLGL  112
+
+
+> sp|Q6G7P1|MAZF_STAAS Endoribonuclease MazF OS=Staphylococcus 
+aureus (strain MSSA476) OX=282459 GN=mazF PE=3 SV=1
+Length=120
+
+ Score = 133 bits (335),  Expect = 1e-40, Method: Composition-based stats.
+ Identities = 41/113 (36%), Positives = 61/113 (54%), Gaps = 1/113 (1%)
+
+Query  2    VISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSNDALAAMPGNV  61
+            +I R ++Y ADL P  GS+    RPV++IQ+D  N     TVI A IT     A +P +V
+Sbjct  1    MIRRGDVYLADLSPVQGSEQGGVRPVVIIQNDTGNKYS-PTVIVAAITGRINKAKIPTHV  59
+
+Query  62   DLPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGLRRVLDL  114
+            ++     +L +DSV+ +  I TL+K  L +++  +    M EVD  L   L L
+Sbjct  60   EIEKKKYKLDKDSVILLEQIRTLDKKRLKEKLTYLSDDKMKEVDNALMISLGL  112
+
+
+> sp|Q7A4G9|MAZF_STAAN Endoribonuclease MazF OS=Staphylococcus 
+aureus (strain N315) OX=158879 GN=mazF PE=1 SV=1
+Length=120
+
+ Score = 133 bits (335),  Expect = 1e-40, Method: Composition-based stats.
+ Identities = 41/113 (36%), Positives = 61/113 (54%), Gaps = 1/113 (1%)
+
+Query  2    VISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSNDALAAMPGNV  61
+            +I R ++Y ADL P  GS+    RPV++IQ+D  N     TVI A IT     A +P +V
+Sbjct  1    MIRRGDVYLADLSPVQGSEQGGVRPVVIIQNDTGNKYS-PTVIVAAITGRINKAKIPTHV  59
+
+Query  62   DLPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGLRRVLDL  114
+            ++     +L +DSV+ +  I TL+K  L +++  +    M EVD  L   L L
+Sbjct  60   EIEKKKYKLDKDSVILLEQIRTLDKKRLKEKLTYLSDDKMKEVDNALMISLGL  112
+
+
+> sp|Q7A2N3|MAZF_STAAM Endoribonuclease MazF OS=Staphylococcus 
+aureus (strain Mu50 / ATCC 700699) OX=158878 GN=mazF PE=1 SV=1
+Length=120
+
+ Score = 133 bits (335),  Expect = 1e-40, Method: Composition-based stats.
+ Identities = 41/113 (36%), Positives = 61/113 (54%), Gaps = 1/113 (1%)
+
+Query  2    VISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSNDALAAMPGNV  61
+            +I R ++Y ADL P  GS+    RPV++IQ+D  N     TVI A IT     A +P +V
+Sbjct  1    MIRRGDVYLADLSPVQGSEQGGVRPVVIIQNDTGNKYS-PTVIVAAITGRINKAKIPTHV  59
+
+Query  62   DLPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGLRRVLDL  114
+            ++     +L +DSV+ +  I TL+K  L +++  +    M EVD  L   L L
+Sbjct  60   EIEKKKYKLDKDSVILLEQIRTLDKKRLKEKLTYLSDDKMKEVDNALMISLGL  112
+
+
+> sp|A6QIR4|MAZF_STAAE Endoribonuclease MazF OS=Staphylococcus 
+aureus (strain Newman) OX=426430 GN=mazF PE=1 SV=1
+Length=120
+
+ Score = 133 bits (335),  Expect = 1e-40, Method: Composition-based stats.
+ Identities = 41/113 (36%), Positives = 61/113 (54%), Gaps = 1/113 (1%)
+
+Query  2    VISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSNDALAAMPGNV  61
+            +I R ++Y ADL P  GS+    RPV++IQ+D  N     TVI A IT     A +P +V
+Sbjct  1    MIRRGDVYLADLSPVQGSEQGGVRPVVIIQNDTGNKYS-PTVIVAAITGRINKAKIPTHV  59
+
+Query  62   DLPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGLRRVLDL  114
+            ++     +L +DSV+ +  I TL+K  L +++  +    M EVD  L   L L
+Sbjct  60   EIEKKKYKLDKDSVILLEQIRTLDKKRLKEKLTYLSDDKMKEVDNALMISLGL  112
+
+
+> sp|Q5HED3|MAZF_STAAC Endoribonuclease MazF OS=Staphylococcus 
+aureus (strain COL) OX=93062 GN=mazF PE=3 SV=1
+Length=120
+
+ Score = 133 bits (335),  Expect = 1e-40, Method: Composition-based stats.
+ Identities = 41/113 (36%), Positives = 61/113 (54%), Gaps = 1/113 (1%)
+
+Query  2    VISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSNDALAAMPGNV  61
+            +I R ++Y ADL P  GS+    RPV++IQ+D  N     TVI A IT     A +P +V
+Sbjct  1    MIRRGDVYLADLSPVQGSEQGGVRPVVIIQNDTGNKYS-PTVIVAAITGRINKAKIPTHV  59
+
+Query  62   DLPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGLRRVLDL  114
+            ++     +L +DSV+ +  I TL+K  L +++  +    M EVD  L   L L
+Sbjct  60   EIEKKKYKLDKDSVILLEQIRTLDKKRLKEKLTYLSDDKMKEVDNALMISLGL  112
+
+
+> sp|Q2FWI8|MAZF_STAA8 Endoribonuclease MazF OS=Staphylococcus 
+aureus (strain NCTC 8325 / PS 47) OX=93061 GN=mazF PE=1 SV=1
+Length=120
+
+ Score = 133 bits (335),  Expect = 1e-40, Method: Composition-based stats.
+ Identities = 41/113 (36%), Positives = 61/113 (54%), Gaps = 1/113 (1%)
+
+Query  2    VISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSNDALAAMPGNV  61
+            +I R ++Y ADL P  GS+    RPV++IQ+D  N     TVI A IT     A +P +V
+Sbjct  1    MIRRGDVYLADLSPVQGSEQGGVRPVVIIQNDTGNKYS-PTVIVAAITGRINKAKIPTHV  59
+
+Query  62   DLPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGLRRVLDL  114
+            ++     +L +DSV+ +  I TL+K  L +++  +    M EVD  L   L L
+Sbjct  60   EIEKKKYKLDKDSVILLEQIRTLDKKRLKEKLTYLSDDKMKEVDNALMISLGL  112
+
+
+> sp|Q2FF56|MAZF_STAA3 Endoribonuclease MazF OS=Staphylococcus 
+aureus (strain USA300) OX=367830 GN=mazF PE=3 SV=1
+Length=120
+
+ Score = 133 bits (335),  Expect = 1e-40, Method: Composition-based stats.
+ Identities = 41/113 (36%), Positives = 61/113 (54%), Gaps = 1/113 (1%)
+
+Query  2    VISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSNDALAAMPGNV  61
+            +I R ++Y ADL P  GS+    RPV++IQ+D  N     TVI A IT     A +P +V
+Sbjct  1    MIRRGDVYLADLSPVQGSEQGGVRPVVIIQNDTGNKYS-PTVIVAAITGRINKAKIPTHV  59
+
+Query  62   DLPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGLRRVLDL  114
+            ++     +L +DSV+ +  I TL+K  L +++  +    M EVD  L   L L
+Sbjct  60   EIEKKKYKLDKDSVILLEQIRTLDKKRLKEKLTYLSDDKMKEVDNALMISLGL  112
+
+
+> sp|A7X4P5|MAZF_STAA1 Endoribonuclease MazF OS=Staphylococcus 
+aureus (strain Mu3 / ATCC 700698) OX=418127 GN=mazF PE=3 SV=1
+Length=120
+
+ Score = 133 bits (335),  Expect = 1e-40, Method: Composition-based stats.
+ Identities = 41/113 (36%), Positives = 61/113 (54%), Gaps = 1/113 (1%)
+
+Query  2    VISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSNDALAAMPGNV  61
+            +I R ++Y ADL P  GS+    RPV++IQ+D  N     TVI A IT     A +P +V
+Sbjct  1    MIRRGDVYLADLSPVQGSEQGGVRPVVIIQNDTGNKYS-PTVIVAAITGRINKAKIPTHV  59
+
+Query  62   DLPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGLRRVLDL  114
+            ++     +L +DSV+ +  I TL+K  L +++  +    M EVD  L   L L
+Sbjct  60   EIEKKKYKLDKDSVILLEQIRTLDKKRLKEKLTYLSDDKMKEVDNALMISLGL  112
+
+
+> sp|Q6GF05|MAZF_STAAR Endoribonuclease MazF OS=Staphylococcus 
+aureus (strain MRSA252) OX=282458 GN=mazF PE=3 SV=1
+Length=120
+
+ Score = 133 bits (334),  Expect = 2e-40, Method: Composition-based stats.
+ Identities = 41/113 (36%), Positives = 61/113 (54%), Gaps = 1/113 (1%)
+
+Query  2    VISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSNDALAAMPGNV  61
+            +I R ++Y ADL P  GS+    RPV++IQ+D  N     TVI A IT     A +P +V
+Sbjct  1    MIRRGDVYLADLSPVQGSEQGGVRPVVIIQNDTGNKYS-PTVIVAAITGRINKAKIPTHV  59
+
+Query  62   DLPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGLRRVLDL  114
+            ++     +L +DSV+ +  I TL+K  L +++  +    M EVD  L   L L
+Sbjct  60   EIEKKKYKLDKDSVILLEQIRTLDKKRLKEKLTYLSDDKMKEVDNALMISLGL  112
+
+
+> sp|Q2YUI5|MAZF_STAAB Endoribonuclease MazF OS=Staphylococcus 
+aureus (strain bovine RF122 / ET3-1) OX=273036 GN=mazF PE=3 
+SV=1
+Length=117
+
+ Score = 132 bits (331),  Expect = 5e-40, Method: Composition-based stats.
+ Identities = 41/113 (36%), Positives = 61/113 (54%), Gaps = 1/113 (1%)
+
+Query  2    VISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSNDALAAMPGNV  61
+            +I R ++Y ADL P  GS+    RPV++IQ+D  N     TVI A IT     A +P +V
+Sbjct  1    MIRRGDVYLADLSPVQGSEQGGVRPVVIIQNDTGNKYS-PTVIVAAITGRINKAKIPTHV  59
+
+Query  62   DLPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGLRRVLDL  114
+            ++     +L +DSV+ +  I TL+K  L +++  +    M EVD  L   L L
+Sbjct  60   EIEKKKYKLDKDSVILLEQIRTLDKKRLKEKLTYLSDDKMKEVDNALMISLGL  112
+
+
+> sp|P96622|ENDOA_BACSU Endoribonuclease EndoA OS=Bacillus subtilis 
+(strain 168) OX=224308 GN=ndoA PE=1 SV=1
+Length=116
+
+ Score = 127 bits (318),  Expect = 5e-38, Method: Composition-based stats.
+ Identities = 43/114 (38%), Positives = 65/114 (57%), Gaps = 1/114 (1%)
+
+Query  1    MVISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSNDALAAMPGN  60
+            M++ R ++Y+ADL P  GS+    RPVLVIQ+D  N     T I A IT+    A +P +
+Sbjct  1    MIVKRGDVYFADLSPVVGSEQGGVRPVLVIQNDIGNRFS-PTAIVAAITAQIQKAKLPTH  59
+
+Query  61   VDLPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGLRRVLDL  114
+            V++ A      RDSV+ +  I T++K  LTD++  +   +M +VD  L+  L L
+Sbjct  60   VEIDAKRYGFERDSVILLEQIRTIDKQRLTDKITHLDDEMMDKVDEALQISLAL  113
+
+
+> sp|P9WII3|MAZF6_MYCTU Endoribonuclease MazF6 OS=Mycobacterium 
+tuberculosis (strain ATCC 25618 / H37Rv) OX=83332 GN=mazF6 
+PE=1 SV=1
+Length=114
+
+ Score = 116 bits (289),  Expect = 9e-34, Method: Composition-based stats.
+ Identities = 112/114 (98%), Positives = 112/114 (98%), Gaps = 0/114 (0%)
+
+Query  1    MVISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSNDALAAMPGN  60
+            MVISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSN ALAAMPGN
+Sbjct  1    MVISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSNTALAAMPGN  60
+
+Query  61   VDLPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGLRRVLDL  114
+            V LPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGLRRVLDL
+Sbjct  61   VFLPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGLRRVLDL  114
+
+
+> sp|P9WII2|MAZF6_MYCTO Endoribonuclease MazF6 OS=Mycobacterium 
+tuberculosis (strain CDC 1551 / Oshkosh) OX=83331 GN=mazF6 
+PE=3 SV=1
+Length=114
+
+ Score = 116 bits (289),  Expect = 9e-34, Method: Composition-based stats.
+ Identities = 112/114 (98%), Positives = 112/114 (98%), Gaps = 0/114 (0%)
+
+Query  1    MVISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSNDALAAMPGN  60
+            MVISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSN ALAAMPGN
+Sbjct  1    MVISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSNTALAAMPGN  60
+
+Query  61   VDLPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGLRRVLDL  114
+            V LPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGLRRVLDL
+Sbjct  61   VFLPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGLRRVLDL  114
+
+
+> sp|P64912|MAZF2_MYCBO Endoribonuclease MazF2 OS=Mycobacterium 
+bovis (strain ATCC BAA-935 / AF2122/97) OX=233413 GN=mazF2 
+PE=3 SV=1
+Length=114
+
+ Score = 116 bits (289),  Expect = 9e-34, Method: Composition-based stats.
+ Identities = 112/114 (98%), Positives = 112/114 (98%), Gaps = 0/114 (0%)
+
+Query  1    MVISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSNDALAAMPGN  60
+            MVISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSN ALAAMPGN
+Sbjct  1    MVISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSNTALAAMPGN  60
+
+Query  61   VDLPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGLRRVLDL  114
+            V LPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGLRRVLDL
+Sbjct  61   VFLPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGLRRVLDL  114
+
+
+> sp|P71650|MAZF9_MYCTU Endoribonuclease MazF9 OS=Mycobacterium 
+tuberculosis (strain ATCC 25618 / H37Rv) OX=83332 GN=mazF9 
+PE=1 SV=2
+Length=118
+
+ Score = 109 bits (271),  Expect = 7e-31, Method: Composition-based stats.
+ Identities = 37/116 (32%), Positives = 57/116 (49%), Gaps = 3/116 (3%)
+
+Query  2    VISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNAS--RLATVIAAVITSNDALAA-MP  58
+            ++ R EI+  DL P  GS+   +RP +V+ +D  NA+  RL   +  V+     +A   P
+Sbjct  1    MMRRGEIWQVDLDPARGSEANNQRPAVVVSNDRANATATRLGRGVITVVPVTSNIAKVYP  60
+
+Query  59   GNVDLPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGLRRVLDL  114
+              V L ATTT L  D       I ++    L   +G V A+ + ++D  L+  LDL
+Sbjct  61   FQVLLSATTTGLQVDCKAQAEQIRSIATERLLRPIGRVSAAELAQLDEALKLHLDL  116
+
+
+> sp|P0AE70|MAZF_ECOLI Endoribonuclease toxin MazF OS=Escherichia 
+coli (strain K12) OX=83333 GN=mazF PE=1 SV=1
+Length=111
+
+ Score = 93.7 bits (231),  Expect = 7e-25, Method: Composition-based stats.
+ Identities = 20/109 (18%), Positives = 37/109 (34%), Gaps = 8/109 (7%)
+
+Query  6    AEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSNDALAAMPGNVDLPA  65
+             ++ W D  P  GS+ A  RP +V+    YN     T +   +         P  V L  
+Sbjct  10   GDLIWVDFDPTKGSEQAGHRPAVVLSPFMYNNK---TGMCLCVPCTTQSKGYPFEVVLS-  65
+
+Query  66   TTTRLPRDSVVNVTAIVTLN-KTDLTDRVGEVPASLMHEVDRGLRRVLD  113
+                  RD V     + ++  +     + G V    +  +   +  ++ 
+Sbjct  66   ---GQERDGVALADQVKSIAWRARGATKKGTVAPEELQLIKAKINVLIG  111
+
+
+> sp|P0AE71|MAZF_ECO57 Endoribonuclease MazF OS=Escherichia coli 
+O157:H7 OX=83334 GN=mazF PE=3 SV=1
+Length=111
+
+ Score = 93.7 bits (231),  Expect = 7e-25, Method: Composition-based stats.
+ Identities = 20/109 (18%), Positives = 37/109 (34%), Gaps = 8/109 (7%)
+
+Query  6    AEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSNDALAAMPGNVDLPA  65
+             ++ W D  P  GS+ A  RP +V+    YN     T +   +         P  V L  
+Sbjct  10   GDLIWVDFDPTKGSEQAGHRPAVVLSPFMYNNK---TGMCLCVPCTTQSKGYPFEVVLS-  65
+
+Query  66   TTTRLPRDSVVNVTAIVTLN-KTDLTDRVGEVPASLMHEVDRGLRRVLD  113
+                  RD V     + ++  +     + G V    +  +   +  ++ 
+Sbjct  66   ---GQERDGVALADQVKSIAWRARGATKKGTVAPEELQLIKAKINVLIG  111
+
+
+> sp|P13976|PEMK_ECOLX Endoribonuclease PemK OS=Escherichia coli 
+OX=562 GN=pemK PE=1 SV=1
+Length=133
+
+ Score = 92.2 bits (227),  Expect = 5e-24, Method: Composition-based stats.
+ Identities = 31/112 (28%), Positives = 48/112 (43%), Gaps = 5/112 (4%)
+
+Query  3    ISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNA-SRLATVIAAVITSNDALAAMPGNV  61
+            + R EI+   L P +G +    RPVL++    +N  +RL  V+      N A  A    V
+Sbjct  24   MERGEIWLVSLDPTAGHEQQGTRPVLIVTPAAFNRVTRLPVVVPVTSGGNFARTA-GFAV  82
+
+Query  62   DLPATTTRLPRDSVVNVTAIVTLN-KTDLTDRVGEVPASLMHEVDRGLRRVL  112
+             L      +    VV      T++ K     R+  VP ++M+EV   L  +L
+Sbjct  83   SLDGV--GIRTTGVVRCDQPRTIDMKARGGKRLERVPETIMNEVLGRLSTIL  132
+
+
+> sp|P33647|CHPB_ECOLI Endoribonuclease toxin ChpB OS=Escherichia 
+coli (strain K12) OX=83333 GN=chpB PE=1 SV=1
+Length=116
+
+ Score = 90.6 bits (223),  Expect = 1e-23, Method: Composition-based stats.
+ Identities = 26/112 (23%), Positives = 42/112 (38%), Gaps = 5/112 (4%)
+
+Query  4    SRAEIYWADLGPPSGSQPAK-RRPVLVIQSDPYNASRLATVIAAVITSNDALAAMPGNVD  62
+             R +I      P SG +     RP LV+    +N  +L   + A IT     A   G   
+Sbjct  8    ERGDIVLVGFDPASGHEQQGAGRPALVLSVQAFN--QLGMTLVAPITQGGNFARYAG-FS  64
+
+Query  63   LPATTTRLPRDSVVNVTAIVTLN-KTDLTDRVGEVPASLMHEVDRGLRRVLD  113
+            +P          VV V  +  ++    L  R+G     ++ E    L+ V++
+Sbjct  65   VPLHCEEGDVHGVVLVNQVRMMDLHARLAKRIGLAADEVVEEALLRLQAVVE  116
+
+
+> sp|A0R0N4|MAZF_MYCS2 Probable endoribonuclease MazF OS=Mycolicibacterium 
+smegmatis (strain ATCC 700084 / mc(2)155) OX=246196 
+GN=mazF PE=1 SV=1
+Length=109
+
+ Score = 85.6 bits (210),  Expect = 8e-22, Method: Composition-based stats.
+ Identities = 34/112 (30%), Positives = 54/112 (48%), Gaps = 5/112 (4%)
+
+Query  3    ISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSNDALAAMPGNVD  62
+            + R +IY A      G+   K RPVL+IQ D ++A+   TV+    T++D  A +     
+Sbjct  1    MRRGDIYTA---AARGAYTGKPRPVLIIQDDRFDATASVTVV--PFTTSDTDAPLLRIRI  55
+
+Query  63   LPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGLRRVLDL  114
+             P   T L   S + +  + T+ ++ LT RVG +  + M   DR L   L +
+Sbjct  56   EPTPATGLSTVSSLMIDKVTTVPRSSLTHRVGRLAETDMVRTDRALLVFLGI  107
+
+
+> sp|P9WII1|MAZF2_MYCTU Probable endoribonuclease MazF2 OS=Mycobacterium 
+tuberculosis (strain ATCC 25618 / H37Rv) OX=83332 
+GN=mazF2 PE=1 SV=1
+Length=102
+
+ Score = 83.7 bits (205),  Expect = 4e-21, Method: Composition-based stats.
+ Identities = 32/111 (29%), Positives = 51/111 (46%), Gaps = 10/111 (9%)
+
+Query  3    ISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSNDALAAMPGNVD  62
+            + R E+++A       + P   RPVLV+  DP  A R+  V+   +T       +   ++
+Sbjct  1    MRRGELWFA-------ATPGGDRPVLVLTRDPV-ADRIGAVVVVALTRTRR--GLVSELE  50
+
+Query  63   LPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGLRRVLD  113
+            L A   R+P D VVN   I TL +T    R+  +  + +HE  + LR    
+Sbjct  51   LTAVENRVPSDCVVNFDNIHTLPRTAFRRRITRLSPARLHEACQTLRASTG  101
+
+
+> sp|P9WII0|MAZF2_MYCTO Probable endoribonuclease MazF2 OS=Mycobacterium 
+tuberculosis (strain CDC 1551 / Oshkosh) OX=83331 
+GN=mazF2 PE=3 SV=1
+Length=102
+
+ Score = 83.7 bits (205),  Expect = 4e-21, Method: Composition-based stats.
+ Identities = 32/111 (29%), Positives = 51/111 (46%), Gaps = 10/111 (9%)
+
+Query  3    ISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSNDALAAMPGNVD  62
+            + R E+++A       + P   RPVLV+  DP  A R+  V+   +T       +   ++
+Sbjct  1    MRRGELWFA-------ATPGGDRPVLVLTRDPV-ADRIGAVVVVALTRTRR--GLVSELE  50
+
+Query  63   LPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGLRRVLD  113
+            L A   R+P D VVN   I TL +T    R+  +  + +HE  + LR    
+Sbjct  51   LTAVENRVPSDCVVNFDNIHTLPRTAFRRRITRLSPARLHEACQTLRASTG  101
+
+
+> sp|P0CL62|MAZF7_MYCTU Probable endoribonuclease MazF7 OS=Mycobacterium 
+tuberculosis (strain ATCC 25618 / H37Rv) OX=83332 
+GN=mazF7 PE=1 SV=1
+Length=136
+
+ Score = 77.5 bits (189),  Expect = 2e-18, Method: Composition-based stats.
+ Identities = 23/114 (20%), Positives = 44/114 (39%), Gaps = 8/114 (7%)
+
+Query  4    SRAEIYWADLGPPSGSQPAKRRPVLVIQSD---PYNASRLATVIAAVITSNDALAAMPGN  60
+             R +++   LG     +P K RP +V+  D         L  V+    + +      P  
+Sbjct  5    RRGDLWLVSLGAARAGEPGKHRPAVVVSVDELLTGIDDELVVVVPVSSSRSRTPLRPPV-  63
+
+Query  61   VDLPATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGLRRVLDL  114
+                A +  +  DSV     +  + +  L +R+G +  + M  ++  L  +L L
+Sbjct  64   ----APSEGVAADSVAVCRGVRAVARARLVERLGALKPATMRAIENALTLILGL  113
+
+
+> sp|P95272|MAZF5_MYCTU Probable endoribonuclease MazF5 OS=Mycobacterium 
+tuberculosis (strain ATCC 25618 / H37Rv) OX=83332 
+GN=mazF5 PE=1 SV=4
+Length=109
+
+ Score = 75.6 bits (184),  Expect = 7e-18, Method: Composition-based stats.
+ Identities = 26/109 (24%), Positives = 48/109 (44%), Gaps = 9/109 (8%)
+
+Query  5    RAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSNDALAAMPGNVDLP  64
+            R E++W ++          RRPV+V+  D     RL   + A  T+      +   V L 
+Sbjct  7    RGEVWWCEMAEI------GRRPVVVLSRDAAIP-RLRRALVAPCTTTIR--GLASEVVLE  57
+
+Query  65   ATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGLRRVLD  113
+              +  +PR S VN+ ++ +++   L +R+G +    M  +   L   +D
+Sbjct  58   PGSDPIPRRSAVNLDSVESVSVAVLVNRLGRLADIRMRAICTALEVAVD  106
+
+
+> sp|P9WIH9|MAZF3_MYCTU Endoribonuclease MazF3 OS=Mycobacterium 
+tuberculosis (strain ATCC 25618 / H37Rv) OX=83332 GN=mazF3 
+PE=1 SV=1
+Length=103
+
+ Score = 74.1 bits (180),  Expect = 3e-17, Method: Composition-based stats.
+ Identities = 26/102 (25%), Positives = 42/102 (41%), Gaps = 4/102 (4%)
+
+Query  13   LGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSNDALAAMPGNVDLPATTTRLPR  72
+            + P   +Q  K RPVL++  +      L  V  A IT+      +   V + A    L +
+Sbjct  1    MRPIHIAQLDKARPVLILTREVVRPH-LTNVTVAPITTTVR--GLATEVPVDAV-NGLNQ  56
+
+Query  73   DSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGLRRVLDL  114
+             SVV+     T+   DL  ++G + AS    +   +    DL
+Sbjct  57   PSVVSCDNTQTIPVCDLGRQIGYLLASQEPALAEAIGNAFDL  98
+
+
+> sp|P9WIH8|MAZF3_MYCTO Endoribonuclease MazF3 OS=Mycobacterium 
+tuberculosis (strain CDC 1551 / Oshkosh) OX=83331 GN=mazF3 
+PE=3 SV=1
+Length=103
+
+ Score = 74.1 bits (180),  Expect = 3e-17, Method: Composition-based stats.
+ Identities = 26/102 (25%), Positives = 42/102 (41%), Gaps = 4/102 (4%)
+
+Query  13   LGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSNDALAAMPGNVDLPATTTRLPR  72
+            + P   +Q  K RPVL++  +      L  V  A IT+      +   V + A    L +
+Sbjct  1    MRPIHIAQLDKARPVLILTREVVRPH-LTNVTVAPITTTVR--GLATEVPVDAV-NGLNQ  56
+
+Query  73   DSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGLRRVLDL  114
+             SVV+     T+   DL  ++G + AS    +   +    DL
+Sbjct  57   PSVVSCDNTQTIPVCDLGRQIGYLLASQEPALAEAIGNAFDL  98
+
+
+> sp|Q6MX40|MAZF1_MYCTU Probable endoribonuclease MazF1 OS=Mycobacterium 
+tuberculosis (strain ATCC 25618 / H37Rv) OX=83332 
+GN=mazF1 PE=3 SV=1
+Length=93
+
+ Score = 59.4 bits (142),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 21/63 (33%), Positives = 31/63 (49%), Gaps = 4/63 (6%)
+
+Query  3   ISRAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRL----ATVIAAVITSNDALAAMP  58
+           + R EI+  DL P  GS    RRP +++ +D  NA+ +      V    +TSN     +P
+Sbjct  1   MLRGEIWQVDLDPARGSAANMRRPAVIVSNDRANAAAIRLDRGVVPVVPVTSNTEKVPIP  60
+
+Query  59  GNV  61
+           G V
+Sbjct  61  GVV  63
+
+
+> sp|P9WII5|MAZF4_MYCTU Endoribonuclease MazF4 OS=Mycobacterium 
+tuberculosis (strain ATCC 25618 / H37Rv) OX=83332 GN=mazF4 
+PE=1 SV=1
+Length=105
+
+ Score = 52.1 bits (123),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 27/110 (25%), Positives = 45/110 (41%), Gaps = 13/110 (12%)
+
+Query  5    RAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSNDALAAMPGNVDLP  64
+            R ++Y  DLG          +P L++ ++  N     T     +        +P  V + 
+Sbjct  6    RGQVYRCDLG-------YGAKPWLIVSNNARNRH---TADVVAVRLTTTRRTIPTWVAMG  55
+
+Query  65   ATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGLRRVLDL  114
+             +    P    VN   I TL K +L D +GEV  + M++++  L   L L
+Sbjct  56   PSD---PLTGYVNADNIETLGKDELGDYLGEVTPATMNKINTALATALGL  102
+
+
+> sp|P9WII4|MAZF4_MYCTO Endoribonuclease MazF4 OS=Mycobacterium 
+tuberculosis (strain CDC 1551 / Oshkosh) OX=83331 GN=mazF4 
+PE=3 SV=1
+Length=105
+
+ Score = 52.1 bits (123),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 27/110 (25%), Positives = 45/110 (41%), Gaps = 13/110 (12%)
+
+Query  5    RAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSNDALAAMPGNVDLP  64
+            R ++Y  DLG          +P L++ ++  N     T     +        +P  V + 
+Sbjct  6    RGQVYRCDLG-------YGAKPWLIVSNNARNRH---TADVVAVRLTTTRRTIPTWVAMG  55
+
+Query  65   ATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGLRRVLDL  114
+             +    P    VN   I TL K +L D +GEV  + M++++  L   L L
+Sbjct  56   PSD---PLTGYVNADNIETLGKDELGDYLGEVTPATMNKINTALATALGL  102
+
+
+> sp|P64860|MAZF1_MYCBO Endoribonuclease MazF1 OS=Mycobacterium 
+bovis (strain ATCC BAA-935 / AF2122/97) OX=233413 GN=mazF1 
+PE=3 SV=1
+Length=105
+
+ Score = 52.1 bits (123),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 27/110 (25%), Positives = 45/110 (41%), Gaps = 13/110 (12%)
+
+Query  5    RAEIYWADLGPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSNDALAAMPGNVDLP  64
+            R ++Y  DLG          +P L++ ++  N     T     +        +P  V + 
+Sbjct  6    RGQVYRCDLG-------YGAKPWLIVSNNARNRH---TADVVAVRLTTTRRTIPTWVAMG  55
+
+Query  65   ATTTRLPRDSVVNVTAIVTLNKTDLTDRVGEVPASLMHEVDRGLRRVLDL  114
+             +    P    VN   I TL K +L D +GEV  + M++++  L   L L
+Sbjct  56   PSD---PLTGYVNADNIETLGKDELGDYLGEVTPATMNKINTALATALGL  102
+
+
+> sp|V5QRX7|3098A_MYCTU Putative toxin Rv3098A/RVBD_3098A OS=Mycobacterium 
+tuberculosis (strain ATCC 25618 / H37Rv) OX=83332 
+GN=Rv3098A PE=1 SV=1
+Length=106
+
+ Score = 44.0 bits (102),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 23/115 (20%), Positives = 42/115 (37%), Gaps = 11/115 (10%)
+
+Query  2    VISRAEIYWADL-GPPSGSQPAKRRPVLVIQSDPYNASRLATVIAAVITSNDALAAMPGN  60
+            ++ R  +Y  D      G +   RR  +VI      +   + V     +++   A     
+Sbjct  1    MVIRGAVYRVDFGDAKRGHEQRGRRYAVVISP---GSMPWSVVTVVPTSTSAQPAVFRPE  57
+
+Query  61   VDLPATTTRLPRDSVVNVTAIVTLNKTDL-TDRVGEVPASLMHEVDRGLRRVLDL  114
+            +++  T TR        V  I T+    +  D V  +    M +V+  + R L L
+Sbjct  58   LEVMGTKTRF------LVDQIRTIGIVYVHGDPVDYLDRDQMAKVEHAVARYLGL  106
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.124    0.283    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0381    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5012042944
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 28, 2021  3:44 PM
+  Number of letters in database: 202,799,066
+  Number of sequences in database:  563,082
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

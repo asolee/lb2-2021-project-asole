@@ -1,0 +1,1341 @@
+PSIBLAST 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           563,082 sequences; 202,799,066 total letters
+
+Results from round 1
+
+
+Query= 5JFZ
+
+Length=181
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|P20605|FIC_ECOLI Probable protein adenylyltransferase Fic OS...  367     1e-130
+  sp|P20751|FIC_SALTY Probable protein adenylyltransferase Fic OS...  322     1e-112
+  sp|E6Z0R3|VBHT_BARSR Protein adenylyltransferase VbhT OS=Barton...  113     1e-28 
+  sp|P55548|Y4LH_SINFN Probable protein adenylyltransferase y4lH ...  103     8e-27 
+  sp|Q6G2A9|BEPA_BARHE Protein adenylyltransferase OS=Bartonella ...  82.0    2e-17 
+  sp|P44088|Y977_HAEIN Probable protein adenylyltransferase HI_09...  62.0    4e-11 
+  sp|Q7DDR9|NMFIC_NEIMB Protein adenylyltransferase NmFic OS=Neis...  53.9    4e-08 
+
+
+> sp|P20605|FIC_ECOLI Probable protein adenylyltransferase Fic 
+OS=Escherichia coli (strain K12) OX=83333 GN=fic PE=1 SV=1
+Length=200
+
+ Score = 367 bits (941),  Expect = 1e-130, Method: Compositional matrix adjust.
+ Identities = 180/186 (97%), Positives = 180/186 (97%), Gaps = 5/186 (3%)
+
+Query  1    DPYLYPGLDIMRNRLNIHQQQRLEQAAYEMTALRAATIELGPLVRGLPHLRTIHRQLYQD  60
+            DPYLYPGLDIMRNRLNI QQQRLEQAAYEMTALRAATIELGPLVRGLPHLRTIHRQLYQD
+Sbjct  10   DPYLYPGLDIMRNRLNIRQQQRLEQAAYEMTALRAATIELGPLVRGLPHLRTIHRQLYQD  69
+
+Query  61   IFDWAGQLREVDI-----PFCHFAYIEKEGNALMQDLEEEGYLVGLEKAKFVERLAHYYC  115
+            IFDWAGQLREVDI     PFCHFAYIEKEGNALMQDLEEEGYLVGLEKAKFVERLAHYYC
+Sbjct  70   IFDWAGQLREVDIYQGDTPFCHFAYIEKEGNALMQDLEEEGYLVGLEKAKFVERLAHYYC  129
+
+Query  116  EINVLHPFRVGSGLAQRIFFEQLAIHAGYQLSWQGIEKEAWNQANQSGAMGDLTALQMIF  175
+            EINVLHPFRVGSGLAQRIFFEQLAIHAGYQLSWQGIEKEAWNQANQSGAMGDLTALQMIF
+Sbjct  130  EINVLHPFRVGSGLAQRIFFEQLAIHAGYQLSWQGIEKEAWNQANQSGAMGDLTALQMIF  189
+
+Query  176  SKVVSE  181
+            SKVVSE
+Sbjct  190  SKVVSE  195
+
+
+> sp|P20751|FIC_SALTY Probable protein adenylyltransferase Fic 
+OS=Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720) 
+OX=99287 GN=fic PE=3 SV=2
+Length=200
+
+ Score = 322 bits (824),  Expect = 1e-112, Method: Compositional matrix adjust.
+ Identities = 157/186 (84%), Positives = 163/186 (88%), Gaps = 5/186 (3%)
+
+Query  1    DPYLYPGLDIMRNRLNIHQQQRLEQAAYEMTALRAATIELGPLVRGLPHLRTIHRQLYQD  60
+            DPYLYPGL++MRNRL IHQ QRL QAAYEMTALRAATIELGPLVRGLPHL  IHRQLYQD
+Sbjct  10   DPYLYPGLNVMRNRLGIHQAQRLAQAAYEMTALRAATIELGPLVRGLPHLCAIHRQLYQD  69
+
+Query  61   IFDWAGQLREVDI-----PFCHFAYIEKEGNALMQDLEEEGYLVGLEKAKFVERLAHYYC  115
+            IFDWAGQLREVDI      FCHFAYIEKEGNALMQDLEEEGYLVGL   KFVERLAHYYC
+Sbjct  70   IFDWAGQLREVDIYQGDTRFCHFAYIEKEGNALMQDLEEEGYLVGLAHEKFVERLAHYYC  129
+
+Query  116  EINVLHPFRVGSGLAQRIFFEQLAIHAGYQLSWQGIEKEAWNQANQSGAMGDLTALQMIF  175
+            EINVLHPFR GSGLAQRIFFEQLA+HAGY LSWQGI  E W QANQSGAMGDL+AL+ IF
+Sbjct  130  EINVLHPFRFGSGLAQRIFFEQLALHAGYALSWQGIAVETWKQANQSGAMGDLSALRAIF  189
+
+Query  176  SKVVSE  181
+             K +SE
+Sbjct  190  QKAISE  195
+
+
+> sp|E6Z0R3|VBHT_BARSR Protein adenylyltransferase VbhT OS=Bartonella 
+schoenbuchensis (strain DSM 13525 / NCTC 13165 / R1) 
+OX=687861 GN=vbhT PE=1 SV=1
+Length=478
+
+ Score = 113 bits (283),  Expect = 1e-28, Method: Compositional matrix adjust.
+ Identities = 65/190 (34%), Positives = 100/190 (53%), Gaps = 11/190 (6%)
+
+Query  1    DPYLYPGLDIMRNRLNIHQQQRLEQAAYEMTALRAATIELGPL-VRG---LPHLRTIHRQ  56
+            DPY  P   +M N L I  Q RLE+       +R  + ELG   + G   L H++ IH++
+Sbjct  9    DPYTDPETGVMYNLLGIKDQARLERVESAFAYIR--SFELGRTSISGKFDLDHMKKIHKK  66
+
+Query  57   LYQDIFDWAGQLREVDI-----PFCHFAYIEKEGNALMQDLEEEGYLVGLEKAKFVERLA  111
+            L+ D+++WAG+ R VDI      F H+  IE     + Q L  E +L GL+  +F +R  
+Sbjct  67   LFGDVYEWAGKTRLVDIVKDNSKFAHYTQIESYAPQITQQLAREQHLRGLDANEFSQRAG  126
+
+Query  112  HYYCEINVLHPFRVGSGLAQRIFFEQLAIHAGYQLSWQGIEKEAWNQANQSGAMGDLTAL  171
+            +Y  E+N LHPFR G+G   R F  QLA  AGY + W  +E++   +A+     G+   +
+Sbjct  127  YYMGELNALHPFREGNGRTLREFIWQLAREAGYHIDWDRVERQEMTRASIESYYGNSDLM  186
+
+Query  172  QMIFSKVVSE  181
+              +  + ++E
+Sbjct  187  SALIRRNLTE  196
+
+
+> sp|P55548|Y4LH_SINFN Probable protein adenylyltransferase y4lH 
+OS=Sinorhizobium fredii (strain NBRC 101917 / NGR234) OX=394 
+GN=NGR_a02670 PE=3 SV=1
+Length=192
+
+ Score = 103 bits (257),  Expect = 8e-27, Method: Compositional matrix adjust.
+ Identities = 63/186 (34%), Positives = 92/186 (49%), Gaps = 9/186 (5%)
+
+Query  1    DPYLYPGLDIMRNRLNIHQQQRLEQAAYEMTALRA-ATIELGPLVRGLPHLRTIHRQLYQ  59
+            DP  YPG  ++RNR NI  Q  L++    M   RA   +  G L     H R +HR  +Q
+Sbjct  9    DPLCYPGTHVLRNRANIPDQNELDEFEQLMFDSRAREALPDGDL--DFAHYRALHRHFFQ  66
+
+Query  60   DIFDWAGQLREVDIP-----FCHFAYIEKEGNALMQDLEEEGYLVGLE-KAKFVERLAHY  113
+            D+++WAGQ R +        FC+  YIE+E N L  +L    +L   E K  F +  + +
+Sbjct  67   DVYEWAGQTRIIRTGKGENWFCYPEYIEREANRLFAELAARDHLARTESKEAFAKGASWF  126
+
+Query  114  YCEINVLHPFRVGSGLAQRIFFEQLAIHAGYQLSWQGIEKEAWNQANQSGAMGDLTALQM  173
+              EIN +HPFR G+G  Q +F   L  +AGY+L    +E + +  A      GDL  L  
+Sbjct  127  LAEINAIHPFREGNGRTQLVFLTMLTRYAGYELDESKLEPKRFLDAMIRSFSGDLAPLAA  186
+
+Query  174  IFSKVV  179
+               +++
+Sbjct  187  EIRRMI  192
+
+
+> sp|Q6G2A9|BEPA_BARHE Protein adenylyltransferase OS=Bartonella 
+henselae (strain ATCC 49882 / DSM 28221 / Houston 1) OX=283166 
+GN=bepA PE=1 SV=1
+Length=544
+
+ Score = 82.0 bits (201),  Expect = 2e-17, Method: Composition-based stats.
+ Identities = 63/202 (31%), Positives = 95/202 (47%), Gaps = 29/202 (14%)
+
+Query  3    YLYPGLDIMRNR-----LNIHQQQRLEQAAYEMTALRAATIELGPLVRGLPHLRTIHRQL  57
+            Y+YP    ++N+     LN   ++     A  M  LR  ++   P      +L  IH+QL
+Sbjct  19   YVYPNTTTLKNKYGIKNLNAFLEKCSHDTAKAMINLREESL---PEYFDTAYLCHIHQQL  75
+
+Query  58   YQDIFDWAGQLREVDIPFCH-----------------FAY---IEKEGNALMQDLEEEGY  97
+            +++ F+WAG LR +   F                   FA    I++    L Q L E+  
+Sbjct  76   FKNTFEWAGYLRHIPFTFADGTTAAMPEMKRTGWKNAFAIGDEIQEGLQRLDQTLAEKNN  135
+
+Query  98   LVGLEKAKFVERLAHYYCEINVLHPFRVGSGLAQRIFFEQLAIHAGYQLSWQGIEKEAWN  157
+            L GL + +F       +  +N LHPFR G+G  QR+FFE LA  AG+QL++  I KE   
+Sbjct  136  LQGLTREEFNSEAIELFNSLNQLHPFREGNGRTQRLFFENLAKAAGHQLNFSLITKERMM  195
+
+Query  158  QANQSGAM-GDLTALQMIFSKV  178
+             A+ + A  GDL  +Q +F  +
+Sbjct  196  VASVAVAENGDLEPMQHLFEDI  217
+
+
+> sp|P44088|Y977_HAEIN Probable protein adenylyltransferase HI_0977 
+OS=Haemophilus influenzae (strain ATCC 51907 / DSM 11121 
+/ KW20 / Rd) OX=71421 GN=HI_0977 PE=3 SV=1
+Length=191
+
+ Score = 62.0 bits (149),  Expect = 4e-11, Method: Compositional matrix adjust.
+ Identities = 47/150 (31%), Positives = 78/150 (52%), Gaps = 11/150 (7%)
+
+Query  20   QQRLEQAAYEMTALRAATIELGPLVRGLPHLRTIHRQLYQDIFDWAGQLREVDIPFCHFA  79
+            QQ LE A     +     IE+G   +GL   + IH  L+  ++++AG++RE +I   HF 
+Sbjct  16   QQSLENAYRLFESGDIHQIEIGS-TKGL---QQIHHYLFNGLYEFAGKIREQNISKGHFR  71
+
+Query  80   YIEKEGNALMQDLEEEGYLVGLEKAKFVERLAHYYCEINVLHPFRVGSGLAQRIFFE-QL  138
+            +     NAL    E  G +  + +  F E + + Y E+N+ HPF  G+G + RI+ +  L
+Sbjct  72   F----ANALYLK-EALGKIEQMPEDTF-ENIINKYVEMNIAHPFLEGNGRSTRIWLDLVL  125
+
+Query  139  AIHAGYQLSWQGIEKEAWNQANQSGAMGDL  168
+              H G  ++WQ ++K  + QA +   + DL
+Sbjct  126  KKHLGKVVNWQNVDKTQYLQAMERSPINDL  155
+
+
+> sp|Q7DDR9|NMFIC_NEIMB Protein adenylyltransferase NmFic OS=Neisseria 
+meningitidis serogroup B (strain MC58) OX=122586 GN=NMB0255 
+PE=1 SV=1
+Length=191
+
+ Score = 53.9 bits (128),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 39/122 (32%), Positives = 66/122 (54%), Gaps = 11/122 (9%)
+
+Query  50   LRTIHRQLYQDIFDWAGQLREVDIPFCHFAYIEKEGNALMQDLEEEGYLVGLEKA--KFV  107
+            L+ IHR L+  ++D+AGQ+RE +I    F +     NA+   L+E   LV +E+   +  
+Sbjct  42   LQQIHRYLFGGLYDFAGQIREDNISKGGFRF----ANAMY--LKEA--LVKIEQMPERTF  93
+
+Query  108  ERLAHYYCEINVLHPFRVGSGLAQRIFFE-QLAIHAGYQLSWQGIEKEAWNQANQSGAMG  166
+            E +   Y E+N+ HPF  G+G + RI+ +  L  +    ++WQ + K  + QA +   + 
+Sbjct  94   EEIIAKYVEMNIAHPFLEGNGRSTRIWLDLVLKKNLKKVVNWQNVSKTLYLQAMERSPVN  153
+
+Query  167  DL  168
+            DL
+Sbjct  154  DL  155
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.139    0.423    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 10001063266
+Results from round 2
+
+
+Query= 5JFZ
+
+Length=181
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P20605|FIC_ECOLI Probable protein adenylyltransferase Fic OS...  265     2e-90
+  sp|P20751|FIC_SALTY Probable protein adenylyltransferase Fic OS...  256     5e-87
+  sp|P55548|Y4LH_SINFN Probable protein adenylyltransferase y4lH ...  214     2e-70
+  sp|E6Z0R3|VBHT_BARSR Protein adenylyltransferase VbhT OS=Barton...  222     6e-70
+  sp|Q6G2A9|BEPA_BARHE Protein adenylyltransferase OS=Bartonella ...  193     3e-58
+  sp|P44088|Y977_HAEIN Probable protein adenylyltransferase HI_09...  160     3e-49
+  sp|Q7DDR9|NMFIC_NEIMB Protein adenylyltransferase NmFic OS=Neis...  152     8e-46
+
+Sequences not found previously or not previously below threshold:
+
+  sp|Q6AY47|FICD_RAT Protein adenylyltransferase FICD OS=Rattus n...  50.5    2e-06
+  sp|Q8BIX9|FICD_MOUSE Protein adenylyltransferase FICD OS=Mus mu...  47.8    2e-05
+  sp|A0A061I403|FICD_CRIGR Protein adenylyltransferase FICD OS=Cr...  45.9    6e-05
+  sp|Q9BVA6|FICD_HUMAN Protein adenylyltransferase FICD OS=Homo s...  44.0    3e-04
+  sp|B4F6I5|FICD_XENTR Protein adenylyltransferase FICD OS=Xenopu...  42.8    6e-04
+  sp|Q6ZM51|FICD_DANRE Protein adenylyltransferase FICD OS=Danio ...  42.8    7e-04
+
+
+> sp|P20605|FIC_ECOLI Probable protein adenylyltransferase Fic 
+OS=Escherichia coli (strain K12) OX=83333 GN=fic PE=1 SV=1
+Length=200
+
+ Score = 265 bits (678),  Expect = 2e-90, Method: Composition-based stats.
+ Identities = 180/186 (97%), Positives = 180/186 (97%), Gaps = 5/186 (3%)
+
+Query  1    DPYLYPGLDIMRNRLNIHQQQRLEQAAYEMTALRAATIELGPLVRGLPHLRTIHRQLYQD  60
+            DPYLYPGLDIMRNRLNI QQQRLEQAAYEMTALRAATIELGPLVRGLPHLRTIHRQLYQD
+Sbjct  10   DPYLYPGLDIMRNRLNIRQQQRLEQAAYEMTALRAATIELGPLVRGLPHLRTIHRQLYQD  69
+
+Query  61   IFDWAGQLREVDI-----PFCHFAYIEKEGNALMQDLEEEGYLVGLEKAKFVERLAHYYC  115
+            IFDWAGQLREVDI     PFCHFAYIEKEGNALMQDLEEEGYLVGLEKAKFVERLAHYYC
+Sbjct  70   IFDWAGQLREVDIYQGDTPFCHFAYIEKEGNALMQDLEEEGYLVGLEKAKFVERLAHYYC  129
+
+Query  116  EINVLHPFRVGSGLAQRIFFEQLAIHAGYQLSWQGIEKEAWNQANQSGAMGDLTALQMIF  175
+            EINVLHPFRVGSGLAQRIFFEQLAIHAGYQLSWQGIEKEAWNQANQSGAMGDLTALQMIF
+Sbjct  130  EINVLHPFRVGSGLAQRIFFEQLAIHAGYQLSWQGIEKEAWNQANQSGAMGDLTALQMIF  189
+
+Query  176  SKVVSE  181
+            SKVVSE
+Sbjct  190  SKVVSE  195
+
+
+> sp|P20751|FIC_SALTY Probable protein adenylyltransferase Fic 
+OS=Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720) 
+OX=99287 GN=fic PE=3 SV=2
+Length=200
+
+ Score = 256 bits (655),  Expect = 5e-87, Method: Composition-based stats.
+ Identities = 157/186 (84%), Positives = 163/186 (88%), Gaps = 5/186 (3%)
+
+Query  1    DPYLYPGLDIMRNRLNIHQQQRLEQAAYEMTALRAATIELGPLVRGLPHLRTIHRQLYQD  60
+            DPYLYPGL++MRNRL IHQ QRL QAAYEMTALRAATIELGPLVRGLPHL  IHRQLYQD
+Sbjct  10   DPYLYPGLNVMRNRLGIHQAQRLAQAAYEMTALRAATIELGPLVRGLPHLCAIHRQLYQD  69
+
+Query  61   IFDWAGQLREVDI-----PFCHFAYIEKEGNALMQDLEEEGYLVGLEKAKFVERLAHYYC  115
+            IFDWAGQLREVDI      FCHFAYIEKEGNALMQDLEEEGYLVGL   KFVERLAHYYC
+Sbjct  70   IFDWAGQLREVDIYQGDTRFCHFAYIEKEGNALMQDLEEEGYLVGLAHEKFVERLAHYYC  129
+
+Query  116  EINVLHPFRVGSGLAQRIFFEQLAIHAGYQLSWQGIEKEAWNQANQSGAMGDLTALQMIF  175
+            EINVLHPFR GSGLAQRIFFEQLA+HAGY LSWQGI  E W QANQSGAMGDL+AL+ IF
+Sbjct  130  EINVLHPFRFGSGLAQRIFFEQLALHAGYALSWQGIAVETWKQANQSGAMGDLSALRAIF  189
+
+Query  176  SKVVSE  181
+             K +SE
+Sbjct  190  QKAISE  195
+
+
+> sp|P55548|Y4LH_SINFN Probable protein adenylyltransferase y4lH 
+OS=Sinorhizobium fredii (strain NBRC 101917 / NGR234) OX=394 
+GN=NGR_a02670 PE=3 SV=1
+Length=192
+
+ Score = 214 bits (545),  Expect = 2e-70, Method: Composition-based stats.
+ Identities = 63/186 (34%), Positives = 92/186 (49%), Gaps = 9/186 (5%)
+
+Query  1    DPYLYPGLDIMRNRLNIHQQQRLEQAAYEMTALRA-ATIELGPLVRGLPHLRTIHRQLYQ  59
+            DP  YPG  ++RNR NI  Q  L++    M   RA   +  G L     H R +HR  +Q
+Sbjct  9    DPLCYPGTHVLRNRANIPDQNELDEFEQLMFDSRAREALPDGDL--DFAHYRALHRHFFQ  66
+
+Query  60   DIFDWAGQLREVDIP-----FCHFAYIEKEGNALMQDLEEEGYLVGLE-KAKFVERLAHY  113
+            D+++WAGQ R +        FC+  YIE+E N L  +L    +L   E K  F +  + +
+Sbjct  67   DVYEWAGQTRIIRTGKGENWFCYPEYIEREANRLFAELAARDHLARTESKEAFAKGASWF  126
+
+Query  114  YCEINVLHPFRVGSGLAQRIFFEQLAIHAGYQLSWQGIEKEAWNQANQSGAMGDLTALQM  173
+              EIN +HPFR G+G  Q +F   L  +AGY+L    +E + +  A      GDL  L  
+Sbjct  127  LAEINAIHPFREGNGRTQLVFLTMLTRYAGYELDESKLEPKRFLDAMIRSFSGDLAPLAA  186
+
+Query  174  IFSKVV  179
+               +++
+Sbjct  187  EIRRMI  192
+
+
+> sp|E6Z0R3|VBHT_BARSR Protein adenylyltransferase VbhT OS=Bartonella 
+schoenbuchensis (strain DSM 13525 / NCTC 13165 / R1) 
+OX=687861 GN=vbhT PE=1 SV=1
+Length=478
+
+ Score = 222 bits (565),  Expect = 6e-70, Method: Composition-based stats.
+ Identities = 64/190 (34%), Positives = 98/190 (52%), Gaps = 11/190 (6%)
+
+Query  1    DPYLYPGLDIMRNRLNIHQQQRLEQAAYEMTALRAATIELGPLV----RGLPHLRTIHRQ  56
+            DPY  P   +M N L I  Q RLE+       +R  + ELG         L H++ IH++
+Sbjct  9    DPYTDPETGVMYNLLGIKDQARLERVESAFAYIR--SFELGRTSISGKFDLDHMKKIHKK  66
+
+Query  57   LYQDIFDWAGQLREVDI-----PFCHFAYIEKEGNALMQDLEEEGYLVGLEKAKFVERLA  111
+            L+ D+++WAG+ R VDI      F H+  IE     + Q L  E +L GL+  +F +R  
+Sbjct  67   LFGDVYEWAGKTRLVDIVKDNSKFAHYTQIESYAPQITQQLAREQHLRGLDANEFSQRAG  126
+
+Query  112  HYYCEINVLHPFRVGSGLAQRIFFEQLAIHAGYQLSWQGIEKEAWNQANQSGAMGDLTAL  171
+            +Y  E+N LHPFR G+G   R F  QLA  AGY + W  +E++   +A+     G+   +
+Sbjct  127  YYMGELNALHPFREGNGRTLREFIWQLAREAGYHIDWDRVERQEMTRASIESYYGNSDLM  186
+
+Query  172  QMIFSKVVSE  181
+              +  + ++E
+Sbjct  187  SALIRRNLTE  196
+
+
+> sp|Q6G2A9|BEPA_BARHE Protein adenylyltransferase OS=Bartonella 
+henselae (strain ATCC 49882 / DSM 28221 / Houston 1) OX=283166 
+GN=bepA PE=1 SV=1
+Length=544
+
+ Score = 193 bits (491),  Expect = 3e-58, Method: Composition-based stats.
+ Identities = 63/202 (31%), Positives = 95/202 (47%), Gaps = 29/202 (14%)
+
+Query  3    YLYPGLDIMRNR-----LNIHQQQRLEQAAYEMTALRAATIELGPLVRGLPHLRTIHRQL  57
+            Y+YP    ++N+     LN   ++     A  M  LR  ++   P      +L  IH+QL
+Sbjct  19   YVYPNTTTLKNKYGIKNLNAFLEKCSHDTAKAMINLREESL---PEYFDTAYLCHIHQQL  75
+
+Query  58   YQDIFDWAGQLREVDIPFCH-----------------FAY---IEKEGNALMQDLEEEGY  97
+            +++ F+WAG LR +   F                   FA    I++    L Q L E+  
+Sbjct  76   FKNTFEWAGYLRHIPFTFADGTTAAMPEMKRTGWKNAFAIGDEIQEGLQRLDQTLAEKNN  135
+
+Query  98   LVGLEKAKFVERLAHYYCEINVLHPFRVGSGLAQRIFFEQLAIHAGYQLSWQGIEKEAWN  157
+            L GL + +F       +  +N LHPFR G+G  QR+FFE LA  AG+QL++  I KE   
+Sbjct  136  LQGLTREEFNSEAIELFNSLNQLHPFREGNGRTQRLFFENLAKAAGHQLNFSLITKERMM  195
+
+Query  158  QANQSGAM-GDLTALQMIFSKV  178
+             A+ + A  GDL  +Q +F  +
+Sbjct  196  VASVAVAENGDLEPMQHLFEDI  217
+
+
+> sp|P44088|Y977_HAEIN Probable protein adenylyltransferase HI_0977 
+OS=Haemophilus influenzae (strain ATCC 51907 / DSM 11121 
+/ KW20 / Rd) OX=71421 GN=HI_0977 PE=3 SV=1
+Length=191
+
+ Score = 160 bits (405),  Expect = 3e-49, Method: Composition-based stats.
+ Identities = 46/164 (28%), Positives = 82/164 (50%), Gaps = 12/164 (7%)
+
+Query  19   QQQRLEQAAYEMTALRAATIELGPLVRGLPHLRTIHRQLYQDIFDWAGQLREVDIPFCHF  78
+             QQ LE A     +     IE+G        L+ IH  L+  ++++AG++RE +I   HF
+Sbjct  15   DQQSLENAYRLFESGDIHQIEIGST----KGLQQIHHYLFNGLYEFAGKIREQNISKGHF  70
+
+Query  79   AYIEKEGNALMQDLEEEGYLVGLEKAKFVERLAHYYCEINVLHPFRVGSGLAQRIFFE-Q  137
+             +     NAL    E  G +  + +  F E + + Y E+N+ HPF  G+G + RI+ +  
+Sbjct  71   RF----ANALYLK-EALGKIEQMPEDTF-ENIINKYVEMNIAHPFLEGNGRSTRIWLDLV  124
+
+Query  138  LAIHAGYQLSWQGIEKEAWNQANQSGAMGDLTALQMIFSKVVSE  181
+            L  H G  ++WQ ++K  + QA +   + DL  ++ +    +++
+Sbjct  125  LKKHLGKVVNWQNVDKTQYLQAMERSPINDLE-IRFLLQANLTD  167
+
+
+> sp|Q7DDR9|NMFIC_NEIMB Protein adenylyltransferase NmFic OS=Neisseria 
+meningitidis serogroup B (strain MC58) OX=122586 GN=NMB0255 
+PE=1 SV=1
+Length=191
+
+ Score = 152 bits (383),  Expect = 8e-46, Method: Composition-based stats.
+ Identities = 44/177 (25%), Positives = 81/177 (46%), Gaps = 12/177 (7%)
+
+Query  6    PGLDIMRNRLNIHQQQRLEQAAYEMTALRAATIELGPLVRGLPHLRTIHRQLYQDIFDWA  65
+            P  + +   +    +Q L  A     +     IE+G        L+ IHR L+  ++D+A
+Sbjct  2    PSENPIGKTMKSIDEQSLHNARRLFESGDIDRIEVGTT----AGLQQIHRYLFGGLYDFA  57
+
+Query  66   GQLREVDIPFCHFAYIEKEGNALMQDLEEEGYLVGLEKAKFVERLAHYYCEINVLHPFRV  125
+            GQ+RE +I    F +     NA+    E    +  + +  F E +   Y E+N+ HPF  
+Sbjct  58   GQIREDNISKGGFRF----ANAMYLK-EALVKIEQMPERTF-EEIIAKYVEMNIAHPFLE  111
+
+Query  126  GSGLAQRIFFE-QLAIHAGYQLSWQGIEKEAWNQANQSGAMGDLTALQMIFSKVVSE  181
+            G+G + RI+ +  L  +    ++WQ + K  + QA +   + DL  L+ +    +++
+Sbjct  112  GNGRSTRIWLDLVLKKNLKKVVNWQNVSKTLYLQAMERSPVNDLE-LRFLLKDNLTD  167
+
+
+> sp|Q6AY47|FICD_RAT Protein adenylyltransferase FICD OS=Rattus 
+norvegicus OX=10116 GN=Ficd PE=2 SV=1
+Length=458
+
+ Score = 50.5 bits (119),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 34/183 (19%), Positives = 68/183 (37%), Gaps = 21/183 (11%)
+
+Query  9    DIMRNRLNIH-----QQQRLEQAAYEMTALRAATIE-LGPLVRGLPHLRTIHRQLYQ--D  60
+             I+  R  +      +Q  +      M  + +  +  +G +   + H+  IHR++    D
+Sbjct  245  HILETRYAVPGKSLEEQNEVIGMHAAMKYINSTLVSRIGSVT--IDHMLEIHRRVLGYVD  302
+
+Query  61   IFDWAGQLREVDIPFCH-----FAYIEKEGNALMQDLEEEGYLVGLEKAKFVERLAHYYC  115
+              + AG+ R   +   H        +EK+     Q L  E  +  L   +F     +   
+Sbjct  303  PVE-AGRFRRTQVLVGHHIPPHPRDVEKQMQEFTQWLNSEDAM-NLHPVEFAALAHYKLV  360
+
+Query  116  EINVLHPFRVGSGLAQRIFFEQLAIHAGY-QLSWQGIEKEAWNQANQSGAMGDLTALQMI  174
+             I   HPF  G+G   R+    + + AGY  ++ +  ++  +    +    GD+      
+Sbjct  361  YI---HPFIDGNGRTSRLLMNLILMQAGYPPITIRKEQRSEYYHVLEVANEGDVRPFIRF  417
+
+Query  175  FSK  177
+             +K
+Sbjct  418  IAK  420
+
+
+> sp|Q8BIX9|FICD_MOUSE Protein adenylyltransferase FICD OS=Mus 
+musculus OX=10090 GN=Ficd PE=2 SV=1
+Length=458
+
+ Score = 47.8 bits (112),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 33/183 (18%), Positives = 66/183 (36%), Gaps = 21/183 (11%)
+
+Query  9    DIMRNRLNIH-----QQQRLEQAAYEMTALRAATIE-LGPLVRGLPHLRTIHRQLYQ--D  60
+             I+  R  +      +Q  +      M  +    +  +G +   +  +  IHR++    D
+Sbjct  245  HILETRYAVPGKSLEEQNEVIGMHAAMKYINTTLVSRIGSVT--MDDMLEIHRRVLGYVD  302
+
+Query  61   IFDWAGQLREVDIPFCH-----FAYIEKEGNALMQDLEEEGYLVGLEKAKFVERLAHYYC  115
+              + AG+ R   +   H        +EK+     Q L  E  +  L   +F     +   
+Sbjct  303  PVE-AGRFRRTQVLVGHHIPPHPRDVEKQMQEFTQWLNSEDAM-NLHPVEFAALAHYKLV  360
+
+Query  116  EINVLHPFRVGSGLAQRIFFEQLAIHAGY-QLSWQGIEKEAWNQANQSGAMGDLTALQMI  174
+             I   HPF  G+G   R+    + + AGY  ++ +  ++  +    +    GD+      
+Sbjct  361  YI---HPFIDGNGRTSRLLMNLILMQAGYPPITIRKEQRSEYYHVLEVANEGDVRPFIRF  417
+
+Query  175  FSK  177
+             +K
+Sbjct  418  IAK  420
+
+
+> sp|A0A061I403|FICD_CRIGR Protein adenylyltransferase FICD OS=Cricetulus 
+griseus OX=10029 GN=FICD PE=1 SV=1
+Length=455
+
+ Score = 45.9 bits (107),  Expect = 6e-05, Method: Composition-based stats.
+ Identities = 33/183 (18%), Positives = 65/183 (36%), Gaps = 21/183 (11%)
+
+Query  9    DIMRNRLNIH-----QQQRLEQAAYEMTALRAATIE-LGPLVRGLPHLRTIHRQLYQ--D  60
+             I+  R  +      +Q  +      M  +    +  +G +   +  +  IHR++    D
+Sbjct  242  HILETRYAVPGKSLEEQNEVIGMHAAMKYINTTLVSRIGSVT--IDDMLEIHRRVLGYVD  299
+
+Query  61   IFDWAGQLREVDIPFCH-----FAYIEKEGNALMQDLEEEGYLVGLEKAKFVERLAHYYC  115
+              + AG+ R   +   H        +EK+     Q L  E  +  L   +F     +   
+Sbjct  300  PVE-AGRFRRTQVLVGHHIPPHPRDVEKQMQEFTQWLNSEDAM-NLHPVEFAALAHYKLV  357
+
+Query  116  EINVLHPFRVGSGLAQRIFFEQLAIHAGY-QLSWQGIEKEAWNQANQSGAMGDLTALQMI  174
+             I   HPF  G+G   R+    + + AGY  ++    ++  +    +    GD+      
+Sbjct  358  YI---HPFIDGNGRTSRLLMNLILMQAGYPPITILKEQRSEYYHVLEVANEGDVRPFIRF  414
+
+Query  175  FSK  177
+             +K
+Sbjct  415  IAK  417
+
+
+> sp|Q9BVA6|FICD_HUMAN Protein adenylyltransferase FICD OS=Homo 
+sapiens OX=9606 GN=FICD PE=1 SV=2
+Length=458
+
+ Score = 44.0 bits (102),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 28/134 (21%), Positives = 53/134 (40%), Gaps = 13/134 (10%)
+
+Query  52   TIHRQLYQ--DIFDWAGQLREVDIPFCH-----FAYIEKEGNALMQDLEEEGYLVGLEKA  104
+             IHR++    D  + AG+ R   +   H        +EK+    +Q L  E  +  L   
+Sbjct  292  EIHRRVLGYVDPVE-AGRFRTTQVLVGHHIPPHPQDVEKQMQEFVQWLNSEEAM-NLHPV  349
+
+Query  105  KFVERLAHYYCEINVLHPFRVGSGLAQRIFFEQLAIHAGY-QLSWQGIEKEAWNQANQSG  163
+            +F     +    I   HPF  G+G   R+    + + AGY  ++ +  ++  +    ++ 
+Sbjct  350  EFAALAHYKLVYI---HPFIDGNGRTSRLLMNLILMQAGYPPITIRKEQRSDYYHVLEAA  406
+
+Query  164  AMGDLTALQMIFSK  177
+              GD+       +K
+Sbjct  407  NEGDVRPFIRFIAK  420
+
+
+> sp|B4F6I5|FICD_XENTR Protein adenylyltransferase FICD OS=Xenopus 
+tropicalis OX=8364 GN=ficd PE=2 SV=1
+Length=446
+
+ Score = 42.8 bits (99),  Expect = 6e-04, Method: Composition-based stats.
+ Identities = 32/171 (19%), Positives = 66/171 (39%), Gaps = 16/171 (9%)
+
+Query  16   NIHQQQRLEQAAYEMTALRAATIE-LGPLVRGLPHLRTIHRQLYQ--DIFDWAGQLREVD  72
+            ++ +Q  +      M  + A  +  +G +   + ++  IHR++    D  + AG+ R   
+Sbjct  245  SLEEQNEVIGMHAAMKYVNATLVSRIGSVT--IDNILEIHRRILGYVDPVE-AGRFRRNQ  301
+
+Query  73   IPFCH-----FAYIEKEGNALMQDLEEEGYLVGLEKAKFVERLAHYYCEINVLHPFRVGS  127
+            +   H        +EK     +Q L  E  +  L   +F     +    I   HPF  G+
+Sbjct  302  VFVGHHIPPHPRDVEKLMQEFVQWLNSEEAM-SLHPVEFAALAHYKLVYI---HPFVDGN  357
+
+Query  128  GLAQRIFFEQLAIHAGY-QLSWQGIEKEAWNQANQSGAMGDLTALQMIFSK  177
+            G   R+    + + AGY  ++ +  ++  +    +    GD+       +K
+Sbjct  358  GRTSRLLMNLILMQAGYPPITVRKEQRSEYYHVLEIANEGDVRPFIRFIAK  408
+
+
+> sp|Q6ZM51|FICD_DANRE Protein adenylyltransferase FICD OS=Danio 
+rerio OX=7955 GN=ficd PE=2 SV=1
+Length=449
+
+ Score = 42.8 bits (99),  Expect = 7e-04, Method: Composition-based stats.
+ Identities = 36/181 (20%), Positives = 66/181 (36%), Gaps = 17/181 (9%)
+
+Query  9    DIMRNRLNIHQQQRLEQAAYEMTALRAATIELGPLVRG----LPHLRTIHRQL--YQDIF  62
+             I+  R  +  +   EQ       +    I    L R     +  +  IHR++  Y D  
+Sbjct  235  HIIETRYAVPGKSLQEQNEAIGVDVAMKYINTTLLSRDGAITVNDILEIHRRVLGYADPV  294
+
+Query  63   DWAGQLREVDIPFCH-----FAYIEKEGNALMQDLEEEGYLVGLEKAKFVERLAHYYCEI  117
+            + AG+ R   +   H        ++K    L+Q L  E  L  L   +F     +     
+Sbjct  295  E-AGRFRVNQVFVGHHIPPHPQDLDKHMQELVQWLNSEETL-HLHPVEFAALAHYKLV--  350
+
+Query  118  NVLHPFRVGSGLAQRIFFEQLAIHAGY-QLSWQGIEKEAWNQANQSGAMGDLTALQMIFS  176
+              +HPF  G+G   R+    + + A Y  ++ +  ++  +  A  +   GD+       +
+Sbjct  351  -YVHPFVDGNGRTSRLLMNLILMQASYPPITIRKEQRAEYYAALDTANEGDVRPFIRFIA  409
+
+Query  177  K  177
+            K
+Sbjct  410  K  410
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.127    0.325    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0387    0.140     1.90     42.6     43.6 
+
+Effective search space used: 10001063266
+Results from round 3
+
+
+Query= 5JFZ
+
+Length=181
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P20605|FIC_ECOLI Probable protein adenylyltransferase Fic OS...  242     3e-81
+  sp|P20751|FIC_SALTY Probable protein adenylyltransferase Fic OS...  235     1e-78
+  sp|E6Z0R3|VBHT_BARSR Protein adenylyltransferase VbhT OS=Barton...  210     3e-65
+  sp|P55548|Y4LH_SINFN Probable protein adenylyltransferase y4lH ...  198     4e-64
+  sp|Q6G2A9|BEPA_BARHE Protein adenylyltransferase OS=Bartonella ...  175     3e-51
+  sp|Q7DDR9|NMFIC_NEIMB Protein adenylyltransferase NmFic OS=Neis...  166     3e-51
+  sp|Q6AY47|FICD_RAT Protein adenylyltransferase FICD OS=Rattus n...  169     7e-50
+  sp|Q8BIX9|FICD_MOUSE Protein adenylyltransferase FICD OS=Mus mu...  168     2e-49
+  sp|Q6ZM51|FICD_DANRE Protein adenylyltransferase FICD OS=Danio ...  167     6e-49
+  sp|A0A061I403|FICD_CRIGR Protein adenylyltransferase FICD OS=Cr...  166     2e-48
+  sp|Q9BVA6|FICD_HUMAN Protein adenylyltransferase FICD OS=Homo s...  165     3e-48
+  sp|P44088|Y977_HAEIN Probable protein adenylyltransferase HI_09...  158     3e-48
+  sp|B4F6I5|FICD_XENTR Protein adenylyltransferase FICD OS=Xenopu...  164     6e-48
+
+Sequences not found previously or not previously below threshold:
+
+  sp|B0W429|FICD_CULQU Protein adenylyltransferase Fic OS=Culex q...  114     8e-29
+  sp|B3MK83|FICD_DROAN Protein adenylyltransferase Fic OS=Drosoph...  114     8e-29
+  sp|B4KFW6|FICD_DROMO Protein adenylyltransferase Fic OS=Drosoph...  114     1e-28
+  sp|Q17A75|FICD_AEDAE Protein adenylyltransferase Fic OS=Aedes a...  113     2e-28
+  sp|B3N5J3|FICD_DROER Protein adenylyltransferase Fic OS=Drosoph...  113     2e-28
+  sp|B4JBN5|FICD_DROGR Protein adenylyltransferase Fic OS=Drosoph...  112     2e-28
+  sp|B4Q4M7|FICD_DROSI Protein adenylyltransferase Fic OS=Drosoph...  112     3e-28
+  sp|B4I1V5|FICD_DROSE Protein adenylyltransferase Fic OS=Drosoph...  112     3e-28
+  sp|Q8SWV6|FICD_DROME Protein adenylyltransferase Fic OS=Drosoph...  112     4e-28
+  sp|B4P0E1|FICD_DROYA Protein adenylyltransferase Fic OS=Drosoph...  112     5e-28
+  sp|B4MUQ2|FICD_DROWI Protein adenylyltransferase Fic OS=Drosoph...  111     6e-28
+  sp|Q29JP8|FICD_DROPS Protein adenylyltransferase Fic OS=Drosoph...  111     8e-28
+  sp|B4GJC1|FICD_DROPE Protein adenylyltransferase Fic OS=Drosoph...  111     8e-28
+  sp|B4LQT7|FICD_DROVI Protein adenylyltransferase Fic OS=Drosoph...  111     8e-28
+  sp|A7SVT1|FICD_NEMVE Protein adenylyltransferase Fic OS=Nematos...  108     8e-27
+  sp|Q23544|FICD_CAEEL Protein adenylyltransferase fic-1 OS=Caeno...  104     3e-25
+  sp|A8X181|FICD_CAEBR Protein adenylyltransferase fic-1 OS=Caeno...  102     1e-24
+  sp|Q54RJ6|Y5363_DICDI Fido domain-containing protein DDB_G02831...  45.5    2e-05
+  sp|O66426|YZ38_AQUAE Probable protein adenylyltransferase aq_aa...  44.0    3e-04
+
+
+> sp|P20605|FIC_ECOLI Probable protein adenylyltransferase Fic 
+OS=Escherichia coli (strain K12) OX=83333 GN=fic PE=1 SV=1
+Length=200
+
+ Score = 242 bits (617),  Expect = 3e-81, Method: Composition-based stats.
+ Identities = 180/186 (97%), Positives = 180/186 (97%), Gaps = 5/186 (3%)
+
+Query  1    DPYLYPGLDIMRNRLNIHQQQRLEQAAYEMTALRAATIELGPLVRGLPHLRTIHRQLYQD  60
+            DPYLYPGLDIMRNRLNI QQQRLEQAAYEMTALRAATIELGPLVRGLPHLRTIHRQLYQD
+Sbjct  10   DPYLYPGLDIMRNRLNIRQQQRLEQAAYEMTALRAATIELGPLVRGLPHLRTIHRQLYQD  69
+
+Query  61   IFDWAGQLREVDI-----PFCHFAYIEKEGNALMQDLEEEGYLVGLEKAKFVERLAHYYC  115
+            IFDWAGQLREVDI     PFCHFAYIEKEGNALMQDLEEEGYLVGLEKAKFVERLAHYYC
+Sbjct  70   IFDWAGQLREVDIYQGDTPFCHFAYIEKEGNALMQDLEEEGYLVGLEKAKFVERLAHYYC  129
+
+Query  116  EINVLHPFRVGSGLAQRIFFEQLAIHAGYQLSWQGIEKEAWNQANQSGAMGDLTALQMIF  175
+            EINVLHPFRVGSGLAQRIFFEQLAIHAGYQLSWQGIEKEAWNQANQSGAMGDLTALQMIF
+Sbjct  130  EINVLHPFRVGSGLAQRIFFEQLAIHAGYQLSWQGIEKEAWNQANQSGAMGDLTALQMIF  189
+
+Query  176  SKVVSE  181
+            SKVVSE
+Sbjct  190  SKVVSE  195
+
+
+> sp|P20751|FIC_SALTY Probable protein adenylyltransferase Fic 
+OS=Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720) 
+OX=99287 GN=fic PE=3 SV=2
+Length=200
+
+ Score = 235 bits (600),  Expect = 1e-78, Method: Composition-based stats.
+ Identities = 157/186 (84%), Positives = 163/186 (88%), Gaps = 5/186 (3%)
+
+Query  1    DPYLYPGLDIMRNRLNIHQQQRLEQAAYEMTALRAATIELGPLVRGLPHLRTIHRQLYQD  60
+            DPYLYPGL++MRNRL IHQ QRL QAAYEMTALRAATIELGPLVRGLPHL  IHRQLYQD
+Sbjct  10   DPYLYPGLNVMRNRLGIHQAQRLAQAAYEMTALRAATIELGPLVRGLPHLCAIHRQLYQD  69
+
+Query  61   IFDWAGQLREVDI-----PFCHFAYIEKEGNALMQDLEEEGYLVGLEKAKFVERLAHYYC  115
+            IFDWAGQLREVDI      FCHFAYIEKEGNALMQDLEEEGYLVGL   KFVERLAHYYC
+Sbjct  70   IFDWAGQLREVDIYQGDTRFCHFAYIEKEGNALMQDLEEEGYLVGLAHEKFVERLAHYYC  129
+
+Query  116  EINVLHPFRVGSGLAQRIFFEQLAIHAGYQLSWQGIEKEAWNQANQSGAMGDLTALQMIF  175
+            EINVLHPFR GSGLAQRIFFEQLA+HAGY LSWQGI  E W QANQSGAMGDL+AL+ IF
+Sbjct  130  EINVLHPFRFGSGLAQRIFFEQLALHAGYALSWQGIAVETWKQANQSGAMGDLSALRAIF  189
+
+Query  176  SKVVSE  181
+             K +SE
+Sbjct  190  QKAISE  195
+
+
+> sp|E6Z0R3|VBHT_BARSR Protein adenylyltransferase VbhT OS=Bartonella 
+schoenbuchensis (strain DSM 13525 / NCTC 13165 / R1) 
+OX=687861 GN=vbhT PE=1 SV=1
+Length=478
+
+ Score = 210 bits (534),  Expect = 3e-65, Method: Composition-based stats.
+ Identities = 64/190 (34%), Positives = 98/190 (52%), Gaps = 11/190 (6%)
+
+Query  1    DPYLYPGLDIMRNRLNIHQQQRLEQAAYEMTALRAATIELGPLV----RGLPHLRTIHRQ  56
+            DPY  P   +M N L I  Q RLE+       +R  + ELG         L H++ IH++
+Sbjct  9    DPYTDPETGVMYNLLGIKDQARLERVESAFAYIR--SFELGRTSISGKFDLDHMKKIHKK  66
+
+Query  57   LYQDIFDWAGQLREVDI-----PFCHFAYIEKEGNALMQDLEEEGYLVGLEKAKFVERLA  111
+            L+ D+++WAG+ R VDI      F H+  IE     + Q L  E +L GL+  +F +R  
+Sbjct  67   LFGDVYEWAGKTRLVDIVKDNSKFAHYTQIESYAPQITQQLAREQHLRGLDANEFSQRAG  126
+
+Query  112  HYYCEINVLHPFRVGSGLAQRIFFEQLAIHAGYQLSWQGIEKEAWNQANQSGAMGDLTAL  171
+            +Y  E+N LHPFR G+G   R F  QLA  AGY + W  +E++   +A+     G+   +
+Sbjct  127  YYMGELNALHPFREGNGRTLREFIWQLAREAGYHIDWDRVERQEMTRASIESYYGNSDLM  186
+
+Query  172  QMIFSKVVSE  181
+              +  + ++E
+Sbjct  187  SALIRRNLTE  196
+
+
+> sp|P55548|Y4LH_SINFN Probable protein adenylyltransferase y4lH 
+OS=Sinorhizobium fredii (strain NBRC 101917 / NGR234) OX=394 
+GN=NGR_a02670 PE=3 SV=1
+Length=192
+
+ Score = 198 bits (503),  Expect = 4e-64, Method: Composition-based stats.
+ Identities = 63/186 (34%), Positives = 92/186 (49%), Gaps = 9/186 (5%)
+
+Query  1    DPYLYPGLDIMRNRLNIHQQQRLEQAAYEMTALRA-ATIELGPLVRGLPHLRTIHRQLYQ  59
+            DP  YPG  ++RNR NI  Q  L++    M   RA   +  G L     H R +HR  +Q
+Sbjct  9    DPLCYPGTHVLRNRANIPDQNELDEFEQLMFDSRAREALPDGDL--DFAHYRALHRHFFQ  66
+
+Query  60   DIFDWAGQLREVDIP-----FCHFAYIEKEGNALMQDLEEEGYLVGLE-KAKFVERLAHY  113
+            D+++WAGQ R +        FC+  YIE+E N L  +L    +L   E K  F +  + +
+Sbjct  67   DVYEWAGQTRIIRTGKGENWFCYPEYIEREANRLFAELAARDHLARTESKEAFAKGASWF  126
+
+Query  114  YCEINVLHPFRVGSGLAQRIFFEQLAIHAGYQLSWQGIEKEAWNQANQSGAMGDLTALQM  173
+              EIN +HPFR G+G  Q +F   L  +AGY+L    +E + +  A      GDL  L  
+Sbjct  127  LAEINAIHPFREGNGRTQLVFLTMLTRYAGYELDESKLEPKRFLDAMIRSFSGDLAPLAA  186
+
+Query  174  IFSKVV  179
+               +++
+Sbjct  187  EIRRMI  192
+
+
+> sp|Q6G2A9|BEPA_BARHE Protein adenylyltransferase OS=Bartonella 
+henselae (strain ATCC 49882 / DSM 28221 / Houston 1) OX=283166 
+GN=bepA PE=1 SV=1
+Length=544
+
+ Score = 175 bits (443),  Expect = 3e-51, Method: Composition-based stats.
+ Identities = 60/202 (30%), Positives = 92/202 (46%), Gaps = 29/202 (14%)
+
+Query  3    YLYPGLDIMRNRLNIHQ-----QQRLEQAAYEMTALRAATIELGPLVRGLPHLRTIHRQL  57
+            Y+YP    ++N+  I       ++     A  M  LR  ++   P      +L  IH+QL
+Sbjct  19   YVYPNTTTLKNKYGIKNLNAFLEKCSHDTAKAMINLREESL---PEYFDTAYLCHIHQQL  75
+
+Query  58   YQDIFDWAGQLREVDIPFCHFA--------------------YIEKEGNALMQDLEEEGY  97
+            +++ F+WAG LR +   F                         I++    L Q L E+  
+Sbjct  76   FKNTFEWAGYLRHIPFTFADGTTAAMPEMKRTGWKNAFAIGDEIQEGLQRLDQTLAEKNN  135
+
+Query  98   LVGLEKAKFVERLAHYYCEINVLHPFRVGSGLAQRIFFEQLAIHAGYQLSWQGIEKEAWN  157
+            L GL + +F       +  +N LHPFR G+G  QR+FFE LA  AG+QL++  I KE   
+Sbjct  136  LQGLTREEFNSEAIELFNSLNQLHPFREGNGRTQRLFFENLAKAAGHQLNFSLITKERMM  195
+
+Query  158  QANQSGAM-GDLTALQMIFSKV  178
+             A+ + A  GDL  +Q +F  +
+Sbjct  196  VASVAVAENGDLEPMQHLFEDI  217
+
+
+> sp|Q7DDR9|NMFIC_NEIMB Protein adenylyltransferase NmFic OS=Neisseria 
+meningitidis serogroup B (strain MC58) OX=122586 GN=NMB0255 
+PE=1 SV=1
+Length=191
+
+ Score = 166 bits (419),  Expect = 3e-51, Method: Composition-based stats.
+ Identities = 44/177 (25%), Positives = 81/177 (46%), Gaps = 12/177 (7%)
+
+Query  6    PGLDIMRNRLNIHQQQRLEQAAYEMTALRAATIELGPLVRGLPHLRTIHRQLYQDIFDWA  65
+            P  + +   +    +Q L  A     +     IE+G        L+ IHR L+  ++D+A
+Sbjct  2    PSENPIGKTMKSIDEQSLHNARRLFESGDIDRIEVGTT----AGLQQIHRYLFGGLYDFA  57
+
+Query  66   GQLREVDIPFCHFAYIEKEGNALMQDLEEEGYLVGLEKAKFVERLAHYYCEINVLHPFRV  125
+            GQ+RE +I    F +     NA+    E    +  + +  F E +   Y E+N+ HPF  
+Sbjct  58   GQIREDNISKGGFRF----ANAMYLK-EALVKIEQMPERTF-EEIIAKYVEMNIAHPFLE  111
+
+Query  126  GSGLAQRIFFEQ-LAIHAGYQLSWQGIEKEAWNQANQSGAMGDLTALQMIFSKVVSE  181
+            G+G + RI+ +  L  +    ++WQ + K  + QA +   + DL  L+ +    +++
+Sbjct  112  GNGRSTRIWLDLVLKKNLKKVVNWQNVSKTLYLQAMERSPVNDLE-LRFLLKDNLTD  167
+
+
+> sp|Q6AY47|FICD_RAT Protein adenylyltransferase FICD OS=Rattus 
+norvegicus OX=10116 GN=Ficd PE=2 SV=1
+Length=458
+
+ Score = 169 bits (429),  Expect = 7e-50, Method: Composition-based stats.
+ Identities = 34/183 (19%), Positives = 68/183 (37%), Gaps = 21/183 (11%)
+
+Query  9    DIMRNRLNIH-----QQQRLEQAAYEMTALRAATIE-LGPLVRGLPHLRTIHRQLYQ--D  60
+             I+  R  +      +Q  +      M  + +  +  +G +   + H+  IHR++    D
+Sbjct  245  HILETRYAVPGKSLEEQNEVIGMHAAMKYINSTLVSRIGSVT--IDHMLEIHRRVLGYVD  302
+
+Query  61   IFDWAGQLREVDIPFCH-----FAYIEKEGNALMQDLEEEGYLVGLEKAKFVERLAHYYC  115
+              + AG+ R   +   H        +EK+     Q L  E  +  L   +F     +   
+Sbjct  303  PVE-AGRFRRTQVLVGHHIPPHPRDVEKQMQEFTQWLNSEDAM-NLHPVEFAALAHYKLV  360
+
+Query  116  EINVLHPFRVGSGLAQRIFFEQLAIHAGY-QLSWQGIEKEAWNQANQSGAMGDLTALQMI  174
+             I   HPF  G+G   R+    + + AGY  ++ +  ++  +    +    GD+      
+Sbjct  361  YI---HPFIDGNGRTSRLLMNLILMQAGYPPITIRKEQRSEYYHVLEVANEGDVRPFIRF  417
+
+Query  175  FSK  177
+             +K
+Sbjct  418  IAK  420
+
+
+> sp|Q8BIX9|FICD_MOUSE Protein adenylyltransferase FICD OS=Mus 
+musculus OX=10090 GN=Ficd PE=2 SV=1
+Length=458
+
+ Score = 168 bits (426),  Expect = 2e-49, Method: Composition-based stats.
+ Identities = 33/183 (18%), Positives = 66/183 (36%), Gaps = 21/183 (11%)
+
+Query  9    DIMRNRLNIH-----QQQRLEQAAYEMTALRAATIE-LGPLVRGLPHLRTIHRQLYQ--D  60
+             I+  R  +      +Q  +      M  +    +  +G +   +  +  IHR++    D
+Sbjct  245  HILETRYAVPGKSLEEQNEVIGMHAAMKYINTTLVSRIGSVT--MDDMLEIHRRVLGYVD  302
+
+Query  61   IFDWAGQLREVDIPFCH-----FAYIEKEGNALMQDLEEEGYLVGLEKAKFVERLAHYYC  115
+              + AG+ R   +   H        +EK+     Q L  E  +  L   +F     +   
+Sbjct  303  PVE-AGRFRRTQVLVGHHIPPHPRDVEKQMQEFTQWLNSEDAM-NLHPVEFAALAHYKLV  360
+
+Query  116  EINVLHPFRVGSGLAQRIFFEQLAIHAGY-QLSWQGIEKEAWNQANQSGAMGDLTALQMI  174
+             I   HPF  G+G   R+    + + AGY  ++ +  ++  +    +    GD+      
+Sbjct  361  YI---HPFIDGNGRTSRLLMNLILMQAGYPPITIRKEQRSEYYHVLEVANEGDVRPFIRF  417
+
+Query  175  FSK  177
+             +K
+Sbjct  418  IAK  420
+
+
+> sp|Q6ZM51|FICD_DANRE Protein adenylyltransferase FICD OS=Danio 
+rerio OX=7955 GN=ficd PE=2 SV=1
+Length=449
+
+ Score = 167 bits (422),  Expect = 6e-49, Method: Composition-based stats.
+ Identities = 35/181 (19%), Positives = 65/181 (36%), Gaps = 17/181 (9%)
+
+Query  9    DIMRNRLNIHQQQRLEQAAYEMTALRAATIELGPLVRG----LPHLRTIHRQLYQ--DIF  62
+             I+  R  +  +   EQ       +    I    L R     +  +  IHR++    D  
+Sbjct  235  HIIETRYAVPGKSLQEQNEAIGVDVAMKYINTTLLSRDGAITVNDILEIHRRVLGYADPV  294
+
+Query  63   DWAGQLREVDIPFCH-----FAYIEKEGNALMQDLEEEGYLVGLEKAKFVERLAHYYCEI  117
+            + AG+ R   +   H        ++K    L+Q L  E  L  L   +F     +    +
+Sbjct  295  E-AGRFRVNQVFVGHHIPPHPQDLDKHMQELVQWLNSEETL-HLHPVEFAALAHYKLVYV  352
+
+Query  118  NVLHPFRVGSGLAQRIFFEQLAIHAGY-QLSWQGIEKEAWNQANQSGAMGDLTALQMIFS  176
+               HPF  G+G   R+    + + A Y  ++ +  ++  +  A  +   GD+       +
+Sbjct  353  ---HPFVDGNGRTSRLLMNLILMQASYPPITIRKEQRAEYYAALDTANEGDVRPFIRFIA  409
+
+Query  177  K  177
+            K
+Sbjct  410  K  410
+
+
+> sp|A0A061I403|FICD_CRIGR Protein adenylyltransferase FICD OS=Cricetulus 
+griseus OX=10029 GN=FICD PE=1 SV=1
+Length=455
+
+ Score = 166 bits (419),  Expect = 2e-48, Method: Composition-based stats.
+ Identities = 33/183 (18%), Positives = 65/183 (36%), Gaps = 21/183 (11%)
+
+Query  9    DIMRNRLNIH-----QQQRLEQAAYEMTALRAATIE-LGPLVRGLPHLRTIHRQLYQ--D  60
+             I+  R  +      +Q  +      M  +    +  +G +   +  +  IHR++    D
+Sbjct  242  HILETRYAVPGKSLEEQNEVIGMHAAMKYINTTLVSRIGSVT--IDDMLEIHRRVLGYVD  299
+
+Query  61   IFDWAGQLREVDIPFCH-----FAYIEKEGNALMQDLEEEGYLVGLEKAKFVERLAHYYC  115
+              + AG+ R   +   H        +EK+     Q L  E  +  L   +F     +   
+Sbjct  300  PVE-AGRFRRTQVLVGHHIPPHPRDVEKQMQEFTQWLNSEDAM-NLHPVEFAALAHYKLV  357
+
+Query  116  EINVLHPFRVGSGLAQRIFFEQLAIHAGY-QLSWQGIEKEAWNQANQSGAMGDLTALQMI  174
+             I   HPF  G+G   R+    + + AGY  ++    ++  +    +    GD+      
+Sbjct  358  YI---HPFIDGNGRTSRLLMNLILMQAGYPPITILKEQRSEYYHVLEVANEGDVRPFIRF  414
+
+Query  175  FSK  177
+             +K
+Sbjct  415  IAK  417
+
+
+> sp|Q9BVA6|FICD_HUMAN Protein adenylyltransferase FICD OS=Homo 
+sapiens OX=9606 GN=FICD PE=1 SV=2
+Length=458
+
+ Score = 165 bits (418),  Expect = 3e-48, Method: Composition-based stats.
+ Identities = 33/183 (18%), Positives = 68/183 (37%), Gaps = 21/183 (11%)
+
+Query  9    DIMRNRLNIH-----QQQRLEQAAYEMTALRAATIE-LGPLVRGLPHLRTIHRQLYQ--D  60
+             I+  R  +      +Q  +      M  +    +  +G +   +  +  IHR++    D
+Sbjct  245  HILETRYAVPGKSLEEQNEVIGMHAAMKYINTTLVSRIGSVT--ISDVLEIHRRVLGYVD  302
+
+Query  61   IFDWAGQLREVDIPFCH-----FAYIEKEGNALMQDLEEEGYLVGLEKAKFVERLAHYYC  115
+              + AG+ R   +   H        +EK+    +Q L  E  +  L   +F     +   
+Sbjct  303  PVE-AGRFRTTQVLVGHHIPPHPQDVEKQMQEFVQWLNSEEAM-NLHPVEFAALAHYKLV  360
+
+Query  116  EINVLHPFRVGSGLAQRIFFEQLAIHAGY-QLSWQGIEKEAWNQANQSGAMGDLTALQMI  174
+             I   HPF  G+G   R+    + + AGY  ++ +  ++  +    ++   GD+      
+Sbjct  361  YI---HPFIDGNGRTSRLLMNLILMQAGYPPITIRKEQRSDYYHVLEAANEGDVRPFIRF  417
+
+Query  175  FSK  177
+             +K
+Sbjct  418  IAK  420
+
+
+> sp|P44088|Y977_HAEIN Probable protein adenylyltransferase HI_0977 
+OS=Haemophilus influenzae (strain ATCC 51907 / DSM 11121 
+/ KW20 / Rd) OX=71421 GN=HI_0977 PE=3 SV=1
+Length=191
+
+ Score = 158 bits (398),  Expect = 3e-48, Method: Composition-based stats.
+ Identities = 46/165 (28%), Positives = 82/165 (50%), Gaps = 12/165 (7%)
+
+Query  18   HQQQRLEQAAYEMTALRAATIELGPLVRGLPHLRTIHRQLYQDIFDWAGQLREVDIPFCH  77
+              QQ LE A     +     IE+G        L+ IH  L+  ++++AG++RE +I   H
+Sbjct  14   IDQQSLENAYRLFESGDIHQIEIGST----KGLQQIHHYLFNGLYEFAGKIREQNISKGH  69
+
+Query  78   FAYIEKEGNALMQDLEEEGYLVGLEKAKFVERLAHYYCEINVLHPFRVGSGLAQRIFFEQ  137
+            F +     NAL    E  G +  + +  F E + + Y E+N+ HPF  G+G + RI+ + 
+Sbjct  70   FRF----ANALYLK-EALGKIEQMPEDTF-ENIINKYVEMNIAHPFLEGNGRSTRIWLDL  123
+
+Query  138  -LAIHAGYQLSWQGIEKEAWNQANQSGAMGDLTALQMIFSKVVSE  181
+             L  H G  ++WQ ++K  + QA +   + DL  ++ +    +++
+Sbjct  124  VLKKHLGKVVNWQNVDKTQYLQAMERSPINDLE-IRFLLQANLTD  167
+
+
+> sp|B4F6I5|FICD_XENTR Protein adenylyltransferase FICD OS=Xenopus 
+tropicalis OX=8364 GN=ficd PE=2 SV=1
+Length=446
+
+ Score = 164 bits (415),  Expect = 6e-48, Method: Composition-based stats.
+ Identities = 34/183 (19%), Positives = 68/183 (37%), Gaps = 21/183 (11%)
+
+Query  9    DIMRNRLNIH-----QQQRLEQAAYEMTALRAATIE-LGPLVRGLPHLRTIHRQLYQ--D  60
+             I+  R  +      +Q  +      M  + A  +  +G +   + ++  IHR++    D
+Sbjct  233  HIIETRYAVPGKSLEEQNEVIGMHAAMKYVNATLVSRIGSVT--IDNILEIHRRILGYVD  290
+
+Query  61   IFDWAGQLREVDIPFCH-----FAYIEKEGNALMQDLEEEGYLVGLEKAKFVERLAHYYC  115
+              + AG+ R   +   H        +EK     +Q L  E  +  L   +F     +   
+Sbjct  291  PVE-AGRFRRNQVFVGHHIPPHPRDVEKLMQEFVQWLNSEEAM-SLHPVEFAALAHYKLV  348
+
+Query  116  EINVLHPFRVGSGLAQRIFFEQLAIHAGY-QLSWQGIEKEAWNQANQSGAMGDLTALQMI  174
+             I   HPF  G+G   R+    + + AGY  ++ +  ++  +    +    GD+      
+Sbjct  349  YI---HPFVDGNGRTSRLLMNLILMQAGYPPITVRKEQRSEYYHVLEIANEGDVRPFIRF  405
+
+Query  175  FSK  177
+             +K
+Sbjct  406  IAK  408
+
+
+> sp|B0W429|FICD_CULQU Protein adenylyltransferase Fic OS=Culex 
+quinquefasciatus OX=7176 GN=CPIJ001789 PE=3 SV=1
+Length=500
+
+ Score = 114 bits (285),  Expect = 8e-29, Method: Composition-based stats.
+ Identities = 29/181 (16%), Positives = 57/181 (31%), Gaps = 19/181 (10%)
+
+Query  10   IMRNRLN-----IHQQQRLEQAAYEMTALRAATIELGPLVRGLPHLRTIHRQLYQ--DIF  62
+            I+  ++      I +   +      M  + A  +     +  L  L  IHR++    D  
+Sbjct  263  ILETKMAVDGKSIDEHNEILGLDAAMKYINATLVNKNDFIT-LKDLLEIHRRVLGHVDPV  321
+
+Query  63   DWAGQLREVDIPFCH-----FAYIEKEGNALMQDLEEEGYLVGLEKAKFVERLAHYYCEI  117
+            +  G+ R   +            +    +     L  E   + +   ++     +    I
+Sbjct  322  E-GGEFRRTQVYVGGHIPPGPGDLSILMSRFEGWLNAEQSFL-MHPVRYAAMAHYKLVHI  379
+
+Query  118  NVLHPFRVGSGLAQRIFFEQLAIHAGY-QLSWQGIEKEAWNQANQSGAMGDLTALQMIFS  176
+               HPF  G+G   R+    L + AGY  +  Q   +  +    Q    GD+       +
+Sbjct  380  ---HPFSDGNGRTSRLLMNTLLMRAGYPPVIIQKQHRHKYYDYLQVANEGDIRPFVRFIA  436
+
+Query  177  K  177
+             
+Sbjct  437  D  437
+
+
+> sp|B3MK83|FICD_DROAN Protein adenylyltransferase Fic OS=Drosophila 
+ananassae OX=7217 GN=GF14521 PE=3 SV=1
+Length=497
+
+ Score = 114 bits (284),  Expect = 8e-29, Method: Composition-based stats.
+ Identities = 25/179 (14%), Positives = 55/179 (31%), Gaps = 16/179 (9%)
+
+Query  10   IMRNRLNIHQQQRLEQAAYEMTALRAATIELGPLVR---GLPHLRTIHRQLYQ--DIFDW  64
+            I+  R+ +  +   E        L    I    + +    +  +  +HR++    D  + 
+Sbjct  264  ILETRMAVDGKSIDEHNEILGMDLAMKYINASLVQKMEITIKDILELHRRVLGHVDPIE-  322
+
+Query  65   AGQLREVDIPFCH-----FAYIEKEGNALMQDLEEEGYLVGLEKAKFVERLAHYYCEINV  119
+             G+ R   +            +        + L  E +   +    +     +    I  
+Sbjct  323  GGEFRRNQVYVGGHVPPGPGDLALLMQRFERWLNSE-HSSSMHPVNYAALAHYKLVHI--  379
+
+Query  120  LHPFRVGSGLAQRIFFEQLAIHAGY-QLSWQGIEKEAWNQANQSGAMGDLTALQMIFSK  177
+             HPF  G+G   R+    L + AGY  +     ++  +    +    GD+       + 
+Sbjct  380  -HPFIDGNGRTSRLLMNTLLMRAGYPPVIIPKQQRSKYYHFLKLANEGDIRPFVRFIAD  437
+
+
+> sp|B4KFW6|FICD_DROMO Protein adenylyltransferase Fic OS=Drosophila 
+mojavensis OX=7230 GN=GI11595 PE=3 SV=1
+Length=502
+
+ Score = 114 bits (284),  Expect = 1e-28, Method: Composition-based stats.
+ Identities = 27/179 (15%), Positives = 53/179 (30%), Gaps = 16/179 (9%)
+
+Query  10   IMRNRLNIHQQQRLEQAAYEMTALRAATIE---LGPLVRGLPHLRTIHRQLYQ--DIFDW  64
+            ++  R+ +  +   E        L    I    +  L   L  +  +HR++    D  + 
+Sbjct  263  VLETRMAVDGKSIDEHNEILGMDLAMKYINASLVQKLYITLKDILELHRRVLGHVDPIE-  321
+
+Query  65   AGQLREVDIPFCH-----FAYIEKEGNALMQDLEEEGYLVGLEKAKFVERLAHYYCEINV  119
+             G+ R   +            +          L  E     L    +     +    I  
+Sbjct  322  GGEFRRNQVYVGGHIPPGPGDLAILMQRFEHWLNSEQS-NSLHPVNYAALAHYKLVHI--  378
+
+Query  120  LHPFRVGSGLAQRIFFEQLAIHAGY-QLSWQGIEKEAWNQANQSGAMGDLTALQMIFSK  177
+             HPF  G+G   R+    L + AGY  +     ++  +    +    GD+       + 
+Sbjct  379  -HPFVDGNGRTSRLLMNTLLMRAGYPPVIIPKQQRSQYYHFLKLANEGDIRPFVRFIAD  436
+
+
+> sp|Q17A75|FICD_AEDAE Protein adenylyltransferase Fic OS=Aedes 
+aegypti OX=7159 GN=AAEL005383 PE=3 SV=1
+Length=499
+
+ Score = 113 bits (282),  Expect = 2e-28, Method: Composition-based stats.
+ Identities = 30/181 (17%), Positives = 56/181 (31%), Gaps = 19/181 (10%)
+
+Query  10   IMRNRLN-----IHQQQRLEQAAYEMTALRAATIELGPLVRGLPHLRTIHRQLYQ--DIF  62
+            I+  R+      I +   +      M  + A  +     +  L  +  IHR++    D  
+Sbjct  267  ILETRMAVDGKSIDEHNEILGLDAAMKYINATLVNKNDFIT-LKDILEIHRRVLGHVDPI  325
+
+Query  63   DWAGQLREVDIPFCH-----FAYIEKEGNALMQDLEEEGYLVGLEKAKFVERLAHYYCEI  117
+            +  G+ R   +            +    N     L  +   +     K+     +    I
+Sbjct  326  E-GGEFRRSQVYVGGHVPPGPGDLSILMNHFESWLNSKQAFL-FHPVKYAAMAHYKLVHI  383
+
+Query  118  NVLHPFRVGSGLAQRIFFEQLAIHAGY-QLSWQGIEKEAWNQANQSGAMGDLTALQMIFS  176
+               HPF  G+G   R+    L + AGY  +  Q   +  +    Q    GD+       +
+Sbjct  384  ---HPFSDGNGRTSRLLMNTLLMRAGYPPVIIQKQHRHKYYDYLQVANEGDIRPFVRFIA  440
+
+Query  177  K  177
+             
+Sbjct  441  D  441
+
+
+> sp|B3N5J3|FICD_DROER Protein adenylyltransferase Fic OS=Drosophila 
+erecta OX=7220 GN=GG10411 PE=3 SV=1
+Length=495
+
+ Score = 113 bits (282),  Expect = 2e-28, Method: Composition-based stats.
+ Identities = 26/179 (15%), Positives = 56/179 (31%), Gaps = 16/179 (9%)
+
+Query  10   IMRNRLNIHQQQRLEQAAYEMTALRAATIELGPLVR---GLPHLRTIHRQLYQ--DIFDW  64
+            I+  R+ +  +   E        L    I    + +    +  +  +HR++    D  + 
+Sbjct  262  ILETRMAVDGKSIDEHNEILGMDLAMKYINASLVQKIEITIKDILELHRRVMGHVDPIE-  320
+
+Query  65   AGQLREVDIPFCH-----FAYIEKEGNALMQDLEEEGYLVGLEKAKFVERLAHYYCEINV  119
+             G+ R   +            +        + L  E ++  L    +     +    I  
+Sbjct  321  GGEFRRNQVYVGGHIPPGPGDLALLMQRFERWLNSE-HISTLHPVNYAALAHYKLVHI--  377
+
+Query  120  LHPFRVGSGLAQRIFFEQLAIHAGY-QLSWQGIEKEAWNQANQSGAMGDLTALQMIFSK  177
+             HPF  G+G   R+    L + AGY  +     ++  +    +    GD+       + 
+Sbjct  378  -HPFIDGNGRTSRLLMNTLLMRAGYPPVIIPKQQRSKYYHFLKLANEGDIRPFVRFIAD  435
+
+
+> sp|B4JBN5|FICD_DROGR Protein adenylyltransferase Fic OS=Drosophila 
+grimshawi OX=7222 GN=GH10751 PE=3 SV=1
+Length=483
+
+ Score = 112 bits (281),  Expect = 2e-28, Method: Composition-based stats.
+ Identities = 27/179 (15%), Positives = 53/179 (30%), Gaps = 16/179 (9%)
+
+Query  10   IMRNRLNIHQQQRLEQAAYEMTALRAATIE---LGPLVRGLPHLRTIHRQLYQ--DIFDW  64
+            ++  R+ +  +   E        L    I    +  L   L  +  +HR++    D  + 
+Sbjct  248  VLETRMAVDGKSIDEHNEILGMDLAMKYINASLVQKLEITLKDILELHRRVLGHVDPIE-  306
+
+Query  65   AGQLREVDIPFCH-----FAYIEKEGNALMQDLEEEGYLVGLEKAKFVERLAHYYCEINV  119
+             G+ R   +            +          L  E     L    +     +    I  
+Sbjct  307  GGEFRRTQVYVGGHVPPGPGDLALLMQRFEHWLNSEQS-NSLHPVNYAALAHYKLVHI--  363
+
+Query  120  LHPFRVGSGLAQRIFFEQLAIHAGY-QLSWQGIEKEAWNQANQSGAMGDLTALQMIFSK  177
+             HPF  G+G   R+    L + AGY  +     ++  +    +    GD+       + 
+Sbjct  364  -HPFIDGNGRTSRLLMNTLLMRAGYPPVIIPKQQRSQYYHFLKLANEGDIRPFVRFIAD  421
+
+
+> sp|B4Q4M7|FICD_DROSI Protein adenylyltransferase Fic OS=Drosophila 
+simulans OX=7240 GN=GD23409 PE=3 SV=1
+Length=492
+
+ Score = 112 bits (281),  Expect = 3e-28, Method: Composition-based stats.
+ Identities = 26/181 (14%), Positives = 58/181 (32%), Gaps = 20/181 (11%)
+
+Query  10   IMRNRLN-----IHQQQRLEQAAYEMTALRAATIELGPLVRGLPHLRTIHRQLYQ--DIF  62
+            I+  R+      I +   +      M  + A+ ++   +   +  +  +HR++    D  
+Sbjct  259  ILETRMAVDGKSIDEHNEILGMDLAMKYINASLVQKIDIT--IKDILELHRRVLGHVDPI  316
+
+Query  63   DWAGQLREVDIPFCH-----FAYIEKEGNALMQDLEEEGYLVGLEKAKFVERLAHYYCEI  117
+            +  G+ R   +            +        + L  E +   L    +     +    I
+Sbjct  317  E-GGEFRRNQVYVGGHIPPGPGDLALLMQRFERWLNSE-HSSTLHPVNYAALAHYKLVHI  374
+
+Query  118  NVLHPFRVGSGLAQRIFFEQLAIHAGY-QLSWQGIEKEAWNQANQSGAMGDLTALQMIFS  176
+               HPF  G+G   R+    L + AGY  +     ++  +    +    GD+       +
+Sbjct  375  ---HPFVDGNGRTSRLLMNTLLMRAGYPPVIIPKQQRSKYYHFLKLANEGDIRPFVRFIA  431
+
+Query  177  K  177
+             
+Sbjct  432  D  432
+
+
+> sp|B4I1V5|FICD_DROSE Protein adenylyltransferase Fic OS=Drosophila 
+sechellia OX=7238 GN=GM18629 PE=3 SV=1
+Length=492
+
+ Score = 112 bits (280),  Expect = 3e-28, Method: Composition-based stats.
+ Identities = 26/181 (14%), Positives = 58/181 (32%), Gaps = 20/181 (11%)
+
+Query  10   IMRNRLN-----IHQQQRLEQAAYEMTALRAATIELGPLVRGLPHLRTIHRQLYQ--DIF  62
+            I+  R+      I +   +      M  + A+ ++   +   +  +  +HR++    D  
+Sbjct  259  ILETRMAVDGKSIDEHNEILGMDLAMKYINASLVQKIDIT--IKDILELHRRVLGHVDPI  316
+
+Query  63   DWAGQLREVDIPFCH-----FAYIEKEGNALMQDLEEEGYLVGLEKAKFVERLAHYYCEI  117
+            +  G+ R   +            +        + L  E +   L    +     +    I
+Sbjct  317  E-GGEFRRNQVYVGGHIPPGPGDLALLMQRFERWLNSE-HSSTLHPVNYAALAHYKLVHI  374
+
+Query  118  NVLHPFRVGSGLAQRIFFEQLAIHAGY-QLSWQGIEKEAWNQANQSGAMGDLTALQMIFS  176
+               HPF  G+G   R+    L + AGY  +     ++  +    +    GD+       +
+Sbjct  375  ---HPFVDGNGRTSRLLMNTLLMRAGYPPVIIPKQQRSKYYHFLKLANEGDIRPFVRFIA  431
+
+Query  177  K  177
+             
+Sbjct  432  D  432
+
+
+> sp|Q8SWV6|FICD_DROME Protein adenylyltransferase Fic OS=Drosophila 
+melanogaster OX=7227 GN=Fic PE=1 SV=1
+Length=492
+
+ Score = 112 bits (279),  Expect = 4e-28, Method: Composition-based stats.
+ Identities = 26/181 (14%), Positives = 58/181 (32%), Gaps = 20/181 (11%)
+
+Query  10   IMRNRLN-----IHQQQRLEQAAYEMTALRAATIELGPLVRGLPHLRTIHRQLYQ--DIF  62
+            I+  R+      I +   +      M  + A+ ++   +   +  +  +HR++    D  
+Sbjct  259  ILETRMAVDGKSIDEHNEILGMDLAMKYINASLVQKIDIT--IKDILELHRRVLGHVDPI  316
+
+Query  63   DWAGQLREVDIPFCH-----FAYIEKEGNALMQDLEEEGYLVGLEKAKFVERLAHYYCEI  117
+            +  G+ R   +            +        + L  E +   L    +     +    I
+Sbjct  317  E-GGEFRRNQVYVGGHIPPGPGDLALLMQRFERWLNSE-HSSTLHPVNYAALAHYKLVHI  374
+
+Query  118  NVLHPFRVGSGLAQRIFFEQLAIHAGY-QLSWQGIEKEAWNQANQSGAMGDLTALQMIFS  176
+               HPF  G+G   R+    L + AGY  +     ++  +    +    GD+       +
+Sbjct  375  ---HPFVDGNGRTSRLLMNTLLMRAGYPPVIIPKQQRSKYYHFLKLANEGDIRPFVRFIA  431
+
+Query  177  K  177
+             
+Sbjct  432  D  432
+
+
+> sp|B4P0E1|FICD_DROYA Protein adenylyltransferase Fic OS=Drosophila 
+yakuba OX=7245 GN=GE13868 PE=3 SV=1
+Length=495
+
+ Score = 112 bits (279),  Expect = 5e-28, Method: Composition-based stats.
+ Identities = 26/181 (14%), Positives = 58/181 (32%), Gaps = 20/181 (11%)
+
+Query  10   IMRNRLN-----IHQQQRLEQAAYEMTALRAATIELGPLVRGLPHLRTIHRQLYQ--DIF  62
+            I+  R+      I +   +      M  + A+ ++   +   +  +  +HR++    D  
+Sbjct  262  ILETRMAVDGKSIDEHNEILGMDLAMKYINASLVQKIDIT--IKDILELHRRVLGHVDPI  319
+
+Query  63   DWAGQLREVDIPFCH-----FAYIEKEGNALMQDLEEEGYLVGLEKAKFVERLAHYYCEI  117
+            +  G+ R   +            +        + L  E +   L    +     +    I
+Sbjct  320  E-GGEFRRNQVYVGGHVPPGPGDLALLMQRFERWLNSE-HSSTLHPVNYAALAHYKLVHI  377
+
+Query  118  NVLHPFRVGSGLAQRIFFEQLAIHAGY-QLSWQGIEKEAWNQANQSGAMGDLTALQMIFS  176
+               HPF  G+G   R+    L + AGY  +     ++  +    +    GD+       +
+Sbjct  378  ---HPFIDGNGRTSRLLMNTLLMRAGYPPVIIPKQQRNKYYHFLKLANEGDIRPFVRFIA  434
+
+Query  177  K  177
+             
+Sbjct  435  D  435
+
+
+> sp|B4MUQ2|FICD_DROWI Protein adenylyltransferase Fic OS=Drosophila 
+willistoni OX=7260 GN=GK14760 PE=3 SV=1
+Length=498
+
+ Score = 111 bits (278),  Expect = 6e-28, Method: Composition-based stats.
+ Identities = 28/179 (16%), Positives = 54/179 (30%), Gaps = 16/179 (9%)
+
+Query  10   IMRNRLNIHQQQRLEQAAYEMTALRAATIE---LGPLVRGLPHLRTIHRQLYQ--DIFDW  64
+            I+  R+ +  +   E        L    I    +  L   +  +  +HR++    D  + 
+Sbjct  267  ILETRMAVDGKSIDEHNEILGMDLAMKYINASLVQKLEITIKDILELHRRVLGHVDPIE-  325
+
+Query  65   AGQLREVDIPFCH-----FAYIEKEGNALMQDLEEEGYLVGLEKAKFVERLAHYYCEINV  119
+             G+ R   +            +          L  E Y   L    +     +    I  
+Sbjct  326  GGEFRRNQVYVGGHVPPGPGDLAVLMQRFEDWLNSE-YSSSLHPVNYAALAHYKLVHI--  382
+
+Query  120  LHPFRVGSGLAQRIFFEQLAIHAGY-QLSWQGIEKEAWNQANQSGAMGDLTALQMIFSK  177
+             HPF  G+G   R+    L + AGY  +     ++  +    +    GD+       + 
+Sbjct  383  -HPFIDGNGRTSRLLMNTLLMRAGYPPVIIPKQQRSKYYHFLKLANEGDIRPFVRFIAD  440
+
+
+> sp|Q29JP8|FICD_DROPS Protein adenylyltransferase Fic OS=Drosophila 
+pseudoobscura pseudoobscura OX=46245 GN=GA21854 PE=3 SV=2
+Length=508
+
+ Score = 111 bits (278),  Expect = 8e-28, Method: Composition-based stats.
+ Identities = 27/179 (15%), Positives = 55/179 (31%), Gaps = 16/179 (9%)
+
+Query  10   IMRNRLNIHQQQRLEQAAYEMTALRAATIE---LGPLVRGLPHLRTIHRQLYQ--DIFDW  64
+            I+  R+ +  +   E        L    I    +  L   +  +  +HR++    D  + 
+Sbjct  273  ILETRMAVDGKSIDEHNEILGMDLAMKYINASLVQKLEITIKDILELHRRVLGHVDPIE-  331
+
+Query  65   AGQLREVDIPFCH-----FAYIEKEGNALMQDLEEEGYLVGLEKAKFVERLAHYYCEINV  119
+             G+ R   +            +        + L  E +   L    +     +    I  
+Sbjct  332  GGEFRRNQVYVGGHVPPGPGDLALLMQRFERWLNSE-HSSSLHPVNYAAYAHYKLVHI--  388
+
+Query  120  LHPFRVGSGLAQRIFFEQLAIHAGY-QLSWQGIEKEAWNQANQSGAMGDLTALQMIFSK  177
+             HPF  G+G   R+    L + AGY  +     ++  +    +    GD+       + 
+Sbjct  389  -HPFIDGNGRTSRLLMNTLLMRAGYPPVIIPKQQRSKYYHFLKLANEGDIRPFVRFIAD  446
+
+
+> sp|B4GJC1|FICD_DROPE Protein adenylyltransferase Fic OS=Drosophila 
+persimilis OX=7234 GN=GL25530 PE=3 SV=1
+Length=508
+
+ Score = 111 bits (278),  Expect = 8e-28, Method: Composition-based stats.
+ Identities = 27/179 (15%), Positives = 55/179 (31%), Gaps = 16/179 (9%)
+
+Query  10   IMRNRLNIHQQQRLEQAAYEMTALRAATIE---LGPLVRGLPHLRTIHRQLYQ--DIFDW  64
+            I+  R+ +  +   E        L    I    +  L   +  +  +HR++    D  + 
+Sbjct  273  ILETRMAVDGKSIDEHNEILGMDLAMKYINASLVQKLEITIKDILELHRRVLGHVDPIE-  331
+
+Query  65   AGQLREVDIPFCH-----FAYIEKEGNALMQDLEEEGYLVGLEKAKFVERLAHYYCEINV  119
+             G+ R   +            +        + L  E +   L    +     +    I  
+Sbjct  332  GGEFRRNQVYVGGHVPPGPGDLALLMQRFERWLNSE-HSSSLHPVNYAAYAHYKLVHI--  388
+
+Query  120  LHPFRVGSGLAQRIFFEQLAIHAGY-QLSWQGIEKEAWNQANQSGAMGDLTALQMIFSK  177
+             HPF  G+G   R+    L + AGY  +     ++  +    +    GD+       + 
+Sbjct  389  -HPFIDGNGRTSRLLMNTLLMRAGYPPVIIPKQQRSKYYHFLKLANEGDIRPFVRFIAD  446
+
+
+> sp|B4LQT7|FICD_DROVI Protein adenylyltransferase Fic OS=Drosophila 
+virilis OX=7244 GN=GJ12914 PE=3 SV=1
+Length=485
+
+ Score = 111 bits (277),  Expect = 8e-28, Method: Composition-based stats.
+ Identities = 27/179 (15%), Positives = 54/179 (30%), Gaps = 16/179 (9%)
+
+Query  10   IMRNRLNIHQQQRLEQAAYEMTALRAATIE---LGPLVRGLPHLRTIHRQLYQ--DIFDW  64
+            ++  R+ +  +   E        L    I    +  L   L  +  +HR++    D  + 
+Sbjct  248  VLETRMAVDGKSIDEHNEILGMDLAMKYINASLVQKLEITLKDILELHRRVLGHVDPIE-  306
+
+Query  65   AGQLREVDIPFCH-----FAYIEKEGNALMQDLEEEGYLVGLEKAKFVERLAHYYCEINV  119
+             G+ R   +            +          L  E +   L    +     +    I  
+Sbjct  307  GGEFRRNQVYVGGHVPPGPGDLAILMQRFEHWLNSE-HSSSLHPVNYAALAHYKLVHI--  363
+
+Query  120  LHPFRVGSGLAQRIFFEQLAIHAGY-QLSWQGIEKEAWNQANQSGAMGDLTALQMIFSK  177
+             HPF  G+G   R+    L + AGY  +     ++  +    +    GD+       + 
+Sbjct  364  -HPFVDGNGRTSRLLMNTLLMRAGYPPVIIPKQQRSKYYHFLKLANEGDIRPFVRFIAD  421
+
+
+> sp|A7SVT1|FICD_NEMVE Protein adenylyltransferase Fic OS=Nematostella 
+vectensis OX=45351 GN=v1g194069 PE=3 SV=1
+Length=427
+
+ Score = 108 bits (269),  Expect = 8e-27, Method: Composition-based stats.
+ Identities = 27/179 (15%), Positives = 58/179 (32%), Gaps = 15/179 (8%)
+
+Query  10   IMRNRLNIHQQQRLEQAAYEMTALRAATIELG----PLVRGLPHLRTIHRQLYQDIFDW-  64
+            I+  ++ +  +  LE             +            +  +  IHR++        
+Sbjct  216  IVETKMAVPGKSILEHNEVLGLDEALKYVNSTLIQKSESITIDDIIEIHRRVLGHAHPLE  275
+
+Query  65   AGQLREVDIPFCH-----FAYIEKEGNALMQDLEEEGYLVGLEKAKFVERLAHYYCEINV  119
+            AG+ R   +            +EK+ NA    L  +     L   +F     +    I  
+Sbjct  276  AGRYRSTQVFVSDHVPPAPEDLEKQMNAFNDWLLSKDP-EILHPIEFAALSHYKLVYI--  332
+
+Query  120  LHPFRVGSGLAQRIFFEQLAIHAGY-QLSWQGIEKEAWNQANQSGAMGDLTALQMIFSK  177
+             HPF  G+G   R+    + + AG+  +  +  ++  + +       GD+       ++
+Sbjct  333  -HPFTDGNGRTARLLMNAILMRAGFPPVIIRFQDRHDYYEYLNQANHGDIRPFIRFVAR  390
+
+
+> sp|Q23544|FICD_CAEEL Protein adenylyltransferase fic-1 OS=Caenorhabditis 
+elegans OX=6239 GN=fic-1 PE=1 SV=2
+Length=508
+
+ Score = 104 bits (259),  Expect = 3e-25, Method: Composition-based stats.
+ Identities = 24/170 (14%), Positives = 63/170 (37%), Gaps = 13/170 (8%)
+
+Query  16   NIHQQQRLEQAAYEMTALRAATIELGPLVRGLPHLRTIHRQLYQ--DIFDWAGQLREVDI  73
+            +I +   +      +  L  + +        +  +  +HR++    D  + AG++R   +
+Sbjct  297  SIREHNEVIGMDAALRFLNCSLLSKEHDEISIDDILEMHRRVLGNADPVE-AGRIRTTQV  355
+
+Query  74   PFCHF-----AYIEKEGNALMQDLEEEGYLVGLEKAKFVERLAHYYCEINVLHPFRVGSG  128
+                F      Y+ ++   ++  L +E  L  ++  +      +      ++HPF  G+G
+Sbjct  356  YVGRFTPVSPEYVMEQLKDIVDWLNDESTLT-IDPIERAAIAHYKLV---LVHPFTDGNG  411
+
+Query  129  LAQRIFFEQLAIHAGY-QLSWQGIEKEAWNQANQSGAMGDLTALQMIFSK  177
+               R+    + + +G+  +      +  +  +     +GDL       +K
+Sbjct  412  RTARLLLNLIMMRSGFPPVILPVETRAEYYASLHVANLGDLRPFVRYVAK  461
+
+
+> sp|A8X181|FICD_CAEBR Protein adenylyltransferase fic-1 OS=Caenorhabditis 
+briggsae OX=6238 GN=fic-1 PE=3 SV=1
+Length=507
+
+ Score = 102 bits (254),  Expect = 1e-24, Method: Composition-based stats.
+ Identities = 23/170 (14%), Positives = 63/170 (37%), Gaps = 13/170 (8%)
+
+Query  16   NIHQQQRLEQAAYEMTALRAATIELGPLVRGLPHLRTIHRQLYQ--DIFDWAGQLREVDI  73
+            +I +   +      +  L  + +        +  +  +HR++    D  + AG++R   +
+Sbjct  296  SIREHNEVIGMDAALRFLNCSLLSKEHHEISIDDILEMHRRVLGNADPVE-AGKIRTTQV  354
+
+Query  74   PFCHF-----AYIEKEGNALMQDLEEEGYLVGLEKAKFVERLAHYYCEINVLHPFRVGSG  128
+                F      Y+ ++   ++  L +E  +  ++  +      +      ++HPF  G+G
+Sbjct  355  YVGKFTPVAPEYVLEQLADMVDWLNDESTMA-MDPIERAAIAHYKLV---LVHPFTDGNG  410
+
+Query  129  LAQRIFFEQLAIHAGY-QLSWQGIEKEAWNQANQSGAMGDLTALQMIFSK  177
+               R+    + + +G+  +      +  +  +     +GDL       +K
+Sbjct  411  RTARLLLNLIMMRSGFPPVILPVETRAEYYASLHVANLGDLRPFVRYVAK  460
+
+
+> sp|Q54RJ6|Y5363_DICDI Fido domain-containing protein DDB_G0283145 
+OS=Dictyostelium discoideum OX=44689 GN=DDB_G0283145 PE=4 
+SV=2
+Length=143
+
+ Score = 45.5 bits (106),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 20/85 (24%), Positives = 27/85 (32%), Gaps = 8/85 (9%)
+
+Query  66   GQLREVDIPFCH-----FAYIEKEGNALMQDLEEEGYLVGLEKAKFVERLAHYYCEINVL  120
+            G  RE D+            IEK    L+Q   +               L H +  I   
+Sbjct  9    GVYREEDVFAGQRIFMTPELIEKTMLGLVQKYNQYRPTTKSSPYAVAAWLLHAFVSI---  65
+
+Query  121  HPFRVGSGLAQRIFFEQLAIHAGYQ  145
+            HPF  G+G   RI    +    G+ 
+Sbjct  66   HPFIDGNGRMGRILANLVLFSYGFP  90
+
+
+> sp|O66426|YZ38_AQUAE Probable protein adenylyltransferase aq_aa38 
+OS=Aquifex aeolicus (strain VF5) OX=224324 GN=aq_aa38 PE=3 
+SV=1
+Length=320
+
+ Score = 44.0 bits (102),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 25/148 (17%), Positives = 49/148 (33%), Gaps = 13/148 (9%)
+
+Query  25   QAAYEMTALRAATIELGPLVRGLPHLRTIHRQLYQDIFDWAGQLREVDIPFCH------F  78
+            + A E+  L     E    V     +  I+  L++      G  +   + F         
+Sbjct  56   RTAKEVYQLSRKAYETKEEVVSEALILWIYENLWKGFNVPKGYRKSDMVIFGAKFSPPPP  115
+
+Query  79   AYIEKEGNALMQDLEEEGYLVGLEKAKFVERLAHYYCEINVLHPFRVGSGLAQRIFFEQL  138
+              +      ++  L  E  +        V++   ++    V+HPF  G+G   RI    +
+Sbjct  116  YVVPNLIRTIVNWLRNEKTI------DVVKKSIIFHTLFEVIHPFPDGNGRVGRILLNAI  169
+
+Query  139  AIHAGYQLSWQGIEKEAWNQANQSGAMG  166
+             +  G  L+     +E +  A +    G
+Sbjct  170  LVENG-LLNVAFRNREKYISALREAEEG  196
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.127    0.317    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0387    0.140     1.90     42.6     43.6 
+
+Effective search space used: 10001063266
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 28, 2021  3:44 PM
+  Number of letters in database: 202,799,066
+  Number of sequences in database:  563,082
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

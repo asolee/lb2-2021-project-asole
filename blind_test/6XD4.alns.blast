@@ -1,0 +1,1539 @@
+PSIBLAST 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           563,082 sequences; 202,799,066 total letters
+
+Results from round 1
+
+
+Query= 6XD4
+
+Length=458
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|Q7ZAK5|TACY_STRR6 Pneumolysin OS=Streptococcus pneumoniae (s...  76.6    1e-13
+  sp|Q04IN8|TACY_STRP2 Pneumolysin OS=Streptococcus pneumoniae se...  76.6    1e-13
+  sp|P0C2J9|TACY_STRPN Pneumolysin OS=Streptococcus pneumoniae se...  76.6    1e-13
+  sp|Q893D9|TACY_CLOTE Tetanolysin OS=Clostridium tetani (strain ...  67.8    8e-11
+  sp|Q45105|TACY_BACCE Hemolysin (Fragment) OS=Bacillus cereus OX...  63.5    1e-09
+  sp|P31831|TACY_LISIV Ivanolysin OS=Listeria ivanovii OX=1638 GN...  63.2    2e-09
+  sp|B8DGM3|TACY_LISMH Listeriolysin O OS=Listeria monocytogenes ...  62.8    3e-09
+  sp|Q724L1|TACY_LISMF Listeriolysin O OS=Listeria monocytogenes ...  62.4    4e-09
+  sp|C1KYD5|TACY_LISMC Listeriolysin O OS=Listeria monocytogenes ...  62.4    4e-09
+  sp|P23564|TACY_PAEAL Alveolysin OS=Paenibacillus alvei OX=44250...  62.0    5e-09
+  sp|P13128|TACY_LISMO Listeriolysin O OS=Listeria monocytogenes ...  62.0    6e-09
+  sp|D2PAJ7|TACY_LISM2 Listeriolysin O OS=Listeria monocytogenes ...  62.0    6e-09
+  sp|D2NZ73|TACY_LISM1 Listeriolysin O OS=Listeria monocytogenes ...  62.0    6e-09
+  sp|P0C2E9|TACY_CLOPE Perfringolysin O OS=Clostridium perfringen...  58.9    4e-08
+  sp|Q0TUS0|TACY_CLOP1 Perfringolysin O OS=Clostridium perfringen...  58.9    4e-08
+  sp|P31830|TACY_LISSE Seeligeriolysin OS=Listeria seeligeri OX=1...  55.1    8e-07
+  sp|Q5XE40|TACY_STRP6 Streptolysin O OS=Streptococcus pyogenes s...  52.0    8e-06
+  sp|Q54114|TACY_STREQ Streptolysin O OS=Streptococcus dysgalacti...  51.6    1e-05
+  sp|Q8P2T7|TACY_STRP8 Streptolysin O OS=Streptococcus pyogenes s...  51.2    1e-05
+  sp|P0DF97|TACY_STRPQ Streptolysin O OS=Streptococcus pyogenes s...  51.2    1e-05
+  sp|P0DF96|TACY_STRP3 Streptolysin O OS=Streptococcus pyogenes s...  51.2    1e-05
+  sp|P0C0I3|TACY_STRP1 Streptolysin O OS=Streptococcus pyogenes s...  51.2    1e-05
+  sp|Q53957|TACY_STRCB Streptolysin O OS=Streptococcus canis OX=1...  50.1    3e-05
+
+
+> sp|Q7ZAK5|TACY_STRR6 Pneumolysin OS=Streptococcus pneumoniae 
+(strain ATCC BAA-255 / R6) OX=171101 GN=ply PE=3 SV=1
+Length=471
+
+ Score = 76.6 bits (187),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 74/283 (26%), Positives = 133/283 (47%), Gaps = 38/283 (13%)
+
+Query  46   VFPGSLLXGNSIQDLNYKPVFASLN--PITVSLSIPAI-NQNTAITITNPSLSATRAAVY  102
+            ++PG+LL  +    L   P   +++  P+T S+ +P + + ++ + + +PS S+ R AV 
+Sbjct  70   LYPGALLVVDETL-LENNPTLLAVDRAPMTYSIDLPGLASSDSFLQVEDPSNSSVRGAVN  128
+
+Query  103  NYLKTADFTQN--------GQLSYSIQQFSSYDELKVAFGSNVNSRNLFGKNSSSTNVEE  154
+            + L  A + Q+         ++ Y      S ++LKV FGS+      F K  +S +++ 
+Sbjct  129  DLL--AKWHQDYGQVNNVPARMQYEKITAHSMEQLKVKFGSD------FEKTGNSLDIDF  180
+
+Query  155  GXV--ARQSGFYVKFYQTSFTLDXD-VPN-GSLVKDN----NFDSEGIEP----VYVSSI  202
+              V    +    V F Q  +T+  D V N G + +D     +    GI      VY+SS+
+Sbjct  181  NSVHSGEKQIQIVNFKQIYYTVSVDAVKNPGDVFQDTVTVEDLKQRGISAERPLVYISSV  240
+
+Query  203  SYGRXGILAIETNEKAEDAKRIINETFNKLFYKKQTNFSQEEKSFIEGADFNLYLVGGDG  262
+            +YGR   L +ET  K+++    +   F  L    +     E K  ++  +    ++GGD 
+Sbjct  241  AYGRQVYLKLETTSKSDE----VEAAFEALIKGVKVAPQTEWKQILDNTEVKAVILGGDP  296
+
+Query  263  STASQSFKGYEAFVNHVSQ--GTFSKDQPGVPIFCSYSYLKDN  303
+            S+ ++   G    V  + Q    F+ D PG+PI  + S+L+DN
+Sbjct  297  SSGARVVTGKVDMVEDLIQEGSRFTADHPGLPISYTTSFLRDN  339
+
+
+> sp|Q04IN8|TACY_STRP2 Pneumolysin OS=Streptococcus pneumoniae 
+serotype 2 (strain D39 / NCTC 7466) OX=373153 GN=ply PE=1 SV=1
+Length=471
+
+ Score = 76.6 bits (187),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 74/283 (26%), Positives = 133/283 (47%), Gaps = 38/283 (13%)
+
+Query  46   VFPGSLLXGNSIQDLNYKPVFASLN--PITVSLSIPAI-NQNTAITITNPSLSATRAAVY  102
+            ++PG+LL  +    L   P   +++  P+T S+ +P + + ++ + + +PS S+ R AV 
+Sbjct  70   LYPGALLVVDETL-LENNPTLLAVDRAPMTYSIDLPGLASSDSFLQVEDPSNSSVRGAVN  128
+
+Query  103  NYLKTADFTQN--------GQLSYSIQQFSSYDELKVAFGSNVNSRNLFGKNSSSTNVEE  154
+            + L  A + Q+         ++ Y      S ++LKV FGS+      F K  +S +++ 
+Sbjct  129  DLL--AKWHQDYGQVNNVPARMQYEKITAHSMEQLKVKFGSD------FEKTGNSLDIDF  180
+
+Query  155  GXV--ARQSGFYVKFYQTSFTLDXD-VPN-GSLVKDN----NFDSEGIEP----VYVSSI  202
+              V    +    V F Q  +T+  D V N G + +D     +    GI      VY+SS+
+Sbjct  181  NSVHSGEKQIQIVNFKQIYYTVSVDAVKNPGDVFQDTVTVEDLKQRGISAERPLVYISSV  240
+
+Query  203  SYGRXGILAIETNEKAEDAKRIINETFNKLFYKKQTNFSQEEKSFIEGADFNLYLVGGDG  262
+            +YGR   L +ET  K+++    +   F  L    +     E K  ++  +    ++GGD 
+Sbjct  241  AYGRQVYLKLETTSKSDE----VEAAFEALIKGVKVAPQTEWKQILDNTEVKAVILGGDP  296
+
+Query  263  STASQSFKGYEAFVNHVSQ--GTFSKDQPGVPIFCSYSYLKDN  303
+            S+ ++   G    V  + Q    F+ D PG+PI  + S+L+DN
+Sbjct  297  SSGARVVTGKVDMVEDLIQEGSRFTADHPGLPISYTTSFLRDN  339
+
+
+> sp|P0C2J9|TACY_STRPN Pneumolysin OS=Streptococcus pneumoniae 
+serotype 4 (strain ATCC BAA-334 / TIGR4) OX=170187 GN=ply PE=1 
+SV=1
+Length=471
+
+ Score = 76.6 bits (187),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 74/283 (26%), Positives = 133/283 (47%), Gaps = 38/283 (13%)
+
+Query  46   VFPGSLLXGNSIQDLNYKPVFASLN--PITVSLSIPAI-NQNTAITITNPSLSATRAAVY  102
+            ++PG+LL  +    L   P   +++  P+T S+ +P + + ++ + + +PS S+ R AV 
+Sbjct  70   LYPGALLVVDETL-LENNPTLLAVDRAPMTYSIDLPGLASSDSFLQVEDPSNSSVRGAVN  128
+
+Query  103  NYLKTADFTQN--------GQLSYSIQQFSSYDELKVAFGSNVNSRNLFGKNSSSTNVEE  154
+            + L  A + Q+         ++ Y      S ++LKV FGS+      F K  +S +++ 
+Sbjct  129  DLL--AKWHQDYGQVNNVPARMQYEKITAHSMEQLKVKFGSD------FEKTGNSLDIDF  180
+
+Query  155  GXV--ARQSGFYVKFYQTSFTLDXD-VPN-GSLVKDN----NFDSEGIEP----VYVSSI  202
+              V    +    V F Q  +T+  D V N G + +D     +    GI      VY+SS+
+Sbjct  181  NSVHSGEKQIQIVNFKQIYYTVSVDAVKNPGDVFQDTVTVEDLKQRGISAERPLVYISSV  240
+
+Query  203  SYGRXGILAIETNEKAEDAKRIINETFNKLFYKKQTNFSQEEKSFIEGADFNLYLVGGDG  262
+            +YGR   L +ET  K+++    +   F  L    +     E K  ++  +    ++GGD 
+Sbjct  241  AYGRQVYLKLETTSKSDE----VEAAFEALIKGVKVAPQTEWKQILDNTEVKAVILGGDP  296
+
+Query  263  STASQSFKGYEAFVNHVSQ--GTFSKDQPGVPIFCSYSYLKDN  303
+            S+ ++   G    V  + Q    F+ D PG+PI  + S+L+DN
+Sbjct  297  SSGARVVTGKVDMVEDLIQEGSRFTADHPGLPISYTTSFLRDN  339
+
+
+> sp|Q893D9|TACY_CLOTE Tetanolysin OS=Clostridium tetani (strain 
+Massachusetts / E88) OX=212717 GN=CTC_01888 PE=1 SV=1
+Length=527
+
+ Score = 67.8 bits (164),  Expect = 8e-11, Method: Compositional matrix adjust.
+ Identities = 67/289 (23%), Positives = 128/289 (44%), Gaps = 33/289 (11%)
+
+Query  38   VLNHLNRYVFPGSLLXGNSIQDLNYKPVFASL--NPITVSLSIPAINQNTAITITNPSLS  95
+            +++ +N   +PG++   N    +  KP   S    PIT+S+ +P + ++    + +P+ S
+Sbjct  120  IIDSINDRTYPGAIQLANR-NLMENKPDIISCERKPITISVDLPGMAEDGKKVVNSPTYS  178
+
+Query  96   ATRAAVYNYLKT------ADFTQNGQLSYSIQQFSSYDELKVAFGSNVNSRNLFGKNSSS  149
+            +  +A+ + L T      + +T   ++SYS     S  +L  A G N  + N       +
+Sbjct  179  SVNSAINSILDTWNSKYSSKYTIPTRMSYSDTMVYSQSQLSAAVGCNFKALN------KA  232
+
+Query  150  TNVEEGXV--ARQSGFYVKFYQTSFTLDXDVPN------GSLVKDNNFDSEGIE----PV  197
+             N++   +    +    + + Q  +T+  D PN      G  V  +    +GI     P 
+Sbjct  233  LNIDFDSIFKGEKKVMLLAYKQIFYTVSVDPPNRPSDLFGDSVTFDELALKGINNNNPPA  292
+
+Query  198  YVSSISYGRXGILAIETNEKAEDAKRIINETFNKLFYKKQTNFSQEEKSFIEGADFNLYL  257
+            YVS+++YGR   + +ET  K+   K      F  L   +  + + E K  +  + F   +
+Sbjct  293  YVSNVAYGRTIYVKLETTSKSSHVK----AAFKALINNQDISSNAEYKDILNQSSFTATV  348
+
+Query  258  VGGDGSTASQSF-KGYEAFVNHVSQGT-FSKDQPGVPIFCSYSYLKDNS  304
+            +GG     ++   K ++   N +   + +S   PG PI  + ++LKDNS
+Sbjct  349  LGGGAQEHNKIITKDFDEIRNIIKNNSVYSPQNPGYPISYTTTFLKDNS  397
+
+
+> sp|Q45105|TACY_BACCE Hemolysin (Fragment) OS=Bacillus cereus 
+OX=1396 PE=3 SV=1
+Length=485
+
+ Score = 63.5 bits (153),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 69/299 (23%), Positives = 127/299 (42%), Gaps = 44/299 (15%)
+
+Query  40   NHLNRY-------------VFPGSL-LXGNSIQDLNYKPVFASLNPITVSLSIPAINQNT  85
+            NHL R+              +PG++ L   +  D     + A   P+ +S+ +P + +  
+Sbjct  90   NHLQRHQSIFRLLDSVANRTYPGAVQLANKAFADNQPSLLVAKRKPLNISIDLPGMRKEN  149
+
+Query  86   AITITNPSLSATRAAVYNYLKTAD--FTQNGQLSYSIQQFSS--YDELKVAFGSNVNSRN  141
+             IT+ NP+      AV + + T +  ++    L   +Q   S  Y + ++A   NVN++ 
+Sbjct  150  TITVQNPTYGNVAGAVDDLVSTWNEKYSATHTLPARMQYTESMVYSKAQIASALNVNAKY  209
+
+Query  142  LFGKNSSSTNVEEGXVA--RQSGFYVKFYQTSFTLDXDVPNG-SLVKDNNFD--------  190
+            L     +S N++   VA   +      + Q  +T+  ++PN  S + DN+          
+Sbjct  210  L----DNSLNIDFNAVANGEKKVMVAAYKQIFYTVSAELPNNPSDLFDNSVTFGELTRKG  265
+
+Query  191  -SEGIEPVYVSSISYGRXGILAIETNEKAEDAKRIINETFNKLFYKKQTNFSQEEKSFIE  249
+             S    PV VS+++YGR   + +ET  K++D    +   F  L        S + K   E
+Sbjct  266  VSNSAPPVMVSNVAYGRTVYVKLETTSKSKD----VQAAFKALLKNNSVETSGQYKDIFE  321
+
+Query  250  GADFNLYLVGGDG----STASQSFKGYEAFVNHVSQGTFSKDQPGVPIFCSYSYLKDNS  304
+             + F   ++GGD        ++ F      +   ++ +F    P  PI  + ++LKDN+
+Sbjct  322  ESTFTAVVLGGDAKEHNKVVTKDFNEIRNIIKDNAELSFK--NPAYPISYTSTFLKDNA  378
+
+
+> sp|P31831|TACY_LISIV Ivanolysin OS=Listeria ivanovii OX=1638 
+GN=ilo PE=3 SV=1
+Length=528
+
+ Score = 63.2 bits (152),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 72/294 (24%), Positives = 122/294 (41%), Gaps = 43/294 (15%)
+
+Query  38   VLNHLNRYVFPGSLLXGNSIQDLNYKPVF-ASLNPITVSLSIPA-INQNTAITITNPSLS  95
+            V+N L    +PG+L+  NS    N   V     + +T+S+ +P  +N +  I + N + S
+Sbjct  116  VINSLASLTYPGALVKANSELVENQPDVLPVKRDSVTLSIDLPGMVNHDNEIVVQNATKS  175
+
+Query  96   ATRAAVYNYLK-------------TADFTQNGQLSYSIQQFSSYDELKVAFGSNVNSRNL  142
+                 V   +              +A    + +++YS  Q  +  +   AF +  NS N+
+Sbjct  176  NINDGVNTLVDRWNNKYSEEYPNISAKIDYDQEMAYSESQLVA--KFGAAFKAVNNSLNV  233
+
+Query  143  -FGKNSSSTNVEEGXVARQSGFYVKFYQTSFTLDXDVPN------GSLVKDNNFDSEGIE  195
+             FG       + EG V  +    + F Q  +T++ + P       G  V   N  + G+ 
+Sbjct  234  NFGA------ISEGKVQEE---VINFKQIYYTVNVNEPTSPSRFFGKSVTKENLQALGVN  284
+
+Query  196  ----PVYVSSISYGRXGILAIETNEKAEDAKRIINETFNKLFYKKQTNFSQEEKSFIEGA  251
+                P Y+SS++YGR   + + T+  +   K      F+  F  K      E ++ I+ A
+Sbjct  285  AENPPAYISSVAYGRDIFVKLSTSSHSTRVK----AAFDTAFKGKSVKGDTELENIIQNA  340
+
+Query  252  DFNLYLVGGDGSTASQSFKG-YEAFVNHVSQGT-FSKDQPGVPIFCSYSYLKDN  303
+             F   + GG      +   G      + + QG  F K  PGVPI  + ++LKDN
+Sbjct  341  SFKAVIYGGSAKDEVEIIDGDLSKLRDILKQGANFDKKNPGVPIAYTTNFLKDN  394
+
+
+> sp|B8DGM3|TACY_LISMH Listeriolysin O OS=Listeria monocytogenes 
+serotype 4a (strain HCC23) OX=552536 GN=hly PE=3 SV=1
+Length=529
+
+ Score = 62.8 bits (151),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 80/344 (23%), Positives = 141/344 (41%), Gaps = 59/344 (17%)
+
+Query  38   VLNHLNRYVFPGSLLXGNSIQDLNYKPVF-ASLNPITVSLSIPAI-NQNTAITITNPSLS  95
+            V+N ++   +PG+L+  NS    N   V     + +T+S+ +P + NQ+  I + N + S
+Sbjct  117  VVNAISSLTYPGALVKANSELVENQPDVLPVKRDSLTLSIDLPGMTNQDNKIVVKNATKS  176
+
+Query  96   ATRAAVYNYLK-------------TADFTQNGQLSYSIQQFSSYDELKVAFGSNVNSRNL  142
+                AV   ++             +A    + +++YS  Q  +  +   AF +  NS N+
+Sbjct  177  NVNNAVNTLVERWNEKYAQAYPNVSAKIDYDDEMAYSESQLIA--KFGTAFKAVNNSLNV  234
+
+Query  143  -FGKNSSSTNVEEGXVARQSGFYVKFYQTSFTLDXDVPN------GSLVKDNNFDSEGIE  195
+             FG       + EG +  +    + F Q  + ++ + P       G  V      + G+ 
+Sbjct  235  NFGA------ISEGKMQEE---VISFKQIYYNVNVNEPTRPSRFFGKAVTKEQLQALGVN  285
+
+Query  196  ----PVYVSSISYGRXGILAIETNEKAEDAKRIINETFNKLFYKKQTNFSQEEKSFIEGA  251
+                P Y+SS++YGR   L + TN  +   K      F+     K  +   E  + I+ +
+Sbjct  286  AENPPAYISSVAYGRQVYLKLSTNSHSTKVK----AAFDAAVSGKSVSGDVELTNIIKNS  341
+
+Query  252  DFNLYLVGGDGSTASQSFKGYEAFVNHVSQ--GTFSKDQPGVPIFCSYSYLKDN------  303
+             F   + GG      Q   G    +  + +   TF+++ PGVPI  + ++LKDN      
+Sbjct  342  SFKAVIYGGSAKDEVQIIDGNLGDLRDILKKGATFNRETPGVPIAYTTNFLKDNELAVIK  401
+
+Query  304  ---------SPVKTKFKFDIKRPPLYVKLVKENXKDINFNDPDG  338
+                     S   T  K +I     YV     +  +IN+ DP+G
+Sbjct  402  NNSEYIETTSKAYTDGKINIDHSGGYVAQFNISWDEINY-DPEG  444
+
+
+> sp|Q724L1|TACY_LISMF Listeriolysin O OS=Listeria monocytogenes 
+serotype 4b (strain F2365) OX=265669 GN=hly PE=3 SV=1
+Length=529
+
+ Score = 62.4 bits (150),  Expect = 4e-09, Method: Compositional matrix adjust.
+ Identities = 80/344 (23%), Positives = 141/344 (41%), Gaps = 59/344 (17%)
+
+Query  38   VLNHLNRYVFPGSLLXGNSIQDLNYKPVF-ASLNPITVSLSIPAI-NQNTAITITNPSLS  95
+            V+N ++   +PG+L+  NS    N   V     + +T+S+ +P + NQ+  I + N + S
+Sbjct  117  VVNAISSLTYPGALVKANSELVENQPDVLPVKRDSLTLSIDLPGMTNQDNKIVVKNATKS  176
+
+Query  96   ATRAAVYNYLK-------------TADFTQNGQLSYSIQQFSSYDELKVAFGSNVNSRNL  142
+                AV   ++             +A    + +++YS  Q  +  +   AF +  NS N+
+Sbjct  177  NVNNAVNTLVERWNEKYAQAYPNVSAKIDYDDEMAYSESQLIA--KFGTAFKAVNNSLNV  234
+
+Query  143  -FGKNSSSTNVEEGXVARQSGFYVKFYQTSFTLDXDVPN------GSLVKDNNFDSEGIE  195
+             FG       + EG +  +    + F Q  + ++ + P       G  V      + G+ 
+Sbjct  235  NFGA------ISEGKMQEE---VISFKQIYYNVNVNEPTRPSRFFGKAVTKEQLQALGVN  285
+
+Query  196  ----PVYVSSISYGRXGILAIETNEKAEDAKRIINETFNKLFYKKQTNFSQEEKSFIEGA  251
+                P Y+SS++YGR   L + TN  +   K      F+     K  +   E  + I+ +
+Sbjct  286  AENPPAYISSVAYGRQVYLKLSTNSHSTKVK----AAFDAAVSGKSVSGDVELTNIIKNS  341
+
+Query  252  DFNLYLVGGDGSTASQSFKGYEAFVNHVSQ--GTFSKDQPGVPIFCSYSYLKDN------  303
+             F   + GG      Q   G    +  + +   TF+++ PGVPI  + ++LKDN      
+Sbjct  342  SFKAVIYGGSAKDEVQIIDGNLGDLRDILKKGATFNRETPGVPIAYTTNFLKDNELAVIK  401
+
+Query  304  ---------SPVKTKFKFDIKRPPLYVKLVKENXKDINFNDPDG  338
+                     S   T  K +I     YV     +  +IN+ DP+G
+Sbjct  402  NNSEYIETTSKAYTDGKINIDHSGGYVAQFNISWDEINY-DPEG  444
+
+
+> sp|C1KYD5|TACY_LISMC Listeriolysin O OS=Listeria monocytogenes 
+serotype 4b (strain CLIP80459) OX=568819 GN=hly PE=3 SV=1
+Length=529
+
+ Score = 62.4 bits (150),  Expect = 4e-09, Method: Compositional matrix adjust.
+ Identities = 80/344 (23%), Positives = 141/344 (41%), Gaps = 59/344 (17%)
+
+Query  38   VLNHLNRYVFPGSLLXGNSIQDLNYKPVF-ASLNPITVSLSIPAI-NQNTAITITNPSLS  95
+            V+N ++   +PG+L+  NS    N   V     + +T+S+ +P + NQ+  I + N + S
+Sbjct  117  VVNAISSLTYPGALVKANSELVENQPDVLPVKRDSLTLSIDLPGMTNQDNKIVVKNATKS  176
+
+Query  96   ATRAAVYNYLK-------------TADFTQNGQLSYSIQQFSSYDELKVAFGSNVNSRNL  142
+                AV   ++             +A    + +++YS  Q  +  +   AF +  NS N+
+Sbjct  177  NVNNAVNTLVERWNEKYAQAYPNVSAKIDYDDEMAYSESQLIA--KFGTAFKAVNNSLNV  234
+
+Query  143  -FGKNSSSTNVEEGXVARQSGFYVKFYQTSFTLDXDVPN------GSLVKDNNFDSEGIE  195
+             FG       + EG +  +    + F Q  + ++ + P       G  V      + G+ 
+Sbjct  235  NFGA------ISEGKMQEE---VISFKQIYYNVNVNEPTRPSRFFGKAVTKEQLQALGVN  285
+
+Query  196  ----PVYVSSISYGRXGILAIETNEKAEDAKRIINETFNKLFYKKQTNFSQEEKSFIEGA  251
+                P Y+SS++YGR   L + TN  +   K      F+     K  +   E  + I+ +
+Sbjct  286  AENPPAYISSVAYGRQVYLKLSTNSHSTKVK----AAFDAAVSGKSVSGDVELTNIIKNS  341
+
+Query  252  DFNLYLVGGDGSTASQSFKGYEAFVNHVSQ--GTFSKDQPGVPIFCSYSYLKDN------  303
+             F   + GG      Q   G    +  + +   TF+++ PGVPI  + ++LKDN      
+Sbjct  342  SFKAVIYGGSAKDEVQIIDGNLGDLRDILKKGATFNRETPGVPIAYTTNFLKDNELAVIK  401
+
+Query  304  ---------SPVKTKFKFDIKRPPLYVKLVKENXKDINFNDPDG  338
+                     S   T  K +I     YV     +  +IN+ DP+G
+Sbjct  402  NNSEYIETTSKAYTDGKINIDHSGGYVAQFNISWDEINY-DPEG  444
+
+
+> sp|P23564|TACY_PAEAL Alveolysin OS=Paenibacillus alvei OX=44250 
+GN=alv PE=1 SV=1
+Length=501
+
+ Score = 62.0 bits (149),  Expect = 5e-09, Method: Compositional matrix adjust.
+ Identities = 66/290 (23%), Positives = 123/290 (42%), Gaps = 35/290 (12%)
+
+Query  38   VLNHLNRYVFPGSL-LXGNSIQDLNYKPVFASLNPITVSLSIPAINQNTAITITNPSLSA  96
+            +++ +    +PG++ L      D     V A+  P+ +S+ +P +     I++ NP+   
+Sbjct  96   IVDSITNRTYPGAIQLANKDFADNQPSLVMAARKPLDISIDLPGLKNENTISVQNPNYGT  155
+
+Query  97   TRAAVYNYLKT------ADFTQNGQLSYSIQQFSSYDELKVAFGSNVNSRNLFGKNSSST  150
+              +A+   + T      +  T   +L Y+     S +++  A   NVN++ L G    + 
+Sbjct  156  VSSAIDQLVSTWGEKYSSTHTLPARLQYAESMVYSQNQISSAL--NVNAKVLNG----TL  209
+
+Query  151  NVEEGXVA--RQSGFYVKFYQTSFTLDXDVPN--GSLVKDN----NFDSEGIE----PVY  198
+             ++   VA   +      + Q  +T+   +PN    L  D+        +G+     P+ 
+Sbjct  210  GIDFNAVANGEKKVMVAAYKQIFYTVSAGLPNNPSDLFDDSVTFAELARKGVSNEAPPLM  269
+
+Query  199  VSSISYGRXGILAIETNEKAEDAKRIINETFNKLFYKKQTNFSQEEKSFIEGADFNLYLV  258
+            VS+++YGR   + +ET  K+ D    +   F  L        S + K   E + F   ++
+Sbjct  270  VSNVAYGRTIYVKLETTSKSND----VQTAFKLLLNNPSIQASGQYKDIYENSSFTAVVL  325
+
+Query  259  GGDGSTASQ----SFKGYEAFVNHVSQGTFSKDQPGVPIFCSYSYLKDNS  304
+            GGD  T +Q     F   ++ +   +Q  FS   P  PI  +  +LKDNS
+Sbjct  326  GGDAQTHNQVVTKDFNVIQSVIKDNAQ--FSSKNPAYPISYTSVFLKDNS  373
+
+
+> sp|P13128|TACY_LISMO Listeriolysin O OS=Listeria monocytogenes 
+serovar 1/2a (strain ATCC BAA-679 / EGD-e) OX=169963 GN=hly 
+PE=1 SV=1
+Length=529
+
+ Score = 62.0 bits (149),  Expect = 6e-09, Method: Compositional matrix adjust.
+ Identities = 69/294 (23%), Positives = 125/294 (43%), Gaps = 43/294 (15%)
+
+Query  38   VLNHLNRYVFPGSLLXGNSIQDLNYKPVF-ASLNPITVSLSIPAI-NQNTAITITNPSLS  95
+            V+N ++   +PG+L+  NS    N   V     + +T+S+ +P + NQ+  I + N + S
+Sbjct  117  VVNAISSLTYPGALVKANSELVENQPDVLPVKRDSLTLSIDLPGMTNQDNKIVVKNATKS  176
+
+Query  96   ATRAAVYNYLK-------------TADFTQNGQLSYSIQQFSSYDELKVAFGSNVNSRNL  142
+                AV   ++             +A    + +++YS  Q  +  +   AF +  NS N+
+Sbjct  177  NVNNAVNTLVERWNEKYAQAYPNVSAKIDYDDEMAYSESQLIA--KFGTAFKAVNNSLNV  234
+
+Query  143  -FGKNSSSTNVEEGXVARQSGFYVKFYQTSFTLDXDVPN------GSLVKDNNFDSEGIE  195
+             FG       + EG +  +    + F Q  + ++ + P       G  V      + G+ 
+Sbjct  235  NFGA------ISEGKMQEE---VISFKQIYYNVNVNEPTRPSRFFGKAVTKEQLQALGVN  285
+
+Query  196  ----PVYVSSISYGRXGILAIETNEKAEDAKRIINETFNKLFYKKQTNFSQEEKSFIEGA  251
+                P Y+SS++YGR   L + TN  +   K      F+     K  +   E  + I+ +
+Sbjct  286  AENPPAYISSVAYGRQVYLKLSTNSHSTKVK----AAFDAAVSGKSVSGDVELTNIIKNS  341
+
+Query  252  DFNLYLVGGDGSTASQSFKGYEAFVNHVSQ--GTFSKDQPGVPIFCSYSYLKDN  303
+             F   + GG      Q   G    +  + +   TF+++ PGVPI  + ++LKDN
+Sbjct  342  SFKAVIYGGSAKDEVQIIDGNLGDLRDILKKGATFNRETPGVPIAYTTNFLKDN  395
+
+
+> sp|D2PAJ7|TACY_LISM2 Listeriolysin O OS=Listeria monocytogenes 
+serotype 1/2a (strain 08-5923) OX=637381 GN=hly PE=3 SV=1
+Length=529
+
+ Score = 62.0 bits (149),  Expect = 6e-09, Method: Compositional matrix adjust.
+ Identities = 69/294 (23%), Positives = 125/294 (43%), Gaps = 43/294 (15%)
+
+Query  38   VLNHLNRYVFPGSLLXGNSIQDLNYKPVF-ASLNPITVSLSIPAI-NQNTAITITNPSLS  95
+            V+N ++   +PG+L+  NS    N   V     + +T+S+ +P + NQ+  I + N + S
+Sbjct  117  VVNAISSLTYPGALVKANSELVENQPDVLPVKRDSLTLSIDLPGMTNQDNKIVVKNATKS  176
+
+Query  96   ATRAAVYNYLK-------------TADFTQNGQLSYSIQQFSSYDELKVAFGSNVNSRNL  142
+                AV   ++             +A    + +++YS  Q  +  +   AF +  NS N+
+Sbjct  177  NVNNAVNTLVERWNEKYAQAYPNVSAKIDYDDEMAYSESQLIA--KFGTAFKAVNNSLNV  234
+
+Query  143  -FGKNSSSTNVEEGXVARQSGFYVKFYQTSFTLDXDVPN------GSLVKDNNFDSEGIE  195
+             FG       + EG +  +    + F Q  + ++ + P       G  V      + G+ 
+Sbjct  235  NFGA------ISEGKMQEE---VISFKQIYYNVNVNEPTRPSRFFGKAVTKEQLQALGVN  285
+
+Query  196  ----PVYVSSISYGRXGILAIETNEKAEDAKRIINETFNKLFYKKQTNFSQEEKSFIEGA  251
+                P Y+SS++YGR   L + TN  +   K      F+     K  +   E  + I+ +
+Sbjct  286  AENPPAYISSVAYGRQVYLKLSTNSHSTKVK----AAFDAAVSGKSVSGDVELTNIIKNS  341
+
+Query  252  DFNLYLVGGDGSTASQSFKGYEAFVNHVSQ--GTFSKDQPGVPIFCSYSYLKDN  303
+             F   + GG      Q   G    +  + +   TF+++ PGVPI  + ++LKDN
+Sbjct  342  SFKAVIYGGSAKDEVQIIDGNLGDLRDILKKGATFNRETPGVPIAYTTNFLKDN  395
+
+
+> sp|D2NZ73|TACY_LISM1 Listeriolysin O OS=Listeria monocytogenes 
+serotype 1/2a (strain 08-5578) OX=653938 GN=hly PE=3 SV=1
+Length=529
+
+ Score = 62.0 bits (149),  Expect = 6e-09, Method: Compositional matrix adjust.
+ Identities = 69/294 (23%), Positives = 125/294 (43%), Gaps = 43/294 (15%)
+
+Query  38   VLNHLNRYVFPGSLLXGNSIQDLNYKPVF-ASLNPITVSLSIPAI-NQNTAITITNPSLS  95
+            V+N ++   +PG+L+  NS    N   V     + +T+S+ +P + NQ+  I + N + S
+Sbjct  117  VVNAISSLTYPGALVKANSELVENQPDVLPVKRDSLTLSIDLPGMTNQDNKIVVKNATKS  176
+
+Query  96   ATRAAVYNYLK-------------TADFTQNGQLSYSIQQFSSYDELKVAFGSNVNSRNL  142
+                AV   ++             +A    + +++YS  Q  +  +   AF +  NS N+
+Sbjct  177  NVNNAVNTLVERWNEKYAQAYPNVSAKIDYDDEMAYSESQLIA--KFGTAFKAVNNSLNV  234
+
+Query  143  -FGKNSSSTNVEEGXVARQSGFYVKFYQTSFTLDXDVPN------GSLVKDNNFDSEGIE  195
+             FG       + EG +  +    + F Q  + ++ + P       G  V      + G+ 
+Sbjct  235  NFGA------ISEGKMQEE---VISFKQIYYNVNVNEPTRPSRFFGKAVTKEQLQALGVN  285
+
+Query  196  ----PVYVSSISYGRXGILAIETNEKAEDAKRIINETFNKLFYKKQTNFSQEEKSFIEGA  251
+                P Y+SS++YGR   L + TN  +   K      F+     K  +   E  + I+ +
+Sbjct  286  AENPPAYISSVAYGRQVYLKLSTNSHSTKVK----AAFDAAVSGKSVSGDVELTNIIKNS  341
+
+Query  252  DFNLYLVGGDGSTASQSFKGYEAFVNHVSQ--GTFSKDQPGVPIFCSYSYLKDN  303
+             F   + GG      Q   G    +  + +   TF+++ PGVPI  + ++LKDN
+Sbjct  342  SFKAVIYGGSAKDEVQIIDGNLGDLRDILKKGATFNRETPGVPIAYTTNFLKDN  395
+
+
+> sp|P0C2E9|TACY_CLOPE Perfringolysin O OS=Clostridium perfringens 
+(strain 13 / Type A) OX=195102 GN=pfo PE=1 SV=1
+Length=500
+
+ Score = 58.9 bits (141),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 66/299 (22%), Positives = 122/299 (41%), Gaps = 35/299 (12%)
+
+Query  38   VLNHLNRYVFPGSL-LXGNSIQDLNYKPVFASLNPITVSLSIPAINQNTAITITNPSLSA  96
+            +++ +N   +PG+L L   +  +     +     PI +++ +P +    +I + +P+   
+Sbjct  94   IIDSVNDRTYPGALQLADKAFVENRPTILMVKRKPININIDLPGLKGENSIKVDDPTYGK  153
+
+Query  97   TRAAV------YNYLKTADFTQNGQLSYSIQQFSSYDELKVAFGSNVNSRNLFGKNSSST  150
+               A+      +N   ++  T   +  YS     S  ++  A   NVN++ L     +S 
+Sbjct  154  VSGAIDELVSKWNEKYSSTHTLPARTQYSESMVYSKSQISSAL--NVNAKVL----ENSL  207
+
+Query  151  NVEEGXVA--RQSGFYVKFYQTSFTLDXDVPN--GSLVKD----NNFDSEGIE----PVY  198
+             V+   VA   +    + + Q  +T+  D+P     L  D    N+   +G+     P+ 
+Sbjct  208  GVDFNAVANNEKKVMILAYKQIFYTVSADLPKNPSDLFDDSVTFNDLKQKGVSNEAPPLM  267
+
+Query  199  VSSISYGRXGILAIETNEKAEDAKRIINETFNKLFYKKQTNFSQEEKSFIEGADFNLYLV  258
+            VS+++YGR   + +ET   ++D    +   F  L        SQ+ K   E + F   ++
+Sbjct  268  VSNVAYGRTIYVKLETTSSSKD----VQAAFKALIKNTDIKNSQQYKDIYENSSFTAVVL  323
+
+Query  259  GGDGS----TASQSFKGYEAFVNHVSQGTFSKDQPGVPIFCSYSYLKDNSPVKTKFKFD  313
+            GGD        ++ F      +      TFS   P  PI  +  +LKDNS      K D
+Sbjct  324  GGDAQEHNKVVTKDFDEIRKVIK--DNATFSTKNPAYPISYTSVFLKDNSVAAVHNKTD  380
+
+
+> sp|Q0TUS0|TACY_CLOP1 Perfringolysin O OS=Clostridium perfringens 
+(strain ATCC 13124 / DSM 756 / JCM 1290 / NCIMB 6125 / NCTC 
+8237 / Type A) OX=195103 GN=pfo PE=1 SV=1
+Length=500
+
+ Score = 58.9 bits (141),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 66/299 (22%), Positives = 122/299 (41%), Gaps = 35/299 (12%)
+
+Query  38   VLNHLNRYVFPGSL-LXGNSIQDLNYKPVFASLNPITVSLSIPAINQNTAITITNPSLSA  96
+            +++ +N   +PG+L L   +  +     +     PI +++ +P +    +I + +P+   
+Sbjct  94   IIDSVNDRTYPGALQLADKAFVENRPTILMVKRKPININIDLPGLKGENSIKVDDPTYGK  153
+
+Query  97   TRAAV------YNYLKTADFTQNGQLSYSIQQFSSYDELKVAFGSNVNSRNLFGKNSSST  150
+               A+      +N   ++  T   +  YS     S  ++  A   NVN++ L     +S 
+Sbjct  154  VSGAIDELVSKWNEKYSSTHTLPARTQYSESMVYSKSQISSAL--NVNAKVL----ENSL  207
+
+Query  151  NVEEGXVA--RQSGFYVKFYQTSFTLDXDVPN--GSLVKD----NNFDSEGIE----PVY  198
+             V+   VA   +    + + Q  +T+  D+P     L  D    N+   +G+     P+ 
+Sbjct  208  GVDFNAVANNEKKVMILAYKQIFYTVSADLPKNPSDLFDDSVTFNDLKQKGVSNEAPPLM  267
+
+Query  199  VSSISYGRXGILAIETNEKAEDAKRIINETFNKLFYKKQTNFSQEEKSFIEGADFNLYLV  258
+            VS+++YGR   + +ET   ++D    +   F  L        SQ+ K   E + F   ++
+Sbjct  268  VSNVAYGRTIYVKLETTSSSKD----VQAAFKALIKNTDIKNSQQYKDIYENSSFTAVVL  323
+
+Query  259  GGDGS----TASQSFKGYEAFVNHVSQGTFSKDQPGVPIFCSYSYLKDNSPVKTKFKFD  313
+            GGD        ++ F      +      TFS   P  PI  +  +LKDNS      K D
+Sbjct  324  GGDAQEHNKVVTKDFDEIRKVIK--DNATFSTKNPAYPISYTSVFLKDNSVAAVHNKTD  380
+
+
+> sp|P31830|TACY_LISSE Seeligeriolysin OS=Listeria seeligeri OX=1640 
+GN=lso PE=1 SV=1
+Length=530
+
+ Score = 55.1 bits (131),  Expect = 8e-07, Method: Compositional matrix adjust.
+ Identities = 62/287 (22%), Positives = 121/287 (42%), Gaps = 29/287 (10%)
+
+Query  38   VLNHLNRYVFPGSLLXGNSIQDLNYKPVF-ASLNPITVSLSIPAINQ-NTAITITNPSLS  95
+            V+N ++   +PG+L+  N     N   V     + +T+S+ +P + + +  I + NP+ S
+Sbjct  118  VINAISSLTYPGALVKANRELVENQPNVLPVKRDSLTLSVDLPGMTKKDNKIFVKNPTKS  177
+
+Query  96   ATRAAVYNYLKTAD--FTQ-----NGQLSYSIQQFSSYDELKVAFGSNVNSRNLFGKNSS  148
+                AV   ++  +  +++     N ++ YS +   S  +L   FG+   + N    NS 
+Sbjct  178  NVNNAVNTLVERWNDKYSKAYPNINAKIDYSDEMAYSESQLIAKFGTAFKAVN----NSL  233
+
+Query  149  STNVEEGXVARQSGFYVKFYQTSFTLDXDVPN------GSLVKDNNFDSEGIE----PVY  198
+            + N E     +     + F Q  + ++ + P       G  V     D+ G+     P Y
+Sbjct  234  NVNFEAISDGKVQEEVISFKQIYYNINVNEPTSPSKFFGGSVTKEQLDALGVNAENPPAY  293
+
+Query  199  VSSISYGRXGILAIETNEKAEDAKRIINETFNKLFYKKQTNFSQEEKSFIEGADFNLYLV  258
+            +SS++YGR   + + ++  +   K      F      K      E  + I+ + F   + 
+Sbjct  294  ISSVAYGRQVYVKLSSSSHSNKVKT----AFEAAMSGKSVKGDVELTNIIKNSSFKAVIY  349
+
+Query  259  GGDGSTASQSFKGYEAFVNHVSQ--GTFSKDQPGVPIFCSYSYLKDN  303
+            GG      +   G    +  + +   T+ ++ PGVPI  + ++LKDN
+Sbjct  350  GGSAKEEVEIIDGNLGELRDILKKGSTYDRENPGVPISYTTNFLKDN  396
+
+
+> sp|Q5XE40|TACY_STRP6 Streptolysin O OS=Streptococcus pyogenes 
+serotype M6 (strain ATCC BAA-946 / MGAS10394) OX=286636 GN=slo 
+PE=3 SV=2
+Length=571
+
+ Score = 52.0 bits (123),  Expect = 8e-06, Method: Compositional matrix adjust.
+ Identities = 57/284 (20%), Positives = 120/284 (42%), Gaps = 25/284 (9%)
+
+Query  38   VLNHLNRYVFPGSLLXGNSIQDLNYKP--VFASLNPITVSLSIPAINQNTAITITNPSLS  95
+            +++ +    +P +L   N     N KP  V    NP  + + +P +     + + +P+ +
+Sbjct  165  IIDSVTDRTYPAALQLANKGFTEN-KPDAVVTKRNPQKIHIDLPGMGDKATVEVNDPTYA  223
+
+Query  96   ATRAAVYNYL-KTADFTQNGQLSYSIQQFSS---YDELKVAFGSNVNSRNLFGKNSSSTN  151
+                A+ N + +  D    G    +  Q++    Y + ++    NVNS+ L G  +   +
+Sbjct  224  NVSTAIDNLVNQWHDNYSGGNTLPARTQYTESMVYSKSQIEAALNVNSKILDG--TLGID  281
+
+Query  152  VEEGXVARQSGFYVKFYQTSFTLDXDVPNGSL------VKDNNFDSEGIE----PVYVSS  201
+             +      +      + Q  +T+  ++PN         V   +   +G+     P++VS+
+Sbjct  282  FKSISKGEKKVMIAAYKQIFYTVSANLPNNPADVFDKSVTFKDLQRKGVSNEAPPLFVSN  341
+
+Query  202  ISYGRXGILAIETNEKAEDAKRIINETFNKLFYKKQTNFSQEEKSFIEGADFNLYLVGGD  261
+            ++YGR   + +ET+ K+ D +   +        K    +S      +E + F   ++GGD
+Sbjct  342  VAYGRTVFVKLETSSKSNDVEAAFSAALKGTDVKTNGKYSD----ILENSSFTAVVLGGD  397
+
+Query  262  GSTASQSF-KGYEAFVNHVSQ-GTFSKDQPGVPIFCSYSYLKDN  303
+             +  ++   K ++   N +    TFS+  P  PI  +  +LK+N
+Sbjct  398  AAEHNKVVTKDFDVIRNVIKDNATFSRKNPAYPISYTSVFLKNN  441
+
+
+> sp|Q54114|TACY_STREQ Streptolysin O OS=Streptococcus dysgalactiae 
+subsp. equisimilis OX=119602 GN=slo PE=3 SV=1
+Length=574
+
+ Score = 51.6 bits (122),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 57/284 (20%), Positives = 119/284 (42%), Gaps = 25/284 (9%)
+
+Query  38   VLNHLNRYVFPGSLLXGNSIQDLNYKP--VFASLNPITVSLSIPAINQNTAITITNPSLS  95
+            +++ +    +P +L   N     N KP  V    NP  + + +P +     + + +P+ +
+Sbjct  168  IIDSVTDRTYPAALQLANKGFTEN-KPDAVVTKRNPQKIHIDLPGMGDKATVEVNDPTYA  226
+
+Query  96   ATRAAVYNYL-KTADFTQNGQLSYSIQQFSS---YDELKVAFGSNVNSRNLFGKNSSSTN  151
+                A+ N + +  D    G    +  Q++    Y + ++    NVNS+ L G  +   +
+Sbjct  227  NVSTAIDNLVNQWHDNYSGGNTLPARTQYTESMVYSKSQIEAALNVNSKILDG--TLGID  284
+
+Query  152  VEEGXVARQSGFYVKFYQTSFTLDXDVPNGSL------VKDNNFDSEGIE----PVYVSS  201
+             +      +      + Q  +T+  ++PN         V       +G+     P++VS+
+Sbjct  285  FKSISKGEKKVMIAAYKQIFYTVSANLPNNPADVFDKSVTLKELQRKGVSNEAPPLFVSN  344
+
+Query  202  ISYGRXGILAIETNEKAEDAKRIINETFNKLFYKKQTNFSQEEKSFIEGADFNLYLVGGD  261
+            ++YGR   + +ET+ K+ D +   +        K    +S      +E + F   ++GGD
+Sbjct  345  VAYGRTVFVKLETSSKSNDVEAAFSAALKGTDVKTNGKYSD----ILENSSFTAVVLGGD  400
+
+Query  262  GSTASQSF-KGYEAFVNHVSQ-GTFSKDQPGVPIFCSYSYLKDN  303
+             +  ++   K ++   N +    TFS+  P  PI  +  +LK+N
+Sbjct  401  AAEHNKVVTKDFDVIRNVIKDNATFSRKNPAYPISYTSVFLKNN  444
+
+
+> sp|Q8P2T7|TACY_STRP8 Streptolysin O OS=Streptococcus pyogenes 
+serotype M18 (strain MGAS8232) OX=186103 GN=slo PE=3 SV=2
+Length=571
+
+ Score = 51.2 bits (121),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 57/284 (20%), Positives = 119/284 (42%), Gaps = 25/284 (9%)
+
+Query  38   VLNHLNRYVFPGSLLXGNSIQDLNYKP--VFASLNPITVSLSIPAINQNTAITITNPSLS  95
+            +++ +    +P +L   N     N KP  V    NP  + + +P +     + + +P+ +
+Sbjct  165  IIDSVTDRTYPAALQLANKGFTEN-KPDAVVTKRNPQKIHIDLPGMGDKATVEVNDPTYA  223
+
+Query  96   ATRAAVYNYL-KTADFTQNGQLSYSIQQFSS---YDELKVAFGSNVNSRNLFGKNSSSTN  151
+                A+ N + +  D    G    +  Q++    Y + ++    NVNS+ L G  +   +
+Sbjct  224  NVSTAIDNLVNQWHDNYSGGNTLPARTQYTESMVYSKSQIEAALNVNSKILDG--TLGID  281
+
+Query  152  VEEGXVARQSGFYVKFYQTSFTLDXDVPNGSL------VKDNNFDSEGIE----PVYVSS  201
+             +      +      + Q  +T+  ++PN         V       +G+     P++VS+
+Sbjct  282  FKSISKGEKKVMIAAYKQIFYTVSANLPNNPADVFDKSVTFKELQRKGVSNEAPPLFVSN  341
+
+Query  202  ISYGRXGILAIETNEKAEDAKRIINETFNKLFYKKQTNFSQEEKSFIEGADFNLYLVGGD  261
+            ++YGR   + +ET+ K+ D +   +        K    +S      +E + F   ++GGD
+Sbjct  342  VAYGRTVFVKLETSSKSNDVEAAFSAALKGTDVKTNGKYSD----ILENSSFTAVVLGGD  397
+
+Query  262  GSTASQSF-KGYEAFVNHVSQ-GTFSKDQPGVPIFCSYSYLKDN  303
+             +  ++   K ++   N +    TFS+  P  PI  +  +LK+N
+Sbjct  398  AAEHNKVVTKDFDVIRNVIKDNATFSRKNPAYPISYTSVFLKNN  441
+
+
+> sp|P0DF97|TACY_STRPQ Streptolysin O OS=Streptococcus pyogenes 
+serotype M3 (strain SSI-1) OX=193567 GN=slo PE=1 SV=1
+Length=571
+
+ Score = 51.2 bits (121),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 57/284 (20%), Positives = 119/284 (42%), Gaps = 25/284 (9%)
+
+Query  38   VLNHLNRYVFPGSLLXGNSIQDLNYKP--VFASLNPITVSLSIPAINQNTAITITNPSLS  95
+            +++ +    +P +L   N     N KP  V    NP  + + +P +     + + +P+ +
+Sbjct  165  IIDSVTDRTYPAALQLANKGFTEN-KPDAVVTKRNPQKIHIDLPGMGDKATVEVNDPTYA  223
+
+Query  96   ATRAAVYNYL-KTADFTQNGQLSYSIQQFSS---YDELKVAFGSNVNSRNLFGKNSSSTN  151
+                A+ N + +  D    G    +  Q++    Y + ++    NVNS+ L G  +   +
+Sbjct  224  NVSTAIDNLVNQWHDNYSGGNTLPARTQYTESMVYSKSQIEAALNVNSKILDG--TLGID  281
+
+Query  152  VEEGXVARQSGFYVKFYQTSFTLDXDVPNGSL------VKDNNFDSEGIE----PVYVSS  201
+             +      +      + Q  +T+  ++PN         V       +G+     P++VS+
+Sbjct  282  FKSISKGEKKVMIAAYKQIFYTVSANLPNNPADVFDKSVTFKELQRKGVSNEAPPLFVSN  341
+
+Query  202  ISYGRXGILAIETNEKAEDAKRIINETFNKLFYKKQTNFSQEEKSFIEGADFNLYLVGGD  261
+            ++YGR   + +ET+ K+ D +   +        K    +S      +E + F   ++GGD
+Sbjct  342  VAYGRTVFVKLETSSKSNDVEAAFSAALKGTDVKTNGKYSD----ILENSSFTAVVLGGD  397
+
+Query  262  GSTASQSF-KGYEAFVNHVSQ-GTFSKDQPGVPIFCSYSYLKDN  303
+             +  ++   K ++   N +    TFS+  P  PI  +  +LK+N
+Sbjct  398  AAEHNKVVTKDFDVIRNVIKDNATFSRKNPAYPISYTSVFLKNN  441
+
+
+> sp|P0DF96|TACY_STRP3 Streptolysin O OS=Streptococcus pyogenes 
+serotype M3 (strain ATCC BAA-595 / MGAS315) OX=198466 GN=slo 
+PE=1 SV=1
+Length=571
+
+ Score = 51.2 bits (121),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 57/284 (20%), Positives = 119/284 (42%), Gaps = 25/284 (9%)
+
+Query  38   VLNHLNRYVFPGSLLXGNSIQDLNYKP--VFASLNPITVSLSIPAINQNTAITITNPSLS  95
+            +++ +    +P +L   N     N KP  V    NP  + + +P +     + + +P+ +
+Sbjct  165  IIDSVTDRTYPAALQLANKGFTEN-KPDAVVTKRNPQKIHIDLPGMGDKATVEVNDPTYA  223
+
+Query  96   ATRAAVYNYL-KTADFTQNGQLSYSIQQFSS---YDELKVAFGSNVNSRNLFGKNSSSTN  151
+                A+ N + +  D    G    +  Q++    Y + ++    NVNS+ L G  +   +
+Sbjct  224  NVSTAIDNLVNQWHDNYSGGNTLPARTQYTESMVYSKSQIEAALNVNSKILDG--TLGID  281
+
+Query  152  VEEGXVARQSGFYVKFYQTSFTLDXDVPNGSL------VKDNNFDSEGIE----PVYVSS  201
+             +      +      + Q  +T+  ++PN         V       +G+     P++VS+
+Sbjct  282  FKSISKGEKKVMIAAYKQIFYTVSANLPNNPADVFDKSVTFKELQRKGVSNEAPPLFVSN  341
+
+Query  202  ISYGRXGILAIETNEKAEDAKRIINETFNKLFYKKQTNFSQEEKSFIEGADFNLYLVGGD  261
+            ++YGR   + +ET+ K+ D +   +        K    +S      +E + F   ++GGD
+Sbjct  342  VAYGRTVFVKLETSSKSNDVEAAFSAALKGTDVKTNGKYSD----ILENSSFTAVVLGGD  397
+
+Query  262  GSTASQSF-KGYEAFVNHVSQ-GTFSKDQPGVPIFCSYSYLKDN  303
+             +  ++   K ++   N +    TFS+  P  PI  +  +LK+N
+Sbjct  398  AAEHNKVVTKDFDVIRNVIKDNATFSRKNPAYPISYTSVFLKNN  441
+
+
+> sp|P0C0I3|TACY_STRP1 Streptolysin O OS=Streptococcus pyogenes 
+serotype M1 OX=301447 GN=slo PE=3 SV=1
+Length=571
+
+ Score = 51.2 bits (121),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 57/284 (20%), Positives = 119/284 (42%), Gaps = 25/284 (9%)
+
+Query  38   VLNHLNRYVFPGSLLXGNSIQDLNYKP--VFASLNPITVSLSIPAINQNTAITITNPSLS  95
+            +++ +    +P +L   N     N KP  V    NP  + + +P +     + + +P+ +
+Sbjct  165  IIDSVTDRTYPAALQLANKGFTEN-KPDAVVTKRNPQKIHIDLPGMGDKATVEVNDPTYA  223
+
+Query  96   ATRAAVYNYL-KTADFTQNGQLSYSIQQFSS---YDELKVAFGSNVNSRNLFGKNSSSTN  151
+                A+ N + +  D    G    +  Q++    Y + ++    NVNS+ L G  +   +
+Sbjct  224  NVSTAIDNLVNQWHDNYSGGNTLPARTQYTESMVYSKSQIEAALNVNSKILDG--TLGID  281
+
+Query  152  VEEGXVARQSGFYVKFYQTSFTLDXDVPNGSL------VKDNNFDSEGIE----PVYVSS  201
+             +      +      + Q  +T+  ++PN         V       +G+     P++VS+
+Sbjct  282  FKSISKGEKKVMIAAYKQIFYTVSANLPNNPADVFDKSVTFKELQRKGVSNEAPPLFVSN  341
+
+Query  202  ISYGRXGILAIETNEKAEDAKRIINETFNKLFYKKQTNFSQEEKSFIEGADFNLYLVGGD  261
+            ++YGR   + +ET+ K+ D +   +        K    +S      +E + F   ++GGD
+Sbjct  342  VAYGRTVFVKLETSSKSNDVEAAFSAALKGTDVKTNGKYSD----ILENSSFTAVVLGGD  397
+
+Query  262  GSTASQSF-KGYEAFVNHVSQ-GTFSKDQPGVPIFCSYSYLKDN  303
+             +  ++   K ++   N +    TFS+  P  PI  +  +LK+N
+Sbjct  398  AAEHNKVVTKDFDVIRNVIKDNATFSRKNPAYPISYTSVFLKNN  441
+
+
+> sp|Q53957|TACY_STRCB Streptolysin O OS=Streptococcus canis OX=1329 
+GN=slo PE=3 SV=1
+Length=574
+
+ Score = 50.1 bits (118),  Expect = 3e-05, Method: Compositional matrix adjust.
+ Identities = 56/284 (20%), Positives = 120/284 (42%), Gaps = 25/284 (9%)
+
+Query  38   VLNHLNRYVFPGSLLXGNSIQDLNYKP--VFASLNPITVSLSIPAINQNTAITITNPSLS  95
+            +++ +    +P +L   N     N KP  V    NP  + + +P +     + + +P+ +
+Sbjct  168  IIDSVTDRTYPAALQLANKGFTEN-KPDAVVTKRNPQKIHIDLPGMGDKATVEVNDPTYA  226
+
+Query  96   ATRAAVYNYL-KTADFTQNGQLSYSIQQFSS---YDELKVAFGSNVNSRNLFGKNSSSTN  151
+                A+ N + +  D    G    +  Q++    Y + ++    NVNS+ L G  +   +
+Sbjct  227  NVSTAIDNLVNQWHDNYSGGNTLPARTQYTESMVYSKSQIEAALNVNSKILDG--TLGID  284
+
+Query  152  VEEGXVARQSGFYVKFYQTSFTLDXDVPNGSL------VKDNNFDSEGIE----PVYVSS  201
+             +      +      + Q  +T+  ++PN         V      ++G+     P++VS+
+Sbjct  285  FKSISKGEKKVMIAAYKQIFYTVSANLPNNPADVFDKSVTFKELQAKGVSNEAPPLFVSN  344
+
+Query  202  ISYGRXGILAIETNEKAEDAKRIINETFNKLFYKKQTNFSQEEKSFIEGADFNLYLVGGD  261
+            ++YGR   + +ET+ K+ D +   +        K    +S      +E + F   ++G D
+Sbjct  345  VAYGRTVFVKLETSSKSNDVEAAFSAALKGTDVKTNGKYSD----ILENSSFTAVVLGAD  400
+
+Query  262  GSTASQSF-KGYEAFVNHV-SQGTFSKDQPGVPIFCSYSYLKDN  303
+             +  ++   K ++   N + +  TFS+  P  PI  +  +LK+N
+Sbjct  401  AAEHNKVVTKDFDVIRNVIKANATFSRKNPAYPISYTSVFLKNN  444
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.133    0.374    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 45382490528
+Results from round 2
+
+
+Query= 6XD4
+
+Length=458
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q0TUS0|TACY_CLOP1 Perfringolysin O OS=Clostridium perfringen...  313     5e-101
+  sp|P0C2E9|TACY_CLOPE Perfringolysin O OS=Clostridium perfringen...  313     7e-101
+  sp|C1KYD5|TACY_LISMC Listeriolysin O OS=Listeria monocytogenes ...  313     2e-100
+  sp|Q724L1|TACY_LISMF Listeriolysin O OS=Listeria monocytogenes ...  312     5e-100
+  sp|P23564|TACY_PAEAL Alveolysin OS=Paenibacillus alvei OX=44250...  311     7e-100
+  sp|B8DGM3|TACY_LISMH Listeriolysin O OS=Listeria monocytogenes ...  312     8e-100
+  sp|Q45105|TACY_BACCE Hemolysin (Fragment) OS=Bacillus cereus OX...  310     1e-99 
+  sp|P13128|TACY_LISMO Listeriolysin O OS=Listeria monocytogenes ...  311     1e-99 
+  sp|D2PAJ7|TACY_LISM2 Listeriolysin O OS=Listeria monocytogenes ...  311     1e-99 
+  sp|D2NZ73|TACY_LISM1 Listeriolysin O OS=Listeria monocytogenes ...  311     1e-99 
+  sp|Q893D9|TACY_CLOTE Tetanolysin OS=Clostridium tetani (strain ...  310     2e-99 
+  sp|P31830|TACY_LISSE Seeligeriolysin OS=Listeria seeligeri OX=1...  309     7e-99 
+  sp|Q5XE40|TACY_STRP6 Streptolysin O OS=Streptococcus pyogenes s...  300     5e-95 
+  sp|Q8P2T7|TACY_STRP8 Streptolysin O OS=Streptococcus pyogenes s...  299     1e-94 
+  sp|P0DF97|TACY_STRPQ Streptolysin O OS=Streptococcus pyogenes s...  299     1e-94 
+  sp|P0DF96|TACY_STRP3 Streptolysin O OS=Streptococcus pyogenes s...  299     1e-94 
+  sp|P0C0I3|TACY_STRP1 Streptolysin O OS=Streptococcus pyogenes s...  299     1e-94 
+  sp|P31831|TACY_LISIV Ivanolysin OS=Listeria ivanovii OX=1638 GN...  297     4e-94 
+  sp|Q54114|TACY_STREQ Streptolysin O OS=Streptococcus dysgalacti...  297     2e-93 
+  sp|Q53957|TACY_STRCB Streptolysin O OS=Streptococcus canis OX=1...  295     5e-93 
+  sp|Q7ZAK5|TACY_STRR6 Pneumolysin OS=Streptococcus pneumoniae (s...  281     1e-88 
+  sp|Q04IN8|TACY_STRP2 Pneumolysin OS=Streptococcus pneumoniae se...  281     1e-88 
+  sp|P0C2J9|TACY_STRPN Pneumolysin OS=Streptococcus pneumoniae se...  279     6e-88 
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|Q0TUS0|TACY_CLOP1 Perfringolysin O OS=Clostridium perfringens 
+(strain ATCC 13124 / DSM 756 / JCM 1290 / NCIMB 6125 / NCTC 
+8237 / Type A) OX=195103 GN=pfo PE=1 SV=1
+Length=500
+
+ Score = 313 bits (803),  Expect = 5e-101, Method: Composition-based stats.
+ Identities = 68/337 (20%), Positives = 130/337 (39%), Gaps = 47/337 (14%)
+
+Query  38   VLNHLNRYVFPGSLLXGNSIQDLN-YKPVFASLNPITVSLSIPAINQNTAITITNPSLSA  96
+            +++ +N   +PG+L   +     N    +     PI +++ +P +    +I + +P+   
+Sbjct  94   IIDSVNDRTYPGALQLADKAFVENRPTILMVKRKPININIDLPGLKGENSIKVDDPTYGK  153
+
+Query  97   TRAAVYNYLKTAD------FTQNGQLSYSIQQFSSYDELKVAFGSNVNSRNLFGKNSSST  150
+               A+   +   +       T   +  YS     S  ++  A   NVN++ L     +S 
+Sbjct  154  VSGAIDELVSKWNEKYSSTHTLPARTQYSESMVYSKSQISSAL--NVNAKVL----ENSL  207
+
+Query  151  NVEEGXVA--RQSGFYVKFYQTSFTLDXDVPNG------SLVKDNNFDSEGIE----PVY  198
+             V+   VA   +    + + Q  +T+  D+P          V  N+   +G+     P+ 
+Sbjct  208  GVDFNAVANNEKKVMILAYKQIFYTVSADLPKNPSDLFDDSVTFNDLKQKGVSNEAPPLM  267
+
+Query  199  VSSISYGRXGILAIETNEKAEDAKRIINETFNKLFYKKQTNFSQEEKSFIEGADFNLYLV  258
+            VS+++YGR   + +ET   ++D        F  L        SQ+ K   E + F   ++
+Sbjct  268  VSNVAYGRTIYVKLETTSSSKDV----QAAFKALIKNTDIKNSQQYKDIYENSSFTAVVL  323
+
+Query  259  GGDGSTASQSF-KGYEAFVNHVS-QGTFSKDQPGVPIFCSYSYLKDNSPVKTKFKFD---  313
+            GGD    ++   K ++     +    TFS   P  PI  +  +LKDNS      K D   
+Sbjct  324  GGDAQEHNKVVTKDFDEIRKVIKDNATFSTKNPAYPISYTSVFLKDNSVAAVHNKTDYIE  383
+
+Query  314  ------------IKRPPLYVKLVKENXKDINFNDPDG  338
+                        +     YV   +    ++++ D +G
+Sbjct  384  TTSTEYSKGKINLDHSGAYVAQFEVAWDEVSY-DKEG  419
+
+
+> sp|P0C2E9|TACY_CLOPE Perfringolysin O OS=Clostridium perfringens 
+(strain 13 / Type A) OX=195102 GN=pfo PE=1 SV=1
+Length=500
+
+ Score = 313 bits (802),  Expect = 7e-101, Method: Composition-based stats.
+ Identities = 68/337 (20%), Positives = 130/337 (39%), Gaps = 47/337 (14%)
+
+Query  38   VLNHLNRYVFPGSLLXGNSIQDLN-YKPVFASLNPITVSLSIPAINQNTAITITNPSLSA  96
+            +++ +N   +PG+L   +     N    +     PI +++ +P +    +I + +P+   
+Sbjct  94   IIDSVNDRTYPGALQLADKAFVENRPTILMVKRKPININIDLPGLKGENSIKVDDPTYGK  153
+
+Query  97   TRAAVYNYLKTAD------FTQNGQLSYSIQQFSSYDELKVAFGSNVNSRNLFGKNSSST  150
+               A+   +   +       T   +  YS     S  ++  A   NVN++ L     +S 
+Sbjct  154  VSGAIDELVSKWNEKYSSTHTLPARTQYSESMVYSKSQISSAL--NVNAKVL----ENSL  207
+
+Query  151  NVEEGXVA--RQSGFYVKFYQTSFTLDXDVPNG------SLVKDNNFDSEGIE----PVY  198
+             V+   VA   +    + + Q  +T+  D+P          V  N+   +G+     P+ 
+Sbjct  208  GVDFNAVANNEKKVMILAYKQIFYTVSADLPKNPSDLFDDSVTFNDLKQKGVSNEAPPLM  267
+
+Query  199  VSSISYGRXGILAIETNEKAEDAKRIINETFNKLFYKKQTNFSQEEKSFIEGADFNLYLV  258
+            VS+++YGR   + +ET   ++D        F  L        SQ+ K   E + F   ++
+Sbjct  268  VSNVAYGRTIYVKLETTSSSKDV----QAAFKALIKNTDIKNSQQYKDIYENSSFTAVVL  323
+
+Query  259  GGDGSTASQSF-KGYEAFVNHVS-QGTFSKDQPGVPIFCSYSYLKDNSPVKTKFKFD---  313
+            GGD    ++   K ++     +    TFS   P  PI  +  +LKDNS      K D   
+Sbjct  324  GGDAQEHNKVVTKDFDEIRKVIKDNATFSTKNPAYPISYTSVFLKDNSVAAVHNKTDYIE  383
+
+Query  314  ------------IKRPPLYVKLVKENXKDINFNDPDG  338
+                        +     YV   +    ++++ D +G
+Sbjct  384  TTSTEYSKGKINLDHSGAYVAQFEVAWDEVSY-DKEG  419
+
+
+> sp|C1KYD5|TACY_LISMC Listeriolysin O OS=Listeria monocytogenes 
+serotype 4b (strain CLIP80459) OX=568819 GN=hly PE=3 SV=1
+Length=529
+
+ Score = 313 bits (802),  Expect = 2e-100, Method: Composition-based stats.
+ Identities = 76/337 (23%), Positives = 135/337 (40%), Gaps = 45/337 (13%)
+
+Query  38   VLNHLNRYVFPGSLLXGNSIQDLNYKPVF-ASLNPITVSLSIPAI-NQNTAITITNPSLS  95
+            V+N ++   +PG+L+  NS    N   V     + +T+S+ +P + NQ+  I + N + S
+Sbjct  117  VVNAISSLTYPGALVKANSELVENQPDVLPVKRDSLTLSIDLPGMTNQDNKIVVKNATKS  176
+
+Query  96   ATRAAVYNYLKTADFTQ-------NGQLSYSIQQFSSYDELKVAFGSNVNSRNLFGKNSS  148
+                AV   ++  +          + ++ Y  +   S  +L   FG+   + N    NS 
+Sbjct  177  NVNNAVNTLVERWNEKYAQAYPNVSAKIDYDDEMAYSESQLIAKFGTAFKAVN----NSL  232
+
+Query  149  STNVEEGXVARQSGFYVKFYQTSFTLDXDVPN------GSLVKDNNFDSEGIE----PVY  198
+            + N       +     + F Q  + ++ + P       G  V      + G+     P Y
+Sbjct  233  NVNFGAISEGKMQEEVISFKQIYYNVNVNEPTRPSRFFGKAVTKEQLQALGVNAENPPAY  292
+
+Query  199  VSSISYGRXGILAIETNEKAEDAKRIINETFNKLFYKKQTNFSQEEKSFIEGADFNLYLV  258
+            +SS++YGR   L + TN  +   K      F+     K  +   E  + I+ + F   + 
+Sbjct  293  ISSVAYGRQVYLKLSTNSHSTKVK----AAFDAAVSGKSVSGDVELTNIIKNSSFKAVIY  348
+
+Query  259  GGDGSTASQSFKGYEAFVNHVSQ--GTFSKDQPGVPIFCSYSYLKDN-------------  303
+            GG      Q   G    +  + +   TF+++ PGVPI  + ++LKDN             
+Sbjct  349  GGSAKDEVQIIDGNLGDLRDILKKGATFNRETPGVPIAYTTNFLKDNELAVIKNNSEYIE  408
+
+Query  304  --SPVKTKFKFDIKRPPLYVKLVKENXKDINFNDPDG  338
+              S   T  K +I     YV     +  +IN+ DP+G
+Sbjct  409  TTSKAYTDGKINIDHSGGYVAQFNISWDEINY-DPEG  444
+
+
+> sp|Q724L1|TACY_LISMF Listeriolysin O OS=Listeria monocytogenes 
+serotype 4b (strain F2365) OX=265669 GN=hly PE=3 SV=1
+Length=529
+
+ Score = 312 bits (799),  Expect = 5e-100, Method: Composition-based stats.
+ Identities = 76/337 (23%), Positives = 135/337 (40%), Gaps = 45/337 (13%)
+
+Query  38   VLNHLNRYVFPGSLLXGNSIQDLNYKPVF-ASLNPITVSLSIPAI-NQNTAITITNPSLS  95
+            V+N ++   +PG+L+  NS    N   V     + +T+S+ +P + NQ+  I + N + S
+Sbjct  117  VVNAISSLTYPGALVKANSELVENQPDVLPVKRDSLTLSIDLPGMTNQDNKIVVKNATKS  176
+
+Query  96   ATRAAVYNYLKTADFTQ-------NGQLSYSIQQFSSYDELKVAFGSNVNSRNLFGKNSS  148
+                AV   ++  +          + ++ Y  +   S  +L   FG+   + N    NS 
+Sbjct  177  NVNNAVNTLVERWNEKYAQAYPNVSAKIDYDDEMAYSESQLIAKFGTAFKAVN----NSL  232
+
+Query  149  STNVEEGXVARQSGFYVKFYQTSFTLDXDVPN------GSLVKDNNFDSEGIE----PVY  198
+            + N       +     + F Q  + ++ + P       G  V      + G+     P Y
+Sbjct  233  NVNFGAISEGKMQEEVISFKQIYYNVNVNEPTRPSRFFGKAVTKEQLQALGVNAENPPAY  292
+
+Query  199  VSSISYGRXGILAIETNEKAEDAKRIINETFNKLFYKKQTNFSQEEKSFIEGADFNLYLV  258
+            +SS++YGR   L + TN  +   K      F+     K  +   E  + I+ + F   + 
+Sbjct  293  ISSVAYGRQVYLKLSTNSHSTKVK----AAFDAAVSGKSVSGDVELTNIIKNSSFKAVIY  348
+
+Query  259  GGDGSTASQSFKGYEAFVNHVSQ--GTFSKDQPGVPIFCSYSYLKDN-------------  303
+            GG      Q   G    +  + +   TF+++ PGVPI  + ++LKDN             
+Sbjct  349  GGSAKDEVQIIDGNLGDLRDILKKGATFNRETPGVPIAYTTNFLKDNELAVIKNNSEYIE  408
+
+Query  304  --SPVKTKFKFDIKRPPLYVKLVKENXKDINFNDPDG  338
+              S   T  K +I     YV     +  +IN+ DP+G
+Sbjct  409  TTSKAYTDGKINIDHSGGYVAQFNISWDEINY-DPEG  444
+
+
+> sp|P23564|TACY_PAEAL Alveolysin OS=Paenibacillus alvei OX=44250 
+GN=alv PE=1 SV=1
+Length=501
+
+ Score = 311 bits (796),  Expect = 7e-100, Method: Composition-based stats.
+ Identities = 70/339 (21%), Positives = 129/339 (38%), Gaps = 51/339 (15%)
+
+Query  38   VLNHLNRYVFPGSLLXGNS-IQDLNYKPVFASLNPITVSLSIPAINQNTAITITNPSLSA  96
+            +++ +    +PG++   N    D     V A+  P+ +S+ +P +     I++ NP+   
+Sbjct  96   IVDSITNRTYPGAIQLANKDFADNQPSLVMAARKPLDISIDLPGLKNENTISVQNPNYGT  155
+
+Query  97   TRAAVYNYLKTA------DFTQNGQLSYSIQQFSSYDELKVAFGSNVNSRNLFGKNSSST  150
+              +A+   + T         T   +L Y+     S +++  A   NVN++ L G    + 
+Sbjct  156  VSSAIDQLVSTWGEKYSSTHTLPARLQYAESMVYSQNQISSAL--NVNAKVLNG----TL  209
+
+Query  151  NVEEGXV--ARQSGFYVKFYQTSFTLDXDVPNG------SLVKDNNFDSEGIE----PVY  198
+             ++   V    +      + Q  +T+   +PN         V       +G+     P+ 
+Sbjct  210  GIDFNAVANGEKKVMVAAYKQIFYTVSAGLPNNPSDLFDDSVTFAELARKGVSNEAPPLM  269
+
+Query  199  VSSISYGRXGILAIETNEKAEDAKRIINETFNKLFYKKQTNFSQEEKSFIEGADFNLYLV  258
+            VS+++YGR   + +ET  K+ D        F  L        S + K   E + F   ++
+Sbjct  270  VSNVAYGRTIYVKLETTSKSNDV----QTAFKLLLNNPSIQASGQYKDIYENSSFTAVVL  325
+
+Query  259  GGDGSTASQ----SFKGYEAFVNHVSQGTFSKDQPGVPIFCSYSYLKDNSPVKTKF----  310
+            GGD  T +Q     F   ++ +   +Q  FS   P  PI  +  +LKDNS          
+Sbjct  326  GGDAQTHNQVVTKDFNVIQSVIKDNAQ--FSSKNPAYPISYTSVFLKDNSIAAVHNNTEY  383
+
+Query  311  -----------KFDIKRPPLYVKLVKENXKDINFNDPDG  338
+                       K  +     YV   +    + ++ D DG
+Sbjct  384  IETKTTEYSKGKIKLDHSGAYVAQFEVYWDEFSY-DADG  421
+
+
+> sp|B8DGM3|TACY_LISMH Listeriolysin O OS=Listeria monocytogenes 
+serotype 4a (strain HCC23) OX=552536 GN=hly PE=3 SV=1
+Length=529
+
+ Score = 312 bits (798),  Expect = 8e-100, Method: Composition-based stats.
+ Identities = 76/337 (23%), Positives = 135/337 (40%), Gaps = 45/337 (13%)
+
+Query  38   VLNHLNRYVFPGSLLXGNSIQDLNYKPVF-ASLNPITVSLSIPAI-NQNTAITITNPSLS  95
+            V+N ++   +PG+L+  NS    N   V     + +T+S+ +P + NQ+  I + N + S
+Sbjct  117  VVNAISSLTYPGALVKANSELVENQPDVLPVKRDSLTLSIDLPGMTNQDNKIVVKNATKS  176
+
+Query  96   ATRAAVYNYLKTADFTQ-------NGQLSYSIQQFSSYDELKVAFGSNVNSRNLFGKNSS  148
+                AV   ++  +          + ++ Y  +   S  +L   FG+   + N    NS 
+Sbjct  177  NVNNAVNTLVERWNEKYAQAYPNVSAKIDYDDEMAYSESQLIAKFGTAFKAVN----NSL  232
+
+Query  149  STNVEEGXVARQSGFYVKFYQTSFTLDXDVPN------GSLVKDNNFDSEGIE----PVY  198
+            + N       +     + F Q  + ++ + P       G  V      + G+     P Y
+Sbjct  233  NVNFGAISEGKMQEEVISFKQIYYNVNVNEPTRPSRFFGKAVTKEQLQALGVNAENPPAY  292
+
+Query  199  VSSISYGRXGILAIETNEKAEDAKRIINETFNKLFYKKQTNFSQEEKSFIEGADFNLYLV  258
+            +SS++YGR   L + TN  +   K      F+     K  +   E  + I+ + F   + 
+Sbjct  293  ISSVAYGRQVYLKLSTNSHSTKVK----AAFDAAVSGKSVSGDVELTNIIKNSSFKAVIY  348
+
+Query  259  GGDGSTASQSFKGYEAFVNHVSQ--GTFSKDQPGVPIFCSYSYLKDN-------------  303
+            GG      Q   G    +  + +   TF+++ PGVPI  + ++LKDN             
+Sbjct  349  GGSAKDEVQIIDGNLGDLRDILKKGATFNRETPGVPIAYTTNFLKDNELAVIKNNSEYIE  408
+
+Query  304  --SPVKTKFKFDIKRPPLYVKLVKENXKDINFNDPDG  338
+              S   T  K +I     YV     +  +IN+ DP+G
+Sbjct  409  TTSKAYTDGKINIDHSGGYVAQFNISWDEINY-DPEG  444
+
+
+> sp|Q45105|TACY_BACCE Hemolysin (Fragment) OS=Bacillus cereus 
+OX=1396 PE=3 SV=1
+Length=485
+
+ Score = 310 bits (793),  Expect = 1e-99, Method: Composition-based stats.
+ Identities = 75/374 (20%), Positives = 145/374 (39%), Gaps = 55/374 (15%)
+
+Query  3    NXARVE--LPVINITSFGTKPSFLNIETKEFESSESV--VLNHLNRYVFPGSLLXGNS-I  57
+            N  +VE  +P  +I S G K   +++     +  +S+  +L+ +    +PG++   N   
+Sbjct  63   NGDKVESFVPKESINSNG-KFVVVDVRKNHLQRHQSIFRLLDSVANRTYPGAVQLANKAF  121
+
+Query  58   QDLNYKPVFASLNPITVSLSIPAINQNTAITITNPSLSATRAAVYNYLKTAD------FT  111
+             D     + A   P+ +S+ +P + +   IT+ NP+      AV + + T +       T
+Sbjct  122  ADNQPSLLVAKRKPLNISIDLPGMRKENTITVQNPTYGNVAGAVDDLVSTWNEKYSATHT  181
+
+Query  112  QNGQLSYSIQQFSSYDELKVAFGSNVNSRNLFGKNSSSTNVEEGXV--ARQSGFYVKFYQ  169
+               ++ Y+     S  + ++A   NVN++ L     +S N++   V    +      + Q
+Sbjct  182  LPARMQYTESMVYS--KAQIASALNVNAKYL----DNSLNIDFNAVANGEKKVMVAAYKQ  235
+
+Query  170  TSFTLDXDVPNGS------LVKDNNFDSEGIE----PVYVSSISYGRXGILAIETNEKAE  219
+              +T+  ++PN         V       +G+     PV VS+++YGR   + +ET  K++
+Sbjct  236  IFYTVSAELPNNPSDLFDNSVTFGELTRKGVSNSAPPVMVSNVAYGRTVYVKLETTSKSK  295
+
+Query  220  DAKRIINETFNKLFYKKQTNFSQEEKSFIEGADFNLYLVGGDGSTAS----QSFKGYEAF  275
+            D        F  L        S + K   E + F   ++GGD    +    + F      
+Sbjct  296  DV----QAAFKALLKNNSVETSGQYKDIFEESTFTAVVLGGDAKEHNKVVTKDFNEIRNI  351
+
+Query  276  VNHVSQGTFSKDQPGVPIFCSYSYLKDNSPVKTKFKFD---------------IKRPPLY  320
+            +   ++ +F    P  PI  + ++LKDN+        D               +     Y
+Sbjct  352  IKDNAELSF--KNPAYPISYTSTFLKDNATAAVHNNTDYIETTTTEYSSAKMTLDHYGAY  409
+
+Query  321  VKLVKENXKDINFN  334
+            V     +     F+
+Sbjct  410  VAQFDVSWDGFTFD  423
+
+
+> sp|P13128|TACY_LISMO Listeriolysin O OS=Listeria monocytogenes 
+serovar 1/2a (strain ATCC BAA-679 / EGD-e) OX=169963 GN=hly 
+PE=1 SV=1
+Length=529
+
+ Score = 311 bits (796),  Expect = 1e-99, Method: Composition-based stats.
+ Identities = 75/337 (22%), Positives = 135/337 (40%), Gaps = 45/337 (13%)
+
+Query  38   VLNHLNRYVFPGSLLXGNSIQDLNYKPVF-ASLNPITVSLSIPAI-NQNTAITITNPSLS  95
+            V+N ++   +PG+L+  NS    N   V     + +T+S+ +P + NQ+  I + N + S
+Sbjct  117  VVNAISSLTYPGALVKANSELVENQPDVLPVKRDSLTLSIDLPGMTNQDNKIVVKNATKS  176
+
+Query  96   ATRAAVYNYLKTADFTQ-------NGQLSYSIQQFSSYDELKVAFGSNVNSRNLFGKNSS  148
+                AV   ++  +          + ++ Y  +   S  +L   FG+   + N    NS 
+Sbjct  177  NVNNAVNTLVERWNEKYAQAYPNVSAKIDYDDEMAYSESQLIAKFGTAFKAVN----NSL  232
+
+Query  149  STNVEEGXVARQSGFYVKFYQTSFTLDXDVPN------GSLVKDNNFDSEGIE----PVY  198
+            + N       +     + F Q  + ++ + P       G  V      + G+     P Y
+Sbjct  233  NVNFGAISEGKMQEEVISFKQIYYNVNVNEPTRPSRFFGKAVTKEQLQALGVNAENPPAY  292
+
+Query  199  VSSISYGRXGILAIETNEKAEDAKRIINETFNKLFYKKQTNFSQEEKSFIEGADFNLYLV  258
+            +SS++YGR   L + TN  +   K      F+     K  +   E  + I+ + F   + 
+Sbjct  293  ISSVAYGRQVYLKLSTNSHSTKVK----AAFDAAVSGKSVSGDVELTNIIKNSSFKAVIY  348
+
+Query  259  GGDGSTASQSFKGYEAFVNHVSQ--GTFSKDQPGVPIFCSYSYLKDN-------------  303
+            GG      Q   G    +  + +   TF+++ PGVPI  + ++LKDN             
+Sbjct  349  GGSAKDEVQIIDGNLGDLRDILKKGATFNRETPGVPIAYTTNFLKDNELAVIKNNSEYIE  408
+
+Query  304  --SPVKTKFKFDIKRPPLYVKLVKENXKDINFNDPDG  338
+              S   T  K +I     YV     +  ++N+ DP+G
+Sbjct  409  TTSKAYTDGKINIDHSGGYVAQFNISWDEVNY-DPEG  444
+
+
+> sp|D2PAJ7|TACY_LISM2 Listeriolysin O OS=Listeria monocytogenes 
+serotype 1/2a (strain 08-5923) OX=637381 GN=hly PE=3 SV=1
+Length=529
+
+ Score = 311 bits (796),  Expect = 1e-99, Method: Composition-based stats.
+ Identities = 75/337 (22%), Positives = 135/337 (40%), Gaps = 45/337 (13%)
+
+Query  38   VLNHLNRYVFPGSLLXGNSIQDLNYKPVF-ASLNPITVSLSIPAI-NQNTAITITNPSLS  95
+            V+N ++   +PG+L+  NS    N   V     + +T+S+ +P + NQ+  I + N + S
+Sbjct  117  VVNAISSLTYPGALVKANSELVENQPDVLPVKRDSLTLSIDLPGMTNQDNKIVVKNATKS  176
+
+Query  96   ATRAAVYNYLKTADFTQ-------NGQLSYSIQQFSSYDELKVAFGSNVNSRNLFGKNSS  148
+                AV   ++  +          + ++ Y  +   S  +L   FG+   + N    NS 
+Sbjct  177  NVNNAVNTLVERWNEKYAQAYPNVSAKIDYDDEMAYSESQLIAKFGTAFKAVN----NSL  232
+
+Query  149  STNVEEGXVARQSGFYVKFYQTSFTLDXDVPN------GSLVKDNNFDSEGIE----PVY  198
+            + N       +     + F Q  + ++ + P       G  V      + G+     P Y
+Sbjct  233  NVNFGAISEGKMQEEVISFKQIYYNVNVNEPTRPSRFFGKAVTKEQLQALGVNAENPPAY  292
+
+Query  199  VSSISYGRXGILAIETNEKAEDAKRIINETFNKLFYKKQTNFSQEEKSFIEGADFNLYLV  258
+            +SS++YGR   L + TN  +   K      F+     K  +   E  + I+ + F   + 
+Sbjct  293  ISSVAYGRQVYLKLSTNSHSTKVK----AAFDAAVSGKSVSGDVELTNIIKNSSFKAVIY  348
+
+Query  259  GGDGSTASQSFKGYEAFVNHVSQ--GTFSKDQPGVPIFCSYSYLKDN-------------  303
+            GG      Q   G    +  + +   TF+++ PGVPI  + ++LKDN             
+Sbjct  349  GGSAKDEVQIIDGNLGDLRDILKKGATFNRETPGVPIAYTTNFLKDNELAVIKNNSEYIE  408
+
+Query  304  --SPVKTKFKFDIKRPPLYVKLVKENXKDINFNDPDG  338
+              S   T  K +I     YV     +  ++N+ DP+G
+Sbjct  409  TTSKAYTDGKINIDHSGGYVAQFNISWDEVNY-DPEG  444
+
+
+> sp|D2NZ73|TACY_LISM1 Listeriolysin O OS=Listeria monocytogenes 
+serotype 1/2a (strain 08-5578) OX=653938 GN=hly PE=3 SV=1
+Length=529
+
+ Score = 311 bits (796),  Expect = 1e-99, Method: Composition-based stats.
+ Identities = 75/337 (22%), Positives = 135/337 (40%), Gaps = 45/337 (13%)
+
+Query  38   VLNHLNRYVFPGSLLXGNSIQDLNYKPVF-ASLNPITVSLSIPAI-NQNTAITITNPSLS  95
+            V+N ++   +PG+L+  NS    N   V     + +T+S+ +P + NQ+  I + N + S
+Sbjct  117  VVNAISSLTYPGALVKANSELVENQPDVLPVKRDSLTLSIDLPGMTNQDNKIVVKNATKS  176
+
+Query  96   ATRAAVYNYLKTADFTQ-------NGQLSYSIQQFSSYDELKVAFGSNVNSRNLFGKNSS  148
+                AV   ++  +          + ++ Y  +   S  +L   FG+   + N    NS 
+Sbjct  177  NVNNAVNTLVERWNEKYAQAYPNVSAKIDYDDEMAYSESQLIAKFGTAFKAVN----NSL  232
+
+Query  149  STNVEEGXVARQSGFYVKFYQTSFTLDXDVPN------GSLVKDNNFDSEGIE----PVY  198
+            + N       +     + F Q  + ++ + P       G  V      + G+     P Y
+Sbjct  233  NVNFGAISEGKMQEEVISFKQIYYNVNVNEPTRPSRFFGKAVTKEQLQALGVNAENPPAY  292
+
+Query  199  VSSISYGRXGILAIETNEKAEDAKRIINETFNKLFYKKQTNFSQEEKSFIEGADFNLYLV  258
+            +SS++YGR   L + TN  +   K      F+     K  +   E  + I+ + F   + 
+Sbjct  293  ISSVAYGRQVYLKLSTNSHSTKVK----AAFDAAVSGKSVSGDVELTNIIKNSSFKAVIY  348
+
+Query  259  GGDGSTASQSFKGYEAFVNHVSQ--GTFSKDQPGVPIFCSYSYLKDN-------------  303
+            GG      Q   G    +  + +   TF+++ PGVPI  + ++LKDN             
+Sbjct  349  GGSAKDEVQIIDGNLGDLRDILKKGATFNRETPGVPIAYTTNFLKDNELAVIKNNSEYIE  408
+
+Query  304  --SPVKTKFKFDIKRPPLYVKLVKENXKDINFNDPDG  338
+              S   T  K +I     YV     +  ++N+ DP+G
+Sbjct  409  TTSKAYTDGKINIDHSGGYVAQFNISWDEVNY-DPEG  444
+
+
+> sp|Q893D9|TACY_CLOTE Tetanolysin OS=Clostridium tetani (strain 
+Massachusetts / E88) OX=212717 GN=CTC_01888 PE=1 SV=1
+Length=527
+
+ Score = 310 bits (795),  Expect = 2e-99, Method: Composition-based stats.
+ Identities = 70/346 (20%), Positives = 144/346 (42%), Gaps = 42/346 (12%)
+
+Query  33   SSESVVLNHLNRYVFPGSLLXGNSIQDLNYKPVFA-SLNPITVSLSIPAINQNTAITITN  91
+            +++  +++ +N   +PG++   N     N   + +    PIT+S+ +P + ++    + +
+Sbjct  115  TADISIIDSINDRTYPGAIQLANRNLMENKPDIISCERKPITISVDLPGMAEDGKKVVNS  174
+
+Query  92   PSLSATRAAVYNYLKTA------DFTQNGQLSYSIQQFSSYDELKVAFGSNVNSRNLFGK  145
+            P+ S+  +A+ + L T        +T   ++SYS     S  +L  A G N  + N    
+Sbjct  175  PTYSSVNSAINSILDTWNSKYSSKYTIPTRMSYSDTMVYSQSQLSAAVGCNFKALN----  230
+
+Query  146  NSSSTNVEEGXVARQSGFYVKFYQTSFTLDXDVPN------GSLVKDNNFDSEGIE----  195
+             + + + +      +    + + Q  +T+  D PN      G  V  +    +GI     
+Sbjct  231  KALNIDFDSIFKGEKKVMLLAYKQIFYTVSVDPPNRPSDLFGDSVTFDELALKGINNNNP  290
+
+Query  196  PVYVSSISYGRXGILAIETNEKAEDAKRIINETFNKLFYKKQTNFSQEEKSFIEGADFNL  255
+            P YVS+++YGR   + +ET  K+   K      F  L   +  + + E K  +  + F  
+Sbjct  291  PAYVSNVAYGRTIYVKLETTSKSSHVK----AAFKALINNQDISSNAEYKDILNQSSFTA  346
+
+Query  256  YLVGGDGSTASQSF-KGYEAFVNHVSQGT-FSKDQPGVPIFCSYSYLKDNSPV-------  306
+             ++GG     ++   K ++   N +   + +S   PG PI  + ++LKDNS         
+Sbjct  347  TVLGGGAQEHNKIITKDFDEIRNIIKNNSVYSPQNPGYPISYTTTFLKDNSIASVNNKTE  406
+
+Query  307  --------KTKFKFDIKRPPLYVKLVKENXKDINFNDPDGGIYDNK  344
+                     T  K  +     YV   +    ++++++    I ++K
+Sbjct  407  YIETTATEYTNGKIVLDHSGAYVAQFQVTWDEVSYDEKGNEIVEHK  452
+
+
+> sp|P31830|TACY_LISSE Seeligeriolysin OS=Listeria seeligeri OX=1640 
+GN=lso PE=1 SV=1
+Length=530
+
+ Score = 309 bits (791),  Expect = 7e-99, Method: Composition-based stats.
+ Identities = 71/344 (21%), Positives = 136/344 (40%), Gaps = 44/344 (13%)
+
+Query  38   VLNHLNRYVFPGSLLXGNSIQDLNYKPVF-ASLNPITVSLSIPAI-NQNTAITITNPSLS  95
+            V+N ++   +PG+L+  N     N   V     + +T+S+ +P +  ++  I + NP+ S
+Sbjct  118  VINAISSLTYPGALVKANRELVENQPNVLPVKRDSLTLSVDLPGMTKKDNKIFVKNPTKS  177
+
+Query  96   ATRAAVYNYLKTADFTQ-------NGQLSYSIQQFSSYDELKVAFGSNVNSRNLFGKNSS  148
+                AV   ++  +          N ++ YS +   S  +L   FG+   + N    NS 
+Sbjct  178  NVNNAVNTLVERWNDKYSKAYPNINAKIDYSDEMAYSESQLIAKFGTAFKAVN----NSL  233
+
+Query  149  STNVEEGXVARQSGFYVKFYQTSFTLDXDVPN------GSLVKDNNFDSEGIE----PVY  198
+            + N E     +     + F Q  + ++ + P       G  V     D+ G+     P Y
+Sbjct  234  NVNFEAISDGKVQEEVISFKQIYYNINVNEPTSPSKFFGGSVTKEQLDALGVNAENPPAY  293
+
+Query  199  VSSISYGRXGILAIETNEKAEDAKRIINETFNKLFYKKQTNFSQEEKSFIEGADFNLYLV  258
+            +SS++YGR   + + ++  +   K      F      K      E  + I+ + F   + 
+Sbjct  294  ISSVAYGRQVYVKLSSSSHSNKVKT----AFEAAMSGKSVKGDVELTNIIKNSSFKAVIY  349
+
+Query  259  GGDGSTASQSFKGYEAFVNHVSQ--GTFSKDQPGVPIFCSYSYLKDN-------------  303
+            GG      +   G    +  + +   T+ ++ PGVPI  + ++LKDN             
+Sbjct  350  GGSAKEEVEIIDGNLGELRDILKKGSTYDRENPGVPISYTTNFLKDNDLAVVKNNSEYIE  409
+
+Query  304  --SPVKTKFKFDIKRPPLYVKLVKENXKDINFNDPDGGIYDNKK  345
+              S   T  K +I     YV     +  ++++++    I  +KK
+Sbjct  410  TTSKSYTDGKINIDHSGGYVAQFNISWDEVSYDENGNEIKVHKK  453
+
+
+> sp|Q5XE40|TACY_STRP6 Streptolysin O OS=Streptococcus pyogenes 
+serotype M6 (strain ATCC BAA-946 / MGAS10394) OX=286636 GN=slo 
+PE=3 SV=2
+Length=571
+
+ Score = 300 bits (769),  Expect = 5e-95, Method: Composition-based stats.
+ Identities = 65/345 (19%), Positives = 133/345 (39%), Gaps = 45/345 (13%)
+
+Query  25   NIETKEFESSESVVLNHLNRYVFPGSLLXGNSIQDLNYKP-VFASLNPITVSLSIPAINQ  83
+            NI T   + S   +++ +    +P +L   N     N    V    NP  + + +P +  
+Sbjct  155  NINTTPVDIS---IIDSVTDRTYPAALQLANKGFTENKPDAVVTKRNPQKIHIDLPGMGD  211
+
+Query  84   NTAITITNPSLSATRAAVYNYLKTAD------FTQNGQLSYSIQQFSSYDELKVAFGSNV  137
+               + + +P+ +    A+ N +           T   +  Y+     S  +++ A   NV
+Sbjct  212  KATVEVNDPTYANVSTAIDNLVNQWHDNYSGGNTLPARTQYTESMVYSKSQIEAAL--NV  269
+
+Query  138  NSRNLFGKNSSSTNVEEGXVARQSGFYVKFYQTSFTLDXDVPNGSL------VKDNNFDS  191
+            NS+ L G  +   + +      +      + Q  +T+  ++PN         V   +   
+Sbjct  270  NSKILDG--TLGIDFKSISKGEKKVMIAAYKQIFYTVSANLPNNPADVFDKSVTFKDLQR  327
+
+Query  192  EGIE----PVYVSSISYGRXGILAIETNEKAEDAKRIINETFNKLFYKKQTNFSQEEKSF  247
+            +G+     P++VS+++YGR   + +ET+ K+ D        F+          + +    
+Sbjct  328  KGVSNEAPPLFVSNVAYGRTVFVKLETSSKSNDV----EAAFSAALKGTDVKTNGKYSDI  383
+
+Query  248  IEGADFNLYLVGGDGSTASQSF-KGYEAFVNHVS-QGTFSKDQPGVPIFCSYSYLKDNSP  305
+            +E + F   ++GGD +  ++   K ++   N +    TFS+  P  PI  +  +LK+N  
+Sbjct  384  LENSSFTAVVLGGDAAEHNKVVTKDFDVIRNVIKDNATFSRKNPAYPISYTSVFLKNNKI  443
+
+Query  306  V---------------KTKFKFDIKRPPLYVKLVKENXKDINFND  335
+                             T  K ++     YV   +    +IN++D
+Sbjct  444  AGVNNRTEYVETTSTEYTSGKINLSHQGAYVAQYEILWDEINYDD  488
+
+
+> sp|Q8P2T7|TACY_STRP8 Streptolysin O OS=Streptococcus pyogenes 
+serotype M18 (strain MGAS8232) OX=186103 GN=slo PE=3 SV=2
+Length=571
+
+ Score = 299 bits (766),  Expect = 1e-94, Method: Composition-based stats.
+ Identities = 65/345 (19%), Positives = 132/345 (38%), Gaps = 45/345 (13%)
+
+Query  25   NIETKEFESSESVVLNHLNRYVFPGSLLXGNSIQDLNYKP-VFASLNPITVSLSIPAINQ  83
+            NI T   + S   +++ +    +P +L   N     N    V    NP  + + +P +  
+Sbjct  155  NINTTPVDIS---IIDSVTDRTYPAALQLANKGFTENKPDAVVTKRNPQKIHIDLPGMGD  211
+
+Query  84   NTAITITNPSLSATRAAVYNYLKTAD------FTQNGQLSYSIQQFSSYDELKVAFGSNV  137
+               + + +P+ +    A+ N +           T   +  Y+     S  +++ A   NV
+Sbjct  212  KATVEVNDPTYANVSTAIDNLVNQWHDNYSGGNTLPARTQYTESMVYSKSQIEAAL--NV  269
+
+Query  138  NSRNLFGKNSSSTNVEEGXVARQSGFYVKFYQTSFTLDXDVPNGSL------VKDNNFDS  191
+            NS+ L G  +   + +      +      + Q  +T+  ++PN         V       
+Sbjct  270  NSKILDG--TLGIDFKSISKGEKKVMIAAYKQIFYTVSANLPNNPADVFDKSVTFKELQR  327
+
+Query  192  EGIE----PVYVSSISYGRXGILAIETNEKAEDAKRIINETFNKLFYKKQTNFSQEEKSF  247
+            +G+     P++VS+++YGR   + +ET+ K+ D        F+          + +    
+Sbjct  328  KGVSNEAPPLFVSNVAYGRTVFVKLETSSKSNDV----EAAFSAALKGTDVKTNGKYSDI  383
+
+Query  248  IEGADFNLYLVGGDGSTASQSF-KGYEAFVNHVS-QGTFSKDQPGVPIFCSYSYLKDNSP  305
+            +E + F   ++GGD +  ++   K ++   N +    TFS+  P  PI  +  +LK+N  
+Sbjct  384  LENSSFTAVVLGGDAAEHNKVVTKDFDVIRNVIKDNATFSRKNPAYPISYTSVFLKNNKI  443
+
+Query  306  V---------------KTKFKFDIKRPPLYVKLVKENXKDINFND  335
+                             T  K ++     YV   +    +IN++D
+Sbjct  444  AGVNNRTEYVETTSTEYTSGKINLSHRGAYVAQYEILWDEINYDD  488
+
+
+> sp|P0DF97|TACY_STRPQ Streptolysin O OS=Streptococcus pyogenes 
+serotype M3 (strain SSI-1) OX=193567 GN=slo PE=1 SV=1
+Length=571
+
+ Score = 299 bits (766),  Expect = 1e-94, Method: Composition-based stats.
+ Identities = 65/345 (19%), Positives = 132/345 (38%), Gaps = 45/345 (13%)
+
+Query  25   NIETKEFESSESVVLNHLNRYVFPGSLLXGNSIQDLNYKP-VFASLNPITVSLSIPAINQ  83
+            NI T   + S   +++ +    +P +L   N     N    V    NP  + + +P +  
+Sbjct  155  NINTTPVDIS---IIDSVTDRTYPAALQLANKGFTENKPDAVVTKRNPQKIHIDLPGMGD  211
+
+Query  84   NTAITITNPSLSATRAAVYNYLKTAD------FTQNGQLSYSIQQFSSYDELKVAFGSNV  137
+               + + +P+ +    A+ N +           T   +  Y+     S  +++ A   NV
+Sbjct  212  KATVEVNDPTYANVSTAIDNLVNQWHDNYSGGNTLPARTQYTESMVYSKSQIEAAL--NV  269
+
+Query  138  NSRNLFGKNSSSTNVEEGXVARQSGFYVKFYQTSFTLDXDVPNGSL------VKDNNFDS  191
+            NS+ L G  +   + +      +      + Q  +T+  ++PN         V       
+Sbjct  270  NSKILDG--TLGIDFKSISKGEKKVMIAAYKQIFYTVSANLPNNPADVFDKSVTFKELQR  327
+
+Query  192  EGIE----PVYVSSISYGRXGILAIETNEKAEDAKRIINETFNKLFYKKQTNFSQEEKSF  247
+            +G+     P++VS+++YGR   + +ET+ K+ D        F+          + +    
+Sbjct  328  KGVSNEAPPLFVSNVAYGRTVFVKLETSSKSNDV----EAAFSAALKGTDVKTNGKYSDI  383
+
+Query  248  IEGADFNLYLVGGDGSTASQSF-KGYEAFVNHVS-QGTFSKDQPGVPIFCSYSYLKDNSP  305
+            +E + F   ++GGD +  ++   K ++   N +    TFS+  P  PI  +  +LK+N  
+Sbjct  384  LENSSFTAVVLGGDAAEHNKVVTKDFDVIRNVIKDNATFSRKNPAYPISYTSVFLKNNKI  443
+
+Query  306  V---------------KTKFKFDIKRPPLYVKLVKENXKDINFND  335
+                             T  K ++     YV   +    +IN++D
+Sbjct  444  AGVNNRTEYVETTSTEYTSGKINLSHQGAYVAQYEILWDEINYDD  488
+
+
+> sp|P0DF96|TACY_STRP3 Streptolysin O OS=Streptococcus pyogenes 
+serotype M3 (strain ATCC BAA-595 / MGAS315) OX=198466 GN=slo 
+PE=1 SV=1
+Length=571
+
+ Score = 299 bits (766),  Expect = 1e-94, Method: Composition-based stats.
+ Identities = 65/345 (19%), Positives = 132/345 (38%), Gaps = 45/345 (13%)
+
+Query  25   NIETKEFESSESVVLNHLNRYVFPGSLLXGNSIQDLNYKP-VFASLNPITVSLSIPAINQ  83
+            NI T   + S   +++ +    +P +L   N     N    V    NP  + + +P +  
+Sbjct  155  NINTTPVDIS---IIDSVTDRTYPAALQLANKGFTENKPDAVVTKRNPQKIHIDLPGMGD  211
+
+Query  84   NTAITITNPSLSATRAAVYNYLKTAD------FTQNGQLSYSIQQFSSYDELKVAFGSNV  137
+               + + +P+ +    A+ N +           T   +  Y+     S  +++ A   NV
+Sbjct  212  KATVEVNDPTYANVSTAIDNLVNQWHDNYSGGNTLPARTQYTESMVYSKSQIEAAL--NV  269
+
+Query  138  NSRNLFGKNSSSTNVEEGXVARQSGFYVKFYQTSFTLDXDVPNGSL------VKDNNFDS  191
+            NS+ L G  +   + +      +      + Q  +T+  ++PN         V       
+Sbjct  270  NSKILDG--TLGIDFKSISKGEKKVMIAAYKQIFYTVSANLPNNPADVFDKSVTFKELQR  327
+
+Query  192  EGIE----PVYVSSISYGRXGILAIETNEKAEDAKRIINETFNKLFYKKQTNFSQEEKSF  247
+            +G+     P++VS+++YGR   + +ET+ K+ D        F+          + +    
+Sbjct  328  KGVSNEAPPLFVSNVAYGRTVFVKLETSSKSNDV----EAAFSAALKGTDVKTNGKYSDI  383
+
+Query  248  IEGADFNLYLVGGDGSTASQSF-KGYEAFVNHVS-QGTFSKDQPGVPIFCSYSYLKDNSP  305
+            +E + F   ++GGD +  ++   K ++   N +    TFS+  P  PI  +  +LK+N  
+Sbjct  384  LENSSFTAVVLGGDAAEHNKVVTKDFDVIRNVIKDNATFSRKNPAYPISYTSVFLKNNKI  443
+
+Query  306  V---------------KTKFKFDIKRPPLYVKLVKENXKDINFND  335
+                             T  K ++     YV   +    +IN++D
+Sbjct  444  AGVNNRTEYVETTSTEYTSGKINLSHQGAYVAQYEILWDEINYDD  488
+
+
+> sp|P0C0I3|TACY_STRP1 Streptolysin O OS=Streptococcus pyogenes 
+serotype M1 OX=301447 GN=slo PE=3 SV=1
+Length=571
+
+ Score = 299 bits (766),  Expect = 1e-94, Method: Composition-based stats.
+ Identities = 65/345 (19%), Positives = 132/345 (38%), Gaps = 45/345 (13%)
+
+Query  25   NIETKEFESSESVVLNHLNRYVFPGSLLXGNSIQDLNYKP-VFASLNPITVSLSIPAINQ  83
+            NI T   + S   +++ +    +P +L   N     N    V    NP  + + +P +  
+Sbjct  155  NINTTPVDIS---IIDSVTDRTYPAALQLANKGFTENKPDAVVTKRNPQKIHIDLPGMGD  211
+
+Query  84   NTAITITNPSLSATRAAVYNYLKTAD------FTQNGQLSYSIQQFSSYDELKVAFGSNV  137
+               + + +P+ +    A+ N +           T   +  Y+     S  +++ A   NV
+Sbjct  212  KATVEVNDPTYANVSTAIDNLVNQWHDNYSGGNTLPARTQYTESMVYSKSQIEAAL--NV  269
+
+Query  138  NSRNLFGKNSSSTNVEEGXVARQSGFYVKFYQTSFTLDXDVPNGSL------VKDNNFDS  191
+            NS+ L G  +   + +      +      + Q  +T+  ++PN         V       
+Sbjct  270  NSKILDG--TLGIDFKSISKGEKKVMIAAYKQIFYTVSANLPNNPADVFDKSVTFKELQR  327
+
+Query  192  EGIE----PVYVSSISYGRXGILAIETNEKAEDAKRIINETFNKLFYKKQTNFSQEEKSF  247
+            +G+     P++VS+++YGR   + +ET+ K+ D        F+          + +    
+Sbjct  328  KGVSNEAPPLFVSNVAYGRTVFVKLETSSKSNDV----EAAFSAALKGTDVKTNGKYSDI  383
+
+Query  248  IEGADFNLYLVGGDGSTASQSF-KGYEAFVNHVS-QGTFSKDQPGVPIFCSYSYLKDNSP  305
+            +E + F   ++GGD +  ++   K ++   N +    TFS+  P  PI  +  +LK+N  
+Sbjct  384  LENSSFTAVVLGGDAAEHNKVVTKDFDVIRNVIKDNATFSRKNPAYPISYTSVFLKNNKI  443
+
+Query  306  V---------------KTKFKFDIKRPPLYVKLVKENXKDINFND  335
+                             T  K ++     YV   +    +IN++D
+Sbjct  444  AGVNNRTEYVETTSTEYTSGKINLSHQGAYVAQYEILWDEINYDD  488
+
+
+> sp|P31831|TACY_LISIV Ivanolysin OS=Listeria ivanovii OX=1638 
+GN=ilo PE=3 SV=1
+Length=528
+
+ Score = 297 bits (759),  Expect = 4e-94, Method: Composition-based stats.
+ Identities = 72/346 (21%), Positives = 135/346 (39%), Gaps = 48/346 (14%)
+
+Query  38   VLNHLNRYVFPGSLLXGNSIQDLNYKPVF-ASLNPITVSLSIPAI-NQNTAITITNPSLS  95
+            V+N L    +PG+L+  NS    N   V     + +T+S+ +P + N +  I + N + S
+Sbjct  116  VINSLASLTYPGALVKANSELVENQPDVLPVKRDSVTLSIDLPGMVNHDNEIVVQNATKS  175
+
+Query  96   ATRAAVYNYLKTADFTQN-------GQLSYSIQQFSSYDELKVAFGSNVNSRNLFGKNSS  148
+                 V   +   +   +        ++ Y  +   S  +L   FG+   + N      +
+Sbjct  176  NINDGVNTLVDRWNNKYSEEYPNISAKIDYDQEMAYSESQLVAKFGAAFKAVN------N  229
+
+Query  149  STNVEEGXVARQSGF--YVKFYQTSFTLDXDVPN------GSLVKDNNFDSEGIE----P  196
+            S NV  G ++        + F Q  +T++ + P       G  V   N  + G+     P
+Sbjct  230  SLNVNFGAISEGKVQEEVINFKQIYYTVNVNEPTSPSRFFGKSVTKENLQALGVNAENPP  289
+
+Query  197  VYVSSISYGRXGILAIETNEKAEDAKRIINETFNKLFYKKQTNFSQEEKSFIEGADFNLY  256
+             Y+SS++YGR   + + T+  +   K      F+  F  K      E ++ I+ A F   
+Sbjct  290  AYISSVAYGRDIFVKLSTSSHSTRVK----AAFDTAFKGKSVKGDTELENIIQNASFKAV  345
+
+Query  257  LVGGDGSTASQSFKGYEAFVNHVSQ--GTFSKDQPGVPIFCSYSYLKDN-----------  303
+            + GG      +   G  + +  + +    F K  PGVPI  + ++LKDN           
+Sbjct  346  IYGGSAKDEVEIIDGDLSKLRDILKQGANFDKKNPGVPIAYTTNFLKDNQLAVVKNNSEY  405
+
+Query  304  ----SPVKTKFKFDIKRPPLYVKLVKENXKDINFNDPDGGIYDNKK  345
+                S   +  K ++     YV        +++++     + ++KK
+Sbjct  406  IETTSKAYSDGKINLDHSGAYVARFNVTWDEVSYDANGNEVVEHKK  451
+
+
+> sp|Q54114|TACY_STREQ Streptolysin O OS=Streptococcus dysgalactiae 
+subsp. equisimilis OX=119602 GN=slo PE=3 SV=1
+Length=574
+
+ Score = 297 bits (759),  Expect = 2e-93, Method: Composition-based stats.
+ Identities = 65/345 (19%), Positives = 132/345 (38%), Gaps = 45/345 (13%)
+
+Query  25   NIETKEFESSESVVLNHLNRYVFPGSLLXGNSIQDLNYKP-VFASLNPITVSLSIPAINQ  83
+            NI T   + S   +++ +    +P +L   N     N    V    NP  + + +P +  
+Sbjct  158  NINTTPVDIS---IIDSVTDRTYPAALQLANKGFTENKPDAVVTKRNPQKIHIDLPGMGD  214
+
+Query  84   NTAITITNPSLSATRAAVYNYLKTAD------FTQNGQLSYSIQQFSSYDELKVAFGSNV  137
+               + + +P+ +    A+ N +           T   +  Y+     S  +++ A   NV
+Sbjct  215  KATVEVNDPTYANVSTAIDNLVNQWHDNYSGGNTLPARTQYTESMVYSKSQIEAAL--NV  272
+
+Query  138  NSRNLFGKNSSSTNVEEGXVARQSGFYVKFYQTSFTLDXDVPNGSL------VKDNNFDS  191
+            NS+ L G  +   + +      +      + Q  +T+  ++PN         V       
+Sbjct  273  NSKILDG--TLGIDFKSISKGEKKVMIAAYKQIFYTVSANLPNNPADVFDKSVTLKELQR  330
+
+Query  192  EGIE----PVYVSSISYGRXGILAIETNEKAEDAKRIINETFNKLFYKKQTNFSQEEKSF  247
+            +G+     P++VS+++YGR   + +ET+ K+ D        F+          + +    
+Sbjct  331  KGVSNEAPPLFVSNVAYGRTVFVKLETSSKSNDV----EAAFSAALKGTDVKTNGKYSDI  386
+
+Query  248  IEGADFNLYLVGGDGSTASQSF-KGYEAFVNHVS-QGTFSKDQPGVPIFCSYSYLKDNSP  305
+            +E + F   ++GGD +  ++   K ++   N +    TFS+  P  PI  +  +LK+N  
+Sbjct  387  LENSSFTAVVLGGDAAEHNKVVTKDFDVIRNVIKDNATFSRKNPAYPISYTSVFLKNNKI  446
+
+Query  306  V---------------KTKFKFDIKRPPLYVKLVKENXKDINFND  335
+                             T  K ++     YV   +    +IN++D
+Sbjct  447  AGVNNRSEYVETTSTEYTSGKINLSHQGAYVAQYEILWDEINYDD  491
+
+
+> sp|Q53957|TACY_STRCB Streptolysin O OS=Streptococcus canis OX=1329 
+GN=slo PE=3 SV=1
+Length=574
+
+ Score = 295 bits (755),  Expect = 5e-93, Method: Composition-based stats.
+ Identities = 64/345 (19%), Positives = 132/345 (38%), Gaps = 45/345 (13%)
+
+Query  25   NIETKEFESSESVVLNHLNRYVFPGSLLXGNSIQDLNYKP-VFASLNPITVSLSIPAINQ  83
+            NI T   + S   +++ +    +P +L   N     N    V    NP  + + +P +  
+Sbjct  158  NINTTPVDIS---IIDSVTDRTYPAALQLANKGFTENKPDAVVTKRNPQKIHIDLPGMGD  214
+
+Query  84   NTAITITNPSLSATRAAVYNYLKTAD------FTQNGQLSYSIQQFSSYDELKVAFGSNV  137
+               + + +P+ +    A+ N +           T   +  Y+     S  +++ A   NV
+Sbjct  215  KATVEVNDPTYANVSTAIDNLVNQWHDNYSGGNTLPARTQYTESMVYSKSQIEAAL--NV  272
+
+Query  138  NSRNLFGKNSSSTNVEEGXVARQSGFYVKFYQTSFTLDXDVPNGSL------VKDNNFDS  191
+            NS+ L G  +   + +      +      + Q  +T+  ++PN         V      +
+Sbjct  273  NSKILDG--TLGIDFKSISKGEKKVMIAAYKQIFYTVSANLPNNPADVFDKSVTFKELQA  330
+
+Query  192  EGIE----PVYVSSISYGRXGILAIETNEKAEDAKRIINETFNKLFYKKQTNFSQEEKSF  247
+            +G+     P++VS+++YGR   + +ET+ K+ D        F+          + +    
+Sbjct  331  KGVSNEAPPLFVSNVAYGRTVFVKLETSSKSNDV----EAAFSAALKGTDVKTNGKYSDI  386
+
+Query  248  IEGADFNLYLVGGDGSTASQSF-KGYEAFVNHVS-QGTFSKDQPGVPIFCSYSYLKDNSP  305
+            +E + F   ++G D +  ++   K ++   N +    TFS+  P  PI  +  +LK+N  
+Sbjct  387  LENSSFTAVVLGADAAEHNKVVTKDFDVIRNVIKANATFSRKNPAYPISYTSVFLKNNKI  446
+
+Query  306  V---------------KTKFKFDIKRPPLYVKLVKENXKDINFND  335
+                             T  K ++     YV   +    +IN++D
+Sbjct  447  AGVNNRSEYVETTSTEYTSGKINLSHQGAYVAQYEILWDEINYDD  491
+
+
+> sp|Q7ZAK5|TACY_STRR6 Pneumolysin OS=Streptococcus pneumoniae 
+(strain ATCC BAA-255 / R6) OX=171101 GN=ply PE=3 SV=1
+Length=471
+
+ Score = 281 bits (718),  Expect = 1e-88, Method: Composition-based stats.
+ Identities = 77/353 (22%), Positives = 141/353 (40%), Gaps = 51/353 (14%)
+
+Query  23   FLNIETKE----FESSESVVLNHLNRYVFPGSLLXGNSIQDLNYKPVF-ASLNPITVSLS  77
+            F+ IE K+      +S+  V    +  ++PG+LL  +     N   +      P+T S+ 
+Sbjct  43   FVVIERKKRSLSTNTSDISVTATNDSRLYPGALLVVDETLLENNPTLLAVDRAPMTYSID  102
+
+Query  78   IPAI-NQNTAITITNPSLSATRAAVYNYLKTADFTQ------NGQLSYSIQQFSSYDELK  130
+            +P + + ++ + + +PS S+ R AV + L               ++ Y      S ++LK
+Sbjct  103  LPGLASSDSFLQVEDPSNSSVRGAVNDLLAKWHQDYGQVNNVPARMQYEKITAHSMEQLK  162
+
+Query  131  VAFGSNVNSRNLFGKNSSSTNVEEGXV--ARQSGFYVKFYQTSFTLDXDVPNG------S  182
+            V FGS+      F K  +S +++   V    +    V F Q  +T+  D           
+Sbjct  163  VKFGSD------FEKTGNSLDIDFNSVHSGEKQIQIVNFKQIYYTVSVDAVKNPGDVFQD  216
+
+Query  183  LVKDNNFDSEGIEP----VYVSSISYGRXGILAIETNEKAEDAKRIINETFNKLFYKKQT  238
+             V   +    GI      VY+SS++YGR   L +ET  K+++        F  L    + 
+Sbjct  217  TVTVEDLKQRGISAERPLVYISSVAYGRQVYLKLETTSKSDEV----EAAFEALIKGVKV  272
+
+Query  239  NFSQEEKSFIEGADFNLYLVGGDGSTASQSFKGYEAFVNHVSQ--GTFSKDQPGVPIFCS  296
+                E K  ++  +    ++GGD S+ ++   G    V  + Q    F+ D PG+PI  +
+Sbjct  273  APQTEWKQILDNTEVKAVILGGDPSSGARVVTGKVDMVEDLIQEGSRFTADHPGLPISYT  332
+
+Query  297  YSYLKDNSPVKTKFKFD---------------IKRPPLYVKLVKENXKDINFN  334
+             S+L+DN     +   D               +     YV        +++++
+Sbjct  333  TSFLRDNVVATFQNSTDYVETKVTAYRNGDLLLDHSGAYVAQYYITWDELSYD  385
+
+
+> sp|Q04IN8|TACY_STRP2 Pneumolysin OS=Streptococcus pneumoniae 
+serotype 2 (strain D39 / NCTC 7466) OX=373153 GN=ply PE=1 SV=1
+Length=471
+
+ Score = 281 bits (718),  Expect = 1e-88, Method: Composition-based stats.
+ Identities = 77/353 (22%), Positives = 141/353 (40%), Gaps = 51/353 (14%)
+
+Query  23   FLNIETKE----FESSESVVLNHLNRYVFPGSLLXGNSIQDLNYKPVF-ASLNPITVSLS  77
+            F+ IE K+      +S+  V    +  ++PG+LL  +     N   +      P+T S+ 
+Sbjct  43   FVVIERKKRSLSTNTSDISVTATNDSRLYPGALLVVDETLLENNPTLLAVDRAPMTYSID  102
+
+Query  78   IPAI-NQNTAITITNPSLSATRAAVYNYLKTADFTQ------NGQLSYSIQQFSSYDELK  130
+            +P + + ++ + + +PS S+ R AV + L               ++ Y      S ++LK
+Sbjct  103  LPGLASSDSFLQVEDPSNSSVRGAVNDLLAKWHQDYGQVNNVPARMQYEKITAHSMEQLK  162
+
+Query  131  VAFGSNVNSRNLFGKNSSSTNVEEGXV--ARQSGFYVKFYQTSFTLDXDVPNG------S  182
+            V FGS+      F K  +S +++   V    +    V F Q  +T+  D           
+Sbjct  163  VKFGSD------FEKTGNSLDIDFNSVHSGEKQIQIVNFKQIYYTVSVDAVKNPGDVFQD  216
+
+Query  183  LVKDNNFDSEGIEP----VYVSSISYGRXGILAIETNEKAEDAKRIINETFNKLFYKKQT  238
+             V   +    GI      VY+SS++YGR   L +ET  K+++        F  L    + 
+Sbjct  217  TVTVEDLKQRGISAERPLVYISSVAYGRQVYLKLETTSKSDEV----EAAFEALIKGVKV  272
+
+Query  239  NFSQEEKSFIEGADFNLYLVGGDGSTASQSFKGYEAFVNHVSQ--GTFSKDQPGVPIFCS  296
+                E K  ++  +    ++GGD S+ ++   G    V  + Q    F+ D PG+PI  +
+Sbjct  273  APQTEWKQILDNTEVKAVILGGDPSSGARVVTGKVDMVEDLIQEGSRFTADHPGLPISYT  332
+
+Query  297  YSYLKDNSPVKTKFKFD---------------IKRPPLYVKLVKENXKDINFN  334
+             S+L+DN     +   D               +     YV        +++++
+Sbjct  333  TSFLRDNVVATFQNSTDYVETKVTAYRNGDLLLDHSGAYVAQYYITWDELSYD  385
+
+
+> sp|P0C2J9|TACY_STRPN Pneumolysin OS=Streptococcus pneumoniae 
+serotype 4 (strain ATCC BAA-334 / TIGR4) OX=170187 GN=ply PE=1 
+SV=1
+Length=471
+
+ Score = 279 bits (713),  Expect = 6e-88, Method: Composition-based stats.
+ Identities = 77/353 (22%), Positives = 141/353 (40%), Gaps = 51/353 (14%)
+
+Query  23   FLNIETKE----FESSESVVLNHLNRYVFPGSLLXGNSIQDLNYKPVF-ASLNPITVSLS  77
+            F+ IE K+      +S+  V    +  ++PG+LL  +     N   +      P+T S+ 
+Sbjct  43   FVVIERKKRSLSTNTSDISVTATNDSRLYPGALLVVDETLLENNPTLLAVDRAPMTYSID  102
+
+Query  78   IPAI-NQNTAITITNPSLSATRAAVYNYLKTADFTQ------NGQLSYSIQQFSSYDELK  130
+            +P + + ++ + + +PS S+ R AV + L               ++ Y      S ++LK
+Sbjct  103  LPGLASSDSFLQVEDPSNSSVRGAVNDLLAKWHQDYGQVNNVPARMQYEKITAHSMEQLK  162
+
+Query  131  VAFGSNVNSRNLFGKNSSSTNVEEGXV--ARQSGFYVKFYQTSFTLDXDVPNG------S  182
+            V FGS+      F K  +S +++   V    +    V F Q  +T+  D           
+Sbjct  163  VKFGSD------FEKTGNSLDIDFNSVHSGEKQIQIVNFKQIYYTVSVDAVKNPGDVFQD  216
+
+Query  183  LVKDNNFDSEGIEP----VYVSSISYGRXGILAIETNEKAEDAKRIINETFNKLFYKKQT  238
+             V   +    GI      VY+SS++YGR   L +ET  K+++        F  L    + 
+Sbjct  217  TVTVEDLKQRGISAERPLVYISSVAYGRQVYLKLETTSKSDEV----EAAFEALIKGVKV  272
+
+Query  239  NFSQEEKSFIEGADFNLYLVGGDGSTASQSFKGYEAFVNHVSQ--GTFSKDQPGVPIFCS  296
+                E K  ++  +    ++GGD S+ ++   G    V  + Q    F+ D PG+PI  +
+Sbjct  273  APQTEWKQILDNTEVKAVILGGDPSSGARVVTGKVDMVEDLIQEGSRFTADHPGLPISYT  332
+
+Query  297  YSYLKDNSPVKTKFKFD---------------IKRPPLYVKLVKENXKDINFN  334
+             S+L+DN     +   D               +     YV        +++++
+Sbjct  333  TSFLRDNVVATFQNSTDYVETKVTAYRNGDLLLDHSGAYVAQYYITWNELSYD  385
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.130    0.335    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0399    0.140     1.90     42.6     43.6 
+
+Effective search space used: 45382490528
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 28, 2021  3:44 PM
+  Number of letters in database: 202,799,066
+  Number of sequences in database:  563,082
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

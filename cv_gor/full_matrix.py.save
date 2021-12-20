@@ -1,0 +1,24 @@
+import sys
+import numpy as np
+import math
+import os
+import ast
+
+def full_matrix(file):
+	matrix = open(file,"r")
+	m = []
+	s = []
+	for line in matrix:
+		line = line.rstrip()
+		if line != "#":
+			matr = ast.literal_eval(line)
+			m.append(matr)
+	MQ
+	MCC
+	
+	print(m_tot)
+
+if __name__ == "__main__":
+	matrix = (sys.argv[1])
+
+full_matrix(matrix)

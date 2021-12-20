@@ -1,0 +1,3174 @@
+PSIBLAST 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           563,082 sequences; 202,799,066 total letters
+
+Results from round 1
+
+
+Query= 6JYX
+
+Length=291
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|P06653|ALYS_STRPN Autolysin OS=Streptococcus pneumoniae sero...  77.0    6e-15
+  sp|P15057|LYS_BPCP1 Lysozyme OS=Streptococcus phage Cp-1 OX=107...  76.6    1e-14
+  sp|P19386|LYS_BPCP9 Lysozyme OS=Streptococcus phage Cp-9 OX=107...  76.3    2e-14
+  sp|P32762|ALYS_BPHB3 Lytic amidase OS=Streptococcus pneumoniae ...  71.2    6e-13
+  sp|O03979|ALYS_BPDP1 Lysin OS=Pneumococcus phage Dp-1 OX=59241 ...  66.2    3e-11
+  sp|P59205|LYTB_STRPN Putative endo-beta-N-acetylglucosaminidase...  66.2    6e-11
+  sp|P59206|LYTB_STRR6 Putative endo-beta-N-acetylglucosaminidase...  65.1    2e-10
+  sp|P16154|TOXA_CLODI Toxin A OS=Clostridioides difficile OX=149...  64.7    3e-10
+  sp|P18177|TOXB_CLODI Toxin B OS=Clostridioides difficile OX=149...  56.2    2e-07
+  sp|P29336|GTFS_STRDO Glucosyltransferase-S OS=Streptococcus dow...  42.0    0.006
+  sp|P49331|GTFD_STRMU Glucosyltransferase-S OS=Streptococcus mut...  41.6    0.007
+  sp|P08987|GTFB_STRMU Glucosyltransferase-I OS=Streptococcus mut...  41.6    0.008
+
+
+> sp|P06653|ALYS_STRPN Autolysin OS=Streptococcus pneumoniae serotype 
+4 (strain ATCC BAA-334 / TIGR4) OX=170187 GN=lytA PE=1 
+SV=2
+Length=318
+
+ Score = 77.0 bits (188),  Expect = 6e-15, Method: Compositional matrix adjust.
+ Identities = 66/193 (34%), Positives = 95/193 (49%), Gaps = 22/193 (11%)
+
+Query  94   KTKDSVGRKYGEKRKRYYTNYYFNQNHSLETGWLYDQSNWY-YLAKTEINGENYLGERR-  151
+            KT D+ G   G K   Y TN   N NHS       D  + Y YLAK  I+ E +  +   
+Sbjct  120  KTLDT-GSLAGIKTHEYCTNNQPN-NHS-------DHVDPYPYLAKWGISREQFKHDIEN  170
+
+Query  152  -----AGWINDDSTWYYLDPTTGIMQTGWQYLGNKWYYLRSSGAMATGWYQEGT--TWYY  204
+                  GW  +D+ ++Y+       +  ++ +   WYY  SSG M    +++ T   WY+
+Sbjct  171  GLTIETGWQKNDTGYWYVHSDGSYPKDKFEKINGTWYYFDSSGYMLADRWRKHTDGNWYW  230
+
+Query  205  LDHPNGDMKTGWQNLGNKWYYLRSSGAMATGWYQDGSTWYYLNAGNGDMKTGWFQVNGN-  263
+             D+ +G+M TGW+ + +KWYY    GAM TGW +   TWYYL+A  G M +  F  + + 
+Sbjct  231  FDN-SGEMATGWKKIADKWYYFNEEGAMKTGWVKYKDTWYYLDAKEGAMVSNAFIQSADG  289
+
+Query  264  --WYYAYSSGALA  274
+              WYY    G LA
+Sbjct  290  TGWYYLKPDGTLA  302
+
+
+> sp|P15057|LYS_BPCP1 Lysozyme OS=Streptococcus phage Cp-1 OX=10747 
+GN=CPL1 PE=1 SV=2
+Length=339
+
+ Score = 76.6 bits (187),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 45/127 (35%), Positives = 67/127 (53%), Gaps = 3/127 (2%)
+
+Query  154  WINDDSTWYYLDPTTGIMQTGWQYLGNKWYYLRSSG-AMATGWYQEGTTWYYLDHPNGDM  212
+            W  D   W++           W+ +G  WYY  S G  + + W ++   WYYL   NG M
+Sbjct  202  WKQDSKGWWFRRNNGSFPYNKWEKIGGVWYYFDSKGYCLTSEWLKDNEKWYYLKD-NGAM  260
+
+Query  213  KTGWQNLGNKWYYLRSSGAMATGWYQDGSTWYYLNAGNGDMKTGWFQVNGN-WYYAYSSG  271
+             TGW  +G++WYY+  SGAM TGW +  + WYY+    G+M +  F  +G  WY+  ++G
+Sbjct  261  ATGWVLVGSEWYYMDDSGAMVTGWVKYKNNWYYMTNERGNMVSNEFIKSGKGWYFMNTNG  320
+
+Query  272  ALAVNTT  278
+             LA N +
+Sbjct  321  ELADNPS  327
+
+
+ Score = 47.4 bits (111),  Expect = 6e-05, Method: Compositional matrix adjust.
+ Identities = 35/102 (34%), Positives = 52/102 (51%), Gaps = 13/102 (13%)
+
+Query  114  YYFN-QNHSLETGWLYDQSNWYYLAKTEINGENYLGERRAGWINDDSTWYYLDPTTGIMQ  172
+            YYF+ + + L + WL D   WYYL           G    GW+   S WYY+D  +G M 
+Sbjct  231  YYFDSKGYCLTSEWLKDNEKWYYLKDN--------GAMATGWVLVGSEWYYMD-DSGAMV  281
+
+Query  173  TGWQYLGNKWYYLRSS-GAMATG-WYQEGTTWYYLDHPNGDM  212
+            TGW    N WYY+ +  G M +  + + G  WY++ + NG++
+Sbjct  282  TGWVKYKNNWYYMTNERGNMVSNEFIKSGKGWYFM-NTNGEL  322
+
+
+> sp|P19386|LYS_BPCP9 Lysozyme OS=Streptococcus phage Cp-9 OX=10749 
+GN=CPL9 PE=3 SV=1
+Length=339
+
+ Score = 76.3 bits (186),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 45/127 (35%), Positives = 67/127 (53%), Gaps = 3/127 (2%)
+
+Query  154  WINDDSTWYYLDPTTGIMQTGWQYLGNKWYYLRSSG-AMATGWYQEGTTWYYLDHPNGDM  212
+            W  D   W++           W+ +G  WYY  S G  + + W ++   WYYL   NG M
+Sbjct  202  WKQDSKGWWFRRNNGSFPYNKWEKIGGVWYYFDSKGYCLTSEWLKDNEKWYYLKD-NGAM  260
+
+Query  213  KTGWQNLGNKWYYLRSSGAMATGWYQDGSTWYYLNAGNGDMKTGWFQVNGN-WYYAYSSG  271
+             TGW  +G++WYY+  SGAM TGW +  + WYY+    G+M +  F  +G  WY+  ++G
+Sbjct  261  VTGWVLVGSEWYYMDDSGAMVTGWVKYKNNWYYMTNERGNMVSNEFIKSGKGWYFMNTNG  320
+
+Query  272  ALAVNTT  278
+             LA N +
+Sbjct  321  ELADNPS  327
+
+
+ Score = 47.4 bits (111),  Expect = 8e-05, Method: Compositional matrix adjust.
+ Identities = 35/102 (34%), Positives = 52/102 (51%), Gaps = 13/102 (13%)
+
+Query  114  YYFN-QNHSLETGWLYDQSNWYYLAKTEINGENYLGERRAGWINDDSTWYYLDPTTGIMQ  172
+            YYF+ + + L + WL D   WYYL           G    GW+   S WYY+D  +G M 
+Sbjct  231  YYFDSKGYCLTSEWLKDNEKWYYLKDN--------GAMVTGWVLVGSEWYYMD-DSGAMV  281
+
+Query  173  TGWQYLGNKWYYLRSS-GAMATG-WYQEGTTWYYLDHPNGDM  212
+            TGW    N WYY+ +  G M +  + + G  WY++ + NG++
+Sbjct  282  TGWVKYKNNWYYMTNERGNMVSNEFIKSGKGWYFM-NTNGEL  322
+
+
+> sp|P32762|ALYS_BPHB3 Lytic amidase OS=Streptococcus pneumoniae 
+phage HB-3 OX=10728 GN=HBL PE=1 SV=1
+Length=318
+
+ Score = 71.2 bits (173),  Expect = 6e-13, Method: Compositional matrix adjust.
+ Identities = 44/127 (35%), Positives = 67/127 (53%), Gaps = 6/127 (5%)
+
+Query  153  GWINDDSTWYYLDPTTGIMQTGWQYLGNKWYYLRSSGAMATGWYQEGT--TWYYLDHPNG  210
+            GW  + + ++Y+       +  ++ +   WYY   SG M +  +++ T   WYY D  +G
+Sbjct  177  GWQKNGTGYWYVHSDGSYSKDKFEKINGTWYYFDGSGYMLSDRWKKHTDGNWYYFDQ-SG  235
+
+Query  211  DMKTGWQNLGNKWYYLRSSGAMATGWYQDGSTWYYLNAGNGDMKTGWFQVNGN---WYYA  267
+            +M TGW+ + +KWYY    GAM TGW +   TWYYL+A  G M +  F  + +   WYY 
+Sbjct  236  EMATGWKKIADKWYYFDVEGAMKTGWVKYKDTWYYLDAKEGAMVSNAFIQSADGTGWYYL  295
+
+Query  268  YSSGALA  274
+               G LA
+Sbjct  296  KPDGTLA  302
+
+
+> sp|O03979|ALYS_BPDP1 Lysin OS=Pneumococcus phage Dp-1 OX=59241 
+GN=PAL PE=1 SV=1
+Length=296
+
+ Score = 66.2 bits (160),  Expect = 3e-11, Method: Compositional matrix adjust.
+ Identities = 54/193 (28%), Positives = 82/193 (42%), Gaps = 19/193 (10%)
+
+Query  100  GRKYGEKRKRYYTNYYFNQNHSLETGWLYD-------QSNWYYLAKT------EINGENY  146
+            GRK        +T  + + ++ +   + YD          WYY  +         N    
+Sbjct  88   GRKGASAGAGGHTGMFIDSDNIIHCNYAYDGISVNDHDERWYYAGQPYYYVYRLTNANAQ  147
+
+Query  147  LGERRAGWINDDSTWYYLDPTTGIMQTGWQYL--GNKWYYLRSSGAM-ATGWYQEGT-TW  202
+              E++ GW  D + ++Y        +  ++Y+     W+Y    G M A  W +     W
+Sbjct  148  PAEKKLGWQKDATGFWYARANGTYPKDEFEYIEENKSWFYFDDQGYMLAEKWLKHTDGNW  207
+
+Query  203  YYLDHPNGDMKTGWQNLGNKWYYLRSSGAMATGWYQDGSTWYYLNAGNGDMKTGWF-QVN  261
+            Y+ D  +G M T W+ +G  WYY    G+M TGW +    WYY +A NGDMK+  F + N
+Sbjct  208  YWFDR-DGYMATSWKRIGESWYYFNRDGSMVTGWIKYYDNWYYCDATNGDMKSNAFIRYN  266
+
+Query  262  GNWYYAYSSGALA  274
+              WY     G LA
+Sbjct  267  DGWYLLLPDGRLA  279
+
+
+> sp|P59205|LYTB_STRPN Putative endo-beta-N-acetylglucosaminidase 
+OS=Streptococcus pneumoniae serotype 4 (strain ATCC BAA-334 
+/ TIGR4) OX=170187 GN=lytB PE=1 SV=1
+Length=658
+
+ Score = 66.2 bits (160),  Expect = 6e-11, Method: Compositional matrix adjust.
+ Identities = 56/193 (29%), Positives = 89/193 (46%), Gaps = 16/193 (8%)
+
+Query  108  KRYYTNYYFNQNHS-LETGWLYDQSNWYYLAKTEINGENYLGERRAGWINDDSTWYYLDP  166
+            K+Y + +Y  +N +  +  W+++  ++YYL        N        WI D  +W+YL  
+Sbjct  192  KQYQSWFYIKENGNYADKEWIFENGHYYYLKSGGYMAAN-------EWIWDKESWFYLKF  244
+
+Query  167  TTGIMQTGWQYLGNK--WYYLRSSGAM-ATGWYQEGTTWYYLDHPNGDMKTGW--QNLGN  221
+               + +  W Y  +   WYY +S G M A  W  +  +W+YL       +  W   +   
+Sbjct  245  DGKMAEKEWVYDSHSQAWYYFKSGGYMTANEWIWDKESWFYLKSDGKIAEKEWVYDSHSQ  304
+
+Query  222  KWYYLRSSGAM-ATGWYQDGSTWYYLNAGNGDMKTGWF--QVNGNWYYAYSSGALAVNTT  278
+             WYY +S G M A  W  D  +W+YL +     +  W     +  WYY  S G +A N T
+Sbjct  305  AWYYFKSGGYMTANEWIWDKESWFYLKSDGKIAEKEWVYDSHSQAWYYFKSGGYMAKNET  364
+
+Query  279  VDGYSVNYNGEWV  291
+            VDGY +  +G+W+
+Sbjct  365  VDGYQLGSDGKWL  377
+
+
+ Score = 47.8 bits (112),  Expect = 8e-05, Method: Compositional matrix adjust.
+ Identities = 36/136 (26%), Positives = 61/136 (45%), Gaps = 8/136 (6%)
+
+Query  160  TWYYLDPTTGIMQTGWQYLGNKWYYLRSSGAMA-TGWYQEGTTWYYLDHPNGDMKTGWQN  218
+            +W+Y+       +  W   G+ ++YL+S G MA + W ++   +YYLD      +  W  
+Sbjct  53   SWFYIKADANYAENEWLKQGDDYFYLKSGGYMAKSEWVEDKGAFYYLDQDGKMKRNAWVG  112
+
+Query  219  LGNKWYYLRSSGA-MATGWYQDG--STWYYLNAGNGDMKTGWFQVNGNWYYAYSSGALAV  275
+                  Y+ ++GA +   W  D     W+Y+ A     +  W Q+ G  YY  S G L  
+Sbjct  113  TS----YVGATGAKVIEDWVYDSQYDAWFYIKADGQHAEKEWLQIKGKDYYFKSGGYLLT  168
+
+Query  276  NTTVDGYSVNYNGEWV  291
+            +  ++   VN +G  V
+Sbjct  169  SQWINQAYVNASGAKV  184
+
+
+> sp|P59206|LYTB_STRR6 Putative endo-beta-N-acetylglucosaminidase 
+OS=Streptococcus pneumoniae (strain ATCC BAA-255 / R6) OX=171101 
+GN=lytB PE=1 SV=1
+Length=702
+
+ Score = 65.1 bits (157),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 55/179 (31%), Positives = 79/179 (44%), Gaps = 17/179 (9%)
+
+Query  123  ETGWLYDQSN--WYYLAKTEINGENYLGERRAGWINDDSTWYYLDPTTGIMQTGWQYLGN  180
+            E  W+YD  +  WYY         N        WI D  +W+YL     + +  W Y  +
+Sbjct  250  EKEWVYDSHSQAWYYFKSGGYMAAN-------EWIWDKESWFYLKFDGKMAEKEWVYDSH  302
+
+Query  181  K--WYYLRSSGAM-ATGWYQEGTTWYYLDHPNGDMKTGW--QNLGNKWYYLRSSGAM-AT  234
+               WYY +S G M A  W  +  +W+YL       +  W   +    WYY +S G M A 
+Sbjct  303  SQAWYYFKSGGYMTANEWIWDKESWFYLKSDGKIAEKEWVYDSHSQAWYYFKSGGYMTAN  362
+
+Query  235  GWYQDGSTWYYLNAGNGDMKTGWF--QVNGNWYYAYSSGALAVNTTVDGYSVNYNGEWV  291
+             W  D  +W+YL +     +  W     +  WYY  S G +A N TVDGY +  +G+W+
+Sbjct  363  EWIWDKESWFYLKSDGKMAEKEWVYDSHSQAWYYFKSGGYMAKNETVDGYQLGSDGKWL  421
+
+
+ Score = 47.4 bits (111),  Expect = 9e-05, Method: Compositional matrix adjust.
+ Identities = 36/136 (26%), Positives = 61/136 (45%), Gaps = 8/136 (6%)
+
+Query  160  TWYYLDPTTGIMQTGWQYLGNKWYYLRSSGAMA-TGWYQEGTTWYYLDHPNGDMKTGWQN  218
+            +W+Y+       +  W   G+ ++YL+S G MA + W ++   +YYLD      +  W  
+Sbjct  53   SWFYIKADANYAENEWLKQGDDYFYLKSGGYMAKSEWVEDKGAFYYLDQDGKMKRNAWVG  112
+
+Query  219  LGNKWYYLRSSGA-MATGWYQDG--STWYYLNAGNGDMKTGWFQVNGNWYYAYSSGALAV  275
+                  Y+ ++GA +   W  D     W+Y+ A     +  W Q+ G  YY  S G L  
+Sbjct  113  TS----YVGATGAKVIEDWVYDSQYDAWFYIKADGQHAEKEWLQIKGKDYYFKSGGYLLT  168
+
+Query  276  NTTVDGYSVNYNGEWV  291
+            +  ++   VN +G  V
+Sbjct  169  SQWINQAYVNASGAKV  184
+
+
+> sp|P16154|TOXA_CLODI Toxin A OS=Clostridioides difficile OX=1496 
+GN=toxA PE=1 SV=2
+Length=2710
+
+ Score = 64.7 bits (156),  Expect = 3e-10, Method: Compositional matrix adjust.
+ Identities = 78/304 (26%), Positives = 133/304 (44%), Gaps = 48/304 (16%)
+
+Query  3     QFVQENGRTYYKKGDLKE-TYWRVIDGKYYYFDSLSGEMVVGWQYIP-----FPSKGSTI  56
+             +F+  NG+ YY   + K  T WR+I+ + YYF+  +    VG Q I      F    + I
+Sbjct  1925  KFLTLNGKKYYFDNNSKAVTGWRIINNEKYYFNPNNAIAAVGLQVIDNNKYYFNPDTAII  1984
+
+Query  57    GP---YPNGIRLEGFPKSEWYYFDKNGVLQEFVGWKTLEIKTKDSVGRKYGEKRKRYYTN  113
+                    NG R         YYFD +  +  F G+KT++ K                  +
+Sbjct  1985  SKGWQTVNGSR---------YYFDTDTAIA-FNGYKTIDGK------------------H  2016
+
+Query  114   YYFNQNHSLETGWLYDQSNWYYLAKTEINGENYLGER---RAGWINDDSTWYYLDPTTGI  170
+             +YF+ +  ++ G     + + Y A       N  G+    ++ ++  +   YY D  +  
+Sbjct  2017  FYFDSDCVVKIGVFSTSNGFEYFAPANTYNNNIEGQAIVYQSKFLTLNGKKYYFDNNSKA  2076
+
+Query  171   MQTGWQYLGNKWYYLRSSGA-MATGWYQEGTTWYYLDHPNGDMKTGWQNLGNKWYYLRSS  229
+             + TG Q + +K YY  ++ A  ATGW       YY +    +  TGWQ +  K YY  ++
+Sbjct  2077  V-TGLQTIDSKKYYFNTNTAEAATGWQTIDGKKYYFNTNTAEAATGWQTIDGKKYYFNTN  2135
+
+Query  230   GAMA-TGWYQDGSTWYYLNAGNGDMKTGWFQ-VNGNWYYAYSSGALAVNTTVDGYSVNYN  287
+              A+A TG+       +Y N  +G M+ G F+  NG  Y+A ++        ++G ++ Y 
+Sbjct  2136  TAIASTGYTIINGKHFYFNT-DGIMQIGVFKGPNGFEYFAPANTDA---NNIEGQAILYQ  2191
+
+Query  288   GEWV  291
+              E++
+Sbjct  2192  NEFL  2195
+
+
+ Score = 60.5 bits (145),  Expect = 6e-09, Method: Compositional matrix adjust.
+ Identities = 71/274 (26%), Positives = 116/274 (42%), Gaps = 53/274 (19%)
+
+Query  3     QFVQENGRTYYKKGDLKE-TYWRVIDGKYYYFDSLSGEMVVGWQYIPFPSKGSTIGPYPN  61
+             +F+  NG+ YY   D K  T WR+I+ K YYF+  +    +    I              
+Sbjct  2193  EFLTLNGKKYYFGSDSKAVTGWRIINNKKYYFNPNNAIAAIHLCTI--------------  2238
+
+Query  62    GIRLEGFPKSEWYYFDKNGVLQEFVGWKTLEIKTKDSVGRKYGEKRKRYYTNYYFNQNHS  121
+                      ++ YYF  +G+LQ   G+ T+E                    N+YF+ N+ 
+Sbjct  2239  --------NNDKYYFSYDGILQN--GYITIE------------------RNNFYFDANNE  2270
+
+Query  122   --LETGWLYDQSNWYYLAKTEINGENYLGER---RAGWINDDSTWYYLDPTTGIMQTGWQ  176
+               + TG     + + Y A    +  N  G+    +  ++  +   YY D  +  + TGWQ
+Sbjct  2271  SKMVTGVFKGPNGFEYFAPANTHNNNIEGQAIVYQNKFLTLNGKKYYFDNDSKAV-TGWQ  2329
+
+Query  177   YL-GNKWYYLRSSGAMATGWYQEGTTWYYLDHPNGDMKTGWQNLGNKWYYLRSSGAMA-T  234
+              + G K+Y+  ++   ATGW       YY +    +  TGWQ +  K YY  ++  +A T
+Sbjct  2330  TIDGKKYYFNLNTAEAATGWQTIDGKKYYFNLNTAEAATGWQTIDGKKYYFNTNTFIAST  2389
+
+Query  235   GWYQDGSTWYYLNAGNGDMKTGWFQ-VNGNWYYA  267
+             G+       +Y N  +G M+ G F+  NG  Y+A
+Sbjct  2390  GYTSINGKHFYFNT-DGIMQIGVFKGPNGFEYFA  2422
+
+
+ Score = 58.5 bits (140),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 73/289 (25%), Positives = 114/289 (39%), Gaps = 57/289 (20%)
+
+Query  3     QFVQENGRTYYKKGDLKE-TYWRVIDGKYYYFDSLSGEMVVGWQYI-----------PFP  50
+             +F+  NG+ YY   D K  T  R IDGK YYF++ +   V GWQ I              
+Sbjct  2441  KFLTLNGKKYYFGSDSKAVTGLRTIDGKKYYFNTNTAVAVTGWQTINGKKYYFNTNTSIA  2500
+
+Query  51    SKGSTIGPYPNGIRLEGFPKSEWYYFDKNGVLQ--EFVGWKTLEIKTKDSVGRKYGEKRK  108
+             S G TI        + G    + +YF+ +G++Q   F G    E     +      E + 
+Sbjct  2501  STGYTI--------ISG----KHFYFNTDGIMQIGVFKGPDGFEYFAPANTDANNIEGQA  2548
+
+Query  109   RYYTNYYFNQNHSLETGWLYDQSNWYYLAKTEINGENYLGERRAGWINDDSTWYYLDPTT  168
+               Y N +           LY   N YY       G N   +   GW+  D   YY +P T
+Sbjct  2549  IRYQNRF-----------LYLHDNIYYF------GNN--SKAATGWVTIDGNRYYFEPNT  2589
+
+Query  169   GIMQTGWQYLGNKWYYLRSSGAMATGWYQEGTTWYYLDHPNGDM----------KTGWQN  218
+              +   G++ + NK +Y R +G    G ++    + Y    N D           +  + +
+Sbjct  2590  AMGANGYKTIDNKNFYFR-NGLPQIGVFKGSNGFEYFAPANTDANNIEGQAIRYQNRFLH  2648
+
+Query  219   LGNKWYYLRSSGAMATGWYQ-DGSTWYYLNAGNGDMKTGWFQVNGNWYY  266
+             L  K YY  ++    TGW   +G  +Y++         G F+++G  Y+
+Sbjct  2649  LLGKIYYFGNNSKAVTGWQTINGKVYYFMPDTAMAAAGGLFEIDGVIYF  2697
+
+
+ Score = 57.4 bits (137),  Expect = 7e-08, Method: Compositional matrix adjust.
+ Identities = 74/325 (23%), Positives = 121/325 (37%), Gaps = 78/325 (24%)
+
+Query  3     QFVQENGRTYYKKGDLKE-TYWRVIDGKYYYFDSLSGEMVVGWQYIPFPSKGSTIGPYPN  61
+             +F+  NG+ YY   D K  T W+ IDGK YYF+  + E   GWQ I              
+Sbjct  2307  KFLTLNGKKYYFDNDSKAVTGWQTIDGKKYYFNLNTAEAATGWQTI--------------  2352
+
+Query  62    GIRLEGFPKSEWYYFDKNGVLQEFVGWKTLEIKTKDSVGRKYGEKRKRYYT---------  112
+                       + YYF+ N   +   GW+T++       G+KY      +           
+Sbjct  2353  --------DGKKYYFNLNTA-EAATGWQTID-------GKKYYFNTNTFIASTGYTSING  2396
+
+Query  113   -NYYFNQNHSLETGWLYDQSNWYYLAKTEINGENYLGER---RAGWINDDSTWYYLDPTT  168
+              ++YFN +  ++ G     + + Y A    +  N  G+    +  ++  +   YY    +
+Sbjct  2397  KHFYFNTDGIMQIGVFKGPNGFEYFAPANTDANNIEGQAILYQNKFLTLNGKKYYFGSDS  2456
+
+Query  169   GIMQTGWQYLGNKWYYLRSSGAMA-TGWYQEGTTWYYLDHPNGDMKTGWQNLGNKWYYLR  227
+               + TG + +  K YY  ++ A+A TGW       YY +       TG+  +  K +Y  
+Sbjct  2457  KAV-TGLRTIDGKKYYFNTNTAVAVTGWQTINGKKYYFNTNTSIASTGYTIISGKHFYFN  2515
+
+Query  228   SSGAMATGWYQDGSTWYYLNAGNGDMK------------------------------TGW  257
+             + G M  G ++    + Y    N D                                TGW
+Sbjct  2516  TDGIMQIGVFKGPDGFEYFAPANTDANNIEGQAIRYQNRFLYLHDNIYYFGNNSKAATGW  2575
+
+Query  258   FQVNGNWYYAYSSGALAVN--TTVD  280
+               ++GN YY   + A+  N   T+D
+Sbjct  2576  VTIDGNRYYFEPNTAMGANGYKTID  2600
+
+
+ Score = 56.2 bits (134),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 82/345 (24%), Positives = 125/345 (36%), Gaps = 88/345 (26%)
+
+Query  1     GWQFVQENGRTYYKKGDLKETYWRV-IDGKYYYFDSLSGEMVVGWQYIP------FPSKG  53
+             G++ +  + +TYY   D K     + I+   +YFD +   +V GWQ I         + G
+Sbjct  1812  GFKII--DNKTYYYDEDSKLVKGLININNSLFYFDPIEFNLVTGWQTINGKKYYFDINTG  1869
+
+Query  54    STIGPYPNGIRLEGFPKSEWYYFDKNGVLQ--EFVGWKTLE------IKTKDSVGRKYGE  105
+             + +  Y            + +YF+ +GV+Q   F G    E       +  +  G+    
+Sbjct  1870  AALTSYK-------IINGKHFYFNNDGVMQLGVFKGPDGFEYFAPANTQNNNIEGQAIVY  1922
+
+Query  106   KRKRYYTN---YYFNQNHSLETGWLYDQSNWYYLAKTEINGENYLGERRAGWINDDSTWY  162
+             + K    N   YYF+ N    TGW    +  YY      N  N +       I  D+  Y
+Sbjct  1923  QSKFLTLNGKKYYFDNNSKAVTGWRIINNEKYYF-----NPNNAIAAVGLQVI--DNNKY  1975
+
+Query  163   YLDPTTGIMQTGWQYLGNKWYYLRSSGAMATGWYQ-------------------------  197
+             Y +P T I+  GWQ +    YY  +  A+A   Y+                         
+Sbjct  1976  YFNPDTAIISKGWQTVNGSRYYFDTDTAIAFNGYKTIDGKHFYFDSDCVVKIGVFSTSNG  2035
+
+Query  198   --------------EGTTW-------------YYLDHPNGDMKTGWQNLGNKWYYLRSSG  230
+                           EG                YY D+ N    TG Q + +K YY  ++ 
+Sbjct  2036  FEYFAPANTYNNNIEGQAIVYQSKFLTLNGKKYYFDN-NSKAVTGLQTIDSKKYYFNTNT  2094
+
+Query  231   A-MATGWYQDGSTWYYLNAGNGDMKTGWFQVNGNWYYAYSSGALA  274
+             A  ATGW       YY N    +  TGW  ++G  YY  ++ A+A
+Sbjct  2095  AEAATGWQTIDGKKYYFNTNTAEAATGWQTIDGKKYYFNTNTAIA  2139
+
+
+ Score = 50.4 bits (119),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 78/322 (24%), Positives = 123/322 (38%), Gaps = 80/322 (25%)
+
+Query  1     GWQFVQENGRTYY--KKGDLKETYWRVIDGKYYYFDSLSGEMVVGWQYIPFPSKGSTIGP  58
+             GWQ +  +G+ YY      +  T + +I+GK++YF++  G M +G        KG     
+Sbjct  2121  GWQTI--DGKKYYFNTNTAIASTGYTIINGKHFYFNT-DGIMQIGV------FKG-----  2166
+
+Query  59    YPNGIRLEGFPKSEWYYFDKNGVL--QEFVGWKTLEIKTKDSVGRKY--GEKRK-----R  109
+              PNG        ++    +   +L   EF+             G+KY  G   K     R
+Sbjct  2167  -PNGFEYFAPANTDANNIEGQAILYQNEFLTLN----------GKKYYFGSDSKAVTGWR  2215
+
+Query  110   YYTN--YYFNQNHSLETGWLYDQSN-WYYLAKTEINGENYLGERRAGWINDDSTWYYLDP  166
+                N  YYFN N+++    L   +N  YY +        Y G  + G+I  +   +Y D 
+Sbjct  2216  IINNKKYYFNPNNAIAAIHLCTINNDKYYFS--------YDGILQNGYITIERNNFYFDA  2267
+
+Query  167   ------TTGIMQ--TGWQY------------------------LGNKWYYLRSSGAMATG  194
+                    TG+ +   G++Y                        L  K YY  +     TG
+Sbjct  2268  NNESKMVTGVFKGPNGFEYFAPANTHNNNIEGQAIVYQNKFLTLNGKKYYFDNDSKAVTG  2327
+
+Query  195   WYQEGTTWYYLDHPNGDMKTGWQNL-GNKWYYLRSSGAMATGWYQDGSTWYYLNAGNGDM  253
+             W       YY +    +  TGWQ + G K+Y+  ++   ATGW       YY N      
+Sbjct  2328  WQTIDGKKYYFNLNTAEAATGWQTIDGKKYYFNLNTAEAATGWQTIDGKKYYFNTNTFIA  2387
+
+Query  254   KTGWFQVNGNWYYAYSSGALAV  275
+              TG+  +NG  +Y  + G + +
+Sbjct  2388  STGYTSINGKHFYFNTDGIMQI  2409
+
+
+ Score = 47.8 bits (112),  Expect = 9e-05, Method: Compositional matrix adjust.
+ Identities = 48/194 (25%), Positives = 72/194 (37%), Gaps = 56/194 (29%)
+
+Query  153   GWINDDSTWYYLDPTTGIMQTGWQYLGNKWY---------------------YLRSSGAM  191
+             G IN +++ +Y DP    + TGWQ +  K Y                     Y  + G M
+Sbjct  1832  GLININNSLFYFDPIEFNLVTGWQTINGKKYYFDINTGAALTSYKIINGKHFYFNNDGVM  1891
+
+Query  192   ATGWYQ------------------EGTTW-------------YYLDHPNGDMKTGWQNLG  220
+               G ++                  EG                YY D+ N    TGW+ + 
+Sbjct  1892  QLGVFKGPDGFEYFAPANTQNNNIEGQAIVYQSKFLTLNGKKYYFDN-NSKAVTGWRIIN  1950
+
+Query  221   NKWYYLRSSGAM-ATGWYQDGSTWYYLNAGNGDMKTGWFQVNGNWYYAYSSGALAVN--T  277
+             N+ YY   + A+ A G     +  YY N     +  GW  VNG+ YY  +  A+A N   
+Sbjct  1951  NEKYYFNPNNAIAAVGLQVIDNNKYYFNPDTAIISKGWQTVNGSRYYFDTDTAIAFNGYK  2010
+
+Query  278   TVDGYSVNYNGEWV  291
+             T+DG    ++ + V
+Sbjct  2011  TIDGKHFYFDSDCV  2024
+
+
+ Score = 43.5 bits (101),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 30/119 (25%), Positives = 55/119 (46%), Gaps = 4/119 (3%)
+
+Query  174   GWQYLGNKWYYLRSSGAMATGWYQEGTTWYYLDHPNGDMKTGWQNLGNKWYYLR-SSGAM  232
+             G++ + NK YY      +  G      + +Y D    ++ TGWQ +  K YY   ++GA 
+Sbjct  1812  GFKIIDNKTYYYDEDSKLVKGLININNSLFYFDPIEFNLVTGWQTINGKKYYFDINTGAA  1871
+
+Query  233   ATGWYQDGSTWYYLNAGNGDMKTGWFQVNGNWYYAYSSGALAVNTTVDGYSVNYNGEWV  291
+              T +       +Y N  +G M+ G F+  G   + Y + A   N  ++G ++ Y  +++
+Sbjct  1872  LTSYKIINGKHFYFN-NDGVMQLGVFK--GPDGFEYFAPANTQNNNIEGQAIVYQSKFL  1927
+
+
+> sp|P18177|TOXB_CLODI Toxin B OS=Clostridioides difficile OX=1496 
+GN=toxB PE=1 SV=3
+Length=2366
+
+ Score = 56.2 bits (134),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 67/278 (24%), Positives = 124/278 (45%), Gaps = 47/278 (17%)
+
+Query  23    WRVIDGKYYYFDSLSGEMVVGWQYIPFPSKGSTIGPY-----PNGIRLEGFPK--SEWYY  75
+             W+ +DG+ +YF   +G+   G          + IG Y      +G+  +GF       +Y
+Sbjct  1948  WKELDGEMHYFSPETGKAFKGL---------NQIGDYKYYFNSDGVMQKGFVSINDNKHY  1998
+
+Query  76    FDKNGVLQEFVGWKTLEIKTKDSVGRKYGEKRKRYYTNYYFNQNHSLETGWLYDQSNWYY  135
+             FD +GV++  VG+  ++ K                  ++YF +N  ++ G    +  + Y
+Sbjct  1999  FDDSGVMK--VGYTEIDGK------------------HFYFAENGEMQIGVFNTEDGFKY  2038
+
+Query  136   LAKTEINGENYLGERRA--GWINDDSTWYYLDPT-TGIMQTGWQYL--GNKWYYLRSSGA  190
+              A    +  N  GE  +  G +N ++  YY D + T ++  GW+ L  G+K+Y+   +  
+Sbjct  2039  FAHHNEDLGNEEGEEISYSGILNFNNKIYYFDDSFTAVV--GWKDLEDGSKYYFDEDTAE  2096
+
+Query  191   MATGWYQEGTTWYYLDHPNGDMKTGWQNLGNKWYYLRSSGAMATGWYQDGSTWYYLNAGN  250
+                G        YY  + +G M+ G+  + +K +Y   SG + +G       ++Y++  N
+Sbjct  2097  AYIGLSLINDGQYYF-NDDGIMQVGFVTINDKVFYFSDSGIIESGVQNIDDNYFYID-DN  2154
+
+Query  251   GDMKTGWFQVNGNWYYAYSSGALAVNTTVDGYSVNYNG  288
+             G ++ G F  +    Y Y + A  VN  + G +V Y+G
+Sbjct  2155  GIVQIGVFDTSDG--YKYFAPANTVNDNIYGQAVEYSG  2190
+
+
+ Score = 55.5 bits (132),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 43/163 (26%), Positives = 60/163 (37%), Gaps = 23/163 (14%)
+
+Query  113   NYYFNQNHSLETGWLYDQSNWYYLAKTEINGENYLGER----------------------  150
+             NYYFNQ+  L+TG    +  + Y A      EN  GE                       
+Sbjct  1885  NYYFNQSGVLQTGVFSTEDGFKYFAPANTLDENLEGEAIDFTGKLIIDENIYYFDDNYRG  1944
+
+Query  151   RAGWINDDSTWYYLDPTTGIMQTGWQYLGNKWYYLRSSGAMATGWYQEGTTWYYLDHPNG  210
+                W   D   +Y  P TG    G   +G+  YY  S G M  G+       +Y D  +G
+Sbjct  1945  AVEWKELDGEMHYFSPETGKAFKGLNQIGDYKYYFNSDGVMQKGFVSINDNKHYFDD-SG  2003
+
+Query  211   DMKTGWQNLGNKWYYLRSSGAMATGWYQDGSTWYYLNAGNGDM  253
+              MK G+  +  K +Y   +G M  G +     + Y    N D+
+Sbjct  2004  VMKVGYTEIDGKHFYFAENGEMQIGVFNTEDGFKYFAHHNEDL  2046
+
+
+ Score = 51.6 bits (122),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 69/314 (22%), Positives = 118/314 (38%), Gaps = 80/314 (25%)
+
+Query  26    IDGKYYYFDSLSGEMVVGWQYI--------PFPSKGSTIGPYPNGIRLEGFPKSEWYYFD  77
+             I+   YYF      ++ G+  +        P     ++IG        E     + YYF+
+Sbjct  1838  INDSLYYFKPPVNNLITGFVTVGDDKYYFNPINGGAASIG--------ETIIDDKNYYFN  1889
+
+Query  78    KNGVLQEFV-----GWK----------TLEIKTKDSVGRKYGEKRKRYYTNYYFNQNHSL  122
+             ++GVLQ  V     G+K           LE +  D  G+   ++       YYF+ N+  
+Sbjct  1890  QSGVLQTGVFSTEDGFKYFAPANTLDENLEGEAIDFTGKLIIDENI-----YYFDDNYRG  1944
+
+Query  123   ETGWLYDQSNWYYLAKT---EINGENYLGE----------RRAGWINDDSTWYYLDPTTG  169
+                W       +Y +        G N +G+           + G+++ +   +Y D  +G
+Sbjct  1945  AVEWKELDGEMHYFSPETGKAFKGLNQIGDYKYYFNSDGVMQKGFVSINDNKHYFDD-SG  2003
+
+Query  170   IMQTGWQYLGNKWYYLRSSGAMATGWYQEGTTWYYLDHPNGDMK---------TGWQNLG  220
+             +M+ G+  +  K +Y   +G M  G +     + Y  H N D+          +G  N  
+Sbjct  2004  VMKVGYTEIDGKHFYFAENGEMQIGVFNTEDGFKYFAHHNEDLGNEEGEEISYSGILNFN  2063
+
+Query  221   NKWYYLRSSGAMATGW--YQDGSTWYY-------------LNAG------NGDMKTGWFQ  259
+             NK YY   S     GW   +DGS +Y+             +N G      +G M+ G+  
+Sbjct  2064  NKIYYFDDSFTAVVGWKDLEDGSKYYFDEDTAEAYIGLSLINDGQYYFNDDGIMQVGFVT  2123
+
+Query  260   VNGNWYYAYSSGAL  273
+             +N   +Y   SG +
+Sbjct  2124  INDKVFYFSDSGII  2137
+
+
+ Score = 48.5 bits (114),  Expect = 5e-05, Method: Compositional matrix adjust.
+ Identities = 74/291 (25%), Positives = 119/291 (41%), Gaps = 59/291 (20%)
+
+Query  1     GWQFVQENGRTYYKKGDLKETYW---RVIDGKYYYFDSLSGEMVVGWQYIPFPSKG---S  54
+             GW+ + E+G  YY   D  E Y     + DG+YY+ D   G M VG  ++    K    S
+Sbjct  2078  GWKDL-EDGSKYYFDEDTAEAYIGLSLINDGQYYFNDD--GIMQVG--FVTINDKVFYFS  2132
+
+Query  55    TIGPYPNGIRLEGFPKSEWYYFDKNGVLQEFV-----GWKTLEIK--TKDSV---GRKYG  104
+               G   +G++        ++Y D NG++Q  V     G+K         D++     +Y 
+Sbjct  2133  DSGIIESGVQ---NIDDNYFYIDDNGIVQIGVFDTSDGYKYFAPANTVNDNIYGQAVEYS  2189
+
+Query  105   EKRKRYYTNYYFNQNHSLETGWLYDQSNWYYLAKTEINGENYLGERRAGWINDDSTWYYL  164
+                +     YYF + +++ETGW+YD  N                         +S  YY 
+Sbjct  2190  GLVRVGEDVYYFGETYTIETGWIYDMEN-------------------------ESDKYYF  2224
+
+Query  165   DPTTGIMQTGWQYLGNKWYYLRSSGAMATGWYQEGTTWYYLDHPNGDMKTGWQNLGNKWY  224
+             +P T     G   + +  YY    G M TG        YY  + NG+M+ G+ N+ +K +
+Sbjct  2225  NPETKKACKGINLIDDIKYYFDEKGIMRTGLISFENNNYYF-NENGEMQFGYINIEDKMF  2283
+
+Query  225   YLRSSGAMATGWYQ--DGSTWY-YLNAGNGDMK------TGWFQVNGNWYY  266
+             Y    G M  G +   DG  ++ + N  + + +      TGW  ++   YY
+Sbjct  2284  YFGEDGVMQIGVFNTPDGFKYFAHQNTLDENFEGESINYTGWLDLDEKRYY  2334
+
+
+ Score = 42.0 bits (97),  Expect = 0.005, Method: Compositional matrix adjust.
+ Identities = 30/120 (25%), Positives = 55/120 (46%), Gaps = 5/120 (4%)
+
+Query  174   GWQYLGNKWYYLRSSGAMATGWYQEGTTWYYLDHPNGDMKTGWQNLGNKWYYLR--SSGA  231
+             G   L N+ +Y+ + G M +G      + YY   P  ++ TG+  +G+  YY    + GA
+Sbjct  1814  GLVSLYNEKFYINNFGMMVSGLIYINDSLYYFKPPVNNLITGFVTVGDDKYYFNPINGGA  1873
+
+Query  232   MATGWYQDGSTWYYLNAGNGDMKTGWFQVNGNWYYAYSSGALAVNTTVDGYSVNYNGEWV  291
+              + G        YY N   G ++TG F     + Y   +  L  N  ++G ++++ G+ +
+Sbjct  1874  ASIGETIIDDKNYYFNQS-GVLQTGVFSTEDGFKYFAPANTLDEN--LEGEAIDFTGKLI  1930
+
+
+> sp|P29336|GTFS_STRDO Glucosyltransferase-S OS=Streptococcus downei 
+OX=1317 GN=gtfS PE=3 SV=1
+Length=1365
+
+ Score = 42.0 bits (97),  Expect = 0.006, Method: Compositional matrix adjust.
+ Identities = 76/312 (24%), Positives = 124/312 (40%), Gaps = 60/312 (19%)
+
+Query  4     FVQENGRTYY--KKGDLKETYWRVIDGKYYYFDSLSGEMVVGWQYIPFPSKGSTIGPYPN  61
+             F+ +NG  +Y  K G   +  ++ I G +YYFDS  G+M  G   I       T    PN
+Sbjct  1055  FISKNGGIHYLDKNGQEVKNRFKEISGSWYYFDS-DGKMATGKTKI----GNDTYLFMPN  1109
+
+Query  62    GIRL-EG--FPKSEWYYFDKNGVLQEFVGWKTLEIKTKD-----------SVGRKYGEKR  107
+             G +L EG  +   + YY+D NG      G+    +  +D           ++G    + R
+Sbjct  1110  GKQLKEGVWYDGKKAYYYDDNGRTWTNKGFVEFRVDGQDKWRYFNGDGTIAIGLVSLDNR  1169
+
+Query  108   KRYYTNYYFNQNHSLET----GWLYDQSNWYYLAKTEINGENYLGERRAGW-INDDSTWY  162
+               Y+  Y +       T     + +D      +   + +  N   + +AGW +  D+ W 
+Sbjct  1170  TLYFDAYGYQVKGQTVTINGKSYTFDADQGDLV---QTDNANPAPQGQAGWKLLGDNQWG  1226
+
+Query  163   YLDPTTGIMQTGWQYLGNKWYYLRSSGAMATGW-----------------YQEGTTWYYL  205
+             Y     G + TG Q +  +  + + +G    G                  +Q G  WY  
+Sbjct  1227  YR--KDGQLLTGEQTIDGQKVFFQDNGVQVKGGTATDASGVLRFYDRDQGHQVGKGWYST  1284
+
+Query  206   DHPN-------GDMKTGWQNLGNKWYYLRSSGAMATG---WYQDGSTWYYLNAGNGDM-K  254
+                N       G + TG Q +  +  Y    G  A G   W ++G+  Y+ +A +G+M +
+Sbjct  1285  SDDNWVYVNESGQVLTGLQTIDGQTVYFDDKGIQAKGKAVWDENGNLRYF-DADSGNMLR  1343
+
+Query  255   TGWFQVNGNWYY  266
+               W  V+GNWYY
+Sbjct  1344  DRWKNVDGNWYY  1355
+
+
+> sp|P49331|GTFD_STRMU Glucosyltransferase-S OS=Streptococcus mutans 
+serotype c (strain ATCC 700610 / UA159) OX=210007 GN=gtfD 
+PE=3 SV=3
+Length=1462
+
+ Score = 41.6 bits (96),  Expect = 0.007, Method: Compositional matrix adjust.
+ Identities = 89/347 (26%), Positives = 138/347 (40%), Gaps = 94/347 (27%)
+
+Query  4     FVQE-NGRTYYKKG--DLKETYWRVIDGKYYYFDSLSGEMVVGWQYIPFPSKGSTIGPYP  60
+             FV + NG T+Y       K ++ +   G +YYFD+ +G MV G Q++     G       
+Sbjct  1098  FVNDGNGMTFYSTSGYQAKNSFVQDAKGNWYYFDN-NGHMVYGLQHL----NGEVQYFLS  1152
+
+Query  61    NGIRL-EGFPK--------------------------SEWYYFDKNGVLQEFVGWKTLEI  93
+             NG++L E F +                          S+W YFD +GV+   VG KT+  
+Sbjct  1153  NGVQLRESFLENADGSKNYFGHLGNRYSNGYYSFDNDSKWRYFDASGVMA--VGLKTING  1210
+
+Query  94    KTKDSVGRKYGEKRKRYYTNYYFNQN-HSLETGWL--YDQSNWYYLAKTEINGENYLGER  150
+              T+                  YF+Q+ + ++  W+   D    Y+    +    N    R
+Sbjct  1211  NTQ------------------YFDQDGYQVKGAWITGSDGKKRYF----DDGSGNMAVNR  1248
+
+Query  151   RAGWINDDSTWYYLDPTTGIMQTGWQYLGNKWYYLRSSGAMATGWY--QEGTTWYYLDHP  208
+              A   N D  WYYL+ + GI   G Q +  K YY    G    G      G   Y+L + 
+Sbjct  1249  FANDKNGD--WYYLN-SDGIALVGVQTINGKTYYFGQDGKQIKGKIITDNGKLKYFLAN-  1304
+
+Query  209   NGDMKTGW--QNLGNKWYYLRSSGAMATG----------WYQDGS-----------TWYY  245
+             +G++       +  N WYY  S G   TG          +  DG              +Y
+Sbjct  1305  SGELARNIFATDSQNNWYYFGSDGVAVTGSQTIAGKKLYFASDGKQVKGSFVTYNGKVHY  1364
+
+Query  246   LNAGNGDMKTGWFQV--NGNWYYAYSSG-ALAVNTTVDGYSVNYNGE  289
+              +A +G+++   F+   +GNWYY  S+G AL  +  ++G  V +  E
+Sbjct  1365  YHADSGELQVNRFEADKDGNWYYLDSNGEALTGSQRINGQRVFFTRE  1411
+
+
+> sp|P08987|GTFB_STRMU Glucosyltransferase-I OS=Streptococcus mutans 
+serotype c (strain ATCC 700610 / UA159) OX=210007 GN=gtfB 
+PE=3 SV=3
+Length=1476
+
+ Score = 41.6 bits (96),  Expect = 0.008, Method: Compositional matrix adjust.
+ Identities = 55/168 (33%), Positives = 81/168 (48%), Gaps = 23/168 (14%)
+
+Query  142   NGENYLGERRAGWI-NDDSTWYYLD----------PTTGI---MQTGWQYLGNKWYYLRS  187
+             NG N LG R AG++  D +T  Y +          P T +    Q G+ Y G  + Y  +
+Sbjct  1023  NGTNILG-RGAGYVLKDQATNTYFNISDNKEINFLPKTLLNQDSQVGFSYDGKGYVYYST  1081
+
+Query  188   SGAMATGWY-QEGTTWYYLDHPNGDMKTGWQNLGNKWYYLRSSGAM---ATGWYQDGSTW  243
+             SG  A   +  EG  WYY D+ NG M TG Q++    YY  S+G     A    +DG+  
+Sbjct  1082  SGYQAKNTFISEGDKWYYFDN-NGYMVTGAQSINGVNYYFLSNGLQLRDAILKNEDGTYA  1140
+
+Query  244   YYLNAGNGDMKTGWFQ-VNGNWYYAYSSGALAVNTTVDGYSVNYNGEW  290
+             YY N G    + G++Q ++G W + +++G ++V  TV    V Y  E 
+Sbjct  1141  YYGNDGRR-YENGYYQFMSGVWRH-FNNGEMSVGLTVIDGQVQYFDEM  1186
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.137    0.472    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 23823814128
+Results from round 2
+
+
+Query= 6JYX
+
+Length=291
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P16154|TOXA_CLODI Toxin A OS=Clostridioides difficile OX=149...  232     5e-68
+  sp|P18177|TOXB_CLODI Toxin B OS=Clostridioides difficile OX=149...  229     7e-67
+  sp|P06653|ALYS_STRPN Autolysin OS=Streptococcus pneumoniae sero...  159     2e-45
+  sp|P32762|ALYS_BPHB3 Lytic amidase OS=Streptococcus pneumoniae ...  150     4e-42
+  sp|P59205|LYTB_STRPN Putative endo-beta-N-acetylglucosaminidase...  155     2e-41
+  sp|O03979|ALYS_BPDP1 Lysin OS=Pneumococcus phage Dp-1 OX=59241 ...  145     2e-40
+  sp|P15057|LYS_BPCP1 Lysozyme OS=Streptococcus phage Cp-1 OX=107...  138     2e-37
+  sp|P19386|LYS_BPCP9 Lysozyme OS=Streptococcus phage Cp-9 OX=107...  138     3e-37
+  sp|P59206|LYTB_STRR6 Putative endo-beta-N-acetylglucosaminidase...  142     4e-37
+
+Sequences not found previously or not previously below threshold:
+
+  sp|P49331|GTFD_STRMU Glucosyltransferase-S OS=Streptococcus mut...  78.0    1e-14
+  sp|P08987|GTFB_STRMU Glucosyltransferase-I OS=Streptococcus mut...  71.8    1e-12
+  sp|P29336|GTFS_STRDO Glucosyltransferase-S OS=Streptococcus dow...  69.9    5e-12
+  sp|P13470|GTFC_STRMU Glucosyltransferase-SI OS=Streptococcus mu...  69.9    5e-12
+  sp|P11001|GTF1_STRDO Glucosyltransferase-I OS=Streptococcus dow...  63.7    6e-10
+  sp|P27470|GTF2_STRDO Glucosyltransferase-I OS=Streptococcus dow...  61.0    4e-09
+
+
+> sp|P16154|TOXA_CLODI Toxin A OS=Clostridioides difficile OX=1496 
+GN=toxA PE=1 SV=2
+Length=2710
+
+ Score = 232 bits (592),  Expect = 5e-68, Method: Composition-based stats.
+ Identities = 78/304 (26%), Positives = 132/304 (43%), Gaps = 48/304 (16%)
+
+Query  3     QFVQENGRTYYKKGDLKE-TYWRVIDGKYYYFDSLSGEMVVGWQYIP-----FPSKGSTI  56
+             +F+  NG+ YY   + K  T WR+I+ + YYF+  +    VG Q I      F    + I
+Sbjct  1925  KFLTLNGKKYYFDNNSKAVTGWRIINNEKYYFNPNNAIAAVGLQVIDNNKYYFNPDTAII  1984
+
+Query  57    GP---YPNGIRLEGFPKSEWYYFDKNGVLQEFVGWKTLEIKTKDSVGRKYGEKRKRYYTN  113
+                    NG R         YYFD +  +  F G+KT++ K                  +
+Sbjct  1985  SKGWQTVNGSR---------YYFDTDTAIA-FNGYKTIDGK------------------H  2016
+
+Query  114   YYFNQNHSLETGWLYDQSNWYYLAKTEINGENYLGER---RAGWINDDSTWYYLDPTTGI  170
+             +YF+ +  ++ G     + + Y A       N  G+    ++ ++  +   YY D  +  
+Sbjct  2017  FYFDSDCVVKIGVFSTSNGFEYFAPANTYNNNIEGQAIVYQSKFLTLNGKKYYFDNNSKA  2076
+
+Query  171   MQTGWQYLGNKWYYLRSSGA-MATGWYQEGTTWYYLDHPNGDMKTGWQNLGNKWYYLRSS  229
+             + TG Q + +K YY  ++ A  ATGW       YY +    +  TGWQ +  K YY  ++
+Sbjct  2077  V-TGLQTIDSKKYYFNTNTAEAATGWQTIDGKKYYFNTNTAEAATGWQTIDGKKYYFNTN  2135
+
+Query  230   GAMA-TGWYQDGSTWYYLNAGNGDMKTGWFQ-VNGNWYYAYSSGALAVNTTVDGYSVNYN  287
+              A+A TG+       +Y N   G M+ G F+  NG  Y+A ++        ++G ++ Y 
+Sbjct  2136  TAIASTGYTIINGKHFYFNTD-GIMQIGVFKGPNGFEYFAPANTDA---NNIEGQAILYQ  2191
+
+Query  288   GEWV  291
+              E++
+Sbjct  2192  NEFL  2195
+
+
+ Score = 186 bits (473),  Expect = 4e-52, Method: Composition-based stats.
+ Identities = 73/298 (24%), Positives = 124/298 (42%), Gaps = 56/298 (19%)
+
+Query  3     QFVQENGRTYYKKGDLKE-TYWRVIDGKYYYFDSLSGEMVVGWQYIPFPSKGSTIGPYPN  61
+             +F+  NG+ YY   D K  T WR+I+ K YYF+  +    +    I              
+Sbjct  2193  EFLTLNGKKYYFGSDSKAVTGWRIINNKKYYFNPNNAIAAIHLCTI--------------  2238
+
+Query  62    GIRLEGFPKSEWYYFDKNGVLQEFVGWKTLEIKTKDSVGRKYGEKRKRYYTNYYFNQNHS  121
+                      ++ YYF  +G+LQ   G+ T+E                    N+YF+ N+ 
+Sbjct  2239  --------NNDKYYFSYDGILQ--NGYITIE------------------RNNFYFDANNE  2270
+
+Query  122   --LETGWLYDQSNWYYLAKTEINGENYLGER---RAGWINDDSTWYYLDPTTGIMQTGWQ  176
+               + TG     + + Y A    +  N  G+    +  ++  +   YY D  +  + TGWQ
+Sbjct  2271  SKMVTGVFKGPNGFEYFAPANTHNNNIEGQAIVYQNKFLTLNGKKYYFDNDSKAV-TGWQ  2329
+
+Query  177   YLGNKWYYLR-SSGAMATGWYQEGTTWYYLDHPNGDMKTGWQNLGNKWYYLRSSGAMA-T  234
+              +  K YY   ++   ATGW       YY +    +  TGWQ +  K YY  ++  +A T
+Sbjct  2330  TIDGKKYYFNLNTAEAATGWQTIDGKKYYFNLNTAEAATGWQTIDGKKYYFNTNTFIAST  2389
+
+Query  235   GWYQDGSTWYYLNAGNGDMKTGWFQ-VNGNWYYAYSSGALAVNTTVDGYSVNYNGEWV  291
+             G+       +Y N   G M+ G F+  NG  Y+A ++        ++G ++ Y  +++
+Sbjct  2390  GYTSINGKHFYFNTD-GIMQIGVFKGPNGFEYFAPANTDA---NNIEGQAILYQNKFL  2443
+
+
+ Score = 177 bits (449),  Expect = 7e-49, Method: Composition-based stats.
+ Identities = 65/291 (22%), Positives = 107/291 (37%), Gaps = 43/291 (15%)
+
+Query  3     QFVQENGRTYYKKGDLKE-TYWRVIDGKYYYFDSLSGEMVVGWQYIPFPSKGSTIGPYPN  61
+             +F+  NG+ YY   D K  T W+ IDGK YYF+  + E   GWQ I        +     
+Sbjct  2307  KFLTLNGKKYYFDNDSKAVTGWQTIDGKKYYFNLNTAEAATGWQTIDGKKYYFNL-NTAE  2365
+
+Query  62    GIRLEGFPKSEWYYFDKNGVLQEFVGWKTLEIKTKDSVGRKYGEKRKRYYTNYYFNQNHS  121
+                       + YYF+ N  +    G+ ++  K                  ++YFN +  
+Sbjct  2366  AATGWQTIDGKKYYFNTNTFIAS-TGYTSINGK------------------HFYFNTDGI  2406
+
+Query  122   LETGWLYDQSNWYYLAKTEINGENYLGERRAGWINDDSTWYYLDPTTGIMQTGWQYLGNK  181
+             ++ G     + + Y A    +  N  G+                    + Q  +  L  K
+Sbjct  2407  MQIGVFKGPNGFEYFAPANTDANNIEGQAI------------------LYQNKFLTLNGK  2448
+
+Query  182   WYYLRSSGAMATGWYQEGTTWYYLDHPNGDMKTGWQNLGNKWYYLRSSGAMA-TGWYQDG  240
+              YY  S     TG        YY +       TGWQ +  K YY  ++ ++A TG+    
+Sbjct  2449  KYYFGSDSKAVTGLRTIDGKKYYFNTNTAVAVTGWQTINGKKYYFNTNTSIASTGYTIIS  2508
+
+Query  241   STWYYLNAGNGDMKTGWFQVNGNWYYAYSSGALAVNTTVDGYSVNYNGEWV  291
+                +Y N   G M+ G F+      + Y + A      ++G ++ Y   ++
+Sbjct  2509  GKHFYFNTD-GIMQIGVFKGPDG--FEYFAPANTDANNIEGQAIRYQNRFL  2556
+
+
+ Score = 163 bits (411),  Expect = 7e-44, Method: Composition-based stats.
+ Identities = 67/296 (23%), Positives = 109/296 (37%), Gaps = 52/296 (18%)
+
+Query  3     QFVQENGRTYYKKGDLKE-TYWRVIDGKYYYFDSLSGEMVVGWQYIPFPSKGSTIGPYPN  61
+             +F+  NG+ YY   + K  T  + ID K YYF++ + E   GWQ I              
+Sbjct  2059  KFLTLNGKKYYFDNNSKAVTGLQTIDSKKYYFNTNTAEAATGWQTID-------------  2105
+
+Query  62    GIRLEGFPKSEWYYFDKNGVLQEFVGWKTLEIKTKDSVGRKYGEKRKRYY----TNYYFN  117
+                       + YYF+ N   +   GW+T++ K K             Y      ++YFN
+Sbjct  2106  ---------GKKYYFNTNTA-EAATGWQTIDGK-KYYFNTNTAIASTGYTIINGKHFYFN  2154
+
+Query  118   QNHSLETGWLYDQSNWYYLAKTEINGENYLGERRAGWINDDSTWYYLDPTTGIMQTGWQY  177
+              +  ++ G     + + Y A    +  N  G+                    + Q  +  
+Sbjct  2155  TDGIMQIGVFKGPNGFEYFAPANTDANNIEGQAI------------------LYQNEFLT  2196
+
+Query  178   LGNKWYYLRSSGAMATGWYQEGTTWYYLDHPNGDMKTGWQNLGNKWYYLRSSGAMATGWY  237
+             L  K YY  S     TGW       YY +  N         + N  YY    G +  G+ 
+Sbjct  2197  LNGKKYYFGSDSKAVTGWRIINNKKYYFNPNNAIAAIHLCTINNDKYYFSYDGILQNGYI  2256
+
+Query  238   QDGSTWYYLNAGN-GDMKTGWFQ-VNGNWYYAYSSGALAVNTTVDGYSVNYNGEWV  291
+                   +Y +A N   M TG F+  NG  Y+A ++     N  ++G ++ Y  +++
+Sbjct  2257  TIERNNFYFDANNESKMVTGVFKGPNGFEYFAPANTH---NNNIEGQAIVYQNKFL  2309
+
+
+ Score = 152 bits (383),  Expect = 4e-40, Method: Composition-based stats.
+ Identities = 60/294 (20%), Positives = 108/294 (37%), Gaps = 51/294 (17%)
+
+Query  4     FVQENGRTYYKKGDLK-ETYWRVIDGKYYYFDSLSGEMVVGWQYIPFPSKGSTIGPYPNG  62
+             F   + +TYY   D K       I+   +YFD +   +V GWQ I               
+Sbjct  1813  FKIIDNKTYYYDEDSKLVKGLININNSLFYFDPIEFNLVTGWQTI---------------  1857
+
+Query  63    IRLEGFPKSEWYYFDKNGVLQEFVGWKTLEIKTKDSVGRKYGEKRKRYYTNYYFNQNHSL  122
+                      + YYFD N        +K +  K                  ++YFN +  +
+Sbjct  1858  -------NGKKYYFDINTG-AALTSYKIINGK------------------HFYFNNDGVM  1891
+
+Query  123   ETGWLYDQSNWYYLAKTEINGENYLGER---RAGWINDDSTWYYLDPTTGIMQTGWQYLG  179
+             + G       + Y A       N  G+    ++ ++  +   YY D  +  + TGW+ + 
+Sbjct  1892  QLGVFKGPDGFEYFAPANTQNNNIEGQAIVYQSKFLTLNGKKYYFDNNSKAV-TGWRIIN  1950
+
+Query  180   NKWYYLR-SSGAMATGWYQEGTTWYYLDHPNGDMKTGWQNLGNKWYYLRSSGAMA-TGWY  237
+             N+ YY   ++   A G        YY +     +  GWQ +    YY  +  A+A  G+ 
+Sbjct  1951  NEKYYFNPNNAIAAVGLQVIDNNKYYFNPDTAIISKGWQTVNGSRYYFDTDTAIAFNGYK  2010
+
+Query  238   QDGSTWYYLNAGNGDMKTGWFQVNGNWYYAYSSGALAVNTTVDGYSVNYNGEWV  291
+                   +Y ++    +K G F  +    + Y + A   N  ++G ++ Y  +++
+Sbjct  2011  TIDGKHFYFDSD-CVVKIGVFSTSNG--FEYFAPANTYNNNIEGQAIVYQSKFL  2061
+
+
+ Score = 100 bits (249),  Expect = 2e-22, Method: Composition-based stats.
+ Identities = 57/310 (18%), Positives = 86/310 (28%), Gaps = 116/310 (37%)
+
+Query  3     QFVQENGRTYYKKGDLKE-TYWRVIDGKYYYFDSLSGEMVVGWQYIPFPSKGSTIGPYPN  61
+             +F+  NG+ YY   D K  T  R IDGK YYF++ +   V GWQ I              
+Sbjct  2441  KFLTLNGKKYYFGSDSKAVTGLRTIDGKKYYFNTNTAVAVTGWQTI--------------  2486
+
+Query  62    GIRLEGFPKSEWYYFDKNGVLQEFVGWKTLEIKTKDSVGRKYGEKRKRYYTNYYFNQNHS  121
+                       + YYF+ N  +    G+  +  K                  ++YFN +  
+Sbjct  2487  --------NGKKYYFNTNTSIAS-TGYTIISGK------------------HFYFNTDGI  2519
+
+Query  122   LETGWLYDQSNWYYLAKTEINGENYLGER-----------------------RAGWINDD  158
+             ++ G       + Y A    +  N  G+                          GW+  D
+Sbjct  2520  MQIGVFKGPDGFEYFAPANTDANNIEGQAIRYQNRFLYLHDNIYYFGNNSKAATGWVTID  2579
+
+Query  159   STWYYLDPTTGIMQTGWQYLG---------------------------------------  179
+                YY +P T +   G++ +                                        
+Sbjct  2580  GNRYYFEPNTAMGANGYKTIDNKNFYFRNGLPQIGVFKGSNGFEYFAPANTDANNIEGQA  2639
+
+Query  180   -----------NKWYYLRSSGAMATGWYQEGTTWYYLDHPNGDMKT-GWQNLGNKWYYLR  227
+                         K YY  ++    TGW       YY           G   +    Y+  
+Sbjct  2640  IRYQNRFLHLLGKIYYFGNNSKAVTGWQTINGKVYYFMPDTAMAAAGGLFEIDGVIYFFG  2699
+
+Query  228   SSGAMATGWY  237
+               G  A G Y
+Sbjct  2700  VDGVKAPGIY  2709
+
+
+ Score = 83.0 bits (203),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 29/119 (24%), Positives = 52/119 (44%), Gaps = 4/119 (3%)
+
+Query  174   GWQYLGNKWYYLRSSGAMATGWYQEGTTWYYLDHPNGDMKTGWQNLGNKWYYLRSS-GAM  232
+             G++ + NK YY      +  G      + +Y D    ++ TGWQ +  K YY   + GA 
+Sbjct  1812  GFKIIDNKTYYYDEDSKLVKGLININNSLFYFDPIEFNLVTGWQTINGKKYYFDINTGAA  1871
+
+Query  233   ATGWYQDGSTWYYLNAGNGDMKTGWFQVNGNWYYAYSSGALAVNTTVDGYSVNYNGEWV  291
+              T +       +Y N   G M+ G F+      + Y + A   N  ++G ++ Y  +++
+Sbjct  1872  LTSYKIINGKHFYFNND-GVMQLGVFKGPDG--FEYFAPANTQNNNIEGQAIVYQSKFL  1927
+
+
+> sp|P18177|TOXB_CLODI Toxin B OS=Clostridioides difficile OX=1496 
+GN=toxB PE=1 SV=3
+Length=2366
+
+ Score = 229 bits (583),  Expect = 7e-67, Method: Composition-based stats.
+ Identities = 68/296 (23%), Positives = 128/296 (43%), Gaps = 46/296 (16%)
+
+Query  5     VQENGRTYYKKGDLK-ETYWRVIDGKYYYFDSLSGEMVVGWQYIPFPSKGSTIGPY----  59
+             +  +   YY   + +    W+ +DG+ +YF   +G+   G          + IG Y    
+Sbjct  1929  LIIDENIYYFDDNYRGAVEWKELDGEMHYFSPETGKAFKGL---------NQIGDYKYYF  1979
+
+Query  60    -PNGIRLEGFPK--SEWYYFDKNGVLQEFVGWKTLEIKTKDSVGRKYGEKRKRYYTNYYF  116
+               +G+  +GF       +YFD +GV++  VG+  ++ K                  ++YF
+Sbjct  1980  NSDGVMQKGFVSINDNKHYFDDSGVMK--VGYTEIDGK------------------HFYF  2019
+
+Query  117   NQNHSLETGWLYDQSNWYYLAKTEINGENYLGERRA--GWINDDSTWYYLDPTTGIMQTG  174
+              +N  ++ G    +  + Y A    +  N  GE  +  G +N ++  YY D +   +  G
+Sbjct  2020  AENGEMQIGVFNTEDGFKYFAHHNEDLGNEEGEEISYSGILNFNNKIYYFDDSFTAVV-G  2078
+
+Query  175   WQYL--GNKWYYLRSSGAMATGWYQEGTTWYYLDHPNGDMKTGWQNLGNKWYYLRSSGAM  232
+             W+ L  G+K+Y+   +     G        YY  + +G M+ G+  + +K +Y   SG +
+Sbjct  2079  WKDLEDGSKYYFDEDTAEAYIGLSLINDGQYYF-NDDGIMQVGFVTINDKVFYFSDSGII  2137
+
+Query  233   ATGWYQDGSTWYYLNAGNGDMKTGWFQVNGNWYYAYSSGALAVNTTVDGYSVNYNG  288
+              +G       ++Y++  NG ++ G F  +    Y Y + A  VN  + G +V Y+G
+Sbjct  2138  ESGVQNIDDNYFYID-DNGIVQIGVFDTSDG--YKYFAPANTVNDNIYGQAVEYSG  2190
+
+
+ Score = 126 bits (315),  Expect = 4e-31, Method: Composition-based stats.
+ Identities = 65/288 (23%), Positives = 107/288 (37%), Gaps = 41/288 (14%)
+
+Query  11    TYYKKGDLK-ETYWRVIDGKYYYFDSLSGEMVVGWQYIP------FPSKGSTIGPYPNGI  63
+             +YY+ G +  +     +  + +Y +   G MV G  YI        P   + I  +    
+Sbjct  1802  SYYEDGLIGYDLGLVSLYNEKFYIN-NFGMMVSGLIYINDSLYYFKPPVNNLITGFVT--  1858
+
+Query  64    RLEGFPKSEWYYFDKNGVLQEFVGWKTLEIKTKDSVGRKYGEKRKRYYTNYYFNQNHSLE  123
+                     + YYF+        +G   ++ K                  NYYFNQ+  L+
+Sbjct  1859  -----VGDDKYYFNPINGGAASIGETIIDDK------------------NYYFNQSGVLQ  1895
+
+Query  124   TGWLYDQSNWYYLAKTEINGENYLGERR--AGWINDDSTWYYLDPTTGIMQTGWQYLGNK  181
+             TG    +  + Y A      EN  GE     G +  D   YY D         W+ L  +
+Sbjct  1896  TGVFSTEDGFKYFAPANTLDENLEGEAIDFTGKLIIDENIYYFDDNYRGAV-EWKELDGE  1954
+
+Query  182   WYYLR-SSGAMATGWYQEGTTWYYLDHPNGDMKTGWQNLGNKWYYLRSSGAMATGWYQDG  240
+              +Y    +G    G  Q G   YY +   G M+ G+ ++ +  +Y   SG M  G+ +  
+Sbjct  1955  MHYFSPETGKAFKGLNQIGDYKYYFNSD-GVMQKGFVSINDNKHYFDDSGVMKVGYTEID  2013
+
+Query  241   STWYYLNAGNGDMKTGWFQVNGNWYYAYSSGALAVNTTVDGYSVNYNG  288
+                +Y  A NG+M+ G F       + Y +         +G  ++Y+G
+Sbjct  2014  GKHFYF-AENGEMQIGVFNTEDG--FKYFAHHNEDLGNEEGEEISYSG  2058
+
+
+ Score = 126 bits (315),  Expect = 5e-31, Method: Composition-based stats.
+ Identities = 66/297 (22%), Positives = 108/297 (36%), Gaps = 40/297 (13%)
+
+Query  5     VQENGRTYYKKGD-LKETYWRVI-DGKYYYFDSLSGEMVVGWQYIPFPSKGSTIGPYPNG  62
+             +  N + YY          W+ + DG  YYFD  + E  +G   I               
+Sbjct  2060  LNFNNKIYYFDDSFTAVVGWKDLEDGSKYYFDEDTAEAYIGLSLI---------------  2104
+
+Query  63    IRLEGFPKSEWYYFDKNGVLQEFVGWKTLEIKTKDSVGRKYGEKRKRY--YTNYYFNQNH  120
+                        YYF+ +G++Q  VG+ T+  K          E   +      +Y + N 
+Sbjct  2105  -------NDGQYYFNDDGIMQ--VGFVTINDKVFYFSDSGIIESGVQNIDDNYFYIDDNG  2155
+
+Query  121   SLETGWLYDQSNWYYLAKTEINGENYLGERR--AGWINDDSTWYYLDPTTGIMQTGWQYL  178
+              ++ G       + Y A      +N  G+    +G +      YY    T  ++TGW Y 
+Sbjct  2156  IVQIGVFDTSDGYKYFAPANTVNDNIYGQAVEYSGLVRVGEDVYYF-GETYTIETGWIYD  2214
+
+Query  179   ----GNKWYYLRSSGAMATGWYQEGTTWYYLDHPNGDMKTGWQNLGNKWYYLRSSGAMAT  234
+                  +K+Y+   +     G        YY D   G M+TG  +  N  YY   +G M  
+Sbjct  2215  MENESDKYYFNPETKKACKGINLIDDIKYYFD-EKGIMRTGLISFENNNYYFNENGEMQF  2273
+
+Query  235   GWYQDGSTWYYLNAGNGDMKTGWFQVNGNWYYAYSSGALAVNTTVDGYSVNYNGEWV  291
+             G+       +Y    +G M+ G F       + Y +    ++   +G S+NY G W+
+Sbjct  2274  GYINIEDKMFYF-GEDGVMQIGVFNTPDG--FKYFAHQNTLDENFEGESINYTG-WL  2326
+
+
+> sp|P06653|ALYS_STRPN Autolysin OS=Streptococcus pneumoniae serotype 
+4 (strain ATCC BAA-334 / TIGR4) OX=170187 GN=lytA PE=1 
+SV=2
+Length=318
+
+ Score = 159 bits (401),  Expect = 2e-45, Method: Composition-based stats.
+ Identities = 63/196 (32%), Positives = 92/196 (47%), Gaps = 22/196 (11%)
+
+Query  94   KTKDSVGRKYGEKRKRYYTNYYFNQNHSLETGWLYDQSNWY-YLAKTEINGENYLGERR-  151
+            KT D+ G   G K   Y TN   N +         D  + Y YLAK  I+ E +  +   
+Sbjct  120  KTLDT-GSLAGIKTHEYCTNNQPNNH--------SDHVDPYPYLAKWGISREQFKHDIEN  170
+
+Query  152  -----AGWINDDSTWYYLDPTTGIMQTGWQYLGNKWYYLRSSGAMATGWYQEGT--TWYY  204
+                  GW  +D+ ++Y+       +  ++ +   WYY  SSG M    +++ T   WY+
+Sbjct  171  GLTIETGWQKNDTGYWYVHSDGSYPKDKFEKINGTWYYFDSSGYMLADRWRKHTDGNWYW  230
+
+Query  205  LDHPNGDMKTGWQNLGNKWYYLRSSGAMATGWYQDGSTWYYLNAGNGDMKTGWFQVNG--  262
+             D+ +G+M TGW+ + +KWYY    GAM TGW +   TWYYL+A  G M +  F  +   
+Sbjct  231  FDN-SGEMATGWKKIADKWYYFNEEGAMKTGWVKYKDTWYYLDAKEGAMVSNAFIQSADG  289
+
+Query  263  -NWYYAYSSGALAVNT  277
+              WYY    G LA   
+Sbjct  290  TGWYYLKPDGTLADKP  305
+
+
+> sp|P32762|ALYS_BPHB3 Lytic amidase OS=Streptococcus pneumoniae 
+phage HB-3 OX=10728 GN=HBL PE=1 SV=1
+Length=318
+
+ Score = 150 bits (378),  Expect = 4e-42, Method: Composition-based stats.
+ Identities = 60/196 (31%), Positives = 88/196 (45%), Gaps = 22/196 (11%)
+
+Query  94   KTKDSVGRKYGEKRKRYYTNYYFNQNHSLETGWLYDQSNWY-YLAKTEINGENYLGERR-  151
+            KT D+     G K   Y TN   N +         D  + Y YLA   I+ E +  +   
+Sbjct  120  KTLDTD-DLAGIKTHEYCTNNQPNNH--------SDHVDPYPYLASWGISREQFKQDIEN  170
+
+Query  152  -----AGWINDDSTWYYLDPTTGIMQTGWQYLGNKWYYLRSSGAMATGWYQEGT--TWYY  204
+                  GW  + + ++Y+       +  ++ +   WYY   SG M +  +++ T   WYY
+Sbjct  171  GLSAATGWQKNGTGYWYVHSDGSYSKDKFEKINGTWYYFDGSGYMLSDRWKKHTDGNWYY  230
+
+Query  205  LDHPNGDMKTGWQNLGNKWYYLRSSGAMATGWYQDGSTWYYLNAGNGDMKTGWFQVNG--  262
+             D  +G+M TGW+ + +KWYY    GAM TGW +   TWYYL+A  G M +  F  +   
+Sbjct  231  FDQ-SGEMATGWKKIADKWYYFDVEGAMKTGWVKYKDTWYYLDAKEGAMVSNAFIQSADG  289
+
+Query  263  -NWYYAYSSGALAVNT  277
+              WYY    G LA   
+Sbjct  290  TGWYYLKPDGTLADKP  305
+
+
+> sp|P59205|LYTB_STRPN Putative endo-beta-N-acetylglucosaminidase 
+OS=Streptococcus pneumoniae serotype 4 (strain ATCC BAA-334 
+/ TIGR4) OX=170187 GN=lytB PE=1 SV=1
+Length=658
+
+ Score = 155 bits (390),  Expect = 2e-41, Method: Composition-based stats.
+ Identities = 62/232 (27%), Positives = 100/232 (43%), Gaps = 16/232 (7%)
+
+Query  69   PKSEWYYFDKNGVLQEFVGWKTLEIKTKDSVGRKYGEKRKRYYTNYYFNQNHS-LETGWL  127
+             K + YYF   G L          +    +  ++     K+Y + +Y  +N +  +  W+
+Sbjct  153  IKGKDYYFKSGGYLLTSQWINQAYVNASGAKVQQGWLFDKQYQSWFYIKENGNYADKEWI  212
+
+Query  128  YDQSNWYYLAKTEINGENYLGERRAGWINDDSTWYYLDPTTGIMQTGWQYLGNK--WYYL  185
+            ++  ++YYL        N        WI D  +W+YL     + +  W Y  +   WYY 
+Sbjct  213  FENGHYYYLKSGGYMAAN-------EWIWDKESWFYLKFDGKMAEKEWVYDSHSQAWYYF  265
+
+Query  186  RSSGAM-ATGWYQEGTTWYYLDHPNGDMKTGW--QNLGNKWYYLRSSGAM-ATGWYQDGS  241
+            +S G M A  W  +  +W+YL       +  W   +    WYY +S G M A  W  D  
+Sbjct  266  KSGGYMTANEWIWDKESWFYLKSDGKIAEKEWVYDSHSQAWYYFKSGGYMTANEWIWDKE  325
+
+Query  242  TWYYLNAGNGDMKTGWF--QVNGNWYYAYSSGALAVNTTVDGYSVNYNGEWV  291
+            +W+YL +     +  W     +  WYY  S G +A N TVDGY +  +G+W+
+Sbjct  326  SWFYLKSDGKIAEKEWVYDSHSQAWYYFKSGGYMAKNETVDGYQLGSDGKWL  377
+
+
+ Score = 77.6 bits (189),  Expect = 1e-14, Method: Composition-based stats.
+ Identities = 42/234 (18%), Positives = 72/234 (31%), Gaps = 71/234 (30%)
+
+Query  110  YYTNYYFNQNHS-LETGWLYDQSNWYYLAKTEINGENYLGERRAGWINDDSTWYYLDPTT  168
+            Y + +Y   + +  E  WL    +++YL              ++ W+ D   +YYLD   
+Sbjct  51   YQSWFYIKADANYAENEWLKQGDDYFYLKSGGYMA-------KSEWVEDKGAFYYLDQDG  103
+
+Query  169  GI----------------------------------------MQTGWQYLGNKWYYLRSS  188
+             +                                         +  W  +  K YY +S 
+Sbjct  104  KMKRNAWVGTSYVGATGAKVIEDWVYDSQYDAWFYIKADGQHAEKEWLQIKGKDYYFKSG  163
+
+Query  189  GAMATGWY--------------------QEGTTWYYLDHPNGDMKTGWQNLGNKWYYLRS  228
+            G + T  +                    ++  +W+Y+          W      +YYL+S
+Sbjct  164  GYLLTSQWINQAYVNASGAKVQQGWLFDKQYQSWFYIKENGNYADKEWIFENGHYYYLKS  223
+
+Query  229  SGAM-ATGWYQDGSTWYYLNAGNGDMKTGWF--QVNGNWYYAYSSGALAVNTTV  279
+             G M A  W  D  +W+YL       +  W     +  WYY  S G +  N  +
+Sbjct  224  GGYMAANEWIWDKESWFYLKFDGKMAEKEWVYDSHSQAWYYFKSGGYMTANEWI  277
+
+
+ Score = 62.9 bits (151),  Expect = 8e-10, Method: Composition-based stats.
+ Identities = 35/156 (22%), Positives = 63/156 (40%), Gaps = 8/156 (5%)
+
+Query  138  KTEINGENYLGERRAGWINDD--STWYYLDPTTGIMQTGWQYLGNKWYYLRSSGAMA-TG  194
+            + +   +    +    W+ D    +W+Y+       +  W   G+ ++YL+S G MA + 
+Sbjct  29   QGKQYLKEDGSQAANEWVFDTHYQSWFYIKADANYAENEWLKQGDDYFYLKSGGYMAKSE  88
+
+Query  195  WYQEGTTWYYLDHPNGDMKTGWQNLGNKWYYLRSSGAMATGWYQD--GSTWYYLNAGNGD  252
+            W ++   +YYLD      +  W       Y   +   +   W  D     W+Y+ A    
+Sbjct  89   WVEDKGAFYYLDQDGKMKRNAWVGTS---YVGATGAKVIEDWVYDSQYDAWFYIKADGQH  145
+
+Query  253  MKTGWFQVNGNWYYAYSSGALAVNTTVDGYSVNYNG  288
+             +  W Q+ G  YY  S G L  +  ++   VN +G
+Sbjct  146  AEKEWLQIKGKDYYFKSGGYLLTSQWINQAYVNASG  181
+
+
+ Score = 44.1 bits (102),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 24/103 (23%), Positives = 37/103 (36%), Gaps = 5/103 (5%)
+
+Query  189  GAMATGWYQEGTTWYYLDHPNGDMKTGW--QNLGNKWYYLR-SSGAMATGWYQDGSTWYY  245
+            GAMA+          YL          W        W+Y++  +      W + G  ++Y
+Sbjct  20   GAMASDGTW--QGKQYLKEDGSQAANEWVFDTHYQSWFYIKADANYAENEWLKQGDDYFY  77
+
+Query  246  LNAGNGDMKTGWFQVNGNWYYAYSSGALAVNTTVDGYSVNYNG  288
+            L +G    K+ W +  G +YY    G +  N  V    V   G
+Sbjct  78   LKSGGYMAKSEWVEDKGAFYYLDQDGKMKRNAWVGTSYVGATG  120
+
+
+> sp|O03979|ALYS_BPDP1 Lysin OS=Pneumococcus phage Dp-1 OX=59241 
+GN=PAL PE=1 SV=1
+Length=296
+
+ Score = 145 bits (365),  Expect = 2e-40, Method: Composition-based stats.
+ Identities = 53/196 (27%), Positives = 81/196 (41%), Gaps = 19/196 (10%)
+
+Query  100  GRKYGEKRKRYYTNYYFNQNHSLETGWLYD-------QSNWYYLAKT------EINGENY  146
+            GRK        +T  + + ++ +   + YD          WYY  +         N    
+Sbjct  88   GRKGASAGAGGHTGMFIDSDNIIHCNYAYDGISVNDHDERWYYAGQPYYYVYRLTNANAQ  147
+
+Query  147  LGERRAGWINDDSTWYYLDPTTGIMQTGWQYL--GNKWYYLRSSGAMATGWYQEGT--TW  202
+              E++ GW  D + ++Y        +  ++Y+     W+Y    G M    + + T   W
+Sbjct  148  PAEKKLGWQKDATGFWYARANGTYPKDEFEYIEENKSWFYFDDQGYMLAEKWLKHTDGNW  207
+
+Query  203  YYLDHPNGDMKTGWQNLGNKWYYLRSSGAMATGWYQDGSTWYYLNAGNGDMKTGWF-QVN  261
+            Y+ D   G M T W+ +G  WYY    G+M TGW +    WYY +A NGDMK+  F + N
+Sbjct  208  YWFDRD-GYMATSWKRIGESWYYFNRDGSMVTGWIKYYDNWYYCDATNGDMKSNAFIRYN  266
+
+Query  262  GNWYYAYSSGALAVNT  277
+              WY     G LA   
+Sbjct  267  DGWYLLLPDGRLADKP  282
+
+
+ Score = 41.0 bits (94),  Expect = 0.008, Method: Composition-based stats.
+ Identities = 29/119 (24%), Positives = 44/119 (37%), Gaps = 8/119 (7%)
+
+Query  57   GPYPNGIRLEGFPKSEWYYFDKNGVLQEFVGWKTLEIKT--KDSVGRKYGEKRKRYYTNY  114
+            G YP            W+YFD  G +      K  +      D  G      ++   + Y
+Sbjct  169  GTYPKDEFEYIEENKSWFYFDDQGYMLAEKWLKHTDGNWYWFDRDGYMATSWKRIGESWY  228
+
+Query  115  YFNQNHSLETGWLYDQSNWYYLAKTEINGENYLGERRAGWINDDSTWYYLDPTTGIMQT  173
+            YFN++ S+ TGW+    NWYY   T  +       +   +I  +  WY L P   +   
+Sbjct  229  YFNRDGSMVTGWIKYYDNWYYCDATNGDM------KSNAFIRYNDGWYLLLPDGRLADK  281
+
+
+> sp|P15057|LYS_BPCP1 Lysozyme OS=Streptococcus phage Cp-1 OX=10747 
+GN=CPL1 PE=1 SV=2
+Length=339
+
+ Score = 138 bits (347),  Expect = 2e-37, Method: Composition-based stats.
+ Identities = 48/155 (31%), Positives = 75/155 (48%), Gaps = 3/155 (2%)
+
+Query  126  WLYDQSNWYYLAKTEINGENYLGERRAGWINDDSTWYYLDPTTGIMQTGWQYLGNKWYYL  185
+            W Y  + +        + E+   +    W  D   W++           W+ +G  WYY 
+Sbjct  174  WQYSSNPFDKNIVLLDDEEDDKPKTAGTWKQDSKGWWFRRNNGSFPYNKWEKIGGVWYYF  233
+
+Query  186  RSSGA-MATGWYQEGTTWYYLDHPNGDMKTGWQNLGNKWYYLRSSGAMATGWYQDGSTWY  244
+             S G  + + W ++   WYYL   NG M TGW  +G++WYY+  SGAM TGW +  + WY
+Sbjct  234  DSKGYCLTSEWLKDNEKWYYLK-DNGAMATGWVLVGSEWYYMDDSGAMVTGWVKYKNNWY  292
+
+Query  245  YLNAGNGDMKTGWFQVNG-NWYYAYSSGALAVNTT  278
+            Y+    G+M +  F  +G  WY+  ++G LA N +
+Sbjct  293  YMTNERGNMVSNEFIKSGKGWYFMNTNGELADNPS  327
+
+
+ Score = 57.9 bits (138),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 31/113 (27%), Positives = 48/113 (42%), Gaps = 12/113 (11%)
+
+Query  103  YGEKRKRYYTNYYFNQ-NHSLETGWLYDQSNWYYLAKTEINGENYLGERRAGWINDDSTW  161
+            Y +  K     YYF+   + L + WL D   WYYL           G    GW+   S W
+Sbjct  220  YNKWEKIGGVWYYFDSKGYCLTSEWLKDNEKWYYLKDN--------GAMATGWVLVGSEW  271
+
+Query  162  YYLDPTTGIMQTGWQYLGNKWYYL--RSSGAMATGWYQEGTTWYYLDHPNGDM  212
+            YY+D +  ++ TGW    N WYY+       ++  + + G  WY+++      
+Sbjct  272  YYMDDSGAMV-TGWVKYKNNWYYMTNERGNMVSNEFIKSGKGWYFMNTNGELA  323
+
+
+> sp|P19386|LYS_BPCP9 Lysozyme OS=Streptococcus phage Cp-9 OX=10749 
+GN=CPL9 PE=3 SV=1
+Length=339
+
+ Score = 138 bits (347),  Expect = 3e-37, Method: Composition-based stats.
+ Identities = 48/155 (31%), Positives = 75/155 (48%), Gaps = 3/155 (2%)
+
+Query  126  WLYDQSNWYYLAKTEINGENYLGERRAGWINDDSTWYYLDPTTGIMQTGWQYLGNKWYYL  185
+            W Y  + +        + E+   +    W  D   W++           W+ +G  WYY 
+Sbjct  174  WQYSSNPFDKNIVLLDDEEDEKPKTAGTWKQDSKGWWFRRNNGSFPYNKWEKIGGVWYYF  233
+
+Query  186  RSSGA-MATGWYQEGTTWYYLDHPNGDMKTGWQNLGNKWYYLRSSGAMATGWYQDGSTWY  244
+             S G  + + W ++   WYYL   NG M TGW  +G++WYY+  SGAM TGW +  + WY
+Sbjct  234  DSKGYCLTSEWLKDNEKWYYLK-DNGAMVTGWVLVGSEWYYMDDSGAMVTGWVKYKNNWY  292
+
+Query  245  YLNAGNGDMKTGWFQVNG-NWYYAYSSGALAVNTT  278
+            Y+    G+M +  F  +G  WY+  ++G LA N +
+Sbjct  293  YMTNERGNMVSNEFIKSGKGWYFMNTNGELADNPS  327
+
+
+> sp|P59206|LYTB_STRR6 Putative endo-beta-N-acetylglucosaminidase 
+OS=Streptococcus pneumoniae (strain ATCC BAA-255 / R6) OX=171101 
+GN=lytB PE=1 SV=1
+Length=702
+
+ Score = 142 bits (358),  Expect = 4e-37, Method: Composition-based stats.
+ Identities = 76/290 (26%), Positives = 111/290 (38%), Gaps = 23/290 (8%)
+
+Query  15   KGDLKETYWRVIDGKYYYFDSLSGEMVVGWQYIPFPSKGSTIGPYPNGIRLEGFPKSEWY  74
+             G   E  W  I GK YYF S    +   W    +    +  G       L       W+
+Sbjct  142  DGQHAEKEWLQIKGKDYYFKSGGYLLTSQWINQAY---VNASGAKVQQGWLFDKQYQSWF  198
+
+Query  75   YFDKNG--VLQEFVGWKTLEIKTKDSVGRKYGEKRKRYYTNYYFNQNH-SLETGWLYDQS  131
+            Y  +NG    +E++         K        E      + +Y   +    E  W+YD  
+Sbjct  199  YIKENGNYADKEWIFENGHYYYLKSGGYMAANEWIWDKESWFYLKFDGKIAEKEWVYDSH  258
+
+Query  132  N--WYYLAKTEINGENYLGERRAGWINDDSTWYYLDPTTGIMQTGWQYLGNK--WYYLRS  187
+            +  WYY         N        WI D  +W+YL     + +  W Y  +   WYY +S
+Sbjct  259  SQAWYYFKSGGYMAANE-------WIWDKESWFYLKFDGKMAEKEWVYDSHSQAWYYFKS  311
+
+Query  188  SGAM-ATGWYQEGTTWYYLDHPNGDMKTGW--QNLGNKWYYLRSSGAM-ATGWYQDGSTW  243
+             G M A  W  +  +W+YL       +  W   +    WYY +S G M A  W  D  +W
+Sbjct  312  GGYMTANEWIWDKESWFYLKSDGKIAEKEWVYDSHSQAWYYFKSGGYMTANEWIWDKESW  371
+
+Query  244  YYLNAGNGDMKTGWF--QVNGNWYYAYSSGALAVNTTVDGYSVNYNGEWV  291
+            +YL +     +  W     +  WYY  S G +A N TVDGY +  +G+W+
+Sbjct  372  FYLKSDGKMAEKEWVYDSHSQAWYYFKSGGYMAKNETVDGYQLGSDGKWL  421
+
+
+ Score = 76.8 bits (187),  Expect = 2e-14, Method: Composition-based stats.
+ Identities = 43/234 (18%), Positives = 73/234 (31%), Gaps = 71/234 (30%)
+
+Query  110  YYTNYYFNQNHS-LETGWLYDQSNWYYLAKTEINGENYLGERRAGWINDDSTWYYLDPTT  168
+            Y + +Y   + +  E  WL    +++YL              ++ W+ D   +YYLD   
+Sbjct  51   YQSWFYIKADANYAENEWLKQGDDYFYLKSGGYMA-------KSEWVEDKGAFYYLDQDG  103
+
+Query  169  GI----------------------------------------MQTGWQYLGNKWYYLRSS  188
+             +                                         +  W  +  K YY +S 
+Sbjct  104  KMKRNAWVGTSYVGATGAKVIEDWVYDSQYDAWFYIKADGQHAEKEWLQIKGKDYYFKSG  163
+
+Query  189  GAMATGWY--------------------QEGTTWYYLDHPNGDMKTGWQNLGNKWYYLRS  228
+            G + T  +                    ++  +W+Y+          W      +YYL+S
+Sbjct  164  GYLLTSQWINQAYVNASGAKVQQGWLFDKQYQSWFYIKENGNYADKEWIFENGHYYYLKS  223
+
+Query  229  SGAM-ATGWYQDGSTWYYLNAGNGDMKTGWF--QVNGNWYYAYSSGALAVNTTV  279
+             G M A  W  D  +W+YL       +  W     +  WYY  S G +A N  +
+Sbjct  224  GGYMAANEWIWDKESWFYLKFDGKIAEKEWVYDSHSQAWYYFKSGGYMAANEWI  277
+
+
+ Score = 61.8 bits (148),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 35/156 (22%), Positives = 63/156 (40%), Gaps = 8/156 (5%)
+
+Query  138  KTEINGENYLGERRAGWINDD--STWYYLDPTTGIMQTGWQYLGNKWYYLRSSGAMA-TG  194
+            + +   +    +    W+ D    +W+Y+       +  W   G+ ++YL+S G MA + 
+Sbjct  29   QGKQYLKEDGSQAANEWVFDTHYQSWFYIKADANYAENEWLKQGDDYFYLKSGGYMAKSE  88
+
+Query  195  WYQEGTTWYYLDHPNGDMKTGWQNLGNKWYYLRSSGAMATGWYQD--GSTWYYLNAGNGD  252
+            W ++   +YYLD      +  W       Y   +   +   W  D     W+Y+ A    
+Sbjct  89   WVEDKGAFYYLDQDGKMKRNAWVGTS---YVGATGAKVIEDWVYDSQYDAWFYIKADGQH  145
+
+Query  253  MKTGWFQVNGNWYYAYSSGALAVNTTVDGYSVNYNG  288
+             +  W Q+ G  YY  S G L  +  ++   VN +G
+Sbjct  146  AEKEWLQIKGKDYYFKSGGYLLTSQWINQAYVNASG  181
+
+
+ Score = 43.3 bits (100),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 24/103 (23%), Positives = 37/103 (36%), Gaps = 5/103 (5%)
+
+Query  189  GAMATGWYQEGTTWYYLDHPNGDMKTGW--QNLGNKWYYLR-SSGAMATGWYQDGSTWYY  245
+            GAMA+          YL          W        W+Y++  +      W + G  ++Y
+Sbjct  20   GAMASDGTW--QGKQYLKEDGSQAANEWVFDTHYQSWFYIKADANYAENEWLKQGDDYFY  77
+
+Query  246  LNAGNGDMKTGWFQVNGNWYYAYSSGALAVNTTVDGYSVNYNG  288
+            L +G    K+ W +  G +YY    G +  N  V    V   G
+Sbjct  78   LKSGGYMAKSEWVEDKGAFYYLDQDGKMKRNAWVGTSYVGATG  120
+
+
+> sp|P49331|GTFD_STRMU Glucosyltransferase-S OS=Streptococcus mutans 
+serotype c (strain ATCC 700610 / UA159) OX=210007 GN=gtfD 
+PE=3 SV=3
+Length=1462
+
+ Score = 78.0 bits (190),  Expect = 1e-14, Method: Composition-based stats.
+ Identities = 62/301 (21%), Positives = 100/301 (33%), Gaps = 33/301 (11%)
+
+Query  9     GRTYYKKGDLKETY-WRVIDGKYYYFDSLSGEMVVGWQYIPFPSK---GSTIGPYPNGIR  64
+             G  YY   +    Y  + ++G+  YF S   ++   +      SK   G     Y NG  
+Sbjct  1125  GNWYYFDNNGHMVYGLQHLNGEVQYFLSNGVQLRESFLENADGSKNYFGHLGNRYSNGY-  1183
+
+Query  65    LEGFPKSEWYYFDKNGVLQEFVGWKTLEIKTKDSVGRKYGEKRK-----RYYTNYYFNQN  119
+                   S+W YFD +GV+   VG KT+   T+      Y  K            Y+ + +
+Sbjct  1184  YSFDNDSKWRYFDASGVMA--VGLKTINGNTQYFDQDGYQVKGAWITGSDGKKRYFDDGS  1241
+
+Query  120   HSLETGWLYD--QSNWYYLAKTE-------------INGENYLGERRAGWINDDST-WYY  163
+              ++      +    +WYYL                         + +   I D+    Y+
+Sbjct  1242  GNMAVNRFANDKNGDWYYLNSDGIALVGVQTINGKTYYFGQDGKQIKGKIITDNGKLKYF  1301
+
+Query  164   LDPTTGIMQTGWQYLG-NKWYYLRSSGAMATGWYQEGTTWYYLDHPNGDMKTGWQNLGNK  222
+             L  +  + +  +     N WYY  S G   TG         Y       +K  +     K
+Sbjct  1302  LANSGELARNIFATDSQNNWYYFGSDGVAVTGSQTIAGKKLYFASDGKQVKGSFVTYNGK  1361
+
+Query  223   WYYL--RSSGAMATGWYQDGS-TWYYLNAGNGDMKTGWFQVNGNWYYAYSSGALAVNTTV  279
+              +Y    S       +  D    WYYL++ NG+  TG  ++NG   +    G        
+Sbjct  1362  VHYYHADSGELQVNRFEADKDGNWYYLDS-NGEALTGSQRINGQRVFFTREGKQVKGDVA  1420
+
+Query  280   D  280
+              
+Sbjct  1421  Y  1421
+
+
+ Score = 74.9 bits (182),  Expect = 9e-14, Method: Composition-based stats.
+ Identities = 57/269 (21%), Positives = 83/269 (31%), Gaps = 45/269 (17%)
+
+Query  6     QENGRTYYKKGD---LKETYWRVIDGKYYYFDSLSGEMVVGWQYIPFPSKGSTIGPYPNG  62
+               NG T Y   D   +K  +    DGK  YFD  SG M V                    
+Sbjct  1207  TINGNTQYFDQDGYQVKGAWITGSDGKKRYFDDGSGNMAVN-------------------  1247
+
+Query  63    IRLEGFPKSEWYYFDKNGVLQEFVGWKTLEIKT----KDSVGRKYGEKRKRYYTNYYFNQ  118
+              R       +WYY + +G+    VG +T+  KT    +D    K           Y+   
+Sbjct  1248  -RFANDKNGDWYYLNSDGI--ALVGVQTINGKTYYFGQDGKQIKGKIITDNGKLKYFLAN  1304
+
+Query  119   NHSLETGWLYDQ--SNWYYLAKTEINGENYLGERRAGWINDDSTWYYLDPTTGIMQTGWQ  176
+             +  L          +NWYY            G    G         Y       ++  + 
+Sbjct  1305  SGELARNIFATDSQNNWYYFGS--------DGVAVTGSQTIAGKKLYFASDGKQVKGSFV  1356
+
+Query  177   YLGNK-WYYLRSSGAMATGWYQ--EGTTWYYLDHPNGDMKTGWQNLGNKWYYLRSSGAMA  233
+                 K  YY   SG +    ++  +   WYYLD  NG+  TG Q +  +  +    G   
+Sbjct  1357  TYNGKVHYYHADSGELQVNRFEADKDGNWYYLDS-NGEALTGSQRINGQRVFFTREGKQV  1415
+
+Query  234   TGWYQDGSTWY--YLNAGNGDMKTGWFQV  260
+              G           Y +  +G+M       
+Sbjct  1416  KGDVAYDERGLLRYYDKNSGNMVYNKVVT  1444
+
+
+ Score = 73.0 bits (177),  Expect = 4e-13, Method: Composition-based stats.
+ Identities = 63/290 (22%), Positives = 100/290 (34%), Gaps = 23/290 (8%)
+
+Query  9     GRTYYKKGDLKETYWRVIDGKYYYFDSL-SGEMVVGWQYIPFPSKGSTIGPYPNGIRLEG  67
+             G  Y  K +  + Y+ +   + Y    + + E   G+          +   Y        
+Sbjct  1062  GVGYVLKDNASDKYFELKGNQTYLPKQMTNKEASTGFVNDGNGMTFYSTSGYQAKNSFVQ  1121
+
+Query  68    FPKSEWYYFDKNGVLQEFVGWKTLEIKTKDSVG---RKYGEKRKRYYTNYYFNQNHSLET  124
+               K  WYYFD NG +   +     E++   S G   R+   +      NY+ +  +    
+Sbjct  1122  DAKGNWYYFDNNGHMVYGLQHLNGEVQYFLSNGVQLRESFLENADGSKNYFGHLGNRYSN  1181
+
+Query  125   GW--LYDQSNWYYLAKTEINGENYLGERRAGWINDDSTWYYLDPTTGIMQTGWQY--LGN  180
+             G+    + S W Y   + +           G    +    Y D     ++  W     G 
+Sbjct  1182  GYYSFDNDSKWRYFDASGVMA--------VGLKTINGNTQYFDQDGYQVKGAWITGSDGK  1233
+
+Query  181   KWYYLRSSGAMATGWYQ--EGTTWYYLDHPNGDMKTGWQNLGNKWYYLRSSGAMATG-WY  237
+             K Y+   SG MA   +   +   WYYL+   G    G Q +  K YY    G    G   
+Sbjct  1234  KRYFDDGSGNMAVNRFANDKNGDWYYLNSD-GIALVGVQTINGKTYYFGQDGKQIKGKII  1292
+
+Query  238   QDGSTWYYLNAGNGDMKTGWF--QVNGNWYYAYSSG-ALAVNTTVDGYSV  284
+              D     Y  A +G++    F      NWYY  S G A+  + T+ G  +
+Sbjct  1293  TDNGKLKYFLANSGELARNIFATDSQNNWYYFGSDGVAVTGSQTIAGKKL  1342
+
+
+ Score = 56.4 bits (134),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 40/213 (19%), Positives = 66/213 (31%), Gaps = 39/213 (18%)
+
+Query  115   YFNQNHSLETGWLY-----DQSNWYYLAKTEINGENYLG--ERRAGWINDDSTWYYLDPT  167
+             YFN  + L  G  Y         ++ L   +      +   E   G++ND +   +   +
+Sbjct  1052  YFNGTNILGRGVGYVLKDNASDKYFELKGNQTYLPKQMTNKEASTGFVNDGNGMTFYSTS  1111
+
+Query  168   TGIMQTGW-QYLGNKWYYLRSSGAMATGWYQEGTTWYYLDHPNGDMKTGWQNLGN-----  221
+                 +  + Q     WYY  ++G M  G         Y       ++  +    +     
+Sbjct  1112  GYQAKNSFVQDAKGNWYYFDNNGHMVYGLQHLNGEVQYFLSNGVQLRESFLENADGSKNY  1171
+
+Query  222   -------------------KWYYLRSSGAMATGWYQDGSTWYYLNAGNGDMKTGWFQVNG  262
+                                KW Y  +SG MA G         Y +     +K  W   + 
+Sbjct  1172  FGHLGNRYSNGYYSFDNDSKWRYFDASGVMAVGLKTINGNTQYFDQDGYQVKGAWITGSD  1231
+
+Query  263   NW--YYAYSSGALAVN-----TTVDGYSVNYNG  288
+                 Y+   SG +AVN        D Y +N +G
+Sbjct  1232  GKKRYFDDGSGNMAVNRFANDKNGDWYYLNSDG  1264
+
+
+> sp|P08987|GTFB_STRMU Glucosyltransferase-I OS=Streptococcus mutans 
+serotype c (strain ATCC 700610 / UA159) OX=210007 GN=gtfB 
+PE=3 SV=3
+Length=1476
+
+ Score = 71.8 bits (174),  Expect = 1e-12, Method: Composition-based stats.
+ Identities = 58/301 (19%), Positives = 103/301 (34%), Gaps = 34/301 (11%)
+
+Query  4     FVQENGRTYYKKGD-LKETYWRVIDGKYYYFDSLSGE---MVVGWQYIPFPSKGSTIGPY  59
+             F+ E  + YY   +    T  + I+G  YYF S   +    ++  +   +   G+    Y
+Sbjct  1090  FISEGDKWYYFDNNGYMVTGAQSINGVNYYFLSNGLQLRDAILKNEDGTYAYYGNDGRRY  1149
+
+Query  60    PNGIRLEGFPKSEWYYFDKNGVLQEFVGWKTLEIKTKDSVGRKYGEKRK-----RYYTNY  114
+              NG     F    W +F+     +  VG   ++ + +      Y  K K          Y
+Sbjct  1150  ENGYYQ--FMSGVWRHFNNG---EMSVGLTVIDGQVQYFDEMGYQAKGKFVTTADGKIRY  1204
+
+Query  115   YFNQNHSLETGWL--YDQSNWYYLAKTEINGENYLGERRAGWINDDSTWYYLDPTTGIMQ  172
+             +  Q+ ++        ++  W YL           G    G    +    Y       ++
+Sbjct  1205  FDKQSGNMYRNRFIENEEGKWLYLG--------EDGAAVTGSQTINGQHLYFRANGVQVK  1256
+
+Query  173   TGWQYL--GNKWYYLRSSGAMATGWYQEG--TTWYYLDHPNGDMKTGWQNLGNKWYYLRS  228
+               +     G   YY  +SG      +       W+Y D+ NG   TG + +  +  Y R+
+Sbjct  1257  GEFVTDRYGRISYYDSNSGDQIRNRFVRNAQGQWFYFDN-NGYAVTGARTINGQHLYFRA  1315
+
+Query  229   SGAMATG--WYQDGSTWYYLNAGNGDMKTGWFQVN--GNWYYAYSSGAL-AVNTTVDGYS  283
+             +G    G           Y +  +GD     F  N  G W+Y  ++G       T++G  
+Sbjct  1316  NGVQVKGEFVTDRHGRISYYDGNSGDQIRNRFVRNAQGQWFYFDNNGYAVTGARTINGQH  1375
+
+Query  284   V  284
+             +
+Sbjct  1376  L  1376
+
+
+ Score = 68.3 bits (165),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 54/291 (19%), Positives = 92/291 (32%), Gaps = 31/291 (11%)
+
+Query  13    YKKGDLKETYWRVIDGKYYYFDSLSGEMVVGWQYIPFPSKGSTIGPYPNGIRLEGFPKSE  72
+             +           VIDG+  YFD   G    G        K          +    F ++E
+Sbjct  1163  HFNNGEMSVGLTVIDGQVQYFD-EMGYQAKGKFVTTADGKIRYFDKQSGNMYRNRFIENE  1221
+
+Query  73    ---WYYFDKNGVLQEFVGWKTLEIKTK----DSVGRKYGEKRKRYYTNYYFNQNHSLETG  125
+                W Y  ++G      G +T+  +      + V  K      RY    Y++ N   +  
+Sbjct  1222  EGKWLYLGEDGA--AVTGSQTINGQHLYFRANGVQVKGEFVTDRYGRISYYDSNSGDQIR  1279
+
+Query  126   ---WLYDQSNWYYLAKTEINGENYLGERRAGWINDDSTWYYLDPTTGIMQTGWQYLGNKW  182
+                    Q  W+Y                 G    +    Y       ++  +    +  
+Sbjct  1280  NRFVRNAQGQWFYFDNNGY--------AVTGARTINGQHLYFRANGVQVKGEFVTDRHGR  1331
+
+Query  183   --YYLRSSGAMATGWYQEG--TTWYYLDHPNGDMKTGWQNLGNKWYYLRSSGAMATG--W  236
+               YY  +SG      +       W+Y D+ NG   TG + +  +  Y R++G    G   
+Sbjct  1332  ISYYDGNSGDQIRNRFVRNAQGQWFYFDN-NGYAVTGARTINGQHLYFRANGVQVKGEFV  1390
+
+Query  237   YQDGSTWYYLNAGNGDMKTGWFQVN--GNWYYAYSSGAL-AVNTTVDGYSV  284
+                     Y ++ +GD     F  N  G W+Y  ++G       T++G  +
+Sbjct  1391  TDRYGRISYYDSNSGDQIRNRFVRNAQGQWFYFDNNGYAVTGARTINGQHL  1441
+
+
+ Score = 67.2 bits (162),  Expect = 4e-11, Method: Composition-based stats.
+ Identities = 51/263 (19%), Positives = 88/263 (33%), Gaps = 34/263 (13%)
+
+Query  7     ENGRTYYKKGDLKE-TYWRVIDGKYYYFDSLSGEMVVGWQYIPFPSKGSTIGPYPNGIRL  65
+             E G+  Y   D    T  + I+G++ YF + +G  V G        + S           
+Sbjct  1221  EEGKWLYLGEDGAAVTGSQTINGQHLYFRA-NGVQVKGEFVTDRYGRISYYDSNSGDQIR  1279
+
+Query  66    EGFPKS---EWYYFDKNGVLQEFVGWKTLEIKTKDSVGRKYGEKRKRYYTNYYFNQNHSL  122
+               F ++   +W+YFD NG      G +T+  +                  + YF  N   
+Sbjct  1280  NRFVRNAQGQWFYFDNNGY--AVTGARTINGQ------------------HLYFRANGVQ  1319
+
+Query  123   ETGWLYDQSNWYYLAKTEINGENYLGERRAGWINDDSTWYYLDPTTGIMQTGWQYLGNKW  182
+               G      +     +      N   + R  ++ +    ++     G   TG + +  + 
+Sbjct  1320  VKGEFVTDRH----GRISYYDGNSGDQIRNRFVRNAQGQWFYFDNNGYAVTGARTINGQH  1375
+
+Query  183   YYLRSSGAMATGWYQEG--TTWYYLDHPNGDMKTG--WQNLGNKWYYLRSSGAMATGWYQ  238
+              Y R++G    G +         Y D  +GD       +N   +W+Y  ++G   TG   
+Sbjct  1376  LYFRANGVQVKGEFVTDRYGRISYYDSNSGDQIRNRFVRNAQGQWFYFDNNGYAVTGART  1435
+
+Query  239   DGSTWYYLNAGNGDMKTGWFQVN  261
+                   Y  A NG    G F  +
+Sbjct  1436  INGQHLYFRA-NGVQVKGEFVTD  1457
+
+
+ Score = 65.3 bits (157),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 48/220 (22%), Positives = 73/220 (33%), Gaps = 35/220 (16%)
+
+Query  99    VGRKYGEKRKRYYTNYYFNQNHSLETGWL-------YDQSNWYYLAKTEINGENYLGERR  151
+             +GR  G   K   TN YFN + + E  +L         Q  + Y  K  +       + +
+Sbjct  1028  LGRGAGYVLKDQATNTYFNISDNKEINFLPKTLLNQDSQVGFSYDGKGYVYYSTSGYQAK  1087
+
+Query  152   AGWINDDSTWYYLDPTTGIMQTGWQYLGNKWYYLRSSGAMATGWYQEGT-----------  200
+               +I++   WYY D     M TG Q +    YY  S+G        +             
+Sbjct  1088  NTFISEGDKWYYFDNNG-YMVTGAQSINGVNYYFLSNGLQLRDAILKNEDGTYAYYGNDG  1146
+
+Query  201   -----TWYYLDH------PNGDMKTGWQNLGNKWYYLRSSGAMATG--WYQDGSTWYYLN  247
+                   +Y           NG+M  G   +  +  Y    G  A G           Y +
+Sbjct  1147  RRYENGYYQFMSGVWRHFNNGEMSVGLTVIDGQVQYFDEMGYQAKGKFVTTADGKIRYFD  1206
+
+Query  248   AGNGDMKTGWFQVN--GNWYYAYSSGAL-AVNTTVDGYSV  284
+               +G+M    F  N  G W Y    GA    + T++G  +
+Sbjct  1207  KQSGNMYRNRFIENEEGKWLYLGEDGAAVTGSQTINGQHL  1246
+
+
+ Score = 57.2 bits (136),  Expect = 8e-08, Method: Composition-based stats.
+ Identities = 67/334 (20%), Positives = 98/334 (29%), Gaps = 59/334 (18%)
+
+Query  9     GRTYYKKGDLKETYWRVIDGKYYYFDSLSGEMVVGWQYIPFPSKGSTIGPYPNGIRLEGF  68
+             G  Y  K     TY+ + D K   F   +           +  KG              F
+Sbjct  1031  GAGYVLKDQATNTYFNISDNKEINFLPKTLLNQDSQVGFSYDGKGYVYYSTSGYQAKNTF  1090
+
+Query  69    PK--SEWYYFDKNGVLQEFVGWKTLEI-----------------KTKDSVGRKYGEKRKR  109
+                  +WYYFD NG +    G +++                   K +D     YG   +R
+Sbjct  1091  ISEGDKWYYFDNNGYM--VTGAQSINGVNYYFLSNGLQLRDAILKNEDGTYAYYGNDGRR  1148
+
+Query  110   YYTNYY--------FNQNHSLETGWLYDQSNWYYLAKTEINGENYLGERRAG--------  153
+             Y   YY           N  +  G         Y  +     +        G        
+Sbjct  1149  YENGYYQFMSGVWRHFNNGEMSVGLTVIDGQVQYFDEMGYQAKGKFVTTADGKIRYFDKQ  1208
+
+Query  154   ---------WINDDSTWYYLDPTTGIMQTGWQYLGNKWYYLRSSGAMATGWYQEG--TTW  202
+                        N++  W YL      + TG Q +  +  Y R++G    G +        
+Sbjct  1209  SGNMYRNRFIENEEGKWLYLGEDGAAV-TGSQTINGQHLYFRANGVQVKGEFVTDRYGRI  1267
+
+Query  203   YYLDHPNGDMKTG--WQNLGNKWYYLRSSGAMATGWYQDGSTWYYLNAGNGDMKTGWF--  258
+              Y D  +GD       +N   +W+Y  ++G   TG         Y  A NG    G F  
+Sbjct  1268  SYYDSNSGDQIRNRFVRNAQGQWFYFDNNGYAVTGARTINGQHLYFRA-NGVQVKGEFVT  1326
+
+Query  259   -QVNGNWYYAYSSGALAVNTTVDGYSVNYNGEWV  291
+              +     YY  +SG    N  V     N  G+W 
+Sbjct  1327  DRHGRISYYDGNSGDQIRNRFVR----NAQGQWF  1356
+
+
+> sp|P29336|GTFS_STRDO Glucosyltransferase-S OS=Streptococcus downei 
+OX=1317 GN=gtfS PE=3 SV=1
+Length=1365
+
+ Score = 69.9 bits (169),  Expect = 5e-12, Method: Composition-based stats.
+ Identities = 65/311 (21%), Positives = 116/311 (37%), Gaps = 42/311 (14%)
+
+Query  4     FVQENGRTYYKKGDLKETY--WRVIDGKYYYFDSL----SGEMVVGWQYIPFPSKGSTI-  56
+             F+ +NG  +Y   + +E    ++ I G +YYFDS     +G+  +G     F   G  + 
+Sbjct  1055  FISKNGGIHYLDKNGQEVKNRFKEISGSWYYFDSDGKMATGKTKIGNDTYLFMPNGKQLK  1114
+
+Query  57    -GPYPNGIRL------------EGFP------KSEWYYFDKNGVLQEFVGWKTLEIKTKD  97
+              G + +G +             +GF       + +W YF+ +G +   +G  +L+ +T  
+Sbjct  1115  EGVWYDGKKAYYYDDNGRTWTNKGFVEFRVDGQDKWRYFNGDGTIA--IGLVSLDNRTLY  1172
+
+Query  98    SVGRKYGEKRKRYYTN---YYFNQNHSLETGWLYDQSNWYYLAKTEINGENY-----LGE  149
+                  Y  K +    N   Y F+ +                 A  ++ G+N       G+
+Sbjct  1173  FDAYGYQVKGQTVTINGKSYTFDADQGDLVQTDNANPAPQGQAGWKLLGDNQWGYRKDGQ  1232
+
+Query  150   RRAGWINDDSTWYYLDPTTGIMQTGWQYLGNK--WYYLRSSGA-MATGWYQEGTTWYYLD  206
+                G    D    +       ++ G     +    +Y R  G  +  GWY      +   
+Sbjct  1233  LLTGEQTIDGQKVFFQDNGVQVKGGTATDASGVLRFYDRDQGHQVGKGWYSTSDDNWVYV  1292
+
+Query  207   HPNGDMKTGWQNLGNKWYYLRSSGAMATG--WYQDGSTWYYLNAGNGDMKTG-WFQVNGN  263
+             + +G + TG Q +  +  Y    G  A G   + +     Y +A +G+M    W  V+GN
+Sbjct  1293  NESGQVLTGLQTIDGQTVYFDDKGIQAKGKAVWDENGNLRYFDADSGNMLRDRWKNVDGN  1352
+
+Query  264   WYYAYSSGALA  274
+             WYY   +G   
+Sbjct  1353  WYYFNRNGLAT  1363
+
+
+ Score = 64.9 bits (156),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 38/160 (24%), Positives = 59/160 (37%), Gaps = 7/160 (4%)
+
+Query  126   WLYDQSNWYYLAKTEINGENYLGERRAGWINDDSTWYYLDPTTGIMQTGWQYLGNKWYYL  185
+             +L       +L     N          G+I+ +   +YLD     ++  ++ +   WYY 
+Sbjct  1027  YLNLADGKLFLPTVLNNTYGQPQVSANGFISKNGGIHYLDKNGQEVKNRFKEISGSWYYF  1086
+
+Query  186   RSSGAMATGWYQEGTTWYYLDHPNGDMKTGWQNLGNKWYYLRSSGAMAT--GWYQDG---  240
+              S G MATG  + G   Y        +K G    G K YY   +G   T  G+ +     
+Sbjct  1087  DSDGKMATGKTKIGNDTYLFMPNGKQLKEGVWYDGKKAYYYDDNGRTWTNKGFVEFRVDG  1146
+
+Query  241   -STWYYLNAGNGDMKTGWFQVNGNWYYAYSSGALAVNTTV  279
+                W Y N G+G +  G   ++    Y  + G      TV
+Sbjct  1147  QDKWRYFN-GDGTIAIGLVSLDNRTLYFDAYGYQVKGQTV  1185
+
+
+ Score = 56.8 bits (135),  Expect = 9e-08, Method: Composition-based stats.
+ Identities = 40/194 (21%), Positives = 62/194 (32%), Gaps = 30/194 (15%)
+
+Query  115   YFNQNHSLETGWLYD-QSNWYYLAKTEINGENYLGERRAGWINDDSTWYYLDPTTGIMQT  173
+             Y ++N         +   +WYY         +  G+   G     +  Y   P    ++ 
+Sbjct  1064  YLDKNGQEVKNRFKEISGSWYYF--------DSDGKMATGKTKIGNDTYLFMPNGKQLKE  1115
+
+Query  174   GWQYLGNKWYYLRSSGAMATG------WYQEGTTWYYLDHPNGDMKTGWQNLGNKWYYLR  227
+             G  Y G K YY   +G   T              W Y  + +G +  G  +L N+  Y  
+Sbjct  1116  GVWYDGKKAYYYDDNGRTWTNKGFVEFRVDGQDKWRYF-NGDGTIAIGLVSLDNRTLYFD  1174
+
+Query  228   SSGAMATG-WYQDGSTWYYLNAGNGDM------------KTGWFQVNGN-WYYAYSSGAL  273
+             + G    G         Y  +A  GD+            + GW  +  N W Y      L
+Sbjct  1175  AYGYQVKGQTVTINGKSYTFDADQGDLVQTDNANPAPQGQAGWKLLGDNQWGYRKDGQLL  1234
+
+Query  274   AVNTTVDGYSVNYN  287
+                 T+DG  V + 
+Sbjct  1235  TGEQTIDGQKVFFQ  1248
+
+
+ Score = 56.4 bits (134),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 47/237 (20%), Positives = 82/237 (35%), Gaps = 40/237 (17%)
+
+Query  5     VQENGRTYYKKGDLKETYWRV--IDGKYYYFDSLSGEMVVGWQYIPFPSKGSTIGPYPNG  62
+             V  + RT Y      +   +   I+GK Y FD+  G++V          +     P P G
+Sbjct  1164  VSLDNRTLYFDAYGYQVKGQTVTINGKSYTFDADQGDLV----------QTDNANPAPQG  1213
+
+Query  63    IRLEGFPKSEWYYFDKNGVLQEFVGWKTLEIKTKDSVGRKYGEKRKRYYTNYYFNQNHSL  122
+                        + + K+G  Q   G +T++ +                   ++ +    +
+Sbjct  1214  QAGWKLLGDNQWGYRKDG--QLLTGEQTIDGQKV-----------------FFQDNGVQV  1254
+
+Query  123   ETGWLYDQSNWYYLAKTEINGENYLGERRAGWINDDSTWYYLDPTTGIMQTGWQYLGNKW  182
+             + G   D S             +   +   GW +     +     +G + TG Q +  + 
+Sbjct  1255  KGGTATDASGVLRF-----YDRDQGHQVGKGWYSTSDDNWVYVNESGQVLTGLQTIDGQT  1309
+
+Query  183   YYLRSSGAMATGW--YQEGTTWYYLDHPNGDMKTG-WQNLGNKWYYLRSSGAMATGW  236
+              Y    G  A G   + E     Y D  +G+M    W+N+   WYY   +G +AT W
+Sbjct  1310  VYFDDKGIQAKGKAVWDENGNLRYFDADSGNMLRDRWKNVDGNWYYFNRNG-LATRW  1365
+
+
+> sp|P13470|GTFC_STRMU Glucosyltransferase-SI OS=Streptococcus 
+mutans serotype c (strain ATCC 700610 / UA159) OX=210007 GN=gtfC 
+PE=1 SV=2
+Length=1455
+
+ Score = 69.9 bits (169),  Expect = 5e-12, Method: Composition-based stats.
+ Identities = 37/147 (25%), Positives = 57/147 (39%), Gaps = 4/147 (3%)
+
+Query  135   YLAKTEINGENYLGERRAGWINDDSTWYYLDPTTGIMQTGWQYLGNKWYYLRSSGAMATG  194
+             +L K+ +N  +       G + D   + Y   +    +  +  LGN WYY  ++G M TG
+Sbjct  1079  FLPKSLVNPNHGTSSSVTGLVFDGKGYVYYSTSGNQAKNAFISLGNNWYYFDNNGYMVTG  1138
+
+Query  195   WYQEGTTWYYLDHPNGDMKTGWQNLGNKW--YYLRSSGAMATGWYQDGSTWYYLNAGNGD  252
+                     YY       ++    + GNK   YY         G+Y  G  W Y    NG 
+Sbjct  1139  AQSINGANYYFLSNGIQLRNAIYDNGNKVLSYYGNDGRRYENGYYLFGQQWRYF--QNGI  1196
+
+Query  253   MKTGWFQVNGNWYYAYSSGALAVNTTV  279
+             M  G  +++G   Y  +SG  A    +
+Sbjct  1197  MAVGLTRIHGAVQYFDASGFQAKGQFI  1223
+
+
+ Score = 66.8 bits (161),  Expect = 6e-11, Method: Composition-based stats.
+ Identities = 64/302 (21%), Positives = 112/302 (37%), Gaps = 31/302 (10%)
+
+Query  4     FVQENGRTYYKKGD-LKETYWRVIDGKYYYFDSLSGEMVVGWQYIPFPSKGSTIG----P  58
+             F+      YY   +    T  + I+G  YYF S +G  +    Y       S  G     
+Sbjct  1119  FISLGNNWYYFDNNGYMVTGAQSINGANYYFLS-NGIQLRNAIYDNGNKVLSYYGNDGRR  1177
+
+Query  59    YPNGIRLEGFPKSEWYYFDKNGVLQEFVGWKTLEIKTKDSVGRKYGEKRKRYYTN----Y  114
+             Y NG  L G    +W YF +NG++   VG   +    +      +  K +   T      
+Sbjct  1178  YENGYYLFG---QQWRYF-QNGIMA--VGLTRIHGAVQYFDASGFQAKGQFITTADGKLR  1231
+
+Query  115   YFNQNHSLETGWLYDQSNWYYLAKTEINGENYLGERRAGWINDDSTWYYLDPTTGIMQTG  174
+             YF+++   +       + +   +K E    ++ G    G +  +    Y  P     +  
+Sbjct  1232  YFDRDSGNQI-----SNRFVRNSKGEWFLFDHNGVAVTGTVTFNGQRLYFKPNGVQAKGE  1286
+
+Query  175   WQYL--GNKWYYLRSSGAMATGWYQEGTT--WYYLDHPNGDMKTGWQNLGNKWYYLRSSG  230
+             +     G+  YY  +SG      +   +   W+  DH NG   TG + +  +  Y +S+G
+Sbjct  1287  FIRDADGHLRYYDPNSGNEVRNRFVRNSKGEWFLFDH-NGIAVTGTRVVNGQRLYFKSNG  1345
+
+Query  231   AMATG--WYQDGSTWYYLNAGNGDMKTGWFQV--NGNWYYAYSSGALAVN-TTVDGYSVN  285
+               A G    +      Y +  +G+     +    +GNWYY  + G   +    V+G  V 
+Sbjct  1346  VQAKGELITERKGRIKYYDPNSGNEVRNRYVRTSSGNWYYFGNDGYALIGWHVVEGRRVY  1405
+
+Query  286   YN  287
+             ++
+Sbjct  1406  FD  1407
+
+
+ Score = 56.0 bits (133),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 58/311 (19%), Positives = 87/311 (28%), Gaps = 54/311 (17%)
+
+Query  9     GRTYYKKGDLKETYWRVIDGKYYY----FDSLSGEMVVGWQYIPFPSKGSTIGPYPNGIR  64
+             G  Y  K     TY+ ++    +      +   G        + F  KG           
+Sbjct  1057  GAGYVLKDQATNTYFSLVSDNTFLPKSLVNPNHGTSS-SVTGLVFDGKGYVYYSTSGNQA  1115
+
+Query  65    LEGFPK--SEWYYFDKNGVLQEFVGWKTLEIKTKDSVGRKYGEKRKRYYTN-----YYFN  117
+                F    + WYYFD NG +    G +++       +      +   Y        YY N
+Sbjct  1116  KNAFISLGNNWYYFDNNGYM--VTGAQSINGANYYFLSNGIQLRNAIYDNGNKVLSYYGN  1173
+
+Query  118   QNHSLETGWLYDQSNWYYLAKTEINGENYLGERRAGWINDDSTWYYLDPTTGIMQTGWQY  177
+                  E G+      W Y            G    G         Y D +    +  +  
+Sbjct  1174  DGRRYENGYYLFGQQWRYF---------QNGIMAVGLTRIHGAVQYFDASGFQAKGQFIT  1224
+
+Query  178   --LGNKWYYLRSSGAMATGWYQEGTT--WYYLDHPNGDMKTGWQNLGNKWYYLRSSGAMA  233
+                G   Y+ R SG   +  +   +   W+  DH NG   TG      +  Y + +G  A
+Sbjct  1225  TADGKLRYFDRDSGNQISNRFVRNSKGEWFLFDH-NGVAVTGTVTFNGQRLYFKPNGVQA  1283
+
+Query  234   TG-------------------------WYQDGSTWYYLNAGNGDMKTGWFQVNGNWYYAY  268
+              G                                W+  +  NG   TG   VNG   Y  
+Sbjct  1284  KGEFIRDADGHLRYYDPNSGNEVRNRFVRNSKGEWFLFDH-NGIAVTGTRVVNGQRLYFK  1342
+
+Query  269   SSGALAVNTTV  279
+             S+G  A    +
+Sbjct  1343  SNGVQAKGELI  1353
+
+
+> sp|P11001|GTF1_STRDO Glucosyltransferase-I OS=Streptococcus downei 
+OX=1317 GN=gtfI PE=3 SV=1
+Length=1597
+
+ Score = 63.7 bits (153),  Expect = 6e-10, Method: Composition-based stats.
+ Identities = 63/289 (22%), Positives = 99/289 (34%), Gaps = 43/289 (15%)
+
+Query  4     FVQENGRTYYKKGD-LKETYWRVIDGKYYYFDSLSGEMVVGWQYIPFPSKGSTIG----P  58
+             F+ E G  YY   D    T  + I G  YYF + +G  +    Y     +    G     
+Sbjct  1092  FITEAGNLYYFGQDGYMVTGAQNIKGSNYYFLA-NGAALRNTVYTDAQGQNHYYGNDGKR  1150
+
+Query  59    YPNGIRLEGFPKSEWYYFDKNGVLQEFVGWKTLEIKTKDSVGRKYGEKRKRYYTNYYFNQ  118
+             Y NG +   F    W YF KNGV+   +G  T++   +                  YF++
+Sbjct  1151  YENGYQQ--FGNDSWRYF-KNGVMA--LGLTTVDGHVQ------------------YFDK  1187
+
+Query  119   NHSLETG--WLYDQSNWYYLAKTEINGENYLGERRAGWINDDSTWYYLDPTTGIMQTGWQ  176
+             +         +       Y  +   N           ++ D +  +Y     G+  TG Q
+Sbjct  1188  DGVQAKDKIIVTRDGKVRYFDQHNGNA------VTNTFVADKTGHWYYLGKDGVAVTGAQ  1241
+
+Query  177   YLGNKWYYLRSSGAMATG--WYQEGTTWYYLDHPNGDMKTG--WQNLGNKWYYLRSSGAM  232
+              +G +  Y  ++G    G     +    Y+ D  +GDM T    ++    W+YL   GA 
+Sbjct  1242  TVGKQHLYFEANGQQVKGDFVTAKDGKLYFYDVDSGDMWTNTFIEDKAGNWFYLGKDGAA  1301
+
+Query  233   ATGWYQDGSTWYYLNAGNGDMKTGWFQVNGNW--YYAYSSGALAVNTTV  279
+              TG         Y  A    +K    +       YY   +G    N +V
+Sbjct  1302  VTGAQTIKGQKLYFKANGQQVKGDIVKDADGKIRYYDAQTGEQVFNKSV  1350
+
+
+ Score = 58.7 bits (140),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 57/319 (18%), Positives = 92/319 (29%), Gaps = 48/319 (15%)
+
+Query  6     QENGRTYYKKGDLKETYWRVI---DGKYYYFDSLSGEMVVGWQYIPFPSKGSTIGPYPNG  62
+               +G   Y   D  +   ++I   DGK  YFD  +G  V              +G     
+Sbjct  1177  TVDGHVQYFDKDGVQAKDKIIVTRDGKVRYFDQHNGNAVTNTFVADKTGHWYYLGKDGVA  1236
+
+Query  63    IRLEGFPKSEWYYFDKNGVLQEFVGWKTLEIKTKDSVGRKYGEKRKRY-----YTNYYFN  117
+             +        +  YF+ NG   +       + K               +        +Y  
+Sbjct  1237  VTGAQTVGKQHLYFEANGQQVKGDFVTAKDGKLYFYDVDSGDMWTNTFIEDKAGNWFYLG  1296
+
+Query  118   QNHSLETGWLYDQSNWYYLAKTEINGENYLGERRAGWINDDSTW--YYLDPTTGIMQTGW  175
+             ++ +  TG    +    Y             + +   + D      YY   T   +    
+Sbjct  1297  KDGAAVTGAQTIKGQKLYFKANGQ-------QVKGDIVKDADGKIRYYDAQTGEQVFNKS  1349
+
+Query  176   QYLGNKWYYLRSSG----------------------AMATGWYQEGTTWY------YLDH  207
+               +  K YY  S G                          G Y  G+ WY      ++  
+Sbjct  1350  VSVNGKTYYFGSDGTAQTQANPKGQTFKDGSGVLRFYNLEGQYVSGSGWYETAEHEWVYV  1409
+
+Query  208   PNGDMKTGWQNLGNKWYYLRSSGAMATG--WYQDGSTWYYLNAGNGDMKTG-WFQVNGNW  264
+              +G + TG Q +GN+  Y + +G    G     +     Y +A +GD        VNG  
+Sbjct  1410  KSGKVLTGAQTIGNQRVYFKDNGHQVKGQLVTGNDGKLRYYDANSGDQAFNKSVTVNGKT  1469
+
+Query  265   YYAYSSGALAVNTTVDGYS  283
+             YY  S G         G +
+Sbjct  1470  YYFGSDGTAQTQANPKGQT  1488
+
+
+ Score = 56.4 bits (134),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 65/302 (22%), Positives = 99/302 (33%), Gaps = 51/302 (17%)
+
+Query  6     QENGRTYYKKGDLKETYWRVI---DGKYYYFDSLSGEMVVGWQYIPFPSKGSTIGPYPNG  62
+                G+  Y K + ++    ++   DGK  Y+D+ +GE V   + +    K    G   +G
+Sbjct  1307  TIKGQKLYFKANGQQVKGDIVKDADGKIRYYDAQTGEQVFN-KSVSVNGKTYYFG--SDG  1363
+
+Query  63    IRLEGFPKSEWYYFDKNGVLQEFVGWKTLEIKTKDSVGRKYGEKRKRYYTNYYFNQNHSL  122
+                         + D +GVL+ +     LE +     G     +    +   Y      L
+Sbjct  1364  TAQTQANPKGQTFKDGSGVLRFYN----LEGQYVSGSGWYETAE----HEWVYVKSGKVL  1415
+
+Query  123   ETGWLYDQSNWYYLAKTEINGENYLGERRAGWINDDSTWYYLDPTTGIMQTGWQYLGNKW  182
+                        Y+    + NG    G+   G  ND    YY   +          +  K 
+Sbjct  1416  TGAQTIGNQRVYF----KDNGHQVKGQLVTG--NDGKLRYYDANSGDQAFNKSVTVNGKT  1469
+
+Query  183   YYLRSSG----------------------AMATGWYQEGTTWY------YLDHPNGDMKT  214
+             YY  S G                          G Y  G+ WY      +L   +G + T
+Sbjct  1470  YYFGSDGTAQTQANPKGQTFKDGSGVLRFYNLEGQYVSGSGWYKNAQGQWLYVKDGKVLT  1529
+
+Query  215   GWQNLGNKWYYLRSSGAMATG--WYQDGSTWYYLNAGNGDMKTG-WFQVNGNWYYAYSSG  271
+             G Q +GN+  Y   +G  A G           Y +  +G M T  W  V G +YY  S G
+Sbjct  1530  GLQTVGNQKVYFDKNGIQAKGKAVRTSDGKVRYFDENSGSMITNQWKFVYGQYYYFGSDG  1589
+
+Query  272   AL  273
+             A 
+Sbjct  1590  AA  1591
+
+
+ Score = 54.9 bits (130),  Expect = 4e-07, Method: Composition-based stats.
+ Identities = 32/172 (19%), Positives = 47/172 (27%), Gaps = 17/172 (10%)
+
+Query  122   LETGWLYDQSNWYYLAKTEINGENYLGERRAGWINDDSTWYYLDPTTGIMQTGWQYL--G  179
+             +   ++ +  N YY  +              G  N   + YY       ++        G
+Sbjct  1088  VTDSFITEAGNLYYFGQDGYM--------VTGAQNIKGSNYYFLANGAALRNTVYTDAQG  1139
+
+Query  180   NKWYYLRSSGAMATGWYQE-GTTWYYLDHPNGDMKTGWQNLGNKWYYLRSSGAMATGWYQ  238
+                YY         G+ Q    +W Y  +  G M  G   +     Y    G  A     
+Sbjct  1140  QNHYYGNDGKRYENGYQQFGNDSWRYFKN--GVMALGLTTVDGHVQYFDKDGVQAKDKII  1197
+
+Query  239   D--GSTWYYLNAGNGDMKTGWF--QVNGNWYYAYSSGALAVNTTVDGYSVNY  286
+                     Y +  NG+  T  F     G+WYY    G         G    Y
+Sbjct  1198  VTRDGKVRYFDQHNGNAVTNTFVADKTGHWYYLGKDGVAVTGAQTVGKQHLY  1249
+
+
+ Score = 49.1 bits (115),  Expect = 3e-05, Method: Composition-based stats.
+ Identities = 49/251 (20%), Positives = 84/251 (33%), Gaps = 19/251 (8%)
+
+Query  3     QFVQENGRTYYKKGDLKETYWRVIDGKYY-------YFDSLSGEMVVGWQYIPFPSKGST  55
+             + V  NG+TYY   D          G+ +        F +L G+ V G  +         
+Sbjct  1348  KSVSVNGKTYYFGSDGTAQTQANPKGQTFKDGSGVLRFYNLEGQYVSGSGWYETAEHEWV  1407
+
+Query  56    IGPYPNGIRLEGFPKSEWYYFDKNGVLQEFVGWKTLEIKTKDSVGRKYGEKRKRYYT---  112
+                    +       ++  YF  NG   +       + K +        +   +  T   
+Sbjct  1408  YVKSGKVLTGAQTIGNQRVYFKDNGHQVKGQLVTGNDGKLRYYDANSGDQAFNKSVTVNG  1467
+
+Query  113   -NYYFNQNHSLETGWLYDQSNWYYLAKTEINGENYLGERR--AGWINDDSTWYYLDPTTG  169
+               YYF  + + +T     +   +      +   N  G+    +GW  +    +       
+Sbjct  1468  KTYYFGSDGTAQTQ-ANPKGQTFKDGSGVLRFYNLEGQYVSGSGWYKNAQGQWLYVKDGK  1526
+
+Query  170   IMQTGWQYLGNKWYYLRSSGAMATGWY--QEGTTWYYLDHPNGDMKTG-WQNLGNKWYYL  226
+             ++ TG Q +GN+  Y   +G  A G           Y D  +G M T  W+ +  ++YY 
+Sbjct  1527  VL-TGLQTVGNQKVYFDKNGIQAKGKAVRTSDGKVRYFDENSGSMITNQWKFVYGQYYYF  1585
+
+Query  227   RSSGAMA-TGW  236
+              S GA    GW
+Sbjct  1586  GSDGAAVYRGW  1596
+
+
+ Score = 48.7 bits (114),  Expect = 4e-05, Method: Composition-based stats.
+ Identities = 32/177 (18%), Positives = 49/177 (28%), Gaps = 10/177 (6%)
+
+Query  112   TNYYFNQNHSLETGWLYDQSNWYYLAKTEINGENYLGERRAGWINDDSTWYYLDPTTGIM  171
+             +NYYF  N +     +Y                N       G+    +  +       + 
+Sbjct  1118  SNYYFLANGAALRNTVYTD-----AQGQNHYYGNDGKRYENGYQQFGNDSWRYFKNGVMA  1172
+
+Query  172   QTGWQYLGNKWYYLRSSGAMATGWYQEGTTWY-YLDHPNGDMKTGWQNLG--NKWYYLRS  228
+                    G+  Y+ +                  Y D  NG+  T          WYYL  
+Sbjct  1173  LGLTTVDGHVQYFDKDGVQAKDKIIVTRDGKVRYFDQHNGNAVTNTFVADKTGHWYYLGK  1232
+
+Query  229   SGAMATGWYQDGSTWYYLNAGNGDMKTGWFQVNGNWYYAY--SSGALAVNTTVDGYS  283
+              G   TG    G    Y  A    +K  +        Y Y   SG +  NT ++  +
+Sbjct  1233  DGVAVTGAQTVGKQHLYFEANGQQVKGDFVTAKDGKLYFYDVDSGDMWTNTFIEDKA  1289
+
+
+> sp|P27470|GTF2_STRDO Glucosyltransferase-I OS=Streptococcus downei 
+OX=1317 PE=3 SV=1
+Length=1592
+
+ Score = 61.0 bits (146),  Expect = 4e-09, Method: Composition-based stats.
+ Identities = 60/289 (21%), Positives = 92/289 (32%), Gaps = 42/289 (15%)
+
+Query  4     FVQENGRTYYKKGD-LKETYWRVIDGKYYYFDSLSGEMVVGWQYIPFPSKGSTIG----P  58
+             F+ E G  YY   D    T  + I+G  Y+F   +G  +    Y                
+Sbjct  1086  FITEAGNLYYFGKDGYMVTGAQTINGANYFF-LENGTALRNTIYTDAQGNSHYYANDGKR  1144
+
+Query  59    YPNGIRLEGFPKSEWYYFDKNGVLQEFVGWKTLEIKTKDSVGRKYGEKRKRYYTNYYFNQ  118
+             Y N    + F     Y+ D N      VG  T++   +                  YF++
+Sbjct  1145  YENENGYQQFGNDWRYFKDGNMA----VGLTTVDGNVQ------------------YFDK  1182
+
+Query  119   NHSLETG--WLYDQSNWYYLAKTEINGENYLGERRAGWINDDSTWYYLDPTTGIMQTGWQ  176
+             +         +       Y  +   N           +I D +  +Y     G+  TG Q
+Sbjct  1183  DGVQAKDKIIVTRDGKVRYFDQHNGNA------VTNTFIADKTGHWYYLGKDGVAVTGAQ  1236
+
+Query  177   YLGNKWYYLRSSGAMATG--WYQEGTTWYYLDHPNGDMKTG--WQNLGNKWYYLRSSGAM  232
+              +G +  Y  ++G    G     +    Y+ D  +GDM T    ++    W+YL   GA 
+Sbjct  1237  TVGKQKLYFEANGQQVKGDFVTSDEGKLYFYDVDSGDMWTDTFIEDKAGNWFYLGKDGAA  1296
+
+Query  233   ATGWYQDGSTWYYLNAGNGDMKTGWFQVNGNW--YYAYSSGALAVNTTV  279
+              TG         Y  A    +K    +       YY   SG    N TV
+Sbjct  1297  VTGAQTIRGQKLYFKANGQQVKGDIVKGTDGKIRYYDAKSGEQVFNKTV  1345
+
+
+ Score = 59.9 bits (143),  Expect = 9e-09, Method: Composition-based stats.
+ Identities = 60/300 (20%), Positives = 98/300 (33%), Gaps = 49/300 (16%)
+
+Query  6     QENGRTYYKKGDLKETYWRVI---DGKYYYFDSLSGEMVVGWQYIPFPSKGSTIGPYPNG  62
+                G+  Y K + ++    ++   DGK  Y+D+ SGE V          K   IG   +G
+Sbjct  1302  TIRGQKLYFKANGQQVKGDIVKGTDGKIRYYDAKSGEQVFNKTVKAADGKTYVIGN--DG  1359
+
+Query  63    IRLEGFPKSEWYYFDKNGVLQEFVGWKTLEIKTKDSVGRKYGEKRKRYYTNYYFNQNHSL  122
+             + ++        + D +G L+ +          K  +    G      +   Y     +L
+Sbjct  1360  VAVDPSVVKGQTFKDASGALRFYN--------LKGQLVTGSGWYETANHDWVYIQSGKAL  1411
+
+Query  123   ETGWLYDQSNWYYLAKTEINGENYLGERRAGWINDDSTWYYLDPTTGIMQTGWQYLGNKW  182
+                   +  + Y+            G+   G   D    YY   +          +  K 
+Sbjct  1412  TGEQTINGQHLYFKKDG----HQVKGQLVTG--TDGKVRYYDANSGDQAFNKSVTVNGKT  1465
+
+Query  183   YYLRSSG---------------------AMATGWYQEGTTWY------YLDHPNGDMKTG  215
+             YY  + G                         G    G+ WY      +L   NG + TG
+Sbjct  1466  YYFGNDGTAQTAGNPKGQTFKDGSDIRFYSMEGQLVTGSGWYSNAQGQWLYVKNGKVLTG  1525
+
+Query  216   WQNLGNKWYYLRSSGAMATG--WYQDGSTWYYLNAGNGDMKTG-WFQVNGNWYYAYSSGA  272
+              Q +G++  Y   +G  A G           Y +  +G M T  W +VNG +YY  + GA
+Sbjct  1526  LQTVGSQRVYFDENGIQAKGKAVRTSDGKIRYFDENSGSMITNQWKEVNGRYYYFGNDGA  1585
+
+
+ Score = 56.0 bits (133),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 57/302 (19%), Positives = 92/302 (30%), Gaps = 34/302 (11%)
+
+Query  9     GRTYYKKGDLKETYWRVIDGKYYYFDSLSGEMVVGWQYIPFPSKGSTIGPYPNGIRLEG-  67
+             G  Y     +   Y+ V     +   SL G++V     I +  KG        G +++  
+Sbjct  1028  GADYVLSDQVSNKYFNVASDTLFLPSSLLGKVVE--SGIRYDGKGYIYNSSATGDQVKAS  1085
+
+Query  68    --FPKSEWYYFDKNGVLQEFVGWKTLEIKT-----KDSVGRKYGEKRKRYYTNYYFNQN-  119
+                     YYF K+G +    G +T+           +  R       +  ++YY N   
+Sbjct  1086  FITEAGNLYYFGKDGYM--VTGAQTINGANYFFLENGTALRNTIYTDAQGNSHYYANDGK  1143
+
+Query  120   -HSLETGWLYDQSNWYYLAKTE------INGENYLGERRAGWI--------NDDSTWYYL  164
+              +  E G+    ++W Y               N     + G           D    Y+ 
+Sbjct  1144  RYENENGYQQFGNDWRYFKDGNMAVGLTTVDGNVQYFDKDGVQAKDKIIVTRDGKVRYFD  1203
+
+Query  165   DPTTGIMQTGWQYL-GNKWYYLRSSGAMATGWYQEGTTWYYLDHPNGDMKTGWQNLGNKW  223
+                   +   +       WYYL   G   TG    G    Y +     +K  +       
+Sbjct  1204  QHNGNAVTNTFIADKTGHWYYLGKDGVAVTGAQTVGKQKLYFEANGQQVKGDFVTSDEGK  1263
+
+Query  224   YYLR--SSGAMATGWYQDG--STWYYLNAGNGDMKTGWFQVNGNWYYAYSSGALAVNTTV  279
+              Y     SG M T  + +     W+YL   +G   TG   + G   Y  ++G       V
+Sbjct  1264  LYFYDVDSGDMWTDTFIEDKAGNWFYL-GKDGAAVTGAQTIRGQKLYFKANGQQVKGDIV  1322
+
+Query  280   DG  281
+              G
+Sbjct  1323  KG  1324
+
+
+ Score = 49.1 bits (115),  Expect = 3e-05, Method: Composition-based stats.
+ Identities = 48/313 (15%), Positives = 88/313 (28%), Gaps = 35/313 (11%)
+
+Query  6     QENGRTYYKKGDLKETYWRVI---DGKYYYFDSLSGEMVVGWQYIPFPSKGSTIGPYPNG  62
+               +G   Y   D  +   ++I   DGK  YFD  +G  V              +G     
+Sbjct  1172  TVDGNVQYFDKDGVQAKDKIIVTRDGKVRYFDQHNGNAVTNTFIADKTGHWYYLGKDGVA  1231
+
+Query  63    IRLEGFPKSEWYYFDKNGVLQEFVGWKTLEIKTKDSVGRKYGEKRKRY-----YTNYYFN  117
+             +        +  YF+ NG   +     + E K               +        +Y  
+Sbjct  1232  VTGAQTVGKQKLYFEANGQQVKGDFVTSDEGKLYFYDVDSGDMWTDTFIEDKAGNWFYLG  1291
+
+Query  118   QNHSLETGWLYDQSNWYYLAKTE----------INGENYLGERRAGWINDD-------ST  160
+             ++ +  TG    +    Y                +G+    + ++G    +         
+Sbjct  1292  KDGAAVTGAQTIRGQKLYFKANGQQVKGDIVKGTDGKIRYYDAKSGEQVFNKTVKAADGK  1351
+
+Query  161   WYYLDPTTGIMQ------TGWQYLGNKWYYLRSSGAMATGW-YQEGTTWYYLDHPNGDMK  213
+              Y +      +         ++       +    G + TG  + E     ++   +G   
+Sbjct  1352  TYVIGNDGVAVDPSVVKGQTFKDASGALRFYNLKGQLVTGSGWYETANHDWVYIQSGKAL  1411
+
+Query  214   TGWQNLGNKWYYLRSSGAMATG--WYQDGSTWYYLNAGNGDMKTG-WFQVNGNWYYAYSS  270
+             TG Q +  +  Y +  G    G           Y +A +GD        VNG  YY  + 
+Sbjct  1412  TGEQTINGQHLYFKKDGHQVKGQLVTGTDGKVRYYDANSGDQAFNKSVTVNGKTYYFGND  1471
+
+Query  271   GALAVNTTVDGYS  283
+             G         G +
+Sbjct  1472  GTAQTAGNPKGQT  1484
+
+
+ Score = 45.2 bits (105),  Expect = 6e-04, Method: Composition-based stats.
+ Identities = 40/188 (21%), Positives = 59/188 (31%), Gaps = 14/188 (7%)
+
+Query  36    LSGEMVVGWQYIPFPSKGSTIGPYPNGIRLEGFPKSEWYYFDKNGVLQEFVGWKTLEIKT  95
+             L+GE  +  Q++ F   G  +     G  + G      YY D N   Q F    T+  KT
+Sbjct  1411  LTGEQTINGQHLYFKKDGHQV----KGQLVTGTDGKVRYY-DANSGDQAFNKSVTVNGKT  1465
+
+Query  96    KDSVGRKYGEKRKRYYTNYYFNQNHSLE----TGWLYDQSNWYYLAKTEINGENYLGERR  151
+                 G     +         F     +      G L   S WY  A+         G+  
+Sbjct  1466  Y-YFGNDGTAQTAGNPKGQTFKDGSDIRFYSMEGQLVTGSGWYSNAQ-GQWLYVKNGKVL  1523
+
+Query  152   AGWINDDSTWYYLDPTTGIMQTGWQY--LGNKWYYLRSSGAM-ATGWYQEGTTWYYLDHP  208
+              G     S   Y D      +        G   Y+  +SG+M    W +    +YY  + 
+Sbjct  1524  TGLQTVGSQRVYFDENGIQAKGKAVRTSDGKIRYFDENSGSMITNQWKEVNGRYYYFGND  1583
+
+Query  209   NGDMKTGW  216
+                +  GW
+Sbjct  1584  GARIYRGW  1591
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.120    0.331    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0368    0.140     1.90     42.6     43.6 
+
+Effective search space used: 23823814128
+Results from round 3
+
+
+Query= 6JYX
+
+Length=291
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P08987|GTFB_STRMU Glucosyltransferase-I OS=Streptococcus mut...  202     2e-57
+  sp|P18177|TOXB_CLODI Toxin B OS=Clostridioides difficile OX=149...  198     4e-56
+  sp|P16154|TOXA_CLODI Toxin A OS=Clostridioides difficile OX=149...  188     1e-52
+  sp|P49331|GTFD_STRMU Glucosyltransferase-S OS=Streptococcus mut...  183     8e-51
+  sp|P11001|GTF1_STRDO Glucosyltransferase-I OS=Streptococcus dow...  175     4e-48
+  sp|P27470|GTF2_STRDO Glucosyltransferase-I OS=Streptococcus dow...  175     4e-48
+  sp|P13470|GTFC_STRMU Glucosyltransferase-SI OS=Streptococcus mu...  173     2e-47
+  sp|P29336|GTFS_STRDO Glucosyltransferase-S OS=Streptococcus dow...  173     3e-47
+  sp|P59206|LYTB_STRR6 Putative endo-beta-N-acetylglucosaminidase...  168     4e-46
+  sp|P19386|LYS_BPCP9 Lysozyme OS=Streptococcus phage Cp-9 OX=107...  143     3e-39
+  sp|P15057|LYS_BPCP1 Lysozyme OS=Streptococcus phage Cp-1 OX=107...  143     4e-39
+  sp|P59205|LYTB_STRPN Putative endo-beta-N-acetylglucosaminidase...  147     8e-39
+  sp|P06653|ALYS_STRPN Autolysin OS=Streptococcus pneumoniae sero...  141     2e-38
+  sp|P32762|ALYS_BPHB3 Lytic amidase OS=Streptococcus pneumoniae ...  133     8e-36
+  sp|O03979|ALYS_BPDP1 Lysin OS=Pneumococcus phage Dp-1 OX=59241 ...  125     6e-33
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|P08987|GTFB_STRMU Glucosyltransferase-I OS=Streptococcus mutans 
+serotype c (strain ATCC 700610 / UA159) OX=210007 GN=gtfB 
+PE=3 SV=3
+Length=1476
+
+ Score = 202 bits (513),  Expect = 2e-57, Method: Composition-based stats.
+ Identities = 58/303 (19%), Positives = 104/303 (34%), Gaps = 34/303 (11%)
+
+Query  4     FVQENGRTYYKKGD-LKETYWRVIDGKYYYFDSLSGE---MVVGWQYIPFPSKGSTIGPY  59
+             F+ E  + YY   +    T  + I+G  YYF S   +    ++  +   +   G+    Y
+Sbjct  1090  FISEGDKWYYFDNNGYMVTGAQSINGVNYYFLSNGLQLRDAILKNEDGTYAYYGNDGRRY  1149
+
+Query  60    PNGIRLEGFPKSEWYYFDKNGVLQEFVGWKTLEIKTKDSVGRKYGEKRK-----RYYTNY  114
+              NG     F    W +F+     +  VG   ++ + +      Y  K K          Y
+Sbjct  1150  ENGYYQ--FMSGVWRHFNNG---EMSVGLTVIDGQVQYFDEMGYQAKGKFVTTADGKIRY  1204
+
+Query  115   YFNQNHSLETGWL--YDQSNWYYLAKTEINGENYLGERRAGWINDDSTWYYLDPTTGIMQ  172
+             +  Q+ ++        ++  W YL           G    G    +    Y       ++
+Sbjct  1205  FDKQSGNMYRNRFIENEEGKWLYLG--------EDGAAVTGSQTINGQHLYFRANGVQVK  1256
+
+Query  173   TGWQYL--GNKWYYLRSSGAMATGWYQEG--TTWYYLDHPNGDMKTGWQNLGNKWYYLRS  228
+               +     G   YY  +SG      +       W+Y D+ NG   TG + +  +  Y R+
+Sbjct  1257  GEFVTDRYGRISYYDSNSGDQIRNRFVRNAQGQWFYFDN-NGYAVTGARTINGQHLYFRA  1315
+
+Query  229   SGAMATG--WYQDGSTWYYLNAGNGDMKTGWFQVN--GNWYYAYSSGALAVN-TTVDGYS  283
+             +G    G           Y +  +GD     F  N  G W+Y  ++G       T++G  
+Sbjct  1316  NGVQVKGEFVTDRHGRISYYDGNSGDQIRNRFVRNAQGQWFYFDNNGYAVTGARTINGQH  1375
+
+Query  284   VNY  286
+             + +
+Sbjct  1376  LYF  1378
+
+
+ Score = 122 bits (306),  Expect = 6e-30, Method: Composition-based stats.
+ Identities = 46/265 (17%), Positives = 83/265 (31%), Gaps = 27/265 (10%)
+
+Query  7     ENGRTYYKKGDLK-ETYWRVIDGKYYYFDSLSGEMVVGWQYIPFPSKGSTIGPYPNGIRL  65
+             E G+  Y   D    T  + I+G++ YF +   ++   +    +           + IR 
+Sbjct  1221  EEGKWLYLGEDGAAVTGSQTINGQHLYFRANGVQVKGEFVTDRYGRISYYDSNSGDQIRN  1280
+
+Query  66    EGF--PKSEWYYFDKNGVLQEFVGWKTLEIKTKDSVGRKYGEKRKR-----YYTNYYFNQ  118
+                   + +W+YFD NG      G +T+  +           K +         +YY   
+Sbjct  1281  RFVRNAQGQWFYFDNNGYAVT--GARTINGQHLYFRANGVQVKGEFVTDRHGRISYYDGN  1338
+
+Query  119   NHSLETGWL--YDQSNWYYLAKTEINGENYLGERRAGWINDDSTWYYLDPTTGIMQTGWQ  176
+             +            Q  W+Y                 G    +    Y       ++  + 
+Sbjct  1339  SGDQIRNRFVRNAQGQWFYFDNNGY--------AVTGARTINGQHLYFRANGVQVKGEFV  1390
+
+Query  177   YL--GNKWYYLRSSGAMATGWYQEG--TTWYYLDHPNGDMKTGWQNLGNKWYYLRSSGAM  232
+                 G   YY  +SG      +       W+Y D+ NG   TG + +  +  Y R++G  
+Sbjct  1391  TDRYGRISYYDSNSGDQIRNRFVRNAQGQWFYFDN-NGYAVTGARTINGQHLYFRANGVQ  1449
+
+Query  233   ATG--WYQDGSTWYYLNAGNGDMKT  255
+               G           Y +A +G+   
+Sbjct  1450  VKGEFVTDRYGRISYYDANSGERVR  1474
+
+
+ Score = 92.2 bits (227),  Expect = 2e-19, Method: Composition-based stats.
+ Identities = 46/208 (22%), Positives = 73/208 (35%), Gaps = 22/208 (11%)
+
+Query  88    WKTLEIKTKDSVGRKYGEKRKRYYTNYYFNQNHSLETGWLYDQSNWYYLAKTEINGENYL  147
+             W        + +GR  G   K   TN YFN + + E           +L KT +N     
+Sbjct  1017  WSAKYFNGTNILGRGAGYVLKDQATNTYFNISDNKEIN---------FLPKTLLN-----  1062
+
+Query  148   GERRAGWINDDSTWYYLDPTTGIMQTGWQYLGNKWYYLRSSGAMATGWYQEGTTWYYLDH  207
+              + + G+  D   + Y   +    +  +   G+KWYY  ++G M TG        YY   
+Sbjct  1063  QDSQVGFSYDGKGYVYYSTSGYQAKNTFISEGDKWYYFDNNGYMVTGAQSINGVNYYFLS  1122
+
+Query  208   PNGDMKTGWQNLGNKW--YYLRSSGAMATGWYQD-GSTWYYLNAGNGDMKTGWFQVNGNW  264
+                 ++       +    YY         G+YQ     W +    NG+M  G   ++G  
+Sbjct  1123  NGLQLRDAILKNEDGTYAYYGNDGRRYENGYYQFMSGVWRHF--NNGEMSVGLTVIDGQV  1180
+
+Query  265   YYAYSSGALAVNTTV---DGYSVNYNGE  289
+              Y    G  A    V   DG    ++ +
+Sbjct  1181  QYFDEMGYQAKGKFVTTADGKIRYFDKQ  1208
+
+
+> sp|P18177|TOXB_CLODI Toxin B OS=Clostridioides difficile OX=1496 
+GN=toxB PE=1 SV=3
+Length=2366
+
+ Score = 198 bits (503),  Expect = 4e-56, Method: Composition-based stats.
+ Identities = 64/292 (22%), Positives = 125/292 (43%), Gaps = 38/292 (13%)
+
+Query  5     VQENGRTYYKKGDLK-ETYWRVIDGKYYYFDSLSGEMVVG-WQYIPFPSKGSTIGPYPNG  62
+             +  +   YY   + +    W+ +DG+ +YF   +G+   G  Q   +    +      +G
+Sbjct  1929  LIIDENIYYFDDNYRGAVEWKELDGEMHYFSPETGKAFKGLNQIGDYKYYFN-----SDG  1983
+
+Query  63    IRLEGFP--KSEWYYFDKNGVLQEFVGWKTLEIKTKDSVGRKYGEKRKRYYTNYYFNQNH  120
+             +  +GF       +YFD +GV++  VG+  ++ K                  ++YF +N 
+Sbjct  1984  VMQKGFVSINDNKHYFDDSGVMK--VGYTEIDGK------------------HFYFAENG  2023
+
+Query  121   SLETGWLYDQSNWYYLAKTEINGENYLGERRA--GWINDDSTWYYLDPTTGIMQTGWQY-  177
+              ++ G    +  + Y A    +  N  GE  +  G +N ++  YY D +   +  GW+  
+Sbjct  2024  EMQIGVFNTEDGFKYFAHHNEDLGNEEGEEISYSGILNFNNKIYYFDDSFTAVV-GWKDL  2082
+
+Query  178   -LGNKWYYLRSSGAMATGWYQEGTTWYYLDHPNGDMKTGWQNLGNKWYYLRSSGAMATGW  236
+               G+K+Y+   +     G        YY  + +G M+ G+  + +K +Y   SG + +G 
+Sbjct  2083  EDGSKYYFDEDTAEAYIGLSLINDGQYYF-NDDGIMQVGFVTINDKVFYFSDSGIIESGV  2141
+
+Query  237   YQDGSTWYYLNAGNGDMKTGWFQVNGNWYYAYSSGALAVNTTVDGYSVNYNG  288
+                   ++Y++  NG ++ G F  +  + Y     A  VN  + G +V Y+G
+Sbjct  2142  QNIDDNYFYID-DNGIVQIGVFDTSDGYKYFAP--ANTVNDNIYGQAVEYSG  2190
+
+
+ Score = 112 bits (279),  Expect = 2e-26, Method: Composition-based stats.
+ Identities = 66/297 (22%), Positives = 104/297 (35%), Gaps = 40/297 (13%)
+
+Query  5     VQENGRTYYKKGDL-KETYWRVI-DGKYYYFDSLSGEMVVGWQYIPFPSKGSTIGPYPNG  62
+             +  N + YY          W+ + DG  YYFD  + E  +G                   
+Sbjct  2060  LNFNNKIYYFDDSFTAVVGWKDLEDGSKYYFDEDTAEAYIGL------------------  2101
+
+Query  63    IRLEGFPKSEWYYFDKNGVLQEFVGWKTLEIKTKDSVGRKYGEKRKRY--YTNYYFNQNH  120
+                        YYF+ +G++Q  VG+ T+  K          E   +      +Y + N 
+Sbjct  2102  ----SLINDGQYYFNDDGIMQ--VGFVTINDKVFYFSDSGIIESGVQNIDDNYFYIDDNG  2155
+
+Query  121   SLETGWLYDQSNWYYLAKTEINGENYLGERR--AGWINDDSTWYYLDPTTGIMQTGWQYL  178
+              ++ G       + Y A      +N  G+    +G +      YY   T  I +TGW Y 
+Sbjct  2156  IVQIGVFDTSDGYKYFAPANTVNDNIYGQAVEYSGLVRVGEDVYYFGETYTI-ETGWIYD  2214
+
+Query  179   ---GNKWYYLR-SSGAMATGWYQEGTTWYYLDHPNGDMKTGWQNLGNKWYYLRSSGAMAT  234
+                 +  YY    +     G        YY D   G M+TG  +  N  YY   +G M  
+Sbjct  2215  MENESDKYYFNPETKKACKGINLIDDIKYYFD-EKGIMRTGLISFENNNYYFNENGEMQF  2273
+
+Query  235   GWYQDGSTWYYLNAGNGDMKTGWFQVNGNWYYAYSSGALAVNTTVDGYSVNYNGEWV  291
+             G+       +Y    +G M+ G F     + Y        ++   +G S+NY G W+
+Sbjct  2274  GYINIEDKMFYF-GEDGVMQIGVFNTPDGFKYFAH--QNTLDENFEGESINYTG-WL  2326
+
+
+ Score = 102 bits (254),  Expect = 5e-23, Method: Composition-based stats.
+ Identities = 54/286 (19%), Positives = 88/286 (31%), Gaps = 63/286 (22%)
+
+Query  4     FVQENGRTYYKKGDLKET-YWRVIDGKYYYFDSLSGEMVVGWQYIPFPSKGSTIGPYPNG  62
+              V      +Y             I+   YYF      ++ G+                  
+Sbjct  1815  LVSLYNEKFYINNFGMMVSGLIYINDSLYYFKPPVNNLITGFVT----------------  1858
+
+Query  63    IRLEGFPKSEWYYFDKNGVLQEFVGWKTLEIKTKDSVGRKYGEKRKRYYTNYYFNQNHSL  122
+                      + YYF+        +G   ++ K                  NYYFNQ+  L
+Sbjct  1859  ------VGDDKYYFNPINGGAASIGETIIDDK------------------NYYFNQSGVL  1894
+
+Query  123   ETGWLYDQSNWYYLAKTEINGENYLGERRAGWINDDSTWYYLDPTTGIMQTGWQYLGNKW  182
+             +TG    +  + Y A      EN  GE               D T  ++           
+Sbjct  1895  QTGVFSTEDGFKYFAPANTLDENLEGEAI-------------DFTGKLIIDE------NI  1935
+
+Query  183   YYLRSSGAMATGWYQEGTTWYYLDHPNGDMKTGWQNLGNKWYYLRSSGAMATGWYQDGST  242
+             YY   +   A  W +     +Y     G    G   +G+  YY  S G M  G+      
+Sbjct  1936  YYFDDNYRGAVEWKELDGEMHYFSPETGKAFKGLNQIGDYKYYFNSDGVMQKGFVSINDN  1995
+
+Query  243   WYYLNAGNGDMKTGWFQVNGNWYYAYSSGALAVN--TTVDGYSVNY  286
+              +Y +  +G MK G+ +++G  +Y   +G + +    T DG+    
+Sbjct  1996  KHYFD-DSGVMKVGYTEIDGKHFYFAENGEMQIGVFNTEDGFKYFA  2040
+
+
+ Score = 74.1 bits (180),  Expect = 2e-13, Method: Composition-based stats.
+ Identities = 39/210 (19%), Positives = 58/210 (28%), Gaps = 24/210 (11%)
+
+Query  6     QENGRTYYKKGDLKETYWRVIDGKYYYFDSLSGEMVVGWQYIPFPSKGSTIGPYPNGIRL  65
+               N   Y   G   E    V  G+  Y+   +  +  GW Y                   
+Sbjct  2176  TVNDNIY---GQAVEYSGLVRVGEDVYYFGETYTIETGWIYDMENESDKYYFNPETKKAC  2232
+
+Query  66    EG--FPKSEWYYFDKNGVLQEFVGWKTLEIKTKDSVGRKYGEKRKRYYTNYYFNQNHSLE  123
+             +G        YYFD+ G+++  +          +  G             +YF ++  ++
+Sbjct  2233  KGINLIDDIKYYFDEKGIMRTGLISFENNNYYFNENGEMQFGYINIEDKMFYFGEDGVMQ  2292
+
+Query  124   TGWLYDQSNWYYLAKTEINGENYLGERRAGWINDDSTWYYLDPTTGIMQTGWQYLGNKWY  183
+              G       + Y A      EN+ GE                       TGW  L  K Y
+Sbjct  2293  IGVFNTPDGFKYFAHQNTLDENFEGESIN-------------------YTGWLDLDEKRY  2333
+
+Query  184   YLRSSGAMATGWYQEGTTWYYLDHPNGDMK  213
+             Y       ATG        YY D     + 
+Sbjct  2334  YFTDEYIAATGSVIIDGEEYYFDPDTAQLV  2363
+
+
+ Score = 71.8 bits (174),  Expect = 1e-12, Method: Composition-based stats.
+ Identities = 54/289 (19%), Positives = 85/289 (29%), Gaps = 62/289 (21%)
+
+Query  1     GWQFVQENGRTYYKKGDLKE--TYWRVIDGKYYYFDSLSGEMVVGWQYIPFPSKGSTIGP  58
+             GW+ + E+G  YY   D  E      +I+   YYF+      V            S  G 
+Sbjct  2078  GWKDL-EDGSKYYFDEDTAEAYIGLSLINDGQYYFNDDGIMQVGFVTINDKVFYFSDSGI  2136
+
+Query  59    YPNGIRLEGFPKSEWYYFDKNGVLQEFVGWKTLEIK----------TKDSVGRKYGEKRK  108
+               +G++        ++Y D NG++Q  V   +   K                 +Y    +
+Sbjct  2137  IESGVQ---NIDDNYFYIDDNGIVQIGVFDTSDGYKYFAPANTVNDNIYGQAVEYSGLVR  2193
+
+Query  109   RYYTNYYFNQNHSLETGWLYD------------------------QSNWYYLAKTEING-  143
+                  YYF + +++ETGW+YD                            YY  +  I   
+Sbjct  2194  VGEDVYYFGETYTIETGWIYDMENESDKYYFNPETKKACKGINLIDDIKYYFDEKGIMRT  2253
+
+Query  144   -----------ENYLGERRAGWINDDSTWYYLDPTTGIMQTGWQYLGNKWYY--------  184
+                         N  GE + G+IN +   +Y      +    +       Y+        
+Sbjct  2254  GLISFENNNYYFNENGEMQFGYINIEDKMFYFGEDGVMQIGVFNTPDGFKYFAHQNTLDE  2313
+
+Query  185   -LRSSGAMATGWYQEGTTWYYLDHPNGDMKTGWQNLGNKWYYLRSSGAM  232
+                      TGW       YY         TG   +  + YY     A 
+Sbjct  2314  NFEGESINYTGWLDLDEKRYYF-TDEYIAATGSVIIDGEEYYFDPDTAQ  2361
+
+
+ Score = 68.7 bits (166),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 29/118 (25%), Positives = 55/118 (47%), Gaps = 5/118 (4%)
+
+Query  174   GWQYLGNKWYYLRSSGAMATGWYQEGTTWYYLDHPNGDMKTGWQNLGNKWYYLR--SSGA  231
+             G   L N+ +Y+ + G M +G      + YY   P  ++ TG+  +G+  YY    + GA
+Sbjct  1814  GLVSLYNEKFYINNFGMMVSGLIYINDSLYYFKPPVNNLITGFVTVGDDKYYFNPINGGA  1873
+
+Query  232   MATGWYQDGSTWYYLNAGNGDMKTGWFQVNGNWYYAYSSGALAVNTTVDGYSVNYNGE  289
+              + G        YY N  +G ++TG F     + Y     A  ++  ++G ++++ G+
+Sbjct  1874  ASIGETIIDDKNYYFN-QSGVLQTGVFSTEDGFKYFAP--ANTLDENLEGEAIDFTGK  1928
+
+
+> sp|P16154|TOXA_CLODI Toxin A OS=Clostridioides difficile OX=1496 
+GN=toxA PE=1 SV=2
+Length=2710
+
+ Score = 188 bits (477),  Expect = 1e-52, Method: Composition-based stats.
+ Identities = 70/296 (24%), Positives = 122/296 (41%), Gaps = 32/296 (11%)
+
+Query  3     QFVQENGRTYYKKGDLK-ETYWRVIDGKYYYFDSLSGEMVVGWQYIPFP-SKGSTIGPYP  60
+             +F+  NG+ YY   + K  T WR+I+ + YYF+  +    VG Q I       +      
+Sbjct  1925  KFLTLNGKKYYFDNNSKAVTGWRIINNEKYYFNPNNAIAAVGLQVIDNNKYYFNPDTAII  1984
+
+Query  61    NGIRLEGFPKSEWYYFDKNGVLQEFVGWKTLEIKTKDSVGRKYGEKRKRYYTNYYFNQNH  120
+             +            YYFD +  +  F G+KT++ K                  ++YF+ + 
+Sbjct  1985  SKGWQT--VNGSRYYFDTDTAIA-FNGYKTIDGK------------------HFYFDSDC  2023
+
+Query  121   SLETGWLYDQSNWYYLAKTEINGENYLGER---RAGWINDDSTWYYLDPTTGIMQTGWQY  177
+              ++ G     + + Y A       N  G+    ++ ++  +   YY D  +    TG Q 
+Sbjct  2024  VVKIGVFSTSNGFEYFAPANTYNNNIEGQAIVYQSKFLTLNGKKYYFDNNSK-AVTGLQT  2082
+
+Query  178   LGNKWYYLRSS-GAMATGWYQEGTTWYYLDHPNGDMKTGWQNLGNKWYYLRSSGAMA-TG  235
+             + +K YY  ++    ATGW       YY +    +  TGWQ +  K YY  ++ A+A TG
+Sbjct  2083  IDSKKYYFNTNTAEAATGWQTIDGKKYYFNTNTAEAATGWQTIDGKKYYFNTNTAIASTG  2142
+
+Query  236   WYQDGSTWYYLNAGNGDMKTGWFQVNGNWYYAYSSGALAVNTTVDGYSVNYNGEWV  291
+             +       +Y N   G M+ G F+    + Y     A      ++G ++ Y  E++
+Sbjct  2143  YTIINGKHFYFNTD-GIMQIGVFKGPNGFEYFAP--ANTDANNIEGQAILYQNEFL  2195
+
+
+ Score = 160 bits (405),  Expect = 4e-43, Method: Composition-based stats.
+ Identities = 65/291 (22%), Positives = 107/291 (37%), Gaps = 43/291 (15%)
+
+Query  3     QFVQENGRTYYKKGDLK-ETYWRVIDGKYYYFDSLSGEMVVGWQYIPFPSKGSTIGPYPN  61
+             +F+  NG+ YY   D K  T W+ IDGK YYF+  + E   GWQ I        +     
+Sbjct  2307  KFLTLNGKKYYFDNDSKAVTGWQTIDGKKYYFNLNTAEAATGWQTIDGKKYYFNLNTAEA  2366
+
+Query  62    GIRLEGFPKSEWYYFDKNGVLQEFVGWKTLEIKTKDSVGRKYGEKRKRYYTNYYFNQNHS  121
+                 +     + YYF+ N  +    G+ ++  K                  ++YFN +  
+Sbjct  2367  ATGWQT-IDGKKYYFNTNTFIA-STGYTSINGK------------------HFYFNTDGI  2406
+
+Query  122   LETGWLYDQSNWYYLAKTEINGENYLGERRAGWINDDSTWYYLDPTTGIMQTGWQYLGNK  181
+             ++ G     + + Y A    +  N  G+                    + Q  +  L  K
+Sbjct  2407  MQIGVFKGPNGFEYFAPANTDANNIEGQAI------------------LYQNKFLTLNGK  2448
+
+Query  182   WYYLRSSGAMATGWYQEGTTWYYLDHPNGDMKTGWQNLGNKWYYLRSSGAMA-TGWYQDG  240
+              YY  S     TG        YY +       TGWQ +  K YY  ++ ++A TG+    
+Sbjct  2449  KYYFGSDSKAVTGLRTIDGKKYYFNTNTAVAVTGWQTINGKKYYFNTNTSIASTGYTIIS  2508
+
+Query  241   STWYYLNAGNGDMKTGWFQVNGNWYYAYSSGALAVNTTVDGYSVNYNGEWV  291
+                +Y N   G M+ G F+    + Y     A      ++G ++ Y   ++
+Sbjct  2509  GKHFYFNTD-GIMQIGVFKGPDGFEYFAP--ANTDANNIEGQAIRYQNRFL  2556
+
+
+ Score = 155 bits (390),  Expect = 5e-41, Method: Composition-based stats.
+ Identities = 68/295 (23%), Positives = 113/295 (38%), Gaps = 50/295 (17%)
+
+Query  3     QFVQENGRTYYKKGDLK-ETYWRVIDGKYYYFDSLSGEMVVGWQYIPFPSKGSTIGPYPN  61
+             +F+  NG+ YY   D K  T WR+I+ K YYF+  +    +    I              
+Sbjct  2193  EFLTLNGKKYYFGSDSKAVTGWRIINNKKYYFNPNNAIAAIHLCTI--------------  2238
+
+Query  62    GIRLEGFPKSEWYYFDKNGVLQEFVGWKTLEIKTKDSVGRKYGEKRKRYYTNYYFNQNHS  121
+                      ++ YYF  +G+LQ   G+ T+E                        N    
+Sbjct  2239  --------NNDKYYFSYDGILQ--NGYITIERNNFYFDA----------------NNESK  2272
+
+Query  122   LETGWLYDQSNWYYLAKTEINGENYLGER---RAGWINDDSTWYYLDPTTGIMQTGWQYL  178
+             + TG     + + Y A    +  N  G+    +  ++  +   YY D  +    TGWQ +
+Sbjct  2273  MVTGVFKGPNGFEYFAPANTHNNNIEGQAIVYQNKFLTLNGKKYYFDNDSK-AVTGWQTI  2331
+
+Query  179   GNKWYYLR-SSGAMATGWYQEGTTWYYLDHPNGDMKTGWQNLGNKWYYLRSSGAMA-TGW  236
+               K YY   ++   ATGW       YY +    +  TGWQ +  K YY  ++  +A TG+
+Sbjct  2332  DGKKYYFNLNTAEAATGWQTIDGKKYYFNLNTAEAATGWQTIDGKKYYFNTNTFIASTGY  2391
+
+Query  237   YQDGSTWYYLNAGNGDMKTGWFQVNGNWYYAYSSGALAVNTTVDGYSVNYNGEWV  291
+                    +Y N   G M+ G F+    + Y     A      ++G ++ Y  +++
+Sbjct  2392  TSINGKHFYFNTD-GIMQIGVFKGPNGFEYFAP--ANTDANNIEGQAILYQNKFL  2443
+
+
+ Score = 131 bits (329),  Expect = 7e-33, Method: Composition-based stats.
+ Identities = 60/294 (20%), Positives = 106/294 (36%), Gaps = 51/294 (17%)
+
+Query  4     FVQENGRTYYKKGDLK-ETYWRVIDGKYYYFDSLSGEMVVGWQYIPFPSKGSTIGPYPNG  62
+             F   + +TYY   D K       I+   +YFD +   +V GWQ I               
+Sbjct  1813  FKIIDNKTYYYDEDSKLVKGLININNSLFYFDPIEFNLVTGWQTI---------------  1857
+
+Query  63    IRLEGFPKSEWYYFDKNGVLQEFVGWKTLEIKTKDSVGRKYGEKRKRYYTNYYFNQNHSL  122
+                      + YYFD N        +K +  K                  ++YFN +  +
+Sbjct  1858  -------NGKKYYFDINTG-AALTSYKIINGK------------------HFYFNNDGVM  1891
+
+Query  123   ETGWLYDQSNWYYLAKTEINGENYLGER---RAGWINDDSTWYYLDPTTGIMQTGWQYLG  179
+             + G       + Y A       N  G+    ++ ++  +   YY D  +    TGW+ + 
+Sbjct  1892  QLGVFKGPDGFEYFAPANTQNNNIEGQAIVYQSKFLTLNGKKYYFDNNSK-AVTGWRIIN  1950
+
+Query  180   NKWYYLR-SSGAMATGWYQEGTTWYYLDHPNGDMKTGWQNLGNKWYYLRSSGAMA-TGWY  237
+             N+ YY   ++   A G        YY +     +  GWQ +    YY  +  A+A  G+ 
+Sbjct  1951  NEKYYFNPNNAIAAVGLQVIDNNKYYFNPDTAIISKGWQTVNGSRYYFDTDTAIAFNGYK  2010
+
+Query  238   QDGSTWYYLNAGNGDMKTGWFQVNGNWYYAYSSGALAVNTTVDGYSVNYNGEWV  291
+                   +Y ++    +K G F  +  + Y     A   N  ++G ++ Y  +++
+Sbjct  2011  TIDGKHFYFDSDC-VVKIGVFSTSNGFEYFAP--ANTYNNNIEGQAIVYQSKFL  2061
+
+
+ Score = 122 bits (305),  Expect = 9e-30, Method: Composition-based stats.
+ Identities = 66/346 (19%), Positives = 104/346 (30%), Gaps = 78/346 (23%)
+
+Query  1     GWQFVQENGRTYYKKGDLKET--YWRVIDGKYYYFDSLS----GEMVVGWQYIPFPSKGS  54
+             GWQ    NG  YY   D       ++ IDGK++YFDS      G       +  F    +
+Sbjct  1987  GWQ--TVNGSRYYFDTDTAIAFNGYKTIDGKHFYFDSDCVVKIGVFSTSNGFEYFAPANT  2044
+
+Query  55    TIGPYP-------------NGIRLEGFPK-----------SEWYYFDKNGVLQEFVGWKT  90
+                                NG +                 S+ YYF+ N       GW+T
+Sbjct  2045  YNNNIEGQAIVYQSKFLTLNGKKYYFDNNSKAVTGLQTIDSKKYYFNTNTAEAAT-GWQT  2103
+
+Query  91    LEIKTKDSVGRKYGEKRKRYYT------------------------NYYFNQNHSLETGW  126
+             ++ K                                          ++YFN +  ++ G 
+Sbjct  2104  IDGKKYYFNTNTAEAATGWQTIDGKKYYFNTNTAIASTGYTIINGKHFYFNTDGIMQIGV  2163
+
+Query  127   LYDQSNWYYLAKTEINGENYLGERRAGWINDDSTWYYLDPTTGIMQTGWQYLGNKWYYLR  186
+                 + + Y A    +  N  G+                    + Q  +  L  K YY  
+Sbjct  2164  FKGPNGFEYFAPANTDANNIEGQAI------------------LYQNEFLTLNGKKYYFG  2205
+
+Query  187   SSGAMATGWYQEGTTWYYLDHPNGDMKTGWQNLGNKWYYLRSSGAMATGWYQDGSTWYYL  246
+             S     TGW       YY +  N         + N  YY    G +  G+       +Y 
+Sbjct  2206  SDSKAVTGWRIINNKKYYFNPNNAIAAIHLCTINNDKYYFSYDGILQNGYITIERNNFYF  2265
+
+Query  247   NAGN-GDMKTGWFQVNGNWYYAYSSGALAVNTTVDGYSVNYNGEWV  291
+             +A N   M TG F+    + Y     A   N  ++G ++ Y  +++
+Sbjct  2266  DANNESKMVTGVFKGPNGFEYFAP--ANTHNNNIEGQAIVYQNKFL  2309
+
+
+ Score = 113 bits (281),  Expect = 1e-26, Method: Composition-based stats.
+ Identities = 62/314 (20%), Positives = 101/314 (32%), Gaps = 79/314 (25%)
+
+Query  3     QFVQENGRTYYKKGDLK-ETYWRVIDGKYYYFDSLSGEMVVGWQYIPFPSKGSTIGPYPN  61
+             +F+  NG+ YY   D K  T  R IDGK YYF++ +   V GWQ I              
+Sbjct  2441  KFLTLNGKKYYFGSDSKAVTGLRTIDGKKYYFNTNTAVAVTGWQTI--------------  2486
+
+Query  62    GIRLEGFPKSEWYYFDKNGVLQEFVGWKTLEIKTKDSVGRKYGEKRKRYYTNYYFNQNHS  121
+                       + YYF+ N  +    G+  +  K                  ++YFN +  
+Sbjct  2487  --------NGKKYYFNTNTSIA-STGYTIISGK------------------HFYFNTDGI  2519
+
+Query  122   LETGWLYDQSNWYYLAKTEINGENYLGER---RAGWINDDSTWYYLDPTTGIMQTGWQYL  178
+             ++ G       + Y A    +  N  G+    +  ++      YY    +    TGW  +
+Sbjct  2520  MQIGVFKGPDGFEYFAPANTDANNIEGQAIRYQNRFLYLHDNIYYFGNNSKAA-TGWVTI  2578
+
+Query  179   GNKWYYLRSSGAM-ATGWYQEGTTWYYLDHPNGDM-------------------------  212
+                 YY   + AM A G+       +Y  +    +                         
+Sbjct  2579  DGNRYYFEPNTAMGANGYKTIDNKNFYFRNGLPQIGVFKGSNGFEYFAPANTDANNIEGQ  2638
+
+Query  213   ----KTGWQNLGNKWYYLRSSGAMATGWYQDGSTWYYLNAGNGD-MKTGWFQVNGNWYYA  267
+                 +  + +L  K YY  ++    TGW       YY           G F+++G  Y+ 
+Sbjct  2639  AIRYQNRFLHLLGKIYYFGNNSKAVTGWQTINGKVYYFMPDTAMAAAGGLFEIDGVIYFF  2698
+
+Query  268   YSSGALAVNTTVDG  281
+                G       + G
+Sbjct  2699  GVDG--VKAPGIYG  2710
+
+
+ Score = 81.4 bits (199),  Expect = 7e-16, Method: Composition-based stats.
+ Identities = 45/250 (18%), Positives = 82/250 (33%), Gaps = 35/250 (14%)
+
+Query  73    WYYFDKNGVLQEFVGWKTLEIKTKDSVGRKYGEKRKRYYTNYYFNQN--HSLETGWLYDQ  130
+              Y  + N  + + +  K +   T+         K  +  +  Y   N         L   
+Sbjct  1750  RYLEESNKKILQKIRIKGILSNTQSFNKMSIDFKDIKKLSLGYIMSNFKSFNSENELDRD  1809
+
+Query  131   SNWYYLAKTEINGENYLGERRAGWINDDSTWYYLDPTTGIMQTGWQYLGNKWYYLR-SSG  189
+                + +   +    +   +   G IN +++ +Y DP    + TGWQ +  K YY   ++G
+Sbjct  1810  HLGFKIIDNKTYYYDEDSKLVKGLININNSLFYFDPIEFNLVTGWQTINGKKYYFDINTG  1869
+
+Query  190   AMATGWYQEGTTWYYLDHPN---------------------------GDM---KTGWQNL  219
+             A  T +       +Y ++                             G     ++ +  L
+Sbjct  1870  AALTSYKIINGKHFYFNNDGVMQLGVFKGPDGFEYFAPANTQNNNIEGQAIVYQSKFLTL  1929
+
+Query  220   GNKWYYLRSSGAMATGWYQDGSTWYYLNAGNGDMKTGWFQVNGNWYYAYSSGALAVN--T  277
+               K YY  ++    TGW    +  YY N  N     G   ++ N YY     A+      
+Sbjct  1930  NGKKYYFDNNSKAVTGWRIINNEKYYFNPNNAIAAVGLQVIDNNKYYFNPDTAIISKGWQ  1989
+
+Query  278   TVDGYSVNYN  287
+             TV+G    ++
+Sbjct  1990  TVNGSRYYFD  1999
+
+
+> sp|P49331|GTFD_STRMU Glucosyltransferase-S OS=Streptococcus mutans 
+serotype c (strain ATCC 700610 / UA159) OX=210007 GN=gtfD 
+PE=3 SV=3
+Length=1462
+
+ Score = 183 bits (463),  Expect = 8e-51, Method: Composition-based stats.
+ Identities = 61/304 (20%), Positives = 99/304 (33%), Gaps = 33/304 (11%)
+
+Query  9     GRTYYKKGDLKET-YWRVIDGKYYYFDSLSGEMVVGWQYIPFPSK---GSTIGPYPNGIR  64
+             G  YY   +       + ++G+  YF S   ++   +      SK   G     Y NG  
+Sbjct  1125  GNWYYFDNNGHMVYGLQHLNGEVQYFLSNGVQLRESFLENADGSKNYFGHLGNRYSNGYY  1184
+
+Query  65    LEGFPKSEWYYFDKNGVLQEFVGWKTLEIKTKDSVGRKYGEKRK-----RYYTNYYFNQN  119
+                   S+W YFD +GV+   VG KT+   T+      Y  K            Y+ + +
+Sbjct  1185  SFD-NDSKWRYFDASGVMA--VGLKTINGNTQYFDQDGYQVKGAWITGSDGKKRYFDDGS  1241
+
+Query  120   HSLETGWLYD--QSNWYYLAKTE-------------INGENYLGERRAGWINDDST-WYY  163
+              ++      +    +WYYL                         + +   I D+    Y+
+Sbjct  1242  GNMAVNRFANDKNGDWYYLNSDGIALVGVQTINGKTYYFGQDGKQIKGKIITDNGKLKYF  1301
+
+Query  164   LDPTTGIMQTGWQYLG-NKWYYLRSSGAMATGWYQEGTTWYYLDHPNGDMKTGWQNLGNK  222
+             L  +  + +  +     N WYY  S G   TG         Y       +K  +     K
+Sbjct  1302  LANSGELARNIFATDSQNNWYYFGSDGVAVTGSQTIAGKKLYFASDGKQVKGSFVTYNGK  1361
+
+Query  223   WYYL--RSSGAMATGWYQDGS-TWYYLNAGNGDMKTGWFQVNGNWYYAYSSGALAVNTTV  279
+              +Y    S       +  D    WYYL++ NG+  TG  ++NG   +    G        
+Sbjct  1362  VHYYHADSGELQVNRFEADKDGNWYYLDS-NGEALTGSQRINGQRVFFTREGKQVKGDVA  1420
+
+Query  280   DGYS  283
+                 
+Sbjct  1421  YDER  1424
+
+
+ Score = 77.6 bits (189),  Expect = 1e-14, Method: Composition-based stats.
+ Identities = 42/267 (16%), Positives = 81/267 (30%), Gaps = 16/267 (6%)
+
+Query  30    YYYFDSLSGEMVVGWQYIPFPSKGSTIGPYPNGIRLEGFPKSEWYYFDKNGVLQEFVG--  87
+                ++    E+V   +   +                      + Y     G     +   
+Sbjct  964   DQIYNLPGKEVVTATRVNDYGEYRKDSEIKNTLYAANTKSNGKDYQAKYGGAFLSELAAK  1023
+
+Query  88    WKTLEIKTKDSVGRKYGEKRK-RYYTNYYFNQNHSLETGW-----LYDQSNWYYLAKTEI  141
+             + ++  +T+ S G+K     K   +   YFN  + L  G            ++ L   + 
+Sbjct  1024  YPSIFNRTQISNGKKIDPSEKITAWKAKYFNGTNILGRGVGYVLKDNASDKYFELKGNQT  1083
+
+Query  142   NGENY--LGERRAGWINDDSTWYYLDPTTGIMQTGWQYLG-NKWYYLRSSGAMATGWYQE  198
+                      E   G++ND +   +   +    +  +       WYY  ++G M  G    
+Sbjct  1084  YLPKQMTNKEASTGFVNDGNGMTFYSTSGYQAKNSFVQDAKGNWYYFDNNGHMVYGLQHL  1143
+
+Query  199   GTTWYYLDHPNGDMKTGWQNLGN--KWYYLRSSGAMATGWYQDGS--TWYYLNAGNGDMK  254
+                  Y       ++  +    +  K Y+       + G+Y   +   W Y +A +G M 
+Sbjct  1144  NGEVQYFLSNGVQLRESFLENADGSKNYFGHLGNRYSNGYYSFDNDSKWRYFDA-SGVMA  1202
+
+Query  255   TGWFQVNGNWYYAYSSGALAVNTTVDG  281
+              G   +NGN  Y    G       + G
+Sbjct  1203  VGLKTINGNTQYFDQDGYQVKGAWITG  1229
+
+
+> sp|P11001|GTF1_STRDO Glucosyltransferase-I OS=Streptococcus downei 
+OX=1317 GN=gtfI PE=3 SV=1
+Length=1597
+
+ Score = 175 bits (443),  Expect = 4e-48, Method: Composition-based stats.
+ Identities = 62/287 (22%), Positives = 95/287 (33%), Gaps = 39/287 (14%)
+
+Query  4     FVQENGRTYYKKGD-LKETYWRVIDGKYYYFDSLSGEMVVGWQYIPFPSKGSTIG----P  58
+             F+ E G  YY   D    T  + I G  YYF + +G  +    Y     +    G     
+Sbjct  1092  FITEAGNLYYFGQDGYMVTGAQNIKGSNYYFLA-NGAALRNTVYTDAQGQNHYYGNDGKR  1150
+
+Query  59    YPNGIRLEGFPKSEWYYFDKNGVLQEFVGWKTLEIKTKDSVGRKYGEKRKRYYTNYYFNQ  118
+             Y NG +   F    W YF  NGV+   +G  T++   +         K K          
+Sbjct  1151  YENGYQQ--FGNDSWRYFK-NGVMA--LGLTTVDGHVQYFDKDGVQAKDKI---------  1196
+
+Query  119   NHSLETGWLYDQSNWYYLAKTEINGENYLGERRAGWINDDSTWYYLDPTTGIMQTGWQYL  178
+                     +       Y  +   N           ++ D +  +Y     G+  TG Q +
+Sbjct  1197  -------IVTRDGKVRYFDQHNGNA------VTNTFVADKTGHWYYLGKDGVAVTGAQTV  1243
+
+Query  179   GNKWYYLRSSGAMATG--WYQEGTTWYYLDHPNGDMKTG--WQNLGNKWYYLRSSGAMAT  234
+             G +  Y  ++G    G     +    Y+ D  +GDM T    ++    W+YL   GA  T
+Sbjct  1244  GKQHLYFEANGQQVKGDFVTAKDGKLYFYDVDSGDMWTNTFIEDKAGNWFYLGKDGAAVT  1303
+
+Query  235   GWYQDGSTWYYLNAGNGDMKTGWFQVNGNW--YYAYSSGALAVNTTV  279
+             G         Y  A    +K    +       YY   +G    N +V
+Sbjct  1304  GAQTIKGQKLYFKANGQQVKGDIVKDADGKIRYYDAQTGEQVFNKSV  1350
+
+
+ Score = 85.7 bits (210),  Expect = 3e-17, Method: Composition-based stats.
+ Identities = 66/312 (21%), Positives = 93/312 (30%), Gaps = 51/312 (16%)
+
+Query  7     ENGRTYYKKGDLK-ETYWRVIDGKYYYFDSLSGEMVVGWQYIPFPSKGSTIGPY--PNGI  63
+             + G  +Y   D    T  + I G+  YF + +G+ V G        K             
+Sbjct  1288  KAGNWFYLGKDGAAVTGAQTIKGQKLYFKA-NGQQVKGDIVKDADGKIRYYDAQTGEQVF  1346
+
+Query  64    RLEGFPKSEWYYFDKNGVLQEFVGWKTLEIKTKDSVGRKYGEKRKRY----------YTN  113
+                     + YYF  +G  Q     K    K    V R Y  + +            +  
+Sbjct  1347  NKSVSVNGKTYYFGSDGTAQTQANPKGQTFKDGSGVLRFYNLEGQYVSGSGWYETAEHEW  1406
+
+Query  114   YYFNQNHSLETGWLYDQSNWYYLAKTEINGENYLGERRAGWINDDSTWYYLDPTTGIMQT  173
+              Y      L           Y+    + NG    G+   G  ND    YY   +      
+Sbjct  1407  VYVKSGKVLTGAQTIGNQRVYF----KDNGHQVKGQLVTG--NDGKLRYYDANSGDQAFN  1460
+
+Query  174   GWQYLGNKWYYLRSSG----------------------AMATGWYQEGTTWY------YL  205
+                 +  K YY  S G                          G Y  G+ WY      +L
+Sbjct  1461  KSVTVNGKTYYFGSDGTAQTQANPKGQTFKDGSGVLRFYNLEGQYVSGSGWYKNAQGQWL  1520
+
+Query  206   DHPNGDMKTGWQNLGNKWYYLRSSGAMATG--WYQDGSTWYYLNAGNGDMKTG-WFQVNG  262
+                +G + TG Q +GN+  Y   +G  A G           Y +  +G M T  W  V G
+Sbjct  1521  YVKDGKVLTGLQTVGNQKVYFDKNGIQAKGKAVRTSDGKVRYFDENSGSMITNQWKFVYG  1580
+
+Query  263   NWYYAYSSGALA  274
+              +YY  S GA  
+Sbjct  1581  QYYYFGSDGAAV  1592
+
+
+ Score = 75.7 bits (184),  Expect = 7e-14, Method: Composition-based stats.
+ Identities = 30/145 (21%), Positives = 46/145 (32%), Gaps = 9/145 (6%)
+
+Query  150   RRAGWINDDSTWYY-LDPTTGIMQTGWQYLGNKWYYLRSSGAMATGWYQEGTTWYYLDHP  208
+               +G   D + + Y    T   +   +       YY    G M TG      + YY    
+Sbjct  1066  VESGIRFDGTGYVYNSSTTGEKVTDSFITEAGNLYYFGQDGYMVTGAQNIKGSNYYFLAN  1125
+
+Query  209   NGDMKTGWQN--LGNKWYYLRSSGAMATGWYQD-GSTWYYLNAGNGDMKTGWFQVNGNWY  265
+                ++        G   YY         G+ Q    +W Y    NG M  G   V+G+  
+Sbjct  1126  GAALRNTVYTDAQGQNHYYGNDGKRYENGYQQFGNDSWRYFK--NGVMALGLTTVDGHVQ  1183
+
+Query  266   YAYSSGALAVNTTV---DGYSVNYN  287
+             Y    G  A +  +   DG    ++
+Sbjct  1184  YFDKDGVQAKDKIIVTRDGKVRYFD  1208
+
+
+ Score = 73.0 bits (177),  Expect = 5e-13, Method: Composition-based stats.
+ Identities = 46/268 (17%), Positives = 75/268 (28%), Gaps = 38/268 (14%)
+
+Query  8     NGRTYYKKGDLKETYWR---VIDGKYYYFDSLSGEMVVGWQYIPFPSKG-------STIG  57
+             +G+  Y      E  +     ++GK YYF S                 G       +  G
+Sbjct  1331  DGKIRYYDAQTGEQVFNKSVSVNGKTYYFGSDGTAQTQANPKGQTFKDGSGVLRFYNLEG  1390
+
+Query  58    PYPNGIRLEGFPKSEWYYFDKNGVL--QEFVGWKTLEIKTKDSVGRKYGEKRKRYYTNYY  115
+              Y +G       + EW Y     VL   + +G + +  K      +            YY
+Sbjct  1391  QYVSGSGWYETAEHEWVYVKSGKVLTGAQTIGNQRVYFKDNGHQVKGQLVTGNDGKLRYY  1450
+
+Query  116   FNQNHSLETGW-LYDQSNWYYLAKTEINGENYLGERRA---------------------G  153
+                +        +      YY             + +                      G
+Sbjct  1451  DANSGDQAFNKSVTVNGKTYYFGSDGTAQTQANPKGQTFKDGSGVLRFYNLEGQYVSGSG  1510
+
+Query  154   WINDDSTWYYLDPTTGIMQTGWQYLGNKWYYLRSSGAMATGWYQE--GTTWYYLDHPNGD  211
+             W  +    +        + TG Q +GN+  Y   +G  A G           Y D  +G 
+Sbjct  1511  WYKNAQGQWLYVKDGK-VLTGLQTVGNQKVYFDKNGIQAKGKAVRTSDGKVRYFDENSGS  1569
+
+Query  212   MKTG-WQNLGNKWYYLRSSGAMATGWYQ  238
+             M T  W+ +  ++YY  S GA     + 
+Sbjct  1570  MITNQWKFVYGQYYYFGSDGAAVYRGWN  1597
+
+
+ Score = 66.8 bits (161),  Expect = 5e-11, Method: Composition-based stats.
+ Identities = 34/222 (15%), Positives = 57/222 (26%), Gaps = 28/222 (13%)
+
+Query  1     GWQFVQENGRTYYKKGDLKETYWRVIDGKYYYFDSLSGEMVVGWQYIPFPSKGSTIGPYP  60
+             GW +        Y K     T  + I  +  YF     ++                    
+Sbjct  1397  GW-YETAEHEWVYVKSGKVLTGAQTIGNQRVYFKDNGHQVKGQLVTGN------------  1443
+
+Query  61    NGIRLEGFPKSEWYYFDKNGVLQEFVGWKTLEIKTKDSVGRKYGEKRKRYYTNYYFNQNH  120
+                        +  Y+D N   Q F    T+  KT         + +       + + + 
+Sbjct  1444  ---------DGKLRYYDANSGDQAFNKSVTVNGKTYYFGSDGTAQTQANPKGQTFKDGSG  1494
+
+Query  121   SLE---TGWLYDQSNWYYLAKTEINGENYLGERRAGWINDDSTWYYLDPTTGIMQTGWQ-  176
+              L        Y   + +Y            G+   G     +   Y D      +     
+Sbjct  1495  VLRFYNLEGQYVSGSGWYKNAQGQWLYVKDGKVLTGLQTVGNQKVYFDKNGIQAKGKAVR  1554
+
+Query  177   -YLGNKWYYLRSSGAMATG-WYQEGTTWYYLDHPNGDMKTGW  216
+                G   Y+  +SG+M T  W      +YY       +  GW
+Sbjct  1555  TSDGKVRYFDENSGSMITNQWKFVYGQYYYFGSDGAAVYRGW  1596
+
+
+> sp|P27470|GTF2_STRDO Glucosyltransferase-I OS=Streptococcus downei 
+OX=1317 PE=3 SV=1
+Length=1592
+
+ Score = 175 bits (443),  Expect = 4e-48, Method: Composition-based stats.
+ Identities = 60/288 (21%), Positives = 89/288 (31%), Gaps = 38/288 (13%)
+
+Query  4     FVQENGRTYYKKGD-LKETYWRVIDGKYYYFDSLSGEMVVGWQYIPFPSKGSTIG----P  58
+             F+ E G  YY   D    T  + I+G  Y+F   +G  +    Y                
+Sbjct  1086  FITEAGNLYYFGKDGYMVTGAQTINGANYFFL-ENGTALRNTIYTDAQGNSHYYANDGKR  1144
+
+Query  59    YPNGIRLEGFPKSEWYYFDKNGVLQEFVGWKTLEIKTKDSVGRKYGEKRKRYYTNYYFNQ  118
+             Y N    + F     Y+ D N      VG  T++   +         K K          
+Sbjct  1145  YENENGYQQFGNDWRYFKDGNMA----VGLTTVDGNVQYFDKDGVQAKDKI---------  1191
+
+Query  119   NHSLETGWLYDQSNWYYLAKTEINGENYLGERRAGWINDDSTWYYLDPTTGIMQTGWQYL  178
+                     +       Y  +   N           +I D +  +Y     G+  TG Q +
+Sbjct  1192  -------IVTRDGKVRYFDQHNGNA------VTNTFIADKTGHWYYLGKDGVAVTGAQTV  1238
+
+Query  179   GNKWYYLRSSGAMATG--WYQEGTTWYYLDHPNGDMKTG--WQNLGNKWYYLRSSGAMAT  234
+             G +  Y  ++G    G     +    Y+ D  +GDM T    ++    W+YL   GA  T
+Sbjct  1239  GKQKLYFEANGQQVKGDFVTSDEGKLYFYDVDSGDMWTDTFIEDKAGNWFYLGKDGAAVT  1298
+
+Query  235   GWYQDGSTWYYLNAGNGDMKTGWFQVNGNW--YYAYSSGALAVNTTVD  280
+             G         Y  A    +K    +       YY   SG    N TV 
+Sbjct  1299  GAQTIRGQKLYFKANGQQVKGDIVKGTDGKIRYYDAKSGEQVFNKTVK  1346
+
+
+ Score = 80.7 bits (197),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 62/309 (20%), Positives = 95/309 (31%), Gaps = 49/309 (16%)
+
+Query  7     ENGRTYYKKGDLK-ETYWRVIDGKYYYFDSLSGEMVVGWQYIPFPSKGSTIGPYPNG---  62
+             + G  +Y   D    T  + I G+  YF + +G+ V G        K             
+Sbjct  1283  KAGNWFYLGKDGAAVTGAQTIRGQKLYFKA-NGQQVKGDIVKGTDGKIRYYDAKSGEQVF  1341
+
+Query  63    IRLEGFPKSEWYYFDKNGVLQEFVGWKTLEIKTKDSVGRKYGEKRKRYYTNYYFN-----  117
+              +       + Y    +GV  +    K    K      R Y  K +    + ++      
+Sbjct  1342  NKTVKAADGKTYVIGNDGVAVDPSVVKGQTFKDASGALRFYNLKGQLVTGSGWYETANHD  1401
+
+Query  118   ----QNHSLETGWLYDQSNWYYLAKTEINGENYLGERRAGWINDDSTWYYLDPTTGIMQT  173
+                 Q+    TG         Y  K   +G    G+   G   D    YY   +      
+Sbjct  1402  WVYIQSGKALTGEQTINGQHLYFKK---DGHQVKGQLVTG--TDGKVRYYDANSGDQAFN  1456
+
+Query  174   GWQYLGNKWYYLRSSG---------------------AMATGWYQEGTTWY------YLD  206
+                 +  K YY  + G                         G    G+ WY      +L 
+Sbjct  1457  KSVTVNGKTYYFGNDGTAQTAGNPKGQTFKDGSDIRFYSMEGQLVTGSGWYSNAQGQWLY  1516
+
+Query  207   HPNGDMKTGWQNLGNKWYYLRSSGAMATG--WYQDGSTWYYLNAGNGDMKTG-WFQVNGN  263
+               NG + TG Q +G++  Y   +G  A G           Y +  +G M T  W +VNG 
+Sbjct  1517  VKNGKVLTGLQTVGSQRVYFDENGIQAKGKAVRTSDGKIRYFDENSGSMITNQWKEVNGR  1576
+
+Query  264   WYYAYSSGA  272
+             +YY  + GA
+Sbjct  1577  YYYFGNDGA  1585
+
+
+ Score = 74.5 bits (181),  Expect = 1e-13, Method: Composition-based stats.
+ Identities = 31/146 (21%), Positives = 48/146 (33%), Gaps = 10/146 (7%)
+
+Query  150   RRAGWINDDSTWYY-LDPTTGIMQTGWQYLGNKWYYLRSSGAMATGWYQEGTTWYYLDHP  208
+               +G   D   + Y    T   ++  +       YY    G M TG        Y+    
+Sbjct  1060  VESGIRYDGKGYIYNSSATGDQVKASFITEAGNLYYFGKDGYMVTGAQTINGANYFFLEN  1119
+
+Query  209   NGDMKTGWQN--LGNKWYYLRSSGAM--ATGWYQDGSTWYYLNAGNGDMKTGWFQVNGNW  264
+                ++        GN  YY           G+ Q G+ W Y    +G+M  G   V+GN 
+Sbjct  1120  GTALRNTIYTDAQGNSHYYANDGKRYENENGYQQFGNDWRYFK--DGNMAVGLTTVDGNV  1177
+
+Query  265   YYAYSSGALAVNTTV---DGYSVNYN  287
+              Y    G  A +  +   DG    ++
+Sbjct  1178  QYFDKDGVQAKDKIIVTRDGKVRYFD  1203
+
+
+ Score = 64.9 bits (156),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 33/168 (20%), Positives = 46/168 (27%), Gaps = 18/168 (11%)
+
+Query  127   LYDQSNWYYLAKTEINGENYLGERRAGWINDDSTWYYLDPTTGIMQTGWQYL--GNKWYY  184
+             + +  N YY  K              G    +   Y+       ++        GN  YY
+Sbjct  1087  ITEAGNLYYFGKDGYM--------VTGAQTINGANYFFLENGTALRNTIYTDAQGNSHYY  1138
+
+Query  185   LRSSG--AMATGWYQEGTTWYYLDHPNGDMKTGWQNLGNKWYYLRSSGAMATG--WYQDG  240
+                        G+ Q G  W Y    +G+M  G   +     Y    G  A         
+Sbjct  1139  ANDGKRYENENGYQQFGNDWRYFK--DGNMAVGLTTVDGNVQYFDKDGVQAKDKIIVTRD  1196
+
+Query  241   STWYYLNAGNGDMKTGWFQ--VNGNWYYAYSSGALAVNTTVDGYSVNY  286
+                 Y +  NG+  T  F     G+WYY    G         G    Y
+Sbjct  1197  GKVRYFDQHNGNAVTNTFIADKTGHWYYLGKDGVAVTGAQTVGKQKLY  1244
+
+
+ Score = 64.9 bits (156),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 39/222 (18%), Positives = 65/222 (29%), Gaps = 29/222 (13%)
+
+Query  1     GWQFVQENGRTYYKKGDLKETYWRVIDGKYYYFDSLSGEMVVGWQYIPFPSKGSTIGPYP  60
+             GW +   N    Y +     T  + I+G++ YF     ++                    
+Sbjct  1393  GW-YETANHDWVYIQSGKALTGEQTINGQHLYFKKDGHQVKGQLVTGT------------  1439
+
+Query  61    NGIRLEGFPKSEWYYFDKNGVLQEFVGWKTLEIKTKDSVGRKYGEKRKRYYTNYYFNQNH  120
+                        +  Y+D N   Q F    T+  KT         +         + + + 
+Sbjct  1440  ---------DGKVRYYDANSGDQAFNKSVTVNGKTYYFGNDGTAQTAGNPKGQTFKDGSD  1490
+
+Query  121   S---LETGWLYDQSNWYYLAKTEINGENYLGERRAGWINDDSTWYYLDPTTGIMQTGWQ-  176
+                    G L   S WY  A+ +       G+   G     S   Y D      +     
+Sbjct  1491  IRFYSMEGQLVTGSGWYSNAQGQWLYVK-NGKVLTGLQTVGSQRVYFDENGIQAKGKAVR  1549
+
+Query  177   -YLGNKWYYLRSSGAMATG-WYQEGTTWYYLDHPNGDMKTGW  216
+                G   Y+  +SG+M T  W +    +YY  +    +  GW
+Sbjct  1550  TSDGKIRYFDENSGSMITNQWKEVNGRYYYFGNDGARIYRGW  1591
+
+
+> sp|P13470|GTFC_STRMU Glucosyltransferase-SI OS=Streptococcus 
+mutans serotype c (strain ATCC 700610 / UA159) OX=210007 GN=gtfC 
+PE=1 SV=2
+Length=1455
+
+ Score = 173 bits (438),  Expect = 2e-47, Method: Composition-based stats.
+ Identities = 64/302 (21%), Positives = 111/302 (37%), Gaps = 31/302 (10%)
+
+Query  4     FVQENGRTYYKKGD-LKETYWRVIDGKYYYFDSLSGEMVVGWQYIPFPSKGSTIG----P  58
+             F+      YY   +    T  + I+G  YYF S +G  +    Y       S  G     
+Sbjct  1119  FISLGNNWYYFDNNGYMVTGAQSINGANYYFLS-NGIQLRNAIYDNGNKVLSYYGNDGRR  1177
+
+Query  59    YPNGIRLEGFPKSEWYYFDKNGVLQEFVGWKTLEIKTKDSVGRKYGEKRKRYYTN----Y  114
+             Y NG  L G    +W YF +NG++   VG   +    +      +  K +   T      
+Sbjct  1178  YENGYYLFG---QQWRYF-QNGIMA--VGLTRIHGAVQYFDASGFQAKGQFITTADGKLR  1231
+
+Query  115   YFNQNHSLETGWLYDQSNWYYLAKTEINGENYLGERRAGWINDDSTWYYLDPTTGIMQTG  174
+             YF+++   +       + +   +K E    ++ G    G +  +    Y  P     +  
+Sbjct  1232  YFDRDSGNQI-----SNRFVRNSKGEWFLFDHNGVAVTGTVTFNGQRLYFKPNGVQAKGE  1286
+
+Query  175   WQY--LGNKWYYLRSSGAMATGWYQEG--TTWYYLDHPNGDMKTGWQNLGNKWYYLRSSG  230
+             +     G+  YY  +SG      +       W+  DH NG   TG + +  +  Y +S+G
+Sbjct  1287  FIRDADGHLRYYDPNSGNEVRNRFVRNSKGEWFLFDH-NGIAVTGTRVVNGQRLYFKSNG  1345
+
+Query  231   AMATG--WYQDGSTWYYLNAGNGDMKTGWFQV--NGNWYYAYSSGALAVN-TTVDGYSVN  285
+               A G    +      Y +  +G+     +    +GNWYY  + G   +    V+G  V 
+Sbjct  1346  VQAKGELITERKGRIKYYDPNSGNEVRNRYVRTSSGNWYYFGNDGYALIGWHVVEGRRVY  1405
+
+Query  286   YN  287
+             ++
+Sbjct  1406  FD  1407
+
+
+ Score = 124 bits (311),  Expect = 2e-30, Method: Composition-based stats.
+ Identities = 39/158 (25%), Positives = 61/158 (39%), Gaps = 7/158 (4%)
+
+Query  135   YLAKTEINGENYLGERRAGWINDDSTWYYLDPTTGIMQTGWQYLGNKWYYLRSSGAMATG  194
+             +L K+ +N  +       G + D   + Y   +    +  +  LGN WYY  ++G M TG
+Sbjct  1079  FLPKSLVNPNHGTSSSVTGLVFDGKGYVYYSTSGNQAKNAFISLGNNWYYFDNNGYMVTG  1138
+
+Query  195   WYQEGTTWYYLDHPNGDMKTGWQNLGNKW--YYLRSSGAMATGWYQDGSTWYYLNAGNGD  252
+                     YY       ++    + GNK   YY         G+Y  G  W Y    NG 
+Sbjct  1139  AQSINGANYYFLSNGIQLRNAIYDNGNKVLSYYGNDGRRYENGYYLFGQQWRYF--QNGI  1196
+
+Query  253   MKTGWFQVNGNWYYAYSSGALAVNTTV---DGYSVNYN  287
+             M  G  +++G   Y  +SG  A    +   DG    ++
+Sbjct  1197  MAVGLTRIHGAVQYFDASGFQAKGQFITTADGKLRYFD  1234
+
+
+> sp|P29336|GTFS_STRDO Glucosyltransferase-S OS=Streptococcus downei 
+OX=1317 GN=gtfS PE=3 SV=1
+Length=1365
+
+ Score = 173 bits (437),  Expect = 3e-47, Method: Composition-based stats.
+ Identities = 63/311 (20%), Positives = 112/311 (36%), Gaps = 42/311 (14%)
+
+Query  4     FVQENGRTYYKKGDLKETY--WRVIDGKYYYFDSLS----GEMVVGWQYIPFPSKGSTI-  56
+             F+ +NG  +Y   + +E    ++ I G +YYFDS      G+  +G     F   G  + 
+Sbjct  1055  FISKNGGIHYLDKNGQEVKNRFKEISGSWYYFDSDGKMATGKTKIGNDTYLFMPNGKQLK  1114
+
+Query  57    -GPYPNGIRLEGF------------------PKSEWYYFDKNGVLQEFVGWKTLEIKTKD  97
+              G + +G +   +                   + +W YF+ +G +   +G  +L+ +T  
+Sbjct  1115  EGVWYDGKKAYYYDDNGRTWTNKGFVEFRVDGQDKWRYFNGDGTIA--IGLVSLDNRTLY  1172
+
+Query  98    SVGRKYGEKRKRYYTN---YYFNQNHSLETGWLYDQSNWYYLAKTEINGENY-----LGE  149
+                  Y  K +    N   Y F+ +                 A  ++ G+N       G+
+Sbjct  1173  FDAYGYQVKGQTVTINGKSYTFDADQGDLVQTDNANPAPQGQAGWKLLGDNQWGYRKDGQ  1232
+
+Query  150   RRAGWINDDSTWYYLDPTTGIMQTGWQYLGNK--WYYLRSSGAMA-TGWYQEGTTWYYLD  206
+                G    D    +       ++ G     +    +Y R  G     GWY      +   
+Sbjct  1233  LLTGEQTIDGQKVFFQDNGVQVKGGTATDASGVLRFYDRDQGHQVGKGWYSTSDDNWVYV  1292
+
+Query  207   HPNGDMKTGWQNLGNKWYYLRSSGAMATG--WYQDGSTWYYLNAGNGDMKTG-WFQVNGN  263
+             + +G + TG Q +  +  Y    G  A G   + +     Y +A +G+M    W  V+GN
+Sbjct  1293  NESGQVLTGLQTIDGQTVYFDDKGIQAKGKAVWDENGNLRYFDADSGNMLRDRWKNVDGN  1352
+
+Query  264   WYYAYSSGALA  274
+             WYY   +G   
+Sbjct  1353  WYYFNRNGLAT  1363
+
+
+ Score = 78.7 bits (192),  Expect = 6e-15, Method: Composition-based stats.
+ Identities = 45/245 (18%), Positives = 77/245 (31%), Gaps = 26/245 (11%)
+
+Query  66    EGFPKSEWYYFDKNGVLQEFVGWKTLEIKTKDSVGRKYGEKR---KRYYTNYYFNQNHSL  122
+                    WYYFD +G +    G   +   T   +      K          YY++ N   
+Sbjct  1076  FKEISGSWYYFDSDGKMAT--GKTKIGNDTYLFMPNGKQLKEGVWYDGKKAYYYDDNGRT  1133
+
+Query  123   ETGWLYDQSNWYYLAKTEINGENYLGERRAGWINDDSTWYYLDPTTGIMQTGWQYLGNKW  182
+              T   + +       K      N  G    G ++ D+   Y D     ++     +  K 
+Sbjct  1134  WTNKGFVEFRVDGQDKWRYF--NGDGTIAIGLVSLDNRTLYFDAYGYQVKGQTVTINGKS  1191
+
+Query  183   YYLR-SSGAMA------------TGWYQEGTTWYYLDHPNGDMKTGWQNLGNKWYYLRSS  229
+             Y      G +              GW   G   +      G + TG Q +  +  + + +
+Sbjct  1192  YTFDADQGDLVQTDNANPAPQGQAGWKLLGDNQWGYRKD-GQLLTGEQTIDGQKVFFQDN  1250
+
+Query  230   GAMATG--WYQDGSTWYYLNAGNG-DMKTGWFQVNG-NWYYAYSSGA-LAVNTTVDGYSV  284
+             G    G           + +   G  +  GW+  +  NW Y   SG  L    T+DG +V
+Sbjct  1251  GVQVKGGTATDASGVLRFYDRDQGHQVGKGWYSTSDDNWVYVNESGQVLTGLQTIDGQTV  1310
+
+Query  285   NYNGE  289
+              ++ +
+Sbjct  1311  YFDDK  1315
+
+
+ Score = 76.8 bits (187),  Expect = 2e-14, Method: Composition-based stats.
+ Identities = 47/253 (19%), Positives = 82/253 (32%), Gaps = 15/253 (6%)
+
+Query  47    IPFPSKGSTIGPYPNGIRLEGFPKSEWYYFDKNGVLQEFVGWKTLE--IKTKDSVGRKYG  104
+              P+ +   + G Y      +     +  Y       Q   G K ++  +K  +   + + 
+Sbjct  950   TPYVANTRSYGDYQEQYGGKFLDDLQKLYPRLFSTKQISTG-KPIDPSVKITNWSAKYFN  1008
+
+Query  105   EKRKRYYTNYYFNQNHSLETGWLYDQSNWYYLAKTEINGENYLGERRAGWINDDSTWYYL  164
+                       Y     +             +L     N          G+I+ +   +YL
+Sbjct  1009  GSNILGRGAKYVLSEGNKYLNLA---DGKLFLPTVLNNTYGQPQVSANGFISKNGGIHYL  1065
+
+Query  165   DPTTGIMQTGWQYLGNKWYYLRSSGAMATGWYQEGTTWYYLDHPNGDMKTGWQNLGNKWY  224
+             D     ++  ++ +   WYY  S G MATG  + G   Y        +K G    G K Y
+Sbjct  1066  DKNGQEVKNRFKEISGSWYYFDSDGKMATGKTKIGNDTYLFMPNGKQLKEGVWYDGKKAY  1125
+
+Query  225   YLRSSGAMAT--GWYQDG----STWYYLNAGNGDMKTGWFQVNGNWYYAYSSGALAVNTT  278
+             Y   +G   T  G+ +        W Y N   G +  G   ++    Y  + G      T
+Sbjct  1126  YYDDNGRTWTNKGFVEFRVDGQDKWRYFNGD-GTIAIGLVSLDNRTLYFDAYGYQVKGQT  1184
+
+Query  279   V--DGYSVNYNGE  289
+             V  +G S  ++ +
+Sbjct  1185  VTINGKSYTFDAD  1197
+
+
+ Score = 66.0 bits (159),  Expect = 9e-11, Method: Composition-based stats.
+ Identities = 41/222 (18%), Positives = 69/222 (31%), Gaps = 28/222 (13%)
+
+Query  86    VGWKTLEIKTKDSVGRKYGEKRKRYYTNYYFNQNHSLETGWLYD-QSNWYYLAKTEINGE  144
+             +   T+   T             +    +Y ++N         +   +WYY         
+Sbjct  1035  LFLPTVLNNTYGQPQVSANGFISKNGGIHYLDKNGQEVKNRFKEISGSWYYFDS------  1088
+
+Query  145   NYLGERRAGWINDDSTWYYLDPTTGIMQTGWQYLGNKWYYLRSSGAMAT-----GWYQEG  199
+                G+   G     +  Y   P    ++ G  Y G K YY   +G   T      +  +G
+Sbjct  1089  --DGKMATGKTKIGNDTYLFMPNGKQLKEGVWYDGKKAYYYDDNGRTWTNKGFVEFRVDG  1146
+
+Query  200   TTWYYLDHPNGDMKTGWQNLGNKWYYLRSSGAMATG-WYQDGSTWYYLNAGNGDM-----  253
+                +   + +G +  G  +L N+  Y  + G    G         Y  +A  GD+     
+Sbjct  1147  QDKWRYFNGDGTIAIGLVSLDNRTLYFDAYGYQVKGQTVTINGKSYTFDADQGDLVQTDN  1206
+
+Query  254   -------KTGWFQVNGN-WYYAYSSGALAVNTTVDGYSVNYN  287
+                    + GW  +  N W Y      L    T+DG  V + 
+Sbjct  1207  ANPAPQGQAGWKLLGDNQWGYRKDGQLLTGEQTIDGQKVFFQ  1248
+
+
+ Score = 54.5 bits (129),  Expect = 6e-07, Method: Composition-based stats.
+ Identities = 25/99 (25%), Positives = 41/99 (41%), Gaps = 0/99 (0%)
+
+Query  192   ATGWYQEGTTWYYLDHPNGDMKTGWQNLGNKWYYLRSSGAMATGWYQDGSTWYYLNAGNG  251
+             A G+  +    +YLD    ++K  ++ +   WYY  S G MATG  + G+  Y       
+Sbjct  1052  ANGFISKNGGIHYLDKNGQEVKNRFKEISGSWYYFDSDGKMATGKTKIGNDTYLFMPNGK  1111
+
+Query  252   DMKTGWFQVNGNWYYAYSSGALAVNTTVDGYSVNYNGEW  290
+              +K G +      YY   +G    N     + V+   +W
+Sbjct  1112  QLKEGVWYDGKKAYYYDDNGRTWTNKGFVEFRVDGQDKW  1150
+
+
+> sp|P59206|LYTB_STRR6 Putative endo-beta-N-acetylglucosaminidase 
+OS=Streptococcus pneumoniae (strain ATCC BAA-255 / R6) OX=171101 
+GN=lytB PE=1 SV=1
+Length=702
+
+ Score = 168 bits (424),  Expect = 4e-46, Method: Composition-based stats.
+ Identities = 78/305 (26%), Positives = 116/305 (38%), Gaps = 25/305 (8%)
+
+Query  2    WQFVQENGRTYYK--KGDLKETYWRVIDGKYYYFDSLSGEMVVGWQYIPFPSKGSTIGPY  59
+            W +  +    +Y    G   E  W  I GK YYF S    +   W    +    +  G  
+Sbjct  127  WVYDSQYDAWFYIKADGQHAEKEWLQIKGKDYYFKSGGYLLTSQWINQAY---VNASGAK  183
+
+Query  60   PNGIRLEGFPKSEWYYFDKNG--VLQEFVGWKTLEIKTKDSVGRKYGEKRKRYYTNYYFN  117
+                 L       W+Y  +NG    +E++         K        E      + +Y  
+Sbjct  184  VQQGWLFDKQYQSWFYIKENGNYADKEWIFENGHYYYLKSGGYMAANEWIWDKESWFYLK  243
+
+Query  118  QNH-SLETGWLYDQSN--WYYLAKTEINGENYLGERRAGWINDDSTWYYLDPTTGIMQTG  174
+             +    E  W+YD  +  WYY         N        WI D  +W+YL     + +  
+Sbjct  244  FDGKIAEKEWVYDSHSQAWYYFKSGGYMAANE-------WIWDKESWFYLKFDGKMAEKE  296
+
+Query  175  WQYLGNK--WYYLRSSGAM-ATGWYQEGTTWYYLDHPNGDMKTGWQ--NLGNKWYYLRSS  229
+            W Y  +   WYY +S G M A  W  +  +W+YL       +  W   +    WYY +S 
+Sbjct  297  WVYDSHSQAWYYFKSGGYMTANEWIWDKESWFYLKSDGKIAEKEWVYDSHSQAWYYFKSG  356
+
+Query  230  GAM-ATGWYQDGSTWYYLNAGNGDMKTGWF--QVNGNWYYAYSSGALAVNTTVDGYSVNY  286
+            G M A  W  D  +W+YL +     +  W     +  WYY  S G +A N TVDGY +  
+Sbjct  357  GYMTANEWIWDKESWFYLKSDGKMAEKEWVYDSHSQAWYYFKSGGYMAKNETVDGYQLGS  416
+
+Query  287  NGEWV  291
+            +G+W+
+Sbjct  417  DGKWL  421
+
+
+ Score = 104 bits (258),  Expect = 1e-23, Method: Composition-based stats.
+ Identities = 59/299 (20%), Positives = 95/299 (32%), Gaps = 43/299 (14%)
+
+Query  2    WQFVQENGRTYYK--KGDLKETYWRVIDGKYYYFDSLSGEMVVGWQYIPFPSKGSTIGPY  59
+            W F       +Y     +  E  W      Y+Y  S        W               
+Sbjct  45   WVFDTHYQSWFYIKADANYAENEWLKQGDDYFYLKSGGYMAKSEWVED------------  92
+
+Query  60   PNGIRLEGFPKSEWYYFDKNGVLQEFVGWKTLEIKTKDSVGRKYGEKRKRYYTNYYFNQN  119
+                      K  +YY D++G ++      T  +    +   +      +Y   +Y   +
+Sbjct  93   ----------KGAFYYLDQDGKMKRNAWVGTSYVGATGAKVIEDWVYDSQYDAWFYIKAD  142
+
+Query  120  HS-LETGWLYDQSNWYYLAKTEI----------NGENYLGERRAGWINDD--STWYYLDP  166
+                E  WL  +   YY                       + + GW+ D    +W+Y+  
+Sbjct  143  GQHAEKEWLQIKGKDYYFKSGGYLLTSQWINQAYVNASGAKVQQGWLFDKQYQSWFYIKE  202
+
+Query  167  TTGIMQTGWQYLGNKWYYLRSSGAM-ATGWYQEGTTWYYLDHPNGDMKTGWQ--NLGNKW  223
+                    W +    +YYL+S G M A  W  +  +W+YL       +  W   +    W
+Sbjct  203  NGNYADKEWIFENGHYYYLKSGGYMAANEWIWDKESWFYLKFDGKIAEKEWVYDSHSQAW  262
+
+Query  224  YYLRSSGAM-ATGWYQDGSTWYYLNAGNGDMKTGWF--QVNGNWYYAYSSGALAVNTTV  279
+            YY +S G M A  W  D  +W+YL       +  W     +  WYY  S G +  N  +
+Sbjct  263  YYFKSGGYMAANEWIWDKESWFYLKFDGKMAEKEWVYDSHSQAWYYFKSGGYMTANEWI  321
+
+
+ Score = 60.2 bits (144),  Expect = 7e-09, Method: Composition-based stats.
+ Identities = 36/157 (23%), Positives = 65/157 (41%), Gaps = 10/157 (6%)
+
+Query  138  KTEINGENYLGERRAGWINDD--STWYYLDPTTGIMQTGWQYLGNKWYYLRSSGAMAT-G  194
+            + +   +    +    W+ D    +W+Y+       +  W   G+ ++YL+S G MA   
+Sbjct  29   QGKQYLKEDGSQAANEWVFDTHYQSWFYIKADANYAENEWLKQGDDYFYLKSGGYMAKSE  88
+
+Query  195  WYQEGTTWYYLDHPNGDMKTGWQNLGNKWYYLRSSGAMATGWYQDGST---WYYLNAGNG  251
+            W ++   +YYLD      +  W        Y+ ++GA     +   S    W+Y+ A   
+Sbjct  89   WVEDKGAFYYLDQDGKMKRNAWVGTS----YVGATGAKVIEDWVYDSQYDAWFYIKADGQ  144
+
+Query  252  DMKTGWFQVNGNWYYAYSSGALAVNTTVDGYSVNYNG  288
+              +  W Q+ G  YY  S G L  +  ++   VN +G
+Sbjct  145  HAEKEWLQIKGKDYYFKSGGYLLTSQWINQAYVNASG  181
+
+
+ Score = 59.5 bits (142),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 45/252 (18%), Positives = 76/252 (30%), Gaps = 71/252 (28%)
+
+Query  92   EIKTKDSVGRKYGEKRKRYYTNYYFNQNHS-LETGWLYDQSNWYYLAKTEINGENYLGER  150
+             +K   S           Y + +Y   + +  E  WL    +++YL              
+Sbjct  33   YLKEDGSQAANEWVFDTHYQSWFYIKADANYAENEWLKQGDDYFYLKSGGYMA-------  85
+
+Query  151  RAGWINDDSTWYYLDPTTGI----------------------------------------  170
+            ++ W+ D   +YYLD    +                                        
+Sbjct  86   KSEWVEDKGAFYYLDQDGKMKRNAWVGTSYVGATGAKVIEDWVYDSQYDAWFYIKADGQH  145
+
+Query  171  MQTGWQYLGNKWYYLRSSGAMATGWY--------------------QEGTTWYYLDHPNG  210
+             +  W  +  K YY +S G + T  +                    ++  +W+Y+     
+Sbjct  146  AEKEWLQIKGKDYYFKSGGYLLTSQWINQAYVNASGAKVQQGWLFDKQYQSWFYIKENGN  205
+
+Query  211  DMKTGWQNLGNKWYYLRSSGAM-ATGWYQDGSTWYYLNAGNGDMKTGWF--QVNGNWYYA  267
+                 W      +YYL+S G M A  W  D  +W+YL       +  W     +  WYY 
+Sbjct  206  YADKEWIFENGHYYYLKSGGYMAANEWIWDKESWFYLKFDGKIAEKEWVYDSHSQAWYYF  265
+
+Query  268  YSSGALAVNTTV  279
+             S G +A N  +
+Sbjct  266  KSGGYMAANEWI  277
+
+
+> sp|P19386|LYS_BPCP9 Lysozyme OS=Streptococcus phage Cp-9 OX=10749 
+GN=CPL9 PE=3 SV=1
+Length=339
+
+ Score = 143 bits (360),  Expect = 3e-39, Method: Composition-based stats.
+ Identities = 48/178 (27%), Positives = 77/178 (43%), Gaps = 3/178 (2%)
+
+Query  102  KYGEKRKRYYTNYYFNQNHSLETGWLYDQSNWYYLAKTEINGENYLGERRAGWINDDSTW  161
+             YG         Y+ + +      W Y  + +        + E+   +    W  D   W
+Sbjct  152  GYGLNDGNADFEYFPSMDGI--RWWQYSSNPFDKNIVLLDDEEDEKPKTAGTWKQDSKGW  209
+
+Query  162  YYLDPTTGIMQTGWQYLGNKWYYLRSSGAMATGWYQEGTTWYYLDHPNGDMKTGWQNLGN  221
+            ++           W+ +G  WYY  S G   T  + +    +Y    NG M TGW  +G+
+Sbjct  210  WFRRNNGSFPYNKWEKIGGVWYYFDSKGYCLTSEWLKDNEKWYYLKDNGAMVTGWVLVGS  269
+
+Query  222  KWYYLRSSGAMATGWYQDGSTWYYLNAGNGDMKTGWFQVNG-NWYYAYSSGALAVNTT  278
+            +WYY+  SGAM TGW +  + WYY+    G+M +  F  +G  WY+  ++G LA N +
+Sbjct  270  EWYYMDDSGAMVTGWVKYKNNWYYMTNERGNMVSNEFIKSGKGWYFMNTNGELADNPS  327
+
+
+ Score = 52.2 bits (123),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 34/175 (19%), Positives = 64/175 (37%), Gaps = 15/175 (9%)
+
+Query  27   DGKYYYFDSLSGEMVVGWQYIPFPSKGSTIGPYPNGIRLEG---FPKSEWYYFDKNGVLQ  83
+            +  + YF S+ G     +   PF      +    +            S+ ++F +N    
+Sbjct  159  NADFEYFPSMDGIRWWQYSSNPFDKNIVLLDDEEDEKPKTAGTWKQDSKGWWFRRNNGSF  218
+
+Query  84   EFVGWKTLEIKTKDSVGRKY---GEKRKRYYTNYYFNQNHSLETGWLYDQSNWYYLAKTE  140
+             +  W+ +         + Y    E  K     YY   N ++ TGW+   S WYY+    
+Sbjct  219  PYNKWEKIGGVWYYFDSKGYCLTSEWLKDNEKWYYLKDNGAMVTGWVLVGSEWYYM----  274
+
+Query  141  INGENYLGERRAGWINDDSTWYYLDPT-TGIMQTGWQYLGNKWYYLRSSGAMATG  194
+                +  G    GW+   + WYY+      ++   +   G  WY++ ++G +A  
+Sbjct  275  ----DDSGAMVTGWVKYKNNWYYMTNERGNMVSNEFIKSGKGWYFMNTNGELADN  325
+
+
+ Score = 42.5 bits (98),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 32/173 (18%), Positives = 49/173 (28%), Gaps = 55/173 (32%)
+
+Query  1    GWQFVQENGRTYYKKGDLKETYWRVIDGKYYYFDSLSGEMVVGWQYIPFPSKGSTIGPYP  60
+            GW F + NG   Y         W  I G +YYFDS    +   W                
+Sbjct  208  GWWFRRNNGSFPY-------NKWEKIGGVWYYFDSKGYCLTSEWLKD-------------  247
+
+Query  61   NGIRLEGFPKSEWYYFDKNGVLQEFVGWKTLEIKTKDSVGRKYGEKRKRYYTNYYFNQNH  120
+                       +WYY   NG +                               YY + + 
+Sbjct  248  ---------NEKWYYLKDNGAMVTG--------------------WVLVGSEWYYMDDSG  278
+
+Query  121  SLETGWLYDQSNWYYLAKTEINGENYLGERRAGWINDDSTWYYLDPTTGIMQT  173
+            ++ TGW+  ++NWYY                  +I     WY+++    +   
+Sbjct  279  AMVTGWVKYKNNWYY------MTNERGNMVSNEFIKSGKGWYFMNTNGELADN  325
+
+
+> sp|P15057|LYS_BPCP1 Lysozyme OS=Streptococcus phage Cp-1 OX=10747 
+GN=CPL1 PE=1 SV=2
+Length=339
+
+ Score = 143 bits (359),  Expect = 4e-39, Method: Composition-based stats.
+ Identities = 48/178 (27%), Positives = 77/178 (43%), Gaps = 3/178 (2%)
+
+Query  102  KYGEKRKRYYTNYYFNQNHSLETGWLYDQSNWYYLAKTEINGENYLGERRAGWINDDSTW  161
+             YG         Y+ + +      W Y  + +        + E+   +    W  D   W
+Sbjct  152  GYGLNDGTANFEYFPSMDGI--RWWQYSSNPFDKNIVLLDDEEDDKPKTAGTWKQDSKGW  209
+
+Query  162  YYLDPTTGIMQTGWQYLGNKWYYLRSSGAMATGWYQEGTTWYYLDHPNGDMKTGWQNLGN  221
+            ++           W+ +G  WYY  S G   T  + +    +Y    NG M TGW  +G+
+Sbjct  210  WFRRNNGSFPYNKWEKIGGVWYYFDSKGYCLTSEWLKDNEKWYYLKDNGAMATGWVLVGS  269
+
+Query  222  KWYYLRSSGAMATGWYQDGSTWYYLNAGNGDMKTGWFQVNG-NWYYAYSSGALAVNTT  278
+            +WYY+  SGAM TGW +  + WYY+    G+M +  F  +G  WY+  ++G LA N +
+Sbjct  270  EWYYMDDSGAMVTGWVKYKNNWYYMTNERGNMVSNEFIKSGKGWYFMNTNGELADNPS  327
+
+
+ Score = 40.6 bits (93),  Expect = 0.010, Method: Composition-based stats.
+ Identities = 17/70 (24%), Positives = 29/70 (41%), Gaps = 0/70 (0%)
+
+Query  217  QNLGNKWYYLRSSGAMATGWYQDGSTWYYLNAGNGDMKTGWFQVNGNWYYAYSSGALAVN  276
+            Q+    W+   +       W + G  WYY ++    + + W + N  WYY   +GA+A  
+Sbjct  204  QDSKGWWFRRNNGSFPYNKWEKIGGVWYYFDSKGYCLTSEWLKDNEKWYYLKDNGAMATG  263
+
+Query  277  TTVDGYSVNY  286
+              + G    Y
+Sbjct  264  WVLVGSEWYY  273
+
+
+> sp|P59205|LYTB_STRPN Putative endo-beta-N-acetylglucosaminidase 
+OS=Streptococcus pneumoniae serotype 4 (strain ATCC BAA-334 
+/ TIGR4) OX=170187 GN=lytB PE=1 SV=1
+Length=658
+
+ Score = 147 bits (370),  Expect = 8e-39, Method: Composition-based stats.
+ Identities = 71/299 (24%), Positives = 122/299 (41%), Gaps = 19/299 (6%)
+
+Query  3    QFVQENGRTYYKKGDLKETYWRVIDGKYYYFDSLSGEMVVGWQYIP-FPSKGSTIGPYPN  61
+            ++V++ G  YY   D K      +     Y  +   +++  W Y   + +         +
+Sbjct  88   EWVEDKGAFYYLDQDGKMKRNAWVGTS--YVGATGAKVIEDWVYDSQYDAWFYIKADGQH  145
+
+Query  62   GIRLEGFPKSEWYYFDKNGVLQEFVGWKTLEIKTKDSVGRKYGEKRKRYYTNYYFNQNHS  121
+              +     K + YYF   G L          +    +  ++     K+Y + +Y  +N +
+Sbjct  146  AEKEWLQIKGKDYYFKSGGYLLTSQWINQAYVNASGAKVQQGWLFDKQYQSWFYIKENGN  205
+
+Query  122  -LETGWLYDQSNWYYLAKTEINGENYLGERRAGWINDDSTWYYLDPTTGIMQTGWQYLGN  180
+              +  W+++  ++YYL        N        WI D  +W+YL     + +  W Y  +
+Sbjct  206  YADKEWIFENGHYYYLKSGGYMAANE-------WIWDKESWFYLKFDGKMAEKEWVYDSH  258
+
+Query  181  K--WYYLRSSGAM-ATGWYQEGTTWYYLDHPNGDMKTGWQ--NLGNKWYYLRSSGAM-AT  234
+               WYY +S G M A  W  +  +W+YL       +  W   +    WYY +S G M A 
+Sbjct  259  SQAWYYFKSGGYMTANEWIWDKESWFYLKSDGKIAEKEWVYDSHSQAWYYFKSGGYMTAN  318
+
+Query  235  GWYQDGSTWYYLNAGNGDMKTGWF--QVNGNWYYAYSSGALAVNTTVDGYSVNYNGEWV  291
+             W  D  +W+YL +     +  W     +  WYY  S G +A N TVDGY +  +G+W+
+Sbjct  319  EWIWDKESWFYLKSDGKIAEKEWVYDSHSQAWYYFKSGGYMAKNETVDGYQLGSDGKWL  377
+
+
+ Score = 86.1 bits (211),  Expect = 1e-17, Method: Composition-based stats.
+ Identities = 51/277 (18%), Positives = 82/277 (30%), Gaps = 61/277 (22%)
+
+Query  64   RLEGFPKSEWYYFDKNGVLQEFVGWKTLEIK--TKDSVGRKYGEKRKRYYTNYYFNQNHS  121
+             +       W+Y   +    E    K  +     K        E  +     YY +Q+  
+Sbjct  45   WVFDTHYQSWFYIKADANYAENEWLKQGDDYFYLKSGGYMAKSEWVEDKGAFYYLDQDGK  104
+
+Query  122  L-----------------------------------------ETGWLYDQSNWYYLAKTE  140
+            +                                         E  WL  +   YY     
+Sbjct  105  MKRNAWVGTSYVGATGAKVIEDWVYDSQYDAWFYIKADGQHAEKEWLQIKGKDYYFKSGG  164
+
+Query  141  I----------NGENYLGERRAGWINDD--STWYYLDPTTGIMQTGWQYLGNKWYYLRSS  188
+                              + + GW+ D    +W+Y+          W +    +YYL+S 
+Sbjct  165  YLLTSQWINQAYVNASGAKVQQGWLFDKQYQSWFYIKENGNYADKEWIFENGHYYYLKSG  224
+
+Query  189  GAM-ATGWYQEGTTWYYLDHPNGDMKTGWQ--NLGNKWYYLRSSGAM-ATGWYQDGSTWY  244
+            G M A  W  +  +W+YL       +  W   +    WYY +S G M A  W  D  +W+
+Sbjct  225  GYMAANEWIWDKESWFYLKFDGKMAEKEWVYDSHSQAWYYFKSGGYMTANEWIWDKESWF  284
+
+Query  245  YLNAGNGDMKTGWF--QVNGNWYYAYSSGALAVNTTV  279
+            YL +     +  W     +  WYY  S G +  N  +
+Sbjct  285  YLKSDGKIAEKEWVYDSHSQAWYYFKSGGYMTANEWI  321
+
+
+ Score = 61.0 bits (146),  Expect = 3e-09, Method: Composition-based stats.
+ Identities = 36/157 (23%), Positives = 65/157 (41%), Gaps = 10/157 (6%)
+
+Query  138  KTEINGENYLGERRAGWINDD--STWYYLDPTTGIMQTGWQYLGNKWYYLRSSGAMAT-G  194
+            + +   +    +    W+ D    +W+Y+       +  W   G+ ++YL+S G MA   
+Sbjct  29   QGKQYLKEDGSQAANEWVFDTHYQSWFYIKADANYAENEWLKQGDDYFYLKSGGYMAKSE  88
+
+Query  195  WYQEGTTWYYLDHPNGDMKTGWQNLGNKWYYLRSSGAMATGWYQDGST---WYYLNAGNG  251
+            W ++   +YYLD      +  W        Y+ ++GA     +   S    W+Y+ A   
+Sbjct  89   WVEDKGAFYYLDQDGKMKRNAWVGTS----YVGATGAKVIEDWVYDSQYDAWFYIKADGQ  144
+
+Query  252  DMKTGWFQVNGNWYYAYSSGALAVNTTVDGYSVNYNG  288
+              +  W Q+ G  YY  S G L  +  ++   VN +G
+Sbjct  145  HAEKEWLQIKGKDYYFKSGGYLLTSQWINQAYVNASG  181
+
+
+ Score = 60.2 bits (144),  Expect = 6e-09, Method: Composition-based stats.
+ Identities = 44/252 (17%), Positives = 75/252 (30%), Gaps = 71/252 (28%)
+
+Query  92   EIKTKDSVGRKYGEKRKRYYTNYYFNQNHS-LETGWLYDQSNWYYLAKTEINGENYLGER  150
+             +K   S           Y + +Y   + +  E  WL    +++YL              
+Sbjct  33   YLKEDGSQAANEWVFDTHYQSWFYIKADANYAENEWLKQGDDYFYLKSGGYMA-------  85
+
+Query  151  RAGWINDDSTWYYLDPTTGI----------------------------------------  170
+            ++ W+ D   +YYLD    +                                        
+Sbjct  86   KSEWVEDKGAFYYLDQDGKMKRNAWVGTSYVGATGAKVIEDWVYDSQYDAWFYIKADGQH  145
+
+Query  171  MQTGWQYLGNKWYYLRSSGAMATGWY--------------------QEGTTWYYLDHPNG  210
+             +  W  +  K YY +S G + T  +                    ++  +W+Y+     
+Sbjct  146  AEKEWLQIKGKDYYFKSGGYLLTSQWINQAYVNASGAKVQQGWLFDKQYQSWFYIKENGN  205
+
+Query  211  DMKTGWQNLGNKWYYLRSSGAM-ATGWYQDGSTWYYLNAGNGDMKTGWF--QVNGNWYYA  267
+                 W      +YYL+S G M A  W  D  +W+YL       +  W     +  WYY 
+Sbjct  206  YADKEWIFENGHYYYLKSGGYMAANEWIWDKESWFYLKFDGKMAEKEWVYDSHSQAWYYF  265
+
+Query  268  YSSGALAVNTTV  279
+             S G +  N  +
+Sbjct  266  KSGGYMTANEWI  277
+
+
+> sp|P06653|ALYS_STRPN Autolysin OS=Streptococcus pneumoniae serotype 
+4 (strain ATCC BAA-334 / TIGR4) OX=170187 GN=lytA PE=1 
+SV=2
+Length=318
+
+ Score = 141 bits (354),  Expect = 2e-38, Method: Composition-based stats.
+ Identities = 59/190 (31%), Positives = 87/190 (46%), Gaps = 21/190 (11%)
+
+Query  100  GRKYGEKRKRYYTNYYFNQNHSLETGWLYDQSNWY-YLAKTEINGENYLGERR------A  152
+            G   G K   Y TN   N +         D  + Y YLAK  I+ E +  +         
+Sbjct  125  GSLAGIKTHEYCTNNQPNNH--------SDHVDPYPYLAKWGISREQFKHDIENGLTIET  176
+
+Query  153  GWINDDSTWYYLDPTTGIMQTGWQYLGNKWYYLRSSGAMATGWYQEG--TTWYYLDHPNG  210
+            GW  +D+ ++Y+       +  ++ +   WYY  SSG M    +++     WY+ D+ +G
+Sbjct  177  GWQKNDTGYWYVHSDGSYPKDKFEKINGTWYYFDSSGYMLADRWRKHTDGNWYWFDN-SG  235
+
+Query  211  DMKTGWQNLGNKWYYLRSSGAMATGWYQDGSTWYYLNAGNGDMKTGWFQVNG---NWYYA  267
+            +M TGW+ + +KWYY    GAM TGW +   TWYYL+A  G M +  F  +     WYY 
+Sbjct  236  EMATGWKKIADKWYYFNEEGAMKTGWVKYKDTWYYLDAKEGAMVSNAFIQSADGTGWYYL  295
+
+Query  268  YSSGALAVNT  277
+               G LA   
+Sbjct  296  KPDGTLADKP  305
+
+
+ Score = 47.1 bits (110),  Expect = 8e-05, Method: Composition-based stats.
+ Identities = 36/173 (21%), Positives = 56/173 (32%), Gaps = 49/173 (28%)
+
+Query  1    GWQFVQENGRTYYKKGDLKETYWRVIDGKYYYFDSLSGEMVVGWQYIPFPSKGSTIGPYP  60
+            GWQ         +  G   +  +  I+G +YYFDS    +   W+               
+Sbjct  177  GWQKNDTGYWYVHSDGSYPKDKFEKINGTWYYFDSSGYMLADRWRKHT------------  224
+
+Query  61   NGIRLEGFPKSEWYYFDKNGVLQEFVGWKTLEIKTKDSVGRKYGEKRKRYYTNYYFNQNH  120
+                        WY+FD +G +                        +K     YYFN+  
+Sbjct  225  ---------DGNWYWFDNSGEMATG--------------------WKKIADKWYYFNEEG  255
+
+Query  121  SLETGWLYDQSNWYYLAKTEINGENYLGERRAGWIN--DDSTWYYLDPTTGIM  171
+            +++TGW+  +  WYYL                 +I   D + WYYL P   + 
+Sbjct  256  AMKTGWVKYKDTWYYLD------AKEGAMVSNAFIQSADGTGWYYLKPDGTLA  302
+
+
+> sp|P32762|ALYS_BPHB3 Lytic amidase OS=Streptococcus pneumoniae 
+phage HB-3 OX=10728 GN=HBL PE=1 SV=1
+Length=318
+
+ Score = 133 bits (335),  Expect = 8e-36, Method: Composition-based stats.
+ Identities = 54/188 (29%), Positives = 81/188 (43%), Gaps = 19/188 (10%)
+
+Query  101  RKYGEKRKRYYTNYYFNQNHSLETGWLYDQSNWYYLAKTEINGENYLGERR------AGW  154
+               G K   Y TN   N +             + YLA   I+ E +  +         GW
+Sbjct  126  DLAGIKTHEYCTNNQPNNHSDHV-------DPYPYLASWGISREQFKQDIENGLSAATGW  178
+
+Query  155  INDDSTWYYLDPTTGIMQTGWQYLGNKWYYLRSSGAMATGWYQEG--TTWYYLDHPNGDM  212
+              + + ++Y+       +  ++ +   WYY   SG M +  +++     WYY D  +G+M
+Sbjct  179  QKNGTGYWYVHSDGSYSKDKFEKINGTWYYFDGSGYMLSDRWKKHTDGNWYYFDQ-SGEM  237
+
+Query  213  KTGWQNLGNKWYYLRSSGAMATGWYQDGSTWYYLNAGNGDMKTGWFQVNG---NWYYAYS  269
+             TGW+ + +KWYY    GAM TGW +   TWYYL+A  G M +  F  +     WYY   
+Sbjct  238  ATGWKKIADKWYYFDVEGAMKTGWVKYKDTWYYLDAKEGAMVSNAFIQSADGTGWYYLKP  297
+
+Query  270  SGALAVNT  277
+             G LA   
+Sbjct  298  DGTLADKP  305
+
+
+ Score = 46.0 bits (107),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 32/156 (21%), Positives = 50/156 (32%), Gaps = 28/156 (18%)
+
+Query  18   LKETYWRVIDGKYYYFDSLSGEMVVGWQYIPFPSKGSTIGPYPNGIRLEGFPKSEWYYFD  77
+               T W+     Y+Y  S        ++ I           Y    R +      WYYFD
+Sbjct  173  SAATGWQKNGTGYWYVHSDGSYSKDKFEKINGTWYYFDGSGYMLSDRWKKHTDGNWYYFD  232
+
+Query  78   KNGVLQEFVGWKTLEIKTKDSVGRKYGEKRKRYYTNYYFNQNHSLETGWLYDQSNWYYLA  137
+            ++G +                        +K     YYF+   +++TGW+  +  WYYL 
+Sbjct  233  QSGEMATG--------------------WKKIADKWYYFDVEGAMKTGWVKYKDTWYYLD  272
+
+Query  138  KTEINGENYLGERRAGWIN--DDSTWYYLDPTTGIM  171
+                            +I   D + WYYL P   + 
+Sbjct  273  ------AKEGAMVSNAFIQSADGTGWYYLKPDGTLA  302
+
+
+> sp|O03979|ALYS_BPDP1 Lysin OS=Pneumococcus phage Dp-1 OX=59241 
+GN=PAL PE=1 SV=1
+Length=296
+
+ Score = 125 bits (314),  Expect = 6e-33, Method: Composition-based stats.
+ Identities = 52/196 (27%), Positives = 80/196 (41%), Gaps = 19/196 (10%)
+
+Query  100  GRKYGEKRKRYYTNYYFNQNHSLETGWLYD-------QSNWYYLAKT------EINGENY  146
+            GRK        +T  + + ++ +   + YD          WYY  +         N    
+Sbjct  88   GRKGASAGAGGHTGMFIDSDNIIHCNYAYDGISVNDHDERWYYAGQPYYYVYRLTNANAQ  147
+
+Query  147  LGERRAGWINDDSTWYYLDPTTGIMQTGWQYL--GNKWYYLRSSGAMATGWYQEG--TTW  202
+              E++ GW  D + ++Y        +  ++Y+     W+Y    G M    + +     W
+Sbjct  148  PAEKKLGWQKDATGFWYARANGTYPKDEFEYIEENKSWFYFDDQGYMLAEKWLKHTDGNW  207
+
+Query  203  YYLDHPNGDMKTGWQNLGNKWYYLRSSGAMATGWYQDGSTWYYLNAGNGDMKTGWF-QVN  261
+            Y+ D   G M T W+ +G  WYY    G+M TGW +    WYY +A NGDMK+  F + N
+Sbjct  208  YWFDRD-GYMATSWKRIGESWYYFNRDGSMVTGWIKYYDNWYYCDATNGDMKSNAFIRYN  266
+
+Query  262  GNWYYAYSSGALAVNT  277
+              WY     G LA   
+Sbjct  267  DGWYLLLPDGRLADKP  282
+
+
+ Score = 47.9 bits (112),  Expect = 4e-05, Method: Composition-based stats.
+ Identities = 36/167 (22%), Positives = 53/167 (32%), Gaps = 15/167 (9%)
+
+Query  8    NGRTYYKKGDLKETYWRVIDGKYYYFDSLSGEMVVGWQYIPFPS-KGSTIGPYPNGIRLE  66
+            + R YY        Y                E  +GWQ            G YP      
+Sbjct  125  DERWYYAGQPYYYVYRLTNANA------QPAEKKLGWQKDATGFWYARANGTYPKDEFEY  178
+
+Query  67   GFPKSEWYYFDKNGVLQEFVGWKTLEIKTKDSVGRKYGE--KRKRYYTNYYFNQNHSLET  124
+                  W+YFD  G +      K  +          Y     ++   + YYFN++ S+ T
+Sbjct  179  IEENKSWFYFDDQGYMLAEKWLKHTDGNWYWFDRDGYMATSWKRIGESWYYFNRDGSMVT  238
+
+Query  125  GWLYDQSNWYYLAKTEINGENYLGERRAGWINDDSTWYYLDPTTGIM  171
+            GW+    NWYY   T  +       +   +I  +  WY L P   + 
+Sbjct  239  GWIKYYDNWYYCDATNGDM------KSNAFIRYNDGWYLLLPDGRLA  279
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.120    0.325    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0367    0.140     1.90     42.6     43.6 
+
+Effective search space used: 23823814128
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 28, 2021  3:44 PM
+  Number of letters in database: 202,799,066
+  Number of sequences in database:  563,082
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

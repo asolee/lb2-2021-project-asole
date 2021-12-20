@@ -1,0 +1,379 @@
+PSIBLAST 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           563,082 sequences; 202,799,066 total letters
+
+Results from round 1
+
+
+Query= 5Z44
+
+Length=290
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|Q8GHB2|CLOQ_STRRC 4-hydroxyphenylpyruvate 3-dimethylallyltra...  93.2    1e-20
+  sp|Q9L9F1|NOVQ_STRNV 4-hydroxyphenylpyruvate 3-dimethylallyltra...  92.4    2e-20
+  sp|C4PWA1|PPZP_STRAQ 5,10-dihydrophenazine-1-carboxylate 9-dime...  78.6    1e-15
+  sp|A2AXG5|FNQ26_STRCM Flaviolin linalyltransferase OS=Streptomy...  58.9    9e-09
+  sp|Q2L6E3|FUR7_STREO Furaquinocin biosynthesis prenyltransferas...  55.5    1e-07
+
+
+> sp|Q8GHB2|CLOQ_STRRC 4-hydroxyphenylpyruvate 3-dimethylallyltransferase 
+OS=Streptomyces roseochromogenus subsp. oscitans 
+OX=149682 GN=cloQ PE=1 SV=1
+Length=324
+
+ Score = 93.2 bits (230),  Expect = 1e-20, Method: Compositional matrix adjust.
+ Identities = 82/303 (27%), Positives = 134/303 (44%), Gaps = 47/303 (16%)
+
+Query  3    DVNRIRTDIINVAKTFGAEYSEKVLDEVFQVFGEQFADNSFMIRTSNKQPDKLGCYF--R  60
+            D  R R DI   A   GA  + ++ D V + F + FA  + + +T+++  D+L   F  R
+Sbjct  11   DCERFRADIRATAAAIGAPIAHRLTDTVLEAFRDNFAQGATLWKTTSQPGDQLSYRFFSR  70
+
+Query  61   YHEEDESQLGLAWDIARKSGLLSDQGRPVDQLIPEICETF---PIMADGVDFDVKHGLAK  117
+               +  S+       A  +GLL D   P   ++      +   P+ +   DFD   G+AK
+Sbjct  71   LKMDTVSR-------AIDAGLL-DAAHPTLAVVDAWSSLYGGAPVQSG--DFDAGRGMAK  120
+
+Query  118  IWQSIKGVVPVQDAFKL-SLPASVTTH-SDFLKNHHLDALYAFGIDYHHSSVNLYFDTYH  175
+             W    G+ P +D   + +LPASV     DFL        +A  +D+ H S N+YF    
+Sbjct  121  TWLYFGGLRPAEDILTVPALPASVQARLKDFLALGLAHVRFA-AVDWRHHSANVYFRGKG  179
+
+Query  176  PKHHTSEYYKNLLQDLQFQ---------PPS----DELLELLTNNGEIALTFNFASPRIE  222
+            P           L  +QF          PP+    +E+L  +  +  +A+T +  S  IE
+Sbjct  180  P-----------LDTVQFARIHALSGSTPPAAHVVEEVLAYMPEDYCVAITLDLHSGDIE  228
+
+Query  223  RLCFYLPFLNREAVPQNLLNPLLKKYINEAPALVDNPGFILGWSFGPQGGKGTYTKVDVD  282
+            R+CFY   + + A+P+  +   + +++  AP+       ++GWSFG     G Y K +  
+Sbjct  229  RVCFYALKVPKNALPR--IPTRIARFLEVAPSHDVEECNVIGWSFGR---SGDYVKAERS  283
+
+Query  283  YHG  285
+            Y G
+Sbjct  284  YTG  286
+
+
+> sp|Q9L9F1|NOVQ_STRNV 4-hydroxyphenylpyruvate 3-dimethylallyltransferase 
+OS=Streptomyces niveus OX=193462 GN=novQ PE=1 SV=2
+Length=323
+
+ Score = 92.4 bits (228),  Expect = 2e-20, Method: Compositional matrix adjust.
+ Identities = 78/291 (27%), Positives = 134/291 (46%), Gaps = 23/291 (8%)
+
+Query  3    DVNRIRTDIINVAKTFGAEYSEKVLDEVFQVFGEQFADNSFMIRTSNKQPDKLGCYFRYH  62
+            D  R R D+   A   GA  + +V D V + F + FA  + + +T+++  D+L   F + 
+Sbjct  11   DRERFRVDLRATAAAIGAPVTPRVTDTVLETFRDNFAQGATLWKTTSQPGDQLSYRF-FS  69
+
+Query  63   EEDESQLGLAWDIARKSGLLSDQGRPVDQLIPEICETF---PIMADGVDFDVKHGLAKIW  119
+                  +G A D    +GLL D   P   ++ +  + +   P+ +   DFD   G+AK W
+Sbjct  70   RLKMDTVGRAVD----AGLL-DGTHPTVPIVEDWSDLYGGTPVQS--ADFDAGRGMAKTW  122
+
+Query  120  QSIKGVVPVQDAFKL-SLPASVTTH-SDFLKNHHLDALYAFGIDYHHSSVNLYFDTYHPK  177
+                G+ P +D   + +LPA V     DFL        +A  +D+ H S N+YF    P 
+Sbjct  123  LYFGGLRPAEDILSVPALPAPVQARLKDFLGLGLAHVRFA-AVDWRHRSANVYFRGQGPL  181
+
+Query  178  HHTSEYYKNLLQDLQFQPPSDELLELLTNNGE---IALTFNFASPRIERLCFYLPFLNRE  234
+              T+++ +         P +D + E+L    E   +A+T +  +  I+R+CFY   + ++
+Sbjct  182  -DTAQFARVHALSGGTPPAADVVAEVLAYVPEDYCVAITLDLHTGAIDRVCFYALKVPKD  240
+
+Query  235  AVPQNLLNPLLKKYINEAPALVDNPGFILGWSFGPQGGKGTYTKVDVDYHG  285
+            A P+  +   +  ++  AP+       ++GWSFG     G Y K +  Y G
+Sbjct  241  ARPR--VPARIATFLEVAPSHDPEECNVIGWSFGR---SGDYVKAERSYTG  286
+
+
+> sp|C4PWA1|PPZP_STRAQ 5,10-dihydrophenazine-1-carboxylate 9-dimethylallyltransferase 
+OS=Streptomyces anulatus OX=1892 GN=ppzP 
+PE=1 SV=1
+Length=299
+
+ Score = 78.6 bits (192),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 62/275 (23%), Positives = 116/275 (42%), Gaps = 11/275 (4%)
+
+Query  3    DVNRIRTDIINVAKTFGAEYSEKVLDEVFQVFGEQFADN--SFMIRTSNKQPDKLGCYFR  60
+            ++  + + I    +  GA      +  +   + +  A +  SF ++T       L C F 
+Sbjct  6    ELTELYSAIEETTRVVGAPCRRDTVRPILTAYEDVIAQSVISFRVQTGTSDAGDLDCRFT  65
+
+Query  61   YHEEDESQLGLAWDIARKSGLLSDQGRPVDQLIPEICETFPIMADGVDFDVKHGLAKIWQ  120
+               +D       +  A  +GL +    PV  L+ E+   FP+   G+DF    G  K W 
+Sbjct  66   LLPKDMD----PYATALSNGLTAKTDHPVGSLLEEVHRQFPVDCYGIDFGAVGGFKKAWS  121
+
+Query  121  SIK--GVVPVQDAFKL-SLPASVTTHSDFLKNHHL-DALYAFGIDYHHSSVNLYFDTYHP  176
+              +   +    D   L S+P+ V+ +      + + D +   G DY   SVNLYF    P
+Sbjct  122  FFRPDSLQSASDLAALPSMPSGVSENLGLFDRYGMTDTVSVVGFDYAKRSVNLYFTGASP  181
+
+Query  177  KHHTSEYYKNLLQDLQFQPPSDELLELLTNNGEIALTFNFASPRIERLCFYLPFLNREAV  236
+            +       + +L++     PSDELL        I +T ++ S +IER+ + +   +  A+
+Sbjct  182  ESFEPRGIQAILRECGLPEPSDELLRFGEEAFAIYVTLSWDSQKIERVTYSVNTPDPMAL  241
+
+Query  237  PQNLLNPLLKKYINEAPALVDNPGFILGWSFGPQG  271
+            P   ++  +++ + +AP       ++ G +  P+G
+Sbjct  242  PVR-IDTRIEQLVKDAPLGSAGHRYVYGVTATPKG  275
+
+
+> sp|A2AXG5|FNQ26_STRCM Flaviolin linalyltransferase OS=Streptomyces 
+cinnamonensis OX=1900 GN=fnq26 PE=1 SV=1
+Length=300
+
+ Score = 58.9 bits (141),  Expect = 9e-09, Method: Compositional matrix adjust.
+ Identities = 54/260 (21%), Positives = 109/260 (42%), Gaps = 34/260 (13%)
+
+Query  42   SFMIRTSNKQPDKLGCYFRYHEEDESQLGLAWDIARKSGLLSDQGRPVDQLIPEICETFP  101
+            +F + T+ +   +  C F      +      + +A   GL    G P++ L+ ++ +   
+Sbjct  48   AFRVATNARHEGEFDCRFTVPGSIDP-----YAVALDKGLTHRSGHPIETLVADVQKHCA  102
+
+Query  102  IMADGVDFDVKHGLAKIW--------QSIK--GVVPVQDAFKLSLPASVTTHSDFLKNHH  151
+            + + GVDF V  G  KIW        +S+   G +P       S+P  +     F   + 
+Sbjct  103  VDSYGVDFGVVGGFKKIWVYFPGGRHESLAHLGEIP-------SMPPGLAATEGFFARYG  155
+
+Query  152  L-DALYAFGIDYHHSSVNLYFDTYHPKHHTSEYYKNLLQDLQFQPPSDELLELLTNNGEI  210
+            L D +   G+DY   ++N+YF    P+  ++     + +++    PS+++L+  +    +
+Sbjct  156  LADKVDLIGVDYASKTMNVYFAA-SPEVVSAPTVLAMHREIGLPDPSEQMLDFCSRAFGV  214
+
+Query  211  ALTFNFASPRIERLCFYLPFLNREAVPQNL---LNPLLKKYINEAPALVDNPGFILGWSF  267
+              T N+ S ++ER+ + +    +   P  L   L   +++++   P  +D P  +     
+Sbjct  215  YTTLNWDSSKVERIAYSV----KTEDPLELSARLGSKVEQFLKSVPYGIDTPKMVYA---  267
+
+Query  268  GPQGGKGTYTKVDVDYHGRT  287
+                G   Y K+   Y  RT
+Sbjct  268  AVTAGGEEYYKLQSYYQWRT  287
+
+
+> sp|Q2L6E3|FUR7_STREO Furaquinocin biosynthesis prenyltransferase 
+OS=Streptomyces sp. (strain KO-3988) OX=285219 GN=fur7 PE=1 
+SV=1
+Length=307
+
+ Score = 55.5 bits (132),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 40/162 (25%), Positives = 72/162 (44%), Gaps = 13/162 (8%)
+
+Query  73   WDIARKSGLLSDQGRPVDQLIPEICETFPIMADGVDFDVKHGLAKIWQSIKGVVPVQDAF  132
+            + +A    L++    PV  L+ +I +   +   GVD  VK G  K+W       P  +  
+Sbjct  77   YAVALSRSLIAKTDHPVGSLLSDIQQLCSVDTYGVDLGVKSGFKKVWVYF----PAGEHE  132
+
+Query  133  KL-------SLPASVTTHSDFLKNHHL-DALYAFGIDYHHSSVNLYFDTYHPKHHTSEYY  184
+             L       S+P S+  + DF   + L D +   GIDY   ++N+YF     +    E  
+Sbjct  133  TLARLTGLTSMPGSLAGNVDFFTRYGLADKVDVIGIDYRSRTMNVYFAA-PSECFERETV  191
+
+Query  185  KNLLQDLQFQPPSDELLELLTNNGEIALTFNFASPRIERLCF  226
+              + +D+    PS+++ +   N+  +  T N+ +  IER+ +
+Sbjct  192  LAMHRDIGLPSPSEQMFKFCENSFGLYTTLNWDTMEIERISY  233
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.139    0.427    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 23686895656
+Results from round 2
+
+
+Query= 5Z44
+
+Length=290
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|C4PWA1|PPZP_STRAQ 5,10-dihydrophenazine-1-carboxylate 9-dime...  340     2e-116
+  sp|Q8GHB2|CLOQ_STRRC 4-hydroxyphenylpyruvate 3-dimethylallyltra...  331     9e-113
+  sp|Q9L9F1|NOVQ_STRNV 4-hydroxyphenylpyruvate 3-dimethylallyltra...  329     9e-112
+  sp|A2AXG5|FNQ26_STRCM Flaviolin linalyltransferase OS=Streptomy...  301     3e-101
+  sp|Q2L6E3|FUR7_STREO Furaquinocin biosynthesis prenyltransferas...  292     1e-97 
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|C4PWA1|PPZP_STRAQ 5,10-dihydrophenazine-1-carboxylate 9-dimethylallyltransferase 
+OS=Streptomyces anulatus OX=1892 GN=ppzP 
+PE=1 SV=1
+Length=299
+
+ Score = 340 bits (871),  Expect = 2e-116, Method: Composition-based stats.
+ Identities = 65/291 (22%), Positives = 122/291 (42%), Gaps = 14/291 (5%)
+
+Query  3    DVNRIRTDIINVAKTFGAEYSEKVLDEVFQVFGEQFADN--SFMIRTSNKQPDKLGCYFR  60
+            ++  + + I    +  GA      +  +   + +  A +  SF ++T       L C F 
+Sbjct  6    ELTELYSAIEETTRVVGAPCRRDTVRPILTAYEDVIAQSVISFRVQTGTSDAGDLDCRFT  65
+
+Query  61   YHEEDESQLGLAWDIARKSGLLSDQGRPVDQLIPEICETFPIMADGVDFDVKHGLAKIWQ  120
+               +D       +  A  +GL +    PV  L+ E+   FP+   G+DF    G  K W 
+Sbjct  66   LLPKDMD----PYATALSNGLTAKTDHPVGSLLEEVHRQFPVDCYGIDFGAVGGFKKAWS  121
+
+Query  121  SIK--GVVPVQDAFKL-SLPASVTTHSDFLKNHHL-DALYAFGIDYHHSSVNLYFDTYHP  176
+              +   +    D   L S+P+ V+ +      + + D +   G DY   SVNLYF    P
+Sbjct  122  FFRPDSLQSASDLAALPSMPSGVSENLGLFDRYGMTDTVSVVGFDYAKRSVNLYFTGASP  181
+
+Query  177  KHHTSEYYKNLLQDLQFQPPSDELLELLTNNGEIALTFNFASPRIERLCFYLPFLNREAV  236
+            +       + +L++     PSDELL        I +T ++ S +IER+ + +   +  A+
+Sbjct  182  ESFEPRGIQAILRECGLPEPSDELLRFGEEAFAIYVTLSWDSQKIERVTYSVNTPDPMAL  241
+
+Query  237  PQNLLNPLLKKYINEAPALVDNPGFILGWSFGPQGGKGTYTKVDVDYHGRT  287
+            P   ++  +++ + +AP       ++ G +  P   KG Y K+   +  ++
+Sbjct  242  PVR-IDTRIEQLVKDAPLGSAGHRYVYGVTATP---KGEYHKIQKYFQWQS  288
+
+
+> sp|Q8GHB2|CLOQ_STRRC 4-hydroxyphenylpyruvate 3-dimethylallyltransferase 
+OS=Streptomyces roseochromogenus subsp. oscitans 
+OX=149682 GN=cloQ PE=1 SV=1
+Length=324
+
+ Score = 331 bits (848),  Expect = 9e-113, Method: Composition-based stats.
+ Identities = 77/291 (26%), Positives = 131/291 (45%), Gaps = 23/291 (8%)
+
+Query  3    DVNRIRTDIINVAKTFGAEYSEKVLDEVFQVFGEQFADNSFMIRTSNKQPDKLGCYFRYH  62
+            D  R R DI   A   GA  + ++ D V + F + FA  + + +T+++  D+L   F + 
+Sbjct  11   DCERFRADIRATAAAIGAPIAHRLTDTVLEAFRDNFAQGATLWKTTSQPGDQLSYRF-FS  69
+
+Query  63   EEDESQLGLAWDIARKSGLLSDQGRPVDQLIPEICETF---PIMADGVDFDVKHGLAKIW  119
+                  +      A  +GLL D   P   ++      +   P+ +   DFD   G+AK W
+Sbjct  70   RLKMDTVSR----AIDAGLL-DAAHPTLAVVDAWSSLYGGAPVQSG--DFDAGRGMAKTW  122
+
+Query  120  QSIKGVVPVQDAFKL-SLPASVTTH-SDFLKNHHLDALYAFGIDYHHSSVNLYFDTYHPK  177
+                G+ P +D   + +LPASV     DFL        +A  +D+ H S N+YF    P 
+Sbjct  123  LYFGGLRPAEDILTVPALPASVQARLKDFLALGLAHVRFA-AVDWRHHSANVYFRGKGPL  181
+
+Query  178  HHTSEYYKNLLQDLQFQPPS---DELLELLTNNGEIALTFNFASPRIERLCFYLPFLNRE  234
+              T ++ +         P +   +E+L  +  +  +A+T +  S  IER+CFY   + + 
+Sbjct  182  -DTVQFARIHALSGSTPPAAHVVEEVLAYMPEDYCVAITLDLHSGDIERVCFYALKVPKN  240
+
+Query  235  AVPQNLLNPLLKKYINEAPALVDNPGFILGWSFGPQGGKGTYTKVDVDYHG  285
+            A+P+  +   + +++  AP+       ++GWSFG     G Y K +  Y G
+Sbjct  241  ALPR--IPTRIARFLEVAPSHDVEECNVIGWSFGR---SGDYVKAERSYTG  286
+
+
+> sp|Q9L9F1|NOVQ_STRNV 4-hydroxyphenylpyruvate 3-dimethylallyltransferase 
+OS=Streptomyces niveus OX=193462 GN=novQ PE=1 SV=2
+Length=323
+
+ Score = 329 bits (842),  Expect = 9e-112, Method: Composition-based stats.
+ Identities = 76/291 (26%), Positives = 133/291 (46%), Gaps = 23/291 (8%)
+
+Query  3    DVNRIRTDIINVAKTFGAEYSEKVLDEVFQVFGEQFADNSFMIRTSNKQPDKLGCYFRYH  62
+            D  R R D+   A   GA  + +V D V + F + FA  + + +T+++  D+L   F + 
+Sbjct  11   DRERFRVDLRATAAAIGAPVTPRVTDTVLETFRDNFAQGATLWKTTSQPGDQLSYRF-FS  69
+
+Query  63   EEDESQLGLAWDIARKSGLLSDQGRPVDQLIPEICETF---PIMADGVDFDVKHGLAKIW  119
+                  +G     A  +GLL D   P   ++ +  + +   P+ +   DFD   G+AK W
+Sbjct  70   RLKMDTVGR----AVDAGLL-DGTHPTVPIVEDWSDLYGGTPVQS--ADFDAGRGMAKTW  122
+
+Query  120  QSIKGVVPVQDAFKL-SLPASVTTH-SDFLKNHHLDALYAFGIDYHHSSVNLYFDTYHPK  177
+                G+ P +D   + +LPA V     DFL        +A  +D+ H S N+YF    P 
+Sbjct  123  LYFGGLRPAEDILSVPALPAPVQARLKDFLGLGLAHVRFA-AVDWRHRSANVYFRGQGPL  181
+
+Query  178  HHTSEYYKNLLQDLQFQPPSD---ELLELLTNNGEIALTFNFASPRIERLCFYLPFLNRE  234
+              T+++ +         P +D   E+L  +  +  +A+T +  +  I+R+CFY   + ++
+Sbjct  182  -DTAQFARVHALSGGTPPAADVVAEVLAYVPEDYCVAITLDLHTGAIDRVCFYALKVPKD  240
+
+Query  235  AVPQNLLNPLLKKYINEAPALVDNPGFILGWSFGPQGGKGTYTKVDVDYHG  285
+            A P+  +   +  ++  AP+       ++GWSFG     G Y K +  Y G
+Sbjct  241  ARPR--VPARIATFLEVAPSHDPEECNVIGWSFGR---SGDYVKAERSYTG  286
+
+
+> sp|A2AXG5|FNQ26_STRCM Flaviolin linalyltransferase OS=Streptomyces 
+cinnamonensis OX=1900 GN=fnq26 PE=1 SV=1
+Length=300
+
+ Score = 301 bits (770),  Expect = 3e-101, Method: Composition-based stats.
+ Identities = 54/291 (19%), Positives = 115/291 (40%), Gaps = 16/291 (5%)
+
+Query  3    DVNRIRTDIINVAKTFGAEYSEKVLDEVFQVFGEQF--ADNSFMIRTSNKQPDKLGCYFR  60
+            D+  +   +   A       + + +  +   F +    A  +F + T+ +   +  C F 
+Sbjct  7    DLAGVYAAVEESAGLLDVSCAREKVWPILAAFEDVLPTAVIAFRVATNARHEGEFDCRFT  66
+
+Query  61   YHEEDESQLGLAWDIARKSGLLSDQGRPVDQLIPEICETFPIMADGVDFDVKHGLAKIWQ  120
+                 +      + +A   GL    G P++ L+ ++ +   + + GVDF V  G  KIW 
+Sbjct  67   VPGSID-----PYAVALDKGLTHRSGHPIETLVADVQKHCAVDSYGVDFGVVGGFKKIWV  121
+
+Query  121  SIKGVVP---VQDAFKLSLPASVTTHSDFLKNHHL-DALYAFGIDYHHSSVNLYFDTYHP  176
+               G             S+P  +     F   + L D +   G+DY   ++N+YF    P
+Sbjct  122  YFPGGRHESLAHLGEIPSMPPGLAATEGFFARYGLADKVDLIGVDYASKTMNVYFAA-SP  180
+
+Query  177  KHHTSEYYKNLLQDLQFQPPSDELLELLTNNGEIALTFNFASPRIERLCFYLPFLNREAV  236
+            +  ++     + +++    PS+++L+  +    +  T N+ S ++ER+ + +   +   +
+Sbjct  181  EVVSAPTVLAMHREIGLPDPSEQMLDFCSRAFGVYTTLNWDSSKVERIAYSVKTEDPLEL  240
+
+Query  237  PQNLLNPLLKKYINEAPALVDNPGFILGWSFGPQGGKGTYTKVDVDYHGRT  287
+                L   +++++   P  +D P  +         G   Y K+   Y  RT
+Sbjct  241  SAR-LGSKVEQFLKSVPYGIDTPKMVYA---AVTAGGEEYYKLQSYYQWRT  287
+
+
+> sp|Q2L6E3|FUR7_STREO Furaquinocin biosynthesis prenyltransferase 
+OS=Streptomyces sp. (strain KO-3988) OX=285219 GN=fur7 PE=1 
+SV=1
+Length=307
+
+ Score = 292 bits (746),  Expect = 1e-97, Method: Composition-based stats.
+ Identities = 62/296 (21%), Positives = 113/296 (38%), Gaps = 24/296 (8%)
+
+Query  3    DVNRIRTDIINVAKTFGAEYSEKVLDEVFQVFGEQFADN--SFMIRTSNKQPDKLGCYFR  60
+            DV  + + I   A       + +V+  V   F +       +F + T+ +        F 
+Sbjct  10   DVASVYSAIEKSAGLLDVTAAREVVWPVLTAFEDVLEQAVIAFRVATNARHEGDFDVRFT  69
+
+Query  61   YHEEDESQLGLAWDIARKSGLLSDQGRPVDQLIPEICETFPIMADGVDFDVKHGLAKIWQ  120
+              EE +      + +A    L++    PV  L+ +I +   +   GVD  VK G  K+W 
+Sbjct  70   VPEEVD-----PYAVALSRSLIAKTDHPVGSLLSDIQQLCSVDTYGVDLGVKSGFKKVWV  124
+
+Query  121  SIKGVVPVQDAFKL-------SLPASVTTHSDFLKNHHL-DALYAFGIDYHHSSVNLYFD  172
+                  P  +   L       S+P S+  + DF   + L D +   GIDY   ++N+YF 
+Sbjct  125  YF----PAGEHETLARLTGLTSMPGSLAGNVDFFTRYGLADKVDVIGIDYRSRTMNVYFA  180
+
+Query  173  TYHPKHHTSEYYKNLLQDLQFQPPSDELLELLTNNGEIALTFNFASPRIERLCFYLPFLN  232
+                +    E    + +D+    PS+++ +   N+  +  T N+ +  IER+ + +   N
+Sbjct  181  A-PSECFERETVLAMHRDIGLPSPSEQMFKFCENSFGLYTTLNWDTMEIERISYGVKTEN  239
+
+Query  233  REAVPQNLLNPLLKKYINEAPALVDNPGFILGWSFGPQGGKGTYTKVDVDYHGRTV  288
+                    L   ++ ++   P  VD    +             Y K+   Y  R+V
+Sbjct  240  PMTFFAR-LGTKVEHFVKNVPYGVDTQKMVYA---AVTSSGEEYYKLQSYYRWRSV  291
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.124    0.308    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0380    0.140     1.90     42.6     43.6 
+
+Effective search space used: 23686895656
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 28, 2021  3:44 PM
+  Number of letters in database: 202,799,066
+  Number of sequences in database:  563,082
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

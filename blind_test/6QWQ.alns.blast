@@ -1,0 +1,3721 @@
+PSIBLAST 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           563,082 sequences; 202,799,066 total letters
+
+Results from round 1
+
+
+Query= 6QWQ
+
+Length=263
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|Q93TM8|PEBB_NOSP7 Phycoerythrobilin:ferredoxin oxidoreductas...  293     3e-99
+  sp|Q7NL65|PEBB_GLOVI Phycoerythrobilin:ferredoxin oxidoreductas...  286     9e-97
+  sp|Q10UW6|PEBB_TRIEI Phycoerythrobilin:ferredoxin oxidoreductas...  286     2e-96
+  sp|Q02190|PEBB_SYNPY Phycoerythrobilin:ferredoxin oxidoreductas...  179     2e-54
+  sp|Q7U4P6|PEBB_SYNPX Phycoerythrobilin:ferredoxin oxidoreductas...  179     2e-54
+  sp|A2CBW9|PEBB_PROM3 Phycoerythrobilin:ferredoxin oxidoreductas...  175     6e-53
+  sp|Q7V585|PEBB_PROMM Phycoerythrobilin:ferredoxin oxidoreductas...  175     7e-53
+  sp|Q3AUU4|PEBB_SYNS9 Phycoerythrobilin:ferredoxin oxidoreductas...  174     1e-52
+  sp|Q0ICV5|PEBB_SYNS3 Phycoerythrobilin:ferredoxin oxidoreductas...  171     2e-51
+  sp|A5GVQ6|PEBB_SYNR3 Phycoerythrobilin:ferredoxin oxidoreductas...  170     9e-51
+  sp|Q93TL6|PEBA_NOSP7 15,16-dihydrobiliverdin:ferredoxin oxidore...  164     7e-49
+  sp|A9BCT2|PEBB_PROM4 Phycoerythrobilin:ferredoxin oxidoreductas...  161     2e-47
+  sp|Q46IM1|PEBB_PROMT Phycoerythrobilin:ferredoxin oxidoreductas...  154     1e-44
+  sp|A2C538|PEBB_PROM1 Phycoerythrobilin:ferredoxin oxidoreductas...  154     1e-44
+  sp|Q9K4U5|PEBB_PROMA Phycoerythrobilin:ferredoxin oxidoreductas...  154     1e-44
+  sp|Q7NL66|PEBA_GLOVI 15,16-dihydrobiliverdin:ferredoxin oxidore...  136     4e-38
+  sp|Q7V586|PEBA_PROMM 15,16-dihydrobiliverdin:ferredoxin oxidore...  108     4e-27
+  sp|A2BYX5|PEBB_PROM5 Phycoerythrobilin:ferredoxin oxidoreductas...  104     9e-26
+  sp|A2CBW8|PEBA_PROM3 15,16-dihydrobiliverdin:ferredoxin oxidore...  103     4e-25
+  sp|Q9SR43|PFBS_ARATH Phytochromobilin:ferredoxin oxidoreductase...  103     1e-24
+  sp|Q318F0|PEBB_PROM9 Phycoerythrobilin:ferredoxin oxidoreductas...  101     2e-24
+  sp|A3PF82|PEBB_PROM0 Phycoerythrobilin:ferredoxin oxidoreductas...  101     2e-24
+  sp|A2BTH3|PEBB_PROMS Phycoerythrobilin:ferredoxin oxidoreductas...  100     5e-24
+  sp|A8G797|PEBB_PROM2 Phycoerythrobilin:ferredoxin oxidoreductas...  99.4    1e-23
+  sp|Q7U4P7|PEBA_SYNPX 15,16-dihydrobiliverdin:ferredoxin oxidore...  98.6    2e-23
+  sp|Q02189|PEBA_SYNPY 15,16-dihydrobiliverdin:ferredoxin oxidore...  98.2    2e-23
+  sp|Q3AUU5|PEBA_SYNS9 15,16-dihydrobiliverdin:ferredoxin oxidore...  97.4    4e-23
+  sp|Q93SN7|PEBB_PROMP Phycoerythrobilin:ferredoxin oxidoreductas...  97.4    6e-23
+  sp|Q318E9|PEBA_PROM9 15,16-dihydrobiliverdin:ferredoxin oxidore...  95.9    2e-22
+  sp|Q3AMI3|PEBA_SYNSC 15,16-dihydrobiliverdin:ferredoxin oxidore...  95.5    2e-22
+  sp|A3PF83|PEBA_PROM0 15,16-dihydrobiliverdin:ferredoxin oxidore...  95.1    3e-22
+  sp|A2BTH4|PEBA_PROMS 15,16-dihydrobiliverdin:ferredoxin oxidore...  90.1    2e-20
+  sp|A8G798|PEBA_PROM2 15,16-dihydrobiliverdin:ferredoxin oxidore...  89.7    3e-20
+  sp|Q93SN8|PEBA_PROMP 15,16-dihydrobiliverdin:ferredoxin oxidore...  88.2    1e-19
+  sp|A5GIZ3|PEBA_SYNPW 15,16-dihydrobiliverdin:ferredoxin oxidore...  88.6    1e-19
+  sp|A2C539|PEBA_PROM1 15,16-dihydrobiliverdin:ferredoxin oxidore...  85.9    8e-19
+  sp|Q46IM0|PEBA_PROMT 15,16-dihydrobiliverdin:ferredoxin oxidore...  85.9    8e-19
+  sp|Q55891|PCYA_SYNY3 Phycocyanobilin:ferredoxin oxidoreductase ...  82.8    1e-17
+  sp|A9BCT3|PEBA_PROM4 15,16-dihydrobiliverdin:ferredoxin oxidore...  81.6    3e-17
+  sp|Q7V7Y8|PCYA_PROMM Phycocyanobilin:ferredoxin oxidoreductase ...  80.9    8e-17
+  sp|A2CA92|PCYA_PROM3 Phycocyanobilin:ferredoxin oxidoreductase ...  80.9    1e-16
+  sp|A2BYX6|PEBA_PROM5 15,16-dihydrobiliverdin:ferredoxin oxidore...  80.1    1e-16
+  sp|Q8KPS9|PCYA_SYNE7 Phycocyanobilin:ferredoxin oxidoreductase ...  78.2    7e-16
+  sp|Q5N5A3|PCYA_SYNP6 Phycocyanobilin:ferredoxin oxidoreductase ...  78.2    7e-16
+  sp|Q10X61|PCYA_TRIEI Phycocyanobilin:ferredoxin oxidoreductase ...  75.1    8e-15
+  sp|Q3AXI3|PCYA_SYNS9 Phycocyanobilin:ferredoxin oxidoreductase ...  74.7    1e-14
+  sp|B0JPG5|PCYA_MICAN Phycocyanobilin:ferredoxin oxidoreductase ...  74.7    1e-14
+  sp|B7KJQ2|PCYA_GLOC7 Phycocyanobilin:ferredoxin oxidoreductase ...  74.3    2e-14
+  sp|Q93TM9|PCYA_NOSP7 Phycocyanobilin:ferredoxin oxidoreductase ...  72.0    1e-13
+  sp|B7JWS2|PCYA_RIPO1 Phycocyanobilin:ferredoxin oxidoreductase ...  71.6    2e-13
+  sp|Q9K4U6|PEBA_PROMA 15,16-dihydrobiliverdin:ferredoxin oxidore...  71.2    2e-13
+  sp|Q93TN0|PCYA_NOSS1 Phycocyanobilin:ferredoxin oxidoreductase ...  69.7    8e-13
+  sp|Q3M745|PCYA_TRIV2 Phycocyanobilin:ferredoxin oxidoreductase ...  69.3    1e-12
+  sp|Q7U7A1|PCYA_SYNPX Phycocyanobilin:ferredoxin oxidoreductase ...  68.2    2e-12
+  sp|Q7VCC2|PCYA_PROMA Phycocyanobilin:ferredoxin oxidoreductase ...  68.2    3e-12
+  sp|P59288|PCYA_THEEB Phycocyanobilin:ferredoxin oxidoreductase ...  67.0    6e-12
+  sp|B1X018|PCYA_CROS5 Phycocyanobilin:ferredoxin oxidoreductase ...  65.5    3e-11
+  sp|Q3AKB1|PCYA_SYNSC Phycocyanobilin:ferredoxin oxidoreductase ...  61.2    7e-10
+  sp|Q7NHE8|PCYA_GLOVI Phycocyanobilin:ferredoxin oxidoreductase ...  59.7    3e-09
+  sp|Q93TL5|PCYA_PROMP Phycocyanobilin:ferredoxin oxidoreductase ...  53.5    3e-07
+  sp|A8G4C5|PCYA_PROM2 Phycocyanobilin:ferredoxin oxidoreductase ...  50.4    3e-06
+  sp|A2BQN3|PCYA_PROMS Phycocyanobilin:ferredoxin oxidoreductase ...  50.1    4e-06
+  sp|Q31BD0|PCYA_PROM9 Phycocyanobilin:ferredoxin oxidoreductase ...  49.3    9e-06
+  sp|Q58MU6|PEBS_BPPRM Phycoerythrobilin synthase OS=Prochlorococ...  47.8    3e-05
+  sp|A3PCF5|PCYA_PROM0 Phycocyanobilin:ferredoxin oxidoreductase ...  47.4    4e-05
+  sp|A2BW83|PCYA_PROM5 Phycocyanobilin:ferredoxin oxidoreductase ...  45.8    1e-04
+
+
+> sp|Q93TM8|PEBB_NOSP7 Phycoerythrobilin:ferredoxin oxidoreductase 
+OS=Nostoc punctiforme (strain ATCC 29133 / PCC 73102) OX=63737 
+GN=pebB PE=3 SV=1
+Length=255
+
+ Score = 293 bits (750),  Expect = 3e-99, Method: Compositional matrix adjust.
+ Identities = 145/244 (59%), Positives = 175/244 (72%), Gaps = 12/244 (5%)
+
+Query  6    IYKPFWEWAAKTIKERLGDDLVSYPIPDGYLRKEAMVG----ESLAWTQSYGYQTKKMRQ  61
+            +Y+PF ++A   ++ RL  DL  YPIP G+    A+VG    +    T SY +QT K+RQ
+Sbjct  10   LYQPFLDYAIAYMRSRL--DLEPYPIPTGFESNSAVVGKGKNQEEVVTTSYAFQTAKLRQ  67
+
+Query  62   IRAAHVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGHLIAIDMQPLFQTEE-YKKK  120
+            IRAAHV GG SLQVLN V FPH+NYDLPF G DLVTLPGGHLIA+DMQPLF+ +  Y+ K
+Sbjct  68   IRAAHVQGGNSLQVLNFVIFPHLNYDLPFFGADLVTLPGGHLIALDMQPLFRDDSAYQAK  127
+
+Query  121  YAEPCMDMYQKHVKNLPWGGD-----KQYFSPVFLWTRPQEDKQVETYVFEAFKDYINKY  175
+            Y EP + ++  H ++L WGGD     + +FSP FLWTRPQE   VET VF AFKDY+  Y
+Sbjct  128  YTEPILPIFHAHQQHLSWGGDFPEEAQPFFSPAFLWTRPQETAVVETQVFAAFKDYLKAY  187
+
+Query  176  LDFVEAAKPVTDPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEWTERYIHGFLFDL  235
+            LDFVE A+ VTD  +L  I++ QL YL+YRAEKDPARGMF R YG EWTE YIHGFLFDL
+Sbjct  188  LDFVEQAEAVTDSQNLVAIKQAQLRYLRYRAEKDPARGMFKRFYGAEWTEEYIHGFLFDL  247
+
+Query  236  EEKM  239
+            E K+
+Sbjct  248  ERKL  251
+
+
+> sp|Q7NL65|PEBB_GLOVI Phycoerythrobilin:ferredoxin oxidoreductase 
+OS=Gloeobacter violaceus (strain ATCC 29082 / PCC 7421) 
+OX=251221 GN=pebB PE=3 SV=1
+Length=245
+
+ Score = 286 bits (733),  Expect = 9e-97, Method: Compositional matrix adjust.
+ Identities = 142/242 (59%), Positives = 172/242 (71%), Gaps = 8/242 (3%)
+
+Query  6    IYKPFWEWAAKTIKERLGDDLVSYPIPDGYLRKEAMVGESLAWTQSYGYQTKKMRQIRAA  65
+            +Y+PF E A + +  RL  +L  YPIP G+ RKEA+V      T S  +Q+ K+RQIRAA
+Sbjct  3    LYEPFLERAQQVLTRRL--ELAPYPIPVGFERKEALVRGEAVVTTSTAWQSPKLRQIRAA  60
+
+Query  66   HVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGHLIAIDMQPLFQTE-EYKKKYAEP  124
+            HV GG +LQVLN V  P + YDLPF G DLVTLPGGHLIA+DMQPLF+ +  Y+ KY EP
+Sbjct  61   HVQGGGALQVLNFVISPRLEYDLPFFGADLVTLPGGHLIALDMQPLFRDDPAYQAKYTEP  120
+
+Query  125  CMDMYQKHVKNLPWGGD-----KQYFSPVFLWTRPQEDKQVETYVFEAFKDYINKYLDFV  179
+             + +++ H  +L WGGD     + +FSP FLWTRP+E   VET VF AF DY+N YLDFV
+Sbjct  121  IVPLFEAHRAHLEWGGDFPEEARPFFSPAFLWTRPKETGTVETRVFAAFVDYLNAYLDFV  180
+
+Query  180  EAAKPVTDPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEWTERYIHGFLFDLEEKM  239
+            E A+PVT P+ LA +   QL YL YRAEKDPARGMF R YGPEWTE YIHGFLFDLE + 
+Sbjct  181  ERAEPVTHPEGLAAVERAQLRYLHYRAEKDPARGMFRRFYGPEWTEEYIHGFLFDLERRR  240
+
+Query  240  ES  241
+            E+
+Sbjct  241  EA  242
+
+
+> sp|Q10UW6|PEBB_TRIEI Phycoerythrobilin:ferredoxin oxidoreductase 
+OS=Trichodesmium erythraeum (strain IMS101) OX=203124 GN=pebB 
+PE=3 SV=1
+Length=256
+
+ Score = 286 bits (732),  Expect = 2e-96, Method: Compositional matrix adjust.
+ Identities = 143/247 (58%), Positives = 178/247 (72%), Gaps = 12/247 (5%)
+
+Query  3    VSDIYKPFWEWAAKTIKERLGDDLVSYPIPDGYLRKEAMVG----ESLAWTQSYGYQTKK  58
+            + ++Y+PF ++A   +KE L  +L  YPIP G+  K AM G    +    T SY + + K
+Sbjct  7    IVNLYQPFLDYALTKLKEEL--ELQPYPIPSGFEHKVAMTGKGKKQQEVQTTSYAHCSPK  64
+
+Query  59   MRQIRAAHVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGHLIAIDMQPLFQTE-EY  117
+            +RQIRAAHV GG++LQVLN V FPH+NYDLPF G DLV+LPGGHLIA+DMQPLF+   +Y
+Sbjct  65   LRQIRAAHVQGGSALQVLNFVIFPHLNYDLPFFGADLVSLPGGHLIALDMQPLFRDNLQY  124
+
+Query  118  KKKYAEPCMDMYQKHVKNLPWGGD-----KQYFSPVFLWTRPQEDKQVETYVFEAFKDYI  172
+            +KKY EP  + +QKH K LPWGGD       +FSP FLWTRPQ+ + VET VFEAFKDY+
+Sbjct  125  QKKYTEPIWETFQKHQKYLPWGGDFPEEATPFFSPAFLWTRPQKTELVETRVFEAFKDYL  184
+
+Query  173  NKYLDFVEAAKPVTDPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEWTERYIHGFL  232
+              YL FV+  + +T+ + LA I+E QL YL+YRAEKDPAR M TR YG EWTE YIHGFL
+Sbjct  185  QAYLIFVKQTEQITNSEKLAEIKEAQLRYLRYRAEKDPARKMLTRFYGHEWTEEYIHGFL  244
+
+Query  233  FDLEEKM  239
+            FDLE K+
+Sbjct  245  FDLERKL  251
+
+
+> sp|Q02190|PEBB_SYNPY Phycoerythrobilin:ferredoxin oxidoreductase 
+OS=Synechococcus sp. (strain WH8020) OX=32052 GN=pebB PE=3 
+SV=2
+Length=257
+
+ Score = 179 bits (453),  Expect = 2e-54, Method: Compositional matrix adjust.
+ Identities = 100/243 (41%), Positives = 147/243 (60%), Gaps = 18/243 (7%)
+
+Query  7    YKPFWEWAAKTIKERLGDDLVSYPIPDGYLRKEAMVGESL----AWTQSYGYQTKKMRQI  62
+            ++PF E A K ++   G ++  YP+PD +L++E   G         T ++  +T+K RQ+
+Sbjct  19   WQPFLEDAIKRLE---GLNVEPYPVPDRFLQREDQTGSKSKSIPVTTATWACKTEKFRQV  75
+
+Query  63   RAAHVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGHLIAIDMQPLFQTEEYKKKYA  122
+            RAA V+ G++  VLN V  P   YDLPF G DLVTLP GHL+A+D+QP  +T+E    + 
+Sbjct  76   RAACVSAGSAASVLNFVINPKSTYDLPFFGGDLVTLPAGHLLALDLQPAIKTDEVHTTHV  135
+
+Query  123  -EPCMDMYQKHVKNLPWGG-----DKQYFSPVFLWTR----PQEDKQVETYVFEAFKDYI  172
+             +  + ++++    LP+GG      + +FSP FLWTR     + D+ +++ V  AF DY+
+Sbjct  136  WDRLIPIFERWRDQLPYGGPIPEEAQPFFSPGFLWTRLPLGEEGDELIQSIVRPAFNDYL  195
+
+Query  173  NKYLDFVEAAKPVTDPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEWTERYIHGFL  232
+            + YL+   +A+ VTD +    + + Q  Y  YRAEKDPARGM TR +G EWTE YIH  L
+Sbjct  196  DLYLELAASAERVTD-ERSEVLLQGQRKYTDYRAEKDPARGMLTRFHGSEWTEAYIHTVL  254
+
+Query  233  FDL  235
+            FDL
+Sbjct  255  FDL  257
+
+
+> sp|Q7U4P6|PEBB_SYNPX Phycoerythrobilin:ferredoxin oxidoreductase 
+OS=Synechococcus sp. (strain WH8102) OX=84588 GN=pebB PE=3 
+SV=1
+Length=262
+
+ Score = 179 bits (454),  Expect = 2e-54, Method: Compositional matrix adjust.
+ Identities = 102/245 (42%), Positives = 141/245 (58%), Gaps = 18/245 (7%)
+
+Query  7    YKPFWEWAAKTIKERLGDDLVSYPIPDGYLRKEAMVGESL----AWTQSYGYQTKKMRQI  62
+            ++PF + A+  +K     +   YPI + +L+KE   G         T ++   T K+RQ+
+Sbjct  20   WQPFLDEASAALKPF---NPSPYPIAETFLQKEGSTGSKAKPVPVTTATWACSTDKLRQV  76
+
+Query  63   RAAHVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGHLIAIDMQPLFQTE-EYKKKY  121
+            R A V  G +  VLN V  P   +DLPF G DLVTLP GHL+A+D+QP+ + + ++ +  
+Sbjct  77   RCACVEAGMAASVLNFVINPSCRFDLPFFGADLVTLPNGHLLALDLQPVDKADPDHTQPV  136
+
+Query  122  AEPCMDMYQKHVKNLPWGG-----DKQYFSPVFLWTR----PQEDKQVETYVFEAFKDYI  172
+             E  M ++++    LP GG      + YFSP FLWTR     + D+ +E  +  AF DY+
+Sbjct  137  WERLMPLFERWQAELPDGGPIPEEAQPYFSPAFLWTRIPLGEEGDELIERVIRPAFIDYL  196
+
+Query  173  NKYLDFVEAAKPVTDPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEWTERYIHGFL  232
+              YL+ V  A+PV+D D    +   Q  Y  YRAEKDPARGM TR YG EWTE YIHG L
+Sbjct  197  QLYLNLVAEAEPVSD-DRAELLLSGQKRYTAYRAEKDPARGMLTRFYGSEWTESYIHGVL  255
+
+Query  233  FDLEE  237
+            FDLE+
+Sbjct  256  FDLED  260
+
+
+> sp|A2CBW9|PEBB_PROM3 Phycoerythrobilin:ferredoxin oxidoreductase 
+OS=Prochlorococcus marinus (strain MIT 9303) OX=59922 GN=pebB 
+PE=3 SV=1
+Length=257
+
+ Score = 175 bits (444),  Expect = 6e-53, Method: Compositional matrix adjust.
+ Identities = 100/252 (40%), Positives = 142/252 (56%), Gaps = 18/252 (7%)
+
+Query  1    EAVSDIYKPFWEWA---AKTIKERLGDDLVSYPIPDGYLRKEAMVGESL----AWTQSYG  53
+             ++  +  P W WA   +  I   +      YP+   +L++E   G         T ++ 
+Sbjct  7    SSLDPVRMPEWRWAPFLSHAINALIPLKPEPYPVAPEFLQREGKTGSKSQPIKVTTCTWA  66
+
+Query  54   YQTKKMRQIRAAHVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGHLIAIDMQPLFQ  113
+             +TKK RQ+RAA V  G+S  VLN V  P+  +DLPF G DLVTLP GHL+A+D+QP   
+Sbjct  67   CRTKKFRQVRAACVEAGSSASVLNFVINPYHTFDLPFFGADLVTLPSGHLLALDLQPAIT  126
+
+Query  114  TEE-YKKKYAEPCMDMYQKHVKNLPWGG-----DKQYFSPVFLWTR----PQEDKQVETY  163
+            ++E + K+  E  M ++++    LP GG      K YFSP FLWTR     + ++ ++  
+Sbjct  127  SDERHTKQVWERLMPIFEQWRVRLPEGGPIPEEAKPYFSPGFLWTRLHLGSEGNQLIDEV  186
+
+Query  164  VFEAFKDYINKYLDFVEAAKPVTDPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEW  223
+            +  AF+DY+N YLD VE A+ V+ P    ++ E Q  YL YR +KDPAR M  R +G +W
+Sbjct  187  IMPAFRDYLNLYLDLVEMAEEVS-PQRAFKLLEGQKRYLSYRGKKDPARAMLARFHGHQW  245
+
+Query  224  TERYIHGFLFDL  235
+            TE YIH  LFDL
+Sbjct  246  TESYIHNVLFDL  257
+
+
+> sp|Q7V585|PEBB_PROMM Phycoerythrobilin:ferredoxin oxidoreductase 
+OS=Prochlorococcus marinus (strain MIT 9313) OX=74547 GN=pebB 
+PE=3 SV=1
+Length=257
+
+ Score = 175 bits (444),  Expect = 7e-53, Method: Compositional matrix adjust.
+ Identities = 102/252 (40%), Positives = 142/252 (56%), Gaps = 18/252 (7%)
+
+Query  1    EAVSDIYKPFWEWA---AKTIKERLGDDLVSYPIPDGYLRKEAMVGES----LAWTQSYG  53
+             ++  +  P W WA   +  I   +      YP+   +L++E   G         T ++ 
+Sbjct  7    SSLDPVKMPEWRWAPFLSHAINAFIPLKPEPYPVAPEFLQREGKTGSKSQPIRVTTCTWA  66
+
+Query  54   YQTKKMRQIRAAHVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGHLIAIDMQPLFQ  113
+             +TKK RQ+RAA V  G S  VLN V  P+  +DLPF G DLVTLP GHL+A+D+QP   
+Sbjct  67   CRTKKFRQVRAACVEAGRSASVLNFVINPYHTFDLPFFGADLVTLPSGHLLALDLQPAIT  126
+
+Query  114  TEE-YKKKYAEPCMDMYQKHVKNLPWGG-----DKQYFSPVFLWTR----PQEDKQVETY  163
+            ++E + K+  E  M +++    +LP GG      K YFSP FLWTR     + ++ ++  
+Sbjct  127  SDERHTKQVWERLMPIFEHWRVHLPEGGPIPEEAKPYFSPGFLWTRLPLSIEGNQLIDEV  186
+
+Query  164  VFEAFKDYINKYLDFVEAAKPVTDPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEW  223
+            +  AFKDY+N YLD VE A+ V+ P    ++ E Q  YL YRA+KDPAR M  R +G +W
+Sbjct  187  IMPAFKDYLNLYLDLVEMAEEVS-PQRAFKLLEGQKRYLSYRAKKDPARAMLARFHGHQW  245
+
+Query  224  TERYIHGFLFDL  235
+            TE YIH  LFDL
+Sbjct  246  TESYIHNVLFDL  257
+
+
+> sp|Q3AUU4|PEBB_SYNS9 Phycoerythrobilin:ferredoxin oxidoreductase 
+OS=Synechococcus sp. (strain CC9902) OX=316279 GN=pebB PE=3 
+SV=1
+Length=257
+
+ Score = 174 bits (442),  Expect = 1e-52, Method: Compositional matrix adjust.
+ Identities = 102/245 (42%), Positives = 146/245 (60%), Gaps = 22/245 (9%)
+
+Query  7    YKPFWEWAAKTIKERLGDDLVSYPIPDGYLRKEAMVGES----LAWTQSYGYQTKKMRQI  62
+            ++PF E A + ++     +L  YP+ + +L K+   G         T ++  +T K RQ+
+Sbjct  19   WQPFLEDAVQALQPL---NLEPYPVANDFLYKQDQTGSKAKPITVTTATWACKTDKFRQV  75
+
+Query  63   RAAHVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGHLIAIDMQPLFQTEE-YKKKY  121
+            RAA V GG +  VLN V  P   +DLPF G DLVTLP GHL+A+D+QP  +++E + ++ 
+Sbjct  76   RAACVYGGTAASVLNFVINPSARFDLPFFGGDLVTLPSGHLLALDLQPADKSDEAHTQQV  135
+
+Query  122  AEPCMDMYQKHVKNLPWGG-----DKQYFSPVFLWTR----PQEDKQVETYVFEAFKDYI  172
+             E  + ++++    LP GG      + +FSP FLWTR     + D+ + + V  AF DY+
+Sbjct  136  WEKLIPIFERWRSKLPDGGPIPEEAQPFFSPGFLWTRLPLGDEGDQLINSVVRPAFNDYL  195
+
+Query  173  NKYLDFVEAAKPVTDP--DHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEWTERYIHG  230
+            + YL+  EAAKPV D   DHL + + R   Y  YRAEKDPARGM TR +G +WTE+YIH 
+Sbjct  196  SLYLELAEAAKPVGDDRRDHLLKGQRR---YTDYRAEKDPARGMLTRFHGSDWTEKYIHT  252
+
+Query  231  FLFDL  235
+             LFDL
+Sbjct  253  VLFDL  257
+
+
+> sp|Q0ICV5|PEBB_SYNS3 Phycoerythrobilin:ferredoxin oxidoreductase 
+OS=Synechococcus sp. (strain CC9311) OX=64471 GN=pebB PE=3 
+SV=1
+Length=257
+
+ Score = 171 bits (434),  Expect = 2e-51, Method: Compositional matrix adjust.
+ Identities = 97/243 (40%), Positives = 143/243 (59%), Gaps = 18/243 (7%)
+
+Query  7    YKPFWEWAAKTIKERLGDDLVSYPIPDGYLRKEAMVGESL----AWTQSYGYQTKKMRQI  62
+            ++PF E A K++    G +   YP+PD +L++E   G         T ++  +T+K RQ+
+Sbjct  19   WQPFLEDAIKSLG---GLNFEPYPVPDRFLQREDQTGSKSKPISVTTATWACKTEKFRQV  75
+
+Query  63   RAAHVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGHLIAIDMQPLFQTEEYKKKYA  122
+            RAA V+ G++  VLN V  P+  YDLPF G DLVTLP GHL+A+D+QP  +T+E    + 
+Sbjct  76   RAACVSAGSAASVLNFVINPNSTYDLPFFGGDLVTLPSGHLLALDLQPAIKTDEVHTTHV  135
+
+Query  123  -EPCMDMYQKHVKNLPWGG-----DKQYFSPVFLWTR----PQEDKQVETYVFEAFKDYI  172
+             +  + ++++    LP+GG      + +FSP FLWTR     + D  +++ V  AF +Y+
+Sbjct  136  WDQLIPIFERWRDQLPYGGPIPEEAQPFFSPGFLWTRLPLGEEGDDLIQSVVRPAFNEYL  195
+
+Query  173  NKYLDFVEAAKPVTDPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEWTERYIHGFL  232
+              YL    +A+ V + +    + + Q  Y  YRAEKDPARGM TR +G EWTE YIH  L
+Sbjct  196  ELYLQLAASAERV-NAERSDFLLQGQRKYTDYRAEKDPARGMLTRFHGSEWTEAYIHTVL  254
+
+Query  233  FDL  235
+            FDL
+Sbjct  255  FDL  257
+
+
+> sp|A5GVQ6|PEBB_SYNR3 Phycoerythrobilin:ferredoxin oxidoreductase 
+OS=Synechococcus sp. (strain RCC307) OX=316278 GN=pebB PE=3 
+SV=1
+Length=262
+
+ Score = 170 bits (430),  Expect = 9e-51, Method: Compositional matrix adjust.
+ Identities = 105/246 (43%), Positives = 144/246 (59%), Gaps = 18/246 (7%)
+
+Query  7    YKPFWEWAAKTIKERLGDDLVSYPIPDGYLRKEAMVGESL----AWTQSYGYQTKKMRQI  62
+            ++PF + A   ++     +L  YP+   +L + +  G         T ++  +T K+RQ+
+Sbjct  19   WQPFLDHACGALQPL---ELEPYPVAPEFLLQTSQTGSKSKPVQVTTATWACKTNKLRQV  75
+
+Query  63   RAAHVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGHLIAIDMQPLFQTE-EYKKKY  121
+            RAA V  GA+  VLN V  P  +YDLPF G DLVTLP GHL+A+D+QP  +T+ E+ K  
+Sbjct  76   RAACVEAGAAASVLNFVVNPSTSYDLPFFGADLVTLPAGHLLALDLQPALKTDAEHTKAV  135
+
+Query  122  AEPCMDMYQKHVKNLPWGG-----DKQYFSPVFLWTR----PQEDKQVETYVFEAFKDYI  172
+             E  M ++++  + LP GG      K YFSP FLWTR     + D  +E  V  AF+DY+
+Sbjct  136  WERLMPIFERWQQRLPGGGPIPEEAKPYFSPGFLWTRIPLGSEGDALIEEAVKPAFRDYL  195
+
+Query  173  NKYLDFVEAAKPVTDPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEWTERYIHGFL  232
+              YL  V  A+ V+ P+  A +   Q  Y  YRAEKDPARGM TR +G EWTE YIHG L
+Sbjct  196  ELYLQLVHEAEEVS-PERSAELLAGQKRYTSYRAEKDPARGMLTRFHGAEWTEAYIHGVL  254
+
+Query  233  FDLEEK  238
+            FDL++K
+Sbjct  255  FDLDKK  260
+
+
+> sp|Q93TL6|PEBA_NOSP7 15,16-dihydrobiliverdin:ferredoxin oxidoreductase 
+OS=Nostoc punctiforme (strain ATCC 29133 / PCC 73102) 
+OX=63737 GN=pebA PE=3 SV=2
+Length=244
+
+ Score = 164 bits (416),  Expect = 7e-49, Method: Compositional matrix adjust.
+ Identities = 92/235 (39%), Positives = 142/235 (60%), Gaps = 9/235 (4%)
+
+Query  6    IYKPFWEWAAKTIKERLGDDLVSYPIPDGYLRKEAMVGESLAWTQSYGYQTKKMRQIRAA  65
+            +YKPF E+  K + +R   DL S  IP G   K +  G + A  +S+ YQ++++R+IR  
+Sbjct  1    MYKPFLEFLEKELFQRF--DLQSRVIPPGLEFKVSDRGRNPATIRSWCYQSQELRKIRYT  58
+
+Query  66   HVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPG-GHLIAIDMQPLFQTEEYKKKYAEP  124
+            +++ G S Q+ N V +P  NYDLP LG+D ++     +LI +D QPLFQ E+Y+ KY  P
+Sbjct  59   YIDAGESAQIFNSVVYPSHNYDLPLLGIDFLSFGKVKNLIVLDFQPLFQDEDYQNKYIAP  118
+
+Query  125  CMDMYQKH---VKNL--PWGGDKQYFSPVFLWTRPQEDKQVETYVFEAFKDYINKYLDFV  179
+               ++ K+    +NL   +    QYFS   L+ +  + + V T VFEAF+DY+N Y   +
+Sbjct  119  LKYLHNKYPDLAQNLEMKFYDANQYFSKYLLFAKT-DAETVSTRVFEAFQDYLNLYWQML  177
+
+Query  180  EAAKPVTDPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEWTERYIHGFLFD  234
+              A+ + DP+ + RI + Q  Y QY A++DPA G+F+  +G EW ER++H FLF+
+Sbjct  178  ADAQALHDPEDIQRIVKAQKDYDQYSADRDPASGLFSSYFGHEWAERFLHEFLFE  232
+
+
+> sp|A9BCT2|PEBB_PROM4 Phycoerythrobilin:ferredoxin oxidoreductase 
+OS=Prochlorococcus marinus (strain MIT 9211) OX=93059 GN=pebB 
+PE=3 SV=1
+Length=257
+
+ Score = 161 bits (407),  Expect = 2e-47, Method: Compositional matrix adjust.
+ Identities = 95/246 (39%), Positives = 135/246 (55%), Gaps = 26/246 (11%)
+
+Query  11   WEWAA---KTIKERLGDDLVSYPIPDGYLRKEAMVG--------ESLAWTQSYGYQTKKM  59
+            W W+      IK     D+  YPIP+ +L KE  +         ++L W      +T K+
+Sbjct  17   WRWSEFLDDAIKALELFDIEPYPIPEEFLTKEETIKFKNNQIKVKALTW----ACRTTKI  72
+
+Query  60   RQIRAAHVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGHLIAIDMQPLFQTEE-YK  118
+            RQ RAA +  G +  VLNLV  P  N++LPF G D VTLP GHL+A+D+QP+ + +E + 
+Sbjct  73   RQARAACIEAGPAASVLNLVINPFHNFELPFFGADFVTLPSGHLLALDLQPVLKKDEIHN  132
+
+Query  119  KKYAEPCMDMYQKHVKNLPWGG-----DKQYFSPVFLWTR----PQEDKQVETYVFEAFK  169
+            +K     + ++      LP GG      + +FSP FLWTR     Q  K +   +  AF+
+Sbjct  133  QKVWSKLIPIHDHWQSLLPSGGPIPQEAETFFSPGFLWTRLPLDDQGSKLISKVIRPAFQ  192
+
+Query  170  DYINKYLDFVEAAKPVTDPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEWTERYIH  229
+            +Y+  Y+D +  A+ V+    L  I   Q +Y+ YRAEKDPARGM  R +G +WTE+YIH
+Sbjct  193  EYLTLYIDLISDAQEVSKERSL-EILSGQKAYINYRAEKDPARGMLARFFGKDWTEQYIH  251
+
+Query  230  GFLFDL  235
+              LFDL
+Sbjct  252  KVLFDL  257
+
+
+> sp|Q46IM1|PEBB_PROMT Phycoerythrobilin:ferredoxin oxidoreductase 
+OS=Prochlorococcus marinus (strain NATL2A) OX=59920 GN=pebB 
+PE=3 SV=1
+Length=258
+
+ Score = 154 bits (389),  Expect = 1e-44, Method: Compositional matrix adjust.
+ Identities = 90/243 (37%), Positives = 131/243 (54%), Gaps = 18/243 (7%)
+
+Query  11   WEWAA---KTIKERLGDDLVSYPIPDGYLRKEAMVGESL----AWTQSYGYQTKKMRQIR  63
+            W WA    +TIK         Y I + +L +E+  G S        +++G + +K+RQ R
+Sbjct  17   WRWACFLDETIKAFSTFQTRPYQIDNDFLFRESFFGSSSNPKKVILETWGLKMEKIRQAR  76
+
+Query  64   AAHVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGHLIAIDMQPLFQTEEYKKKYAE  123
+             A +  G    V+NLV  P  NYDLPF G D VTLP GHLIA+D+QP  + +    ++  
+Sbjct  77   CACLQAGEITSVMNLVISPLNNYDLPFFGADFVTLPNGHLIALDLQPALKDDINHTQHVW  136
+
+Query  124  PCMDMYQKHVKN-LPWGGD-----KQYFSPVFLWTR----PQEDKQVETYVFEAFKDYIN  173
+              +     H ++ +P GGD     +QYFSP FLW+R     + D  +   +  AF +Y+N
+Sbjct  137  NKLKPIHAHWQSKIPSGGDIPSDARQYFSPAFLWSRIPLGEEGDNLITQTIKPAFDEYLN  196
+
+Query  174  KYLDFVEAAKPVTDPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEWTERYIHGFLF  233
+             + D +  AK +T  +   ++   Q  Y++YRAEKDPARGM    +G  WTE YI+  LF
+Sbjct  197  CFFDLLRDAK-ITSKERSFQLLNGQKKYMRYRAEKDPARGMLRSFFGEVWTESYINNILF  255
+
+Query  234  DLE  236
+            DL+
+Sbjct  256  DLK  258
+
+
+> sp|A2C538|PEBB_PROM1 Phycoerythrobilin:ferredoxin oxidoreductase 
+OS=Prochlorococcus marinus (strain NATL1A) OX=167555 GN=pebB 
+PE=3 SV=1
+Length=258
+
+ Score = 154 bits (389),  Expect = 1e-44, Method: Compositional matrix adjust.
+ Identities = 90/243 (37%), Positives = 131/243 (54%), Gaps = 18/243 (7%)
+
+Query  11   WEWAA---KTIKERLGDDLVSYPIPDGYLRKEAMVGESL----AWTQSYGYQTKKMRQIR  63
+            W WA    +TIK         Y I + +L +E+  G S        +++G + +K+RQ R
+Sbjct  17   WRWACFLDETIKAFSTFQTRPYQIDNDFLFRESFFGSSSNPKKVILETWGLKMEKIRQAR  76
+
+Query  64   AAHVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGHLIAIDMQPLFQTEEYKKKYAE  123
+             A +  G    V+NLV  P  NYDLPF G D VTLP GHLIA+D+QP  + +    ++  
+Sbjct  77   CACLQAGEITSVMNLVISPLNNYDLPFFGADFVTLPNGHLIALDLQPALKDDINHTQHVW  136
+
+Query  124  PCMDMYQKHVKN-LPWGGD-----KQYFSPVFLWTR----PQEDKQVETYVFEAFKDYIN  173
+              +     H ++ +P GGD     +QYFSP FLW+R     + D  +   +  AF +Y+N
+Sbjct  137  NKLKPIHAHWQSKIPTGGDIPSDARQYFSPAFLWSRIPLGEEGDNLITQTIKPAFDEYLN  196
+
+Query  174  KYLDFVEAAKPVTDPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEWTERYIHGFLF  233
+             + D +  AK +T  +   ++   Q  Y++YRAEKDPARGM    +G  WTE YI+  LF
+Sbjct  197  CFFDLLRDAK-ITSKERSFQLLNGQKKYMRYRAEKDPARGMLRSFFGEVWTESYINNILF  255
+
+Query  234  DLE  236
+            DL+
+Sbjct  256  DLK  258
+
+
+> sp|Q9K4U5|PEBB_PROMA Phycoerythrobilin:ferredoxin oxidoreductase 
+OS=Prochlorococcus marinus (strain SARG / CCMP1375 / SS120) 
+OX=167539 GN=pebB PE=3 SV=1
+Length=257
+
+ Score = 154 bits (388),  Expect = 1e-44, Method: Compositional matrix adjust.
+ Identities = 85/221 (38%), Positives = 127/221 (57%), Gaps = 15/221 (7%)
+
+Query  29   YPIPDGYLRKEAMVGESL----AWTQSYGYQTKKMRQIRAAHVNGGASLQVLNLVFFPHM  84
+            YP+   +L KE++ G         T ++  + +K++Q+R A + GG SL V NL+  P  
+Sbjct  38   YPVSHDFLSKESITGSRRNPVHVTTLTWAAKFEKIKQVRLACIKGGESLSVFNLLIHPLN  97
+
+Query  85   NYDLPFLGLDLVTLPGGHLIAIDMQPLFQTEEYKKKYAEPCMDMYQKHVKN-LPWGGD--  141
+            +YDLPF G D VTLP GHL+A+D+QP  + +    +   P +     H ++ LP GG+  
+Sbjct  98   DYDLPFFGADFVTLPNGHLLALDLQPALKLDNIHTENVWPRLIPLHDHWQSLLPSGGEIP  157
+
+Query  142  ---KQYFSPVFLWTRPQEDKQVETYVFE----AFKDYINKYLDFVEAAKPVTDPDHLARI  194
+               + YFSP FLW+R    K+ +  + E    AF +Y++ Y++ +  AKP+     L +I
+Sbjct  158  KEAEPYFSPGFLWSRLPLSKESDNIISEILRPAFGEYLSLYIELLHIAKPLKKERAL-KI  216
+
+Query  195  RERQLSYLQYRAEKDPARGMFTRMYGPEWTERYIHGFLFDL  235
+             E Q +Y+ YR+ KDPAR M  R YG EWTE YIH  LF++
+Sbjct  217  LEGQKAYINYRSTKDPARAMLCRFYGKEWTEDYIHKVLFNI  257
+
+
+> sp|Q7NL66|PEBA_GLOVI 15,16-dihydrobiliverdin:ferredoxin oxidoreductase 
+OS=Gloeobacter violaceus (strain ATCC 29082 / PCC 
+7421) OX=251221 GN=pebA PE=3 SV=2
+Length=244
+
+ Score = 136 bits (343),  Expect = 4e-38, Method: Compositional matrix adjust.
+ Identities = 78/235 (33%), Positives = 127/235 (54%), Gaps = 9/235 (4%)
+
+Query  6    IYKPFWEWAAKTIKERLGDDLVSYPIPDGYLRKEAMVGESLAWTQSYGYQTKKMRQIRAA  65
+            +Y+PF E   + ++     DL S  IP G   + +  G      +S+ Y   ++R+IR  
+Sbjct  1    MYRPFLEHLQQKLQSSF--DLQSLTIPAGLDYRISERGRESTTIRSWCYTCSELRKIRYT  58
+
+Query  66   HVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTL-PGGHLIAIDMQPLFQTEEYKKKYAEP  124
+            +++GG   QV N V +P   YDLP LG+DL+      +LI +D QPLF+ + Y  +Y EP
+Sbjct  59   YIDGGEHAQVFNSVIYPAHRYDLPLLGIDLLAFGKKKNLIVLDFQPLFRDKAYLARYIEP  118
+
+Query  125  CMDMYQKHVK-----NLPWGGDKQYFSPVFLWTRPQEDKQVETYVFEAFKDYINKYLDFV  179
+               + +++        + +    QYFS   L+ R  + + V   VF A+ DY++ Y   +
+Sbjct  119  MRILRERYGDVAQDVEMKFYDANQYFSKYLLFART-DAETVAGRVFTAYCDYLDLYWQLL  177
+
+Query  180  EAAKPVTDPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEWTERYIHGFLFD  234
+             +A P+ D   + RI + Q  Y QY A++DPA G+F+  +G EW ER+++ FLF+
+Sbjct  178  ASAAPLGDAQDIRRIVKAQKDYDQYSADRDPASGLFSSYFGHEWAERFLYEFLFE  232
+
+
+> sp|Q7V586|PEBA_PROMM 15,16-dihydrobiliverdin:ferredoxin oxidoreductase 
+OS=Prochlorococcus marinus (strain MIT 9313) OX=74547 
+GN=pebA PE=3 SV=1
+Length=249
+
+ Score = 108 bits (269),  Expect = 4e-27, Method: Compositional matrix adjust.
+ Identities = 71/244 (29%), Positives = 125/244 (51%), Gaps = 13/244 (5%)
+
+Query  6    IYKPFWEWAAKTIKERLGDDLVSYPIPDGYLRKEAMVGESLAWTQSYGYQTKKMRQIRAA  65
+            ++ P  E    +I+ + G+   +  +PDG   +E    +  +W +S+ +Q    R+ R +
+Sbjct  1    MFDPLLEKLHSSIRIQGGE---TAAVPDGL--RECRNEKKNSWIRSWLWQVPGFRRWRVS  55
+
+Query  66   HVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGH-LIAI-DMQPLFQTEEYKKKYAE  123
+             ++ G SLQVLN V +P+ N D P +GLDL+       L+AI D QPL Q + Y +++ +
+Sbjct  56   RLDAGESLQVLNSVAYPNYNIDQPLMGLDLLWFGKRQKLVAILDFQPLIQDQSYLERHFQ  115
+
+Query  124  PCMDMYQKH-----VKNLPWGGDKQYFSPVFLWTRPQEDKQVETYVFEAFKDYINKYLDF  178
+                +  +       + +      QYFSP  L+ R   +K   + + EAF  +++ Y + 
+Sbjct  116  GLKTLQNRFPELSGEETMRLFDPNQYFSPWLLFCRGGAEKATNS-LPEAFNAFLHCYWEL  174
+
+Query  179  VEAAKPVTDPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEWTERYIHGFLFDLEEK  238
+             +           A +++ Q++Y  Y AE+DPA G+FT  +G  W++R++H FLF    K
+Sbjct  175  HQQNSDKASLIPAAEVKQLQIAYDIYSAERDPAHGLFTSHFGKAWSDRFLHEFLFPASTK  234
+
+Query  239  MESG  242
+             +S 
+Sbjct  235  ADSS  238
+
+
+> sp|A2BYX5|PEBB_PROM5 Phycoerythrobilin:ferredoxin oxidoreductase 
+OS=Prochlorococcus marinus (strain MIT 9515) OX=167542 GN=pebB 
+PE=3 SV=1
+Length=258
+
+ Score = 104 bits (260),  Expect = 9e-26, Method: Compositional matrix adjust.
+ Identities = 69/246 (28%), Positives = 120/246 (49%), Gaps = 20/246 (8%)
+
+Query  7    YKPFWEWA--AKTIKERLGD-DLVSYPIPDGYLRKEAMVGESLAWTQSYGY-----QTKK  58
+            YK  W W+   K +  +L     + + IP  +  KE+  G S +      +       ++
+Sbjct  9    YKKEWRWSNFIKLLISQLAKYHCLEHEIPSAFSYKESTYGSSKSQNNVSLFTWGATHRER  68
+
+Query  59   MRQIRAAHVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGHLIAIDMQPLFQTE-EY  117
+            +   RA  +N   S  VLN +  P   +++PFLG+D V+LP  HL+ +D QP  + E ++
+Sbjct  69   INFARAVCINS-PSYSVLNFLIIPSTRFNIPFLGVDFVSLPKNHLLVLDFQPSLKVENQF  127
+
+Query  118  KKKYAEPCMDMYQKHVKNLPWGGD-----KQYFSPVFLWTR----PQEDKQVETYVFEAF  168
+              +  +  + + +   K+LP          ++FSP  +W+R       D  +E  ++ +F
+Sbjct  128  NSELLDQLVKLKKSCHKSLPIAEKMSEEVSRFFSPGLIWSRLPKHKNSDYLIENQLYHSF  187
+
+Query  169  KDYINKYLDFVEAAKPVTDPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEWTERYI  228
+            K+Y+  YL+ +  ++ V D      I   Q +YL YR  KDPAR M + ++G ++TE  I
+Sbjct  188  KEYLVLYLNTLFTSEEV-DQGLQQEIINGQNNYLNYRRNKDPARPMLSSLFGKDFTESLI  246
+
+Query  229  HGFLFD  234
+            +  LF 
+Sbjct  247  NKVLFS  252
+
+
+> sp|A2CBW8|PEBA_PROM3 15,16-dihydrobiliverdin:ferredoxin oxidoreductase 
+OS=Prochlorococcus marinus (strain MIT 9303) OX=59922 
+GN=pebA PE=3 SV=1
+Length=249
+
+ Score = 103 bits (256),  Expect = 4e-25, Method: Compositional matrix adjust.
+ Identities = 70/244 (29%), Positives = 123/244 (50%), Gaps = 13/244 (5%)
+
+Query  6    IYKPFWEWAAKTIKERLGDDLVSYPIPDGYLRKEAMVGESLAWTQSYGYQTKKMRQIRAA  65
+            ++ P  E    +I+ + G+   +  +PDG   +E    +  +  +S+ +Q    R+ R +
+Sbjct  1    MFDPLLEKLHSSIRIQGGE---TAAVPDGL--RECRNEKKNSLIRSWLWQVPGFRRWRVS  55
+
+Query  66   HVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGH-LIAI-DMQPLFQTEEYKKKYAE  123
+             ++ G SLQVLN V +P+ N D P +GLDL+       L+AI D QPL Q   Y +++ +
+Sbjct  56   RLDAGESLQVLNSVAYPNYNIDQPLMGLDLLWFGKRQKLVAILDFQPLIQDHSYLERHFQ  115
+
+Query  124  PCMDMYQKH-----VKNLPWGGDKQYFSPVFLWTRPQEDKQVETYVFEAFKDYINKYLDF  178
+                +  +       + +      QYFSP  L+ R   +K   + + EAF  +++ Y + 
+Sbjct  116  GLKALQNRFPELSGEETMRLFDPNQYFSPWLLFCRGGAEKATNS-LPEAFNAFLHCYWEL  174
+
+Query  179  VEAAKPVTDPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEWTERYIHGFLFDLEEK  238
+             +           A +++ Q++Y  Y AE+DPA G+FT  +G  W++R++H FLF    K
+Sbjct  175  HQQNSKKASLIPAAEVKQLQIAYDIYSAERDPAHGLFTSHFGKAWSDRFLHEFLFPASTK  234
+
+Query  239  MESG  242
+             +S 
+Sbjct  235  ADSS  238
+
+
+> sp|Q9SR43|PFBS_ARATH Phytochromobilin:ferredoxin oxidoreductase, 
+chloroplastic OS=Arabidopsis thaliana OX=3702 GN=HY2 PE=2 
+SV=1
+Length=329
+
+ Score = 103 bits (257),  Expect = 1e-24, Method: Compositional matrix adjust.
+ Identities = 54/193 (28%), Positives = 94/193 (49%), Gaps = 9/193 (5%)
+
+Query  50   QSYGYQTKKMRQIRAAHVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGHLIAIDMQ  109
+            Q   +++ K+R +R+  +    ++QV +   F    YD P    +  T    +++ +D+ 
+Sbjct  90   QMLAFKSSKIRLLRSMAIEN-ETMQVFDFAGFMEPEYDTPIFCANFFTSTNVNIVVLDLN  148
+
+Query  110  PLFQ---TEEYKKKYAEPCMDMYQKHVKNLPWGG-----DKQYFSPVFLWTRPQEDKQVE  161
+            PL Q     +Y+ KY    M +Y K+ +  PWGG       ++FSP+ +WTR    K+  
+Sbjct  149  PLHQLTDQTDYQDKYYNKIMSIYHKYAETFPWGGKLTGESIKFFSPLVMWTRFSSSKEKH  208
+
+Query  162  TYVFEAFKDYINKYLDFVEAAKPVTDPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGP  221
+              +F AF +Y   +L+     +   +P H+    E Q  YL +RA+KDP  G+  R+ G 
+Sbjct  209  KALFSAFLEYYQAWLEMTIQVREEMEPSHVRANCEAQHKYLTWRAQKDPGHGLLKRLVGE  268
+
+Query  222  EWTERYIHGFLFD  234
+               +  +  FLF+
+Sbjct  269  AKAKELLRDFLFN  281
+
+
+> sp|Q318F0|PEBB_PROM9 Phycoerythrobilin:ferredoxin oxidoreductase 
+OS=Prochlorococcus marinus (strain MIT 9312) OX=74546 GN=pebB 
+PE=3 SV=1
+Length=253
+
+ Score = 101 bits (251),  Expect = 2e-24, Method: Compositional matrix adjust.
+ Identities = 67/246 (27%), Positives = 122/246 (50%), Gaps = 22/246 (9%)
+
+Query  7    YKPFWEWAAKTIKERLGDDLVSY-----PIPDGYLRKEAMVGESLAWTQ----SYGYQTK  57
+            Y+P W+W      + L ++L  Y      IP  Y  K++  G   +       ++G   K
+Sbjct  9    YRPDWKW--HNFLKYLVNNLSKYNCLEKKIPSEYSYKDSTYGSKKSKKNVNLSTWGVTHK  66
+
+Query  58   KMRQIRAAHVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGHLIAIDMQPLFQTE-E  116
+            K  Q   A      +  VLN +  P+  Y++PF G+D V+LP  HL+ +D QP  + + +
+Sbjct  67   KRIQFARAVCINSPNYSVLNFLIIPNTIYNVPFFGVDFVSLPNSHLLVLDFQPSLKIQNQ  126
+
+Query  117  YKKKYAEPCMDMYQKHVKNLPWGGD-----KQYFSPVFLWTR-PQEDKQ---VETYVFEA  167
+            Y  +  E  + +      +LP          ++FSP  +W++ P+E++    +   ++ +
+Sbjct  127  YNNELLEKLIKLKNHCHSSLPLAEKMSADVARFFSPGVIWSKLPKEERSDFLIANQLYTS  186
+
+Query  168  FKDYINKYLDFVEAAKPVTDPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEWTERY  227
+            FK+Y++ YL+ +  ++ V + +    +   Q +YL+YR + DPAR M + ++G E+TE  
+Sbjct  187  FKEYLDLYLEILFESQQV-NLNLQKELINGQNNYLKYRIDNDPARPMLSSLFGKEFTESL  245
+
+Query  228  IHGFLF  233
+            I   LF
+Sbjct  246  IKEVLF  251
+
+
+> sp|A3PF82|PEBB_PROM0 Phycoerythrobilin:ferredoxin oxidoreductase 
+OS=Prochlorococcus marinus (strain MIT 9301) OX=167546 GN=pebB 
+PE=3 SV=1
+Length=253
+
+ Score = 101 bits (251),  Expect = 2e-24, Method: Compositional matrix adjust.
+ Identities = 68/246 (28%), Positives = 119/246 (48%), Gaps = 22/246 (9%)
+
+Query  7    YKPFWEWAAKTIKERLGDDLVSY-----PIPDGYLRKEAMVG----ESLAWTQSYGYQTK  57
+            Y+P W W      + L ++L  Y      IP  Y  K++  G    +      ++G   K
+Sbjct  9    YRPDWRW--HNFLKYLTNNLSKYNCLEKKIPSEYSYKDSTYGSKKLKKNVNLSTWGVTHK  66
+
+Query  58   KMRQIRAAHVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGHLIAIDMQPLFQTE-E  116
+            K  Q   A      +  VLN +  P+  Y++PF G+D V+LP  HL+ +D QP  + + +
+Sbjct  67   KRIQFARAVCINSPNYSVLNFLIIPNTIYNVPFFGVDFVSLPNSHLLVLDFQPSLKIQKQ  126
+
+Query  117  YKKKYAEPCMDMYQKHVKNLPWGGD-----KQYFSPVFLWTR-PQEDKQ---VETYVFEA  167
+            Y  +  E  + +      +LP          ++FSP  +W++ P+E++    +   ++ +
+Sbjct  127  YNNELLEKLIKLKNHCHSSLPLAEKMSADVARFFSPGVIWSKLPKEERSDFLITNQLYTS  186
+
+Query  168  FKDYINKYLDFVEAAKPVTDPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEWTERY  227
+            FK+Y++ YL+ +  +K V + +    +   Q  YL YR + DPAR M + ++G E+TE  
+Sbjct  187  FKEYLDLYLEILFESKEV-NLELQKELINGQNEYLNYRRDNDPARPMLSSLFGKEFTESL  245
+
+Query  228  IHGFLF  233
+            I   LF
+Sbjct  246  IEEVLF  251
+
+
+> sp|A2BTH3|PEBB_PROMS Phycoerythrobilin:ferredoxin oxidoreductase 
+OS=Prochlorococcus marinus (strain AS9601) OX=146891 GN=pebB 
+PE=3 SV=1
+Length=253
+
+ Score = 100 bits (248),  Expect = 5e-24, Method: Compositional matrix adjust.
+ Identities = 66/246 (27%), Positives = 120/246 (49%), Gaps = 22/246 (9%)
+
+Query  7    YKPFWEWAAKTIKERLGDDLVSY-----PIPDGYLRKEAMVGESLAWTQ----SYGYQTK  57
+            Y+P W W      + L ++L  Y      IP  Y  K++  G   +       ++G   K
+Sbjct  9    YRPDWRW--HNFLKYLTNNLSKYNCLEKTIPSEYSYKDSTYGSKKSKKNVNLSTWGVTHK  66
+
+Query  58   KMRQIRAAHVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGHLIAIDMQPLFQTE-E  116
+            K  +   A      +  VLN +  P+  Y++PF G+D V+LP  +L+ +D QP  + + +
+Sbjct  67   KRIKFARAVCINSPNYSVLNFLIIPNTIYNVPFFGVDFVSLPNSYLLVLDFQPSLKIQNQ  126
+
+Query  117  YKKKYAEPCMDMYQKHVKNLPWGGD-----KQYFSPVFLWTR-PQEDKQ---VETYVFEA  167
+            Y     E  + +      +LP          ++FSP  +W++ P+E++    +   ++ +
+Sbjct  127  YNNDLLEKLIKLKNHCHSSLPLAEKMSADVARFFSPGVIWSKLPKEERSDFLITNQLYTS  186
+
+Query  168  FKDYINKYLDFVEAAKPVTDPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEWTERY  227
+            FK+Y++ YL+ +  +K V + +    +   Q++YL YR + DPAR M + ++G E+TE  
+Sbjct  187  FKEYLDLYLEILFESKEV-NIELQKELTNGQINYLNYRRDNDPARPMLSSLFGQEFTESL  245
+
+Query  228  IHGFLF  233
+            I   LF
+Sbjct  246  IEEVLF  251
+
+
+> sp|A8G797|PEBB_PROM2 Phycoerythrobilin:ferredoxin oxidoreductase 
+OS=Prochlorococcus marinus (strain MIT 9215) OX=93060 GN=pebB 
+PE=3 SV=1
+Length=253
+
+ Score = 99.4 bits (246),  Expect = 1e-23, Method: Compositional matrix adjust.
+ Identities = 68/246 (28%), Positives = 120/246 (49%), Gaps = 22/246 (9%)
+
+Query  7    YKPFWEWAAKTIKERLGDDLVSYP-----IPDGYLRKEAMVGESLAWTQ----SYGYQTK  57
+            Y+P W W      + L ++L  Y      IP  Y  K++  G   +       ++G   K
+Sbjct  9    YRPDWRW--HIFLKYLTNNLSKYNCLEKIIPSEYSYKDSTYGSKKSKKNVNLCTWGVTHK  66
+
+Query  58   KMRQIRAAHVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGHLIAIDMQPLFQTE-E  116
+            K  Q   A         VLN +  P+  Y++PF G+D V+LP  +L+ +D QP  + + +
+Sbjct  67   KRIQFARAVCINSPKYSVLNFLIIPNTIYNVPFFGVDFVSLPNIYLLVLDFQPSLKIQNQ  126
+
+Query  117  YKKKYAEPCMDMYQKHVKNLPWGGD-----KQYFSPVFLWTR-PQEDKQ---VETYVFEA  167
+            Y  +  E  + +      +LP   +      ++FSP  +W++ P+E++    +   ++ +
+Sbjct  127  YNNQLLEKLIKLKNHCHSSLPLAEEMSVDVARFFSPGAIWSKLPKEERSDFLIANQLYTS  186
+
+Query  168  FKDYINKYLDFVEAAKPVTDPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEWTERY  227
+            FK+Y++ YL+ +  +K V + D    +   Q +YL YR + DPAR M + ++G E+TE  
+Sbjct  187  FKEYLDLYLEILFESKEV-NIDLQKELINGQNNYLNYRRDNDPARPMLSSLFGKEFTESL  245
+
+Query  228  IHGFLF  233
+            I   LF
+Sbjct  246  IKEVLF  251
+
+
+> sp|Q7U4P7|PEBA_SYNPX 15,16-dihydrobiliverdin:ferredoxin oxidoreductase 
+OS=Synechococcus sp. (strain WH8102) OX=84588 GN=pebA 
+PE=3 SV=1
+Length=235
+
+ Score = 98.6 bits (244),  Expect = 2e-23, Method: Compositional matrix adjust.
+ Identities = 68/235 (29%), Positives = 114/235 (49%), Gaps = 13/235 (6%)
+
+Query  6    IYKPFWEWAAKTIKERLGDDLVSYPIPDGYLRKEAMVGESLAWTQSYGYQTKKMRQIRAA  65
+            ++ PF E     I+ R G   +S  +P G    ++  G S    QS+ +Q    R+ R  
+Sbjct  1    MFDPFLEELQTGIQARGG---ISVEVPAGLEHNQSQKGSST--IQSWLWQVPGFRRWRVT  55
+
+Query  66   HVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGH-LIAI-DMQPLFQTEEYKKKYAE  123
+             ++ G SLQVLN V +P  + D P +G+DL+       L+A+ D QPL Q ++Y  ++ +
+Sbjct  56   RLDAGDSLQVLNSVAYPDFDLDHPLMGVDLLWFGARQKLVAVLDFQPLVQDKDYLDRHFD  115
+
+Query  124  PCMDMYQKH-----VKNLPWGGDKQYFSPVFLWTRPQEDKQVETYVFEAFKDYINKYLDF  178
+               D+  +       + +      QYFS   L+ R   + + +  + +AF  ++  Y   
+Sbjct  116  GLKDLNARFPDLNGEETMRSFDPNQYFSSWLLFCRGGSE-EADRSLPKAFSAFLKAYWGL  174
+
+Query  179  VEAAKPVTDPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEWTERYIHGFLF  233
+             + A           +   Q +Y  Y AE+DPA G+FT  +G EW++R++H FLF
+Sbjct  175  HDEASKEPSSISPGDVERLQNAYDVYSAERDPAHGLFTSHFGKEWSDRFLHEFLF  229
+
+
+> sp|Q02189|PEBA_SYNPY 15,16-dihydrobiliverdin:ferredoxin oxidoreductase 
+OS=Synechococcus sp. (strain WH8020) OX=32052 GN=pebA 
+PE=1 SV=1
+Length=236
+
+ Score = 98.2 bits (243),  Expect = 2e-23, Method: Compositional matrix adjust.
+ Identities = 69/223 (31%), Positives = 112/223 (50%), Gaps = 13/223 (6%)
+
+Query  18   IKERLGDDLVSYPIPDGYLRKEAMVGESLAWTQSYGYQTKKMRQIRAAHVNGGASLQVLN  77
+            I +R G  L   P+P+G   +E    +S +  QS+ +     R+ R   ++ G SLQV N
+Sbjct  13   ITKRGGSPL---PLPEGL--EECRSSKSSSVIQSWLWDVPGFRRWRVTRLDAGDSLQVFN  67
+
+Query  78   LVFFPHMNYDLPFLGLDLVTLPGGH-LIAI-DMQPLFQTEEYKKKYAEPCMDMYQKH---  132
+             V +P  NYD P +G+DL+       L+A+ D QPL Q ++Y  +Y     ++ Q+    
+Sbjct  68   SVAYPDYNYDHPLMGVDLLWFGARQKLVAVLDFQPLVQDKDYLDRYFSGLKELNQRFPDL  127
+
+Query  133  --VKNLPWGGDKQYFSPVFLWTRPQEDKQVETYVFEAFKDYINKYLDFVEAAKPVTDPDH  190
+               + +      QYFS   L+ R   + Q +  + +AF  ++  Y D  + AK +     
+Sbjct  128  NGEETMRSFDPNQYFSSWLLFCRGGAE-QADLSLPKAFSAFLKAYWDLHDNAKSIPSTIP  186
+
+Query  191  LARIRERQLSYLQYRAEKDPARGMFTRMYGPEWTERYIHGFLF  233
+               ++  Q  Y  Y AE+DPA G+FT  +G +W+ R++H FLF
+Sbjct  187  PEEVKNLQDKYDIYSAERDPAHGLFTSHFGKDWSNRFLHEFLF  229
+
+
+> sp|Q3AUU5|PEBA_SYNS9 15,16-dihydrobiliverdin:ferredoxin oxidoreductase 
+OS=Synechococcus sp. (strain CC9902) OX=316279 GN=pebA 
+PE=3 SV=1
+Length=235
+
+ Score = 97.4 bits (241),  Expect = 4e-23, Method: Compositional matrix adjust.
+ Identities = 73/240 (30%), Positives = 119/240 (50%), Gaps = 23/240 (10%)
+
+Query  6    IYKPFWEWAAKTIKERLGDDLVSYPIPDGYLRKEAMVGESLAWTQSYGYQTKKMRQIRAA  65
+            ++ PF +     I  R G       +PDG     +  G S+   +S+ +Q    R+ R  
+Sbjct  1    MFDPFLDQLHADITARGG---TPAEVPDGLAECHSAKGASV--IRSWLWQVPGFRRWRVT  55
+
+Query  66   HVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGH-LIAI-DMQPLFQTEEYKKKYAE  123
+             ++ G SLQVLN V +P   +D P +G+DL+       L+A+ D QPL Q E Y  +Y +
+Sbjct  56   RLDAGESLQVLNSVAYPDYGFDHPLMGVDLLWFGARQKLVAVLDFQPLVQNEAYFDRYFD  115
+
+Query  124  PCMDMYQKHVKNLPWGGDK--------QYFSPVFLWTRPQEDKQVETYVFEAFKDYINKY  175
+              +    +   +L   G++        QYFS   L+ R   + Q +T +  AF  ++  Y
+Sbjct  116  -GLKALNRQFPDL--NGEETMRSFDPNQYFSSWLLFCRGGAE-QAQTSLPPAFSAFLKAY  171
+
+Query  176  LDFVEAAKPVTDPDHLA--RIRERQLSYLQYRAEKDPARGMFTRMYGPEWTERYIHGFLF  233
+                +AAK   +P  +A   ++  Q +Y  Y AE+DPA G+FT  +G  W+++++H FLF
+Sbjct  172  WALHDAAK--NNPATIAADEVKRLQENYDVYSAERDPAHGLFTSHFGKNWSDQFLHEFLF  229
+
+
+> sp|Q93SN7|PEBB_PROMP Phycoerythrobilin:ferredoxin oxidoreductase 
+OS=Prochlorococcus marinus subsp. pastoris (strain CCMP1986 
+/ NIES-2087 / MED4) OX=59919 GN=pebB PE=3 SV=1
+Length=257
+
+ Score = 97.4 bits (241),  Expect = 6e-23, Method: Compositional matrix adjust.
+ Identities = 57/187 (30%), Positives = 98/187 (52%), Gaps = 12/187 (6%)
+
+Query  57   KKMRQIRAAHVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGHLIAIDMQPLFQTE-  115
+            K++   RA  +N   +  VLN +  P  +Y++PFLG+D V+LP  HL+ +D QP  + E 
+Sbjct  67   KRINFARAVCINS-PNYSVLNFLIIPKTSYNIPFLGVDFVSLPTSHLLVLDFQPSLKVEN  125
+
+Query  116  EYKKKYAEPCMDMYQKHVKNLPWGGD-----KQYFSPVFLWTR----PQEDKQVETYVFE  166
+            ++  +  E  + + +    +LP          ++FSP  +W+R       D  +E  +++
+Sbjct  126  QFNSELLEQIIKLKKSCHSSLPVAEKMSEDVAKFFSPGLIWSRLAKHQDSDNLIENQLYD  185
+
+Query  167  AFKDYINKYLDFVEAAKPVTDPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEWTER  226
+            +FK+Y+N YL  +  ++ V        I   Q  YL YR + DPAR M + ++G ++TE 
+Sbjct  186  SFKEYLNLYLKTLFESEEVGHGLQQELIN-GQNDYLNYRRDNDPARPMLSSLFGKDFTES  244
+
+Query  227  YIHGFLF  233
+             I+  LF
+Sbjct  245  LINKVLF  251
+
+
+> sp|Q318E9|PEBA_PROM9 15,16-dihydrobiliverdin:ferredoxin oxidoreductase 
+OS=Prochlorococcus marinus (strain MIT 9312) OX=74546 
+GN=pebA PE=3 SV=1
+Length=236
+
+ Score = 95.9 bits (237),  Expect = 2e-22, Method: Compositional matrix adjust.
+ Identities = 63/211 (30%), Positives = 113/211 (54%), Gaps = 13/211 (6%)
+
+Query  38   KEAMVGESLAWTQSYGYQTKKMRQIRAAHVNGGASLQVLNLVFFPHMNYDLPFLGLDLVT  97
+            KE    +S    +++ + + + R+ R   ++GG ++QV N V +P+ + +LP LG D++ 
+Sbjct  28   KEHHNKDSKYIIKNWLFSSPEYRKWRITRLDGGKNIQVFNTVAYPNFDSELPILGADILW  87
+
+Query  98   L-PGGHLIAI-DMQPLFQTEEYKKKYAEPCMDMYQKH-------VKNLPWGGDKQYFSPV  148
+                  L+AI D QPL Q  +Y +KY      + +K+       +KN+     K+YFSP 
+Sbjct  88   FGTAKKLLAILDYQPLIQENKYLEKYCSSLGMIKKKYSAFDNNKMKNIY--DSKKYFSPW  145
+
+Query  149  FLWTRPQEDKQVETYVFEAFKDYINKYLDFVEAAKPVTDPDHLARIRERQLSYLQYRAEK  208
+             +  R  +   ++  + + F  +IN YL+ +  + PV    +L  I+  Q+ Y +Y  EK
+Sbjct  146  VIICRGNK-LNLDRDLNDVFHAFINNYLN-LNKSNPVNQFLNLEEIKINQIKYDKYSFEK  203
+
+Query  209  DPARGMFTRMYGPEWTERYIHGFLFDLEEKM  239
+            DPA  +F   +G +WT+++I+ FLF L  ++
+Sbjct  204  DPADKLFKSFFGEKWTKKFINKFLFTLNNEI  234
+
+
+> sp|Q3AMI3|PEBA_SYNSC 15,16-dihydrobiliverdin:ferredoxin oxidoreductase 
+OS=Synechococcus sp. (strain CC9605) OX=110662 GN=pebA 
+PE=3 SV=1
+Length=235
+
+ Score = 95.5 bits (236),  Expect = 2e-22, Method: Compositional matrix adjust.
+ Identities = 68/235 (29%), Positives = 113/235 (48%), Gaps = 13/235 (6%)
+
+Query  6    IYKPFWEWAAKTIKERLGDDLVSYPIPDGYLRKEAMVGESLAWTQSYGYQTKKMRQIRAA  65
+            ++ PF E     IK R     V   +P G    ++    S    +S+ +     R+ R  
+Sbjct  1    MFDPFLEELLSGIKAR---GAVPVEVPHGLEHNQSSKRSST--IKSWLWDVPGFRRWRVT  55
+
+Query  66   HVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGH-LIAI-DMQPLFQTEEYKKKYAE  123
+             ++ G SLQVLN V +P   YD P +G+DL+       L+A+ D QPL Q ++Y ++Y +
+Sbjct  56   RLDAGDSLQVLNSVAYPDYTYDHPLMGVDLLWFGAKQKLVAVLDFQPLVQDKDYLERYFD  115
+
+Query  124  PCMDMYQKH-----VKNLPWGGDKQYFSPVFLWTRPQEDKQVETYVFEAFKDYINKYLDF  178
+                +  +       + +      QYFS   L+ R   + Q  + +  AF  ++  Y D 
+Sbjct  116  GLKSLNAQFPDLNGEETMRSFDPNQYFSSWLLFCRGGAE-QATSSLPTAFSAFLKTYWDL  174
+
+Query  179  VEAAKPVTDPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEWTERYIHGFLF  233
+             + A  +    +   + + Q +Y  Y AE+DPA G+FT  +G EW++R++H FLF
+Sbjct  175  HDKAVKIPSSINPIEVAQLQKNYDIYSAERDPAHGLFTSHFGSEWSDRFLHEFLF  229
+
+
+> sp|A3PF83|PEBA_PROM0 15,16-dihydrobiliverdin:ferredoxin oxidoreductase 
+OS=Prochlorococcus marinus (strain MIT 9301) OX=167546 
+GN=pebA PE=3 SV=1
+Length=236
+
+ Score = 95.1 bits (235),  Expect = 3e-22, Method: Compositional matrix adjust.
+ Identities = 62/214 (29%), Positives = 108/214 (50%), Gaps = 19/214 (9%)
+
+Query  38   KEAMVGESLAWTQSYGYQTKKMRQIRAAHVNGGASLQVLNLVFFPHMNYDLPFLGLDLVT  97
+            KE    +S    +++ + + + R+ R   ++GG  LQV N V +P+ N ++P LG D++ 
+Sbjct  28   KEHHNEDSKYIIKNWLFSSSEYRKWRITRLDGGKKLQVFNTVAYPNFNSEMPILGADILW  87
+
+Query  98   LPGGH-LIAI-DMQPLFQTEEYKKKYAEPCMDMYQKH-------VKNLPWGGDKQYFSPV  148
+                  L+AI D QPL Q  +Y +KY      + +K+       +KN+     K+YFSP 
+Sbjct  88   FGNSQKLLAILDYQPLIQENKYLEKYCSSLGSIKKKYSAFDNNKMKNIY--DSKKYFSPW  145
+
+Query  149  FLWTRPQE---DKQVETYVFEAFKDYINKYLDFVEAAKPVTDPDHLARIRERQLSYLQYR  205
+             +  R  +   D+ +        K+Y+N     +  + PV    +   I+  Q+ Y +Y 
+Sbjct  146  VIICRGNKLNLDRDLNNIFHSFVKNYLN-----INKSNPVNQFLNAEEIKINQIKYDKYS  200
+
+Query  206  AEKDPARGMFTRMYGPEWTERYIHGFLFDLEEKM  239
+             EKDPA  +F   +G +WT+++I+ FLF L  ++
+Sbjct  201  FEKDPADKLFKSFFGEKWTKKFINKFLFTLNNEI  234
+
+
+> sp|A2BTH4|PEBA_PROMS 15,16-dihydrobiliverdin:ferredoxin oxidoreductase 
+OS=Prochlorococcus marinus (strain AS9601) OX=146891 
+GN=pebA PE=3 SV=1
+Length=236
+
+ Score = 90.1 bits (222),  Expect = 2e-20, Method: Compositional matrix adjust.
+ Identities = 61/211 (29%), Positives = 110/211 (52%), Gaps = 13/211 (6%)
+
+Query  38   KEAMVGESLAWTQSYGYQTKKMRQIRAAHVNGGASLQVLNLVFFPHMNYDLPFLGLDLVT  97
+            KE    +S    +++ + + + R+ R   ++GG  LQV N V +P+   +LP LG D++ 
+Sbjct  28   KEHHNEDSKYIIKNWLFSSPEYRKWRITRLDGGKKLQVFNTVAYPNFESELPILGADILW  87
+
+Query  98   LPGGH-LIAI-DMQPLFQTEEYKKKYAEPCMDMYQKH-------VKNLPWGGDKQYFSPV  148
+                  L+AI D QPL Q  +Y +KY      + +++       +KN+     K+YFSP 
+Sbjct  88   FGTSQKLLAILDYQPLIQESKYLEKYCSSLGIIKEEYSAFDNNKMKNIY--DSKKYFSPW  145
+
+Query  149  FLWTRPQEDKQVETYVFEAFKDYINKYLDFVEAAKPVTDPDHLARIRERQLSYLQYRAEK  208
+             +  R  +   ++  + + F  ++N YL+ +  + PV    +   I+  Q+ Y +Y  EK
+Sbjct  146  VIICRGNK-LNLDRDLNDIFHSFVNNYLN-IYKSNPVNQFLNSEEIKINQIKYDKYSFEK  203
+
+Query  209  DPARGMFTRMYGPEWTERYIHGFLFDLEEKM  239
+            DPA  +F   +G +WT+++I+ FLF L  ++
+Sbjct  204  DPADKLFKSFFGEKWTKKFINKFLFTLNNEI  234
+
+
+> sp|A8G798|PEBA_PROM2 15,16-dihydrobiliverdin:ferredoxin oxidoreductase 
+OS=Prochlorococcus marinus (strain MIT 9215) OX=93060 
+GN=pebA PE=3 SV=1
+Length=236
+
+ Score = 89.7 bits (221),  Expect = 3e-20, Method: Compositional matrix adjust.
+ Identities = 60/211 (28%), Positives = 109/211 (52%), Gaps = 13/211 (6%)
+
+Query  38   KEAMVGESLAWTQSYGYQTKKMRQIRAAHVNGGASLQVLNLVFFPHMNYDLPFLGLDLVT  97
+            KE    +S    +++ + + + R+ R   ++GG  LQV N V +P+ + ++P LG D++ 
+Sbjct  28   KEHHNEDSKYIIKNWLFSSPEYRKWRITRLDGGKKLQVFNTVAYPNFDCEMPILGADILW  87
+
+Query  98   LPGGH-LIAI-DMQPLFQTEEYKKKYAEPCMDMYQKH-------VKNLPWGGDKQYFSPV  148
+                  L+AI D QPL Q  +Y +KY      + +K+       +KN+     K+YFSP 
+Sbjct  88   FGTSQKLLAILDYQPLIQEGKYLEKYCSSLGIIKKKYSAFDNNKMKNIY--DSKKYFSPW  145
+
+Query  149  FLWTRPQEDKQVETYVFEAFKDYINKYLDFVEAAKPVTDPDHLARIRERQLSYLQYRAEK  208
+             +  R  +   ++  +   F  ++N YL  +  + PV       +I+  Q+ Y +Y  EK
+Sbjct  146  VIICRGNK-LNLDRDLNNIFHSFVNNYLK-IHKSNPVNQFLDTEKIKINQIKYDKYSFEK  203
+
+Query  209  DPARGMFTRMYGPEWTERYIHGFLFDLEEKM  239
+            DPA  +F   +G +WT+++++ FLF L  ++
+Sbjct  204  DPADKLFKSFFGEKWTKKFVNKFLFTLNNEI  234
+
+
+> sp|Q93SN8|PEBA_PROMP 15,16-dihydrobiliverdin:ferredoxin oxidoreductase 
+OS=Prochlorococcus marinus subsp. pastoris (strain 
+CCMP1986 / NIES-2087 / MED4) OX=59919 GN=pebA PE=3 SV=2
+Length=236
+
+ Score = 88.2 bits (217),  Expect = 1e-19, Method: Compositional matrix adjust.
+ Identities = 62/208 (30%), Positives = 106/208 (51%), Gaps = 13/208 (6%)
+
+Query  38   KEAMVGESLAWTQSYGYQTKKMRQIRAAHVNGGASLQVLNLVFFPHMNYDLPFLGLDLVT  97
+            KE    +S    +++ +++++ R+ R   ++GG  LQV N V +P+   + P LG D++ 
+Sbjct  28   KEHHNKDSKYIIKNWIFESQQYRKWRITKLDGGDKLQVFNTVAYPNFKSEFPILGADILW  87
+
+Query  98   LPGGH-LIAI-DMQPLFQTEEYKKKYAEPC------MDMYQKH-VKNLPWGGDKQYFSPV  148
+                  L+AI D QPL Q ++Y +KY            ++  H +KN+     K+YFSP 
+Sbjct  88   FGTSQKLLAIFDYQPLIQEKKYLQKYCSSLDFIKNQYSVFDNHKMKNIY--DSKKYFSPW  145
+
+Query  149  FLWTRPQEDKQVETYVFEAFKDYINKYLDFVEAAKPVTDPDHLARIRERQLSYLQYRAEK  208
+             +  R  +   ++  +   F  +++ YL   +  +     D L +I+  Q+ Y +Y AEK
+Sbjct  146  VMICRGNK-LNLDRDLNNIFCSFVSNYLTINKLHQNNQFLD-LEQIKNNQIDYDKYSAEK  203
+
+Query  209  DPARGMFTRMYGPEWTERYIHGFLFDLE  236
+            DPA  +F   +G  WTE +I+ FLF L 
+Sbjct  204  DPADKLFKTFFGETWTENFINNFLFTLN  231
+
+
+> sp|A5GIZ3|PEBA_SYNPW 15,16-dihydrobiliverdin:ferredoxin oxidoreductase 
+OS=Synechococcus sp. (strain WH7803) OX=32051 GN=pebA 
+PE=3 SV=1
+Length=241
+
+ Score = 88.6 bits (218),  Expect = 1e-19, Method: Compositional matrix adjust.
+ Identities = 64/216 (30%), Positives = 108/216 (50%), Gaps = 16/216 (7%)
+
+Query  31   IPDGYLRKEAMVGESLAWTQSYGYQTKKMRQIRAAHVNGGASLQVLNLVFFPHMNYDLPF  90
+            +P+G   +     +S     S+ +     R+ R   ++ G SLQVLN V +P  + D P 
+Sbjct  23   VPEGL--EHCHSSKSGGSIDSWLWSVPGFRRWRVTRLDAGESLQVLNSVAYPDHSLDHPL  80
+
+Query  91   LGLDLVTLPGGH-LIAI-DMQPLFQTEEYKKKYAEPCMDMYQKH-----VKNLPWGGDKQ  143
+            +G+DL+       L+A+ D QPL Q ++Y  ++ +    ++++       + +      Q
+Sbjct  81   MGVDLLWFGARQKLVAVLDFQPLIQDQDYLDRHFQGLKALHERFPELNGEETMRSFDPNQ  140
+
+Query  144  YFSPVFLWTR--PQEDKQVETYVFEAFKDYI----NKYLDFVEAAKPVTDPDHLARIRER  197
+            YFSP  L+ R   QE ++     F+AF        ++ LD VEAA        +  +   
+Sbjct  141  YFSPWLLFCRGGAQEAEESLPAAFDAFLTAYWAMHDQALD-VEAAGTSASTLSINDVERL  199
+
+Query  198  QLSYLQYRAEKDPARGMFTRMYGPEWTERYIHGFLF  233
+            Q +Y  Y AE+DPA G+FT  +G +W++R++H FLF
+Sbjct  200  QEAYDVYSAERDPAHGLFTSHFGKDWSDRFLHEFLF  235
+
+
+> sp|A2C539|PEBA_PROM1 15,16-dihydrobiliverdin:ferredoxin oxidoreductase 
+OS=Prochlorococcus marinus (strain NATL1A) OX=167555 
+GN=pebA PE=3 SV=1
+Length=238
+
+ Score = 85.9 bits (211),  Expect = 8e-19, Method: Compositional matrix adjust.
+ Identities = 64/229 (28%), Positives = 111/229 (48%), Gaps = 15/229 (7%)
+
+Query  15   AKTIKERLGDDLVSYPIPDGYLRKEAMVGESLAWTQSYGYQTKKMRQIRAAHVNGGASLQ  74
+             K I E  G  L+   +P+ +   E +  +      S+ +     R+ R   ++ G  LQ
+Sbjct  10   TKNILEHGGKKLI---VPNEFC--ECVSKQGNCKLNSWLWDVPGFRRWRVTRLDAGDRLQ  64
+
+Query  75   VLNLVFFPHMNYDLPFLGLDLVTLPGGH-LIAI-DMQPLFQTEEYKKKY------AEPCM  126
+            VLN V +P+   D+P +G+DL+       L+AI D QPL Q +EY  +Y       +   
+Sbjct  65   VLNSVAYPNEQNDMPIMGIDLLWFEKKQKLVAILDFQPLVQDKEYLDRYFDGLKSLKKSF  124
+
+Query  127  DMYQKHVKNLPWGGDKQYFSPVFLWTRPQEDKQVETYVFEAFKDYINKYLDFVEAAKPVT  186
+            + +   +K+  +   K YFSP  L+ +   + + E  + + F  ++  Y   ++ +K   
+Sbjct  125  NEFNSDMKSNIYDPTK-YFSPWALFCKGG-NFEAENILPKIFSSFLKCYWKNLDLSKANE  182
+
+Query  187  DPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEWTERYIHGFLFDL  235
+            +      +    + Y +Y AEKDPA G+F+  +G EW+E+Y+  FLF L
+Sbjct  183  NHIKSQEVSILHIDYDKYSAEKDPAHGLFSGFFGKEWSEKYMKEFLFPL  231
+
+
+> sp|Q46IM0|PEBA_PROMT 15,16-dihydrobiliverdin:ferredoxin oxidoreductase 
+OS=Prochlorococcus marinus (strain NATL2A) OX=59920 
+GN=pebA PE=3 SV=1
+Length=238
+
+ Score = 85.9 bits (211),  Expect = 8e-19, Method: Compositional matrix adjust.
+ Identities = 64/229 (28%), Positives = 111/229 (48%), Gaps = 15/229 (7%)
+
+Query  15   AKTIKERLGDDLVSYPIPDGYLRKEAMVGESLAWTQSYGYQTKKMRQIRAAHVNGGASLQ  74
+             K I E  G  L+   +P+ +   E +  +      S+ +     R+ R   ++ G  LQ
+Sbjct  10   TKNILEHGGKKLI---VPNEFC--ECVSKQGNCKLNSWLWDVPGFRRWRVTRLDAGDRLQ  64
+
+Query  75   VLNLVFFPHMNYDLPFLGLDLVTLPGGH-LIAI-DMQPLFQTEEYKKKY------AEPCM  126
+            VLN V +P+   D+P +G+DL+       L+AI D QPL Q +EY  +Y       +   
+Sbjct  65   VLNSVAYPNEQNDMPIMGIDLLWFEKKQKLVAILDFQPLVQDKEYLDRYFDGLKSLKKSF  124
+
+Query  127  DMYQKHVKNLPWGGDKQYFSPVFLWTRPQEDKQVETYVFEAFKDYINKYLDFVEAAKPVT  186
+            + +   +K+  +   K YFSP  L+ +   + + E  + + F  ++  Y   ++ +K   
+Sbjct  125  NEFNSDMKSNIYDPTK-YFSPWALFCKGG-NFEAENILPKIFSSFLKCYWKNLDLSKANE  182
+
+Query  187  DPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEWTERYIHGFLFDL  235
+            +      +    + Y +Y AEKDPA G+F+  +G EW+E+Y+  FLF L
+Sbjct  183  NHIKSQEVSILHIDYDKYSAEKDPAHGLFSGFFGKEWSEKYMKEFLFPL  231
+
+
+> sp|Q55891|PCYA_SYNY3 Phycocyanobilin:ferredoxin oxidoreductase 
+OS=Synechocystis sp. (strain PCC 6803 / Kazusa) OX=1111708 
+GN=pcyA PE=1 SV=1
+Length=248
+
+ Score = 82.8 bits (203),  Expect = 1e-17, Method: Compositional matrix adjust.
+ Identities = 60/208 (29%), Positives = 97/208 (47%), Gaps = 16/208 (8%)
+
+Query  33   DGYLRKEAMVGESLAWTQSYGYQTKKMRQIRAAHVNGGASLQVLNLVFFPHMNYDLPFLG  92
+            +G L  E +V E+        YQT + R++       G  L +L+ V FP   Y LP  G
+Sbjct  50   EGRLEGEKLVIENRC------YQTPQFRKMHLELAKVGKGLDILHCVMFPEPLYGLPLFG  103
+
+Query  93   LDLVTLPGGHLIAI-DMQPLFQTEE----YKKKYAEPCMDMYQKHVKNLPWGGDKQYFSP  147
+             D+V  PGG   AI D+ P     +    Y+K  AE     +++  +  PWG   + FS 
+Sbjct  104  CDIVAGPGGVSAAIADLSPTQSDRQLPAAYQKSLAELGQPEFEQQRELPPWG---EIFSE  160
+
+Query  148  VFLWTRPQEDKQVETYVFEAFKDYINKYLDFVEAAKPVTDPDHLARIRERQLSYLQYRAE  207
+              L+ RP    + E +V +   D++  +      A+P+++   L   R+ Q+ Y Q + +
+Sbjct  161  YCLFIRPSNVTEEERFV-QRVVDFLQIHCHQSIVAEPLSEAQTLEH-RQGQIHYCQQQQK  218
+
+Query  208  KDPARGMFTRMYGPEWTERYIHGFLFDL  235
+             D  R +  + +G  W ERY+   LFD+
+Sbjct  219  NDKTRRVLEKAFGEAWAERYMSQVLFDV  246
+
+
+> sp|A9BCT3|PEBA_PROM4 15,16-dihydrobiliverdin:ferredoxin oxidoreductase 
+OS=Prochlorococcus marinus (strain MIT 9211) OX=93059 
+GN=pebA PE=3 SV=1
+Length=238
+
+ Score = 81.6 bits (200),  Expect = 3e-17, Method: Compositional matrix adjust.
+ Identities = 58/214 (27%), Positives = 96/214 (45%), Gaps = 18/214 (8%)
+
+Query  31   IPDG----YLRKEAMVGESLAWTQSYGYQTKKMRQIRAAHVNGGASLQVLNLVFFPHMNY  86
+            +PDG    Y +K+  V  S  W+          R+ R   ++ G  LQV N V +P    
+Sbjct  23   VPDGLQECYSKKQDAVIRSWLWS------VPGFRRWRVTRMDVGDKLQVFNSVAYPDYLN  76
+
+Query  87   DLPFLGLDLV--TLPGGHLIAIDMQPLFQTEEYKKKYAEPCMDMYQKHVK-----NLPWG  139
+            + P +G+DL+   +    +  +D QPL Q + Y  +Y +    +  ++       N+   
+Sbjct  77   EQPIMGIDLLWFGIKNKLVAVLDFQPLVQEKSYFDRYYQGLKSLKARYSDFNSKDNVRAY  136
+
+Query  140  GDKQYFSPVFLWTRPQEDKQVETYVFEAFKDYINKYLDFVEAAKPVTDPDHLARIRERQL  199
+                YFSP  L  +    +   +  F  F +++N Y D     K         R++E Q+
+Sbjct  137  DLSNYFSPWVLLCKGDLFQASSSLPF-VFSEFLNAYFDISNNFKKYNSRIEPNRVKELQI  195
+
+Query  200  SYLQYRAEKDPARGMFTRMYGPEWTERYIHGFLF  233
+            SY  Y +  DPA G+F   +G +W+ER++  FLF
+Sbjct  196  SYDIYSSAHDPAHGLFKSYFGKQWSERFLKEFLF  229
+
+
+> sp|Q7V7Y8|PCYA_PROMM Phycocyanobilin:ferredoxin oxidoreductase 
+OS=Prochlorococcus marinus (strain MIT 9313) OX=74547 GN=pcyA 
+PE=3 SV=1
+Length=264
+
+ Score = 80.9 bits (198),  Expect = 8e-17, Method: Compositional matrix adjust.
+ Identities = 59/197 (30%), Positives = 92/197 (47%), Gaps = 11/197 (6%)
+
+Query  43   GESLAWTQSYGYQTKKMRQIRAAHVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGH  102
+            GE L  +    ++ + MR++       G  LQVL+ VFFP   +DLP  G D+V  P G 
+Sbjct  69   GEELLISNEL-HRCRGMRKLHLEIARLGGGLQVLHCVFFPDPRFDLPIFGADIVAGPAGI  127
+
+Query  103  LIAI-DMQPLFQT--EEYKKKYAEPCMDMYQKHVKNLP-WGGDKQYFSPVFLWTRPQEDK  158
+              AI D+ P+  T  E          +  +Q+ V+ LP WG     FSP   + RP   +
+Sbjct  128  SAAIVDLSPVGLTMPEALLHGLESLPIPAFQQ-VRELPEWGS---IFSPFVQFIRPASSQ  183
+
+Query  159  QVETYVFEAFKDYINKYLDFVEAAKP-VTDPDHLARIRERQLSYLQYRAEKDPARGMFTR  217
+            + E++  +    Y+   +  V  A P  +D     +  + QLSY   +   D  RG+  +
+Sbjct  184  E-ESWFVDLADGYLKALISSVIDATPDASDAASTIQRHKSQLSYCIQQKRNDKTRGVLEK  242
+
+Query  218  MYGPEWTERYIHGFLFD  234
+             + P+W +RYI   LF+
+Sbjct  243  AFNPQWADRYIEEILFE  259
+
+
+> sp|A2CA92|PCYA_PROM3 Phycocyanobilin:ferredoxin oxidoreductase 
+OS=Prochlorococcus marinus (strain MIT 9303) OX=59922 GN=pcyA 
+PE=3 SV=1
+Length=264
+
+ Score = 80.9 bits (198),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 56/196 (29%), Positives = 91/196 (46%), Gaps = 9/196 (5%)
+
+Query  43   GESLAWTQSYGYQTKKMRQIRAAHVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGH  102
+            GE L  +    ++ + +R++       G  LQVL+ VFFP   +DLP  G D+V  P G 
+Sbjct  69   GEELLISNEL-HRCRGLRKLHLEIARLGGGLQVLHCVFFPDPRFDLPIFGADIVASPAGI  127
+
+Query  103  LIAI-DMQPLFQTEEYKKKYAEPCMDMYQ-KHVKNLP-WGGDKQYFSPVFLWTRPQEDKQ  159
+              AI D+ P+  T      +    + +   + V+ LP WG     FSP   + RP   ++
+Sbjct  128  SAAIVDLSPVGLTMPVALLHGLESLPIPAFQQVRELPAWGS---IFSPFVQFIRPASSEE  184
+
+Query  160  VETYVFEAFKDYINKYLDFVEAAKP-VTDPDHLARIRERQLSYLQYRAEKDPARGMFTRM  218
+             E++  +    Y+   +  V  A P  +D     +  + QLSY   +   D  RG+  + 
+Sbjct  185  -ESWFVDLADGYLKALISSVIDATPDASDAASTIQRHKSQLSYCIQQKRNDKTRGVLEKA  243
+
+Query  219  YGPEWTERYIHGFLFD  234
+            + P+W +RYI   LF+
+Sbjct  244  FNPQWADRYIEEILFE  259
+
+
+> sp|A2BYX6|PEBA_PROM5 15,16-dihydrobiliverdin:ferredoxin oxidoreductase 
+OS=Prochlorococcus marinus (strain MIT 9515) OX=167542 
+GN=pebA PE=3 SV=1
+Length=236
+
+ Score = 80.1 bits (196),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 56/201 (28%), Positives = 98/201 (49%), Gaps = 21/201 (10%)
+
+Query  50   QSYGYQTKKMRQIRAAHVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGH-LIAI-D  107
+            +++ +++ + R+ R   ++GG  LQV N V +P+   + P LG D++       L+AI D
+Sbjct  40   KNWLFESPQYRKWRVTKLDGGDKLQVFNTVAYPNFKSESPILGADILWFGTSQKLLAIFD  99
+
+Query  108  MQPLFQTEEYKKKYAEPCMDMYQKH--------VKNLPWGGDKQYFSPVFLWTRPQE---  156
+             QPL Q ++Y  +Y    +D  +K         +KN+     K+YFSP  +  R  +   
+Sbjct  100  YQPLIQEKKYLYQYCSS-LDFIKKKYSVFDNNKMKNIY--DSKKYFSPWVMICRGNKLNL  156
+
+Query  157  DKQVETYVFEAFKDYINKYLDFVEAAKPVTDPDHLARIRERQLSYLQYRAEKDPARGMFT  216
+            D+ + +  +    DY+      +          +  +I+ +Q+ Y +Y AEKDPA  +F 
+Sbjct  157  DRDLNSIFYLFVSDYLR-----INKLNQNNQFLNYEQIKNKQIDYDKYSAEKDPADKLFK  211
+
+Query  217  RMYGPEWTERYIHGFLFDLEE  237
+              +G  WT  +I+ FLF L  
+Sbjct  212  SFFGENWTCNFINNFLFTLNN  232
+
+
+> sp|Q8KPS9|PCYA_SYNE7 Phycocyanobilin:ferredoxin oxidoreductase 
+OS=Synechococcus elongatus (strain PCC 7942 / FACHB-805) OX=1140 
+GN=pcyA PE=3 SV=1
+Length=248
+
+ Score = 78.2 bits (191),  Expect = 7e-16, Method: Compositional matrix adjust.
+ Identities = 58/213 (27%), Positives = 99/213 (46%), Gaps = 9/213 (4%)
+
+Query  27   VSYPIPDGYLRKEAMVGESLAWTQSYGYQTKKMRQIRAAHVNGGASLQVLNLVFFPHMNY  86
+             + P   GY+  + + GE L   ++  YQ+++ R++       G +L +L+ V FP   +
+Sbjct  38   AAMPADLGYIEGK-LEGERLQ-IENRCYQSREFRKLHLELARVGNNLDILHCVLFPRTTF  95
+
+Query  87   DLPFLGLDLVTLPGGHLIAI-DMQPLFQTEEYKKKYAEPCMDMYQ---KHVKNLPWGGDK  142
+            DLP  G DLV   G    AI D+ P     E    Y      +     + ++ LP  GD 
+Sbjct  96   DLPMFGADLVGGRGQISAAIVDLSPTTIARELSNDYIAGLTALPNPTFQGLRELPTWGD-  154
+
+Query  143  QYFSPVFLWTRPQEDKQVETYVFEAFKDYINKYLDFVEAAKPVTDPDHLARIRERQLSYL  202
+              FS   L+ RP   ++   ++  A   ++  +     AA  +TDP+ +A + E+Q  Y 
+Sbjct  155  -IFSSFCLFIRPGSPEEEAAFLDRALG-FLQVHCQQAAAATALTDPEAIATVLEQQRYYC  212
+
+Query  203  QYRAEKDPARGMFTRMYGPEWTERYIHGFLFDL  235
+            + +   D  R +  + +G +W +RY+   LFDL
+Sbjct  213  EQQRRNDKTRRVLEKAFGDDWADRYMTTMLFDL  245
+
+
+> sp|Q5N5A3|PCYA_SYNP6 Phycocyanobilin:ferredoxin oxidoreductase 
+OS=Synechococcus sp. (strain ATCC 27144 / PCC 6301 / SAUG 
+1402/1) OX=269084 GN=pcyA PE=3 SV=1
+Length=248
+
+ Score = 78.2 bits (191),  Expect = 7e-16, Method: Compositional matrix adjust.
+ Identities = 58/213 (27%), Positives = 99/213 (46%), Gaps = 9/213 (4%)
+
+Query  27   VSYPIPDGYLRKEAMVGESLAWTQSYGYQTKKMRQIRAAHVNGGASLQVLNLVFFPHMNY  86
+             + P   GY+  + + GE L   ++  YQ+++ R++       G +L +L+ V FP   +
+Sbjct  38   AAMPADLGYIEGK-LEGERLQ-IENRCYQSREFRKLHLELARVGNNLDILHCVLFPRTTF  95
+
+Query  87   DLPFLGLDLVTLPGGHLIAI-DMQPLFQTEEYKKKYAEPCMDMYQ---KHVKNLPWGGDK  142
+            DLP  G DLV   G    AI D+ P     E    Y      +     + ++ LP  GD 
+Sbjct  96   DLPMFGADLVGGRGQISAAIVDLSPTTIARELSNDYIAGLTALPNPTFQGLRELPTWGD-  154
+
+Query  143  QYFSPVFLWTRPQEDKQVETYVFEAFKDYINKYLDFVEAAKPVTDPDHLARIRERQLSYL  202
+              FS   L+ RP   ++   ++  A   ++  +     AA  +TDP+ +A + E+Q  Y 
+Sbjct  155  -IFSSFCLFIRPGSPEEEAAFLDRALG-FLQVHCQQAAAATALTDPEAIATVLEQQRYYC  212
+
+Query  203  QYRAEKDPARGMFTRMYGPEWTERYIHGFLFDL  235
+            + +   D  R +  + +G +W +RY+   LFDL
+Sbjct  213  EQQRRNDKTRRVLEKAFGDDWADRYMTTMLFDL  245
+
+
+> sp|Q10X61|PCYA_TRIEI Phycocyanobilin:ferredoxin oxidoreductase 
+OS=Trichodesmium erythraeum (strain IMS101) OX=203124 GN=pcyA 
+PE=3 SV=1
+Length=245
+
+ Score = 75.1 bits (183),  Expect = 8e-15, Method: Compositional matrix adjust.
+ Identities = 59/199 (30%), Positives = 93/199 (47%), Gaps = 15/199 (8%)
+
+Query  43   GESLAWTQSYGYQTKKMRQIRAAHVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGH  102
+            GE L   Q+  YQT + R++       G  L +L+ V FP ++Y LP  G DLV   G  
+Sbjct  52   GEKLI-IQNKCYQTAQFRKLHLELATIGPKLDILHCVMFPRISYPLPIFGTDLVGARGQI  110
+
+Query  103  LIA-IDMQPLFQTEEYKKKY-----AEPCMDMYQKHVKNLP-WGGDKQYFSPVFLWTRPQ  155
+              A +D+ P  Q  +  + Y     A P  +    H + LP WG   + FS   L+ RP 
+Sbjct  111  SAAVVDISPQSQDRKLPEVYNYQLQALPIKEF--AHPRQLPQWG---EIFSEFCLFIRPT  165
+
+Query  156  EDKQVETYVFEAFKDYINKYLDFVEAAKPVTDPDHLARIRERQLSYLQYRAEKDPARGMF  215
+              ++ + ++    + Y+  +     A KPV+ P+    I + Q  Y   + + D  R + 
+Sbjct  166  GLEEEQKFI-SIVESYLEIHCQQAIAQKPVS-PEQQLEILKAQHHYCTQQRQNDKTRRVL  223
+
+Query  216  TRMYGPEWTERYIHGFLFD  234
+             + +GPEWT+ Y+   LFD
+Sbjct  224  EKAFGPEWTDYYLTTVLFD  242
+
+
+> sp|Q3AXI3|PCYA_SYNS9 Phycocyanobilin:ferredoxin oxidoreductase 
+OS=Synechococcus sp. (strain CC9902) OX=316279 GN=pcyA PE=3 
+SV=1
+Length=246
+
+ Score = 74.7 bits (182),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 59/193 (31%), Positives = 86/193 (45%), Gaps = 24/193 (12%)
+
+Query  54   YQTKKMRQIRAAHVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGHLIAI-DMQ---  109
+            YQ +  R+I       G  LQ+L+ V+FP   YDLP  G D+V  P G   AI D+    
+Sbjct  61   YQCRGFRKIHLEIARLGNGLQILHCVWFPDPQYDLPIFGADIVAGPAGISAAIVDLSPTS  120
+
+Query  110  -----PLFQTEEYKKKYAEPCMDMYQKHVKNLP-WGGDKQYFSPVFLWTRPQEDKQVETY  163
+                 P+F+  E  ++ A        + V++LP WG     FS    + RP    + E  
+Sbjct  121  GELPDPVFKGLEAIERPA-------FRQVRDLPGWG---TIFSSKVCFIRPDGADE-EAL  169
+
+Query  164  VFEAFKDYINKYLDFVEAAKPVTDPDHLARIR--ERQLSYLQYRAEKDPARGMFTRMYGP  221
+              +   DY+    D    A P + P  ++ I   E QL+Y   +   D  R +  + + P
+Sbjct  170  FNQVVIDYLEVLSDCASRANPES-PTTVSTINRYEGQLNYCLQQKRNDKTRRVLEKAFDP  228
+
+Query  222  EWTERYIHGFLFD  234
+            EW +RYI   LFD
+Sbjct  229  EWADRYIELLLFD  241
+
+
+> sp|B0JPG5|PCYA_MICAN Phycocyanobilin:ferredoxin oxidoreductase 
+OS=Microcystis aeruginosa (strain NIES-843) OX=449447 GN=pcyA 
+PE=3 SV=1
+Length=245
+
+ Score = 74.7 bits (182),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 64/220 (29%), Positives = 100/220 (45%), Gaps = 18/220 (8%)
+
+Query  25   DLVSYPIPDGYLRKEAMV-GESLAWTQSYGYQTKKMRQIRAAHVNGGASLQVLNLVFFPH  83
+            DL  + +P+G    E  + GE L   ++  YQT + R++       G  L +L+ V FP 
+Sbjct  33   DLSPFELPEGLGYVEGRLEGEKLI-IENRCYQTPQFRKMHLELAKLGNGLDILHCVMFPR  91
+
+Query  84   MNYDLPFLGLDLVTLPGGHLIAI-DMQPLFQTEEYKKKY-----AEPCMDMYQKHVKNL-  136
+              Y LP  G D+V+   G   AI D+ P    +     Y     A P  D  Q   ++L 
+Sbjct  92   PEYPLPMFGCDIVSGKAGISAAIVDLSPTSGDKTLPSAYNQALAALPGADFAQ--ARDLP  149
+
+Query  137  PWGGDKQYFSPVFLWTRPQEDKQVETYVFEAFKDYINKYLDFVEAAKPVTDPDHLARI-R  195
+            PWG     FS   L+ RP+   + E    +   D++  +      ++P++  +  ARI  
+Sbjct  150  PWG---HIFSQYCLFIRPETAAE-ERQFLQRVTDFLTIHCKCARESQPLSGEE--ARIYL  203
+
+Query  196  ERQLSYLQYRAEKDPARGMFTRMYGPEWTERYIHGFLFDL  235
+            + Q  Y   + + D  R +  + +G EW ERY+ G LFDL
+Sbjct  204  QGQRDYCSQQQKNDKTRRVLEKAFGWEWAERYMTGVLFDL  243
+
+
+> sp|B7KJQ2|PCYA_GLOC7 Phycocyanobilin:ferredoxin oxidoreductase 
+OS=Gloeothece citriformis (strain PCC 7424) OX=65393 GN=pcyA 
+PE=3 SV=1
+Length=245
+
+ Score = 74.3 bits (181),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 62/218 (28%), Positives = 102/218 (47%), Gaps = 14/218 (6%)
+
+Query  25   DLVSYPIPDGYLRKEAMV-GESLAWTQSYGYQTKKMRQIRAAHVNGGASLQVLNLVFFPH  83
+            +L  Y +PDG    E  + GE L   +++ Y T + R++       G +L +L+ V FP+
+Sbjct  33   ELDPYQLPDGLGYVEGRLEGEKLV-IENHCYHTPQFRKMHLELAKLGNNLDILHCVMFPN  91
+
+Query  84   MNYDLPFLGLDLVTLPGGHLIAI-DMQP-----LFQTEEYKKKYAEPCMDMYQKHVKNLP  137
+             +Y LP  G D+V    G   AI D+ P        T   K   + P  D  Q+  ++LP
+Sbjct  92   PHYPLPMFGCDIVASKAGVSAAIADLSPTNPQGTLPTTYQKVLSSLPKRDFSQR--RDLP  149
+
+Query  138  WGGDKQYFSPVFLWTRPQEDKQVETYVFEAFKDYINKYLDFVEAAKPVTDPDHLARIRER  197
+              GD   FS   L+ RP    + ET+  E  + ++  +      A+P++  +  A     
+Sbjct  150  PWGD--IFSEFCLFIRPTNSTE-ETFFLERVEQFLELHCRQSLIAQPLSSNEQ-ALYLAG  205
+
+Query  198  QLSYLQYRAEKDPARGMFTRMYGPEWTERYIHGFLFDL  235
+            Q +Y   + + D  R +  + +G EW ++YI+  LFDL
+Sbjct  206  QYNYCSQQQKNDKTRRVLEKAFGAEWADKYINLVLFDL  243
+
+
+> sp|Q93TM9|PCYA_NOSP7 Phycocyanobilin:ferredoxin oxidoreductase 
+OS=Nostoc punctiforme (strain ATCC 29133 / PCC 73102) OX=63737 
+GN=pcyA PE=3 SV=1
+Length=245
+
+ Score = 72.0 bits (175),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 63/220 (29%), Positives = 102/220 (46%), Gaps = 18/220 (8%)
+
+Query  25   DLVSYPIPD--GYLRKEAMVGESLAWTQSYGYQTKKMRQIRAAHVNGGASLQVLNLVFFP  82
+            DL  Y +PD  GY+    + GE L   ++  YQT + R++     N G  L +L+ V FP
+Sbjct  33   DLSPYHLPDELGYVEGR-LEGEKLT-IENRCYQTPQFRKMHLELANIGNMLDILHCVMFP  90
+
+Query  83   HMNYDLPFLGLDLVTLPGGHLIAI-DMQPL----FQTEEYKKKYAE-PCMDMYQKHVKNL  136
+               Y+LP  G DLV   G    AI D+ P+       E Y    A+ P ++  Q   + L
+Sbjct  91   RPQYNLPMFGCDLVGGRGQISAAIADLSPIQLERTLPESYTTALAQLPVLNFSQP--REL  148
+
+Query  137  P-WGGDKQYFSPVFLWTRPQEDKQVETYVFEAFKDYINKYLDFVEAAKPVTDPDHLARIR  195
+            P WG     FS   ++ RP   ++ E       +++++ +     A+ PV+  + + +  
+Sbjct  149  PEWGN---IFSDFCIFVRPGSPEE-EAMFLSRVREFLDIHCMQAIASHPVSV-EQVTQNL  203
+
+Query  196  ERQLSYLQYRAEKDPARGMFTRMYGPEWTERYIHGFLFDL  235
+              Q +Y   + + D  R +  + +GP W E Y+   LFDL
+Sbjct  204  AGQHNYCTKQQQNDKTRRVLEKAFGPVWAENYMTTVLFDL  243
+
+
+> sp|B7JWS2|PCYA_RIPO1 Phycocyanobilin:ferredoxin oxidoreductase 
+OS=Rippkaea orientalis (strain PCC 8801) OX=41431 GN=pcyA 
+PE=3 SV=1
+Length=245
+
+ Score = 71.6 bits (174),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 60/218 (28%), Positives = 98/218 (45%), Gaps = 14/218 (6%)
+
+Query  25   DLVSYPIPDGYLRKEAMV-GESLAWTQSYGYQTKKMRQIRAAHVNGGASLQVLNLVFFPH  83
+             L  Y +PDG    E  + GE L   ++  YQ  + R++       G  L +L+ V FP+
+Sbjct  33   SLSLYKLPDGLGYVEGKLEGERLV-IENRCYQAPQFRKMHLELAKVGKGLDILHCVMFPN  91
+
+Query  84   MNYDLPFLGLDLVTLPGGHLIAI-DMQP----LFQTEEYKKKYAE-PCMDMYQKHVKNLP  137
+             +Y LP  G D+V        AI D+ P    L  +  Y+K  ++ P +D   +  ++LP
+Sbjct  92   PDYSLPMFGCDIVANSRAVSAAIADLSPANAELTLSPTYQKALSQLPSLDF--RESRDLP  149
+
+Query  138  WGGDKQYFSPVFLWTRPQEDKQVETYVFEAFKDYINKYLDFVEAAKPVTDPDHLARIRER  197
+              GD   FS   L+ RP   ++ ET       D++  +      ++PV+       +   
+Sbjct  150  EWGD--IFSEYCLFIRPTNAEE-ETQFINRVADFLKIHCQLAVQSQPVSVEQETLNL-AG  205
+
+Query  198  QLSYLQYRAEKDPARGMFTRMYGPEWTERYIHGFLFDL  235
+            Q  Y   + + D  R +  + +G EW ++YI   LFDL
+Sbjct  206  QKYYCTKQQQNDKTRRVLEKAFGQEWADKYITQVLFDL  243
+
+
+> sp|Q9K4U6|PEBA_PROMA 15,16-dihydrobiliverdin:ferredoxin oxidoreductase 
+OS=Prochlorococcus marinus (strain SARG / CCMP1375 
+/ SS120) OX=167539 GN=pebA PE=3 SV=1
+Length=241
+
+ Score = 71.2 bits (173),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 55/201 (27%), Positives = 92/201 (46%), Gaps = 26/201 (13%)
+
+Query  49   TQSYGYQTKKMRQIRAAHVNGGASLQVLNLVFFPHMNYDLPFLGLDLV--TLPGGHLIAI  106
+             +S+ +     R+ R   ++ G  LQVLN V +P    D P LG+D++   L    +  +
+Sbjct  43   IKSWLWDVPGFRRWRVTRMDAGDKLQVLNSVAYPAYTNDKPILGIDILWFGLKRKLVAVL  102
+
+Query  107  DMQPLFQTEEYKKKYAEPCMDMYQKHV-----KNLPWGGDKQYFSP-VFLWTRPQEDKQV  160
+            D QPL Q E Y  +Y +    +  + V     K +      +YFSP V L+    +D Q 
+Sbjct  103  DFQPLVQEERYFCRYYKDLQILKNRFVDFNSQKTMKIYDSNKYFSPWVLLYNGSFDDLQC  162
+
+Query  161  ETYVFEAFKDYINKYLD-FVEAAKPVTDPDHL-------ARIRERQLSYLQYRAEKDPAR  212
+                       + K LD F+ A   V + +         +++ +  ++Y  Y AE+DPA 
+Sbjct  163  S----------LAKILDEFLHAYWQVDNNNSREYIKIIPSKVEQLHINYDIYSAERDPAH  212
+
+Query  213  GMFTRMYGPEWTERYIHGFLF  233
+            G+F   +G  W ++++  FLF
+Sbjct  213  GLFKSYFGQTWADQFVREFLF  233
+
+
+> sp|Q93TN0|PCYA_NOSS1 Phycocyanobilin:ferredoxin oxidoreductase 
+OS=Nostoc sp. (strain PCC 7120 / SAG 25.82 / UTEX 2576) OX=103690 
+GN=pcyA PE=1 SV=1
+Length=245
+
+ Score = 69.7 bits (169),  Expect = 8e-13, Method: Compositional matrix adjust.
+ Identities = 60/220 (27%), Positives = 96/220 (44%), Gaps = 14/220 (6%)
+
+Query  25   DLVSYPIPD--GYLRKEAMVGESLAWTQSYGYQTKKMRQIRAAHVNGGASLQVLNLVFFP  82
+            DL  Y +P   GY+    + GE L   ++  YQT + R++       G  L +L+ V FP
+Sbjct  33   DLSPYHLPAELGYVEGR-LEGEKLT-IENRCYQTPQFRKMHLELAKVGNMLDILHCVMFP  90
+
+Query  83   HMNYDLPFLGLDLVTLPGGHLIAI-DMQPLFQTEEYKKKYAEPCMDMYQKHV---KNLP-  137
+               YDLP  G DLV   G    AI D+ P+       + Y      +   +    + LP 
+Sbjct  91   RPEYDLPMFGCDLVGGRGQISAAIADLSPVHLDRTLPESYNSALTSLNTLNFSQPRELPE  150
+
+Query  138  WGGDKQYFSPVFLWTRPQEDKQVETYVFEAFKDYINKYLDFVEAAKPVTDPDHLARIRER  197
+            WG     FS   ++ RP   ++ E       ++++  +     AA PV+  +   +I   
+Sbjct  151  WGN---IFSDFCIFVRPSSPEE-EAMFLGRVREFLQVHCQGAIAASPVS-AEQKQQILAG  205
+
+Query  198  QLSYLQYRAEKDPARGMFTRMYGPEWTERYIHGFLFDLEE  237
+            Q +Y   + + D  R +  + +G +W E Y+   LFDL E
+Sbjct  206  QHNYCSKQQQNDKTRRVLEKAFGVDWAENYMTTVLFDLPE  245
+
+
+> sp|Q3M745|PCYA_TRIV2 Phycocyanobilin:ferredoxin oxidoreductase 
+OS=Trichormus variabilis (strain ATCC 29413 / PCC 7937) OX=240292 
+GN=pcyA PE=3 SV=1
+Length=245
+
+ Score = 69.3 bits (168),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 60/220 (27%), Positives = 95/220 (43%), Gaps = 14/220 (6%)
+
+Query  25   DLVSYPIPD--GYLRKEAMVGESLAWTQSYGYQTKKMRQIRAAHVNGGASLQVLNLVFFP  82
+            DL  Y +P   GY+    + GE L   ++  YQT + R++       G  L +L+ V FP
+Sbjct  33   DLSPYHLPAELGYVEGR-LEGEKLT-IENRCYQTPQFRKMHLELAKVGNMLDILHCVMFP  90
+
+Query  83   HMNYDLPFLGLDLVTLPGGHLIAI-DMQPLFQTEEYKKKYAEPCMDMYQKHV---KNLP-  137
+               YDLP  G DLV   G    AI D+ P+         Y     ++   +    + LP 
+Sbjct  91   RPEYDLPMFGCDLVGGRGQISAAIADLSPVHLDRTLPASYNSALTNLDTLNFSQPRELPE  150
+
+Query  138  WGGDKQYFSPVFLWTRPQEDKQVETYVFEAFKDYINKYLDFVEAAKPVTDPDHLARIRER  197
+            WG     FS   ++ RP   ++ E       ++++  +     AA PV+  +    I   
+Sbjct  151  WGN---IFSDFCIFVRPSSPEE-EAMFLGRVREFLQVHCQGAIAASPVS-AEQKQHILAG  205
+
+Query  198  QLSYLQYRAEKDPARGMFTRMYGPEWTERYIHGFLFDLEE  237
+            Q +Y   + + D  R +  + +G +W E Y+   LFDL E
+Sbjct  206  QHNYCSKQQQNDKTRRVLEKAFGTDWAENYMTTVLFDLPE  245
+
+
+> sp|Q7U7A1|PCYA_SYNPX Phycocyanobilin:ferredoxin oxidoreductase 
+OS=Synechococcus sp. (strain WH8102) OX=84588 GN=pcyA PE=3 
+SV=1
+Length=247
+
+ Score = 68.2 bits (165),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 56/189 (30%), Positives = 81/189 (43%), Gaps = 20/189 (11%)
+
+Query  56   TKKMRQIRAAHVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGHLIAI-DMQPLFQT  114
+             + +R+I       G  LQ+L+ V+FP   +DLP  G D+V  P G   AI D+ P+  T
+Sbjct  63   CRGVRKIHLELARLGRGLQILHCVWFPDPRFDLPIFGADIVAGPAGVSAAIVDLSPVSGT  122
+
+Query  115  -----EEYKKKYAEPCMDMYQKHVKNLP-WGGDKQYFSPVFLWTRPQEDKQVETYVFEAF  168
+                 E        P      + V++LP WG     FSP   + RP  D   E  +F + 
+Sbjct  123  LPSGIETALAGTPSPAF----RQVRDLPGWG---TIFSPHVCFIRP--DGAEEEVLFRSR  173
+
+Query  169  KDYINKYLDFV---EAAKPVTDPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEWTE  225
+             + +   L       A +P T    + R  E QLSY   +   D  R +  + +   W +
+Sbjct  174  VEEVLTILRTAVLQTACEPATAASTIRRY-EGQLSYCLQQKRNDKTRRVLEKAFDASWAD  232
+
+Query  226  RYIHGFLFD  234
+            RYI   LFD
+Sbjct  233  RYIEELLFD  241
+
+
+> sp|Q7VCC2|PCYA_PROMA Phycocyanobilin:ferredoxin oxidoreductase 
+OS=Prochlorococcus marinus (strain SARG / CCMP1375 / SS120) 
+OX=167539 GN=pcyA PE=3 SV=1
+Length=247
+
+ Score = 68.2 bits (165),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 50/187 (27%), Positives = 92/187 (49%), Gaps = 10/187 (5%)
+
+Query  54   YQTKKMRQIRAAHVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGHLIAI-DMQPLF  112
+            +Q++  R++         SL++L++VFFP   +DLP  G+DL+ +P G   AI D+ P+ 
+Sbjct  57   HQSRGFRKLHIETAVFEPSLEILHVVFFPDPAFDLPIFGVDLIAVPQGISAAIVDLSPVR  116
+
+Query  113  QT--EEYKKKYAEPCMDMYQKHVKNLPWGGDKQYFSPVFLWTRPQEDKQVETYVFEAFKD  170
+                   + + A+  +  ++K V+ LP  GD   FS    +  P   ++   +  +    
+Sbjct  117  DKLPRTIENQLAQIEIPSFEK-VRKLPDWGD--IFSSHVQFITPIGAEE-NGFFLDLVDK  172
+
+Query  171  YINKYLDFVEAAKPVTD--PDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEWTERYI  228
+            ++   +D+ E+ +P  D  P  + RI E Q+ Y   + + D  R +  + + P W  +YI
+Sbjct  173  FLTILIDYSESIEPDLDDSPFTIERI-EGQMYYCLQQKQNDKTRNVLAKAFSPNWANQYI  231
+
+Query  229  HGFLFDL  235
+               LFD+
+Sbjct  232  EMVLFDM  238
+
+
+> sp|P59288|PCYA_THEEB Phycocyanobilin:ferredoxin oxidoreductase 
+OS=Thermosynechococcus elongatus (strain BP-1) OX=197221 GN=pcyA 
+PE=3 SV=1
+Length=236
+
+ Score = 67.0 bits (162),  Expect = 6e-12, Method: Compositional matrix adjust.
+ Identities = 64/218 (29%), Positives = 98/218 (45%), Gaps = 20/218 (9%)
+
+Query  26   LVSYPIPD--GYLRKEAMVGESLAWTQSYGYQTKKMRQIRAAHVNGGASLQVLNLVFFPH  83
+            L  Y +P+  GY+  + + GE L   +++ YQ    R++       G SL +L+ V FP 
+Sbjct  28   LAPYALPEDLGYVEGK-LEGERLT-IENHCYQAPPFRKLHLELARVGESLDILHCVMFPE  85
+
+Query  84   MNYDLPFLGLDLVTLPGGHLIAI-DMQPLFQTEEYKKKY-----AEPCMDMYQKHVKNLP  137
+              YDLP  G DLV   G    AI D+ P+  T +    Y     A P +   Q   +  P
+Sbjct  86   PRYDLPMFGCDLVGGRGQISAAIVDLSPV--TGQLPAAYTCALNALPKLTFRQPR-ELPP  142
+
+Query  138  WGGDKQYFSPVFLWTRPQEDKQVETYVFEAFKDYINKYLDFVEAAKPVTDPDHLARIRER  197
+            WG     FSP  ++ RPQ + + E    +   +Y+  +    + A P    DH   +   
+Sbjct  143  WG---HIFSPFCIFIRPQGEAE-EQQFLDRIGEYLTLHCQLSQQAVPT---DHPQAVIAG  195
+
+Query  198  QLSYLQYRAEKDPARGMFTRMYGPEWTERYIHGFLFDL  235
+            Q  Y Q + + D  R +  + +G  W ERY+   LFD+
+Sbjct  196  QRQYCQQQQQNDKTRRVLEKAFGVPWAERYMTTVLFDV  233
+
+
+> sp|B1X018|PCYA_CROS5 Phycocyanobilin:ferredoxin oxidoreductase 
+OS=Crocosphaera subtropica (strain ATCC 51142 / BH68) OX=43989 
+GN=pcyA PE=3 SV=1
+Length=246
+
+ Score = 65.5 bits (158),  Expect = 3e-11, Method: Compositional matrix adjust.
+ Identities = 54/216 (25%), Positives = 94/216 (44%), Gaps = 10/216 (5%)
+
+Query  25   DLVSYPIPDGYLRKEA-MVGESLAWTQSYGYQTKKMRQIRAAHVNGGASLQVLNLVFFPH  83
+            DL  Y +PDG    E  + GE L   ++  YQ+ + R++       G  L +L+ V FP+
+Sbjct  33   DLSPYELPDGLGYVEGKLEGEKLV-IENRCYQSPQFRKMHLELAKVGQGLDILHCVMFPN  91
+
+Query  84   MNYDLPFLGLDLVTLPGGHLIAI-DMQPLFQTEEYKKKYAEPCMDMYQKHV---KNLPWG  139
+             +Y LP  G D+V   GG   AI D+ P          Y +    +   +    + LP  
+Sbjct  92   PDYALPMFGCDIVAGKGGVSAAIADLSPANPELTLSNSYNQALSQLETPNFSDQRELPEW  151
+
+Query  140  GDKQYFSPVFLWTRPQEDKQVETYVFEAFKDYINKYLDFVEAAKPVTDPDHLARIRERQL  199
+            GD   FS   L+ RP   ++ E    +   D++  +      ++P +       I+ ++ 
+Sbjct  152  GD--IFSEYCLFIRPHTPEE-EKLFLKRVGDFLKVHCQQANQSQPGSTQQREFNIQGQEY  208
+
+Query  200  SYLQYRAEKDPARGMFTRMYGPEWTERYIHGFLFDL  235
+             Y + + + D  R +  + +G  W  +Y+   LFD+
+Sbjct  209  -YCRKQQQNDKTRRVLEKAFGEAWANKYMTQVLFDI  243
+
+
+> sp|Q3AKB1|PCYA_SYNSC Phycocyanobilin:ferredoxin oxidoreductase 
+OS=Synechococcus sp. (strain CC9605) OX=110662 GN=pcyA PE=3 
+SV=1
+Length=247
+
+ Score = 61.2 bits (147),  Expect = 7e-10, Method: Compositional matrix adjust.
+ Identities = 57/203 (28%), Positives = 89/203 (44%), Gaps = 22/203 (11%)
+
+Query  43   GESLAWTQSYGYQTKKMRQIRAAHVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGH  102
+            GE L+      ++   +R++       G  LQ+L+ V+FP  +YDLP  G D+V  P G 
+Sbjct  51   GEGLSIGNEL-FRCIGLRKLHLEVARLGNGLQILHSVWFPDPHYDLPIFGADIVAGPAGI  109
+
+Query  103  LIAI-DMQPL---FQTEEYKKKYAEPCMDMYQKHVKNLP-WGGDKQYFSPVFLWTRPQ-E  156
+              AI D+ P       +  ++  A P     Q  V+ LP WG     FS    + RP   
+Sbjct  110  SAAIVDLSPTSDALPEQLIQRLEARPWPAFRQ--VRELPAWG--SAIFSNKVCFIRPDGA  165
+
+Query  157  DKQVETYVFEAFKDYINKYLDFVEAAKPVTDPDH---LARIR--ERQLSYLQYRAEKDPA  211
+            D++       AF+  ++ YL  +  +     P+    L  +R  E QL+Y   +   D  
+Sbjct  166  DEEA------AFQQLVSHYLQVMATSVIEATPEQSTALTTVRRYEGQLNYCLQQKRNDKT  219
+
+Query  212  RGMFTRMYGPEWTERYIHGFLFD  234
+            R +  + +   W +RYI   LFD
+Sbjct  220  RRVLEKAFDSAWADRYIDMLLFD  242
+
+
+> sp|Q7NHE8|PCYA_GLOVI Phycocyanobilin:ferredoxin oxidoreductase 
+OS=Gloeobacter violaceus (strain ATCC 29082 / PCC 7421) OX=251221 
+GN=pcyA PE=3 SV=1
+Length=253
+
+ Score = 59.7 bits (143),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 54/191 (28%), Positives = 86/191 (45%), Gaps = 18/191 (9%)
+
+Query  54   YQTKKMRQIRAAHVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGHLIAI-DMQPLF  112
+            YQ++  R++       G +L +L+ V +P   +DLP  G D+V        AI D+ P+ 
+Sbjct  70   YQSRVFRKLHLELATIGPNLDILHCVMYPRPQFDLPIYGTDIVASTQMVSAAIVDLSPV-  128
+
+Query  113  QTEEYKKKY---AEP----CMDMYQKHVKNL-PWGGDKQYFSPVFLWTRPQEDKQVETYV  164
+               E    Y    EP    C D  Q  ++NL PWG     FSP  ++ R     + + ++
+Sbjct  129  -RGELPPAYLAGLEPSFARCTDFGQ--LRNLPPWG---TIFSPRCVFARVVTPTEADLFM  182
+
+Query  165  FEAFKDYINKYLDFVEAAKPVTDPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEWT  224
+             E  + Y+  + +    A+ V D    A+I   Q  Y + + + D  R +  + +   W 
+Sbjct  183  -EISRAYLRFHCEQAARAEAV-DTATEAQILAGQRHYCEQQQQNDKTRRILAQAFDEAWA  240
+
+Query  225  ERYIHGFLFDL  235
+            ERYI   LFDL
+Sbjct  241  ERYIRTVLFDL  251
+
+
+> sp|Q93TL5|PCYA_PROMP Phycocyanobilin:ferredoxin oxidoreductase 
+OS=Prochlorococcus marinus subsp. pastoris (strain CCMP1986 
+/ NIES-2087 / MED4) OX=59919 GN=pcyA PE=3 SV=1
+Length=241
+
+ Score = 53.5 bits (127),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 45/196 (23%), Positives = 85/196 (43%), Gaps = 19/196 (10%)
+
+Query  48   WTQSYGYQTKKMRQIRAAHVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGHLIA--  105
+            + ++  Y+ K  R++         SL++L+ VFFP   YD+P  G+DLV +    L++  
+Sbjct  55   YIENEFYKAKGFRKLHIEVAEFSKSLKILHCVFFPDPKYDIPIFGMDLVKV--NELVSAA  112
+
+Query  106  -IDMQPLFQTEEYKKKYAEPCMDMYQ-KHVKNLP-WGGDKQYFSPVFLWTRPQEDKQVET  162
+             +D+ P  + +  K  +    +D    K  + +P WG    +   VF  +   E ++   
+Sbjct  113  IVDLSPSSKNQNLKYDHLLSHIDKSVFKSKREIPIWGN--IFSKNVFFASLKNESEK---  167
+
+Query  163  YVFEAFKDYINKYLDFVEAAKPVTDPDHLARIRERQLSYLQY----RAEKDPARGMFTRM  218
+                AF   ++ YL  +      T PD    I E +++Y +     + + +    +  + 
+Sbjct  168  ---NAFCKIVDNYLSVLIQLSQSTSPDSDYEIIEERINYQKNYCVQQMKNEKTSLVLLKY  224
+
+Query  219  YGPEWTERYIHGFLFD  234
+            +   W + YI   LFD
+Sbjct  225  FDKVWVDEYIKKVLFD  240
+
+
+> sp|A8G4C5|PCYA_PROM2 Phycocyanobilin:ferredoxin oxidoreductase 
+OS=Prochlorococcus marinus (strain MIT 9215) OX=93060 GN=pcyA 
+PE=3 SV=1
+Length=241
+
+ Score = 50.4 bits (119),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 47/216 (22%), Positives = 94/216 (44%), Gaps = 11/216 (5%)
+
+Query  24   DDLVSYPI-PDGYLRKEAMVGESLAWTQSYGYQTKKMRQIRAAHVNGGASLQVLNLVFFP  82
+            +DLVS  I P+        +G  L + ++  ++ K  R++         +L++L+ VFFP
+Sbjct  31   EDLVSIKIDPNLTNIISNEIGREL-YIENEFHKAKGFRKLHIEVAEFSKNLRILHCVFFP  89
+
+Query  83   HMNYDLPFLGLDLVTLPGGHLIAI-DMQPLFQTE--EYKKKYAEPCMDMYQKHVKNLP-W  138
+               +D+P  G+DLV +      AI D+ P  Q +  +Y+K  ++     +   ++ +P W
+Sbjct  90   DPKFDIPIFGMDLVKINDIVSAAIVDLSPASQNQGLKYEKLLSQVDKSSFS-SLREIPKW  148
+
+Query  139  GGDKQYFSPVFLWTRPQEDKQVETYVFEAFKDYINKYLDFVEAAKPVTDPDHLARIRERQ  198
+            GG    FS    +   + + +   +       Y++  +     AK   D + +    + Q
+Sbjct  149  GG---IFSNNVFFASLKRNSEKNDFC-RVVDQYLSILIKLSNKAKAEVDKEIIQERIDFQ  204
+
+Query  199  LSYLQYRAEKDPARGMFTRMYGPEWTERYIHGFLFD  234
+             +Y   + + +    +  + +  +W   YI   LFD
+Sbjct  205  KNYCVQQMKNEKTSMVLLKYFDEKWVNNYIKTVLFD  240
+
+
+> sp|A2BQN3|PCYA_PROMS Phycocyanobilin:ferredoxin oxidoreductase 
+OS=Prochlorococcus marinus (strain AS9601) OX=146891 GN=pcyA 
+PE=3 SV=1
+Length=241
+
+ Score = 50.1 bits (118),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 42/197 (21%), Positives = 86/197 (44%), Gaps = 10/197 (5%)
+
+Query  42   VGESLAWTQSYGYQTKKMRQIRAAHVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGG  101
+            +G  L + ++  ++ K  R++         +L++L+ VFFP   +D+P  G+DLV +   
+Sbjct  50   IGREL-YIENEFHKAKGFRKLHIEVAEFSKNLKILHCVFFPDPKFDIPIFGMDLVKINDI  108
+
+Query  102  HLIAI-DMQPLFQTE--EYKKKYAEPCMDMYQKHVKNLP-WGGDKQYFSPVFLWTRPQED  157
+               AI D+ P  Q +  +Y+K  +E     +   ++ +P WGG    FS    +   +  
+Sbjct  109  VSAAIVDLSPASQNQGLKYEKLLSEVDKSSFT-SLREIPKWGG---IFSNNVFFASLKRK  164
+
+Query  158  KQVETYVFEAFKDYINKYLDFVEAAKPVTDPDHLARIRERQLSYLQYRAEKDPARGMFTR  217
+             +   +       Y+   +   + AKP  + + +    + Q +Y   + + +    +  +
+Sbjct  165  SEKNDFC-RVVDQYLTILIKLSKRAKPEVNEEIIQERIDFQKNYCVQQMKNEKTSMVLLK  223
+
+Query  218  MYGPEWTERYIHGFLFD  234
+             +  +W   YI   LFD
+Sbjct  224  YFDEKWVNNYIKTVLFD  240
+
+
+> sp|Q31BD0|PCYA_PROM9 Phycocyanobilin:ferredoxin oxidoreductase 
+OS=Prochlorococcus marinus (strain MIT 9312) OX=74546 GN=pcyA 
+PE=3 SV=1
+Length=241
+
+ Score = 49.3 bits (116),  Expect = 9e-06, Method: Compositional matrix adjust.
+ Identities = 42/183 (23%), Positives = 78/183 (43%), Gaps = 10/183 (5%)
+
+Query  58   KMRQIRAAHVNGG---ASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGHLIAI-DMQPLFQ  113
+            K R  R  H+       +L++L+ VFFP   +D+P  G+DLV +      AI D+ P  Q
+Sbjct  62   KARGFRKLHIEVAEFSKNLKILHCVFFPDPKFDIPIFGMDLVKINDIVSAAIVDLSPASQ  121
+
+Query  114  TEEYK-KKYAEPCMDMYQKHVKNLP-WGGDKQYFSPVFLWTRPQEDKQVETYVFEAFKDY  171
+             +  K +K+           ++ +P WG   + FS    +   +  K  E    +   +Y
+Sbjct  122  NQGVKYEKFLSKVDKSSFTSLREIPKWG---EIFSENVFFASLK-SKSEENDFCKVVDEY  177
+
+Query  172  INKYLDFVEAAKPVTDPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEWTERYIHGF  231
+            ++  +   + AKP    + +   +  Q +Y   + + +    +  + +  +W   YI   
+Sbjct  178  LSILIKLSKEAKPEFKEEIIKERKNYQKNYCVQQMKNEKTSMVLLKYFDEKWVNNYIKTV  237
+
+Query  232  LFD  234
+            LFD
+Sbjct  238  LFD  240
+
+
+> sp|Q58MU6|PEBS_BPPRM Phycoerythrobilin synthase OS=Prochlorococcus 
+phage P-SSM2 OX=268746 GN=pebS PE=1 SV=1
+Length=233
+
+ Score = 47.8 bits (112),  Expect = 3e-05, Method: Compositional matrix adjust.
+ Identities = 41/174 (24%), Positives = 76/174 (44%), Gaps = 17/174 (10%)
+
+Query  61   QIRAAHVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGHLIAIDMQPLFQTEEYKKK  120
+            + R AH+    S  + N + +P    DLP  G+DL+      +I +     F  +  ++K
+Sbjct  73   KAREAHIVDPNS-DIYNTILYPKTGADLPCFGMDLMKFSDKKVIIV-----FDFQHPREK  126
+
+Query  121  YAEPCMDMYQKHVKNLPWGGDKQYFSPVFL-WTRPQEDKQVETYVFEAFKDYINKYLDFV  179
+            Y      + +   K   +     +   +F+ + +P E   V+ Y+ + FK Y+ KY + +
+Sbjct  127  YLFSVDGLPEDDGKYRFFEMGNHFSKNIFVRYCKPDE---VDQYL-DTFKLYLTKYKEMI  182
+
+Query  180  EAAKPVTDPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEWTERYIHGFLF  233
+            +  KPV +   +         +  Y  E DP RG     +G   +E +++ FLF
+Sbjct  183  DNNKPVGEDTTVYS------DFDTYMTELDPVRGYMKNKFGEGRSEAFVNDFLF  230
+
+
+> sp|A3PCF5|PCYA_PROM0 Phycocyanobilin:ferredoxin oxidoreductase 
+OS=Prochlorococcus marinus (strain MIT 9301) OX=167546 GN=pcyA 
+PE=3 SV=1
+Length=241
+
+ Score = 47.4 bits (111),  Expect = 4e-05, Method: Compositional matrix adjust.
+ Identities = 43/197 (22%), Positives = 89/197 (45%), Gaps = 10/197 (5%)
+
+Query  42   VGESLAWTQSYGYQTKKMRQIRAAHVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGG  101
+            +G  L + ++  ++ K  R++         +L++L+ VFFP   +D+P  G+DLV +   
+Sbjct  50   IGREL-YIENEFHKAKGFRKLHIEVAEFSKNLRILHCVFFPDPKFDIPIFGMDLVKINDI  108
+
+Query  102  HLIAI-DMQPLFQTEEYKKKYAEPCMDMYQ-KHVKNLP-WGGDKQYFSPVFLWT-RPQED  157
+               AI D+ P  Q +  K +     +D      ++ +P WG  + + + VF  + R + +
+Sbjct  109  VSAAIVDLSPASQNQALKYEKLLSGVDKSSFTSLREIPKWG--RIFSNNVFFASLRNKSE  166
+
+Query  158  KQVETYVFEAFKDYINKYLDFVEAAKPVTDPDHLARIRERQLSYLQYRAEKDPARGMFTR  217
+            K     V +    Y++  +   + AKP  + + +    + Q +Y   + + +    +  +
+Sbjct  167  KNDFCSVVDQ---YLSILIKLSKKAKPEFNEEIIQERIDFQKNYCAQQMKNEKTSMVLLK  223
+
+Query  218  MYGPEWTERYIHGFLFD  234
+             +  +W   YI   LFD
+Sbjct  224  YFDEKWVNNYIKTVLFD  240
+
+
+> sp|A2BW83|PCYA_PROM5 Phycocyanobilin:ferredoxin oxidoreductase 
+OS=Prochlorococcus marinus (strain MIT 9515) OX=167542 GN=pcyA 
+PE=3 SV=1
+Length=241
+
+ Score = 45.8 bits (107),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 44/194 (23%), Positives = 86/194 (44%), Gaps = 15/194 (8%)
+
+Query  48   WTQSYGYQTKKMRQIRAAHVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGHLIAI-  106
+            + ++  ++ K  R++          L++L+ VFFP  +YD+P  G+DLV +      AI 
+Sbjct  55   YIENEFHKAKGFRKLHIEVAEFSRRLKILHCVFFPDPHYDIPIFGMDLVKVNEVVSAAIV  114
+
+Query  107  DMQPLFQTEEYKKKYAEPCMD--MYQKHVKNLPWGGDKQYFSPVFLWTRPQEDKQVETYV  164
+            D+ P  + +  K       +D  +++   + +P  GD  +   VF  +   E ++     
+Sbjct  115  DLSPSSKNQNLKYDNLLSTIDKSVFESE-REIPGWGD-IFSQNVFFASLKNESEK-----  167
+
+Query  165  FEAFKDYINKYLDFVEAAKPVTDPDHLAR-IRER---QLSYLQYRAEKDPARGMFTRMYG  220
+              AF   ++ YL  +      +  DH    I+ER   Q +Y + + + +    +  + + 
+Sbjct  168  -SAFCKIVDHYLLVLIKLSKSSILDHDQEIIQERIDFQKNYCRQQMKNEKTSLVLLKYFD  226
+
+Query  221  PEWTERYIHGFLFD  234
+             +W + YI   LFD
+Sbjct  227  KKWVDEYIKKVLFD  240
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.139    0.437    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 20209788438
+Results from round 2
+
+
+Query= 6QWQ
+
+Length=263
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q7NL65|PEBB_GLOVI Phycoerythrobilin:ferredoxin oxidoreductas...  288     2e-97
+  sp|Q93TM8|PEBB_NOSP7 Phycoerythrobilin:ferredoxin oxidoreductas...  287     5e-97
+  sp|Q10UW6|PEBB_TRIEI Phycoerythrobilin:ferredoxin oxidoreductas...  286     2e-96
+  sp|Q02190|PEBB_SYNPY Phycoerythrobilin:ferredoxin oxidoreductas...  270     3e-90
+  sp|Q0ICV5|PEBB_SYNS3 Phycoerythrobilin:ferredoxin oxidoreductas...  268     2e-89
+  sp|Q3AUU4|PEBB_SYNS9 Phycoerythrobilin:ferredoxin oxidoreductas...  267     3e-89
+  sp|Q7V585|PEBB_PROMM Phycoerythrobilin:ferredoxin oxidoreductas...  265     3e-88
+  sp|A2CBW9|PEBB_PROM3 Phycoerythrobilin:ferredoxin oxidoreductas...  265     3e-88
+  sp|Q7U4P6|PEBB_SYNPX Phycoerythrobilin:ferredoxin oxidoreductas...  264     2e-87
+  sp|Q93TN0|PCYA_NOSS1 Phycocyanobilin:ferredoxin oxidoreductase ...  260     1e-86
+  sp|Q7U4P7|PEBA_SYNPX 15,16-dihydrobiliverdin:ferredoxin oxidore...  259     4e-86
+  sp|Q3AMI3|PEBA_SYNSC 15,16-dihydrobiliverdin:ferredoxin oxidore...  259     5e-86
+  sp|Q3M745|PCYA_TRIV2 Phycocyanobilin:ferredoxin oxidoreductase ...  259     8e-86
+  sp|Q3AUU5|PEBA_SYNS9 15,16-dihydrobiliverdin:ferredoxin oxidore...  257     1e-85
+  sp|B0JPG5|PCYA_MICAN Phycocyanobilin:ferredoxin oxidoreductase ...  258     1e-85
+  sp|Q7V586|PEBA_PROMM 15,16-dihydrobiliverdin:ferredoxin oxidore...  256     9e-85
+  sp|Q93TM9|PCYA_NOSP7 Phycocyanobilin:ferredoxin oxidoreductase ...  255     2e-84
+  sp|A5GVQ6|PEBB_SYNR3 Phycoerythrobilin:ferredoxin oxidoreductas...  255     3e-84
+  sp|A2CBW8|PEBA_PROM3 15,16-dihydrobiliverdin:ferredoxin oxidore...  253     2e-83
+  sp|A9BCT2|PEBB_PROM4 Phycoerythrobilin:ferredoxin oxidoreductas...  252     5e-83
+  sp|Q7NL66|PEBA_GLOVI 15,16-dihydrobiliverdin:ferredoxin oxidore...  251     7e-83
+  sp|Q02189|PEBA_SYNPY 15,16-dihydrobiliverdin:ferredoxin oxidore...  250     7e-83
+  sp|B1X018|PCYA_CROS5 Phycocyanobilin:ferredoxin oxidoreductase ...  250     2e-82
+  sp|Q55891|PCYA_SYNY3 Phycocyanobilin:ferredoxin oxidoreductase ...  250     2e-82
+  sp|A5GIZ3|PEBA_SYNPW 15,16-dihydrobiliverdin:ferredoxin oxidore...  248     7e-82
+  sp|Q93TL6|PEBA_NOSP7 15,16-dihydrobiliverdin:ferredoxin oxidore...  245     9e-81
+  sp|B7KJQ2|PCYA_GLOC7 Phycocyanobilin:ferredoxin oxidoreductase ...  245     1e-80
+  sp|B7JWS2|PCYA_RIPO1 Phycocyanobilin:ferredoxin oxidoreductase ...  242     3e-79
+  sp|Q5N5A3|PCYA_SYNP6 Phycocyanobilin:ferredoxin oxidoreductase ...  242     3e-79
+  sp|Q8KPS9|PCYA_SYNE7 Phycocyanobilin:ferredoxin oxidoreductase ...  242     4e-79
+  sp|Q46IM1|PEBB_PROMT Phycoerythrobilin:ferredoxin oxidoreductas...  241     1e-78
+  sp|A2C538|PEBB_PROM1 Phycoerythrobilin:ferredoxin oxidoreductas...  240     2e-78
+  sp|Q10X61|PCYA_TRIEI Phycocyanobilin:ferredoxin oxidoreductase ...  234     5e-76
+  sp|A2C539|PEBA_PROM1 15,16-dihydrobiliverdin:ferredoxin oxidore...  232     2e-75
+  sp|Q46IM0|PEBA_PROMT 15,16-dihydrobiliverdin:ferredoxin oxidore...  232     3e-75
+  sp|Q318E9|PEBA_PROM9 15,16-dihydrobiliverdin:ferredoxin oxidore...  231     4e-75
+  sp|A3PF83|PEBA_PROM0 15,16-dihydrobiliverdin:ferredoxin oxidore...  229     2e-74
+  sp|Q9K4U5|PEBB_PROMA Phycoerythrobilin:ferredoxin oxidoreductas...  229     3e-74
+  sp|A2BTH4|PEBA_PROMS 15,16-dihydrobiliverdin:ferredoxin oxidore...  228     5e-74
+  sp|A8G798|PEBA_PROM2 15,16-dihydrobiliverdin:ferredoxin oxidore...  227     1e-73
+  sp|Q7NHE8|PCYA_GLOVI Phycocyanobilin:ferredoxin oxidoreductase ...  226     6e-73
+  sp|A3PF82|PEBB_PROM0 Phycoerythrobilin:ferredoxin oxidoreductas...  224     4e-72
+  sp|A2BTH3|PEBB_PROMS Phycoerythrobilin:ferredoxin oxidoreductas...  223     6e-72
+  sp|P59288|PCYA_THEEB Phycocyanobilin:ferredoxin oxidoreductase ...  223     7e-72
+  sp|Q318F0|PEBB_PROM9 Phycoerythrobilin:ferredoxin oxidoreductas...  222     2e-71
+  sp|A2BQN3|PCYA_PROMS Phycocyanobilin:ferredoxin oxidoreductase ...  220     8e-71
+  sp|Q31BD0|PCYA_PROM9 Phycocyanobilin:ferredoxin oxidoreductase ...  220     1e-70
+  sp|A8G4C5|PCYA_PROM2 Phycocyanobilin:ferredoxin oxidoreductase ...  220     1e-70
+  sp|A8G797|PEBB_PROM2 Phycoerythrobilin:ferredoxin oxidoreductas...  220     1e-70
+  sp|A3PCF5|PCYA_PROM0 Phycocyanobilin:ferredoxin oxidoreductase ...  219     2e-70
+  sp|A9BCT3|PEBA_PROM4 15,16-dihydrobiliverdin:ferredoxin oxidore...  218     6e-70
+  sp|A2CA92|PCYA_PROM3 Phycocyanobilin:ferredoxin oxidoreductase ...  218     1e-69
+  sp|Q7V7Y8|PCYA_PROMM Phycocyanobilin:ferredoxin oxidoreductase ...  217     4e-69
+  sp|Q3AXI3|PCYA_SYNS9 Phycocyanobilin:ferredoxin oxidoreductase ...  213     4e-68
+  sp|Q93SN8|PEBA_PROMP 15,16-dihydrobiliverdin:ferredoxin oxidore...  213     4e-68
+  sp|Q93TL5|PCYA_PROMP Phycocyanobilin:ferredoxin oxidoreductase ...  209     2e-66
+  sp|A2BYX6|PEBA_PROM5 15,16-dihydrobiliverdin:ferredoxin oxidore...  207     2e-65
+  sp|Q3AKB1|PCYA_SYNSC Phycocyanobilin:ferredoxin oxidoreductase ...  206     3e-65
+  sp|Q9K4U6|PEBA_PROMA 15,16-dihydrobiliverdin:ferredoxin oxidore...  205     6e-65
+  sp|Q7U7A1|PCYA_SYNPX Phycocyanobilin:ferredoxin oxidoreductase ...  205     7e-65
+  sp|A2BYX5|PEBB_PROM5 Phycoerythrobilin:ferredoxin oxidoreductas...  204     4e-64
+  sp|A2BW83|PCYA_PROM5 Phycocyanobilin:ferredoxin oxidoreductase ...  202     2e-63
+  sp|Q7VCC2|PCYA_PROMA Phycocyanobilin:ferredoxin oxidoreductase ...  196     4e-61
+  sp|Q9SR43|PFBS_ARATH Phytochromobilin:ferredoxin oxidoreductase...  195     9e-60
+  sp|Q93SN7|PEBB_PROMP Phycoerythrobilin:ferredoxin oxidoreductas...  191     3e-59
+  sp|Q58MU6|PEBS_BPPRM Phycoerythrobilin synthase OS=Prochlorococ...  135     2e-37
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|Q7NL65|PEBB_GLOVI Phycoerythrobilin:ferredoxin oxidoreductase 
+OS=Gloeobacter violaceus (strain ATCC 29082 / PCC 7421) 
+OX=251221 GN=pebB PE=3 SV=1
+Length=245
+
+ Score = 288 bits (738),  Expect = 2e-97, Method: Composition-based stats.
+ Identities = 142/242 (59%), Positives = 172/242 (71%), Gaps = 8/242 (3%)
+
+Query  6    IYKPFWEWAAKTIKERLGDDLVSYPIPDGYLRKEAMVGESLAWTQSYGYQTKKMRQIRAA  65
+            +Y+PF E A + +  RL  +L  YPIP G+ RKEA+V      T S  +Q+ K+RQIRAA
+Sbjct  3    LYEPFLERAQQVLTRRL--ELAPYPIPVGFERKEALVRGEAVVTTSTAWQSPKLRQIRAA  60
+
+Query  66   HVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGHLIAIDMQPLFQTE-EYKKKYAEP  124
+            HV GG +LQVLN V  P + YDLPF G DLVTLPGGHLIA+DMQPLF+ +  Y+ KY EP
+Sbjct  61   HVQGGGALQVLNFVISPRLEYDLPFFGADLVTLPGGHLIALDMQPLFRDDPAYQAKYTEP  120
+
+Query  125  CMDMYQKHVKNLPWGGD-----KQYFSPVFLWTRPQEDKQVETYVFEAFKDYINKYLDFV  179
+             + +++ H  +L WGGD     + +FSP FLWTRP+E   VET VF AF DY+N YLDFV
+Sbjct  121  IVPLFEAHRAHLEWGGDFPEEARPFFSPAFLWTRPKETGTVETRVFAAFVDYLNAYLDFV  180
+
+Query  180  EAAKPVTDPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEWTERYIHGFLFDLEEKM  239
+            E A+PVT P+ LA +   QL YL YRAEKDPARGMF R YGPEWTE YIHGFLFDLE + 
+Sbjct  181  ERAEPVTHPEGLAAVERAQLRYLHYRAEKDPARGMFRRFYGPEWTEEYIHGFLFDLERRR  240
+
+Query  240  ES  241
+            E+
+Sbjct  241  EA  242
+
+
+> sp|Q93TM8|PEBB_NOSP7 Phycoerythrobilin:ferredoxin oxidoreductase 
+OS=Nostoc punctiforme (strain ATCC 29133 / PCC 73102) OX=63737 
+GN=pebB PE=3 SV=1
+Length=255
+
+ Score = 287 bits (736),  Expect = 5e-97, Method: Composition-based stats.
+ Identities = 145/246 (59%), Positives = 175/246 (71%), Gaps = 12/246 (5%)
+
+Query  4    SDIYKPFWEWAAKTIKERLGDDLVSYPIPDGYLRKEAMVGE----SLAWTQSYGYQTKKM  59
+              +Y+PF ++A   ++ RL  DL  YPIP G+    A+VG+        T SY +QT K+
+Sbjct  8    VTLYQPFLDYAIAYMRSRL--DLEPYPIPTGFESNSAVVGKGKNQEEVVTTSYAFQTAKL  65
+
+Query  60   RQIRAAHVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGHLIAIDMQPLFQTEE-YK  118
+            RQIRAAHV GG SLQVLN V FPH+NYDLPF G DLVTLPGGHLIA+DMQPLF+ +  Y+
+Sbjct  66   RQIRAAHVQGGNSLQVLNFVIFPHLNYDLPFFGADLVTLPGGHLIALDMQPLFRDDSAYQ  125
+
+Query  119  KKYAEPCMDMYQKHVKNLPWGGD-----KQYFSPVFLWTRPQEDKQVETYVFEAFKDYIN  173
+             KY EP + ++  H ++L WGGD     + +FSP FLWTRPQE   VET VF AFKDY+ 
+Sbjct  126  AKYTEPILPIFHAHQQHLSWGGDFPEEAQPFFSPAFLWTRPQETAVVETQVFAAFKDYLK  185
+
+Query  174  KYLDFVEAAKPVTDPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEWTERYIHGFLF  233
+             YLDFVE A+ VTD  +L  I++ QL YL+YRAEKDPARGMF R YG EWTE YIHGFLF
+Sbjct  186  AYLDFVEQAEAVTDSQNLVAIKQAQLRYLRYRAEKDPARGMFKRFYGAEWTEEYIHGFLF  245
+
+Query  234  DLEEKM  239
+            DLE K+
+Sbjct  246  DLERKL  251
+
+
+> sp|Q10UW6|PEBB_TRIEI Phycoerythrobilin:ferredoxin oxidoreductase 
+OS=Trichodesmium erythraeum (strain IMS101) OX=203124 GN=pebB 
+PE=3 SV=1
+Length=256
+
+ Score = 286 bits (732),  Expect = 2e-96, Method: Composition-based stats.
+ Identities = 143/247 (58%), Positives = 178/247 (72%), Gaps = 12/247 (5%)
+
+Query  3    VSDIYKPFWEWAAKTIKERLGDDLVSYPIPDGYLRKEAMVGESL----AWTQSYGYQTKK  58
+            + ++Y+PF ++A   +KE L  +L  YPIP G+  K AM G+        T SY + + K
+Sbjct  7    IVNLYQPFLDYALTKLKEEL--ELQPYPIPSGFEHKVAMTGKGKKQQEVQTTSYAHCSPK  64
+
+Query  59   MRQIRAAHVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGHLIAIDMQPLFQTE-EY  117
+            +RQIRAAHV GG++LQVLN V FPH+NYDLPF G DLV+LPGGHLIA+DMQPLF+   +Y
+Sbjct  65   LRQIRAAHVQGGSALQVLNFVIFPHLNYDLPFFGADLVSLPGGHLIALDMQPLFRDNLQY  124
+
+Query  118  KKKYAEPCMDMYQKHVKNLPWGGD-----KQYFSPVFLWTRPQEDKQVETYVFEAFKDYI  172
+            +KKY EP  + +QKH K LPWGGD       +FSP FLWTRPQ+ + VET VFEAFKDY+
+Sbjct  125  QKKYTEPIWETFQKHQKYLPWGGDFPEEATPFFSPAFLWTRPQKTELVETRVFEAFKDYL  184
+
+Query  173  NKYLDFVEAAKPVTDPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEWTERYIHGFL  232
+              YL FV+  + +T+ + LA I+E QL YL+YRAEKDPAR M TR YG EWTE YIHGFL
+Sbjct  185  QAYLIFVKQTEQITNSEKLAEIKEAQLRYLRYRAEKDPARKMLTRFYGHEWTEEYIHGFL  244
+
+Query  233  FDLEEKM  239
+            FDLE K+
+Sbjct  245  FDLERKL  251
+
+
+> sp|Q02190|PEBB_SYNPY Phycoerythrobilin:ferredoxin oxidoreductase 
+OS=Synechococcus sp. (strain WH8020) OX=32052 GN=pebB PE=3 
+SV=2
+Length=257
+
+ Score = 270 bits (692),  Expect = 3e-90, Method: Composition-based stats.
+ Identities = 100/243 (41%), Positives = 147/243 (60%), Gaps = 18/243 (7%)
+
+Query  7    YKPFWEWAAKTIKERLGDDLVSYPIPDGYLRKEAMVGESL----AWTQSYGYQTKKMRQI  62
+            ++PF E A K ++   G ++  YP+PD +L++E   G         T ++  +T+K RQ+
+Sbjct  19   WQPFLEDAIKRLE---GLNVEPYPVPDRFLQREDQTGSKSKSIPVTTATWACKTEKFRQV  75
+
+Query  63   RAAHVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGHLIAIDMQPLFQTEEYKKKY-  121
+            RAA V+ G++  VLN V  P   YDLPF G DLVTLP GHL+A+D+QP  +T+E    + 
+Sbjct  76   RAACVSAGSAASVLNFVINPKSTYDLPFFGGDLVTLPAGHLLALDLQPAIKTDEVHTTHV  135
+
+Query  122  AEPCMDMYQKHVKNLPWGGD-----KQYFSPVFLWTR----PQEDKQVETYVFEAFKDYI  172
+             +  + ++++    LP+GG      + +FSP FLWTR     + D+ +++ V  AF DY+
+Sbjct  136  WDRLIPIFERWRDQLPYGGPIPEEAQPFFSPGFLWTRLPLGEEGDELIQSIVRPAFNDYL  195
+
+Query  173  NKYLDFVEAAKPVTDPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEWTERYIHGFL  232
+            + YL+   +A+ VTD +    + + Q  Y  YRAEKDPARGM TR +G EWTE YIH  L
+Sbjct  196  DLYLELAASAERVTD-ERSEVLLQGQRKYTDYRAEKDPARGMLTRFHGSEWTEAYIHTVL  254
+
+Query  233  FDL  235
+            FDL
+Sbjct  255  FDL  257
+
+
+> sp|Q0ICV5|PEBB_SYNS3 Phycoerythrobilin:ferredoxin oxidoreductase 
+OS=Synechococcus sp. (strain CC9311) OX=64471 GN=pebB PE=3 
+SV=1
+Length=257
+
+ Score = 268 bits (686),  Expect = 2e-89, Method: Composition-based stats.
+ Identities = 98/243 (40%), Positives = 142/243 (58%), Gaps = 18/243 (7%)
+
+Query  7    YKPFWEWAAKTIKERLGDDLVSYPIPDGYLRKEAMVGESL----AWTQSYGYQTKKMRQI  62
+            ++PF E A   IK   G +   YP+PD +L++E   G         T ++  +T+K RQ+
+Sbjct  19   WQPFLEDA---IKSLGGLNFEPYPVPDRFLQREDQTGSKSKPISVTTATWACKTEKFRQV  75
+
+Query  63   RAAHVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGHLIAIDMQPLFQTEEYKKKY-  121
+            RAA V+ G++  VLN V  P+  YDLPF G DLVTLP GHL+A+D+QP  +T+E    + 
+Sbjct  76   RAACVSAGSAASVLNFVINPNSTYDLPFFGGDLVTLPSGHLLALDLQPAIKTDEVHTTHV  135
+
+Query  122  AEPCMDMYQKHVKNLPWGGD-----KQYFSPVFLWTR----PQEDKQVETYVFEAFKDYI  172
+             +  + ++++    LP+GG      + +FSP FLWTR     + D  +++ V  AF +Y+
+Sbjct  136  WDQLIPIFERWRDQLPYGGPIPEEAQPFFSPGFLWTRLPLGEEGDDLIQSVVRPAFNEYL  195
+
+Query  173  NKYLDFVEAAKPVTDPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEWTERYIHGFL  232
+              YL    +A+ V + +    + + Q  Y  YRAEKDPARGM TR +G EWTE YIH  L
+Sbjct  196  ELYLQLAASAERV-NAERSDFLLQGQRKYTDYRAEKDPARGMLTRFHGSEWTEAYIHTVL  254
+
+Query  233  FDL  235
+            FDL
+Sbjct  255  FDL  257
+
+
+> sp|Q3AUU4|PEBB_SYNS9 Phycoerythrobilin:ferredoxin oxidoreductase 
+OS=Synechococcus sp. (strain CC9902) OX=316279 GN=pebB PE=3 
+SV=1
+Length=257
+
+ Score = 267 bits (684),  Expect = 3e-89, Method: Composition-based stats.
+ Identities = 100/243 (41%), Positives = 142/243 (58%), Gaps = 18/243 (7%)
+
+Query  7    YKPFWEWAAKTIKERLGDDLVSYPIPDGYLRKEAMVGES----LAWTQSYGYQTKKMRQI  62
+            ++PF E A + ++     +L  YP+ + +L K+   G         T ++  +T K RQ+
+Sbjct  19   WQPFLEDAVQALQPL---NLEPYPVANDFLYKQDQTGSKAKPITVTTATWACKTDKFRQV  75
+
+Query  63   RAAHVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGHLIAIDMQPLFQ-TEEYKKKY  121
+            RAA V GG +  VLN V  P   +DLPF G DLVTLP GHL+A+D+QP  +  E + ++ 
+Sbjct  76   RAACVYGGTAASVLNFVINPSARFDLPFFGGDLVTLPSGHLLALDLQPADKSDEAHTQQV  135
+
+Query  122  AEPCMDMYQKHVKNLPWGGD-----KQYFSPVFLWTR----PQEDKQVETYVFEAFKDYI  172
+             E  + ++++    LP GG      + +FSP FLWTR     + D+ + + V  AF DY+
+Sbjct  136  WEKLIPIFERWRSKLPDGGPIPEEAQPFFSPGFLWTRLPLGDEGDQLINSVVRPAFNDYL  195
+
+Query  173  NKYLDFVEAAKPVTDPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEWTERYIHGFL  232
+            + YL+  EAAKPV D D    + + Q  Y  YRAEKDPARGM TR +G +WTE+YIH  L
+Sbjct  196  SLYLELAEAAKPVGD-DRRDHLLKGQRRYTDYRAEKDPARGMLTRFHGSDWTEKYIHTVL  254
+
+Query  233  FDL  235
+            FDL
+Sbjct  255  FDL  257
+
+
+> sp|Q7V585|PEBB_PROMM Phycoerythrobilin:ferredoxin oxidoreductase 
+OS=Prochlorococcus marinus (strain MIT 9313) OX=74547 GN=pebB 
+PE=3 SV=1
+Length=257
+
+ Score = 265 bits (678),  Expect = 3e-88, Method: Composition-based stats.
+ Identities = 102/252 (40%), Positives = 140/252 (56%), Gaps = 18/252 (7%)
+
+Query  1    EAVSDIYKPFWEWA---AKTIKERLGDDLVSYPIPDGYLRKEAMVGESL----AWTQSYG  53
+             ++  +  P W WA   +  I   +      YP+   +L++E   G         T ++ 
+Sbjct  7    SSLDPVKMPEWRWAPFLSHAINAFIPLKPEPYPVAPEFLQREGKTGSKSQPIRVTTCTWA  66
+
+Query  54   YQTKKMRQIRAAHVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGHLIAIDMQPLF-  112
+             +TKK RQ+RAA V  G S  VLN V  P+  +DLPF G DLVTLP GHL+A+D+QP   
+Sbjct  67   CRTKKFRQVRAACVEAGRSASVLNFVINPYHTFDLPFFGADLVTLPSGHLLALDLQPAIT  126
+
+Query  113  QTEEYKKKYAEPCMDMYQKHVKNLPWGGD-----KQYFSPVFLWTRP----QEDKQVETY  163
+              E + K+  E  M +++    +LP GG      K YFSP FLWTR     + ++ ++  
+Sbjct  127  SDERHTKQVWERLMPIFEHWRVHLPEGGPIPEEAKPYFSPGFLWTRLPLSIEGNQLIDEV  186
+
+Query  164  VFEAFKDYINKYLDFVEAAKPVTDPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEW  223
+            +  AFKDY+N YLD VE A+ V+ P    ++ E Q  YL YRA+KDPAR M  R +G +W
+Sbjct  187  IMPAFKDYLNLYLDLVEMAEEVS-PQRAFKLLEGQKRYLSYRAKKDPARAMLARFHGHQW  245
+
+Query  224  TERYIHGFLFDL  235
+            TE YIH  LFDL
+Sbjct  246  TESYIHNVLFDL  257
+
+
+> sp|A2CBW9|PEBB_PROM3 Phycoerythrobilin:ferredoxin oxidoreductase 
+OS=Prochlorococcus marinus (strain MIT 9303) OX=59922 GN=pebB 
+PE=3 SV=1
+Length=257
+
+ Score = 265 bits (678),  Expect = 3e-88, Method: Composition-based stats.
+ Identities = 100/252 (40%), Positives = 140/252 (56%), Gaps = 18/252 (7%)
+
+Query  1    EAVSDIYKPFWEWA---AKTIKERLGDDLVSYPIPDGYLRKEAMVGES----LAWTQSYG  53
+             ++  +  P W WA   +  I   +      YP+   +L++E   G         T ++ 
+Sbjct  7    SSLDPVRMPEWRWAPFLSHAINALIPLKPEPYPVAPEFLQREGKTGSKSQPIKVTTCTWA  66
+
+Query  54   YQTKKMRQIRAAHVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGHLIAIDMQPLF-  112
+             +TKK RQ+RAA V  G+S  VLN V  P+  +DLPF G DLVTLP GHL+A+D+QP   
+Sbjct  67   CRTKKFRQVRAACVEAGSSASVLNFVINPYHTFDLPFFGADLVTLPSGHLLALDLQPAIT  126
+
+Query  113  QTEEYKKKYAEPCMDMYQKHVKNLPWGGD-----KQYFSPVFLWTR----PQEDKQVETY  163
+              E + K+  E  M ++++    LP GG      K YFSP FLWTR     + ++ ++  
+Sbjct  127  SDERHTKQVWERLMPIFEQWRVRLPEGGPIPEEAKPYFSPGFLWTRLHLGSEGNQLIDEV  186
+
+Query  164  VFEAFKDYINKYLDFVEAAKPVTDPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEW  223
+            +  AF+DY+N YLD VE A+ V+ P    ++ E Q  YL YR +KDPAR M  R +G +W
+Sbjct  187  IMPAFRDYLNLYLDLVEMAEEVS-PQRAFKLLEGQKRYLSYRGKKDPARAMLARFHGHQW  245
+
+Query  224  TERYIHGFLFDL  235
+            TE YIH  LFDL
+Sbjct  246  TESYIHNVLFDL  257
+
+
+> sp|Q7U4P6|PEBB_SYNPX Phycoerythrobilin:ferredoxin oxidoreductase 
+OS=Synechococcus sp. (strain WH8102) OX=84588 GN=pebB PE=3 
+SV=1
+Length=262
+
+ Score = 264 bits (674),  Expect = 2e-87, Method: Composition-based stats.
+ Identities = 102/257 (40%), Positives = 143/257 (56%), Gaps = 24/257 (9%)
+
+Query  1    EAVSDI------YKPFWEWAAKTIKERLGDDLVSYPIPDGYLRKEAMVGESL----AWTQ  50
+             ++  +      ++PF + A+  +K     +   YPI + +L+KE   G         T 
+Sbjct  8    SSLDPVQIPGWRWQPFLDEASAALKPF---NPSPYPIAETFLQKEGSTGSKAKPVPVTTA  64
+
+Query  51   SYGYQTKKMRQIRAAHVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGHLIAIDMQP  110
+            ++   T K+RQ+R A V  G +  VLN V  P   +DLPF G DLVTLP GHL+A+D+QP
+Sbjct  65   TWACSTDKLRQVRCACVEAGMAASVLNFVINPSCRFDLPFFGADLVTLPNGHLLALDLQP  124
+
+Query  111  LFQ-TEEYKKKYAEPCMDMYQKHVKNLPWGGD-----KQYFSPVFLWTR----PQEDKQV  160
+            + +   ++ +   E  M ++++    LP GG      + YFSP FLWTR     + D+ +
+Sbjct  125  VDKADPDHTQPVWERLMPLFERWQAELPDGGPIPEEAQPYFSPAFLWTRIPLGEEGDELI  184
+
+Query  161  ETYVFEAFKDYINKYLDFVEAAKPVTDPDHLARIRERQLSYLQYRAEKDPARGMFTRMYG  220
+            E  +  AF DY+  YL+ V  A+PV+D D    +   Q  Y  YRAEKDPARGM TR YG
+Sbjct  185  ERVIRPAFIDYLQLYLNLVAEAEPVSD-DRAELLLSGQKRYTAYRAEKDPARGMLTRFYG  243
+
+Query  221  PEWTERYIHGFLFDLEE  237
+             EWTE YIHG LFDLE+
+Sbjct  244  SEWTESYIHGVLFDLED  260
+
+
+> sp|Q93TN0|PCYA_NOSS1 Phycocyanobilin:ferredoxin oxidoreductase 
+OS=Nostoc sp. (strain PCC 7120 / SAG 25.82 / UTEX 2576) OX=103690 
+GN=pcyA PE=1 SV=1
+Length=245
+
+ Score = 260 bits (666),  Expect = 1e-86, Method: Composition-based stats.
+ Identities = 58/243 (24%), Positives = 94/243 (39%), Gaps = 18/243 (7%)
+
+Query  9    PFWEWAAKTIKERLGD----------DLVSYPIPDGYLRKEAMVGESLAWTQSYGYQTKK  58
+            P        +  +L D          DL  Y +P      E  +       ++  YQT +
+Sbjct  7    PSLREQQHPLIRQLADCIEEVWHQHLDLSPYHLPAELGYVEGRLEGEKLTIENRCYQTPQ  66
+
+Query  59   MRQIRAAHVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGHLIAI-DMQPLFQTEEY  117
+             R++       G  L +L+ V FP   YDLP  G DLV   G    AI D+ P+      
+Sbjct  67   FRKMHLELAKVGNMLDILHCVMFPRPEYDLPMFGCDLVGGRGQISAAIADLSPVHLDRTL  126
+
+Query  118  KKKYAEPCMDMYQ---KHVKNLPWGGDKQYFSPVFLWTRPQEDKQVETYVFEAFKDYINK  174
+             + Y      +        + LP  G    FS   ++ RP   ++ E       ++++  
+Sbjct  127  PESYNSALTSLNTLNFSQPRELPEWG--NIFSDFCIFVRPSSPEE-EAMFLGRVREFLQV  183
+
+Query  175  YLDFVEAAKPVTDPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEWTERYIHGFLFD  234
+            +     AA PV+  +   +I   Q +Y   + + D  R +  + +G +W E Y+   LFD
+Sbjct  184  HCQGAIAASPVS-AEQKQQILAGQHNYCSKQQQNDKTRRVLEKAFGVDWAENYMTTVLFD  242
+
+Query  235  LEE  237
+            L E
+Sbjct  243  LPE  245
+
+
+> sp|Q7U4P7|PEBA_SYNPX 15,16-dihydrobiliverdin:ferredoxin oxidoreductase 
+OS=Synechococcus sp. (strain WH8102) OX=84588 GN=pebA 
+PE=3 SV=1
+Length=235
+
+ Score = 259 bits (662),  Expect = 4e-86, Method: Composition-based stats.
+ Identities = 66/239 (28%), Positives = 113/239 (47%), Gaps = 13/239 (5%)
+
+Query  6    IYKPFWEWAAKTIKERLGDDLVSYPIPDGYLRKEAMVGESLAWTQSYGYQTKKMRQIRAA  65
+            ++ PF E     I+ R G   +S  +P G    ++  G S    QS+ +Q    R+ R  
+Sbjct  1    MFDPFLEELQTGIQARGG---ISVEVPAGLEHNQSQKGSS--TIQSWLWQVPGFRRWRVT  55
+
+Query  66   HVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGH--LIAIDMQPLFQTEEYKKKYAE  123
+             ++ G SLQVLN V +P  + D P +G+DL+        +  +D QPL Q ++Y  ++ +
+Sbjct  56   RLDAGDSLQVLNSVAYPDFDLDHPLMGVDLLWFGARQKLVAVLDFQPLVQDKDYLDRHFD  115
+
+Query  124  PCMDMYQKH-----VKNLPWGGDKQYFSPVFLWTRPQEDKQVETYVFEAFKDYINKYLDF  178
+               D+  +       + +      QYFS   L+ R    ++ +  + +AF  ++  Y   
+Sbjct  116  GLKDLNARFPDLNGEETMRSFDPNQYFSSWLLFCRG-GSEEADRSLPKAFSAFLKAYWGL  174
+
+Query  179  VEAAKPVTDPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEWTERYIHGFLFDLEE  237
+             + A           +   Q +Y  Y AE+DPA G+FT  +G EW++R++H FLF   +
+Sbjct  175  HDEASKEPSSISPGDVERLQNAYDVYSAERDPAHGLFTSHFGKEWSDRFLHEFLFPASQ  233
+
+
+> sp|Q3AMI3|PEBA_SYNSC 15,16-dihydrobiliverdin:ferredoxin oxidoreductase 
+OS=Synechococcus sp. (strain CC9605) OX=110662 GN=pebA 
+PE=3 SV=1
+Length=235
+
+ Score = 259 bits (661),  Expect = 5e-86, Method: Composition-based stats.
+ Identities = 65/239 (27%), Positives = 113/239 (47%), Gaps = 13/239 (5%)
+
+Query  6    IYKPFWEWAAKTIKERLGDDLVSYPIPDGYLRKEAMVGESLAWTQSYGYQTKKMRQIRAA  65
+            ++ PF E     IK R     V   +P G    ++   +  +  +S+ +     R+ R  
+Sbjct  1    MFDPFLEELLSGIKARGA---VPVEVPHGLEHNQSS--KRSSTIKSWLWDVPGFRRWRVT  55
+
+Query  66   HVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGH--LIAIDMQPLFQTEEYKKKYAE  123
+             ++ G SLQVLN V +P   YD P +G+DL+        +  +D QPL Q ++Y ++Y +
+Sbjct  56   RLDAGDSLQVLNSVAYPDYTYDHPLMGVDLLWFGAKQKLVAVLDFQPLVQDKDYLERYFD  115
+
+Query  124  PCMDMYQKH-----VKNLPWGGDKQYFSPVFLWTRPQEDKQVETYVFEAFKDYINKYLDF  178
+                +  +       + +      QYFS   L+ R    +Q  + +  AF  ++  Y D 
+Sbjct  116  GLKSLNAQFPDLNGEETMRSFDPNQYFSSWLLFCRG-GAEQATSSLPTAFSAFLKTYWDL  174
+
+Query  179  VEAAKPVTDPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEWTERYIHGFLFDLEE  237
+             + A  +    +   + + Q +Y  Y AE+DPA G+FT  +G EW++R++H FLF   +
+Sbjct  175  HDKAVKIPSSINPIEVAQLQKNYDIYSAERDPAHGLFTSHFGSEWSDRFLHEFLFPASQ  233
+
+
+> sp|Q3M745|PCYA_TRIV2 Phycocyanobilin:ferredoxin oxidoreductase 
+OS=Trichormus variabilis (strain ATCC 29413 / PCC 7937) OX=240292 
+GN=pcyA PE=3 SV=1
+Length=245
+
+ Score = 259 bits (661),  Expect = 8e-86, Method: Composition-based stats.
+ Identities = 58/243 (24%), Positives = 92/243 (38%), Gaps = 18/243 (7%)
+
+Query  9    PFWEWAAKTIKERLGD----------DLVSYPIPDGYLRKEAMVGESLAWTQSYGYQTKK  58
+            P        +  +L D          DL  Y +P      E  +       ++  YQT +
+Sbjct  7    PSLREQQHPLIRQLADCIEEVWHQHLDLSPYHLPAELGYVEGRLEGEKLTIENRCYQTPQ  66
+
+Query  59   MRQIRAAHVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGHLIAI-DMQPLFQTEEY  117
+             R++       G  L +L+ V FP   YDLP  G DLV   G    AI D+ P+      
+Sbjct  67   FRKMHLELAKVGNMLDILHCVMFPRPEYDLPMFGCDLVGGRGQISAAIADLSPVHLDRTL  126
+
+Query  118  KKKY---AEPCMDMYQKHVKNLPWGGDKQYFSPVFLWTRPQEDKQVETYVFEAFKDYINK  174
+               Y         +     + LP  G    FS   ++ RP   ++ E       ++++  
+Sbjct  127  PASYNSALTNLDTLNFSQPRELPEWG--NIFSDFCIFVRPSSPEE-EAMFLGRVREFLQV  183
+
+Query  175  YLDFVEAAKPVTDPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEWTERYIHGFLFD  234
+            +     AA PV+  +    I   Q +Y   + + D  R +  + +G +W E Y+   LFD
+Sbjct  184  HCQGAIAASPVS-AEQKQHILAGQHNYCSKQQQNDKTRRVLEKAFGTDWAENYMTTVLFD  242
+
+Query  235  LEE  237
+            L E
+Sbjct  243  LPE  245
+
+
+> sp|Q3AUU5|PEBA_SYNS9 15,16-dihydrobiliverdin:ferredoxin oxidoreductase 
+OS=Synechococcus sp. (strain CC9902) OX=316279 GN=pebA 
+PE=3 SV=1
+Length=235
+
+ Score = 257 bits (658),  Expect = 1e-85, Method: Composition-based stats.
+ Identities = 67/238 (28%), Positives = 110/238 (46%), Gaps = 13/238 (5%)
+
+Query  6    IYKPFWEWAAKTIKERLGDDLVSYPIPDGYLRKEAMVGESLAWTQSYGYQTKKMRQIRAA  65
+            ++ PF +     I  R G       +PDG     +  G S    +S+ +Q    R+ R  
+Sbjct  1    MFDPFLDQLHADITARGG---TPAEVPDGLAECHSAKGAS--VIRSWLWQVPGFRRWRVT  55
+
+Query  66   HVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGH--LIAIDMQPLFQTEEYKKKYAE  123
+             ++ G SLQVLN V +P   +D P +G+DL+        +  +D QPL Q E Y  +Y +
+Sbjct  56   RLDAGESLQVLNSVAYPDYGFDHPLMGVDLLWFGARQKLVAVLDFQPLVQNEAYFDRYFD  115
+
+Query  124  PCMDMYQKH-----VKNLPWGGDKQYFSPVFLWTRPQEDKQVETYVFEAFKDYINKYLDF  178
+                + ++       + +      QYFS   L+ R    +Q +T +  AF  ++  Y   
+Sbjct  116  GLKALNRQFPDLNGEETMRSFDPNQYFSSWLLFCRG-GAEQAQTSLPPAFSAFLKAYWAL  174
+
+Query  179  VEAAKPVTDPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEWTERYIHGFLFDLE  236
+             +AAK          ++  Q +Y  Y AE+DPA G+FT  +G  W+++++H FLF   
+Sbjct  175  HDAAKNNPATIAADEVKRLQENYDVYSAERDPAHGLFTSHFGKNWSDQFLHEFLFPAS  232
+
+
+> sp|B0JPG5|PCYA_MICAN Phycocyanobilin:ferredoxin oxidoreductase 
+OS=Microcystis aeruginosa (strain NIES-843) OX=449447 GN=pcyA 
+PE=3 SV=1
+Length=245
+
+ Score = 258 bits (659),  Expect = 1e-85, Method: Composition-based stats.
+ Identities = 56/241 (23%), Positives = 98/241 (41%), Gaps = 10/241 (4%)
+
+Query  3    VSDIYKPFWEWAAKTIKERLGD--DLVSYPIPDGYLRKEAMVGESLAWTQSYGYQTKKMR  60
+            +  +  P     A  I     +  DL  + +P+G    E  +       ++  YQT + R
+Sbjct  9    ILPLLHPLIGQLATAILSHWENYLDLSPFELPEGLGYVEGRLEGEKLIIENRCYQTPQFR  68
+
+Query  61   QIRAAHVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGHLIAI-DMQPLFQTEEYKK  119
+            ++       G  L +L+ V FP   Y LP  G D+V+   G   AI D+ P    +    
+Sbjct  69   KMHLELAKLGNGLDILHCVMFPRPEYPLPMFGCDIVSGKAGISAAIVDLSPTSGDKTLPS  128
+
+Query  120  KYAEPCMDMY---QKHVKNLPWGGDKQYFSPVFLWTRPQEDKQVETYVFEAFKDYINKYL  176
+             Y +    +        ++LP  G    FS   L+ RP+   + E    +   D++  + 
+Sbjct  129  AYNQALAALPGADFAQARDLPPWG--HIFSQYCLFIRPETAAE-ERQFLQRVTDFLTIHC  185
+
+Query  177  DFVEAAKPVTDPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEWTERYIHGFLFDLE  236
+                 ++P++  +      + Q  Y   + + D  R +  + +G EW ERY+ G LFDL 
+Sbjct  186  KCARESQPLSGEE-ARIYLQGQRDYCSQQQKNDKTRRVLEKAFGWEWAERYMTGVLFDLP  244
+
+Query  237  E  237
+            +
+Sbjct  245  D  245
+
+
+> sp|Q7V586|PEBA_PROMM 15,16-dihydrobiliverdin:ferredoxin oxidoreductase 
+OS=Prochlorococcus marinus (strain MIT 9313) OX=74547 
+GN=pebA PE=3 SV=1
+Length=249
+
+ Score = 256 bits (654),  Expect = 9e-85, Method: Composition-based stats.
+ Identities = 67/244 (27%), Positives = 121/244 (50%), Gaps = 13/244 (5%)
+
+Query  6    IYKPFWEWAAKTIKERLGDDLVSYPIPDGYLRKEAMVGESLAWTQSYGYQTKKMRQIRAA  65
+            ++ P  E    +I+ + G    +  +PDG   +E    +  +W +S+ +Q    R+ R +
+Sbjct  1    MFDPLLEKLHSSIRIQGG---ETAAVPDGL--RECRNEKKNSWIRSWLWQVPGFRRWRVS  55
+
+Query  66   HVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGH--LIAIDMQPLFQTEEYKKKYAE  123
+             ++ G SLQVLN V +P+ N D P +GLDL+        +  +D QPL Q + Y +++ +
+Sbjct  56   RLDAGESLQVLNSVAYPNYNIDQPLMGLDLLWFGKRQKLVAILDFQPLIQDQSYLERHFQ  115
+
+Query  124  PCMDMYQKH-----VKNLPWGGDKQYFSPVFLWTRPQEDKQVETYVFEAFKDYINKYLDF  178
+                +  +       + +      QYFSP  L+ R    ++    + EAF  +++ Y + 
+Sbjct  116  GLKTLQNRFPELSGEETMRLFDPNQYFSPWLLFCRG-GAEKATNSLPEAFNAFLHCYWEL  174
+
+Query  179  VEAAKPVTDPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEWTERYIHGFLFDLEEK  238
+             +           A +++ Q++Y  Y AE+DPA G+FT  +G  W++R++H FLF    K
+Sbjct  175  HQQNSDKASLIPAAEVKQLQIAYDIYSAERDPAHGLFTSHFGKAWSDRFLHEFLFPASTK  234
+
+Query  239  MESG  242
+             +S 
+Sbjct  235  ADSS  238
+
+
+> sp|Q93TM9|PCYA_NOSP7 Phycocyanobilin:ferredoxin oxidoreductase 
+OS=Nostoc punctiforme (strain ATCC 29133 / PCC 73102) OX=63737 
+GN=pcyA PE=3 SV=1
+Length=245
+
+ Score = 255 bits (652),  Expect = 2e-84, Method: Composition-based stats.
+ Identities = 57/244 (23%), Positives = 96/244 (39%), Gaps = 18/244 (7%)
+
+Query  8    KPFWEWAAKTIKERLGD----------DLVSYPIPDGYLRKEAMVGESLAWTQSYGYQTK  57
+             P        +  +L D          DL  Y +PD     E  +       ++  YQT 
+Sbjct  6    MPSLREQQHPLIRQLADCIEAAWHQHLDLSPYHLPDELGYVEGRLEGEKLTIENRCYQTP  65
+
+Query  58   KMRQIRAAHVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGHLIAI-DMQPLFQTEE  116
+            + R++     N G  L +L+ V FP   Y+LP  G DLV   G    AI D+ P+     
+Sbjct  66   QFRKMHLELANIGNMLDILHCVMFPRPQYNLPMFGCDLVGGRGQISAAIADLSPIQLERT  125
+
+Query  117  YKKKY---AEPCMDMYQKHVKNLPWGGDKQYFSPVFLWTRPQEDKQVETYVFEAFKDYIN  173
+              + Y         +     + LP  G    FS   ++ RP   ++ E       +++++
+Sbjct  126  LPESYTTALAQLPVLNFSQPRELPEWG--NIFSDFCIFVRPGSPEE-EAMFLSRVREFLD  182
+
+Query  174  KYLDFVEAAKPVTDPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEWTERYIHGFLF  233
+             +     A+ PV+  + + +    Q +Y   + + D  R +  + +GP W E Y+   LF
+Sbjct  183  IHCMQAIASHPVSV-EQVTQNLAGQHNYCTKQQQNDKTRRVLEKAFGPVWAENYMTTVLF  241
+
+Query  234  DLEE  237
+            DL  
+Sbjct  242  DLPT  245
+
+
+> sp|A5GVQ6|PEBB_SYNR3 Phycoerythrobilin:ferredoxin oxidoreductase 
+OS=Synechococcus sp. (strain RCC307) OX=316278 GN=pebB PE=3 
+SV=1
+Length=262
+
+ Score = 255 bits (652),  Expect = 3e-84, Method: Composition-based stats.
+ Identities = 105/246 (43%), Positives = 144/246 (59%), Gaps = 18/246 (7%)
+
+Query  7    YKPFWEWAAKTIKERLGDDLVSYPIPDGYLRKEAMVGESL----AWTQSYGYQTKKMRQI  62
+            ++PF + A   ++     +L  YP+   +L + +  G         T ++  +T K+RQ+
+Sbjct  19   WQPFLDHACGALQPL---ELEPYPVAPEFLLQTSQTGSKSKPVQVTTATWACKTNKLRQV  75
+
+Query  63   RAAHVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGHLIAIDMQPLFQTE-EYKKKY  121
+            RAA V  GA+  VLN V  P  +YDLPF G DLVTLP GHL+A+D+QP  +T+ E+ K  
+Sbjct  76   RAACVEAGAAASVLNFVVNPSTSYDLPFFGADLVTLPAGHLLALDLQPALKTDAEHTKAV  135
+
+Query  122  AEPCMDMYQKHVKNLPWGGD-----KQYFSPVFLWTR----PQEDKQVETYVFEAFKDYI  172
+             E  M ++++  + LP GG      K YFSP FLWTR     + D  +E  V  AF+DY+
+Sbjct  136  WERLMPIFERWQQRLPGGGPIPEEAKPYFSPGFLWTRIPLGSEGDALIEEAVKPAFRDYL  195
+
+Query  173  NKYLDFVEAAKPVTDPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEWTERYIHGFL  232
+              YL  V  A+ V+ P+  A +   Q  Y  YRAEKDPARGM TR +G EWTE YIHG L
+Sbjct  196  ELYLQLVHEAEEVS-PERSAELLAGQKRYTSYRAEKDPARGMLTRFHGAEWTEAYIHGVL  254
+
+Query  233  FDLEEK  238
+            FDL++K
+Sbjct  255  FDLDKK  260
+
+
+> sp|A2CBW8|PEBA_PROM3 15,16-dihydrobiliverdin:ferredoxin oxidoreductase 
+OS=Prochlorococcus marinus (strain MIT 9303) OX=59922 
+GN=pebA PE=3 SV=1
+Length=249
+
+ Score = 253 bits (646),  Expect = 2e-83, Method: Composition-based stats.
+ Identities = 66/244 (27%), Positives = 119/244 (49%), Gaps = 13/244 (5%)
+
+Query  6    IYKPFWEWAAKTIKERLGDDLVSYPIPDGYLRKEAMVGESLAWTQSYGYQTKKMRQIRAA  65
+            ++ P  E    +I+ + G    +  +PDG   +E    +  +  +S+ +Q    R+ R +
+Sbjct  1    MFDPLLEKLHSSIRIQGG---ETAAVPDGL--RECRNEKKNSLIRSWLWQVPGFRRWRVS  55
+
+Query  66   HVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGH--LIAIDMQPLFQTEEYKKKYAE  123
+             ++ G SLQVLN V +P+ N D P +GLDL+        +  +D QPL Q   Y +++ +
+Sbjct  56   RLDAGESLQVLNSVAYPNYNIDQPLMGLDLLWFGKRQKLVAILDFQPLIQDHSYLERHFQ  115
+
+Query  124  PCMDMYQKH-----VKNLPWGGDKQYFSPVFLWTRPQEDKQVETYVFEAFKDYINKYLDF  178
+                +  +       + +      QYFSP  L+ R    ++    + EAF  +++ Y + 
+Sbjct  116  GLKALQNRFPELSGEETMRLFDPNQYFSPWLLFCRG-GAEKATNSLPEAFNAFLHCYWEL  174
+
+Query  179  VEAAKPVTDPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEWTERYIHGFLFDLEEK  238
+             +           A +++ Q++Y  Y AE+DPA G+FT  +G  W++R++H FLF    K
+Sbjct  175  HQQNSKKASLIPAAEVKQLQIAYDIYSAERDPAHGLFTSHFGKAWSDRFLHEFLFPASTK  234
+
+Query  239  MESG  242
+             +S 
+Sbjct  235  ADSS  238
+
+
+> sp|A9BCT2|PEBB_PROM4 Phycoerythrobilin:ferredoxin oxidoreductase 
+OS=Prochlorococcus marinus (strain MIT 9211) OX=93059 GN=pebB 
+PE=3 SV=1
+Length=257
+
+ Score = 252 bits (644),  Expect = 5e-83, Method: Composition-based stats.
+ Identities = 92/252 (37%), Positives = 136/252 (54%), Gaps = 18/252 (7%)
+
+Query  1    EAVSDIYKPFWEWAA---KTIKERLGDDLVSYPIPDGYLRKEAMVGESLAWTQ----SYG  53
+             ++  +    W W+      IK     D+  YPIP+ +L KE  +       +    ++ 
+Sbjct  7    NSLDPLEISEWRWSEFLDDAIKALELFDIEPYPIPEEFLTKEETIKFKNNQIKVKALTWA  66
+
+Query  54   YQTKKMRQIRAAHVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGHLIAIDMQPLFQ  113
+             +T K+RQ RAA +  G +  VLNLV  P  N++LPF G D VTLP GHL+A+D+QP+ +
+Sbjct  67   CRTTKIRQARAACIEAGPAASVLNLVINPFHNFELPFFGADFVTLPSGHLLALDLQPVLK  126
+
+Query  114  TEE-YKKKYAEPCMDMYQKHVKNLPWGGDKQ-----YFSPVFLWTR----PQEDKQVETY  163
+             +E + +K     + ++      LP GG        +FSP FLWTR     Q  K +   
+Sbjct  127  KDEIHNQKVWSKLIPIHDHWQSLLPSGGPIPQEAETFFSPGFLWTRLPLDDQGSKLISKV  186
+
+Query  164  VFEAFKDYINKYLDFVEAAKPVTDPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEW  223
+            +  AF++Y+  Y+D +  A+ V+  +    I   Q +Y+ YRAEKDPARGM  R +G +W
+Sbjct  187  IRPAFQEYLTLYIDLISDAQEVSK-ERSLEILSGQKAYINYRAEKDPARGMLARFFGKDW  245
+
+Query  224  TERYIHGFLFDL  235
+            TE+YIH  LFDL
+Sbjct  246  TEQYIHKVLFDL  257
+
+
+> sp|Q7NL66|PEBA_GLOVI 15,16-dihydrobiliverdin:ferredoxin oxidoreductase 
+OS=Gloeobacter violaceus (strain ATCC 29082 / PCC 
+7421) OX=251221 GN=pebA PE=3 SV=2
+Length=244
+
+ Score = 251 bits (642),  Expect = 7e-83, Method: Composition-based stats.
+ Identities = 78/235 (33%), Positives = 126/235 (54%), Gaps = 9/235 (4%)
+
+Query  6    IYKPFWEWAAKTIKERLGDDLVSYPIPDGYLRKEAMVGESLAWTQSYGYQTKKMRQIRAA  65
+            +Y+PF E   + ++     DL S  IP G   + +  G      +S+ Y   ++R+IR  
+Sbjct  1    MYRPFLEHLQQKLQSSF--DLQSLTIPAGLDYRISERGRESTTIRSWCYTCSELRKIRYT  58
+
+Query  66   HVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLP-GGHLIAIDMQPLFQTEEYKKKYAEP  124
+            +++GG   QV N V +P   YDLP LG+DL+      +LI +D QPLF+ + Y  +Y EP
+Sbjct  59   YIDGGEHAQVFNSVIYPAHRYDLPLLGIDLLAFGKKKNLIVLDFQPLFRDKAYLARYIEP  118
+
+Query  125  CMDMYQKHVK-----NLPWGGDKQYFSPVFLWTRPQEDKQVETYVFEAFKDYINKYLDFV  179
+               + +++        + +    QYFS   L+ R    + V   VF A+ DY++ Y   +
+Sbjct  119  MRILRERYGDVAQDVEMKFYDANQYFSKYLLFARTD-AETVAGRVFTAYCDYLDLYWQLL  177
+
+Query  180  EAAKPVTDPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEWTERYIHGFLFD  234
+             +A P+ D   + RI + Q  Y QY A++DPA G+F+  +G EW ER+++ FLF+
+Sbjct  178  ASAAPLGDAQDIRRIVKAQKDYDQYSADRDPASGLFSSYFGHEWAERFLYEFLFE  232
+
+
+> sp|Q02189|PEBA_SYNPY 15,16-dihydrobiliverdin:ferredoxin oxidoreductase 
+OS=Synechococcus sp. (strain WH8020) OX=32052 GN=pebA 
+PE=1 SV=1
+Length=236
+
+ Score = 250 bits (640),  Expect = 7e-83, Method: Composition-based stats.
+ Identities = 67/238 (28%), Positives = 111/238 (47%), Gaps = 13/238 (5%)
+
+Query  6    IYKPFWEWAAKTIKERLGDDLVSYPIPDGYLRKEAMVGESLAWTQSYGYQTKKMRQIRAA  65
+            ++  F       I +R G      P+P+G    E    +S +  QS+ +     R+ R  
+Sbjct  1    MFDSFLNELHSDITKRGG---SPLPLPEGLE--ECRSSKSSSVIQSWLWDVPGFRRWRVT  55
+
+Query  66   HVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGH--LIAIDMQPLFQTEEYKKKYAE  123
+             ++ G SLQV N V +P  NYD P +G+DL+        +  +D QPL Q ++Y  +Y  
+Sbjct  56   RLDAGDSLQVFNSVAYPDYNYDHPLMGVDLLWFGARQKLVAVLDFQPLVQDKDYLDRYFS  115
+
+Query  124  PCMDMYQKH-----VKNLPWGGDKQYFSPVFLWTRPQEDKQVETYVFEAFKDYINKYLDF  178
+               ++ Q+       + +      QYFS   L+ R    +Q +  + +AF  ++  Y D 
+Sbjct  116  GLKELNQRFPDLNGEETMRSFDPNQYFSSWLLFCRG-GAEQADLSLPKAFSAFLKAYWDL  174
+
+Query  179  VEAAKPVTDPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEWTERYIHGFLFDLE  236
+             + AK +        ++  Q  Y  Y AE+DPA G+FT  +G +W+ R++H FLF   
+Sbjct  175  HDNAKSIPSTIPPEEVKNLQDKYDIYSAERDPAHGLFTSHFGKDWSNRFLHEFLFPAS  232
+
+
+> sp|B1X018|PCYA_CROS5 Phycocyanobilin:ferredoxin oxidoreductase 
+OS=Crocosphaera subtropica (strain ATCC 51142 / BH68) OX=43989 
+GN=pcyA PE=3 SV=1
+Length=246
+
+ Score = 250 bits (639),  Expect = 2e-82, Method: Composition-based stats.
+ Identities = 56/235 (24%), Positives = 94/235 (40%), Gaps = 10/235 (4%)
+
+Query  9    PFWEWAAKTIKERLGD--DLVSYPIPDGYLRKEAMVGESLAWTQSYGYQTKKMRQIRAAH  66
+            P     A+ I     D  DL  Y +PDG    E  +       ++  YQ+ + R++    
+Sbjct  15   PLIHQLAEVIISHWQDYLDLSPYELPDGLGYVEGKLEGEKLVIENRCYQSPQFRKMHLEL  74
+
+Query  67   VNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGHLIAI-DMQPLFQTEEYKKKYAEPC  125
+               G  L +L+ V FP+ +Y LP  G D+V   GG   AI D+ P          Y +  
+Sbjct  75   AKVGQGLDILHCVMFPNPDYALPMFGCDIVAGKGGVSAAIADLSPANPELTLSNSYNQAL  134
+
+Query  126  MDM---YQKHVKNLPWGGDKQYFSPVFLWTRPQEDKQVETYVFEAFKDYINKYLDFVEAA  182
+              +        + LP  GD   FS   L+ RP   ++ E    +   D++  +      +
+Sbjct  135  SQLETPNFSDQRELPEWGD--IFSEYCLFIRPHTPEE-EKLFLKRVGDFLKVHCQQANQS  191
+
+Query  183  KPVTDPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEWTERYIHGFLFDLEE  237
+            +P +       I + Q  Y + + + D  R +  + +G  W  +Y+   LFD+  
+Sbjct  192  QPGSTQQREFNI-QGQEYYCRKQQQNDKTRRVLEKAFGEAWANKYMTQVLFDIPN  245
+
+
+> sp|Q55891|PCYA_SYNY3 Phycocyanobilin:ferredoxin oxidoreductase 
+OS=Synechocystis sp. (strain PCC 6803 / Kazusa) OX=1111708 
+GN=pcyA PE=1 SV=1
+Length=248
+
+ Score = 250 bits (638),  Expect = 2e-82, Method: Composition-based stats.
+ Identities = 59/240 (25%), Positives = 100/240 (42%), Gaps = 9/240 (4%)
+
+Query  1    EAVSDIYKPFWEWAAKTIKER-LGDDLVSYPIPDGYLRKEAMVGESLAWTQSYGYQTKKM  59
+             ++     P  +  A  I        L  Y +P+     E  +       ++  YQT + 
+Sbjct  11   SSLMPTLNPMIQQLALAIAASWQSLPLKPYQLPEDLGYVEGRLEGEKLVIENRCYQTPQF  70
+
+Query  60   RQIRAAHVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGHLIAI-DMQPLFQTEEYK  118
+            R++       G  L +L+ V FP   Y LP  G D+V  PGG   AI D+ P     +  
+Sbjct  71   RKMHLELAKVGKGLDILHCVMFPEPLYGLPLFGCDIVAGPGGVSAAIADLSPTQSDRQLP  130
+
+Query  119  KKYAEPCMDMYQK---HVKNLPWGGDKQYFSPVFLWTRPQEDKQVETYVFEAFKDYINKY  175
+              Y +   ++ Q      + LP  G  + FS   L+ RP    + E +V +   D++  +
+Sbjct  131  AAYQKSLAELGQPEFEQQRELPPWG--EIFSEYCLFIRPSNVTEEERFV-QRVVDFLQIH  187
+
+Query  176  LDFVEAAKPVTDPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEWTERYIHGFLFDL  235
+                  A+P+++   L    + Q+ Y Q + + D  R +  + +G  W ERY+   LFD+
+Sbjct  188  CHQSIVAEPLSEAQTLEHR-QGQIHYCQQQQKNDKTRRVLEKAFGEAWAERYMSQVLFDV  246
+
+
+> sp|A5GIZ3|PEBA_SYNPW 15,16-dihydrobiliverdin:ferredoxin oxidoreductase 
+OS=Synechococcus sp. (strain WH7803) OX=32051 GN=pebA 
+PE=3 SV=1
+Length=241
+
+ Score = 248 bits (634),  Expect = 7e-82, Method: Composition-based stats.
+ Identities = 61/245 (25%), Positives = 110/245 (45%), Gaps = 19/245 (8%)
+
+Query  6    IYKPFWEWAAKTIKERLGDDLVSYPIPDGYLRKEAMVGESLAWTQSYGYQTKKMRQIRAA  65
+            ++  F     + I +R G       +P+G         +S     S+ +     R+ R  
+Sbjct  1    MFDSFLNKLHQGIHQRGG---QPAAVPEGLEH--CHSSKSGGSIDSWLWSVPGFRRWRVT  55
+
+Query  66   HVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGH--LIAIDMQPLFQTEEYKKKYAE  123
+             ++ G SLQVLN V +P  + D P +G+DL+        +  +D QPL Q ++Y  ++ +
+Sbjct  56   RLDAGESLQVLNSVAYPDHSLDHPLMGVDLLWFGARQKLVAVLDFQPLIQDQDYLDRHFQ  115
+
+Query  124  PCMDMYQKH-----VKNLPWGGDKQYFSPVFLWTRPQEDKQVETYVFEAFKDYINKYLDF  178
+                ++++       + +      QYFSP  L+ R    ++ E  +  AF  ++  Y   
+Sbjct  116  GLKALHERFPELNGEETMRSFDPNQYFSPWLLFCRG-GAQEAEESLPAAFDAFLTAYWAM  174
+
+Query  179  VEAAKPV------TDPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEWTERYIHGFL  232
+             + A  V           +  +   Q +Y  Y AE+DPA G+FT  +G +W++R++H FL
+Sbjct  175  HDQALDVEAAGTSASTLSINDVERLQEAYDVYSAERDPAHGLFTSHFGKDWSDRFLHEFL  234
+
+Query  233  FDLEE  237
+            F   +
+Sbjct  235  FPASQ  239
+
+
+> sp|Q93TL6|PEBA_NOSP7 15,16-dihydrobiliverdin:ferredoxin oxidoreductase 
+OS=Nostoc punctiforme (strain ATCC 29133 / PCC 73102) 
+OX=63737 GN=pebA PE=3 SV=2
+Length=244
+
+ Score = 245 bits (627),  Expect = 9e-81, Method: Composition-based stats.
+ Identities = 90/235 (38%), Positives = 139/235 (59%), Gaps = 9/235 (4%)
+
+Query  6    IYKPFWEWAAKTIKERLGDDLVSYPIPDGYLRKEAMVGESLAWTQSYGYQTKKMRQIRAA  65
+            +YKPF E+  K + +R   DL S  IP G   K +  G + A  +S+ YQ++++R+IR  
+Sbjct  1    MYKPFLEFLEKELFQRF--DLQSRVIPPGLEFKVSDRGRNPATIRSWCYQSQELRKIRYT  58
+
+Query  66   HVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPG-GHLIAIDMQPLFQTEEYKKKYAEP  124
+            +++ G S Q+ N V +P  NYDLP LG+D ++     +LI +D QPLFQ E+Y+ KY  P
+Sbjct  59   YIDAGESAQIFNSVVYPSHNYDLPLLGIDFLSFGKVKNLIVLDFQPLFQDEDYQNKYIAP  118
+
+Query  125  CMDMYQKHVK-----NLPWGGDKQYFSPVFLWTRPQEDKQVETYVFEAFKDYINKYLDFV  179
+               ++ K+        + +    QYFS   L+ +    + V T VFEAF+DY+N Y   +
+Sbjct  119  LKYLHNKYPDLAQNLEMKFYDANQYFSKYLLFAKTD-AETVSTRVFEAFQDYLNLYWQML  177
+
+Query  180  EAAKPVTDPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEWTERYIHGFLFD  234
+              A+ + DP+ + RI + Q  Y QY A++DPA G+F+  +G EW ER++H FLF+
+Sbjct  178  ADAQALHDPEDIQRIVKAQKDYDQYSADRDPASGLFSSYFGHEWAERFLHEFLFE  232
+
+
+> sp|B7KJQ2|PCYA_GLOC7 Phycocyanobilin:ferredoxin oxidoreductase 
+OS=Gloeothece citriformis (strain PCC 7424) OX=65393 GN=pcyA 
+PE=3 SV=1
+Length=245
+
+ Score = 245 bits (626),  Expect = 1e-80, Method: Composition-based stats.
+ Identities = 58/243 (24%), Positives = 103/243 (42%), Gaps = 10/243 (4%)
+
+Query  1    EAVSDIYKPFWEWAAKTIKERLGD--DLVSYPIPDGYLRKEAMVGESLAWTQSYGYQTKK  58
+             ++     P     A  I        +L  Y +PDG    E  +       +++ Y T +
+Sbjct  7    SSIRQQQHPLISRLADLILSYWEKYLELDPYQLPDGLGYVEGRLEGEKLVIENHCYHTPQ  66
+
+Query  59   MRQIRAAHVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGHLIAI-DMQPLFQTEEY  117
+             R++       G +L +L+ V FP+ +Y LP  G D+V    G   AI D+ P       
+Sbjct  67   FRKMHLELAKLGNNLDILHCVMFPNPHYPLPMFGCDIVASKAGVSAAIADLSPTNPQGTL  126
+
+Query  118  KKKYAEPCMDMYQK---HVKNLPWGGDKQYFSPVFLWTRPQEDKQVETYVFEAFKDYINK  174
+               Y +    + ++     ++LP  GD   FS   L+ RP    + ET+  E  + ++  
+Sbjct  127  PTTYQKVLSSLPKRDFSQRRDLPPWGD--IFSEFCLFIRPTNSTE-ETFFLERVEQFLEL  183
+
+Query  175  YLDFVEAAKPVTDPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEWTERYIHGFLFD  234
+            +      A+P++  +  A     Q +Y   + + D  R +  + +G EW ++YI+  LFD
+Sbjct  184  HCRQSLIAQPLSSNEQ-ALYLAGQYNYCSQQQKNDKTRRVLEKAFGAEWADKYINLVLFD  242
+
+Query  235  LEE  237
+            L +
+Sbjct  243  LPD  245
+
+
+> sp|B7JWS2|PCYA_RIPO1 Phycocyanobilin:ferredoxin oxidoreductase 
+OS=Rippkaea orientalis (strain PCC 8801) OX=41431 GN=pcyA 
+PE=3 SV=1
+Length=245
+
+ Score = 242 bits (618),  Expect = 3e-79, Method: Composition-based stats.
+ Identities = 56/241 (23%), Positives = 94/241 (39%), Gaps = 10/241 (4%)
+
+Query  2    AVSDIYKPFWEWAAKTIKERLGD--DLVSYPIPDGYLRKEAMVGESLAWTQSYGYQTKKM  59
+            ++     P     A+ I     +   L  Y +PDG    E  +       ++  YQ  + 
+Sbjct  8    SIRSQLNPLICQLAEVILSHWQEYLSLSLYKLPDGLGYVEGKLEGERLVIENRCYQAPQF  67
+
+Query  60   RQIRAAHVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGHLIAI-DMQPLFQTEEYK  118
+            R++       G  L +L+ V FP+ +Y LP  G D+V        AI D+ P        
+Sbjct  68   RKMHLELAKVGKGLDILHCVMFPNPDYSLPMFGCDIVANSRAVSAAIADLSPANAELTLS  127
+
+Query  119  KKY---AEPCMDMYQKHVKNLPWGGDKQYFSPVFLWTRPQEDKQVETYVFEAFKDYINKY  175
+              Y         +  +  ++LP  GD   FS   L+ RP   ++ ET       D++  +
+Sbjct  128  PTYQKALSQLPSLDFRESRDLPEWGD--IFSEYCLFIRPTNAEE-ETQFINRVADFLKIH  184
+
+Query  176  LDFVEAAKPVTDPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEWTERYIHGFLFDL  235
+                  ++PV+  +        Q  Y   + + D  R +  + +G EW ++YI   LFDL
+Sbjct  185  CQLAVQSQPVSV-EQETLNLAGQKYYCTKQQQNDKTRRVLEKAFGQEWADKYITQVLFDL  243
+
+Query  236  E  236
+             
+Sbjct  244  P  244
+
+
+> sp|Q5N5A3|PCYA_SYNP6 Phycocyanobilin:ferredoxin oxidoreductase 
+OS=Synechococcus sp. (strain ATCC 27144 / PCC 6301 / SAUG 
+1402/1) OX=269084 GN=pcyA PE=3 SV=1
+Length=248
+
+ Score = 242 bits (618),  Expect = 3e-79, Method: Composition-based stats.
+ Identities = 59/235 (25%), Positives = 100/235 (43%), Gaps = 10/235 (4%)
+
+Query  9    PFWEWAAKTIKE--RLGDDLVSYP-IPDGYLRKEAMVGESLAWTQSYGYQTKKMRQIRAA  65
+            P     A  I+   +   +L  Y  +P      E  +       ++  YQ+++ R++   
+Sbjct  15   PLIRDLATGIEATWQRWLNLEPYAAMPADLGYIEGKLEGERLQIENRCYQSREFRKLHLE  74
+
+Query  66   HVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGHLIAI-DMQPLFQTEEYKKKYAEP  124
+                G +L +L+ V FP   +DLP  G DLV   G    AI D+ P     E    Y   
+Sbjct  75   LARVGNNLDILHCVLFPRTTFDLPMFGADLVGGRGQISAAIVDLSPTTIARELSNDYIAG  134
+
+Query  125  CMDMYQ---KHVKNLPWGGDKQYFSPVFLWTRPQEDKQVETYVFEAFKDYINKYLDFVEA  181
+               +     + ++ LP  GD   FS   L+ RP   ++ E    +    ++  +     A
+Sbjct  135  LTALPNPTFQGLRELPTWGD--IFSSFCLFIRPGSPEE-EAAFLDRALGFLQVHCQQAAA  191
+
+Query  182  AKPVTDPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEWTERYIHGFLFDLE  236
+            A  +TDP+ +A + E+Q  Y + +   D  R +  + +G +W +RY+   LFDL 
+Sbjct  192  ATALTDPEAIATVLEQQRYYCEQQRRNDKTRRVLEKAFGDDWADRYMTTMLFDLP  246
+
+
+> sp|Q8KPS9|PCYA_SYNE7 Phycocyanobilin:ferredoxin oxidoreductase 
+OS=Synechococcus elongatus (strain PCC 7942 / FACHB-805) OX=1140 
+GN=pcyA PE=3 SV=1
+Length=248
+
+ Score = 242 bits (617),  Expect = 4e-79, Method: Composition-based stats.
+ Identities = 59/235 (25%), Positives = 100/235 (43%), Gaps = 10/235 (4%)
+
+Query  9    PFWEWAAKTIKE--RLGDDLVSYP-IPDGYLRKEAMVGESLAWTQSYGYQTKKMRQIRAA  65
+            P     A  I+   +   +L  Y  +P      E  +       ++  YQ+++ R++   
+Sbjct  15   PLIRDLATGIEATWQRWLNLEPYAAMPADLGYIEGKLEGERLQIENRCYQSREFRKLHLE  74
+
+Query  66   HVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGHLIAI-DMQPLFQTEEYKKKYAEP  124
+                G +L +L+ V FP   +DLP  G DLV   G    AI D+ P     E    Y   
+Sbjct  75   LARVGNNLDILHCVLFPRTTFDLPMFGADLVGGRGQISAAIVDLSPTTIARELSNDYIAG  134
+
+Query  125  CMDMYQ---KHVKNLPWGGDKQYFSPVFLWTRPQEDKQVETYVFEAFKDYINKYLDFVEA  181
+               +     + ++ LP  GD   FS   L+ RP   ++ E    +    ++  +     A
+Sbjct  135  LTALPNPTFQGLRELPTWGD--IFSSFCLFIRPGSPEE-EAAFLDRALGFLQVHCQQAAA  191
+
+Query  182  AKPVTDPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEWTERYIHGFLFDLE  236
+            A  +TDP+ +A + E+Q  Y + +   D  R +  + +G +W +RY+   LFDL 
+Sbjct  192  ATALTDPEAIATVLEQQRYYCEQQRRNDKTRRVLEKAFGDDWADRYMTTMLFDLP  246
+
+
+> sp|Q46IM1|PEBB_PROMT Phycoerythrobilin:ferredoxin oxidoreductase 
+OS=Prochlorococcus marinus (strain NATL2A) OX=59920 GN=pebB 
+PE=3 SV=1
+Length=258
+
+ Score = 241 bits (615),  Expect = 1e-78, Method: Composition-based stats.
+ Identities = 89/253 (35%), Positives = 130/253 (51%), Gaps = 18/253 (7%)
+
+Query  1    EAVSDIYKPFWEWAA---KTIKERLGDDLVSYPIPDGYLRKEAMVGE----SLAWTQSYG  53
+             +   I    W WA    +TIK         Y I + +L +E+  G          +++G
+Sbjct  7    NSQDPISISNWRWACFLDETIKAFSTFQTRPYQIDNDFLFRESFFGSSSNPKKVILETWG  66
+
+Query  54   YQTKKMRQIRAAHVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGHLIAIDMQPLFQ  113
+             + +K+RQ R A +  G    V+NLV  P  NYDLPF G D VTLP GHLIA+D+QP  +
+Sbjct  67   LKMEKIRQARCACLQAGEITSVMNLVISPLNNYDLPFFGADFVTLPNGHLIALDLQPALK  126
+
+Query  114  TEEYKKKY-AEPCMDMYQKHVKNLPWGGD-----KQYFSPVFLWTR----PQEDKQVETY  163
+             +    ++       ++      +P GGD     +QYFSP FLW+R     + D  +   
+Sbjct  127  DDINHTQHVWNKLKPIHAHWQSKIPSGGDIPSDARQYFSPAFLWSRIPLGEEGDNLITQT  186
+
+Query  164  VFEAFKDYINKYLDFVEAAKPVTDPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEW  223
+            +  AF +Y+N + D +  AK +T  +   ++   Q  Y++YRAEKDPARGM    +G  W
+Sbjct  187  IKPAFDEYLNCFFDLLRDAK-ITSKERSFQLLNGQKKYMRYRAEKDPARGMLRSFFGEVW  245
+
+Query  224  TERYIHGFLFDLE  236
+            TE YI+  LFDL+
+Sbjct  246  TESYINNILFDLK  258
+
+
+> sp|A2C538|PEBB_PROM1 Phycoerythrobilin:ferredoxin oxidoreductase 
+OS=Prochlorococcus marinus (strain NATL1A) OX=167555 GN=pebB 
+PE=3 SV=1
+Length=258
+
+ Score = 240 bits (614),  Expect = 2e-78, Method: Composition-based stats.
+ Identities = 89/253 (35%), Positives = 130/253 (51%), Gaps = 18/253 (7%)
+
+Query  1    EAVSDIYKPFWEWAA---KTIKERLGDDLVSYPIPDGYLRKEAMVGE----SLAWTQSYG  53
+             +   I    W WA    +TIK         Y I + +L +E+  G          +++G
+Sbjct  7    NSQDPISISNWRWACFLDETIKAFSTFQTRPYQIDNDFLFRESFFGSSSNPKKVILETWG  66
+
+Query  54   YQTKKMRQIRAAHVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGHLIAIDMQPLFQ  113
+             + +K+RQ R A +  G    V+NLV  P  NYDLPF G D VTLP GHLIA+D+QP  +
+Sbjct  67   LKMEKIRQARCACLQAGEITSVMNLVISPLNNYDLPFFGADFVTLPNGHLIALDLQPALK  126
+
+Query  114  TEEYKKKY-AEPCMDMYQKHVKNLPWGGD-----KQYFSPVFLWTR----PQEDKQVETY  163
+             +    ++       ++      +P GGD     +QYFSP FLW+R     + D  +   
+Sbjct  127  DDINHTQHVWNKLKPIHAHWQSKIPTGGDIPSDARQYFSPAFLWSRIPLGEEGDNLITQT  186
+
+Query  164  VFEAFKDYINKYLDFVEAAKPVTDPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEW  223
+            +  AF +Y+N + D +  AK +T  +   ++   Q  Y++YRAEKDPARGM    +G  W
+Sbjct  187  IKPAFDEYLNCFFDLLRDAK-ITSKERSFQLLNGQKKYMRYRAEKDPARGMLRSFFGEVW  245
+
+Query  224  TERYIHGFLFDLE  236
+            TE YI+  LFDL+
+Sbjct  246  TESYINNILFDLK  258
+
+
+> sp|Q10X61|PCYA_TRIEI Phycocyanobilin:ferredoxin oxidoreductase 
+OS=Trichodesmium erythraeum (strain IMS101) OX=203124 GN=pcyA 
+PE=3 SV=1
+Length=245
+
+ Score = 234 bits (596),  Expect = 5e-76, Method: Composition-based stats.
+ Identities = 59/217 (27%), Positives = 93/217 (43%), Gaps = 8/217 (4%)
+
+Query  25   DLVSYPIPDGYLRKEAMVGESLAWTQSYGYQTKKMRQIRAAHVNGGASLQVLNLVFFPHM  84
+            +L  Y +P      E  +       Q+  YQT + R++       G  L +L+ V FP +
+Sbjct  33   NLEPYYLPADLGYVEGRLEGEKLIIQNKCYQTAQFRKLHLELATIGPKLDILHCVMFPRI  92
+
+Query  85   NYDLPFLGLDLVTLPGGHLIA-IDMQPLFQTEEYKKKYAEPCMDMYQK---HVKNLPWGG  140
+            +Y LP  G DLV   G    A +D+ P  Q  +  + Y      +  K   H + LP  G
+Sbjct  93   SYPLPIFGTDLVGARGQISAAVVDISPQSQDRKLPEVYNYQLQALPIKEFAHPRQLPQWG  152
+
+Query  141  DKQYFSPVFLWTRPQEDKQVETYVFEAFKDYINKYLDFVEAAKPVTDPDHLARIRERQLS  200
+              + FS   L+ RP   ++ E       + Y+  +     A KPV+ P+    I + Q  
+Sbjct  153  --EIFSEFCLFIRPTGLEE-EQKFISIVESYLEIHCQQAIAQKPVS-PEQQLEILKAQHH  208
+
+Query  201  YLQYRAEKDPARGMFTRMYGPEWTERYIHGFLFDLEE  237
+            Y   + + D  R +  + +GPEWT+ Y+   LFD   
+Sbjct  209  YCTQQRQNDKTRRVLEKAFGPEWTDYYLTTVLFDSPN  245
+
+
+> sp|A2C539|PEBA_PROM1 15,16-dihydrobiliverdin:ferredoxin oxidoreductase 
+OS=Prochlorococcus marinus (strain NATL1A) OX=167555 
+GN=pebA PE=3 SV=1
+Length=238
+
+ Score = 232 bits (592),  Expect = 2e-75, Method: Composition-based stats.
+ Identities = 59/240 (25%), Positives = 111/240 (46%), Gaps = 13/240 (5%)
+
+Query  6    IYKPFWEWAAKTIKERLGDDLVSYPIPDGYLRKEAMVGESLAWTQSYGYQTKKMRQIRAA  65
+            ++        K I E  G  L+   +P+ +   E +  +      S+ +     R+ R  
+Sbjct  1    MFNDLLSELTKNILEHGGKKLI---VPNEFC--ECVSKQGNCKLNSWLWDVPGFRRWRVT  55
+
+Query  66   HVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGH--LIAIDMQPLFQTEEYKKKYAE  123
+             ++ G  LQVLN V +P+   D+P +G+DL+        +  +D QPL Q +EY  +Y +
+Sbjct  56   RLDAGDRLQVLNSVAYPNEQNDMPIMGIDLLWFEKKQKLVAILDFQPLVQDKEYLDRYFD  115
+
+Query  124  PCMDM---YQKHVKNLPW--GGDKQYFSPVFLWTRPQEDKQVETYVFEAFKDYINKYLDF  178
+                +   + +   ++        +YFSP  L+ +   + + E  + + F  ++  Y   
+Sbjct  116  GLKSLKKSFNEFNSDMKSNIYDPTKYFSPWALFCKG-GNFEAENILPKIFSSFLKCYWKN  174
+
+Query  179  VEAAKPVTDPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEWTERYIHGFLFDLEEK  238
+            ++ +K   +      +    + Y +Y AEKDPA G+F+  +G EW+E+Y+  FLF L  +
+Sbjct  175  LDLSKANENHIKSQEVSILHIDYDKYSAEKDPAHGLFSGFFGKEWSEKYMKEFLFPLSLE  234
+
+
+> sp|Q46IM0|PEBA_PROMT 15,16-dihydrobiliverdin:ferredoxin oxidoreductase 
+OS=Prochlorococcus marinus (strain NATL2A) OX=59920 
+GN=pebA PE=3 SV=1
+Length=238
+
+ Score = 232 bits (591),  Expect = 3e-75, Method: Composition-based stats.
+ Identities = 59/240 (25%), Positives = 111/240 (46%), Gaps = 13/240 (5%)
+
+Query  6    IYKPFWEWAAKTIKERLGDDLVSYPIPDGYLRKEAMVGESLAWTQSYGYQTKKMRQIRAA  65
+            ++        K I E  G  L+   +P+ +   E +  +      S+ +     R+ R  
+Sbjct  1    MFNDLLSELTKNILEHGGKKLI---VPNEFC--ECVSKQGNCKLNSWLWDVPGFRRWRVT  55
+
+Query  66   HVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGH--LIAIDMQPLFQTEEYKKKYAE  123
+             ++ G  LQVLN V +P+   D+P +G+DL+        +  +D QPL Q +EY  +Y +
+Sbjct  56   RLDAGDRLQVLNSVAYPNEQNDMPIMGIDLLWFEKKQKLVAILDFQPLVQDKEYLDRYFD  115
+
+Query  124  PCMDM---YQKHVKNLPW--GGDKQYFSPVFLWTRPQEDKQVETYVFEAFKDYINKYLDF  178
+                +   + +   ++        +YFSP  L+ +   + + E  + + F  ++  Y   
+Sbjct  116  GLKSLKKSFNEFNSDMKSNIYDPTKYFSPWALFCKG-GNFEAENILPKIFSSFLKCYWKN  174
+
+Query  179  VEAAKPVTDPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEWTERYIHGFLFDLEEK  238
+            ++ +K   +      +    + Y +Y AEKDPA G+F+  +G EW+E+Y+  FLF L  +
+Sbjct  175  LDLSKANENHIKSQEVSILHIDYDKYSAEKDPAHGLFSGFFGKEWSEKYMKEFLFPLSLE  234
+
+
+> sp|Q318E9|PEBA_PROM9 15,16-dihydrobiliverdin:ferredoxin oxidoreductase 
+OS=Prochlorococcus marinus (strain MIT 9312) OX=74546 
+GN=pebA PE=3 SV=1
+Length=236
+
+ Score = 231 bits (589),  Expect = 4e-75, Method: Composition-based stats.
+ Identities = 66/243 (27%), Positives = 122/243 (50%), Gaps = 18/243 (7%)
+
+Query  6    IYKPFWEWAAKTIKERLGDDLVSYPIPDGYLRKEAMVGESLAWTQSYGYQTKKMRQIRAA  65
+            ++    ++    I E  G +L    I + +  KE    +S    +++ + + + R+ R  
+Sbjct  1    MFDSLVDFLKTNIDELNGHELQ---ISNEF--KEHHNKDSKYIIKNWLFSSPEYRKWRIT  55
+
+Query  66   HVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLP--GGHLIAIDMQPLFQTEEYKKKYAE  123
+             ++GG ++QV N V +P+ + +LP LG D++        L  +D QPL Q  +Y +KY  
+Sbjct  56   RLDGGKNIQVFNTVAYPNFDSELPILGADILWFGTAKKLLAILDYQPLIQENKYLEKYCS  115
+
+Query  124  PCMDMYQKH-------VKNLPWGGDKQYFSPVFLWTRPQEDKQVETYVFEAFKDYINKYL  176
+                + +K+       +KN+     K+YFSP  +  R  +   ++  + + F  +IN YL
+Sbjct  116  SLGMIKKKYSAFDNNKMKNIY--DSKKYFSPWVIICRGNK-LNLDRDLNDVFHAFINNYL  172
+
+Query  177  DFVEAAKPVTDPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEWTERYIHGFLFDLE  236
+            +    + PV    +L  I+  Q+ Y +Y  EKDPA  +F   +G +WT+++I+ FLF L 
+Sbjct  173  NL-NKSNPVNQFLNLEEIKINQIKYDKYSFEKDPADKLFKSFFGEKWTKKFINKFLFTLN  231
+
+Query  237  EKM  239
+             ++
+Sbjct  232  NEI  234
+
+
+> sp|A3PF83|PEBA_PROM0 15,16-dihydrobiliverdin:ferredoxin oxidoreductase 
+OS=Prochlorococcus marinus (strain MIT 9301) OX=167546 
+GN=pebA PE=3 SV=1
+Length=236
+
+ Score = 229 bits (584),  Expect = 2e-74, Method: Composition-based stats.
+ Identities = 63/243 (26%), Positives = 118/243 (49%), Gaps = 18/243 (7%)
+
+Query  6    IYKPFWEWAAKTIKERLGDDLVSYPIPDGYLRKEAMVGESLAWTQSYGYQTKKMRQIRAA  65
+            ++    ++    I E  G ++    I   +  KE    +S    +++ + + + R+ R  
+Sbjct  1    MFDSLVDFLKTNIDELNGHEVQ---ISGEF--KEHHNEDSKYIIKNWLFSSSEYRKWRIT  55
+
+Query  66   HVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGH--LIAIDMQPLFQTEEYKKKYAE  123
+             ++GG  LQV N V +P+ N ++P LG D++        L  +D QPL Q  +Y +KY  
+Sbjct  56   RLDGGKKLQVFNTVAYPNFNSEMPILGADILWFGNSQKLLAILDYQPLIQENKYLEKYCS  115
+
+Query  124  PCMDMYQKH-------VKNLPWGGDKQYFSPVFLWTRPQEDKQVETYVFEAFKDYINKYL  176
+                + +K+       +KN+     K+YFSP  +  R  +   ++  +   F  ++  YL
+Sbjct  116  SLGSIKKKYSAFDNNKMKNIY--DSKKYFSPWVIICRGNK-LNLDRDLNNIFHSFVKNYL  172
+
+Query  177  DFVEAAKPVTDPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEWTERYIHGFLFDLE  236
+            + +  + PV    +   I+  Q+ Y +Y  EKDPA  +F   +G +WT+++I+ FLF L 
+Sbjct  173  N-INKSNPVNQFLNAEEIKINQIKYDKYSFEKDPADKLFKSFFGEKWTKKFINKFLFTLN  231
+
+Query  237  EKM  239
+             ++
+Sbjct  232  NEI  234
+
+
+> sp|Q9K4U5|PEBB_PROMA Phycoerythrobilin:ferredoxin oxidoreductase 
+OS=Prochlorococcus marinus (strain SARG / CCMP1375 / SS120) 
+OX=167539 GN=pebB PE=3 SV=1
+Length=257
+
+ Score = 229 bits (585),  Expect = 3e-74, Method: Composition-based stats.
+ Identities = 85/244 (35%), Positives = 132/244 (54%), Gaps = 18/244 (7%)
+
+Query  6    IYKPFWEWAAKTIKERLGDDLVSYPIPDGYLRKEAMVGESL----AWTQSYGYQTKKMRQ  61
+            I+ PF+      +      ++  YP+   +L KE++ G         T ++  + +K++Q
+Sbjct  18   IWTPFFNDLVDKL---SVFEIEPYPVSHDFLSKESITGSRRNPVHVTTLTWAAKFEKIKQ  74
+
+Query  62   IRAAHVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGHLIAIDMQPLFQTEEYKKKY  121
+            +R A + GG SL V NL+  P  +YDLPF G D VTLP GHL+A+D+QP  + +    + 
+Sbjct  75   VRLACIKGGESLSVFNLLIHPLNDYDLPFFGADFVTLPNGHLLALDLQPALKLDNIHTEN  134
+
+Query  122  AEP-CMDMYQKHVKNLPWGG-----DKQYFSPVFLWTRPQEDKQVET----YVFEAFKDY  171
+              P  + ++      LP GG      + YFSP FLW+R    K+ +      +  AF +Y
+Sbjct  135  VWPRLIPLHDHWQSLLPSGGEIPKEAEPYFSPGFLWSRLPLSKESDNIISEILRPAFGEY  194
+
+Query  172  INKYLDFVEAAKPVTDPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEWTERYIHGF  231
+            ++ Y++ +  AKP+   +   +I E Q +Y+ YR+ KDPAR M  R YG EWTE YIH  
+Sbjct  195  LSLYIELLHIAKPL-KKERALKILEGQKAYINYRSTKDPARAMLCRFYGKEWTEDYIHKV  253
+
+Query  232  LFDL  235
+            LF++
+Sbjct  254  LFNI  257
+
+
+> sp|A2BTH4|PEBA_PROMS 15,16-dihydrobiliverdin:ferredoxin oxidoreductase 
+OS=Prochlorococcus marinus (strain AS9601) OX=146891 
+GN=pebA PE=3 SV=1
+Length=236
+
+ Score = 228 bits (582),  Expect = 5e-74, Method: Composition-based stats.
+ Identities = 62/243 (26%), Positives = 119/243 (49%), Gaps = 18/243 (7%)
+
+Query  6    IYKPFWEWAAKTIKERLGDDLVSYPIPDGYLRKEAMVGESLAWTQSYGYQTKKMRQIRAA  65
+            ++    ++    I +  G ++    I   +  KE    +S    +++ + + + R+ R  
+Sbjct  1    MFDSLVDFLKTNIDQLNGHEVQ---ISSEF--KEHHNEDSKYIIKNWLFSSPEYRKWRIT  55
+
+Query  66   HVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGH--LIAIDMQPLFQTEEYKKKYAE  123
+             ++GG  LQV N V +P+   +LP LG D++        L  +D QPL Q  +Y +KY  
+Sbjct  56   RLDGGKKLQVFNTVAYPNFESELPILGADILWFGTSQKLLAILDYQPLIQESKYLEKYCS  115
+
+Query  124  PCMDMYQKH-------VKNLPWGGDKQYFSPVFLWTRPQEDKQVETYVFEAFKDYINKYL  176
+                + +++       +KN+     K+YFSP  +  R  +   ++  + + F  ++N YL
+Sbjct  116  SLGIIKEEYSAFDNNKMKNIY--DSKKYFSPWVIICRGNK-LNLDRDLNDIFHSFVNNYL  172
+
+Query  177  DFVEAAKPVTDPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEWTERYIHGFLFDLE  236
+            + +  + PV    +   I+  Q+ Y +Y  EKDPA  +F   +G +WT+++I+ FLF L 
+Sbjct  173  N-IYKSNPVNQFLNSEEIKINQIKYDKYSFEKDPADKLFKSFFGEKWTKKFINKFLFTLN  231
+
+Query  237  EKM  239
+             ++
+Sbjct  232  NEI  234
+
+
+> sp|A8G798|PEBA_PROM2 15,16-dihydrobiliverdin:ferredoxin oxidoreductase 
+OS=Prochlorococcus marinus (strain MIT 9215) OX=93060 
+GN=pebA PE=3 SV=1
+Length=236
+
+ Score = 227 bits (580),  Expect = 1e-73, Method: Composition-based stats.
+ Identities = 62/243 (26%), Positives = 118/243 (49%), Gaps = 18/243 (7%)
+
+Query  6    IYKPFWEWAAKTIKERLGDDLVSYPIPDGYLRKEAMVGESLAWTQSYGYQTKKMRQIRAA  65
+            ++    ++    I E  G ++    I   +  KE    +S    +++ + + + R+ R  
+Sbjct  1    MFDSLVDFLKTNIDELNGHEVR---ISSEF--KEHHNEDSKYIIKNWLFSSPEYRKWRIT  55
+
+Query  66   HVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGH--LIAIDMQPLFQTEEYKKKYAE  123
+             ++GG  LQV N V +P+ + ++P LG D++        L  +D QPL Q  +Y +KY  
+Sbjct  56   RLDGGKKLQVFNTVAYPNFDCEMPILGADILWFGTSQKLLAILDYQPLIQEGKYLEKYCS  115
+
+Query  124  PCMDMYQKH-------VKNLPWGGDKQYFSPVFLWTRPQEDKQVETYVFEAFKDYINKYL  176
+                + +K+       +KN+     K+YFSP  +  R  +   ++  +   F  ++N YL
+Sbjct  116  SLGIIKKKYSAFDNNKMKNIY--DSKKYFSPWVIICRGNK-LNLDRDLNNIFHSFVNNYL  172
+
+Query  177  DFVEAAKPVTDPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEWTERYIHGFLFDLE  236
+              +  + PV       +I+  Q+ Y +Y  EKDPA  +F   +G +WT+++++ FLF L 
+Sbjct  173  K-IHKSNPVNQFLDTEKIKINQIKYDKYSFEKDPADKLFKSFFGEKWTKKFVNKFLFTLN  231
+
+Query  237  EKM  239
+             ++
+Sbjct  232  NEI  234
+
+
+> sp|Q7NHE8|PCYA_GLOVI Phycocyanobilin:ferredoxin oxidoreductase 
+OS=Gloeobacter violaceus (strain ATCC 29082 / PCC 7421) OX=251221 
+GN=pcyA PE=3 SV=1
+Length=253
+
+ Score = 226 bits (577),  Expect = 6e-73, Method: Composition-based stats.
+ Identities = 55/237 (23%), Positives = 94/237 (40%), Gaps = 14/237 (6%)
+
+Query  9    PFWEWAAKTIKERLGD--DLVSYPIPDGYLRKEAMVGESLAWTQSYGYQTKKMRQIRAAH  66
+            P     A+ +    G+   L  Y +P      E  +        +  YQ++  R++    
+Sbjct  23   PLVSRLAELLVSTWGEYLQLEPYHLPADLGFVEGQLEGDRLTIVNRCYQSRVFRKLHLEL  82
+
+Query  67   VNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGHLIAI-DMQPLFQTEEYKKKYAEPC  125
+               G +L +L+ V +P   +DLP  G D+V        AI D+ P+    E    Y    
+Sbjct  83   ATIGPNLDILHCVMYPRPQFDLPIYGTDIVASTQMVSAAIVDLSPV--RGELPPAYLAGL  140
+
+Query  126  MDMYQKH-----VKNLPWGGDKQYFSPVFLWTRPQEDKQVETYVFEAFKDYINKYLDFVE  180
+               + +      ++NLP  G    FSP  ++ R     + +    E  + Y+  + +   
+Sbjct  141  EPSFARCTDFGQLRNLPPWG--TIFSPRCVFARVVTPTEAD-LFMEISRAYLRFHCEQAA  197
+
+Query  181  AAKPVTDPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEWTERYIHGFLFDLEE  237
+             A+ V D    A+I   Q  Y + + + D  R +  + +   W ERYI   LFDL +
+Sbjct  198  RAEAV-DTATEAQILAGQRHYCEQQQQNDKTRRILAQAFDEAWAERYIRTVLFDLPQ  253
+
+
+> sp|A3PF82|PEBB_PROM0 Phycoerythrobilin:ferredoxin oxidoreductase 
+OS=Prochlorococcus marinus (strain MIT 9301) OX=167546 GN=pebB 
+PE=3 SV=1
+Length=253
+
+ Score = 224 bits (571),  Expect = 4e-72, Method: Composition-based stats.
+ Identities = 66/247 (27%), Positives = 116/247 (47%), Gaps = 22/247 (9%)
+
+Query  7    YKPFWEWAAKTIKERLGDDLVSY-----PIPDGYLRKEAMVGESLAWTQ----SYGYQTK  57
+            Y+P W W      + L ++L  Y      IP  Y  K++  G           ++G   K
+Sbjct  9    YRPDWRW--HNFLKYLTNNLSKYNCLEKKIPSEYSYKDSTYGSKKLKKNVNLSTWGVTHK  66
+
+Query  58   KMRQIRAAHVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGHLIAIDMQPLFQTE-E  116
+            K  Q   A      +  VLN +  P+  Y++PF G+D V+LP  HL+ +D QP  + + +
+Sbjct  67   KRIQFARAVCINSPNYSVLNFLIIPNTIYNVPFFGVDFVSLPNSHLLVLDFQPSLKIQKQ  126
+
+Query  117  YKKKYAEPCMDMYQKHVKNLP-----WGGDKQYFSPVFLWTRPQEDK----QVETYVFEA  167
+            Y  +  E  + +      +LP          ++FSP  +W++  +++     +   ++ +
+Sbjct  127  YNNELLEKLIKLKNHCHSSLPLAEKMSADVARFFSPGVIWSKLPKEERSDFLITNQLYTS  186
+
+Query  168  FKDYINKYLDFVEAAKPVTDPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEWTERY  227
+            FK+Y++ YL+ +  +K V + +    +   Q  YL YR + DPAR M + ++G E+TE  
+Sbjct  187  FKEYLDLYLEILFESKEV-NLELQKELINGQNEYLNYRRDNDPARPMLSSLFGKEFTESL  245
+
+Query  228  IHGFLFD  234
+            I   LF 
+Sbjct  246  IEEVLFT  252
+
+
+> sp|A2BTH3|PEBB_PROMS Phycoerythrobilin:ferredoxin oxidoreductase 
+OS=Prochlorococcus marinus (strain AS9601) OX=146891 GN=pebB 
+PE=3 SV=1
+Length=253
+
+ Score = 223 bits (570),  Expect = 6e-72, Method: Composition-based stats.
+ Identities = 64/247 (26%), Positives = 118/247 (48%), Gaps = 22/247 (9%)
+
+Query  7    YKPFWEWAAKTIKERLGDDLVSY-----PIPDGYLRKEAMVGESLAWTQ----SYGYQTK  57
+            Y+P W W      + L ++L  Y      IP  Y  K++  G   +       ++G   K
+Sbjct  9    YRPDWRW--HNFLKYLTNNLSKYNCLEKTIPSEYSYKDSTYGSKKSKKNVNLSTWGVTHK  66
+
+Query  58   KMRQIRAAHVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGHLIAIDMQPLFQTE-E  116
+            K  +   A      +  VLN +  P+  Y++PF G+D V+LP  +L+ +D QP  + + +
+Sbjct  67   KRIKFARAVCINSPNYSVLNFLIIPNTIYNVPFFGVDFVSLPNSYLLVLDFQPSLKIQNQ  126
+
+Query  117  YKKKYAEPCMDMYQKHVKNLP-----WGGDKQYFSPVFLWTRPQEDK----QVETYVFEA  167
+            Y     E  + +      +LP          ++FSP  +W++  +++     +   ++ +
+Sbjct  127  YNNDLLEKLIKLKNHCHSSLPLAEKMSADVARFFSPGVIWSKLPKEERSDFLITNQLYTS  186
+
+Query  168  FKDYINKYLDFVEAAKPVTDPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEWTERY  227
+            FK+Y++ YL+ +  +K V + +    +   Q++YL YR + DPAR M + ++G E+TE  
+Sbjct  187  FKEYLDLYLEILFESKEV-NIELQKELTNGQINYLNYRRDNDPARPMLSSLFGQEFTESL  245
+
+Query  228  IHGFLFD  234
+            I   LF 
+Sbjct  246  IEEVLFT  252
+
+
+> sp|P59288|PCYA_THEEB Phycocyanobilin:ferredoxin oxidoreductase 
+OS=Thermosynechococcus elongatus (strain BP-1) OX=197221 GN=pcyA 
+PE=3 SV=1
+Length=236
+
+ Score = 223 bits (568),  Expect = 7e-72, Method: Composition-based stats.
+ Identities = 60/234 (26%), Positives = 96/234 (41%), Gaps = 14/234 (6%)
+
+Query  9    PFWEWAAKTIKE--RLGDDLVSYPIPDGYLRKEAMVGESLAWTQSYGYQTKKMRQIRAAH  66
+            P  +  A  I+   +    L  Y +P+     E  +       +++ YQ    R++    
+Sbjct  9    PLIQRLADRIEAIWQAFFPLAPYALPEDLGYVEGKLEGERLTIENHCYQAPPFRKLHLEL  68
+
+Query  67   VNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGHLIAI-DMQPLFQTEEYKKKY---A  122
+               G SL +L+ V FP   YDLP  G DLV   G    AI D+ P+  T +    Y    
+Sbjct  69   ARVGESLDILHCVMFPEPRYDLPMFGCDLVGGRGQISAAIVDLSPV--TGQLPAAYTCAL  126
+
+Query  123  EPCMDMYQKHVKNLPWGGDKQYFSPVFLWTRPQEDKQVETYVFEAFKDYINKYLDFVEAA  182
+                 +  +  + LP  G    FSP  ++ RPQ + + E    +   +Y+  +    + A
+Sbjct  127  NALPKLTFRQPRELPPWG--HIFSPFCIFIRPQGEAE-EQQFLDRIGEYLTLHCQLSQQA  183
+
+Query  183  KPVTDPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEWTERYIHGFLFDLE  236
+             P    DH   +   Q  Y Q + + D  R +  + +G  W ERY+   LFD+ 
+Sbjct  184  VP---TDHPQAVIAGQRQYCQQQQQNDKTRRVLEKAFGVPWAERYMTTVLFDVP  234
+
+
+> sp|Q318F0|PEBB_PROM9 Phycoerythrobilin:ferredoxin oxidoreductase 
+OS=Prochlorococcus marinus (strain MIT 9312) OX=74546 GN=pebB 
+PE=3 SV=1
+Length=253
+
+ Score = 222 bits (566),  Expect = 2e-71, Method: Composition-based stats.
+ Identities = 65/247 (26%), Positives = 120/247 (49%), Gaps = 22/247 (9%)
+
+Query  7    YKPFWEWAAKTIKERLGDDLVSY-----PIPDGYLRKEAMVGESLAWTQ----SYGYQTK  57
+            Y+P W+W      + L ++L  Y      IP  Y  K++  G   +       ++G   K
+Sbjct  9    YRPDWKW--HNFLKYLVNNLSKYNCLEKKIPSEYSYKDSTYGSKKSKKNVNLSTWGVTHK  66
+
+Query  58   KMRQIRAAHVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGHLIAIDMQPLFQTE-E  116
+            K  Q   A      +  VLN +  P+  Y++PF G+D V+LP  HL+ +D QP  + + +
+Sbjct  67   KRIQFARAVCINSPNYSVLNFLIIPNTIYNVPFFGVDFVSLPNSHLLVLDFQPSLKIQNQ  126
+
+Query  117  YKKKYAEPCMDMYQKHVKNLP-----WGGDKQYFSPVFLWTRPQEDK----QVETYVFEA  167
+            Y  +  E  + +      +LP          ++FSP  +W++  +++     +   ++ +
+Sbjct  127  YNNELLEKLIKLKNHCHSSLPLAEKMSADVARFFSPGVIWSKLPKEERSDFLIANQLYTS  186
+
+Query  168  FKDYINKYLDFVEAAKPVTDPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEWTERY  227
+            FK+Y++ YL+ +  ++ V + +    +   Q +YL+YR + DPAR M + ++G E+TE  
+Sbjct  187  FKEYLDLYLEILFESQQV-NLNLQKELINGQNNYLKYRIDNDPARPMLSSLFGKEFTESL  245
+
+Query  228  IHGFLFD  234
+            I   LF 
+Sbjct  246  IKEVLFT  252
+
+
+> sp|A2BQN3|PCYA_PROMS Phycocyanobilin:ferredoxin oxidoreductase 
+OS=Prochlorococcus marinus (strain AS9601) OX=146891 GN=pcyA 
+PE=3 SV=1
+Length=241
+
+ Score = 220 bits (561),  Expect = 8e-71, Method: Composition-based stats.
+ Identities = 45/235 (19%), Positives = 90/235 (38%), Gaps = 7/235 (3%)
+
+Query  4    SDIYKPFWEWAAKTIKER--LGDDLVSYPIPDGYLRKEAMVGESLAWTQSYGYQTKKMRQ  61
+            S +  P      + I+E   + +DL S  I        +       + ++  ++ K  R+
+Sbjct  9    SKLTDPLILDLLQNIREHRSMLEDLKSIKIDPKLTNIISKEIGRELYIENEFHKAKGFRK  68
+
+Query  62   IRAAHVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGHLIAI-DMQPLFQTEEYK-K  119
+            +         +L++L+ VFFP   +D+P  G+DLV +      AI D+ P  Q +  K +
+Sbjct  69   LHIEVAEFSKNLKILHCVFFPDPKFDIPIFGMDLVKINDIVSAAIVDLSPASQNQGLKYE  128
+
+Query  120  KYAEPCMDMYQKHVKNLPWGGDKQYFSPVFLWTRPQEDKQVETYVFEAFKDYINKYLDFV  179
+            K            ++ +P  G    FS    +   +   +           Y+   +   
+Sbjct  129  KLLSEVDKSSFTSLREIPKWGG--IFSNNVFFASLKRKSEK-NDFCRVVDQYLTILIKLS  185
+
+Query  180  EAAKPVTDPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEWTERYIHGFLFD  234
+            + AKP  + + +    + Q +Y   + + +    +  + +  +W   YI   LFD
+Sbjct  186  KRAKPEVNEEIIQERIDFQKNYCVQQMKNEKTSMVLLKYFDEKWVNNYIKTVLFD  240
+
+
+> sp|Q31BD0|PCYA_PROM9 Phycocyanobilin:ferredoxin oxidoreductase 
+OS=Prochlorococcus marinus (strain MIT 9312) OX=74546 GN=pcyA 
+PE=3 SV=1
+Length=241
+
+ Score = 220 bits (561),  Expect = 1e-70, Method: Composition-based stats.
+ Identities = 43/231 (19%), Positives = 93/231 (40%), Gaps = 7/231 (3%)
+
+Query  8    KPFWEWAAKTIKER--LGDDLVSYPIPDGYLRKEAMVGESLAWTQSYGYQTKKMRQIRAA  65
+             P      + I+E   + +DL S  +        +       + ++  ++ +  R++   
+Sbjct  13   DPLILELLQNIREHRSMLEDLKSIKVDPELSNIISNEIGRELYIENEFHKARGFRKLHIE  72
+
+Query  66   HVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGHLIAI-DMQPLFQTEEYK-KKYAE  123
+                  +L++L+ VFFP   +D+P  G+DLV +      AI D+ P  Q +  K +K+  
+Sbjct  73   VAEFSKNLKILHCVFFPDPKFDIPIFGMDLVKINDIVSAAIVDLSPASQNQGVKYEKFLS  132
+
+Query  124  PCMDMYQKHVKNLPWGGDKQYFSPVFLWTRPQEDKQVETYVFEAFKDYINKYLDFVEAAK  183
+                     ++ +P  G  + FS    +   +   + E    +   +Y++  +   + AK
+Sbjct  133  KVDKSSFTSLREIPKWG--EIFSENVFFASLKSKSE-ENDFCKVVDEYLSILIKLSKEAK  189
+
+Query  184  PVTDPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEWTERYIHGFLFD  234
+            P    + +   +  Q +Y   + + +    +  + +  +W   YI   LFD
+Sbjct  190  PEFKEEIIKERKNYQKNYCVQQMKNEKTSMVLLKYFDEKWVNNYIKTVLFD  240
+
+
+> sp|A8G4C5|PCYA_PROM2 Phycocyanobilin:ferredoxin oxidoreductase 
+OS=Prochlorococcus marinus (strain MIT 9215) OX=93060 GN=pcyA 
+PE=3 SV=1
+Length=241
+
+ Score = 220 bits (561),  Expect = 1e-70, Method: Composition-based stats.
+ Identities = 45/231 (19%), Positives = 89/231 (39%), Gaps = 7/231 (3%)
+
+Query  8    KPFWEWAAKTIKER--LGDDLVSYPIPDGYLRKEAMVGESLAWTQSYGYQTKKMRQIRAA  65
+             P      + I+E   + +DLVS  I        +       + ++  ++ K  R++   
+Sbjct  13   DPLILDLLQNIREHRSMLEDLVSIKIDPNLTNIISNEIGRELYIENEFHKAKGFRKLHIE  72
+
+Query  66   HVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGHLIAI-DMQPLFQTEEYK-KKYAE  123
+                  +L++L+ VFFP   +D+P  G+DLV +      AI D+ P  Q +  K +K   
+Sbjct  73   VAEFSKNLRILHCVFFPDPKFDIPIFGMDLVKINDIVSAAIVDLSPASQNQGLKYEKLLS  132
+
+Query  124  PCMDMYQKHVKNLPWGGDKQYFSPVFLWTRPQEDKQVETYVFEAFKDYINKYLDFVEAAK  183
+                     ++ +P  G    FS    +   + + +           Y++  +     AK
+Sbjct  133  QVDKSSFSSLREIPKWGG--IFSNNVFFASLKRNSEK-NDFCRVVDQYLSILIKLSNKAK  189
+
+Query  184  PVTDPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEWTERYIHGFLFD  234
+               D + +    + Q +Y   + + +    +  + +  +W   YI   LFD
+Sbjct  190  AEVDKEIIQERIDFQKNYCVQQMKNEKTSMVLLKYFDEKWVNNYIKTVLFD  240
+
+
+> sp|A8G797|PEBB_PROM2 Phycoerythrobilin:ferredoxin oxidoreductase 
+OS=Prochlorococcus marinus (strain MIT 9215) OX=93060 GN=pebB 
+PE=3 SV=1
+Length=253
+
+ Score = 220 bits (561),  Expect = 1e-70, Method: Composition-based stats.
+ Identities = 66/247 (27%), Positives = 117/247 (47%), Gaps = 22/247 (9%)
+
+Query  7    YKPFWEWAAKTIKERLGDDLVSYP-----IPDGYLRKEAMVGESLAWTQ----SYGYQTK  57
+            Y+P W W      + L ++L  Y      IP  Y  K++  G   +       ++G   K
+Sbjct  9    YRPDWRW--HIFLKYLTNNLSKYNCLEKIIPSEYSYKDSTYGSKKSKKNVNLCTWGVTHK  66
+
+Query  58   KMRQIRAAHVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGHLIAIDMQPLFQTE-E  116
+            K  Q   A         VLN +  P+  Y++PF G+D V+LP  +L+ +D QP  + + +
+Sbjct  67   KRIQFARAVCINSPKYSVLNFLIIPNTIYNVPFFGVDFVSLPNIYLLVLDFQPSLKIQNQ  126
+
+Query  117  YKKKYAEPCMDMYQKHVKNLPWG-----GDKQYFSPVFLWTRPQEDK----QVETYVFEA  167
+            Y  +  E  + +      +LP          ++FSP  +W++  +++     +   ++ +
+Sbjct  127  YNNQLLEKLIKLKNHCHSSLPLAEEMSVDVARFFSPGAIWSKLPKEERSDFLIANQLYTS  186
+
+Query  168  FKDYINKYLDFVEAAKPVTDPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEWTERY  227
+            FK+Y++ YL+ +  +K V + D    +   Q +YL YR + DPAR M + ++G E+TE  
+Sbjct  187  FKEYLDLYLEILFESKEV-NIDLQKELINGQNNYLNYRRDNDPARPMLSSLFGKEFTESL  245
+
+Query  228  IHGFLFD  234
+            I   LF 
+Sbjct  246  IKEVLFT  252
+
+
+> sp|A3PCF5|PCYA_PROM0 Phycocyanobilin:ferredoxin oxidoreductase 
+OS=Prochlorococcus marinus (strain MIT 9301) OX=167546 GN=pcyA 
+PE=3 SV=1
+Length=241
+
+ Score = 219 bits (559),  Expect = 2e-70, Method: Composition-based stats.
+ Identities = 43/231 (19%), Positives = 90/231 (39%), Gaps = 7/231 (3%)
+
+Query  8    KPFWEWAAKTIKER--LGDDLVSYPIPDGYLRKEAMVGESLAWTQSYGYQTKKMRQIRAA  65
+             P      + I++   + +DL S  I        +       + ++  ++ K  R++   
+Sbjct  13   DPLILDLLQNIRKHRSMLEDLKSIKIDPNLTNIISNEIGRELYIENEFHKAKGFRKLHIE  72
+
+Query  66   HVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGHLIAI-DMQPLFQTEEYK-KKYAE  123
+                  +L++L+ VFFP   +D+P  G+DLV +      AI D+ P  Q +  K +K   
+Sbjct  73   VAEFSKNLRILHCVFFPDPKFDIPIFGMDLVKINDIVSAAIVDLSPASQNQALKYEKLLS  132
+
+Query  124  PCMDMYQKHVKNLPWGGDKQYFSPVFLWTRPQEDKQVETYVFEAFKDYINKYLDFVEAAK  183
+                     ++ +P  G  + FS    +   +   +           Y++  +   + AK
+Sbjct  133  GVDKSSFTSLREIPKWG--RIFSNNVFFASLRNKSEK-NDFCSVVDQYLSILIKLSKKAK  189
+
+Query  184  PVTDPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEWTERYIHGFLFD  234
+            P  + + +    + Q +Y   + + +    +  + +  +W   YI   LFD
+Sbjct  190  PEFNEEIIQERIDFQKNYCAQQMKNEKTSMVLLKYFDEKWVNNYIKTVLFD  240
+
+
+> sp|A9BCT3|PEBA_PROM4 15,16-dihydrobiliverdin:ferredoxin oxidoreductase 
+OS=Prochlorococcus marinus (strain MIT 9211) OX=93059 
+GN=pebA PE=3 SV=1
+Length=238
+
+ Score = 218 bits (556),  Expect = 6e-70, Method: Composition-based stats.
+ Identities = 60/236 (25%), Positives = 106/236 (45%), Gaps = 13/236 (6%)
+
+Query  6    IYKPFWEWAAKTIKERLGDDLVSYPIPDGYLRKEAMVGESLAWTQSYGYQTKKMRQIRAA  65
+            ++ P+ +   K +    G+ L+   +PDG   +E    +  A  +S+ +     R+ R  
+Sbjct  1    MFDPYLDELNKLLIVNHGEILL---VPDGL--QECYSKKQDAVIRSWLWSVPGFRRWRVT  55
+
+Query  66   HVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLP--GGHLIAIDMQPLFQTEEYKKKYAE  123
+             ++ G  LQV N V +P    + P +G+DL+        +  +D QPL Q + Y  +Y +
+Sbjct  56   RMDVGDKLQVFNSVAYPDYLNEQPIMGIDLLWFGIKNKLVAVLDFQPLVQEKSYFDRYYQ  115
+
+Query  124  PCMDMYQKH-----VKNLPWGGDKQYFSPVFLWTRPQEDKQVETYVFEAFKDYINKYLDF  178
+                +  ++       N+       YFSP  L  +     Q  + +   F +++N Y D 
+Sbjct  116  GLKSLKARYSDFNSKDNVRAYDLSNYFSPWVLLCKGDL-FQASSSLPFVFSEFLNAYFDI  174
+
+Query  179  VEAAKPVTDPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEWTERYIHGFLFD  234
+                K         R++E Q+SY  Y +  DPA G+F   +G +W+ER++  FLF 
+Sbjct  175  SNNFKKYNSRIEPNRVKELQISYDIYSSAHDPAHGLFKSYFGKQWSERFLKEFLFP  230
+
+
+> sp|A2CA92|PCYA_PROM3 Phycocyanobilin:ferredoxin oxidoreductase 
+OS=Prochlorococcus marinus (strain MIT 9303) OX=59922 GN=pcyA 
+PE=3 SV=1
+Length=264
+
+ Score = 218 bits (555),  Expect = 1e-69, Method: Composition-based stats.
+ Identities = 59/235 (25%), Positives = 98/235 (42%), Gaps = 8/235 (3%)
+
+Query  5    DIYKPFWEWAAKTIKERLGD--DLVSYPIPDGYLRKEAMVGESLAWTQSYGYQTKKMRQI  62
+                P  E  A  I++R     +L  + +          +        +  ++ + +R++
+Sbjct  28   PAIHPLIESLAARIRQRRAQLPELSPFALDSVMESISGQLDGEELLISNELHRCRGLRKL  87
+
+Query  63   RAAHVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGHLIAI-DMQPLFQTEEYKKKY  121
+                   G  LQVL+ VFFP   +DLP  G D+V  P G   AI D+ P+  T      +
+Sbjct  88   HLEIARLGGGLQVLHCVFFPDPRFDLPIFGADIVASPAGISAAIVDLSPVGLTMPVALLH  147
+
+Query  122  -AEPCMDMYQKHVKNLPWGGDKQYFSPVFLWTRPQEDKQVETYVFEAFKDYINKYLDFVE  180
+              E       + V+ LP  G    FSP   + RP   ++ E++  +    Y+   +  V 
+Sbjct  148  GLESLPIPAFQQVRELPAWGS--IFSPFVQFIRPASSEE-ESWFVDLADGYLKALISSVI  204
+
+Query  181  AAKP-VTDPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEWTERYIHGFLFD  234
+             A P  +D     +  + QLSY   +   D  RG+  + + P+W +RYI   LF+
+Sbjct  205  DATPDASDAASTIQRHKSQLSYCIQQKRNDKTRGVLEKAFNPQWADRYIEEILFE  259
+
+
+> sp|Q7V7Y8|PCYA_PROMM Phycocyanobilin:ferredoxin oxidoreductase 
+OS=Prochlorococcus marinus (strain MIT 9313) OX=74547 GN=pcyA 
+PE=3 SV=1
+Length=264
+
+ Score = 217 bits (552),  Expect = 4e-69, Method: Composition-based stats.
+ Identities = 60/235 (26%), Positives = 98/235 (42%), Gaps = 8/235 (3%)
+
+Query  5    DIYKPFWEWAAKTIKERLGD--DLVSYPIPDGYLRKEAMVGESLAWTQSYGYQTKKMRQI  62
+                P  E  A  I++R     +L  + +          +        +  ++ + MR++
+Sbjct  28   PAIHPLIESLAARIRQRRAQLPELSPFALDSVMESISGQLDGEELLISNELHRCRGMRKL  87
+
+Query  63   RAAHVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGHLIAI-DMQPLFQTEEYKKKY  121
+                   G  LQVL+ VFFP   +DLP  G D+V  P G   AI D+ P+  T      +
+Sbjct  88   HLEIARLGGGLQVLHCVFFPDPRFDLPIFGADIVAGPAGISAAIVDLSPVGLTMPEALLH  147
+
+Query  122  -AEPCMDMYQKHVKNLPWGGDKQYFSPVFLWTRPQEDKQVETYVFEAFKDYINKYLDFVE  180
+              E       + V+ LP  G    FSP   + RP   ++ E++  +    Y+   +  V 
+Sbjct  148  GLESLPIPAFQQVRELPEWGS--IFSPFVQFIRPASSQE-ESWFVDLADGYLKALISSVI  204
+
+Query  181  AAKP-VTDPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEWTERYIHGFLFD  234
+             A P  +D     +  + QLSY   +   D  RG+  + + P+W +RYI   LF+
+Sbjct  205  DATPDASDAASTIQRHKSQLSYCIQQKRNDKTRGVLEKAFNPQWADRYIEEILFE  259
+
+
+> sp|Q3AXI3|PCYA_SYNS9 Phycocyanobilin:ferredoxin oxidoreductase 
+OS=Synechococcus sp. (strain CC9902) OX=316279 GN=pcyA PE=3 
+SV=1
+Length=246
+
+ Score = 213 bits (544),  Expect = 4e-68, Method: Composition-based stats.
+ Identities = 59/214 (28%), Positives = 87/214 (41%), Gaps = 8/214 (4%)
+
+Query  25   DLVSYPIPDGYLRKEAMVGESLAWTQSYGYQTKKMRQIRAAHVNGGASLQVLNLVFFPHM  84
+            +L      D        +     +  +  YQ +  R+I       G  LQ+L+ V+FP  
+Sbjct  32   ELAPLCTADDLKAIHGELDGETLFIGNELYQCRGFRKIHLEIARLGNGLQILHCVWFPDP  91
+
+Query  85   NYDLPFLGLDLVTLPGGHLIAI-DMQPLFQT-EEYKKKYAEPCMDMYQKHVKNLPWGGDK  142
+             YDLP  G D+V  P G   AI D+ P      +   K  E       + V++LP  G  
+Sbjct  92   QYDLPIFGADIVAGPAGISAAIVDLSPTSGELPDPVFKGLEAIERPAFRQVRDLPGWG--  149
+
+Query  143  QYFSPVFLWTRPQEDKQVETYVFEAFKDYINKYLDFVEAAKPVTDPDHLARIR--ERQLS  200
+              FS    + RP    + E    +   DY+    D    A P + P  ++ I   E QL+
+Sbjct  150  TIFSSKVCFIRPDGADE-EALFNQVVIDYLEVLSDCASRANPES-PTTVSTINRYEGQLN  207
+
+Query  201  YLQYRAEKDPARGMFTRMYGPEWTERYIHGFLFD  234
+            Y   +   D  R +  + + PEW +RYI   LFD
+Sbjct  208  YCLQQKRNDKTRRVLEKAFDPEWADRYIELLLFD  241
+
+
+> sp|Q93SN8|PEBA_PROMP 15,16-dihydrobiliverdin:ferredoxin oxidoreductase 
+OS=Prochlorococcus marinus subsp. pastoris (strain 
+CCMP1986 / NIES-2087 / MED4) OX=59919 GN=pebA PE=3 SV=2
+Length=236
+
+ Score = 213 bits (543),  Expect = 4e-68, Method: Composition-based stats.
+ Identities = 60/231 (26%), Positives = 105/231 (45%), Gaps = 9/231 (4%)
+
+Query  13   WAAKTIKERLGDDLVSYPIPDGYLRKEAMVGESLAWTQSYGYQTKKMRQIRAAHVNGGAS  72
+             + K   +   +DL    +      KE    +S    +++ +++++ R+ R   ++GG  
+Sbjct  3    ESLKNFVKTNIEDLDGKELEISKEFKEHHNKDSKYIIKNWIFESQQYRKWRITKLDGGDK  62
+
+Query  73   LQVLNLVFFPHMNYDLPFLGLDLVTLPGGH--LIAIDMQPLFQTEEYKKKYAEPCMDMYQ  130
+            LQV N V +P+   + P LG D++        L   D QPL Q ++Y +KY      +  
+Sbjct  63   LQVFNTVAYPNFKSEFPILGADILWFGTSQKLLAIFDYQPLIQEKKYLQKYCSSLDFIKN  122
+
+Query  131  KH-----VKNLPWGGDKQYFSPVFLWTRPQEDKQVETYVFEAFKDYINKYLDFVEAAKPV  185
+            ++      K       K+YFSP  +  R  +   ++  +   F  +++ YL  +      
+Sbjct  123  QYSVFDNHKMKNIYDSKKYFSPWVMICRGNK-LNLDRDLNNIFCSFVSNYL-TINKLHQN  180
+
+Query  186  TDPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEWTERYIHGFLFDLE  236
+                 L +I+  Q+ Y +Y AEKDPA  +F   +G  WTE +I+ FLF L 
+Sbjct  181  NQFLDLEQIKNNQIDYDKYSAEKDPADKLFKTFFGETWTENFINNFLFTLN  231
+
+
+> sp|Q93TL5|PCYA_PROMP Phycocyanobilin:ferredoxin oxidoreductase 
+OS=Prochlorococcus marinus subsp. pastoris (strain CCMP1986 
+/ NIES-2087 / MED4) OX=59919 GN=pcyA PE=3 SV=1
+Length=241
+
+ Score = 209 bits (533),  Expect = 2e-66, Method: Composition-based stats.
+ Identities = 44/233 (19%), Positives = 91/233 (39%), Gaps = 7/233 (3%)
+
+Query  6    IYKPFWEWAAKTIKERLG--DDLVSYPIPDGYLRKEAMVGESLAWTQSYGYQTKKMRQIR  63
+            +  P      + IK +    +DL    +        +       + ++  Y+ K  R++ 
+Sbjct  11   LIDPLILTLLQNIKVQRSKLNDLNCIEVDPKLSNIISNEEGKELYIENEFYKAKGFRKLH  70
+
+Query  64   AAHVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGHLIAI-DMQPLFQTEEYKKKYA  122
+                    SL++L+ VFFP   YD+P  G+DLV +      AI D+ P  + +  K  + 
+Sbjct  71   IEVAEFSKSLKILHCVFFPDPKYDIPIFGMDLVKVNELVSAAIVDLSPSSKNQNLKYDHL  130
+
+Query  123  EPCMDMY-QKHVKNLPWGGDKQYFSPVFLWTRPQEDKQVETYVFEAFKDYINKYLDFVEA  181
+               +D    K  + +P  G    FS    +   + + +      +   +Y++  +   ++
+Sbjct  131  LSHIDKSVFKSKREIPIWG--NIFSKNVFFASLKNESEK-NAFCKIVDNYLSVLIQLSQS  187
+
+Query  182  AKPVTDPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEWTERYIHGFLFD  234
+              P +D + +      Q +Y   + + +    +  + +   W + YI   LFD
+Sbjct  188  TSPDSDYEIIEERINYQKNYCVQQMKNEKTSLVLLKYFDKVWVDEYIKKVLFD  240
+
+
+> sp|A2BYX6|PEBA_PROM5 15,16-dihydrobiliverdin:ferredoxin oxidoreductase 
+OS=Prochlorococcus marinus (strain MIT 9515) OX=167542 
+GN=pebA PE=3 SV=1
+Length=236
+
+ Score = 207 bits (526),  Expect = 2e-65, Method: Composition-based stats.
+ Identities = 58/234 (25%), Positives = 108/234 (46%), Gaps = 13/234 (6%)
+
+Query  13   WAAKTIKERLGDDLVSYPIPDGYLRKEAMVGESLAWTQSYGYQTKKMRQIRAAHVNGGAS  72
+             + K   ++  +DL    +      +E    +S    +++ +++ + R+ R   ++GG  
+Sbjct  3    DSLKNFLKKSIEDLDGKELEISKEFQEYHNKDSKYIIKNWLFESPQYRKWRVTKLDGGDK  62
+
+Query  73   LQVLNLVFFPHMNYDLPFLGLDLVTLPGGH--LIAIDMQPLFQTEEYKKKYAEPCMDMYQ  130
+            LQV N V +P+   + P LG D++        L   D QPL Q ++Y  +Y      + +
+Sbjct  63   LQVFNTVAYPNFKSESPILGADILWFGTSQKLLAIFDYQPLIQEKKYLYQYCSSLDFIKK  122
+
+Query  131  KH-------VKNLPWGGDKQYFSPVFLWTRPQEDKQVETYVFEAFKDYINKYLDFVEAAK  183
+            K+       +KN+     K+YFSP  +  R  +   ++  +   F  +++ YL  +    
+Sbjct  123  KYSVFDNNKMKNIY--DSKKYFSPWVMICRGNK-LNLDRDLNSIFYLFVSDYLR-INKLN  178
+
+Query  184  PVTDPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEWTERYIHGFLFDLEE  237
+                  +  +I+ +Q+ Y +Y AEKDPA  +F   +G  WT  +I+ FLF L  
+Sbjct  179  QNNQFLNYEQIKNKQIDYDKYSAEKDPADKLFKSFFGENWTCNFINNFLFTLNN  232
+
+
+> sp|Q3AKB1|PCYA_SYNSC Phycocyanobilin:ferredoxin oxidoreductase 
+OS=Synechococcus sp. (strain CC9605) OX=110662 GN=pcyA PE=3 
+SV=1
+Length=247
+
+ Score = 206 bits (525),  Expect = 3e-65, Method: Composition-based stats.
+ Identities = 54/237 (23%), Positives = 91/237 (38%), Gaps = 9/237 (4%)
+
+Query  9    PFWEWAAKTIKER--LGDDLVSYPIPDGYLRKEAMVGESLAWTQSYGYQTKKMRQIRAAH  66
+            P  +  A +I+        L   P  +     +  +        +  ++   +R++    
+Sbjct  14   PLVQALAASIRSAWAGLPGLEILPCDEDLRFIQGQLDGEGLSIGNELFRCIGLRKLHLEV  73
+
+Query  67   VNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGHLIAI-DMQPLFQT--EEYKKKYAE  123
+               G  LQ+L+ V+FP  +YDLP  G D+V  P G   AI D+ P      E+  ++   
+Sbjct  74   ARLGNGLQILHSVWFPDPHYDLPIFGADIVAGPAGISAAIVDLSPTSDALPEQLIQRLEA  133
+
+Query  124  PCMDMYQKHVKNLPWGGDKQYFSPVFLWTRPQEDKQVETYVFEAFKDYINKYLDFVEAAK  183
+                 + + V+ LP  G    FS    + RP    + E    +    Y+      V  A 
+Sbjct  134  RPWPAF-RQVRELPAWGSA-IFSNKVCFIRPDGADE-EAAFQQLVSHYLQVMATSVIEAT  190
+
+Query  184  PV-TDPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEWTERYIHGFLFDLEEKM  239
+            P  +      R  E QL+Y   +   D  R +  + +   W +RYI   LFD   ++
+Sbjct  191  PEQSTALTTVRRYEGQLNYCLQQKRNDKTRRVLEKAFDSAWADRYIDMLLFDNPPEL  247
+
+
+> sp|Q9K4U6|PEBA_PROMA 15,16-dihydrobiliverdin:ferredoxin oxidoreductase 
+OS=Prochlorococcus marinus (strain SARG / CCMP1375 
+/ SS120) OX=167539 GN=pebA PE=3 SV=1
+Length=241
+
+ Score = 205 bits (523),  Expect = 6e-65, Method: Composition-based stats.
+ Identities = 49/232 (21%), Positives = 96/232 (41%), Gaps = 11/232 (5%)
+
+Query  11   WEWAAKTIKERLGDDL-VSYPIPDGYLRKEAMVGESLAWTQSYGYQTKKMRQIRAAHVNG  69
+             +     +K R+         + +G   + +   +     +S+ +     R+ R   ++ 
+Sbjct  6    LQDLHNNLKRRIISHGGKPIEVENGMSERFSH--KQDTVIKSWLWDVPGFRRWRVTRMDA  63
+
+Query  70   GASLQVLNLVFFPHMNYDLPFLGLDLVTLP--GGHLIAIDMQPLFQTEEYKKKYAEPCMD  127
+            G  LQVLN V +P    D P LG+D++        +  +D QPL Q E Y  +Y +    
+Sbjct  64   GDKLQVLNSVAYPAYTNDKPILGIDILWFGLKRKLVAVLDFQPLVQEERYFCRYYKDLQI  123
+
+Query  128  MYQKHV-----KNLPWGGDKQYFSPVFLWTRPQEDKQVETYVFEAFKDYINKYLDFVEAA  182
+            +  + V     K +      +YFSP  L         ++  + +   ++++ Y       
+Sbjct  124  LKNRFVDFNSQKTMKIYDSNKYFSPWVLLY-NGSFDDLQCSLAKILDEFLHAYWQVDNNN  182
+
+Query  183  KPVTDPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEWTERYIHGFLFD  234
+                     +++ +  ++Y  Y AE+DPA G+F   +G  W ++++  FLF 
+Sbjct  183  SREYIKIIPSKVEQLHINYDIYSAERDPAHGLFKSYFGQTWADQFVREFLFP  234
+
+
+> sp|Q7U7A1|PCYA_SYNPX Phycocyanobilin:ferredoxin oxidoreductase 
+OS=Synechococcus sp. (strain WH8102) OX=84588 GN=pcyA PE=3 
+SV=1
+Length=247
+
+ Score = 205 bits (522),  Expect = 7e-65, Method: Composition-based stats.
+ Identities = 53/217 (24%), Positives = 85/217 (39%), Gaps = 8/217 (4%)
+
+Query  22   LGDDLVSYPIPDGYLRKEAMVGESLAWTQSYGYQTKKMRQIRAAHVNGGASLQVLNLVFF  81
+               +L        +   E  +       ++     + +R+I       G  LQ+L+ V+F
+Sbjct  29   GLPELKPLDADSDFSSIEGQLEGDDLLIRNELLCCRGVRKIHLELARLGRGLQILHCVWF  88
+
+Query  82   PHMNYDLPFLGLDLVTLPGGHLIAI-DMQPLFQTEEYKKKYAEPCMDMYQ-KHVKNLPWG  139
+            P   +DLP  G D+V  P G   AI D+ P+  T     + A         + V++LP  
+Sbjct  89   PDPRFDLPIFGADIVAGPAGVSAAIVDLSPVSGTLPSGIETALAGTPSPAFRQVRDLPGW  148
+
+Query  140  GDKQYFSPVFLWTRPQEDKQVETYVFEAFKDYINKYLDFVEA--AKPVTDPDHLARIRER  197
+            G    FSP   + RP   ++ E       ++ +      V     +P T    + R  E 
+Sbjct  149  G--TIFSPHVCFIRPDGAEE-EVLFRSRVEEVLTILRTAVLQTACEPATAASTIRRY-EG  204
+
+Query  198  QLSYLQYRAEKDPARGMFTRMYGPEWTERYIHGFLFD  234
+            QLSY   +   D  R +  + +   W +RYI   LFD
+Sbjct  205  QLSYCLQQKRNDKTRRVLEKAFDASWADRYIEELLFD  241
+
+
+> sp|A2BYX5|PEBB_PROM5 Phycoerythrobilin:ferredoxin oxidoreductase 
+OS=Prochlorococcus marinus (strain MIT 9515) OX=167542 GN=pebB 
+PE=3 SV=1
+Length=258
+
+ Score = 204 bits (519),  Expect = 4e-64, Method: Composition-based stats.
+ Identities = 68/250 (27%), Positives = 116/250 (46%), Gaps = 22/250 (9%)
+
+Query  7    YKPFWEWAAKTIKERLGDDLVSY-----PIPDGYLRKEAMVGESLAWTQ----SYGYQTK  57
+            YK  W W+     + L   L  Y      IP  +  KE+  G S +       ++G   +
+Sbjct  9    YKKEWRWS--NFIKLLISQLAKYHCLEHEIPSAFSYKESTYGSSKSQNNVSLFTWGATHR  66
+
+Query  58   KMRQIRAAHVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGHLIAIDMQPLFQ-TEE  116
+            +      A      S  VLN +  P   +++PFLG+D V+LP  HL+ +D QP  +   +
+Sbjct  67   ERINFARAVCINSPSYSVLNFLIIPSTRFNIPFLGVDFVSLPKNHLLVLDFQPSLKVENQ  126
+
+Query  117  YKKKYAEPCMDMYQKHVKNLPWGGD-----KQYFSPVFLWTR----PQEDKQVETYVFEA  167
+            +  +  +  + + +   K+LP          ++FSP  +W+R       D  +E  ++ +
+Sbjct  127  FNSELLDQLVKLKKSCHKSLPIAEKMSEEVSRFFSPGLIWSRLPKHKNSDYLIENQLYHS  186
+
+Query  168  FKDYINKYLDFVEAAKPVTDPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEWTERY  227
+            FK+Y+  YL+ +  ++ V D      I   Q +YL YR  KDPAR M + ++G ++TE  
+Sbjct  187  FKEYLVLYLNTLFTSEEV-DQGLQQEIINGQNNYLNYRRNKDPARPMLSSLFGKDFTESL  245
+
+Query  228  IHGFLFDLEE  237
+            I+  LF   +
+Sbjct  246  INKVLFSTNK  255
+
+
+> sp|A2BW83|PCYA_PROM5 Phycocyanobilin:ferredoxin oxidoreductase 
+OS=Prochlorococcus marinus (strain MIT 9515) OX=167542 GN=pcyA 
+PE=3 SV=1
+Length=241
+
+ Score = 202 bits (513),  Expect = 2e-63, Method: Composition-based stats.
+ Identities = 41/233 (18%), Positives = 92/233 (39%), Gaps = 7/233 (3%)
+
+Query  6    IYKPFWEWAAKTIKERLG--DDLVSYPIPDGYLRKEAMVGESLAWTQSYGYQTKKMRQIR  63
+            +  P      + I+      ++L S  I        +       + ++  ++ K  R++ 
+Sbjct  11   LIDPLILTLLQNIRGHRSNLENLKSIKIDPKLSNIISDKEGKELYIENEFHKAKGFRKLH  70
+
+Query  64   AAHVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGHLIAI-DMQPLFQTEEYKKKYA  122
+                     L++L+ VFFP  +YD+P  G+DLV +      AI D+ P  + +  K    
+Sbjct  71   IEVAEFSRRLKILHCVFFPDPHYDIPIFGMDLVKVNEVVSAAIVDLSPSSKNQNLKYDNL  130
+
+Query  123  EPCMDMY-QKHVKNLPWGGDKQYFSPVFLWTRPQEDKQVETYVFEAFKDYINKYLDFVEA  181
+               +D    +  + +P  GD   FS    +   + + +  +   +    Y+   +   ++
+Sbjct  131  LSTIDKSVFESEREIPGWGD--IFSQNVFFASLKNESEK-SAFCKIVDHYLLVLIKLSKS  187
+
+Query  182  AKPVTDPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEWTERYIHGFLFD  234
+            +    D + +    + Q +Y + + + +    +  + +  +W + YI   LFD
+Sbjct  188  SILDHDQEIIQERIDFQKNYCRQQMKNEKTSLVLLKYFDKKWVDEYIKKVLFD  240
+
+
+> sp|Q7VCC2|PCYA_PROMA Phycocyanobilin:ferredoxin oxidoreductase 
+OS=Prochlorococcus marinus (strain SARG / CCMP1375 / SS120) 
+OX=167539 GN=pcyA PE=3 SV=1
+Length=247
+
+ Score = 196 bits (498),  Expect = 4e-61, Method: Composition-based stats.
+ Identities = 55/234 (24%), Positives = 101/234 (43%), Gaps = 10/234 (4%)
+
+Query  9    PFWEWAAKTIKER--LGDDLVSYPIPDGYLRKEAMVGESLAWTQSYGYQTKKMRQIRAAH  66
+            PF E  A  I+ER      + S  +                +  +  +Q++  R++    
+Sbjct  10   PFLESVADRIRERVKGLTGVESLELAPDLKNIYGKTDGEDFFIFNELHQSRGFRKLHIET  69
+
+Query  67   VNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGHLIAI-DMQPLFQT--EEYKKKYAE  123
+                 SL++L++VFFP   +DLP  G+DL+ +P G   AI D+ P+        + + A+
+Sbjct  70   AVFEPSLEILHVVFFPDPAFDLPIFGVDLIAVPQGISAAIVDLSPVRDKLPRTIENQLAQ  129
+
+Query  124  PCMDMYQKHVKNLPWGGDKQYFSPVFLWTRPQEDKQVETYVFEAFKDYINKYLDFVEAAK  183
+              +  ++K V+ LP  GD   FS    +  P   ++   +  +    ++   +D+ E+ +
+Sbjct  130  IEIPSFEK-VRKLPDWGD--IFSSHVQFITPIGAEE-NGFFLDLVDKFLTILIDYSESIE  185
+
+Query  184  PVTDPDH-LARIRERQLSYLQYRAEKDPARGMFTRMYGPEWTERYIHGFLFDLE  236
+            P  D         E Q+ Y   + + D  R +  + + P W  +YI   LFD+ 
+Sbjct  186  PDLDDSPFTIERIEGQMYYCLQQKQNDKTRNVLAKAFSPNWANQYIEMVLFDMP  239
+
+
+> sp|Q9SR43|PFBS_ARATH Phytochromobilin:ferredoxin oxidoreductase, 
+chloroplastic OS=Arabidopsis thaliana OX=3702 GN=HY2 PE=2 
+SV=1
+Length=329
+
+ Score = 195 bits (496),  Expect = 9e-60, Method: Composition-based stats.
+ Identities = 63/236 (27%), Positives = 110/236 (47%), Gaps = 13/236 (6%)
+
+Query  7    YKPFWEWAAKTIKERLGDDLVSYPIPDGYLRKEAMVGESLAWTQSYGYQTKKMRQIRAAH  66
+            YK F E A +  ++R+   L    + + Y     + G      Q   +++ K+R +R+  
+Sbjct  51   YKEFAESALEETRKRIV--LEPSHLQEKYSSMTGLDG--KTELQMLAFKSSKIRLLRSMA  106
+
+Query  67   VNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGHLIAIDMQPLFQ---TEEYKKKYAE  123
+            +    ++QV +   F    YD P    +  T    +++ +D+ PL Q     +Y+ KY  
+Sbjct  107  IEN-ETMQVFDFAGFMEPEYDTPIFCANFFTSTNVNIVVLDLNPLHQLTDQTDYQDKYYN  165
+
+Query  124  PCMDMYQKHVKNLPWGG-----DKQYFSPVFLWTRPQEDKQVETYVFEAFKDYINKYLDF  178
+              M +Y K+ +  PWGG       ++FSP+ +WTR    K+    +F AF +Y   +L+ 
+Sbjct  166  KIMSIYHKYAETFPWGGKLTGESIKFFSPLVMWTRFSSSKEKHKALFSAFLEYYQAWLEM  225
+
+Query  179  VEAAKPVTDPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEWTERYIHGFLFD  234
+                +   +P H+    E Q  YL +RA+KDP  G+  R+ G    +  +  FLF+
+Sbjct  226  TIQVREEMEPSHVRANCEAQHKYLTWRAQKDPGHGLLKRLVGEAKAKELLRDFLFN  281
+
+
+> sp|Q93SN7|PEBB_PROMP Phycoerythrobilin:ferredoxin oxidoreductase 
+OS=Prochlorococcus marinus subsp. pastoris (strain CCMP1986 
+/ NIES-2087 / MED4) OX=59919 GN=pebB PE=3 SV=1
+Length=257
+
+ Score = 191 bits (486),  Expect = 3e-59, Method: Composition-based stats.
+ Identities = 65/248 (26%), Positives = 115/248 (46%), Gaps = 18/248 (7%)
+
+Query  7    YKPFWEWA--AKTIKERLGD-DLVSYPIPDGYLRKEAMVGESLAWTQ----SYGYQTKKM  59
+            Y   W WA   K +  +L +   V + I   +  KE+  G   +       ++G   +K 
+Sbjct  9    YSQEWRWAKFIKFLISQLDNYHCVEHKIASDFSYKESSYGSKKSKKNINLFTWGATHQKR  68
+
+Query  60   RQIRAAHVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGHLIAIDMQPLFQ-TEEYK  118
+                 A      +  VLN +  P  +Y++PFLG+D V+LP  HL+ +D QP  +   ++ 
+Sbjct  69   INFARAVCINSPNYSVLNFLIIPKTSYNIPFLGVDFVSLPTSHLLVLDFQPSLKVENQFN  128
+
+Query  119  KKYAEPCMDMYQKHVKNLP-----WGGDKQYFSPVFLWTR----PQEDKQVETYVFEAFK  169
+             +  E  + + +    +LP          ++FSP  +W+R       D  +E  ++++FK
+Sbjct  129  SELLEQIIKLKKSCHSSLPVAEKMSEDVAKFFSPGLIWSRLAKHQDSDNLIENQLYDSFK  188
+
+Query  170  DYINKYLDFVEAAKPVTDPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEWTERYIH  229
+            +Y+N YL  +  ++ V        +   Q  YL YR + DPAR M + ++G ++TE  I+
+Sbjct  189  EYLNLYLKTLFESEEVGHGLQ-QELINGQNDYLNYRRDNDPARPMLSSLFGKDFTESLIN  247
+
+Query  230  GFLFDLEE  237
+              LF   +
+Sbjct  248  KVLFSTNK  255
+
+
+> sp|Q58MU6|PEBS_BPPRM Phycoerythrobilin synthase OS=Prochlorococcus 
+phage P-SSM2 OX=268746 GN=pebS PE=1 SV=1
+Length=233
+
+ Score = 135 bits (339),  Expect = 2e-37, Method: Composition-based stats.
+ Identities = 40/176 (23%), Positives = 76/176 (43%), Gaps = 17/176 (10%)
+
+Query  59   MRQIRAAHVNGGASLQVLNLVFFPHMNYDLPFLGLDLVTLPGGHLIAIDMQPLFQTEEYK  118
+              + R AH+    S  + N + +P    DLP  G+DL+      +I +     F  +  +
+Sbjct  71   FLKAREAHIVDPNS-DIYNTILYPKTGADLPCFGMDLMKFSDKKVIIV-----FDFQHPR  124
+
+Query  119  KKYAEPCMDMYQKHVKNLPWGGDKQYFSPVFL-WTRPQEDKQVETYVFEAFKDYINKYLD  177
+            +KY      + +   K   +     +   +F+ + +P    +V+ Y+ + FK Y+ KY +
+Sbjct  125  EKYLFSVDGLPEDDGKYRFFEMGNHFSKNIFVRYCKPD---EVDQYL-DTFKLYLTKYKE  180
+
+Query  178  FVEAAKPVTDPDHLARIRERQLSYLQYRAEKDPARGMFTRMYGPEWTERYIHGFLF  233
+             ++  KPV +   +         +  Y  E DP RG     +G   +E +++ FLF
+Sbjct  181  MIDNNKPVGEDTTVYS------DFDTYMTELDPVRGYMKNKFGEGRSEAFVNDFLF  230
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.152    0.452    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0465    0.140     1.90     42.6     43.6 
+
+Effective search space used: 20209788438
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 28, 2021  3:44 PM
+  Number of letters in database: 202,799,066
+  Number of sequences in database:  563,082
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

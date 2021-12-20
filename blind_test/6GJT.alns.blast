@@ -1,0 +1,295 @@
+PSIBLAST 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           563,082 sequences; 202,799,066 total letters
+
+Results from round 1
+
+
+Query= 6GJT
+
+Length=179
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|P0CE18|GP3D_CHLTH Virulence plasmid protein pGP3-D OS=Chlamy...  325     2e-113
+  sp|B0BCM1|GP3D_CHLT2 Virulence plasmid protein pGP3-D OS=Chlamy...  325     2e-113
+  sp|Q46439|GP3D_CHLMU Virulence plasmid protein pGP3-D OS=Chlamy...  282     4e-96 
+  sp|Q46261|GP3D_CHLPS Virulence plasmid protein pGP3-D OS=Chlamy...  238     1e-78 
+
+
+> sp|P0CE18|GP3D_CHLTH Virulence plasmid protein pGP3-D OS=Chlamydia 
+trachomatis OX=813 PE=1 SV=1
+Length=264
+
+ Score = 325 bits (834),  Expect = 2e-113, Method: Compositional matrix adjust.
+ Identities = 162/165 (98%), Positives = 163/165 (99%), Gaps = 0/165 (0%)
+
+Query  15   FADNTVQDILDKITTDPSLGLLKAFNNFPITNKIQCNGLFTPRNIETLLGGTEIGKFTVT  74
+              D+TVQDILDKITTDPSLGLLKAFNNFPITNKIQCNGLFTPRNIETLLGGTEIGKFTVT
+Sbjct  96   IVDSTVQDILDKITTDPSLGLLKAFNNFPITNKIQCNGLFTPRNIETLLGGTEIGKFTVT  155
+
+Query  75   PKSSGSMFLVSADIIASRMEGGVVLALVREGDSKPYAISYGYSSGVPNLCSLRTRIINTG  134
+            PKSSGSMFLVSADIIASRMEGGVVLALVREGDSKPYAISYGYSSGVPNLCSLRTRIINTG
+Sbjct  156  PKSSGSMFLVSADIIASRMEGGVVLALVREGDSKPYAISYGYSSGVPNLCSLRTRIINTG  215
+
+Query  135  LTPTTYSLRVGGLESGVVWVNALSNGNDILGITNTSNVSFLEVIP  179
+            LTPTTYSLRVGGLESGVVWVNALSNGNDILGITNTSNVSFLEVIP
+Sbjct  216  LTPTTYSLRVGGLESGVVWVNALSNGNDILGITNTSNVSFLEVIP  260
+
+
+ Score = 44.7 bits (104),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 18/18 (100%), Positives = 18/18 (100%), Gaps = 0/18 (0%)
+
+Query  1   GNSGFYLYNTQNCVFADN  18
+           GNSGFYLYNTQNCVFADN
+Sbjct  2   GNSGFYLYNTQNCVFADN  19
+
+
+> sp|B0BCM1|GP3D_CHLT2 Virulence plasmid protein pGP3-D OS=Chlamydia 
+trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B) 
+OX=471472 GN=pL2-05 PE=1 SV=1
+Length=264
+
+ Score = 325 bits (834),  Expect = 2e-113, Method: Compositional matrix adjust.
+ Identities = 162/165 (98%), Positives = 163/165 (99%), Gaps = 0/165 (0%)
+
+Query  15   FADNTVQDILDKITTDPSLGLLKAFNNFPITNKIQCNGLFTPRNIETLLGGTEIGKFTVT  74
+              D+TVQDILDKITTDPSLGLLKAFNNFPITNKIQCNGLFTPRNIETLLGGTEIGKFTVT
+Sbjct  96   IVDSTVQDILDKITTDPSLGLLKAFNNFPITNKIQCNGLFTPRNIETLLGGTEIGKFTVT  155
+
+Query  75   PKSSGSMFLVSADIIASRMEGGVVLALVREGDSKPYAISYGYSSGVPNLCSLRTRIINTG  134
+            PKSSGSMFLVSADIIASRMEGGVVLALVREGDSKPYAISYGYSSGVPNLCSLRTRIINTG
+Sbjct  156  PKSSGSMFLVSADIIASRMEGGVVLALVREGDSKPYAISYGYSSGVPNLCSLRTRIINTG  215
+
+Query  135  LTPTTYSLRVGGLESGVVWVNALSNGNDILGITNTSNVSFLEVIP  179
+            LTPTTYSLRVGGLESGVVWVNALSNGNDILGITNTSNVSFLEVIP
+Sbjct  216  LTPTTYSLRVGGLESGVVWVNALSNGNDILGITNTSNVSFLEVIP  260
+
+
+ Score = 44.7 bits (104),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 18/18 (100%), Positives = 18/18 (100%), Gaps = 0/18 (0%)
+
+Query  1   GNSGFYLYNTQNCVFADN  18
+           GNSGFYLYNTQNCVFADN
+Sbjct  2   GNSGFYLYNTQNCVFADN  19
+
+
+> sp|Q46439|GP3D_CHLMU Virulence plasmid protein pGP3-D OS=Chlamydia 
+muridarum (strain MoPn / Nigg) OX=243161 GN=TC_A04 PE=4 
+SV=2
+Length=264
+
+ Score = 282 bits (721),  Expect = 4e-96, Method: Compositional matrix adjust.
+ Identities = 138/163 (85%), Positives = 152/163 (93%), Gaps = 0/163 (0%)
+
+Query  17   DNTVQDILDKITTDPSLGLLKAFNNFPITNKIQCNGLFTPRNIETLLGGTEIGKFTVTPK  76
+            ++ VQDI+DKIT+DPSLGLLKAF NF IT KIQCNGLFT  N+ TLLGGTEIG+FTVTP+
+Sbjct  98   ESAVQDIIDKITSDPSLGLLKAFYNFQITGKIQCNGLFTSSNVTTLLGGTEIGRFTVTPR  157
+
+Query  77   SSGSMFLVSADIIASRMEGGVVLALVREGDSKPYAISYGYSSGVPNLCSLRTRIINTGLT  136
+            SSGSMFLVSADIIASRMEGGVVLALV+EGD++P AISYGYSSGVPNLCSL+T + N+G T
+Sbjct  158  SSGSMFLVSADIIASRMEGGVVLALVKEGDTQPCAISYGYSSGVPNLCSLKTCVTNSGST  217
+
+Query  137  PTTYSLRVGGLESGVVWVNALSNGNDILGITNTSNVSFLEVIP  179
+            PTTYSLR+GGLESGVVWVNALSNGNDILGITNTSNVSFLEVIP
+Sbjct  218  PTTYSLRIGGLESGVVWVNALSNGNDILGITNTSNVSFLEVIP  260
+
+
+ Score = 42.0 bits (97),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 27/63 (43%), Positives = 32/63 (51%), Gaps = 12/63 (19%)
+
+Query  1   GNSGFYLYNTQNCVFADN----------TVQDILDKITTDPSLGLLKAFN--NFPITNKI  48
+           GNSGFYL+NT NCVFADN          T Q I+   +T P    + A    +  ITN  
+Sbjct  2   GNSGFYLHNTSNCVFADNIKVGQMTEPLTDQQIILGTSTTPVAAKITASEGISLTITNNA  61
+
+Query  49  QCN  51
+           Q N
+Sbjct  62  QAN  64
+
+
+> sp|Q46261|GP3D_CHLPS Virulence plasmid protein pGP3-D OS=Chlamydophila 
+psittaci OX=83554 PE=4 SV=1
+Length=264
+
+ Score = 238 bits (606),  Expect = 1e-78, Method: Compositional matrix adjust.
+ Identities = 113/158 (72%), Positives = 134/158 (85%), Gaps = 0/158 (0%)
+
+Query  20   VQDILDKITTDPSLGLLKAFNNFPITNKIQCNGLFTPRNIETLLGGTEIGKFTVTPKSSG  79
+            +Q+++D+I +D +L L KAF NF ++ KIQCNGLFT  NI TLLGGTEIGKFT+TP +  
+Sbjct  101  IQEVIDRIISDKNLALTKAFKNFSLSEKIQCNGLFTKSNIGTLLGGTEIGKFTITPDNVN  160
+
+Query  80   SMFLVSADIIASRMEGGVVLALVREGDSKPYAISYGYSSGVPNLCSLRTRIINTGLTPTT  139
+            SMFL+SADIIASRMEG VVLALVREGDS P AISYGYSSG+PN+CSLRT + NTG  P T
+Sbjct  161  SMFLISADIIASRMEGNVVLALVREGDSSPCAISYGYSSGIPNVCSLRTAVNNTGTDPVT  220
+
+Query  140  YSLRVGGLESGVVWVNALSNGNDILGITNTSNVSFLEV  177
+            +SLRVGG++SGVVWVNAL+NG+ ILG T TSN+SFLEV
+Sbjct  221  FSLRVGGMDSGVVWVNALANGDSILGTTATSNISFLEV  258
+
+
+ Score = 39.7 bits (91),  Expect = 0.006, Method: Compositional matrix adjust.
+ Identities = 16/18 (89%), Positives = 17/18 (94%), Gaps = 0/18 (0%)
+
+Query  1   GNSGFYLYNTQNCVFADN  18
+           GNSGFYL +TQNCVFADN
+Sbjct  2   GNSGFYLNDTQNCVFADN  19
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.136    0.397    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 9719343174
+Results from round 2
+
+
+Query= 6GJT
+
+Length=179
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P0CE18|GP3D_CHLTH Virulence plasmid protein pGP3-D OS=Chlamy...  278     1e-94
+  sp|B0BCM1|GP3D_CHLT2 Virulence plasmid protein pGP3-D OS=Chlamy...  278     1e-94
+  sp|Q46439|GP3D_CHLMU Virulence plasmid protein pGP3-D OS=Chlamy...  268     2e-90
+  sp|Q46261|GP3D_CHLPS Virulence plasmid protein pGP3-D OS=Chlamy...  255     2e-85
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|P0CE18|GP3D_CHLTH Virulence plasmid protein pGP3-D OS=Chlamydia 
+trachomatis OX=813 PE=1 SV=1
+Length=264
+
+ Score = 278 bits (712),  Expect = 1e-94, Method: Composition-based stats.
+ Identities = 162/165 (98%), Positives = 163/165 (99%), Gaps = 0/165 (0%)
+
+Query  15   FADNTVQDILDKITTDPSLGLLKAFNNFPITNKIQCNGLFTPRNIETLLGGTEIGKFTVT  74
+              D+TVQDILDKITTDPSLGLLKAFNNFPITNKIQCNGLFTPRNIETLLGGTEIGKFTVT
+Sbjct  96   IVDSTVQDILDKITTDPSLGLLKAFNNFPITNKIQCNGLFTPRNIETLLGGTEIGKFTVT  155
+
+Query  75   PKSSGSMFLVSADIIASRMEGGVVLALVREGDSKPYAISYGYSSGVPNLCSLRTRIINTG  134
+            PKSSGSMFLVSADIIASRMEGGVVLALVREGDSKPYAISYGYSSGVPNLCSLRTRIINTG
+Sbjct  156  PKSSGSMFLVSADIIASRMEGGVVLALVREGDSKPYAISYGYSSGVPNLCSLRTRIINTG  215
+
+Query  135  LTPTTYSLRVGGLESGVVWVNALSNGNDILGITNTSNVSFLEVIP  179
+            LTPTTYSLRVGGLESGVVWVNALSNGNDILGITNTSNVSFLEVIP
+Sbjct  216  LTPTTYSLRVGGLESGVVWVNALSNGNDILGITNTSNVSFLEVIP  260
+
+
+> sp|B0BCM1|GP3D_CHLT2 Virulence plasmid protein pGP3-D OS=Chlamydia 
+trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B) 
+OX=471472 GN=pL2-05 PE=1 SV=1
+Length=264
+
+ Score = 278 bits (712),  Expect = 1e-94, Method: Composition-based stats.
+ Identities = 162/165 (98%), Positives = 163/165 (99%), Gaps = 0/165 (0%)
+
+Query  15   FADNTVQDILDKITTDPSLGLLKAFNNFPITNKIQCNGLFTPRNIETLLGGTEIGKFTVT  74
+              D+TVQDILDKITTDPSLGLLKAFNNFPITNKIQCNGLFTPRNIETLLGGTEIGKFTVT
+Sbjct  96   IVDSTVQDILDKITTDPSLGLLKAFNNFPITNKIQCNGLFTPRNIETLLGGTEIGKFTVT  155
+
+Query  75   PKSSGSMFLVSADIIASRMEGGVVLALVREGDSKPYAISYGYSSGVPNLCSLRTRIINTG  134
+            PKSSGSMFLVSADIIASRMEGGVVLALVREGDSKPYAISYGYSSGVPNLCSLRTRIINTG
+Sbjct  156  PKSSGSMFLVSADIIASRMEGGVVLALVREGDSKPYAISYGYSSGVPNLCSLRTRIINTG  215
+
+Query  135  LTPTTYSLRVGGLESGVVWVNALSNGNDILGITNTSNVSFLEVIP  179
+            LTPTTYSLRVGGLESGVVWVNALSNGNDILGITNTSNVSFLEVIP
+Sbjct  216  LTPTTYSLRVGGLESGVVWVNALSNGNDILGITNTSNVSFLEVIP  260
+
+
+> sp|Q46439|GP3D_CHLMU Virulence plasmid protein pGP3-D OS=Chlamydia 
+muridarum (strain MoPn / Nigg) OX=243161 GN=TC_A04 PE=4 
+SV=2
+Length=264
+
+ Score = 268 bits (684),  Expect = 2e-90, Method: Composition-based stats.
+ Identities = 138/165 (84%), Positives = 152/165 (92%), Gaps = 0/165 (0%)
+
+Query  15   FADNTVQDILDKITTDPSLGLLKAFNNFPITNKIQCNGLFTPRNIETLLGGTEIGKFTVT  74
+              ++ VQDI+DKIT+DPSLGLLKAF NF IT KIQCNGLFT  N+ TLLGGTEIG+FTVT
+Sbjct  96   IVESAVQDIIDKITSDPSLGLLKAFYNFQITGKIQCNGLFTSSNVTTLLGGTEIGRFTVT  155
+
+Query  75   PKSSGSMFLVSADIIASRMEGGVVLALVREGDSKPYAISYGYSSGVPNLCSLRTRIINTG  134
+            P+SSGSMFLVSADIIASRMEGGVVLALV+EGD++P AISYGYSSGVPNLCSL+T + N+G
+Sbjct  156  PRSSGSMFLVSADIIASRMEGGVVLALVKEGDTQPCAISYGYSSGVPNLCSLKTCVTNSG  215
+
+Query  135  LTPTTYSLRVGGLESGVVWVNALSNGNDILGITNTSNVSFLEVIP  179
+             TPTTYSLR+GGLESGVVWVNALSNGNDILGITNTSNVSFLEVIP
+Sbjct  216  STPTTYSLRIGGLESGVVWVNALSNGNDILGITNTSNVSFLEVIP  260
+
+
+> sp|Q46261|GP3D_CHLPS Virulence plasmid protein pGP3-D OS=Chlamydophila 
+psittaci OX=83554 PE=4 SV=1
+Length=264
+
+ Score = 255 bits (651),  Expect = 2e-85, Method: Composition-based stats.
+ Identities = 113/163 (69%), Positives = 136/163 (83%), Gaps = 0/163 (0%)
+
+Query  15   FADNTVQDILDKITTDPSLGLLKAFNNFPITNKIQCNGLFTPRNIETLLGGTEIGKFTVT  74
+              ++ +Q+++D+I +D +L L KAF NF ++ KIQCNGLFT  NI TLLGGTEIGKFT+T
+Sbjct  96   ITNSLIQEVIDRIISDKNLALTKAFKNFSLSEKIQCNGLFTKSNIGTLLGGTEIGKFTIT  155
+
+Query  75   PKSSGSMFLVSADIIASRMEGGVVLALVREGDSKPYAISYGYSSGVPNLCSLRTRIINTG  134
+            P +  SMFL+SADIIASRMEG VVLALVREGDS P AISYGYSSG+PN+CSLRT + NTG
+Sbjct  156  PDNVNSMFLISADIIASRMEGNVVLALVREGDSSPCAISYGYSSGIPNVCSLRTAVNNTG  215
+
+Query  135  LTPTTYSLRVGGLESGVVWVNALSNGNDILGITNTSNVSFLEV  177
+              P T+SLRVGG++SGVVWVNAL+NG+ ILG T TSN+SFLEV
+Sbjct  216  TDPVTFSLRVGGMDSGVVWVNALANGDSILGTTATSNISFLEV  258
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.141    0.419    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0433    0.140     1.90     42.6     43.6 
+
+Effective search space used: 9719343174
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 28, 2021  3:44 PM
+  Number of letters in database: 202,799,066
+  Number of sequences in database:  563,082
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

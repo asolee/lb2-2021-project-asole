@@ -1,0 +1,3181 @@
+PSIBLAST 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           563,082 sequences; 202,799,066 total letters
+
+Results from round 1
+
+
+Query= 5AZ4
+
+Length=726
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|Q9ZKY0|FLGE_HELPJ Flagellar hook protein FlgE OS=Helicobacte...  176     3e-45
+  sp|P50610|FLGE_HELPY Flagellar hook protein FlgE OS=Helicobacte...  176     3e-45
+  sp|P50611|FLGE_HELMU Flagellar hook protein FlgE (Fragment) OS=...  112     4e-25
+  sp|Q44767|FLGE_BORBU Flagellar hook protein FlgE OS=Borrelia bu...  68.9    6e-11
+  sp|O07884|FLGE_TREPA Flagellar hook protein FlgE OS=Treponema p...  68.2    1e-10
+  sp|P75937|FLGE_ECOLI Flagellar hook protein FlgE OS=Escherichia...  64.3    1e-09
+  sp|Q56326|FLGE_TREPH Flagellar hook protein FlgE OS=Treponema p...  62.4    7e-09
+  sp|P35806|FLGE_CAUVC Flagellar hook protein FlgE OS=Caulobacter...  57.0    4e-07
+  sp|P0A1J1|FLGE_SALTY Flagellar hook protein FlgE OS=Salmonella ...  55.1    1e-06
+  sp|P0A1J2|FLGE_SALTI Flagellar hook protein FlgE OS=Salmonella ...  55.1    1e-06
+  sp|Q9X5Y0|FLGE_RHIME Flagellar hook protein FlgE OS=Rhizobium m...  47.8    3e-04
+  sp|Q8K9K6|FLGE_BUCAP Flagellar hook protein FlgE OS=Buchnera ap...  43.1    0.008
+
+
+> sp|Q9ZKY0|FLGE_HELPJ Flagellar hook protein FlgE OS=Helicobacter 
+pylori (strain J99 / ATCC 700824) OX=85963 GN=flgE PE=3 
+SV=1
+Length=718
+
+ Score = 176 bits (446),  Expect = 3e-45, Method: Compositional matrix adjust.
+ Identities = 112/326 (34%), Positives = 173/326 (53%), Gaps = 28/326 (9%)
+
+Query  401  NTNVRTFRTTEDLRELLQRDARYGVDYDGSGTFAAADINQNIKVVVTADGHFAISNANEQ  460
+            N ++  FRTTEDLR L+Q DA    D   +  +   D   +I V +   G F I+N + +
+Sbjct  371  NADIGQFRTTEDLRALIQHDANIVKDPSLADNYQ--DSAASIGVTINQYGMFEINNKDNK  428
+
+Query  461  STVPPNAINGVGNATTTDPKNMSFNITAYSNKQGTVSTNDAFTAIFKAFD-GPLVIGNQI  519
+            + +                +N++  ++ YS+   +V+ N  F    K  +   L+ G   
+Sbjct  429  NVIK---------------ENLNIFVSGYSSD--SVTNNVLFKNAMKGLNTASLIEGGAS  471
+
+Query  520  KESEQLKLSAFSAGLEIYDSLGSKHTLEVQFVKQSTTQDGGNEWQMIIRVPEPAE-INTT  578
+              S +   +  +  +++ DSLG+KH + ++F +      GG EW   + VPEP E +  +
+Sbjct  472  ASSSKFTHATHATSIDVIDSLGTKHAMRIEFYRS-----GGAEWNFRVIVPEPGELVGGS  526
+
+Query  579  GEGPNNIIVGTARFNNDGSLASYTPRTINFSPNNGAAPNQQIKLSFGTSGSNDGLVSSNS  638
+               PN    G   FNNDGSLA   P  + F P NGA   Q+I L+FG+SGS DGL S + 
+Sbjct  527  AARPNVFEGGRLHFNNDGSLAGMNPPLLQFDPKNGADAPQRINLAFGSSGSFDGLTSVDK  586
+
+Query  639  ASTLTGQATDGYTSGNLKPDAIRVDDKGNILGEFTNGKTFAVAKIAMASVANNSGLEEIG  698
+             S       +GY +G+L    +R D  G +LG F+NG+T A+A++A+A+ AN++GL+ +G
+Sbjct  587  ISETYAIEQNGYQAGDLMD--VRFDSDGVLLGAFSNGRTLALAQVALANFANDAGLQALG  644
+
+Query  699  GNLFKVTANSGNIVVGEAGTGGRGEM  724
+            GN+F  T NSG  ++G A TG RG +
+Sbjct  645  GNVFSQTGNSGQALIGAANTGRRGSI  670
+
+
+ Score = 109 bits (273),  Expect = 2e-23, Method: Compositional matrix adjust.
+ Identities = 90/287 (31%), Positives = 134/287 (47%), Gaps = 47/287 (16%)
+
+Query  1    VAINGDGFFMVSDDGGLTNYLTRSGDFKLDAYGNFVNNAGFVVQGWNINWDDQ-------  53
+            +AI GDGFF++S D G+T   TR G+F  D+ G+ V   G VVQGW  N  D        
+Sbjct  95   LAIQGDGFFIISPDRGITRNFTRDGEFLFDSQGSLVTTGGLVVQGWVRNGSDTGNKGSDT  154
+
+Query  54   ---TIDSSRTPQNIFIDPGMHIPAAKSTEVAIKANLNSGLNIGTSSRNLYALDSVHGWNT  110
+                +D++   +NI IDPGM +PA  S  ++++ANLN+G +   ++  ++ALDS      
+Sbjct  155  DALKVDNTGPLENIRIDPGMVMPARASNRISMRANLNAGRHADQTAA-VFALDS------  207
+
+Query  111  KTQRAEDENDTGTTQFYTTSKNSVEVTEKGVDAGSLFNAKGQGLNLRDGQGIWVSYADAT  170
+                A+  +D G    Y +  N  +V E   D GSL+N  G  L L + QGIWVSY  A 
+Sbjct  208  ---SAKTPSD-GINPVYDSGTNLAQVAE---DMGSLYNEDGDALLLNENQGIWVSYKSAK  260
+
+Query  171  YSTNKVGVNAFDPNLQQNQTAAFWGTANQKVNLDITLNGVRIQNADIQSIDDAIAYINTF  230
+                   V    P+ +               N  + LNGV+I   +  ++    + +   
+Sbjct  261  M------VKDILPSAE---------------NSTLELNGVKISFTNDSAVSRTSSLVAAK  299
+
+Query  231  TAPTDTRDGTGVKAVKNKDGSGIDFVNDNADGTTDNMKNINLVVANT  277
+             A    +  TG++A    DG  +   N N     + +KNI +  A T
+Sbjct  300  NAINAVKSQTGIEAY--LDGKQLRLENTNELDGDEKLKNIVVTQAGT  344
+
+
+> sp|P50610|FLGE_HELPY Flagellar hook protein FlgE OS=Helicobacter 
+pylori (strain ATCC 700392 / 26695) OX=85962 GN=flgE PE=1 
+SV=2
+Length=718
+
+ Score = 176 bits (446),  Expect = 3e-45, Method: Compositional matrix adjust.
+ Identities = 113/326 (35%), Positives = 173/326 (53%), Gaps = 28/326 (9%)
+
+Query  401  NTNVRTFRTTEDLRELLQRDARYGVDYDGSGTFAAADINQNIKVVVTADGHFAISNANEQ  460
+            N ++  FRTTEDLR L+Q DA    D   +  +   D   +I V V   G F I+N + +
+Sbjct  371  NADIGQFRTTEDLRALIQHDANIVKDPSLADNYQ--DSAASIGVSVNQYGMFEINNKDNK  428
+
+Query  461  STVPPNAINGVGNATTTDPKNMSFNITAYSNKQGTVSTNDAFTAIFKAFD-GPLVIGNQI  519
+            + +                +N++  ++ YS+   +V+ N  F    K  +   L+ G   
+Sbjct  429  NVIK---------------ENLNIFVSGYSSD--SVTNNVLFKNAMKGLNTASLIEGGAS  471
+
+Query  520  KESEQLKLSAFSAGLEIYDSLGSKHTLEVQFVKQSTTQDGGNEWQMIIRVPEPAE-INTT  578
+              S +   +  +  +++ DSLG+KH + ++F +      GG EW   + VPEP E +  +
+Sbjct  472  ASSSKFTHATHATSIDVIDSLGTKHAMRIEFYRS-----GGAEWNFRVIVPEPGELVGGS  526
+
+Query  579  GEGPNNIIVGTARFNNDGSLASYTPRTINFSPNNGAAPNQQIKLSFGTSGSNDGLVSSNS  638
+               PN    G   FNNDGSLA   P  + F P NGA   Q+I L+FG+SGS DGL S + 
+Sbjct  527  AARPNVFEGGRLHFNNDGSLAGMNPPLLQFDPKNGADAPQRINLAFGSSGSFDGLTSVDK  586
+
+Query  639  ASTLTGQATDGYTSGNLKPDAIRVDDKGNILGEFTNGKTFAVAKIAMASVANNSGLEEIG  698
+             S       +GY +G+L    +R D  G +LG F+NG+T A+A++A+A+ AN++GL+ +G
+Sbjct  587  ISETYAIEQNGYQAGDLMD--VRFDSDGVLLGAFSNGRTLALAQVALANFANDAGLQALG  644
+
+Query  699  GNLFKVTANSGNIVVGEAGTGGRGEM  724
+            GN+F  T NSG  ++G A TG RG +
+Sbjct  645  GNVFSQTGNSGQALIGAANTGRRGSI  670
+
+
+ Score = 108 bits (270),  Expect = 4e-23, Method: Compositional matrix adjust.
+ Identities = 90/287 (31%), Positives = 133/287 (46%), Gaps = 47/287 (16%)
+
+Query  1    VAINGDGFFMVSDDGGLTNYLTRSGDFKLDAYGNFVNNAGFVVQGWNINWDDQ-------  53
+            +AI GDGFF++S D G+T   TR G+F  D+ G+ V   G VVQGW  N  D        
+Sbjct  95   LAIQGDGFFIISPDRGITRNFTRDGEFLFDSQGSLVTTGGLVVQGWVRNGSDTGNKGSDT  154
+
+Query  54   ---TIDSSRTPQNIFIDPGMHIPAAKSTEVAIKANLNSGLNIGTSSRNLYALDSVHGWNT  110
+                +D++   +NI IDPGM +PA  S  ++++ANLN+G +   ++  ++ALDS      
+Sbjct  155  DALKVDNTGPLENIRIDPGMVMPARASNRISMRANLNAGRHADQTAA-IFALDS------  207
+
+Query  111  KTQRAEDENDTGTTQFYTTSKNSVEVTEKGVDAGSLFNAKGQGLNLRDGQGIWVSYADAT  170
+                A+  +D G    Y +  N  +V E   D GSL N  G  L L + QGIWVSY  A 
+Sbjct  208  ---SAKTPSD-GINPVYDSGTNLAQVAE---DMGSLCNEDGDALLLNENQGIWVSYKSAK  260
+
+Query  171  YSTNKVGVNAFDPNLQQNQTAAFWGTANQKVNLDITLNGVRIQNADIQSIDDAIAYINTF  230
+                   V    P+ +               N  + LNGV+I   +  ++    + +   
+Sbjct  261  M------VKDILPSAE---------------NSTLELNGVKISFTNDSAVSRTSSLVAAK  299
+
+Query  231  TAPTDTRDGTGVKAVKNKDGSGIDFVNDNADGTTDNMKNINLVVANT  277
+             A    +  TG++A    DG  +   N N     + +KNI +  A T
+Sbjct  300  NAINAVKSQTGIEAY--LDGKQLRLENTNELDGDEKLKNIVVTQAGT  344
+
+
+> sp|P50611|FLGE_HELMU Flagellar hook protein FlgE (Fragment) OS=Helicobacter 
+mustelae OX=217 GN=flgE PE=1 SV=2
+Length=454
+
+ Score = 112 bits (281),  Expect = 4e-25, Method: Compositional matrix adjust.
+ Identities = 69/176 (39%), Positives = 98/176 (56%), Gaps = 24/176 (14%)
+
+Query  1    VAINGDGFFMVSDDGGLTNYLTRSGDFKLDAYGNFVNNAGFVVQGW---------NINWD  51
+            +AI GDGFF++S D G T   TR G+F  DA GN V N G+VVQGW          I+ D
+Sbjct  95   LAIEGDGFFIISPDRGKTQNFTRDGEFLFDANGNLVTNGGYVVQGWMKDDLRNAEKISED  154
+
+Query  52   D-QTIDSSRTPQNIFIDPGMHIPAAKSTEVAIKANLNSGLNIGTSSRNLYALDSVHGWNT  110
+            D   +D+++  QNI IDP M +PA  S+ ++++ANLN+G       R++  + +V G  +
+Sbjct  155  DFFRVDTTKPIQNIQIDPAMMMPARASSNISLRANLNAG-------RHVDQVANVFGLGS  207
+
+Query  111  KTQRAEDENDTGTTQFYTTSKNSVEVTEKGVDAGSLFNAKGQGLNLRDGQGIWVSY  166
+             T+   D    G    Y +  N   +T+K  D G+LF   G  + L + QGIWVSY
+Sbjct  208  TTKTPVD----GINPIYDSHDN---LTQKAEDFGALFTQSGDAIGLTENQGIWVSY  256
+
+
+> sp|Q44767|FLGE_BORBU Flagellar hook protein FlgE OS=Borrelia 
+burgdorferi (strain ATCC 35210 / B31 / CIP 102532 / DSM 4680) 
+OX=224326 GN=flgE PE=3 SV=1
+Length=442
+
+ Score = 68.9 bits (167),  Expect = 6e-11, Method: Compositional matrix adjust.
+ Identities = 65/206 (32%), Positives = 95/206 (46%), Gaps = 31/206 (15%)
+
+Query  536  IYDSLGSKHTLEVQFVKQSTTQDGGNEWQMIIRVPEPAEINTTGEGPNNIIVGTARFNND  595
+            +YDS G+   LE++ VK   T    N W         A +   GE  +N  +G   F+N+
+Sbjct  207  LYDSFGNVSVLELRVVKDLNTP---NLWN--------ATVLINGEQNSNFTLG---FDNE  252
+
+Query  596  GSLASY------------TPRTIN-FSPNNGAAPNQQ-IKLSFGTSGS-NDGLVSSNSAS  640
+            G+LAS              P T N    N G    QQ + L  GT GS  D +     +S
+Sbjct  253  GALASLNGQPGQKGDILQIPITFNVLGANVGEVGEQQTVNLKLGTVGSYTDSITQFADSS  312
+
+Query  641  TLTGQATDGYTSGNLKPDAIRVDDKGNILGEFTNGKTFAVAKIAMASVANNSGLEEIGGN  700
+            +      DGY  G +  +   +D  G I+G ++NG    + KIA+AS  N  GL + G  
+Sbjct  313  STKAIIQDGYGMGYM--ENYEIDQNGVIVGIYSNGIRRDLGKIALASFMNPGGLAKSGDT  370
+
+Query  701  LFKVTANSGNIVVGEAGTGGRGEMKT  726
+             F  T+NSG + +GE G  G G++++
+Sbjct  371  NFVETSNSGQVRIGETGLAGLGDIRS  396
+
+
+> sp|O07884|FLGE_TREPA Flagellar hook protein FlgE OS=Treponema 
+pallidum (strain Nichols) OX=243276 GN=flgE PE=3 SV=1
+Length=463
+
+ Score = 68.2 bits (165),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 60/227 (26%), Positives = 103/227 (45%), Gaps = 34/227 (15%)
+
+Query  525  LKLSAFSAGLEIYDSLGSKHTLEVQFVKQSTTQDGGNEWQMIIRVPEPAEINT-------  577
+            ++ S ++   ++YDS G +HTL++ F +   T    N+WQ  + V    E++T       
+Sbjct  196  VRKSTWTTDFQVYDSFGQQHTLQINFSRVPGTN---NQWQATVAVDPGTEVDTQTRVGVG  252
+
+Query  578  TGEGPNNIIVGTARFNNDGSLASYTPRTINFS------------------PNN-GAAPNQ  618
+            T +G  N  +    F+N G LAS T    N +                  P++ G     
+Sbjct  253  TSDGAANTFI--VNFDNFGHLASVTDTAGNVTGPTGQVLLEASYDVVGANPDDAGQVTRH  310
+
+Query  619  QIKLSFGTSGSNDGLVSSNSA-STLTGQATDGYTSGNLKPDAIRVDDKGNILGEFTNGKT  677
+               L+ G  G+    ++  +  ST      DGY  G L  +  ++D  G I G ++NG +
+Sbjct  311  AFTLNLGEIGTARNTITQFAERSTTKAYRQDGYAMGYL--ENFKIDQSGVITGVYSNGVS  368
+
+Query  678  FAVAKIAMASVANNSGLEEIGGNLFKVTANSGNIVVGEAGTGGRGEM  724
+              + ++A+A  AN  GLE+ G N +  + NSG   +  +G  G+G++
+Sbjct  369  QDIGQLALAGFANQGGLEKAGENTYVQSNNSGIANISTSGVMGKGKL  415
+
+
+> sp|P75937|FLGE_ECOLI Flagellar hook protein FlgE OS=Escherichia 
+coli (strain K12) OX=83333 GN=flgE PE=3 SV=3
+Length=402
+
+ Score = 64.3 bits (155),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 57/193 (30%), Positives = 92/193 (48%), Gaps = 23/193 (12%)
+
+Query  534  LEIYDSLGSKHTLEVQFVKQSTTQDGGNEWQMIIR-VPEPAEINTTGEGPNNIIVGTARF  592
+            + ++DS G+ H + V FVK      G N WQ+  +   +P  I  T          T  F
+Sbjct  184  VTVFDSQGNAHDMSVYFVKT-----GDNNWQVYTQDSSDPNSIAKTAT--------TLEF  230
+
+Query  593  NNDGSLAS-YTPRTINFSPNNGAAPNQQIKLSFGTSGSNDGLVSSNSASTLTGQATDGYT  651
+            N +G+L        I     NGA P     LSF  S     +  +  A+ +     +GY 
+Sbjct  231  NANGTLVDGAMANNIATGAINGAEP-ATFSLSFLNS-----MQQNTGANNIVATTQNGYK  284
+
+Query  652  SGNLKPDAIRVDDKGNILGEFTNGKTFAVAKIAMASVANNSGLEEIGGNLFKVTANSGNI  711
+             G+L   + +++D G ++G ++N +T  + +I +A+ ANN GL   G N++  T +SG  
+Sbjct  285  PGDLV--SYQINDDGTVVGNYSNEQTQLLGQIVLANFANNEGLASEGDNVWSATQSSGVA  342
+
+Query  712  VVGEAGTGGRGEM  724
+            ++G AGTG  G +
+Sbjct  343  LLGTAGTGNFGTL  355
+
+
+ Score = 48.5 bits (114),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 33/88 (38%), Positives = 45/88 (51%), Gaps = 2/88 (2%)
+
+Query  1    VAINGDGFFMVSDDGGLTNYLTRSGDFKLDAYGNFVNNAGFVVQGWNINWDDQTIDSSRT  60
+            VAI+ +GFF + D  G   Y +R+G FKLD   N VN  G  + G+       TI     
+Sbjct  75   VAISQNGFFRLVDSNGSVFY-SRNGQFKLDENRNLVNMQGLQLTGYPATGTPPTIQQGAN  133
+
+Query  61   PQNIFIDPGMHIPAAKSTEVAIKANLNS  88
+            P NI I P   + A  +T  +++ NLNS
+Sbjct  134  PTNISI-PNTLMAAKTTTTASMQINLNS  160
+
+
+> sp|Q56326|FLGE_TREPH Flagellar hook protein FlgE OS=Treponema 
+phagedenis OX=162 GN=flgE PE=3 SV=1
+Length=463
+
+ Score = 62.4 bits (150),  Expect = 7e-09, Method: Compositional matrix adjust.
+ Identities = 62/225 (28%), Positives = 98/225 (44%), Gaps = 36/225 (16%)
+
+Query  528  SAFSAGLEIYDSLGSKHTLEVQFVKQSTTQDGGNEWQMIIRV-PE-------PAEINTTG  579
+            S ++    +YD+ G +H L++ F +   T    N+W   + V PE          I TT 
+Sbjct  199  STWATDFNVYDTFGEQHKLQMVFSRVPGTN---NQWLATVNVDPENQAGTETRVGIGTTD  255
+
+Query  580  EGPNNIIVGTARFNNDGSLASYTPRTINFS------------------PNNGAAPNQQ-I  620
+               N  IV    F+N G LAS T    N +                  P+ G AP +   
+Sbjct  256  GTENTFIV---SFDNYGHLASVTDTAGNVTAPAGQVLVQASYNVVGANPDEGGAPTRHTF  312
+
+Query  621  KLSFGTSG-SNDGLVSSNSASTLTGQATDGYTSGNLKPDAIRVDDKGNILGEFTNGKTFA  679
+             ++ G  G S + +      ST      DGY  G L  +  ++D  G I G ++NG +  
+Sbjct  313  NINLGEIGTSRNTITQFAERSTTKAYQQDGYAMGYL--ENFKIDQSGIITGVYSNGASRE  370
+
+Query  680  VAKIAMASVANNSGLEEIGGNLFKVTANSGNIVVGEAGTGGRGEM  724
+            + ++A+A  AN  GLE+ G N +  + NSG   +  +G  G+G++
+Sbjct  371  IGQLALAGFANQGGLEKAGENTYIQSNNSGIANITVSGVMGKGKL  415
+
+
+ Score = 50.8 bits (120),  Expect = 3e-05, Method: Compositional matrix adjust.
+ Identities = 34/93 (37%), Positives = 50/93 (54%), Gaps = 5/93 (5%)
+
+Query  1    VAINGDGFFMVSDDGGLTNYLTRSGDFKLDAYGNFVNNA-GFVVQGWNIN--WDDQTIDS  57
+            +AI G+GFF++ D  G  ++ T +G F +D  G  VN A G  VQGW        Q I++
+Sbjct  94   IAIQGNGFFILKD--GEKSFYTTAGAFGVDRDGTLVNPANGMRVQGWMAEDIEGQQIINT  151
+
+Query  58   SRTPQNIFIDPGMHIPAAKSTEVAIKANLNSGL  90
+            S   +++ I  G  I A  +T+VA   NL+  L
+Sbjct  152  SDQTEDLIIPIGQKIDAKATTDVAYACNLDKRL  184
+
+
+> sp|P35806|FLGE_CAUVC Flagellar hook protein FlgE OS=Caulobacter 
+vibrioides (strain ATCC 19089 / CB15) OX=190650 GN=flgE PE=1 
+SV=2
+Length=591
+
+ Score = 57.0 bits (136),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 56/224 (25%), Positives = 94/224 (42%), Gaps = 40/224 (18%)
+
+Query  530  FSAGLEIYDSLGSKHTLEVQFVKQSTTQDGGNEWQMIIRVPEPAEINTTGEGPNNIIVGT  589
+            F   + + DS G + T+ +  +K      G N+W   +R  +P ++   G G   I  G 
+Sbjct  331  FEVQIPLSDSKGGQRTVTLSMLKGP----GPNQWYAELRA-KPGDLANNGNG--QISTGI  383
+
+Query  590  ARFNNDGSL-------ASYTPRTINFSPNNGAAP----------------------NQQI  620
+              F  DG L        + +P  I    +   AP                       Q++
+Sbjct  384  IEFTTDGKLKNTGSLFGTTSPTAITIKSSGYIAPTVTPPAVQPPTPPTWADALGIDEQEV  443
+
+Query  621  KLSFGTSGSNDGLVSSNSASTLTGQATDGYTSGNLKPDAIRVDDKGNILGEFTNGKTFAV  680
+            ++   ++    GL   NS S +    T+G   GNL    I +D+ G +   F NG T  +
+Sbjct  444  QIDLASAAG--GLTQYNSQSVVQSVNTNGTAFGNLTN--IEIDEGGYVSAIFDNGVTRRI  499
+
+Query  681  AKIAMASVANNSGLEEIGGNLFKVTANSGNIVVGEAGTGGRGEM  724
+            A++A+A+ +N +GL+ + GN ++VT  SG   +     GG G +
+Sbjct  500  AQVAIATFSNPNGLKGVNGNAYRVTNESGTYSLKAPSQGGAGAL  543
+
+
+> sp|P0A1J1|FLGE_SALTY Flagellar hook protein FlgE OS=Salmonella 
+typhimurium (strain LT2 / SGSC1412 / ATCC 700720) OX=99287 
+GN=flgE PE=1 SV=2
+Length=403
+
+ Score = 55.1 bits (131),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 52/191 (27%), Positives = 88/191 (46%), Gaps = 18/191 (9%)
+
+Query  534  LEIYDSLGSKHTLEVQFVKQSTTQDGGNEWQMIIRVPEPAEINTTGEGPNNIIVGTARFN  593
+            + +YDS G+ H + V FVK   T+D  NEW +                   +     +FN
+Sbjct  184  VTVYDSQGNAHDMNVYFVK---TKD--NEWAVYTHDSSDPAATAPTTASTTL-----KFN  233
+
+Query  594  NDGSLASYTPRTINFSPNNGAAPNQQIKLSFGTSGSNDGLVSSNSASTLTGQATDGYTSG  653
+             +G L S     I     NGA       LSF  S     +  +  A+ +     +GY  G
+Sbjct  234  ENGILESGGTVNITTGTINGATA-ATFSLSFLNS-----MQQNTGANNIVATNQNGYKPG  287
+
+Query  654  NLKPDAIRVDDKGNILGEFTNGKTFAVAKIAMASVANNSGLEEIGGNLFKVTANSGNIVV  713
+            +L   + ++++ G ++G ++N +   + +I +A+ ANN GL   G N++  T  SG  ++
+Sbjct  288  DLV--SYQINNDGTVVGNYSNEQEQVLGQIVLANFANNEGLASQGDNVWAATQASGVALL  345
+
+Query  714  GEAGTGGRGEM  724
+            G AG+G  G++
+Sbjct  346  GTAGSGNFGKL  356
+
+
+ Score = 45.4 bits (106),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 32/88 (36%), Positives = 44/88 (50%), Gaps = 2/88 (2%)
+
+Query  1    VAINGDGFFMVSDDGGLTNYLTRSGDFKLDAYGNFVNNAGFVVQGWNINWDDQTIDSSRT  60
+            VAI+ +GFF + D  G   Y +R+G FKLD   N VN  G  + G+       TI     
+Sbjct  75   VAISQNGFFRLVDSNGSVFY-SRNGQFKLDENRNLVNMQGMQLTGYPATGTPPTIQQGAN  133
+
+Query  61   PQNIFIDPGMHIPAAKSTEVAIKANLNS  88
+            P  I I P   + A  +T  +++ NLNS
+Sbjct  134  PAPITI-PNTLMAAKSTTTASMQINLNS  160
+
+
+> sp|P0A1J2|FLGE_SALTI Flagellar hook protein FlgE OS=Salmonella 
+typhi OX=90370 GN=flgE PE=3 SV=2
+Length=403
+
+ Score = 55.1 bits (131),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 52/191 (27%), Positives = 88/191 (46%), Gaps = 18/191 (9%)
+
+Query  534  LEIYDSLGSKHTLEVQFVKQSTTQDGGNEWQMIIRVPEPAEINTTGEGPNNIIVGTARFN  593
+            + +YDS G+ H + V FVK   T+D  NEW +                   +     +FN
+Sbjct  184  VTVYDSQGNAHDMNVYFVK---TKD--NEWAVYTHDSSDPAATAPTTASTTL-----KFN  233
+
+Query  594  NDGSLASYTPRTINFSPNNGAAPNQQIKLSFGTSGSNDGLVSSNSASTLTGQATDGYTSG  653
+             +G L S     I     NGA       LSF  S     +  +  A+ +     +GY  G
+Sbjct  234  ENGILESGGTVNITTGTINGATA-ATFSLSFLNS-----MQQNTGANNIVATNQNGYKPG  287
+
+Query  654  NLKPDAIRVDDKGNILGEFTNGKTFAVAKIAMASVANNSGLEEIGGNLFKVTANSGNIVV  713
+            +L   + ++++ G ++G ++N +   + +I +A+ ANN GL   G N++  T  SG  ++
+Sbjct  288  DLV--SYQINNDGTVVGNYSNEQEQVLGQIVLANFANNEGLASQGDNVWAATQASGVALL  345
+
+Query  714  GEAGTGGRGEM  724
+            G AG+G  G++
+Sbjct  346  GTAGSGNFGKL  356
+
+
+ Score = 45.4 bits (106),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 32/88 (36%), Positives = 44/88 (50%), Gaps = 2/88 (2%)
+
+Query  1    VAINGDGFFMVSDDGGLTNYLTRSGDFKLDAYGNFVNNAGFVVQGWNINWDDQTIDSSRT  60
+            VAI+ +GFF + D  G   Y +R+G FKLD   N VN  G  + G+       TI     
+Sbjct  75   VAISQNGFFRLVDSNGSVFY-SRNGQFKLDENRNLVNMQGMQLTGYPATGTPPTIQQGAN  133
+
+Query  61   PQNIFIDPGMHIPAAKSTEVAIKANLNS  88
+            P  I I P   + A  +T  +++ NLNS
+Sbjct  134  PAPITI-PNTLMAAKSTTTASMQINLNS  160
+
+
+> sp|Q9X5Y0|FLGE_RHIME Flagellar hook protein FlgE OS=Rhizobium 
+meliloti (strain 1021) OX=266834 GN=flgE PE=3 SV=2
+Length=406
+
+ Score = 47.8 bits (112),  Expect = 3e-04, Method: Compositional matrix adjust.
+ Identities = 41/110 (37%), Positives = 58/110 (53%), Gaps = 10/110 (9%)
+
+Query  1    VAINGDGFFMVSDDGGLTNYLTRSGDFKLDAYGNFVNNAGFVVQGWNINWD-DQTID---  56
+            +AI+G GFF+V    G   YLTR+G F  D+ GN VN +GF + G+      D T+    
+Sbjct  83   LAIDGGGFFIVEGANG-QEYLTRAGSFVPDSEGNLVNASGFTLMGYEYEAGVDPTVVVNG  141
+
+Query  57   -SSRTPQNIFIDPGMHIPAAKSTEVAIKANLNSGLNIG-TSSRNLYALDS  104
+                T  N+  D    + AA ST+ ++ ANL SG  +G  S+ +L   DS
+Sbjct  142  FDGLTRVNLASD---GLIAAGSTKGSMGANLPSGAPVGDVSTTSLVVYDS  188
+
+
+> sp|Q8K9K6|FLGE_BUCAP Flagellar hook protein FlgE OS=Buchnera 
+aphidicola subsp. Schizaphis graminum (strain Sg) OX=198804 
+GN=flgE PE=3 SV=1
+Length=409
+
+ Score = 43.1 bits (100),  Expect = 0.008, Method: Compositional matrix adjust.
+ Identities = 47/194 (24%), Positives = 86/194 (44%), Gaps = 23/194 (12%)
+
+Query  536  IYDSLGSKHTLEVQFVKQSTTQDGGNEWQMIIRVPEPAEINTTGEGPNNIIVG---TARF  592
+            IYD   + H L + F      Q   ++W++ I++ +        + P+N I+      +F
+Sbjct  191  IYDKNENPHKLNISF-----NQIDDHQWKLNIQLNDE-------KIPDNEIINDNFILKF  238
+
+Query  593  NNDGSLASYTPRTINFSPNNGAAPNQQIKLSFGTSGSNDGLVSSNSASTLTGQATDGYTS  652
+            +++G+L S +   I       +  ++ I L   T      L  S +       + +GYT 
+Sbjct  239  DSEGNLISNSSLQI------KSKNSKNIILDPITLNLECFLEKSETNMPSIELSQNGYTK  292
+
+Query  653  GNLKPDAIRVDDKGNILGEFTNGKTFAVAKIAMASVANNSGLEEIGGNLFKVTANSGNIV  712
+            G LK     + + G I+G++TN +   + +I +A   N   L+   G+++  T  SG   
+Sbjct  293  GFLK--HFEILNNGEIIGQYTNEEEQKIGQIFLAKFINPEKLKPESGSIWSATHESGQEK  350
+
+Query  713  VGEAGTGGRGEMKT  726
+            +G AG  G G + T
+Sbjct  351  IGAAGDQGFGSLYT  364
+
+
+
+Lambda      K        H        a         alpha
+   0.310    0.129    0.373    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 79580703416
+Results from round 2
+
+
+Query= 5AZ4
+
+Length=726
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q9ZKY0|FLGE_HELPJ Flagellar hook protein FlgE OS=Helicobacte...  330     2e-101
+  sp|P50610|FLGE_HELPY Flagellar hook protein FlgE OS=Helicobacte...  330     3e-101
+  sp|P50611|FLGE_HELMU Flagellar hook protein FlgE (Fragment) OS=...  221     3e-63 
+  sp|O07884|FLGE_TREPA Flagellar hook protein FlgE OS=Treponema p...  193     6e-53 
+  sp|Q56326|FLGE_TREPH Flagellar hook protein FlgE OS=Treponema p...  185     3e-50 
+  sp|Q44767|FLGE_BORBU Flagellar hook protein FlgE OS=Borrelia bu...  168     3e-44 
+  sp|P0A1J1|FLGE_SALTY Flagellar hook protein FlgE OS=Salmonella ...  150     3e-38 
+  sp|P0A1J2|FLGE_SALTI Flagellar hook protein FlgE OS=Salmonella ...  150     3e-38 
+  sp|P75937|FLGE_ECOLI Flagellar hook protein FlgE OS=Escherichia...  149     8e-38 
+  sp|P35806|FLGE_CAUVC Flagellar hook protein FlgE OS=Caulobacter...  147     5e-36 
+  sp|Q9X5Y0|FLGE_RHIME Flagellar hook protein FlgE OS=Rhizobium m...  95.7    1e-19 
+
+Sequences not found previously or not previously below threshold:
+
+  sp|Q8K9K6|FLGE_BUCAP Flagellar hook protein FlgE OS=Buchnera ap...  84.1    7e-16
+  sp|P57422|FLGE_BUCAI Flagellar hook protein FlgE OS=Buchnera ap...  77.2    1e-13
+  sp|Q8YDL6|FLGE_BRUME Flagellar hook protein FlgE OS=Brucella me...  69.5    3e-11
+  sp|O52070|FLGE_BRUAB Flagellar hook protein FlgE OS=Brucella ab...  69.5    3e-11
+  sp|Q8FUS9|FLGE_BRUSU Flagellar hook protein FlgE OS=Brucella su...  69.5    3e-11
+  sp|O67711|FLGE_AQUAE Flagellar hook protein FlgE OS=Aquifex aeo...  61.8    1e-08
+  sp|P23446|FLGG_BACSU Flagellar basal-body rod protein FlgG OS=B...  54.1    1e-06
+  sp|O51715|FLGG_BORBU Flagellar basal-body rod protein FlgG OS=B...  50.6    2e-05
+  sp|Q52946|FLGG_RHIME Flagellar basal-body rod protein FlgG OS=R...  49.8    3e-05
+  sp|P57424|FLGG_BUCAI Flagellar basal-body rod protein FlgG OS=B...  47.5    2e-04
+  sp|Q89AH7|FLGG_BUCBP Flagellar basal-body rod protein FlgG OS=B...  46.0    6e-04
+  sp|Q06172|FLGG_CAUVC Flagellar basal-body rod protein FlgG OS=C...  45.6    7e-04
+  sp|P0A1J3|FLGG_SALTY Flagellar basal-body rod protein FlgG OS=S...  45.6    8e-04
+  sp|P0A1J4|FLGG_SALTI Flagellar basal-body rod protein FlgG OS=S...  45.6    8e-04
+  sp|Q44338|FLGG_AGRFC Flagellar basal-body rod protein FlgG OS=A...  45.2    0.001
+  sp|P0ABX5|FLGG_ECOLI Flagellar basal-body rod protein FlgG OS=E...  44.8    0.001
+  sp|P0ABX6|FLGG_ECOL6 Flagellar basal-body rod protein FlgG OS=E...  44.8    0.001
+  sp|P0ABX7|FLGG_ECO57 Flagellar basal-body rod protein FlgG OS=E...  44.8    0.001
+  sp|Q8K9K4|FLGG_BUCAP Flagellar basal-body rod protein FlgG OS=B...  44.5    0.002
+
+
+> sp|Q9ZKY0|FLGE_HELPJ Flagellar hook protein FlgE OS=Helicobacter 
+pylori (strain J99 / ATCC 700824) OX=85963 GN=flgE PE=3 
+SV=1
+Length=718
+
+ Score = 330 bits (845),  Expect = 2e-101, Method: Composition-based stats.
+ Identities = 112/326 (34%), Positives = 173/326 (53%), Gaps = 28/326 (9%)
+
+Query  401  NTNVRTFRTTEDLRELLQRDARYGVDYDGSGTFAAADINQNIKVVVTADGHFAISNANEQ  460
+            N ++  FRTTEDLR L+Q DA    D   +  +   D   +I V +   G F I+N + +
+Sbjct  371  NADIGQFRTTEDLRALIQHDANIVKDPSLADNYQ--DSAASIGVTINQYGMFEINNKDNK  428
+
+Query  461  STVPPNAINGVGNATTTDPKNMSFNITAYSNKQGTVSTNDAFTAIFKAFD-GPLVIGNQI  519
+            + +                +N++  ++ YS+   +V+ N  F    K  +   L+ G   
+Sbjct  429  NVIK---------------ENLNIFVSGYSSD--SVTNNVLFKNAMKGLNTASLIEGGAS  471
+
+Query  520  KESEQLKLSAFSAGLEIYDSLGSKHTLEVQFVKQSTTQDGGNEWQMIIRVPEPAE-INTT  578
+              S +   +  +  +++ DSLG+KH + ++F +      GG EW   + VPEP E +  +
+Sbjct  472  ASSSKFTHATHATSIDVIDSLGTKHAMRIEFYRS-----GGAEWNFRVIVPEPGELVGGS  526
+
+Query  579  GEGPNNIIVGTARFNNDGSLASYTPRTINFSPNNGAAPNQQIKLSFGTSGSNDGLVSSNS  638
+               PN    G   FNNDGSLA   P  + F P NGA   Q+I L+FG+SGS DGL S + 
+Sbjct  527  AARPNVFEGGRLHFNNDGSLAGMNPPLLQFDPKNGADAPQRINLAFGSSGSFDGLTSVDK  586
+
+Query  639  ASTLTGQATDGYTSGNLKPDAIRVDDKGNILGEFTNGKTFAVAKIAMASVANNSGLEEIG  698
+             S       +GY +G+L    +R D  G +LG F+NG+T A+A++A+A+ AN++GL+ +G
+Sbjct  587  ISETYAIEQNGYQAGDLMD--VRFDSDGVLLGAFSNGRTLALAQVALANFANDAGLQALG  644
+
+Query  699  GNLFKVTANSGNIVVGEAGTGGRGEM  724
+            GN+F  T NSG  ++G A TG RG +
+Sbjct  645  GNVFSQTGNSGQALIGAANTGRRGSI  670
+
+
+ Score = 270 bits (691),  Expect = 4e-79, Method: Composition-based stats.
+ Identities = 90/287 (31%), Positives = 134/287 (47%), Gaps = 47/287 (16%)
+
+Query  1    VAINGDGFFMVSDDGGLTNYLTRSGDFKLDAYGNFVNNAGFVVQGWNINWDDQ-------  53
+            +AI GDGFF++S D G+T   TR G+F  D+ G+ V   G VVQGW  N  D        
+Sbjct  95   LAIQGDGFFIISPDRGITRNFTRDGEFLFDSQGSLVTTGGLVVQGWVRNGSDTGNKGSDT  154
+
+Query  54   ---TIDSSRTPQNIFIDPGMHIPAAKSTEVAIKANLNSGLNIGTSSRNLYALDSVHGWNT  110
+                +D++   +NI IDPGM +PA  S  ++++ANLN+G +   ++  ++ALDS      
+Sbjct  155  DALKVDNTGPLENIRIDPGMVMPARASNRISMRANLNAGRHADQTAA-VFALDS------  207
+
+Query  111  KTQRAEDENDTGTTQFYTTSKNSVEVTEKGVDAGSLFNAKGQGLNLRDGQGIWVSYADAT  170
+                A+  +D G    Y +  N  +V E   D GSL+N  G  L L + QGIWVSY  A 
+Sbjct  208  ---SAKTPSD-GINPVYDSGTNLAQVAE---DMGSLYNEDGDALLLNENQGIWVSYKSAK  260
+
+Query  171  YSTNKVGVNAFDPNLQQNQTAAFWGTANQKVNLDITLNGVRIQNADIQSIDDAIAYINTF  230
+                   V    P+ +               N  + LNGV+I   +  ++    + +   
+Sbjct  261  M------VKDILPSAE---------------NSTLELNGVKISFTNDSAVSRTSSLVAAK  299
+
+Query  231  TAPTDTRDGTGVKAVKNKDGSGIDFVNDNADGTTDNMKNINLVVANT  277
+             A    +  TG++A    DG  +   N N     + +KNI +  A T
+Sbjct  300  NAINAVKSQTGIEAY--LDGKQLRLENTNELDGDEKLKNIVVTQAGT  344
+
+
+> sp|P50610|FLGE_HELPY Flagellar hook protein FlgE OS=Helicobacter 
+pylori (strain ATCC 700392 / 26695) OX=85962 GN=flgE PE=1 
+SV=2
+Length=718
+
+ Score = 330 bits (845),  Expect = 3e-101, Method: Composition-based stats.
+ Identities = 113/326 (35%), Positives = 173/326 (53%), Gaps = 28/326 (9%)
+
+Query  401  NTNVRTFRTTEDLRELLQRDARYGVDYDGSGTFAAADINQNIKVVVTADGHFAISNANEQ  460
+            N ++  FRTTEDLR L+Q DA    D   +  +   D   +I V V   G F I+N + +
+Sbjct  371  NADIGQFRTTEDLRALIQHDANIVKDPSLADNYQ--DSAASIGVSVNQYGMFEINNKDNK  428
+
+Query  461  STVPPNAINGVGNATTTDPKNMSFNITAYSNKQGTVSTNDAFTAIFKAFD-GPLVIGNQI  519
+            + +                +N++  ++ YS+   +V+ N  F    K  +   L+ G   
+Sbjct  429  NVIK---------------ENLNIFVSGYSSD--SVTNNVLFKNAMKGLNTASLIEGGAS  471
+
+Query  520  KESEQLKLSAFSAGLEIYDSLGSKHTLEVQFVKQSTTQDGGNEWQMIIRVPEPAE-INTT  578
+              S +   +  +  +++ DSLG+KH + ++F +      GG EW   + VPEP E +  +
+Sbjct  472  ASSSKFTHATHATSIDVIDSLGTKHAMRIEFYRS-----GGAEWNFRVIVPEPGELVGGS  526
+
+Query  579  GEGPNNIIVGTARFNNDGSLASYTPRTINFSPNNGAAPNQQIKLSFGTSGSNDGLVSSNS  638
+               PN    G   FNNDGSLA   P  + F P NGA   Q+I L+FG+SGS DGL S + 
+Sbjct  527  AARPNVFEGGRLHFNNDGSLAGMNPPLLQFDPKNGADAPQRINLAFGSSGSFDGLTSVDK  586
+
+Query  639  ASTLTGQATDGYTSGNLKPDAIRVDDKGNILGEFTNGKTFAVAKIAMASVANNSGLEEIG  698
+             S       +GY +G+L    +R D  G +LG F+NG+T A+A++A+A+ AN++GL+ +G
+Sbjct  587  ISETYAIEQNGYQAGDLMD--VRFDSDGVLLGAFSNGRTLALAQVALANFANDAGLQALG  644
+
+Query  699  GNLFKVTANSGNIVVGEAGTGGRGEM  724
+            GN+F  T NSG  ++G A TG RG +
+Sbjct  645  GNVFSQTGNSGQALIGAANTGRRGSI  670
+
+
+ Score = 268 bits (685),  Expect = 3e-78, Method: Composition-based stats.
+ Identities = 90/287 (31%), Positives = 133/287 (46%), Gaps = 47/287 (16%)
+
+Query  1    VAINGDGFFMVSDDGGLTNYLTRSGDFKLDAYGNFVNNAGFVVQGWNINWDDQ-------  53
+            +AI GDGFF++S D G+T   TR G+F  D+ G+ V   G VVQGW  N  D        
+Sbjct  95   LAIQGDGFFIISPDRGITRNFTRDGEFLFDSQGSLVTTGGLVVQGWVRNGSDTGNKGSDT  154
+
+Query  54   ---TIDSSRTPQNIFIDPGMHIPAAKSTEVAIKANLNSGLNIGTSSRNLYALDSVHGWNT  110
+                +D++   +NI IDPGM +PA  S  ++++ANLN+G +   ++  ++ALDS      
+Sbjct  155  DALKVDNTGPLENIRIDPGMVMPARASNRISMRANLNAGRHADQTAA-IFALDS------  207
+
+Query  111  KTQRAEDENDTGTTQFYTTSKNSVEVTEKGVDAGSLFNAKGQGLNLRDGQGIWVSYADAT  170
+                A+  +D G    Y +  N  +V E   D GSL N  G  L L + QGIWVSY  A 
+Sbjct  208  ---SAKTPSD-GINPVYDSGTNLAQVAE---DMGSLCNEDGDALLLNENQGIWVSYKSAK  260
+
+Query  171  YSTNKVGVNAFDPNLQQNQTAAFWGTANQKVNLDITLNGVRIQNADIQSIDDAIAYINTF  230
+                   V    P+ +               N  + LNGV+I   +  ++    + +   
+Sbjct  261  M------VKDILPSAE---------------NSTLELNGVKISFTNDSAVSRTSSLVAAK  299
+
+Query  231  TAPTDTRDGTGVKAVKNKDGSGIDFVNDNADGTTDNMKNINLVVANT  277
+             A    +  TG++A    DG  +   N N     + +KNI +  A T
+Sbjct  300  NAINAVKSQTGIEAY--LDGKQLRLENTNELDGDEKLKNIVVTQAGT  344
+
+
+> sp|P50611|FLGE_HELMU Flagellar hook protein FlgE (Fragment) OS=Helicobacter 
+mustelae OX=217 GN=flgE PE=1 SV=2
+Length=454
+
+ Score = 221 bits (562),  Expect = 3e-63, Method: Composition-based stats.
+ Identities = 85/287 (30%), Positives = 126/287 (44%), Gaps = 47/287 (16%)
+
+Query  1    VAINGDGFFMVSDDGGLTNYLTRSGDFKLDAYGNFVNNAGFVVQGWN----------INW  50
+            +AI GDGFF++S D G T   TR G+F  DA GN V N G+VVQGW              
+Sbjct  95   LAIEGDGFFIISPDRGKTQNFTRDGEFLFDANGNLVTNGGYVVQGWMKDDLRNAEKISED  154
+
+Query  51   DDQTIDSSRTPQNIFIDPGMHIPAAKSTEVAIKANLNSGLNIGTSSRNLYALDSVHGWNT  110
+            D   +D+++  QNI IDP M +PA  S+ ++++ANLN+G       R++  + +V G  +
+Sbjct  155  DFFRVDTTKPIQNIQIDPAMMMPARASSNISLRANLNAG-------RHVDQVANVFGLGS  207
+
+Query  111  KTQRAEDENDTGTTQFYTTSKNSVEVTEKGVDAGSLFNAKGQGLNLRDGQGIWVSYADAT  170
+             T+   D    G    Y +  N   +T+K  D G+LF   G  + L + QGIWVSY  + 
+Sbjct  208  TTKTPVD----GINPIYDSHDN---LTQKAEDFGALFTQSGDAIGLTENQGIWVSYKTSE  260
+
+Query  171  YSTNKVGVNAFDPNLQQNQTAAFWGTANQKVNLDITLNGVRIQNADIQSIDDAIAYINTF  230
+                   VN  +    +                 I +N  RI   +  +     + +   
+Sbjct  261  M------VNDIEATSGE---------------SSIEINHTRISFTNDSAASGISSVVAAQ  299
+
+Query  231  TAPTDTRDGTGVKAVKNKDGSGIDFVNDNADGTTDNMKNINLVVANT  277
+             A    +  TGV+A    D   +   N N       +KNI +    T
+Sbjct  300  NAINALKQKTGVEAF--VDNGMLRLQNKNNMDGDAEVKNIRITADGT  344
+
+
+ Score = 63.3 bits (152),  Expect = 3e-09, Method: Composition-based stats.
+ Identities = 22/95 (23%), Positives = 38/95 (40%), Gaps = 19/95 (20%)
+
+Query  401  NTNVRTFRTTEDLRELLQRDARYGVDYDGSGTFAAADINQNIKVVVTADGHFAISNANEQ  460
+            ++    FRTTEDLR L+Q DA    D   + T    D   ++ V     G   I N +  
+Sbjct  371  DSGTGQFRTTEDLRALIQYDANLIKDPSQAYT----DSTASVSVKFNKYGMLEIQNKDNG  426
+
+Query  461  STVPPNAINGVGNATTTDPKNMSFNITAYSNKQGT  495
+              +                ++++  ++ YS++  T
+Sbjct  427  DELK---------------QDLNIFVSGYSSENST  446
+
+
+> sp|O07884|FLGE_TREPA Flagellar hook protein FlgE OS=Treponema 
+pallidum (strain Nichols) OX=243276 GN=flgE PE=3 SV=1
+Length=463
+
+ Score = 193 bits (490),  Expect = 6e-53, Method: Composition-based stats.
+ Identities = 61/243 (25%), Positives = 102/243 (42%), Gaps = 34/243 (14%)
+
+Query  509  FDGPLVIGNQIKESEQLKLSAFSAGLEIYDSLGSKHTLEVQFVKQSTTQDGGNEWQMIIR  568
+             D  L           ++ S ++   ++YDS G +HTL++ F +   T    N+WQ  + 
+Sbjct  180  LDKRLPELAADANEADVRKSTWTTDFQVYDSFGQQHTLQINFSRVPGTN---NQWQATVA  236
+
+Query  569  VPEPAEINT-------TGEGPNNIIVGTARFNNDGSLASYTPRTINFSP-----------  610
+            V    E++T       T +G  N  +    F+N G LAS T    N +            
+Sbjct  237  VDPGTEVDTQTRVGVGTSDGAANTFI--VNFDNFGHLASVTDTAGNVTGPTGQVLLEASY  294
+
+Query  611  --------NNGAAPNQQIKLSFGTSGS-NDGLVSSNSASTLTGQATDGYTSGNLKPDAIR  661
+                    + G        L+ G  G+  + +      ST      DGY  G L  +  +
+Sbjct  295  DVVGANPDDAGQVTRHAFTLNLGEIGTARNTITQFAERSTTKAYRQDGYAMGYL--ENFK  352
+
+Query  662  VDDKGNILGEFTNGKTFAVAKIAMASVANNSGLEEIGGNLFKVTANSGNIVVGEAGTGGR  721
+            +D  G I G ++NG +  + ++A+A  AN  GLE+ G N +  + NSG   +  +G  G+
+Sbjct  353  IDQSGVITGVYSNGVSQDIGQLALAGFANQGGLEKAGENTYVQSNNSGIANISTSGVMGK  412
+
+Query  722  GEM  724
+            G++
+Sbjct  413  GKL  415
+
+
+ Score = 80.3 bits (196),  Expect = 2e-14, Method: Composition-based stats.
+ Identities = 33/94 (35%), Positives = 48/94 (51%), Gaps = 5/94 (5%)
+
+Query  1    VAINGDGFFMVSDDGGLTNYLTRSGDFKLDAYGNFVNNA-GFVVQGWNIN--WDDQTIDS  57
+            V+I G GFF++    G   + TR+G F +D  G  VN A G  VQGW       ++ I+S
+Sbjct  94   VSIQGSGFFVLK--SGEKTFFTRAGAFGVDNAGTLVNPANGMRVQGWMAQDVAGERLINS  151
+
+Query  58   SRTPQNIFIDPGMHIPAAKSTEVAIKANLNSGLN  91
+            S   Q++ I  G  I A +++ V    NL+  L 
+Sbjct  152  SAQTQDLVIPIGQKIDAQQTSTVHYACNLDKRLP  185
+
+
+> sp|Q56326|FLGE_TREPH Flagellar hook protein FlgE OS=Treponema 
+phagedenis OX=162 GN=flgE PE=3 SV=1
+Length=463
+
+ Score = 185 bits (470),  Expect = 3e-50, Method: Composition-based stats.
+ Identities = 58/241 (24%), Positives = 96/241 (40%), Gaps = 30/241 (12%)
+
+Query  509  FDGPLVIGNQIKESEQLKLSAFSAGLEIYDSLGSKHTLEVQFVKQSTTQDGGNEWQMIIR  568
+             D  L    +      +  S ++    +YD+ G +H L++ F +   T    N+W   + 
+Sbjct  180  LDKRLPELPEGANQADILRSTWATDFNVYDTFGEQHKLQMVFSRVPGTN---NQWLATVN  236
+
+Query  569  VPEPAEINTT-----GEGPNNIIVGTARFNNDGSLASYTPRTINFS--------------  609
+            V    +  T      G            F+N G LAS T    N +              
+Sbjct  237  VDPENQAGTETRVGIGTTDGTENTFIVSFDNYGHLASVTDTAGNVTAPAGQVLVQASYNV  296
+
+Query  610  ----PNNGAAP-NQQIKLSFGTSG-SNDGLVSSNSASTLTGQATDGYTSGNLKPDAIRVD  663
+                P+ G AP      ++ G  G S + +      ST      DGY  G L  +  ++D
+Sbjct  297  VGANPDEGGAPTRHTFNINLGEIGTSRNTITQFAERSTTKAYQQDGYAMGYL--ENFKID  354
+
+Query  664  DKGNILGEFTNGKTFAVAKIAMASVANNSGLEEIGGNLFKVTANSGNIVVGEAGTGGRGE  723
+              G I G ++NG +  + ++A+A  AN  GLE+ G N +  + NSG   +  +G  G+G+
+Sbjct  355  QSGIITGVYSNGASREIGQLALAGFANQGGLEKAGENTYIQSNNSGIANITVSGVMGKGK  414
+
+Query  724  M  724
+            +
+Sbjct  415  L  415
+
+
+ Score = 96.8 bits (239),  Expect = 8e-20, Method: Composition-based stats.
+ Identities = 34/94 (36%), Positives = 50/94 (53%), Gaps = 5/94 (5%)
+
+Query  1    VAINGDGFFMVSDDGGLTNYLTRSGDFKLDAYGNFVNNA-GFVVQGWNIN--WDDQTIDS  57
+            +AI G+GFF++ D  G  ++ T +G F +D  G  VN A G  VQGW        Q I++
+Sbjct  94   IAIQGNGFFILKD--GEKSFYTTAGAFGVDRDGTLVNPANGMRVQGWMAEDIEGQQIINT  151
+
+Query  58   SRTPQNIFIDPGMHIPAAKSTEVAIKANLNSGLN  91
+            S   +++ I  G  I A  +T+VA   NL+  L 
+Sbjct  152  SDQTEDLIIPIGQKIDAKATTDVAYACNLDKRLP  185
+
+
+> sp|Q44767|FLGE_BORBU Flagellar hook protein FlgE OS=Borrelia 
+burgdorferi (strain ATCC 35210 / B31 / CIP 102532 / DSM 4680) 
+OX=224326 GN=flgE PE=3 SV=1
+Length=442
+
+ Score = 168 bits (425),  Expect = 3e-44, Method: Composition-based stats.
+ Identities = 66/230 (29%), Positives = 99/230 (43%), Gaps = 33/230 (14%)
+
+Query  512  PLVIGNQIKESEQLKLSAFSAGLEIYDSLGSKHTLEVQFVKQSTTQDGGNEWQMIIRVPE  571
+            PL+          +    +     +YDS G+   LE++ VK   T    N W        
+Sbjct  185  PLIQEGA--NPADIARGTWVVNKSLYDSFGNVSVLELRVVKDLNT---PNLWNAT-----  234
+
+Query  572  PAEINTTGEGPNNIIVGTARFNNDGSLASYT------------PRTINF-SPNNGAAPNQ  618
+               +   GE  +N  +G   F+N+G+LAS              P T N    N G    Q
+Sbjct  235  ---VLINGEQNSNFTLG---FDNEGALASLNGQPGQKGDILQIPITFNVLGANVGEVGEQ  288
+
+Query  619  Q-IKLSFGTSGS-NDGLVSSNSASTLTGQATDGYTSGNLKPDAIRVDDKGNILGEFTNGK  676
+            Q + L  GT GS  D +     +S+      DGY  G +  +   +D  G I+G ++NG 
+Sbjct  289  QTVNLKLGTVGSYTDSITQFADSSSTKAIIQDGYGMGYM--ENYEIDQNGVIVGIYSNGI  346
+
+Query  677  TFAVAKIAMASVANNSGLEEIGGNLFKVTANSGNIVVGEAGTGGRGEMKT  726
+               + KIA+AS  N  GL + G   F  T+NSG + +GE G  G G++++
+Sbjct  347  RRDLGKIALASFMNPGGLAKSGDTNFVETSNSGQVRIGETGLAGLGDIRS  396
+
+
+ Score = 76.4 bits (186),  Expect = 3e-13, Method: Composition-based stats.
+ Identities = 26/101 (26%), Positives = 50/101 (50%), Gaps = 5/101 (5%)
+
+Query  1    VAINGDGFFMVSDDGGLTNYLTRSGDFKLDAYGNFVNNA-GFVVQGWNIN--WDDQTIDS  57
+            + ++G+GFF++ +  G   + TR+G F +D+  + VN A G  +QGW       ++ I++
+Sbjct  94   LGVSGNGFFILKE--GKNLFYTRAGAFDVDSDRHLVNPANGMRIQGWMARDLEGEKVINT  151
+
+Query  58   SRTPQNIFIDPGMHIPAAKSTEVAIKANLNSGLNIGTSSRN  98
+            +   +++ I  G    A  +  V    NL+  L +     N
+Sbjct  152  ASDIEDLIIPIGDKEGAKSTKNVTFACNLDKRLPLIQEGAN  192
+
+
+> sp|P0A1J1|FLGE_SALTY Flagellar hook protein FlgE OS=Salmonella 
+typhimurium (strain LT2 / SGSC1412 / ATCC 700720) OX=99287 
+GN=flgE PE=1 SV=2
+Length=403
+
+ Score = 150 bits (379),  Expect = 3e-38, Method: Composition-based stats.
+ Identities = 74/355 (21%), Positives = 134/355 (38%), Gaps = 30/355 (8%)
+
+Query  377  ANATTRPTEPGSAAYWDAVNGGLLNTNVRTFRTTEDLRELLQRDARYGVDYDGSGTFAAA  436
+            AN+ T   + G+A++ D   G  +   V+    T+D  +    +   G+D   S      
+Sbjct  25   ANSATYGFKSGTASFADMFAGSKVGLGVKVAGITQDFTDGTTTNTGRGLDVAISQNGFFR  84
+
+Query  437  DINQNIKVVVTADGHFAISNANEQSTVPPNAINGVGNATTTDPKNMSFNITAYSNKQGTV  496
+             ++ N  V  + +G F +     ++ V    +   G   T  P  +       +    T+
+Sbjct  85   LVDSNGSVFYSRNGQFKLD--ENRNLVNMQGMQLTGYPATGTPPTIQ---QGANPAPITI  139
+
+Query  497  STNDAFTAIFKAFDGPLVIGNQIKESEQLKLSAFSAG-------LEIYDSLGSKHTLEVQ  549
+                            + + +      +   S   A        + +YDS G+ H + V 
+Sbjct  140  PNTLMAAKSTTTASMQINLNSTDPVPSKTPFSVSDADSYNKKGTVTVYDSQGNAHDMNVY  199
+
+Query  550  FVKQSTTQDGGNEWQMIIRVPEPAEINTTGEGPNNIIVGTARFNNDGSLASYTPRTINFS  609
+            FVK        NEW +                         +FN +G L S     I   
+Sbjct  200  FVKTK-----DNEWAVYTHDSSDPAATAPTTASTT-----LKFNENGILESGGTVNITTG  249
+
+Query  610  PNNGAAPNQQIKLSFGTSGSNDGLVSSNSASTLTGQATDGYTSGNLKPDAIRVDDKGNIL  669
+              NGA       LSF  S     +  +  A+ +     +GY  G+L   + ++++ G ++
+Sbjct  250  TINGATA-ATFSLSFLNS-----MQQNTGANNIVATNQNGYKPGDLV--SYQINNDGTVV  301
+
+Query  670  GEFTNGKTFAVAKIAMASVANNSGLEEIGGNLFKVTANSGNIVVGEAGTGGRGEM  724
+            G ++N +   + +I +A+ ANN GL   G N++  T  SG  ++G AG+G  G++
+Sbjct  302  GNYSNEQEQVLGQIVLANFANNEGLASQGDNVWAATQASGVALLGTAGSGNFGKL  356
+
+
+ Score = 88.7 bits (218),  Expect = 2e-17, Method: Composition-based stats.
+ Identities = 67/309 (22%), Positives = 110/309 (36%), Gaps = 19/309 (6%)
+
+Query  1    VAINGDGFFMVSDDGGLTNYLTRSGDFKLDAYGNFVNNAGFVVQGWNINWDDQTIDSSRT  60
+            VAI+ +GFF + D  G   Y +R+G FKLD   N VN  G  + G+       TI     
+Sbjct  75   VAISQNGFFRLVDSNGSVFY-SRNGQFKLDENRNLVNMQGMQLTGYPATGTPPTIQQGAN  133
+
+Query  61   PQNIFIDPGMHIPAAKSTEVAIKANLNSGLNIGTSSR-NLYALDSVHGWNTKTQRAEDEN  119
+            P  I I P   + A  +T  +++ NLNS   + + +  ++   DS +   T T      N
+Sbjct  134  PAPITI-PNTLMAAKSTTTASMQINLNSTDPVPSKTPFSVSDADSYNKKGTVTVYDSQGN  192
+
+Query  120  DTGTTQFYTTSKNS--VEVTEKGVDAGSLFNAKGQGLNLRDGQGIWVSYADATYSTNKVG  177
+                  ++  +K++     T    D  +            +  GI  S      +T  + 
+Sbjct  193  AHDMNVYFVKTKDNEWAVYTHDSSDPAATAPTTASTTLKFNENGILESGGTVNITTGTIN  252
+
+Query  178  VN-------AFDPNLQQNQTAAFWGTANQK-------VNLDITLNGVRIQNADIQSIDDA  223
+                     +F  ++QQN  A      NQ        V+  I  +G  + N   +     
+Sbjct  253  GATAATFSLSFLNSMQQNTGANNIVATNQNGYKPGDLVSYQINNDGTVVGNYSNEQEQVL  312
+
+Query  224  IAYINTFTAPTDTRDGTGVKAVKNKDGSGIDFVNDNADGTTDNMKNINLVVANTNTAGEL  283
+               +    A  +     G         SG+  +     G    + N  L  +N + + EL
+Sbjct  313  GQIVLANFANNEGLASQGDNVWAATQASGVALLGTAGSGNFGKLTNGALEASNVDLSKEL  372
+
+Query  284  WNAVWNNNN  292
+             N +    N
+Sbjct  373  VNMIVAQRN  381
+
+
+> sp|P0A1J2|FLGE_SALTI Flagellar hook protein FlgE OS=Salmonella 
+typhi OX=90370 GN=flgE PE=3 SV=2
+Length=403
+
+ Score = 150 bits (379),  Expect = 3e-38, Method: Composition-based stats.
+ Identities = 74/355 (21%), Positives = 134/355 (38%), Gaps = 30/355 (8%)
+
+Query  377  ANATTRPTEPGSAAYWDAVNGGLLNTNVRTFRTTEDLRELLQRDARYGVDYDGSGTFAAA  436
+            AN+ T   + G+A++ D   G  +   V+    T+D  +    +   G+D   S      
+Sbjct  25   ANSATYGFKSGTASFADMFAGSKVGLGVKVAGITQDFTDGTTTNTGRGLDVAISQNGFFR  84
+
+Query  437  DINQNIKVVVTADGHFAISNANEQSTVPPNAINGVGNATTTDPKNMSFNITAYSNKQGTV  496
+             ++ N  V  + +G F +     ++ V    +   G   T  P  +       +    T+
+Sbjct  85   LVDSNGSVFYSRNGQFKLD--ENRNLVNMQGMQLTGYPATGTPPTIQ---QGANPAPITI  139
+
+Query  497  STNDAFTAIFKAFDGPLVIGNQIKESEQLKLSAFSAG-------LEIYDSLGSKHTLEVQ  549
+                            + + +      +   S   A        + +YDS G+ H + V 
+Sbjct  140  PNTLMAAKSTTTASMQINLNSTDPVPSKTPFSVSDADSYNKKGTVTVYDSQGNAHDMNVY  199
+
+Query  550  FVKQSTTQDGGNEWQMIIRVPEPAEINTTGEGPNNIIVGTARFNNDGSLASYTPRTINFS  609
+            FVK        NEW +                         +FN +G L S     I   
+Sbjct  200  FVKTK-----DNEWAVYTHDSSDPAATAPTTASTT-----LKFNENGILESGGTVNITTG  249
+
+Query  610  PNNGAAPNQQIKLSFGTSGSNDGLVSSNSASTLTGQATDGYTSGNLKPDAIRVDDKGNIL  669
+              NGA       LSF  S     +  +  A+ +     +GY  G+L   + ++++ G ++
+Sbjct  250  TINGATA-ATFSLSFLNS-----MQQNTGANNIVATNQNGYKPGDLV--SYQINNDGTVV  301
+
+Query  670  GEFTNGKTFAVAKIAMASVANNSGLEEIGGNLFKVTANSGNIVVGEAGTGGRGEM  724
+            G ++N +   + +I +A+ ANN GL   G N++  T  SG  ++G AG+G  G++
+Sbjct  302  GNYSNEQEQVLGQIVLANFANNEGLASQGDNVWAATQASGVALLGTAGSGNFGKL  356
+
+
+ Score = 88.7 bits (218),  Expect = 2e-17, Method: Composition-based stats.
+ Identities = 67/309 (22%), Positives = 110/309 (36%), Gaps = 19/309 (6%)
+
+Query  1    VAINGDGFFMVSDDGGLTNYLTRSGDFKLDAYGNFVNNAGFVVQGWNINWDDQTIDSSRT  60
+            VAI+ +GFF + D  G   Y +R+G FKLD   N VN  G  + G+       TI     
+Sbjct  75   VAISQNGFFRLVDSNGSVFY-SRNGQFKLDENRNLVNMQGMQLTGYPATGTPPTIQQGAN  133
+
+Query  61   PQNIFIDPGMHIPAAKSTEVAIKANLNSGLNIGTSSR-NLYALDSVHGWNTKTQRAEDEN  119
+            P  I I P   + A  +T  +++ NLNS   + + +  ++   DS +   T T      N
+Sbjct  134  PAPITI-PNTLMAAKSTTTASMQINLNSTDPVPSKTPFSVSDADSYNKKGTVTVYDSQGN  192
+
+Query  120  DTGTTQFYTTSKNS--VEVTEKGVDAGSLFNAKGQGLNLRDGQGIWVSYADATYSTNKVG  177
+                  ++  +K++     T    D  +            +  GI  S      +T  + 
+Sbjct  193  AHDMNVYFVKTKDNEWAVYTHDSSDPAATAPTTASTTLKFNENGILESGGTVNITTGTIN  252
+
+Query  178  VN-------AFDPNLQQNQTAAFWGTANQK-------VNLDITLNGVRIQNADIQSIDDA  223
+                     +F  ++QQN  A      NQ        V+  I  +G  + N   +     
+Sbjct  253  GATAATFSLSFLNSMQQNTGANNIVATNQNGYKPGDLVSYQINNDGTVVGNYSNEQEQVL  312
+
+Query  224  IAYINTFTAPTDTRDGTGVKAVKNKDGSGIDFVNDNADGTTDNMKNINLVVANTNTAGEL  283
+               +    A  +     G         SG+  +     G    + N  L  +N + + EL
+Sbjct  313  GQIVLANFANNEGLASQGDNVWAATQASGVALLGTAGSGNFGKLTNGALEASNVDLSKEL  372
+
+Query  284  WNAVWNNNN  292
+             N +    N
+Sbjct  373  VNMIVAQRN  381
+
+
+> sp|P75937|FLGE_ECOLI Flagellar hook protein FlgE OS=Escherichia 
+coli (strain K12) OX=83333 GN=flgE PE=3 SV=3
+Length=402
+
+ Score = 149 bits (375),  Expect = 8e-38, Method: Composition-based stats.
+ Identities = 83/357 (23%), Positives = 145/357 (41%), Gaps = 35/357 (10%)
+
+Query  377  ANATTRPTEPGSAAYWDAVNGGLLNTNVRTFRTTEDLRELLQRDARYGVDYDGSGTFAAA  436
+            AN+ T   + G+A++ D   G  +   V+    T+D  +    +   G+D   S      
+Sbjct  25   ANSATYGFKSGTASFADMFAGSKVGLGVKVAGITQDFTDGTTTNTGRGLDVAISQNGFFR  84
+
+Query  437  DINQNIKVVVTADGHFAISNANEQSTVPPNAINGVGNATTTDPKNM-------SFNITAY  489
+             ++ N  V  + +G F +     ++ V    +   G   T  P  +       + +I   
+Sbjct  85   LVDSNGSVFYSRNGQFKLD--ENRNLVNMQGLQLTGYPATGTPPTIQQGANPTNISIPNT  142
+
+Query  490  SNKQGTVSTNDAFTAIFKAFDGPLVIGNQIKESEQLKLSAFSAGLEIYDSLGSKHTLEVQ  549
+                 T +T      +  +   P V       ++          + ++DS G+ H + V 
+Sbjct  143  LMAAKTTTTASMQINLNSSDPLPTVTPFSASNADSYNKKG---SVTVFDSQGNAHDMSVY  199
+
+Query  550  FVKQSTTQDGGNEWQMIIRVP-EPAEINTTGEGPNNIIVGTARFNNDGSLASY-TPRTIN  607
+            FVK      G N WQ+  +   +P  I  T          T  FN +G+L        I 
+Sbjct  200  FVKT-----GDNNWQVYTQDSSDPNSIAKTAT--------TLEFNANGTLVDGAMANNIA  246
+
+Query  608  FSPNNGAAPNQQIKLSFGTSGSNDGLVSSNSASTLTGQATDGYTSGNLKPDAIRVDDKGN  667
+                NGA P     LSF  S     +  +  A+ +     +GY  G+L   + +++D G 
+Sbjct  247  TGAINGAEP-ATFSLSFLNS-----MQQNTGANNIVATTQNGYKPGDLV--SYQINDDGT  298
+
+Query  668  ILGEFTNGKTFAVAKIAMASVANNSGLEEIGGNLFKVTANSGNIVVGEAGTGGRGEM  724
+            ++G ++N +T  + +I +A+ ANN GL   G N++  T +SG  ++G AGTG  G +
+Sbjct  299  VVGNYSNEQTQLLGQIVLANFANNEGLASEGDNVWSATQSSGVALLGTAGTGNFGTL  355
+
+
+ Score = 89.1 bits (219),  Expect = 1e-17, Method: Composition-based stats.
+ Identities = 34/96 (35%), Positives = 48/96 (50%), Gaps = 2/96 (2%)
+
+Query  1    VAINGDGFFMVSDDGGLTNYLTRSGDFKLDAYGNFVNNAGFVVQGWNINWDDQTIDSSRT  60
+            VAI+ +GFF + D  G   Y +R+G FKLD   N VN  G  + G+       TI     
+Sbjct  75   VAISQNGFFRLVDSNGSVFY-SRNGQFKLDENRNLVNMQGLQLTGYPATGTPPTIQQGAN  133
+
+Query  61   PQNIFIDPGMHIPAAKSTEVAIKANLNSGLNIGTSS  96
+            P NI I P   + A  +T  +++ NLNS   + T +
+Sbjct  134  PTNISI-PNTLMAAKTTTTASMQINLNSSDPLPTVT  168
+
+
+> sp|P35806|FLGE_CAUVC Flagellar hook protein FlgE OS=Caulobacter 
+vibrioides (strain ATCC 19089 / CB15) OX=190650 GN=flgE PE=1 
+SV=2
+Length=591
+
+ Score = 147 bits (371),  Expect = 5e-36, Method: Composition-based stats.
+ Identities = 87/384 (23%), Positives = 147/384 (38%), Gaps = 47/384 (12%)
+
+Query  376  GANATTRPTEPGSAA--YWDAVNGGLLNTNVRTFRTTEDLRELLQRDARYGVDYDGSGTF  433
+            G NA  R  +P +AA  Y     G    TNV    T     +++           G+  +
+Sbjct  172  GVNANLRSEQPVAAAVSYKVGTAGSPSKTNVVDSATNSHNYDVVYSSTGIANPVSGNNEY  231
+
+Query  434  AAADINQNIKVVVTADGHFAISNANEQSTVPPNAINGVGNATTTDPKNMSFNITAYSNKQ  493
+                    + V      + A +N    ST+     + V  + TT   N +   T      
+Sbjct  232  LVDIKENGVIVATGKVAYDAATNELVSSTIDYKGASPVTGSMTTTRINAA-GTTVNLADL  290
+
+Query  494  GTVST---NDAFTAIFKAFDGPL-VIGNQIKESEQLKLSAFSAGLEIYDSLGSKHTLEVQ  549
+            G V+    +DA     K +D     + +  K++ +     F   + + DS G + T+ + 
+Sbjct  291  GIVNASGADDAEVVAGKLYDPSTWSMSDYAKDNSKGVKPDFEVQIPLSDSKGGQRTVTLS  350
+
+Query  550  FVKQSTTQDGGNEWQMIIRVPEPAEINTTGEGPNNIIVGTARFNNDGSL-------ASYT  602
+             +K      G N+W   +R  +P ++   G G   I  G   F  DG L        + +
+Sbjct  351  MLKGP----GPNQWYAELRA-KPGDLANNGNG--QISTGIIEFTTDGKLKNTGSLFGTTS  403
+
+Query  603  PRTINFSPNNGAAP----------------------NQQIKLSFGTSGSNDGLVSSNSAS  640
+            P  I    +   AP                       Q++++   ++    GL   NS S
+Sbjct  404  PTAITIKSSGYIAPTVTPPAVQPPTPPTWADALGIDEQEVQIDLASAAG--GLTQYNSQS  461
+
+Query  641  TLTGQATDGYTSGNLKPDAIRVDDKGNILGEFTNGKTFAVAKIAMASVANNSGLEEIGGN  700
+             +    T+G   GNL    I +D+ G +   F NG T  +A++A+A+ +N +GL+ + GN
+Sbjct  462  VVQSVNTNGTAFGNLT--NIEIDEGGYVSAIFDNGVTRRIAQVAIATFSNPNGLKGVNGN  519
+
+Query  701  LFKVTANSGNIVVGEAGTGGRGEM  724
+             ++VT  SG   +     GG G +
+Sbjct  520  AYRVTNESGTYSLKAPSQGGAGAL  543
+
+
+ Score = 43.7 bits (101),  Expect = 0.007, Method: Composition-based stats.
+ Identities = 40/157 (25%), Positives = 63/157 (40%), Gaps = 16/157 (10%)
+
+Query  1    VAINGDGFFMVSD-----DGGLTNYLTRSGDFKLDAYGNFVNNAGFVVQGWNIN--WDDQ  53
+            ++I+G GFF+ ++         T   TR+G F+LD  G   N+AG  +QGW  +      
+Sbjct  84   ISISGAGFFVTTEKPENLTATDTRSFTRAGSFQLDNLGYLRNDAGLYLQGWLADPVSGLI  143
+
+Query  54   TIDSSRTPQNIFIDPG-MHIPAAKSTEVAIKANLNSGLNIGTSSRNLYALDSVHGWNTKT  112
+            T D S   Q   I+ G +   A K+T V + ANL S   +  +                 
+Sbjct  144  TPDPSDLMQLASINVGSVGGTAEKTTRVGVNANLRSEQPVAAAVSYKVGTAGSPSKTNVV  203
+
+Query  113  QRAEDE-------NDTGT-TQFYTTSKNSVEVTEKGV  141
+              A +        + TG        ++  V++ E GV
+Sbjct  204  DSATNSHNYDVVYSSTGIANPVSGNNEYLVDIKENGV  240
+
+
+> sp|Q9X5Y0|FLGE_RHIME Flagellar hook protein FlgE OS=Rhizobium 
+meliloti (strain 1021) OX=266834 GN=flgE PE=3 SV=2
+Length=406
+
+ Score = 95.7 bits (236),  Expect = 1e-19, Method: Composition-based stats.
+ Identities = 41/110 (37%), Positives = 58/110 (53%), Gaps = 10/110 (9%)
+
+Query  1    VAINGDGFFMVSDDGGLTNYLTRSGDFKLDAYGNFVNNAGFVVQGWNINWD-DQTID---  56
+            +AI+G GFF+V    G   YLTR+G F  D+ GN VN +GF + G+      D T+    
+Sbjct  83   LAIDGGGFFIVEGANG-QEYLTRAGSFVPDSEGNLVNASGFTLMGYEYEAGVDPTVVVNG  141
+
+Query  57   -SSRTPQNIFIDPGMHIPAAKSTEVAIKANLNSGLNIG-TSSRNLYALDS  104
+                T  N+  D    + AA ST+ ++ ANL SG  +G  S+ +L   DS
+Sbjct  142  FDGLTRVNLASD---GLIAAGSTKGSMGANLPSGAPVGDVSTTSLVVYDS  188
+
+
+ Score = 68.3 bits (165),  Expect = 8e-11, Method: Composition-based stats.
+ Identities = 66/327 (20%), Positives = 112/327 (34%), Gaps = 43/327 (13%)
+
+Query  417  LQRDARYGVDYDGSGTFAAADINQNIKVVVTADGHFAISNANEQSTVPPNAINGVGNATT  476
+            +Q + RY +   G+ TF  +  +    + +   G F +  AN Q  +          +  
+Sbjct  60   VQTEVRYSISQQGATTFTTSASD----LAIDGGGFFIVEGANGQEYL------TRAGSFV  109
+
+Query  477  TDPKNMSFNITAYSNKQGTVSTNDAFTAIFKAFDG---------PLVIGNQIKESEQLKL  527
+             D +    N + ++            T +   FDG          L+     K S    L
+Sbjct  110  PDSEGNLVNASGFTLMGYEYEAGVDPTVVVNGFDGLTRVNLASDGLIAAGSTKGSMGANL  169
+
+Query  528  SAFS-------AGLEIYDSLGSKHTLEVQFVKQSTTQDGGNEWQMIIRVPEPAEINTTGE  580
+             + +         L +YDS G+   L+  + K      G N W + I      +  T   
+Sbjct  170  PSGAPVGDVSTTSLVVYDSQGNTRILDFNYEKT-----GANAWTLEIVDRASGDALT---  221
+
+Query  581  GPNNIIVGTARFNNDGSLASYTPRTINFSPNNGAAPNQQIKLSFGTSG-SNDGLVSSNSA  639
+                +   T  FN  G L +     +         P        G+             A
+Sbjct  222  ----VPPVTLAFNAAGELTTSPATVVANGAL--IVPPPATGAVVGSITIDFSKTTQLGYA  275
+
+Query  640  STLTGQATDGYTSGNLKPDAIRVDDKGNILGEFTNGKTFAVAKIAMASVANNSGLEEIGG  699
+                G + DG      K    ++D  G +  ++ NGK     +IA+A+V +   L    G
+Sbjct  276  FNADGGSIDGNAPS--KVAGYQIDSDGIVYVKYENGKLDPRYRIALANVQSPDKLRPESG  333
+
+Query  700  NLFKVTANSGNIVVGEAGTGGRGEMKT  726
+            N++    +SG I+ G AG+G  GE+ +
+Sbjct  334  NVYSQGVDSGVIITGFAGSGDFGEILS  360
+
+
+> sp|Q8K9K6|FLGE_BUCAP Flagellar hook protein FlgE OS=Buchnera 
+aphidicola subsp. Schizaphis graminum (strain Sg) OX=198804 
+GN=flgE PE=3 SV=1
+Length=409
+
+ Score = 84.1 bits (206),  Expect = 7e-16, Method: Composition-based stats.
+ Identities = 46/195 (24%), Positives = 83/195 (43%), Gaps = 19/195 (10%)
+
+Query  533  GLEIYDSLGSKHTLEVQFVKQSTTQDGGNEWQMIIRVPEPAEINTTGEGPNNIIVGTARF  592
+             + IYD   + H L + F      Q   ++W++ I++ +  +I       +N I    +F
+Sbjct  188  DITIYDKNENPHKLNISF-----NQIDDHQWKLNIQLNDE-KIPDNEIINDNFI---LKF  238
+
+Query  593  NNDGSLASYTPRTINFS-PNNGAAPNQQIKLSFGTSGSNDGLVSSNSASTLTGQATDGYT  651
+            +++G+L S +   I      N       + L      S   + S          + +GYT
+Sbjct  239  DSEGNLISNSSLQIKSKNSKNIILDPITLNLECFLEKSETNMPSIE-------LSQNGYT  291
+
+Query  652  SGNLKPDAIRVDDKGNILGEFTNGKTFAVAKIAMASVANNSGLEEIGGNLFKVTANSGNI  711
+             G LK     + + G I+G++TN +   + +I +A   N   L+   G+++  T  SG  
+Sbjct  292  KGFLK--HFEILNNGEIIGQYTNEEEQKIGQIFLAKFINPEKLKPESGSIWSATHESGQE  349
+
+Query  712  VVGEAGTGGRGEMKT  726
+             +G AG  G G + T
+Sbjct  350  KIGAAGDQGFGSLYT  364
+
+
+ Score = 58.3 bits (139),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 27/86 (31%), Positives = 41/86 (48%), Gaps = 1/86 (1%)
+
+Query  1    VAINGDGFFMVSDDGGLTNYLTRSGDFKLDAYGNFVNNAGFVVQGWNINWDDQTIDSSRT  60
+            + I  DGFF V D  G   Y TR+G F LD   N VN  G  + G N       ++S   
+Sbjct  80   LGIVQDGFFRVLDSKGYV-YYTRNGHFLLDKNKNIVNGQGMYLTGQNQFDLKNNLNSISN  138
+
+Query  61   PQNIFIDPGMHIPAAKSTEVAIKANL  86
+             + I +     + A  ++++ +KA+L
+Sbjct  139  LEPINLRKSDLLSAKATSQIKLKADL  164
+
+
+> sp|P57422|FLGE_BUCAI Flagellar hook protein FlgE OS=Buchnera 
+aphidicola subsp. Acyrthosiphon pisum (strain APS) OX=107806 
+GN=flgE PE=3 SV=1
+Length=405
+
+ Score = 77.2 bits (188),  Expect = 1e-13, Method: Composition-based stats.
+ Identities = 62/272 (23%), Positives = 101/272 (37%), Gaps = 25/272 (9%)
+
+Query  444  VVVTADGHFAISNANEQSTVPPNAINGVGNATTTDPKNMSFNITAYSNKQGTVSTNDAFT  503
+            V  T DG F +        +    + G+  + +    N   N+   + K   +  N   +
+Sbjct  94   VYYTRDGQFFLDKDQNIINIQGMYLTGLNTSCSKSDFNNRSNLEPINLKNSNILKNKPTS  153
+
+Query  504  AIF-KAFDGPLVIGNQIKESEQLKLSA---FSAGLEIYDSLGSKHTLEVQFVKQSTTQDG  559
+             I  KAF           ++   KLS    +   + IY+  G K  + V F K+ T    
+Sbjct  154  EIMLKAFLNRNTESKSSVDNSDNKLSKPEDYMTYISIYNKEGKKEDITVSFNKKET----  209
+
+Query  560  GNEWQMIIRVPEPAEINTTGEGPNNIIVGTARFNNDGSLASYTPRTINFSPNNGAAPNQQ  619
+             N+W + +      E N + +           FN+DG L S      N +  +       
+Sbjct  210  -NKWTVNV------ESNDSDDKETIKNSFDLTFNDDGELTS--DNVFNITSKDSKKYE-N  259
+
+Query  620  IKLSFGTSGSNDGLVSSNSASTLTGQATDGYTSGNLKPDAIRVDDKGNILGEFTNGKTFA  679
+            I L+         +  SNS  +    + +GY  GNLK     +   G I+G + N K   
+Sbjct  260  ITLNL-----TGTIEQSNSDVSWEEHSQNGYPQGNLK--TFDIVTNGEIIGTYCNQKQQT  312
+
+Query  680  VAKIAMASVANNSGLEEIGGNLFKVTANSGNI  711
+            + +I ++   N   L+   GNL+  TA SG  
+Sbjct  313  IGQILLSKFINPEKLQPESGNLWSATAESGEA  344
+
+
+ Score = 53.7 bits (127),  Expect = 3e-06, Method: Composition-based stats.
+ Identities = 27/98 (28%), Positives = 42/98 (43%), Gaps = 1/98 (1%)
+
+Query  1    VAINGDGFFMVSDDGGLTNYLTRSGDFKLDAYGNFVNNAGFVVQGWNINWDDQTIDSSRT  60
+            + I  DGFF + D  G   Y TR G F LD   N +N  G  + G N +      ++   
+Sbjct  77   LGIIKDGFFRLVDSQGHV-YYTRDGQFFLDKDQNIINIQGMYLTGLNTSCSKSDFNNRSN  135
+
+Query  61   PQNIFIDPGMHIPAAKSTEVAIKANLNSGLNIGTSSRN  98
+             + I +     +    ++E+ +KA LN      +S  N
+Sbjct  136  LEPINLKNSNILKNKPTSEIMLKAFLNRNTESKSSVDN  173
+
+
+> sp|Q8YDL6|FLGE_BRUME Flagellar hook protein FlgE OS=Brucella 
+melitensis biotype 1 (strain 16M / ATCC 23456 / NCTC 10094) 
+OX=224914 GN=flgE PE=1 SV=1
+Length=396
+
+ Score = 69.5 bits (168),  Expect = 3e-11, Method: Composition-based stats.
+ Identities = 46/199 (23%), Positives = 81/199 (41%), Gaps = 29/199 (15%)
+
+Query  530  FSAGLEIYDSLGSKHTLEVQFVKQSTTQDGGNEWQMII-RVPEPAEINTTGEGPNNIIVG  588
+                L  Y+  G K TL+V F K      G +EW + +    +  EI TT          
+Sbjct  179  HKTSLISYNDKGEKITLDVYFTKT-----GADEWNVSVKNAADGVEIGTT----------  223
+
+Query  589  TARFN-NDGSLASYTPRTINFSPNNGAAPNQQIKLSFGTSGSNDGLVSSNSASTLTGQAT  647
+               F+   G L S     +N     G    Q + L+ G      G        T++    
+Sbjct  224  VLNFDPTTGDLVSGGNVAVNLGAYGG----QTLNLNLG------GSTQRAGDYTISQAVI  273
+
+Query  648  DGYTSGNLKPDAIRVDDKGNILGEFTNGKTFAVAKIAMASVANNSGLEEIGGNLFKVTAN  707
+            +G    ++K   + V + G ++  + NG    + +I +A+VA+   +  + GN+F  +A 
+Sbjct  274  NGQAPSSIK--GVDVGNDGAVVAVYENGTQKVLYRIPLANVASPDRMTVVSGNIFLPSAE  331
+
+Query  708  SGNIVVGEAGTGGRGEMKT  726
+            SG++ +G     G G++ +
+Sbjct  332  SGDVRLGFPQGDGMGKIMS  350
+
+
+ Score = 56.4 bits (134),  Expect = 5e-07, Method: Composition-based stats.
+ Identities = 41/154 (27%), Positives = 64/154 (42%), Gaps = 5/154 (3%)
+
+Query  1    VAINGDGFFMVSDDGGLTNYLTRSGDFKLDAYGNFVNNAGFVVQGWNINWDDQTIDSSRT  60
+            +AI+G+G+F+V   GG T YLTR+G F  D  G+ VN+AG+ + G   +     +  +  
+Sbjct  83   LAIDGNGYFVVQGPGGST-YLTRAGSFVPDKNGDLVNSAGYYLLGAGADEAAGGLTVAG-  140
+
+Query  61   PQNIFIDPGMHIPAAKSTEVAIKANLNS--GLNIGTSSRNLYALDSVHGWNTKTQRAEDE  118
+              NI       +PA  ST      NL S           +  +L S +    K       
+Sbjct  141  -LNIVNVNAAALPAEGSTAGDFTVNLPSTDQAPAAGGYNHKTSLISYNDKGEKITLDVYF  199
+
+Query  119  NDTGTTQFYTTSKNSVEVTEKGVDAGSLFNAKGQ  152
+              TG  ++  + KN+ +  E G    +     G 
+Sbjct  200  TKTGADEWNVSVKNAADGVEIGTTVLNFDPTTGD  233
+
+
+> sp|O52070|FLGE_BRUAB Flagellar hook protein FlgE OS=Brucella 
+abortus biovar 1 (strain 9-941) OX=262698 GN=flgE PE=3 SV=2
+Length=396
+
+ Score = 69.5 bits (168),  Expect = 3e-11, Method: Composition-based stats.
+ Identities = 46/199 (23%), Positives = 81/199 (41%), Gaps = 29/199 (15%)
+
+Query  530  FSAGLEIYDSLGSKHTLEVQFVKQSTTQDGGNEWQMII-RVPEPAEINTTGEGPNNIIVG  588
+                L  Y+  G K TL+V F K      G +EW + +    +  EI TT          
+Sbjct  179  HKTSLISYNDKGEKITLDVYFTKT-----GADEWNVSVKNAADGVEIGTT----------  223
+
+Query  589  TARFN-NDGSLASYTPRTINFSPNNGAAPNQQIKLSFGTSGSNDGLVSSNSASTLTGQAT  647
+               F+   G L S     +N     G    Q + L+ G      G        T++    
+Sbjct  224  VLNFDPTTGDLVSGGNVAVNLGAYGG----QTLNLNLG------GSTQRAGDYTISQAVI  273
+
+Query  648  DGYTSGNLKPDAIRVDDKGNILGEFTNGKTFAVAKIAMASVANNSGLEEIGGNLFKVTAN  707
+            +G    ++K   + V + G ++  + NG    + +I +A+VA+   +  + GN+F  +A 
+Sbjct  274  NGQAPSSIK--GVDVGNDGAVVAVYENGTQKVLYRIPLANVASPDRMTVVSGNIFLPSAE  331
+
+Query  708  SGNIVVGEAGTGGRGEMKT  726
+            SG++ +G     G G++ +
+Sbjct  332  SGDVRLGFPQGDGMGKIMS  350
+
+
+ Score = 55.6 bits (132),  Expect = 9e-07, Method: Composition-based stats.
+ Identities = 40/154 (26%), Positives = 64/154 (42%), Gaps = 5/154 (3%)
+
+Query  1    VAINGDGFFMVSDDGGLTNYLTRSGDFKLDAYGNFVNNAGFVVQGWNINWDDQTIDSSRT  60
+            +AI+G+G+F+V   GG T YLTR+G F  D  G+ VN+AG+ + G   +     +  +  
+Sbjct  83   LAIDGNGYFVVQGPGGST-YLTRAGSFVPDKNGDLVNSAGYYLLGAGADEAAGGLTVAG-  140
+
+Query  61   PQNIFIDPGMHIPAAKSTEVAIKANLNS--GLNIGTSSRNLYALDSVHGWNTKTQRAEDE  118
+              N+       +PA  ST      NL S           +  +L S +    K       
+Sbjct  141  -LNVVNVNAAALPAEGSTAGDFTVNLPSTDQAPAAGGYNHKTSLISYNDKGEKITLDVYF  199
+
+Query  119  NDTGTTQFYTTSKNSVEVTEKGVDAGSLFNAKGQ  152
+              TG  ++  + KN+ +  E G    +     G 
+Sbjct  200  TKTGADEWNVSVKNAADGVEIGTTVLNFDPTTGD  233
+
+
+> sp|Q8FUS9|FLGE_BRUSU Flagellar hook protein FlgE OS=Brucella 
+suis biovar 1 (strain 1330) OX=204722 GN=flgE PE=3 SV=1
+Length=396
+
+ Score = 69.5 bits (168),  Expect = 3e-11, Method: Composition-based stats.
+ Identities = 46/199 (23%), Positives = 82/199 (41%), Gaps = 29/199 (15%)
+
+Query  530  FSAGLEIYDSLGSKHTLEVQFVKQSTTQDGGNEWQMII-RVPEPAEINTTGEGPNNIIVG  588
+                L  Y+  G K TL+V F K      G +EW + +    +  EI TT          
+Sbjct  179  HKTSLISYNDKGEKITLDVYFTKT-----GADEWNVSVKNAADGVEIGTT----------  223
+
+Query  589  TARFN-NDGSLASYTPRTINFSPNNGAAPNQQIKLSFGTSGSNDGLVSSNSASTLTGQAT  647
+               F+   G L S     +N     G    Q + L+ G      G        T++    
+Sbjct  224  VLNFDPTTGDLVSGGNVAVNLGAYGG----QTLNLNLG------GSTQRAGDYTISQAVI  273
+
+Query  648  DGYTSGNLKPDAIRVDDKGNILGEFTNGKTFAVAKIAMASVANNSGLEEIGGNLFKVTAN  707
+            +G    ++K   + V + G ++  + NG    + +I +A+VA+ + +  + GN+F  +A 
+Sbjct  274  NGQAPSSIK--GVDVGNDGAVVAVYENGTQKVLYRIPLANVASPNRMTVVSGNIFLPSAE  331
+
+Query  708  SGNIVVGEAGTGGRGEMKT  726
+            SG++ +G     G G++ +
+Sbjct  332  SGDVRLGFPQGDGMGKIMS  350
+
+
+ Score = 55.2 bits (131),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 40/154 (26%), Positives = 64/154 (42%), Gaps = 5/154 (3%)
+
+Query  1    VAINGDGFFMVSDDGGLTNYLTRSGDFKLDAYGNFVNNAGFVVQGWNINWDDQTIDSSRT  60
+            +AI+G+G+F+V   GG T YLTR+G F  D  G+ VN+AG+ + G   +     +  +  
+Sbjct  83   LAIDGNGYFVVQGPGGST-YLTRAGSFVPDKNGDLVNSAGYYLLGAGADEAAGGLTVAG-  140
+
+Query  61   PQNIFIDPGMHIPAAKSTEVAIKANLNS--GLNIGTSSRNLYALDSVHGWNTKTQRAEDE  118
+              N+       +PA  ST      NL S           +  +L S +    K       
+Sbjct  141  -LNVVNVNAAALPAEGSTAGDFTVNLPSTDQAPAAGGYNHKTSLISYNDKGEKITLDVYF  199
+
+Query  119  NDTGTTQFYTTSKNSVEVTEKGVDAGSLFNAKGQ  152
+              TG  ++  + KN+ +  E G    +     G 
+Sbjct  200  TKTGADEWNVSVKNAADGVEIGTTVLNFDPTTGD  233
+
+
+> sp|O67711|FLGE_AQUAE Flagellar hook protein FlgE OS=Aquifex aeolicus 
+(strain VF5) OX=224324 GN=flgE PE=3 SV=1
+Length=482
+
+ Score = 61.8 bits (148),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 27/107 (25%), Positives = 47/107 (44%), Gaps = 6/107 (6%)
+
+Query  1    VAINGDGFFMVSDDGGLTNYLTRSGDFKLDAYGNFVNNAGFVVQGWNINWDDQTIDSSRT  60
+            +AI G   F++ D      Y TR G F+++  G  +N  G  VQG+ +N     + +   
+Sbjct  91   LAIEGKALFILRDVLTNQTYYTRDGRFRINREGYLINPNGLYVQGFKVNPVTGEV-TGTQ  149
+
+Query  61   PQNIFIDPGMHIPAAKSTEVAIK--ANLNSGLN-IGTSSRNLYALDS  104
+             ++I ++    IP   + E+      NL+     I  ++     LDS
+Sbjct  150  LEDIRVE--TQIPPKATGEIYFNPPTNLDERAPIIDQTTTPFNPLDS  194
+
+
+ Score = 57.9 bits (138),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 46/252 (18%), Positives = 85/252 (34%), Gaps = 74/252 (29%)
+
+Query  534  LEIYDSLGSKHTLEVQFVKQSTTQDGGNEWQMIIRVP---EPAEINTTGEGPNNIIVGTA  590
+            L IYDSLG +   ++ FVK      G N+W++            ++  G+     IV   
+Sbjct  203  LTIYDSLGREVPADIYFVKT-----GTNQWKVYFLASLKERYINVDWNGDDDKTDIVFLD  257
+
+Query  591  RFNNDGSLA-----SYTPR----TINFSPNNG----------------------------  613
+             FN+   +A     S  P     T+ F P+ G                            
+Sbjct  258  LFNDQVHIADNGTFSTLPTFASKTLEFDPSTGKLVYIPGGDIVQDTANQKFYLEVDLTPE  317
+
+Query  614  -----------------------AAPNQQIKLSFGTSGSNDGLVSSN-----SASTLTGQ  645
+                                    +   +IK+  G     + ++ ++     +A  +   
+Sbjct  318  SGPSEINDPNDTESYLNKLGAKLGSETNKIKIYVGEGILQNNVIQNSYITQHAADFVVTM  377
+
+Query  646  ATDGYTSGNLKPDAIRVDDKGNILGEFTNGKTFAVAKIAMASVANNSGLEEIGGNLFKVT  705
+              DGY  G L      + + G ++G ++NG+T    ++A+A   +   L + G NL+   
+Sbjct  378  DQDGYARGELIDL-YVLSEDGVVVGVYSNGETLPTYRLALAQFTDPEELVKKGSNLYASV  436
+
+Query  706  ANSGNIVVGEAG  717
+                 ++ G + 
+Sbjct  437  KTPTILLPGGSN  448
+
+
+> sp|P23446|FLGG_BACSU Flagellar basal-body rod protein FlgG OS=Bacillus 
+subtilis (strain 168) OX=224308 GN=flgG PE=3 SV=2
+Length=264
+
+ Score = 54.1 bits (128),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 34/171 (20%), Positives = 65/171 (38%), Gaps = 10/171 (6%)
+
+Query  566  IIRVPEPAEINTTGEGPNNIIVGTARFNNDGSLASYTPRTINFSPNNGAAPNQQIKLSFG  625
+             I     A     G     I +G++    D   ++   ++   + +     +   ++  G
+Sbjct  48   TIAGGSAAGATIGGTNSKQIGLGSSSGTIDTIHSTSATQSTGRTLDLAIDGDGYFRIDTG  107
+
+Query  626  TSGSNDGLVSSNSASTLTGQATDGYTSGNLKP---------DAIRVDDKGNILGEFTNGK  676
+               +     +    +T T    DGY   N+            +  +   G +      GK
+Sbjct  108  DGTAYTRAGNFYLDNTGTLVTGDGYHVLNMNGGTIKIPTDAQSFSIGSDGKVSIVDAEGK  167
+
+Query  677  TFAVAKIAMASVANNSGLEEIGGNLFKVTANSGNIVVG-EAGTGGRGEMKT  726
+            T    +I + + AN+ GL++IG NL++ + NSG      + G GG G +K+
+Sbjct  168  TQDGGQIGIVTFANSDGLDKIGSNLYRESLNSGTASAANQPGDGGTGALKS  218
+
+
+> sp|O51715|FLGG_BORBU Flagellar basal-body rod protein FlgG OS=Borrelia 
+burgdorferi (strain ATCC 35210 / B31 / CIP 102532 
+/ DSM 4680) OX=224326 GN=flgG PE=3 SV=1
+Length=265
+
+ Score = 50.6 bits (119),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 25/99 (25%), Positives = 44/99 (44%), Gaps = 8/99 (8%)
+
+Query  635  SSNSASTLTGQATDGYT-------SGNLKPDAIRVDDKGNI-LGEFTNGKTFAVAKIAMA  686
+            S    S      + GY              ++I + ++G + +   T+ +   + +I ++
+Sbjct  119  SFKIDSNRELVTSQGYKVLPNILFPEEYIQNSITISEEGIVSVKIDTSNEPIELGQIEIS  178
+
+Query  687  SVANNSGLEEIGGNLFKVTANSGNIVVGEAGTGGRGEMK  725
+               N +GL  IG NLFK TA SG  + G  G+ G G ++
+Sbjct  179  RFINPAGLSAIGSNLFKETAGSGQEIAGIPGSEGMGRLR  217
+
+
+ Score = 43.7 bits (101),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 18/43 (42%), Positives = 24/43 (56%), Gaps = 1/43 (2%)
+
+Query  1    VAINGDGFFMVSDDGGLTNYLTRSGDFKLDAYGNFVNNAGFVV  43
+            VAI GDGF+ +    G T   TR G FK+D+    V + G+ V
+Sbjct  95   VAIEGDGFYKILLPDG-TYAYTRDGSFKIDSNRELVTSQGYKV  136
+
+
+> sp|Q52946|FLGG_RHIME Flagellar basal-body rod protein FlgG OS=Rhizobium 
+meliloti (strain 1021) OX=266834 GN=flgG PE=3 SV=2
+Length=262
+
+ Score = 49.8 bits (117),  Expect = 3e-05, Method: Composition-based stats.
+ Identities = 46/226 (20%), Positives = 78/226 (35%), Gaps = 25/226 (11%)
+
+Query  512  PLVIGNQIKESEQLKLSAFSAGLEIYDSLGSKH------TLEVQFVKQSTTQDGGNEWQM  565
+             L I      ++QL L   +  +   ++ G K        L  Q  +     +  N+  +
+Sbjct  3    ALSIAATGMNAQQLNLEVIANNIANINTTGYKRARAEFSDLLYQTERAQGVPNRSNQAIV  62
+
+Query  566  IIRVPEPAEINTTGEGPNNIIVGTARFNNDGSLASYTPRTINFSPNNGAAPNQQIKLSFG  625
+                     + T+     +I        ND  LA            +G            
+Sbjct  63   PEGAIIGLGVQTSAVRNLHIQGSLVNTGNDYDLALVGRGWFQIETPDGE-----------  111
+
+Query  626  TSGSNDGLVSSNSASTLTGQATDGYT--SGNLKPDA---IRVDDKGNILGEFTNGKT-FA  679
+            T  +  G  + N+ +T      DGYT   G   P     I     G ++    N      
+Sbjct  112  TVYTRSG--AFNTNATGQLVTIDGYTVVPGVTVPQDATEIVFTSSGQVMVRIGNDTELQE  169
+
+Query  680  VAKIAMASVANNSGLEEIGGNLFKVTANSGNIVVGEAGTGGRGEMK  725
+            + ++ +A+  N +GLE +G NLF+ T  SG+ +VG     G  ++K
+Sbjct  170  IGQLTIANFVNEAGLEPMGENLFRQTPASGDPIVGTPADPGFAQVK  215
+
+
+> sp|P57424|FLGG_BUCAI Flagellar basal-body rod protein FlgG OS=Buchnera 
+aphidicola subsp. Acyrthosiphon pisum (strain APS) 
+OX=107806 GN=flgG PE=3 SV=1
+Length=260
+
+ Score = 47.5 bits (111),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 20/68 (29%), Positives = 33/68 (49%), Gaps = 3/68 (4%)
+
+Query  659  AIRVDDKGNILGEFTNGKTF--AVAKIAMASVANNSGLEEIGGNLFKVTANSGNIVVGEA  716
+             I +   G I      G+T    + ++ + +  NNSGLE +G NL++ T  SG+ +    
+Sbjct  148  NINIARDGVIS-VVVQGQTQPVLLGQLNLINFVNNSGLESLGENLYQETQASGSPIETTP  206
+
+Query  717  GTGGRGEM  724
+            G  G G +
+Sbjct  207  GLNGTGVL  214
+
+
+> sp|Q89AH7|FLGG_BUCBP Flagellar basal-body rod protein FlgG OS=Buchnera 
+aphidicola subsp. Baizongia pistaciae (strain Bp) 
+OX=224915 GN=flgG PE=3 SV=1
+Length=260
+
+ Score = 46.0 bits (107),  Expect = 6e-04, Method: Composition-based stats.
+ Identities = 21/68 (31%), Positives = 34/68 (50%), Gaps = 1/68 (1%)
+
+Query  658  DAIRVDDKGNI-LGEFTNGKTFAVAKIAMASVANNSGLEEIGGNLFKVTANSGNIVVGEA  716
+            + + V   G I +      +   V K+ +A+  N+SGL  IG NL++ T  SGN  +   
+Sbjct  147  NNMSVSRDGIITVRIPEQTQPIRVGKLYLANFVNDSGLSNIGENLYQETEASGNPSISSP  206
+
+Query  717  GTGGRGEM  724
+            G+ G G +
+Sbjct  207  GSHGTGLL  214
+
+
+ Score = 42.5 bits (98),  Expect = 0.008, Method: Composition-based stats.
+ Identities = 22/58 (38%), Positives = 33/58 (57%), Gaps = 4/58 (7%)
+
+Query  1    VAINGDGFFMVSDDGGLTNYLTRSGDFKLDAYGNFVNNAGFVVQ---GWNINWDDQTI  55
+            VAING+GFF V    G   Y TR G F+++  G  V N GF++Q    +  N ++ ++
+Sbjct  95   VAINGNGFFQVQLPDGNAAY-TRDGSFQINPNGQLVTNNGFLIQPVINFPANGNNMSV  151
+
+
+> sp|Q06172|FLGG_CAUVC Flagellar basal-body rod protein FlgG OS=Caulobacter 
+vibrioides (strain ATCC 19089 / CB15) OX=190650 
+GN=flgG PE=3 SV=2
+Length=262
+
+ Score = 45.6 bits (106),  Expect = 7e-04, Method: Composition-based stats.
+ Identities = 34/131 (26%), Positives = 49/131 (37%), Gaps = 8/131 (6%)
+
+Query  602  TPRTINFSPNNGAAPNQQIKLSFGTSGSNDGLVSSNSASTLTG--QATDGY--TSGNLKP  657
+               T+  SP + A   +        SG      + N ++   G     DGY    G   P
+Sbjct  84   GTPTLTDSPLDLAIQGKGYMPILLPSGETAYTRAGNFSTNDQGQIVTEDGYLVQPGITIP  143
+
+Query  658  DA---IRVDDKGNILGEFTNG-KTFAVAKIAMASVANNSGLEEIGGNLFKVTANSGNIVV  713
+                 I +   G +  +     +   V +I +A+  N  GLE IG NLF  TA SG   +
+Sbjct  144  QNATDITISKSGLVQVKLDGQPQPQTVGQIQLANFLNEGGLEAIGDNLFLETAASGAATL  203
+
+Query  714  GEAGTGGRGEM  724
+               G  G G +
+Sbjct  204  AAPGEPGFGML  214
+
+
+> sp|P0A1J3|FLGG_SALTY Flagellar basal-body rod protein FlgG OS=Salmonella 
+typhimurium (strain LT2 / SGSC1412 / ATCC 700720) 
+OX=99287 GN=flgG PE=1 SV=1
+Length=260
+
+ Score = 45.6 bits (106),  Expect = 8e-04, Method: Composition-based stats.
+ Identities = 17/67 (25%), Positives = 31/67 (46%), Gaps = 1/67 (1%)
+
+Query  659  AIRVDDKGNI-LGEFTNGKTFAVAKIAMASVANNSGLEEIGGNLFKVTANSGNIVVGEAG  717
+            +I +   G + + +        V ++ + +  N++GLE IG NL+  T +SG       G
+Sbjct  148  SITIGRDGVVSVTQQGQAAPVQVGQLNLTTFMNDTGLESIGENLYIETQSSGAPNESTPG  207
+
+Query  718  TGGRGEM  724
+              G G +
+Sbjct  208  LNGAGLL  214
+
+
+ Score = 44.5 bits (103),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 21/44 (48%), Positives = 24/44 (55%), Gaps = 1/44 (2%)
+
+Query  1    VAINGDGFFMVSDDGGLTNYLTRSGDFKLDAYGNFVNNAGFVVQ  44
+            VAI G GFF V    G T+  TR G F++D  G  V   GF VQ
+Sbjct  95   VAIKGQGFFQVMLPDG-TSAYTRDGSFQVDQNGQLVTAGGFQVQ  137
+
+
+> sp|P0A1J4|FLGG_SALTI Flagellar basal-body rod protein FlgG OS=Salmonella 
+typhi OX=90370 GN=flgG PE=3 SV=1
+Length=260
+
+ Score = 45.6 bits (106),  Expect = 8e-04, Method: Composition-based stats.
+ Identities = 17/67 (25%), Positives = 31/67 (46%), Gaps = 1/67 (1%)
+
+Query  659  AIRVDDKGNI-LGEFTNGKTFAVAKIAMASVANNSGLEEIGGNLFKVTANSGNIVVGEAG  717
+            +I +   G + + +        V ++ + +  N++GLE IG NL+  T +SG       G
+Sbjct  148  SITIGRDGVVSVTQQGQAAPVQVGQLNLTTFMNDTGLESIGENLYIETQSSGAPNESTPG  207
+
+Query  718  TGGRGEM  724
+              G G +
+Sbjct  208  LNGAGLL  214
+
+
+ Score = 44.5 bits (103),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 21/44 (48%), Positives = 24/44 (55%), Gaps = 1/44 (2%)
+
+Query  1    VAINGDGFFMVSDDGGLTNYLTRSGDFKLDAYGNFVNNAGFVVQ  44
+            VAI G GFF V    G T+  TR G F++D  G  V   GF VQ
+Sbjct  95   VAIKGQGFFQVMLPDG-TSAYTRDGSFQVDQNGQLVTAGGFQVQ  137
+
+
+> sp|Q44338|FLGG_AGRFC Flagellar basal-body rod protein FlgG OS=Agrobacterium 
+fabrum (strain C58 / ATCC 33970) OX=176299 GN=flgG 
+PE=3 SV=2
+Length=262
+
+ Score = 45.2 bits (105),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 21/69 (30%), Positives = 32/69 (46%), Gaps = 1/69 (1%)
+
+Query  658  DAIRVDDKGNILGEFTNGKTF-AVAKIAMASVANNSGLEEIGGNLFKVTANSGNIVVGEA  716
+              I +   G +     N   F  + ++ +A+ AN +GL+ +G NLF  T  SG  VVG  
+Sbjct  147  QDITITRTGQVTARIGNAADFTQLGQLTIANFANEAGLKPLGDNLFSQTPASGAPVVGVP  206
+
+Query  717  GTGGRGEMK  725
+                 G +K
+Sbjct  207  DDPSYGYVK  215
+
+
+> sp|P0ABX5|FLGG_ECOLI Flagellar basal-body rod protein FlgG OS=Escherichia 
+coli (strain K12) OX=83333 GN=flgG PE=3 SV=1
+Length=260
+
+ Score = 44.8 bits (104),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 17/67 (25%), Positives = 31/67 (46%), Gaps = 1/67 (1%)
+
+Query  659  AIRVDDKGNI-LGEFTNGKTFAVAKIAMASVANNSGLEEIGGNLFKVTANSGNIVVGEAG  717
+            +I +   G + + +        V ++ + +  N++GLE IG NL+  T +SG       G
+Sbjct  148  SITIGRDGVVSVTQQGQAAPVQVGQLNLTTFMNDTGLESIGENLYTETQSSGAPNESTPG  207
+
+Query  718  TGGRGEM  724
+              G G +
+Sbjct  208  LNGAGLL  214
+
+
+ Score = 44.5 bits (103),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 21/44 (48%), Positives = 24/44 (55%), Gaps = 1/44 (2%)
+
+Query  1    VAINGDGFFMVSDDGGLTNYLTRSGDFKLDAYGNFVNNAGFVVQ  44
+            VAI G GFF V    G + Y TR G F++D  G  V   GF VQ
+Sbjct  95   VAIKGQGFFQVMLPDGSSAY-TRDGSFQVDQNGQLVTAGGFQVQ  137
+
+
+> sp|P0ABX6|FLGG_ECOL6 Flagellar basal-body rod protein FlgG OS=Escherichia 
+coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC) 
+OX=199310 GN=flgG PE=3 SV=1
+Length=260
+
+ Score = 44.8 bits (104),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 17/67 (25%), Positives = 31/67 (46%), Gaps = 1/67 (1%)
+
+Query  659  AIRVDDKGNI-LGEFTNGKTFAVAKIAMASVANNSGLEEIGGNLFKVTANSGNIVVGEAG  717
+            +I +   G + + +        V ++ + +  N++GLE IG NL+  T +SG       G
+Sbjct  148  SITIGRDGVVSVTQQGQAAPVQVGQLNLTTFMNDTGLESIGENLYTETQSSGAPNESTPG  207
+
+Query  718  TGGRGEM  724
+              G G +
+Sbjct  208  LNGAGLL  214
+
+
+ Score = 44.5 bits (103),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 21/44 (48%), Positives = 24/44 (55%), Gaps = 1/44 (2%)
+
+Query  1    VAINGDGFFMVSDDGGLTNYLTRSGDFKLDAYGNFVNNAGFVVQ  44
+            VAI G GFF V    G + Y TR G F++D  G  V   GF VQ
+Sbjct  95   VAIKGQGFFQVMLPDGSSAY-TRDGSFQVDQNGQLVTAGGFQVQ  137
+
+
+> sp|P0ABX7|FLGG_ECO57 Flagellar basal-body rod protein FlgG OS=Escherichia 
+coli O157:H7 OX=83334 GN=flgG PE=3 SV=1
+Length=260
+
+ Score = 44.8 bits (104),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 17/67 (25%), Positives = 31/67 (46%), Gaps = 1/67 (1%)
+
+Query  659  AIRVDDKGNI-LGEFTNGKTFAVAKIAMASVANNSGLEEIGGNLFKVTANSGNIVVGEAG  717
+            +I +   G + + +        V ++ + +  N++GLE IG NL+  T +SG       G
+Sbjct  148  SITIGRDGVVSVTQQGQAAPVQVGQLNLTTFMNDTGLESIGENLYTETQSSGAPNESTPG  207
+
+Query  718  TGGRGEM  724
+              G G +
+Sbjct  208  LNGAGLL  214
+
+
+ Score = 44.5 bits (103),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 21/44 (48%), Positives = 24/44 (55%), Gaps = 1/44 (2%)
+
+Query  1    VAINGDGFFMVSDDGGLTNYLTRSGDFKLDAYGNFVNNAGFVVQ  44
+            VAI G GFF V    G + Y TR G F++D  G  V   GF VQ
+Sbjct  95   VAIKGQGFFQVMLPDGSSAY-TRDGSFQVDQNGQLVTAGGFQVQ  137
+
+
+> sp|Q8K9K4|FLGG_BUCAP Flagellar basal-body rod protein FlgG OS=Buchnera 
+aphidicola subsp. Schizaphis graminum (strain Sg) 
+OX=198804 GN=flgG PE=3 SV=1
+Length=260
+
+ Score = 44.5 bits (103),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 24/106 (23%), Positives = 46/106 (43%), Gaps = 4/106 (4%)
+
+Query  621  KLSFGTSGSNDGLVSSNSASTLTGQATDGYTSGNLKPDAIRVDDKGNILGEFTNGKTF--  678
+             +++   GS   L  +    T +G       +       + +   G I+     G+T   
+Sbjct  111  NIAYTRDGSFQ-LDQNGQLVTNSGYPIIPEINIPPNSINMNIGRDG-IVSVTIQGQTQPI  168
+
+Query  679  AVAKIAMASVANNSGLEEIGGNLFKVTANSGNIVVGEAGTGGRGEM  724
+            ++ ++ + +  N+SGLE +G NL++ T  SGN +    G  G G +
+Sbjct  169  SIGQLNLINFVNHSGLESLGENLYQETQASGNPIDTTPGLNGTGLL  214
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.120    0.304    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0368    0.140     1.90     42.6     43.6 
+
+Effective search space used: 79580703416
+Results from round 3
+
+
+Query= 5AZ4
+
+Length=726
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P0A1J1|FLGE_SALTY Flagellar hook protein FlgE OS=Salmonella ...  237     6e-70
+  sp|P0A1J2|FLGE_SALTI Flagellar hook protein FlgE OS=Salmonella ...  237     6e-70
+  sp|P50610|FLGE_HELPY Flagellar hook protein FlgE OS=Helicobacte...  244     2e-69
+  sp|Q9ZKY0|FLGE_HELPJ Flagellar hook protein FlgE OS=Helicobacte...  244     3e-69
+  sp|P50611|FLGE_HELMU Flagellar hook protein FlgE (Fragment) OS=...  220     5e-63
+  sp|P75937|FLGE_ECOLI Flagellar hook protein FlgE OS=Escherichia...  216     4e-62
+  sp|P35806|FLGE_CAUVC Flagellar hook protein FlgE OS=Caulobacter...  208     4e-57
+  sp|P57422|FLGE_BUCAI Flagellar hook protein FlgE OS=Buchnera ap...  202     8e-57
+  sp|Q8K9K6|FLGE_BUCAP Flagellar hook protein FlgE OS=Buchnera ap...  190     1e-52
+  sp|Q9X5Y0|FLGE_RHIME Flagellar hook protein FlgE OS=Rhizobium m...  187     3e-51
+  sp|O07884|FLGE_TREPA Flagellar hook protein FlgE OS=Treponema p...  187     9e-51
+  sp|Q56326|FLGE_TREPH Flagellar hook protein FlgE OS=Treponema p...  185     3e-50
+  sp|Q44767|FLGE_BORBU Flagellar hook protein FlgE OS=Borrelia bu...  167     5e-44
+  sp|Q8YDL6|FLGE_BRUME Flagellar hook protein FlgE OS=Brucella me...  150     3e-38
+  sp|O52070|FLGE_BRUAB Flagellar hook protein FlgE OS=Brucella ab...  149     8e-38
+  sp|Q8FUS9|FLGE_BRUSU Flagellar hook protein FlgE OS=Brucella su...  146     5e-37
+  sp|Q52946|FLGG_RHIME Flagellar basal-body rod protein FlgG OS=R...  140     3e-36
+  sp|O67711|FLGE_AQUAE Flagellar hook protein FlgE OS=Aquifex aeo...  138     2e-33
+  sp|Q44338|FLGG_AGRFC Flagellar basal-body rod protein FlgG OS=A...  116     1e-27
+  sp|P23446|FLGG_BACSU Flagellar basal-body rod protein FlgG OS=B...  106     3e-24
+  sp|O51715|FLGG_BORBU Flagellar basal-body rod protein FlgG OS=B...  97.7    3e-21
+  sp|P57424|FLGG_BUCAI Flagellar basal-body rod protein FlgG OS=B...  96.6    5e-21
+  sp|Q06172|FLGG_CAUVC Flagellar basal-body rod protein FlgG OS=C...  96.6    6e-21
+  sp|Q8K9K4|FLGG_BUCAP Flagellar basal-body rod protein FlgG OS=B...  93.5    7e-20
+  sp|P0A1J3|FLGG_SALTY Flagellar basal-body rod protein FlgG OS=S...  91.2    5e-19
+  sp|P0A1J4|FLGG_SALTI Flagellar basal-body rod protein FlgG OS=S...  91.2    5e-19
+  sp|P0ABX5|FLGG_ECOLI Flagellar basal-body rod protein FlgG OS=E...  90.4    8e-19
+  sp|P0ABX6|FLGG_ECOL6 Flagellar basal-body rod protein FlgG OS=E...  90.4    8e-19
+  sp|P0ABX7|FLGG_ECO57 Flagellar basal-body rod protein FlgG OS=E...  90.4    8e-19
+  sp|Q89AH7|FLGG_BUCBP Flagellar basal-body rod protein FlgG OS=B...  90.4    9e-19
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|P0A1J1|FLGE_SALTY Flagellar hook protein FlgE OS=Salmonella 
+typhimurium (strain LT2 / SGSC1412 / ATCC 700720) OX=99287 
+GN=flgE PE=1 SV=2
+Length=403
+
+ Score = 237 bits (604),  Expect = 6e-70, Method: Composition-based stats.
+ Identities = 66/309 (21%), Positives = 110/309 (36%), Gaps = 19/309 (6%)
+
+Query  1    VAINGDGFFMVSDDGGLTNYLTRSGDFKLDAYGNFVNNAGFVVQGWNINWDDQTIDSSRT  60
+            VAI+ +GFF + D  G   + +R+G FKLD   N VN  G  + G+       TI     
+Sbjct  75   VAISQNGFFRLVDSNGSV-FYSRNGQFKLDENRNLVNMQGMQLTGYPATGTPPTIQQGAN  133
+
+Query  61   PQNIFIDPGMHIPAAKSTEVAIKANLNSGLNIGTSSR-NLYALDSVHGWNTKTQRAEDEN  119
+            P  I I P   + A  +T  +++ NLNS   + + +  ++   DS +   T T      N
+Sbjct  134  PAPITI-PNTLMAAKSTTTASMQINLNSTDPVPSKTPFSVSDADSYNKKGTVTVYDSQGN  192
+
+Query  120  DTGTTQFYTTSKNS--VEVTEKGVDAGSLFNAKGQGLNLRDGQGIWVSYADATYSTNKVG  177
+                  ++  +K++     T    D  +            +  GI  S      +T  + 
+Sbjct  193  AHDMNVYFVKTKDNEWAVYTHDSSDPAATAPTTASTTLKFNENGILESGGTVNITTGTIN  252
+
+Query  178  VN-------AFDPNLQQNQTAAFWGTANQK-------VNLDITLNGVRIQNADIQSIDDA  223
+                     +F  ++QQN  A      NQ        V+  I  +G  + N   +     
+Sbjct  253  GATAATFSLSFLNSMQQNTGANNIVATNQNGYKPGDLVSYQINNDGTVVGNYSNEQEQVL  312
+
+Query  224  IAYINTFTAPTDTRDGTGVKAVKNKDGSGIDFVNDNADGTTDNMKNINLVVANTNTAGEL  283
+               +    A  +     G         SG+  +     G    + N  L  +N + + EL
+Sbjct  313  GQIVLANFANNEGLASQGDNVWAATQASGVALLGTAGSGNFGKLTNGALEASNVDLSKEL  372
+
+Query  284  WNAVWNNNN  292
+             N +    N
+Sbjct  373  VNMIVAQRN  381
+
+
+ Score = 227 bits (577),  Expect = 5e-66, Method: Composition-based stats.
+ Identities = 75/355 (21%), Positives = 135/355 (38%), Gaps = 30/355 (8%)
+
+Query  377  ANATTRPTEPGSAAYWDAVNGGLLNTNVRTFRTTEDLRELLQRDARYGVDYDGSGTFAAA  436
+            AN+ T   + G+A++ D   G  +   V+    T+D  +    +   G+D   S      
+Sbjct  25   ANSATYGFKSGTASFADMFAGSKVGLGVKVAGITQDFTDGTTTNTGRGLDVAISQNGFFR  84
+
+Query  437  DINQNIKVVVTADGHFAISNANEQSTVPPNAINGVGNATTTDPKNMSFNITAYSNKQGTV  496
+             ++ N  V  + +G F +     ++ V    +   G   T  P  +       +    T+
+Sbjct  85   LVDSNGSVFYSRNGQFKLD--ENRNLVNMQGMQLTGYPATGTPPTIQ---QGANPAPITI  139
+
+Query  497  STNDAFTAIFKAFDGPLVIGNQIKESEQLKLSAFSAG-------LEIYDSLGSKHTLEVQ  549
+                            + + +      +   S   A        + +YDS G+ H + V 
+Sbjct  140  PNTLMAAKSTTTASMQINLNSTDPVPSKTPFSVSDADSYNKKGTVTVYDSQGNAHDMNVY  199
+
+Query  550  FVKQSTTQDGGNEWQMIIRVPEPAEINTTGEGPNNIIVGTARFNNDGSLASYTPRTINFS  609
+            FVK        NEW +                       T +FN +G L S     I   
+Sbjct  200  FVKTK-----DNEWAVYTHDSS-----DPAATAPTTASTTLKFNENGILESGGTVNITTG  249
+
+Query  610  PNNGAAPNQQIKLSFGTSGSNDGLVSSNSASTLTGQATDGYTSGNLKPDAIRVDDKGNIL  669
+              NGA       LSF  S     +  +  A+ +     +GY  G+L   + ++++ G ++
+Sbjct  250  TINGATA-ATFSLSFLNS-----MQQNTGANNIVATNQNGYKPGDLV--SYQINNDGTVV  301
+
+Query  670  GEFTNGKTFAVAKIAMASVANNSGLEEIGGNLFKVTANSGNIVVGEAGTGGRGEM  724
+            G ++N +   + +I +A+ ANN GL   G N++  T  SG  ++G AG+G  G++
+Sbjct  302  GNYSNEQEQVLGQIVLANFANNEGLASQGDNVWAATQASGVALLGTAGSGNFGKL  356
+
+
+> sp|P0A1J2|FLGE_SALTI Flagellar hook protein FlgE OS=Salmonella 
+typhi OX=90370 GN=flgE PE=3 SV=2
+Length=403
+
+ Score = 237 bits (604),  Expect = 6e-70, Method: Composition-based stats.
+ Identities = 66/309 (21%), Positives = 110/309 (36%), Gaps = 19/309 (6%)
+
+Query  1    VAINGDGFFMVSDDGGLTNYLTRSGDFKLDAYGNFVNNAGFVVQGWNINWDDQTIDSSRT  60
+            VAI+ +GFF + D  G   + +R+G FKLD   N VN  G  + G+       TI     
+Sbjct  75   VAISQNGFFRLVDSNGSV-FYSRNGQFKLDENRNLVNMQGMQLTGYPATGTPPTIQQGAN  133
+
+Query  61   PQNIFIDPGMHIPAAKSTEVAIKANLNSGLNIGTSSR-NLYALDSVHGWNTKTQRAEDEN  119
+            P  I I P   + A  +T  +++ NLNS   + + +  ++   DS +   T T      N
+Sbjct  134  PAPITI-PNTLMAAKSTTTASMQINLNSTDPVPSKTPFSVSDADSYNKKGTVTVYDSQGN  192
+
+Query  120  DTGTTQFYTTSKNS--VEVTEKGVDAGSLFNAKGQGLNLRDGQGIWVSYADATYSTNKVG  177
+                  ++  +K++     T    D  +            +  GI  S      +T  + 
+Sbjct  193  AHDMNVYFVKTKDNEWAVYTHDSSDPAATAPTTASTTLKFNENGILESGGTVNITTGTIN  252
+
+Query  178  VN-------AFDPNLQQNQTAAFWGTANQK-------VNLDITLNGVRIQNADIQSIDDA  223
+                     +F  ++QQN  A      NQ        V+  I  +G  + N   +     
+Sbjct  253  GATAATFSLSFLNSMQQNTGANNIVATNQNGYKPGDLVSYQINNDGTVVGNYSNEQEQVL  312
+
+Query  224  IAYINTFTAPTDTRDGTGVKAVKNKDGSGIDFVNDNADGTTDNMKNINLVVANTNTAGEL  283
+               +    A  +     G         SG+  +     G    + N  L  +N + + EL
+Sbjct  313  GQIVLANFANNEGLASQGDNVWAATQASGVALLGTAGSGNFGKLTNGALEASNVDLSKEL  372
+
+Query  284  WNAVWNNNN  292
+             N +    N
+Sbjct  373  VNMIVAQRN  381
+
+
+ Score = 227 bits (577),  Expect = 5e-66, Method: Composition-based stats.
+ Identities = 75/355 (21%), Positives = 135/355 (38%), Gaps = 30/355 (8%)
+
+Query  377  ANATTRPTEPGSAAYWDAVNGGLLNTNVRTFRTTEDLRELLQRDARYGVDYDGSGTFAAA  436
+            AN+ T   + G+A++ D   G  +   V+    T+D  +    +   G+D   S      
+Sbjct  25   ANSATYGFKSGTASFADMFAGSKVGLGVKVAGITQDFTDGTTTNTGRGLDVAISQNGFFR  84
+
+Query  437  DINQNIKVVVTADGHFAISNANEQSTVPPNAINGVGNATTTDPKNMSFNITAYSNKQGTV  496
+             ++ N  V  + +G F +     ++ V    +   G   T  P  +       +    T+
+Sbjct  85   LVDSNGSVFYSRNGQFKLD--ENRNLVNMQGMQLTGYPATGTPPTIQ---QGANPAPITI  139
+
+Query  497  STNDAFTAIFKAFDGPLVIGNQIKESEQLKLSAFSAG-------LEIYDSLGSKHTLEVQ  549
+                            + + +      +   S   A        + +YDS G+ H + V 
+Sbjct  140  PNTLMAAKSTTTASMQINLNSTDPVPSKTPFSVSDADSYNKKGTVTVYDSQGNAHDMNVY  199
+
+Query  550  FVKQSTTQDGGNEWQMIIRVPEPAEINTTGEGPNNIIVGTARFNNDGSLASYTPRTINFS  609
+            FVK        NEW +                       T +FN +G L S     I   
+Sbjct  200  FVKTK-----DNEWAVYTHDSS-----DPAATAPTTASTTLKFNENGILESGGTVNITTG  249
+
+Query  610  PNNGAAPNQQIKLSFGTSGSNDGLVSSNSASTLTGQATDGYTSGNLKPDAIRVDDKGNIL  669
+              NGA       LSF  S     +  +  A+ +     +GY  G+L   + ++++ G ++
+Sbjct  250  TINGATA-ATFSLSFLNS-----MQQNTGANNIVATNQNGYKPGDLV--SYQINNDGTVV  301
+
+Query  670  GEFTNGKTFAVAKIAMASVANNSGLEEIGGNLFKVTANSGNIVVGEAGTGGRGEM  724
+            G ++N +   + +I +A+ ANN GL   G N++  T  SG  ++G AG+G  G++
+Sbjct  302  GNYSNEQEQVLGQIVLANFANNEGLASQGDNVWAATQASGVALLGTAGSGNFGKL  356
+
+
+> sp|P50610|FLGE_HELPY Flagellar hook protein FlgE OS=Helicobacter 
+pylori (strain ATCC 700392 / 26695) OX=85962 GN=flgE PE=1 
+SV=2
+Length=718
+
+ Score = 244 bits (622),  Expect = 2e-69, Method: Composition-based stats.
+ Identities = 117/357 (33%), Positives = 183/357 (51%), Gaps = 42/357 (12%)
+
+Query  384  TEPGSAAYWDAVNGGL--------------LNTNVRTFRTTEDLRELLQRDARYGVDYDG  429
+            T+ G+ A+ + ++G                 N ++  FRTTEDLR L+Q DA    D   
+Sbjct  340  TQAGTGAFANFLDGDKDVTAFKYSYTHSISPNADIGQFRTTEDLRALIQHDANIVKDPSL  399
+
+Query  430  SGTFAAADINQNIKVVVTADGHFAISNANEQSTVPPNAINGVGNATTTDPKNMSFNITAY  489
+            +  +   D   +I V V   G F I+N + ++ +                +N++  ++ Y
+Sbjct  400  ADNYQ--DSAASIGVSVNQYGMFEINNKDNKNVIK---------------ENLNIFVSGY  442
+
+Query  490  SNKQGTVSTNDAFTAIFKAFD-GPLVIGNQIKESEQLKLSAFSAGLEIYDSLGSKHTLEV  548
+            S+   +V+ N  F    K  +   L+ G     S +   +  +  +++ DSLG+KH + +
+Sbjct  443  SSD--SVTNNVLFKNAMKGLNTASLIEGGASASSSKFTHATHATSIDVIDSLGTKHAMRI  500
+
+Query  549  QFVKQSTTQDGGNEWQMIIRVPEPAE-INTTGEGPNNIIVGTARFNNDGSLASYTPRTIN  607
+            +F +      GG EW   + VPEP E +  +   PN    G   FNNDGSLA   P  + 
+Sbjct  501  EFYRS-----GGAEWNFRVIVPEPGELVGGSAARPNVFEGGRLHFNNDGSLAGMNPPLLQ  555
+
+Query  608  FSPNNGAAPNQQIKLSFGTSGSNDGLVSSNSASTLTGQATDGYTSGNLKPDAIRVDDKGN  667
+            F P NGA   Q+I L+FG+SGS DGL S +  S       +GY +G+L    +R D  G 
+Sbjct  556  FDPKNGADAPQRINLAFGSSGSFDGLTSVDKISETYAIEQNGYQAGDLMD--VRFDSDGV  613
+
+Query  668  ILGEFTNGKTFAVAKIAMASVANNSGLEEIGGNLFKVTANSGNIVVGEAGTGGRGEM  724
+            +LG F+NG+T A+A++A+A+ AN++GL+ +GGN+F  T NSG  ++G A TG RG +
+Sbjct  614  LLGAFSNGRTLALAQVALANFANDAGLQALGGNVFSQTGNSGQALIGAANTGRRGSI  670
+
+
+ Score = 219 bits (556),  Expect = 3e-60, Method: Composition-based stats.
+ Identities = 90/287 (31%), Positives = 133/287 (46%), Gaps = 47/287 (16%)
+
+Query  1    VAINGDGFFMVSDDGGLTNYLTRSGDFKLDAYGNFVNNAGFVVQGWNINWDDQ-------  53
+            +AI GDGFF++S D G+T   TR G+F  D+ G+ V   G VVQGW  N  D        
+Sbjct  95   LAIQGDGFFIISPDRGITRNFTRDGEFLFDSQGSLVTTGGLVVQGWVRNGSDTGNKGSDT  154
+
+Query  54   ---TIDSSRTPQNIFIDPGMHIPAAKSTEVAIKANLNSGLNIGTSSRNLYALDSVHGWNT  110
+                +D++   +NI IDPGM +PA  S  ++++ANLN+G +   ++  ++ALDS      
+Sbjct  155  DALKVDNTGPLENIRIDPGMVMPARASNRISMRANLNAGRHADQTAA-IFALDS------  207
+
+Query  111  KTQRAEDENDTGTTQFYTTSKNSVEVTEKGVDAGSLFNAKGQGLNLRDGQGIWVSYADAT  170
+                A+  +D G    Y +  N  +V E   D GSL N  G  L L + QGIWVSY  A 
+Sbjct  208  ---SAKTPSD-GINPVYDSGTNLAQVAE---DMGSLCNEDGDALLLNENQGIWVSYKSAK  260
+
+Query  171  YSTNKVGVNAFDPNLQQNQTAAFWGTANQKVNLDITLNGVRIQNADIQSIDDAIAYINTF  230
+                   V    P+ +               N  + LNGV+I   +  ++    + +   
+Sbjct  261  M------VKDILPSAE---------------NSTLELNGVKISFTNDSAVSRTSSLVAAK  299
+
+Query  231  TAPTDTRDGTGVKAVKNKDGSGIDFVNDNADGTTDNMKNINLVVANT  277
+             A    +  TG++A    DG  +   N N     + +KNI +  A T
+Sbjct  300  NAINAVKSQTGIEAY--LDGKQLRLENTNELDGDEKLKNIVVTQAGT  344
+
+
+ Score = 51.9 bits (122),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 14/115 (12%), Positives = 29/115 (25%), Gaps = 0/115 (0%)
+
+Query  177  GVNAFDPNLQQNQTAAFWGTANQKVNLDITLNGVRIQNADIQSIDDAIAYINTFTAPTDT  236
+            G+ + D   +          A   +++    +GV +                   A    
+Sbjct  580  GLTSVDKISETYAIEQNGYQAGDLMDVRFDSDGVLLGAFSNGRTLALAQVALANFANDAG  639
+
+Query  237  RDGTGVKAVKNKDGSGIDFVNDNADGTTDNMKNINLVVANTNTAGELWNAVWNNN  291
+                G         SG   +     G   ++    L  +N + +  L N +    
+Sbjct  640  LQALGGNVFSQTGNSGQALIGAANTGRRGSISGSKLESSNVDLSRSLTNLIVVQR  694
+
+
+> sp|Q9ZKY0|FLGE_HELPJ Flagellar hook protein FlgE OS=Helicobacter 
+pylori (strain J99 / ATCC 700824) OX=85963 GN=flgE PE=3 
+SV=1
+Length=718
+
+ Score = 244 bits (622),  Expect = 3e-69, Method: Composition-based stats.
+ Identities = 116/357 (32%), Positives = 183/357 (51%), Gaps = 42/357 (12%)
+
+Query  384  TEPGSAAYWDAVNGGL--------------LNTNVRTFRTTEDLRELLQRDARYGVDYDG  429
+            T+ G+ A+ + ++G                 N ++  FRTTEDLR L+Q DA    D   
+Sbjct  340  TQAGTGAFANFLDGDKDVTAFKYSYTHSISPNADIGQFRTTEDLRALIQHDANIVKDPSL  399
+
+Query  430  SGTFAAADINQNIKVVVTADGHFAISNANEQSTVPPNAINGVGNATTTDPKNMSFNITAY  489
+            +  +   D   +I V +   G F I+N + ++ +                +N++  ++ Y
+Sbjct  400  ADNYQ--DSAASIGVTINQYGMFEINNKDNKNVIK---------------ENLNIFVSGY  442
+
+Query  490  SNKQGTVSTNDAFTAIFKAFD-GPLVIGNQIKESEQLKLSAFSAGLEIYDSLGSKHTLEV  548
+            S+   +V+ N  F    K  +   L+ G     S +   +  +  +++ DSLG+KH + +
+Sbjct  443  SSD--SVTNNVLFKNAMKGLNTASLIEGGASASSSKFTHATHATSIDVIDSLGTKHAMRI  500
+
+Query  549  QFVKQSTTQDGGNEWQMIIRVPEPAE-INTTGEGPNNIIVGTARFNNDGSLASYTPRTIN  607
+            +F +      GG EW   + VPEP E +  +   PN    G   FNNDGSLA   P  + 
+Sbjct  501  EFYRS-----GGAEWNFRVIVPEPGELVGGSAARPNVFEGGRLHFNNDGSLAGMNPPLLQ  555
+
+Query  608  FSPNNGAAPNQQIKLSFGTSGSNDGLVSSNSASTLTGQATDGYTSGNLKPDAIRVDDKGN  667
+            F P NGA   Q+I L+FG+SGS DGL S +  S       +GY +G+L    +R D  G 
+Sbjct  556  FDPKNGADAPQRINLAFGSSGSFDGLTSVDKISETYAIEQNGYQAGDLMD--VRFDSDGV  613
+
+Query  668  ILGEFTNGKTFAVAKIAMASVANNSGLEEIGGNLFKVTANSGNIVVGEAGTGGRGEM  724
+            +LG F+NG+T A+A++A+A+ AN++GL+ +GGN+F  T NSG  ++G A TG RG +
+Sbjct  614  LLGAFSNGRTLALAQVALANFANDAGLQALGGNVFSQTGNSGQALIGAANTGRRGSI  670
+
+
+ Score = 220 bits (561),  Expect = 8e-61, Method: Composition-based stats.
+ Identities = 90/287 (31%), Positives = 134/287 (47%), Gaps = 47/287 (16%)
+
+Query  1    VAINGDGFFMVSDDGGLTNYLTRSGDFKLDAYGNFVNNAGFVVQGWNINWDDQ-------  53
+            +AI GDGFF++S D G+T   TR G+F  D+ G+ V   G VVQGW  N  D        
+Sbjct  95   LAIQGDGFFIISPDRGITRNFTRDGEFLFDSQGSLVTTGGLVVQGWVRNGSDTGNKGSDT  154
+
+Query  54   ---TIDSSRTPQNIFIDPGMHIPAAKSTEVAIKANLNSGLNIGTSSRNLYALDSVHGWNT  110
+                +D++   +NI IDPGM +PA  S  ++++ANLN+G +   ++  ++ALDS      
+Sbjct  155  DALKVDNTGPLENIRIDPGMVMPARASNRISMRANLNAGRHADQTAA-VFALDS------  207
+
+Query  111  KTQRAEDENDTGTTQFYTTSKNSVEVTEKGVDAGSLFNAKGQGLNLRDGQGIWVSYADAT  170
+                A+  +D G    Y +  N  +V E   D GSL+N  G  L L + QGIWVSY  A 
+Sbjct  208  ---SAKTPSD-GINPVYDSGTNLAQVAE---DMGSLYNEDGDALLLNENQGIWVSYKSAK  260
+
+Query  171  YSTNKVGVNAFDPNLQQNQTAAFWGTANQKVNLDITLNGVRIQNADIQSIDDAIAYINTF  230
+                   V    P+ +               N  + LNGV+I   +  ++    + +   
+Sbjct  261  M------VKDILPSAE---------------NSTLELNGVKISFTNDSAVSRTSSLVAAK  299
+
+Query  231  TAPTDTRDGTGVKAVKNKDGSGIDFVNDNADGTTDNMKNINLVVANT  277
+             A    +  TG++A    DG  +   N N     + +KNI +  A T
+Sbjct  300  NAINAVKSQTGIEAY--LDGKQLRLENTNELDGDEKLKNIVVTQAGT  344
+
+
+ Score = 51.5 bits (121),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 14/115 (12%), Positives = 29/115 (25%), Gaps = 0/115 (0%)
+
+Query  177  GVNAFDPNLQQNQTAAFWGTANQKVNLDITLNGVRIQNADIQSIDDAIAYINTFTAPTDT  236
+            G+ + D   +          A   +++    +GV +                   A    
+Sbjct  580  GLTSVDKISETYAIEQNGYQAGDLMDVRFDSDGVLLGAFSNGRTLALAQVALANFANDAG  639
+
+Query  237  RDGTGVKAVKNKDGSGIDFVNDNADGTTDNMKNINLVVANTNTAGELWNAVWNNN  291
+                G         SG   +     G   ++    L  +N + +  L N +    
+Sbjct  640  LQALGGNVFSQTGNSGQALIGAANTGRRGSISGSKLESSNVDLSRSLTNLIVVQR  694
+
+
+> sp|P50611|FLGE_HELMU Flagellar hook protein FlgE (Fragment) OS=Helicobacter 
+mustelae OX=217 GN=flgE PE=1 SV=2
+Length=454
+
+ Score = 220 bits (560),  Expect = 5e-63, Method: Composition-based stats.
+ Identities = 85/287 (30%), Positives = 126/287 (44%), Gaps = 47/287 (16%)
+
+Query  1    VAINGDGFFMVSDDGGLTNYLTRSGDFKLDAYGNFVNNAGFVVQGWN----------INW  50
+            +AI GDGFF++S D G T   TR G+F  DA GN V N G+VVQGW              
+Sbjct  95   LAIEGDGFFIISPDRGKTQNFTRDGEFLFDANGNLVTNGGYVVQGWMKDDLRNAEKISED  154
+
+Query  51   DDQTIDSSRTPQNIFIDPGMHIPAAKSTEVAIKANLNSGLNIGTSSRNLYALDSVHGWNT  110
+            D   +D+++  QNI IDP M +PA  S+ ++++ANLN+G       R++  + +V G  +
+Sbjct  155  DFFRVDTTKPIQNIQIDPAMMMPARASSNISLRANLNAG-------RHVDQVANVFGLGS  207
+
+Query  111  KTQRAEDENDTGTTQFYTTSKNSVEVTEKGVDAGSLFNAKGQGLNLRDGQGIWVSYADAT  170
+             T+   D    G    Y +  N   +T+K  D G+LF   G  + L + QGIWVSY  + 
+Sbjct  208  TTKTPVD----GINPIYDSHDN---LTQKAEDFGALFTQSGDAIGLTENQGIWVSYKTSE  260
+
+Query  171  YSTNKVGVNAFDPNLQQNQTAAFWGTANQKVNLDITLNGVRIQNADIQSIDDAIAYINTF  230
+                   VN  +    +                 I +N  RI   +  +     + +   
+Sbjct  261  M------VNDIEATSGE---------------SSIEINHTRISFTNDSAASGISSVVAAQ  299
+
+Query  231  TAPTDTRDGTGVKAVKNKDGSGIDFVNDNADGTTDNMKNINLVVANT  277
+             A    +  TGV+A    D   +   N N       +KNI +    T
+Sbjct  300  NAINALKQKTGVEAF--VDNGMLRLQNKNNMDGDAEVKNIRITADGT  344
+
+
+ Score = 59.6 bits (142),  Expect = 5e-08, Method: Composition-based stats.
+ Identities = 67/394 (17%), Positives = 125/394 (32%), Gaps = 29/394 (7%)
+
+Query  109  NTKTQRAEDENDTGTTQFYTTSKNSVEVTEKGVDAGSLFNAKGQGLNLRDGQGIWVSYAD  168
+            N+ T+     +   T      +           D G   N    G  L D  G  V+   
+Sbjct  75   NSTTKVFSQGSTQNTDVKTDLAIEGDGFFIISPDRGKTQNFTRDGEFLFDANGNLVTNGG  134
+
+Query  169  ATYSTNKVGVNAFDPNLQQNQTAAFWGTANQKVNLDITLNGVRIQNADIQSIDDAIAYIN  228
+                     +     N ++     F+     K   +I ++   +  A   S     A +N
+Sbjct  135  YVVQGW---MKDDLRNAEKISEDDFFRVDTTKPIQNIQIDPAMMMPARASSNISLRANLN  191
+
+Query  229  TFTAPTDTRDGTGVKAVKNKDGSGIDFVNDNADGTTDNMKN-INLVVANTNTAGELWNAV  287
+                     +  G+ +       GI+ + D+ D  T   ++   L   + +  G   N  
+Sbjct  192  AGRHVDQVANVFGLGSTTKTPVDGINPIYDSHDNLTQKAEDFGALFTQSGDAIGLTENQG  251
+
+Query  288  WNNNNQTFTFNNNGNGQAGTPTINKNGSSLW-----TATNITFTPQPPQAATNVQLTGGL  342
+               + +T    N+    +G  +I  N + +       A+ I+       A   ++   G+
+Sbjct  252  IWVSYKTSEMVNDIEATSGESSIEINHTRISFTNDSAASGISSVVAAQNAINALKQKTGV  311
+
+Query  343  NAQIITAHKYIYSSNPVDIGPMYNPDGGPAFQPGANAT-TRPTEPGSAAYWDAVNGGLLN  401
+             A +      + + N +D           A   GA A         +A  +        +
+Sbjct  312  EAFVDNGMLRLQNKNNMDGDAEVKNIRITADGTGAFANFIEGDSDITAFRYRYTTSASPD  371
+
+Query  402  TNVRTFRTTEDLRELLQRDARYGVDYDGSGTFAAADINQNIKVVVTADGHFAISNANEQS  461
+            +    FRTTEDLR L+Q DA    D   + T    D   ++ V     G   I N +   
+Sbjct  372  SGTGQFRTTEDLRALIQYDANLIKDPSQAYT----DSTASVSVKFNKYGMLEIQNKDNGD  427
+
+Query  462  TVPPNAINGVGNATTTDPKNMSFNITAYSNKQGT  495
+             +                ++++  ++ YS++  T
+Sbjct  428  ELK---------------QDLNIFVSGYSSENST  446
+
+
+> sp|P75937|FLGE_ECOLI Flagellar hook protein FlgE OS=Escherichia 
+coli (strain K12) OX=83333 GN=flgE PE=3 SV=3
+Length=402
+
+ Score = 216 bits (550),  Expect = 4e-62, Method: Composition-based stats.
+ Identities = 80/356 (22%), Positives = 141/356 (40%), Gaps = 33/356 (9%)
+
+Query  377  ANATTRPTEPGSAAYWDAVNGGLLNTNVRTFRTTEDLRELLQRDARYGVDYDGSGTFAAA  436
+            AN+ T   + G+A++ D   G  +   V+    T+D  +    +   G+D   S      
+Sbjct  25   ANSATYGFKSGTASFADMFAGSKVGLGVKVAGITQDFTDGTTTNTGRGLDVAISQNGFFR  84
+
+Query  437  DINQNIKVVVTADGHFAISNANEQSTVPPNAINGVGNATTTDPKNM-------SFNITAY  489
+             ++ N  V  + +G F +     ++ V    +   G   T  P  +       + +I   
+Sbjct  85   LVDSNGSVFYSRNGQFKLD--ENRNLVNMQGLQLTGYPATGTPPTIQQGANPTNISIPNT  142
+
+Query  490  SNKQGTVSTNDAFTAIFKAFDGPLVIGNQIKESEQLKLSAFSAGLEIYDSLGSKHTLEVQ  549
+                 T +T      +  +   P V       ++          + ++DS G+ H + V 
+Sbjct  143  LMAAKTTTTASMQINLNSSDPLPTVTPFSASNADSYNKKG---SVTVFDSQGNAHDMSVY  199
+
+Query  550  FVKQSTTQDGGNEWQMIIRVPEPAEINTTGEGPNNIIVGTARFNNDGSLASYT-PRTINF  608
+            FVK      G N WQ+  +                    T  FN +G+L        I  
+Sbjct  200  FVKT-----GDNNWQVYTQDSSDPN-------SIAKTATTLEFNANGTLVDGAMANNIAT  247
+
+Query  609  SPNNGAAPNQQIKLSFGTSGSNDGLVSSNSASTLTGQATDGYTSGNLKPDAIRVDDKGNI  668
+               NGA P     LSF  S     +  +  A+ +     +GY  G+L   + +++D G +
+Sbjct  248  GAINGAEP-ATFSLSFLNS-----MQQNTGANNIVATTQNGYKPGDLV--SYQINDDGTV  299
+
+Query  669  LGEFTNGKTFAVAKIAMASVANNSGLEEIGGNLFKVTANSGNIVVGEAGTGGRGEM  724
+            +G ++N +T  + +I +A+ ANN GL   G N++  T +SG  ++G AGTG  G +
+Sbjct  300  VGNYSNEQTQLLGQIVLANFANNEGLASEGDNVWSATQSSGVALLGTAGTGNFGTL  355
+
+
+ Score = 203 bits (515),  Expect = 3e-57, Method: Composition-based stats.
+ Identities = 67/310 (22%), Positives = 112/310 (36%), Gaps = 22/310 (7%)
+
+Query  1    VAINGDGFFMVSDDGGLTNYLTRSGDFKLDAYGNFVNNAGFVVQGWNINWDDQTIDSSRT  60
+            VAI+ +GFF + D  G   + +R+G FKLD   N VN  G  + G+       TI     
+Sbjct  75   VAISQNGFFRLVDSNGSV-FYSRNGQFKLDENRNLVNMQGLQLTGYPATGTPPTIQQGAN  133
+
+Query  61   PQNIFIDPGMHIPAAKSTEVAIKANLNSGLNIGTSSR-NLYALDSVHGWNTKTQRAEDEN  119
+            P NI I P   + A  +T  +++ NLNS   + T +  +    DS +   + T      N
+Sbjct  134  PTNISI-PNTLMAAKTTTTASMQINLNSSDPLPTVTPFSASNADSYNKKGSVTVFDSQGN  192
+
+Query  120  DTGTTQFYTTSKNS--VEVTEKGVDAGSLFNAKGQGLNLRDGQGIWVSYADAT-YSTNKV  176
+                + ++  + ++     T+   D  S+           +  G  V  A A   +T  +
+Sbjct  193  AHDMSVYFVKTGDNNWQVYTQDSSDPNSIAKTA--TTLEFNANGTLVDGAMANNIATGAI  250
+
+Query  177  GVN-------AFDPNLQQNQTAAFWGTANQK-------VNLDITLNGVRIQNADIQSIDD  222
+                      +F  ++QQN  A       Q        V+  I  +G  + N   +    
+Sbjct  251  NGAEPATFSLSFLNSMQQNTGANNIVATTQNGYKPGDLVSYQINDDGTVVGNYSNEQTQL  310
+
+Query  223  AIAYINTFTAPTDTRDGTGVKAVKNKDGSGIDFVNDNADGTTDNMKNINLVVANTNTAGE  282
+                +    A  +     G         SG+  +     G    + N  L  +N + + E
+Sbjct  311  LGQIVLANFANNEGLASEGDNVWSATQSSGVALLGTAGTGNFGTLTNGALEASNVDLSKE  370
+
+Query  283  LWNAVWNNNN  292
+            L N +    N
+Sbjct  371  LVNMIVAQRN  380
+
+
+> sp|P35806|FLGE_CAUVC Flagellar hook protein FlgE OS=Caulobacter 
+vibrioides (strain ATCC 19089 / CB15) OX=190650 GN=flgE PE=1 
+SV=2
+Length=591
+
+ Score = 208 bits (528),  Expect = 4e-57, Method: Composition-based stats.
+ Identities = 86/384 (22%), Positives = 146/384 (38%), Gaps = 47/384 (12%)
+
+Query  376  GANATTRPTEPGSAA--YWDAVNGGLLNTNVRTFRTTEDLRELLQRDARYGVDYDGSGTF  433
+            G NA  R  +P +AA  Y     G    TNV    T     +++           G+  +
+Sbjct  172  GVNANLRSEQPVAAAVSYKVGTAGSPSKTNVVDSATNSHNYDVVYSSTGIANPVSGNNEY  231
+
+Query  434  AAADINQNIKVVVTADGHFAISNANEQSTVPPNAINGVGNATTTDPKNMSFNITAYSNKQ  493
+                    + V      + A +N    ST+     + V  + TT   N +   T      
+Sbjct  232  LVDIKENGVIVATGKVAYDAATNELVSSTIDYKGASPVTGSMTTTRINAA-GTTVNLADL  290
+
+Query  494  GTVS---TNDAFTAIFKAFDGPL-VIGNQIKESEQLKLSAFSAGLEIYDSLGSKHTLEVQ  549
+            G V+    +DA     K +D     + +  K++ +     F   + + DS G + T+ + 
+Sbjct  291  GIVNASGADDAEVVAGKLYDPSTWSMSDYAKDNSKGVKPDFEVQIPLSDSKGGQRTVTLS  350
+
+Query  550  FVKQSTTQDGGNEWQMIIRVPEPAEINTTGEGPNNIIVGTARFNNDGSL-------ASYT  602
+             +K      G N+W   +R  +P ++   G     I  G   F  DG L        + +
+Sbjct  351  MLKGP----GPNQWYAELRA-KPGDLANNG--NGQISTGIIEFTTDGKLKNTGSLFGTTS  403
+
+Query  603  PRTINFSPNNGAAP----------------------NQQIKLSFGTSGSNDGLVSSNSAS  640
+            P  I    +   AP                       Q++++   ++    GL   NS S
+Sbjct  404  PTAITIKSSGYIAPTVTPPAVQPPTPPTWADALGIDEQEVQIDLASAAG--GLTQYNSQS  461
+
+Query  641  TLTGQATDGYTSGNLKPDAIRVDDKGNILGEFTNGKTFAVAKIAMASVANNSGLEEIGGN  700
+             +    T+G   GNL    I +D+ G +   F NG T  +A++A+A+ +N +GL+ + GN
+Sbjct  462  VVQSVNTNGTAFGNLT--NIEIDEGGYVSAIFDNGVTRRIAQVAIATFSNPNGLKGVNGN  519
+
+Query  701  LFKVTANSGNIVVGEAGTGGRGEM  724
+             ++VT  SG   +     GG G +
+Sbjct  520  AYRVTNESGTYSLKAPSQGGAGAL  543
+
+
+ Score = 53.8 bits (127),  Expect = 4e-06, Method: Composition-based stats.
+ Identities = 32/139 (23%), Positives = 56/139 (40%), Gaps = 12/139 (9%)
+
+Query  1    VAINGDGFFMVSD-----DGGLTNYLTRSGDFKLDAYGNFVNNAGFVVQGWNINWDDQTI  55
+            ++I+G GFF+ ++         T   TR+G F+LD  G   N+AG  +QGW  +     I
+Sbjct  84   ISISGAGFFVTTEKPENLTATDTRSFTRAGSFQLDNLGYLRNDAGLYLQGWLADPVSGLI  143
+
+Query  56   D----SSRTPQNIFIDPGMHIPAAKSTEVAIKANLNSGLNIGTSSRNLYALDSVHGWNTK  111
+                       +I +   +   A K+T V + ANL S   +  +    Y + +    +  
+Sbjct  144  TPDPSDLMQLASINV-GSVGGTAEKTTRVGVNANLRSEQPVAAAVS--YKVGTAGSPSKT  200
+
+Query  112  TQRAEDENDTGTTQFYTTS  130
+                   N       Y+++
+Sbjct  201  NVVDSATNSHNYDVVYSST  219
+
+
+> sp|P57422|FLGE_BUCAI Flagellar hook protein FlgE OS=Buchnera 
+aphidicola subsp. Acyrthosiphon pisum (strain APS) OX=107806 
+GN=flgE PE=3 SV=1
+Length=405
+
+ Score = 202 bits (513),  Expect = 8e-57, Method: Composition-based stats.
+ Identities = 69/347 (20%), Positives = 120/347 (35%), Gaps = 30/347 (9%)
+
+Query  377  ANATTRPTEPGSAAYWDAVNGG-----LLNTNVRTFRTTEDLRELLQRDARYGVDYDGSG  431
+            ANA+T   +     ++D  +            V      ++    +  +    +D     
+Sbjct  22   ANASTIGYKSRKPLFFDMFSHSFYSNTTNGYGVGISSIIQNFNNGMLVETGRDLDLGIIK  81
+
+Query  432  TFAAADINQNIKVVVTADGHFAISNANEQSTVPPNAINGVGNATTTDPKNMSFNITAYSN  491
+                  ++    V  T DG F +        +    + G+  + +    N   N+   + 
+Sbjct  82   DGFFRLVDSQGHVYYTRDGQFFLDKDQNIINIQGMYLTGLNTSCSKSDFNNRSNLEPINL  141
+
+Query  492  KQGTVSTNDAFTAIF-KAFDGPLVIGNQIKESEQLKLS---AFSAGLEIYDSLGSKHTLE  547
+            K   +  N   + I  KAF           ++   KLS    +   + IY+  G K  + 
+Sbjct  142  KNSNILKNKPTSEIMLKAFLNRNTESKSSVDNSDNKLSKPEDYMTYISIYNKEGKKEDIT  201
+
+Query  548  VQFVKQSTTQDGGNEWQMIIRVPEPAEINTTGEGPNNIIVGTARFNNDGSLASYTPRTIN  607
+            V F K+ T     N+W + +      E N + +           FN+DG L S      N
+Sbjct  202  VSFNKKET-----NKWTVNV------ESNDSDDKETIKNSFDLTFNDDGELTS--DNVFN  248
+
+Query  608  FSPNNGAAPNQQIKLSFGTSGSNDGLVSSNSASTLTGQATDGYTSGNLKPDAIRVDDKGN  667
+             +  +       I L+         +  SNS  +    + +GY  GNLK     +   G 
+Sbjct  249  ITSKDSKKYEN-ITLNL-----TGTIEQSNSDVSWEEHSQNGYPQGNLK--TFDIVTNGE  300
+
+Query  668  ILGEFTNGKTFAVAKIAMASVANNSGLEEIGGNLFKVTANSGNIVVG  714
+            I+G + N K   + +I ++   N   L+   GNL+  TA SG     
+Sbjct  301  IIGTYCNQKQQTIGQILLSKFINPEKLQPESGNLWSATAESGEAKTA  347
+
+
+ Score = 140 bits (351),  Expect = 1e-34, Method: Composition-based stats.
+ Identities = 55/311 (18%), Positives = 94/311 (30%), Gaps = 23/311 (7%)
+
+Query  1    VAINGDGFFMVSDDGGLTNYLTRSGDFKLDAYGNFVNNAGFVVQGWNINWDDQTIDSSRT  60
+            + I  DGFF + D  G   Y TR G F LD   N +N  G  + G N +      ++   
+Sbjct  77   LGIIKDGFFRLVDSQGHV-YYTRDGQFFLDKDQNIINIQGMYLTGLNTSCSKSDFNNRSN  135
+
+Query  61   PQNIFIDPGMHIPAAKSTEVAIKANLNSGLNIGTSSRNLYALDS-----------VHGWN  109
+             + I +     +    ++E+ +KA LN      +S  N     S            +   
+Sbjct  136  LEPINLKNSNILKNKPTSEIMLKAFLNRNTESKSSVDNSDNKLSKPEDYMTYISIYNKEG  195
+
+Query  110  TKTQRAEDENDTGTTQFYTTSKNSVEVTEKGVDAGSLFNAKGQGLNLRDGQGIWVSYADA  169
+             K       N   T ++    +++ +  +K     S          L       ++  D+
+Sbjct  196  KKEDITVSFNKKETNKWTVNVESN-DSDDKETIKNSFDLTFNDDGELTSDNVFNITSKDS  254
+
+Query  170  TYSTNKVGVNAFDPNLQQNQTAAFWGTANQK-------VNLDITLNGVRIQNADIQSIDD  222
+                N          ++Q+ +   W   +Q           DI  NG  I     Q    
+Sbjct  255  KKYENITL--NLTGTIEQSNSDVSWEEHSQNGYPQGNLKTFDIVTNGEIIGTYCNQKQQT  312
+
+Query  223  AIAYINTFTAPTDTRDGTGVKAVKNKDGSG-IDFVNDNADGTTDNMKNINLVVANTNTAG  281
+                + +     +               SG            +  + N  L V+N +   
+Sbjct  313  IGQILLSKFINPEKLQPESGNLWSATAESGEAKTAMKAGIQESGVLSNKTLEVSNVDLNK  372
+
+Query  282  ELWNAVWNNNN  292
+            EL N +    N
+Sbjct  373  ELINMIIAQRN  383
+
+
+> sp|Q8K9K6|FLGE_BUCAP Flagellar hook protein FlgE OS=Buchnera 
+aphidicola subsp. Schizaphis graminum (strain Sg) OX=198804 
+GN=flgE PE=3 SV=1
+Length=409
+
+ Score = 190 bits (483),  Expect = 1e-52, Method: Composition-based stats.
+ Identities = 69/360 (19%), Positives = 135/360 (38%), Gaps = 30/360 (8%)
+
+Query  377  ANATTRPTEPGSAAYWDAVNGG-----LLNTNVRTFRTTEDLRELLQRDARYGVDYDGSG  431
+            ANA+T   +  + +++D V+       ++ + V      ++  + +       +D     
+Sbjct  25   ANASTIGFKSSTPSFFDIVSHSFYSNQIIKSGVGISNLVQNFSDGVLVQTNRDLDLGIVQ  84
+
+Query  432  TFAAADINQNIKVVVTADGHFAISNANEQSTVPPNAINGVGNATTTDPKNMSFNITAYSN  491
+                  ++    V  T +GHF +             + G       +  N   N+   + 
+Sbjct  85   DGFFRVLDSKGYVYYTRNGHFLLDKNKNIVNGQGMYLTGQNQFDLKNNLNSISNLEPINL  144
+
+Query  492  KQGTVSTNDAFTAIFKAFDGPLVIGNQIKESEQLKLSAFSA----GLEIYDSLGSKHTLE  547
+            ++  + +  A + I    D  L+       S   K    S      + IYD   + H L 
+Sbjct  145  RKSDLLSAKATSQIKLKAD--LINDFSSTNSITGKNDDISNSEIHDITIYDKNENPHKLN  202
+
+Query  548  VQFVKQSTTQDGGNEWQMIIRVPEPAEINTTGEGPNNIIVGTARFNNDGSLASYTPRTIN  607
+            + F      Q   ++W++ I++ +  +I       +N I    +F+++G+L S +   I 
+Sbjct  203  ISF-----NQIDDHQWKLNIQLNDE-KIPDNEIINDNFI---LKFDSEGNLISNSSLQIK  253
+
+Query  608  FS-PNNGAAPNQQIKLSFGTSGSNDGLVSSNSASTLTGQATDGYTSGNLKPDAIRVDDKG  666
+                 N       + L      S   + S          + +GYT G LK     + + G
+Sbjct  254  SKNSKNIILDPITLNLECFLEKSETNMPSIE-------LSQNGYTKGFLK--HFEILNNG  304
+
+Query  667  NILGEFTNGKTFAVAKIAMASVANNSGLEEIGGNLFKVTANSGNIVVGEAGTGGRGEMKT  726
+             I+G++TN +   + +I +A   N   L+   G+++  T  SG   +G AG  G G + T
+Sbjct  305  EIIGQYTNEEEQKIGQIFLAKFINPEKLKPESGSIWSATHESGQEKIGAAGDQGFGSLYT  364
+
+
+ Score = 146 bits (368),  Expect = 8e-37, Method: Composition-based stats.
+ Identities = 52/311 (17%), Positives = 102/311 (33%), Gaps = 22/311 (7%)
+
+Query  1    VAINGDGFFMVSDDGGLTNYLTRSGDFKLDAYGNFVNNAGFVVQGWNINWDDQTIDSSRT  60
+            + I  DGFF V D  G   Y TR+G F LD   N VN  G  + G N       ++S   
+Sbjct  80   LGIVQDGFFRVLDSKGYV-YYTRNGHFLLDKNKNIVNGQGMYLTGQNQFDLKNNLNSISN  138
+
+Query  61   PQNIFIDPGMHIPAAKSTEVAIKANLNSGLNIGTSSRNLYALDSVHGWNTKTQRAEDEND  120
+             + I +     + A  ++++ +KA+L +  +   S        S    +  T   ++EN 
+Sbjct  139  LEPINLRKSDLLSAKATSQIKLKADLINDFSSTNSITGKNDDISNSEIHDITIYDKNENP  198
+
+Query  121  TGTTQFYTTSKN-----SVEVTEKGVDAGSLFNAKGQGLNLRDGQGIWVSYADATYSTN-  174
+                  +    +     ++++ ++ +    + N     +   D +G  +S +     +  
+Sbjct  199  HKLNISFNQIDDHQWKLNIQLNDEKIPDNEIIND--NFILKFDSEGNLISNSSLQIKSKN  256
+
+Query  175  ---------KVGVNAFDPNLQQN----QTAAFWGTANQKVNLDITLNGVRIQNADIQSID  221
+                      + +  F    + N    + +    T     + +I  NG  I     +   
+Sbjct  257  SKNIILDPITLNLECFLEKSETNMPSIELSQNGYTKGFLKHFEILNNGEIIGQYTNEEEQ  316
+
+Query  222  DAIAYINTFTAPTDTRDGTGVKAVKNKDGSGIDFVNDNADGTTDNMKNINLVVANTNTAG  281
+                         +               SG + +    D    ++    L  +N +   
+Sbjct  317  KIGQIFLAKFINPEKLKPESGSIWSATHESGQEKIGAAGDQGFGSLYTKFLESSNVDLNK  376
+
+Query  282  ELWNAVWNNNN  292
+            EL N +    N
+Sbjct  377  ELINMIIAQRN  387
+
+
+> sp|Q9X5Y0|FLGE_RHIME Flagellar hook protein FlgE OS=Rhizobium 
+meliloti (strain 1021) OX=266834 GN=flgE PE=3 SV=2
+Length=406
+
+ Score = 187 bits (473),  Expect = 3e-51, Method: Composition-based stats.
+ Identities = 71/367 (19%), Positives = 120/367 (33%), Gaps = 52/367 (14%)
+
+Query  377  ANATTRPTEPGSAAYWDAVNGGLLNTNVRTFRTTEDLRELLQRDARYGVDYDGSGTFAAA  436
+            ANA T   +  S  +            +            +Q + RY +   G+ TF  +
+Sbjct  29   ANANTTGYKRASTEFSSM---------ILPSGNGSYNSGGVQTEVRYSISQQGATTFTTS  79
+
+Query  437  DINQNIKVVVTADGHFAISNANEQSTVPPNAINGVGNATTTDPKNMSFNITAYSNKQGTV  496
+              +    + +   G F +  AN Q  +          +   D +    N + ++      
+Sbjct  80   ASD----LAIDGGGFFIVEGANGQEYL------TRAGSFVPDSEGNLVNASGFTLMGYEY  129
+
+Query  497  STNDAFTAIFKAFDG---------PLVIGNQIKESEQLKLSAFS-------AGLEIYDSL  540
+                  T +   FDG          L+     K S    L + +         L +YDS 
+Sbjct  130  EAGVDPTVVVNGFDGLTRVNLASDGLIAAGSTKGSMGANLPSGAPVGDVSTTSLVVYDSQ  189
+
+Query  541  GSKHTLEVQFVKQSTTQDGGNEWQMIIRVPEPAEINTTGEGPNNIIVGTARFNNDGSLAS  600
+            G+   L+  + K      G N W + I      +  T       +   T  FN  G L +
+Sbjct  190  GNTRILDFNYEKT-----GANAWTLEIVDRASGDALT-------VPPVTLAFNAAGELTT  237
+
+Query  601  YTPRTINFSPNNGAAPNQQIKLSFGTSG-SNDGLVSSNSASTLTGQATDGYTSGNLKPDA  659
+                 +         P        G+             A    G + DG      K   
+Sbjct  238  SPATVVANGAL--IVPPPATGAVVGSITIDFSKTTQLGYAFNADGGSIDGNAPS--KVAG  293
+
+Query  660  IRVDDKGNILGEFTNGKTFAVAKIAMASVANNSGLEEIGGNLFKVTANSGNIVVGEAGTG  719
+             ++D  G +  ++ NGK     +IA+A+V +   L    GN++    +SG I+ G AG+G
+Sbjct  294  YQIDSDGIVYVKYENGKLDPRYRIALANVQSPDKLRPESGNVYSQGVDSGVIITGFAGSG  353
+
+Query  720  GRGEMKT  726
+              GE+ +
+Sbjct  354  DFGEILS  360
+
+
+ Score = 113 bits (282),  Expect = 1e-25, Method: Composition-based stats.
+ Identities = 62/307 (20%), Positives = 101/307 (33%), Gaps = 17/307 (6%)
+
+Query  1    VAINGDGFFMVSDDGGLTNYLTRSGDFKLDAYGNFVNNAGFVVQGWNINWD--DQTIDSS  58
+            +AI+G GFF+V    G   YLTR+G F  D+ GN VN +GF + G+          + + 
+Sbjct  83   LAIDGGGFFIVEGANG-QEYLTRAGSFVPDSEGNLVNASGFTLMGYEYEAGVDPTVVVNG  141
+
+Query  59   RTPQNIFIDPGMHIPAAKSTEVAIKANLNSGLNI-GTSSRNLYALDSVHGWNTKTQRAED  117
+                         + AA ST+ ++ ANL SG  +   S+ +L   DS            +
+Sbjct  142  FDGLTRVNLASDGLIAAGSTKGSMGANLPSGAPVGDVSTTSLVVYDS---QGNTRILDFN  198
+
+Query  118  ENDTGTTQFYTTSKNSVEVTEKGVDAGSL-FNAKGQGLNLRDG---QGIWVSYADATYST  173
+               TG   +     +        V   +L FNA G+           G  +    AT + 
+Sbjct  199  YEKTGANAWTLEIVDRASGDALTVPPVTLAFNAAGELTTSPATVVANGALIVPPPATGAV  258
+
+Query  174  NKVGVNAFDPNLQ------QNQTAAFWGTANQKVNLDITLNGVRIQNADIQSIDDAIAYI  227
+                   F    Q       +  +      ++     I  +G+     +   +D      
+Sbjct  259  VGSITIDFSKTTQLGYAFNADGGSIDGNAPSKVAGYQIDSDGIVYVKYENGKLDPRYRIA  318
+
+Query  228  NTFTAPTDTRDGTGVKAVKNKDGSGIDFVNDNADGTTDNMKNINLVVANTNTAGELWNAV  287
+                   D               SG+        G    + +  L  +N + A EL   +
+Sbjct  319  LANVQSPDKLRPESGNVYSQGVDSGVIITGFAGSGDFGEILSGALESSNVDIAEELTAMI  378
+
+Query  288  WNNNNQT  294
+             +  N T
+Sbjct  379  ESQRNYT  385
+
+
+> sp|O07884|FLGE_TREPA Flagellar hook protein FlgE OS=Treponema 
+pallidum (strain Nichols) OX=243276 GN=flgE PE=3 SV=1
+Length=463
+
+ Score = 187 bits (474),  Expect = 9e-51, Method: Composition-based stats.
+ Identities = 80/396 (20%), Positives = 128/396 (32%), Gaps = 55/396 (14%)
+
+Query  377  ANATTRPTEPGSAAYWD-----------------AVNGGLLNTNVRTFRTTEDLRELLQR  419
+            AN  T   + G   + D                  VN   +   V          +   +
+Sbjct  27   ANVNTTGFKRGRVNFQDLISQQLSAAARPNEEVGGVNPKEVGLGVLIASIDTVHTQGALQ  86
+
+Query  420  DARYGVDYDGSGTFAAADINQNIKVVVTADGHFAISNANEQSTVPPNAINGVGNATTTDP  479
+                  D    G+          K   T  G F + NA      P N +   G       
+Sbjct  87   TTGINTDVSIQGSGFFVLK-SGEKTFFTRAGAFGVDNAGTLVN-PANGMRVQGWMAQDVA  144
+
+Query  480  KNMSFNITAYSNKQGTVSTNDAFTAIFKA------FDGPLVIGNQIKESEQLKLSAFSAG  533
+                 N +A +                         D  L           ++ S ++  
+Sbjct  145  GERLINSSAQTQDLVIPIGQKIDAQQTSTVHYACNLDKRLPELAADANEADVRKSTWTTD  204
+
+Query  534  LEIYDSLGSKHTLEVQFVKQSTTQDGGNEWQMIIRVPEPAEINTT-----GEGPNNIIVG  588
+             ++YDS G +HTL++ F +   T    N+WQ  + V    E++T      G         
+Sbjct  205  FQVYDSFGQQHTLQINFSRVPGTN---NQWQATVAVDPGTEVDTQTRVGVGTSDGAANTF  261
+
+Query  589  TARFNNDGSLASYTPRTINFSPNNGAA-------------------PNQQIKLSFGTSGS  629
+               F+N G LAS T    N +   G                           L+ G  G+
+Sbjct  262  IVNFDNFGHLASVTDTAGNVTGPTGQVLLEASYDVVGANPDDAGQVTRHAFTLNLGEIGT  321
+
+Query  630  -NDGLVSSNSASTLTGQATDGYTSGNLKPDAIRVDDKGNILGEFTNGKTFAVAKIAMASV  688
+              + +      ST      DGY  G L  +  ++D  G I G ++NG +  + ++A+A  
+Sbjct  322  ARNTITQFAERSTTKAYRQDGYAMGYL--ENFKIDQSGVITGVYSNGVSQDIGQLALAGF  379
+
+Query  689  ANNSGLEEIGGNLFKVTANSGNIVVGEAGTGGRGEM  724
+            AN  GLE+ G N +  + NSG   +  +G  G+G++
+Sbjct  380  ANQGGLEKAGENTYVQSNNSGIANISTSGVMGKGKL  415
+
+
+ Score = 122 bits (305),  Expect = 3e-28, Method: Composition-based stats.
+ Identities = 62/348 (18%), Positives = 103/348 (30%), Gaps = 59/348 (17%)
+
+Query  1    VAINGDGFFMVSDDGGLTNYLTRSGDFKLDAYGNFVNNA-GFVVQGWNINW--DDQTIDS  57
+            V+I G GFF++    G   + TR+G F +D  G  VN A G  VQGW       ++ I+S
+Sbjct  94   VSIQGSGFFVLK--SGEKTFFTRAGAFGVDNAGTLVNPANGMRVQGWMAQDVAGERLINS  151
+
+Query  58   SRTPQNIFIDPGMHIPAAKSTEVAIKANLNSGLN------------IGTSSRNLYALDSV  105
+            S   Q++ I  G  I A +++ V    NL+  L               T + +    DS 
+Sbjct  152  SAQTQDLVIPIGQKIDAQQTSTVHYACNLDKRLPELAADANEADVRKSTWTTDFQVYDSF  211
+
+Query  106  HGW-----------------------------NTKTQRAEDENDTGTTQFYTTSKNSVEV  136
+                                            +T+T+     +D     F     N   +
+Sbjct  212  GQQHTLQINFSRVPGTNNQWQATVAVDPGTEVDTQTRVGVGTSDGAANTFIVNFDNFGHL  271
+
+Query  137  TEKGVDAGSLFNAKGQGLNLRDGQGIWVSYADA-------------TYSTNKVGVNAFDP  183
+                  AG++    GQ L       +  +  DA                T +  +  F  
+Sbjct  272  ASVTDTAGNVTGPTGQVLLEASYDVVGANPDDAGQVTRHAFTLNLGEIGTARNTITQFAE  331
+
+Query  184  NLQQNQTAAFWGTANQKVNLDITLNGVRIQNADIQSIDDAIAYINTFTAPTDTRDGTGVK  243
+                              N  I  +GV           D         A     +  G  
+Sbjct  332  RSTTKAYRQDGYAMGYLENFKIDQSGVITGVYSNGVSQDIGQLALAGFANQGGLEKAGEN  391
+
+Query  244  AVKNKDGSGIDFVNDNADGTTDNMKNINLVVANTNTAGELWNAVWNNN  291
+                 + SGI  ++ +       +    L ++N +   +  + +    
+Sbjct  392  TYVQSNNSGIANISTSGVMGKGKLIAGTLEMSNVDLTDQFTDMIITQK  439
+
+
+> sp|Q56326|FLGE_TREPH Flagellar hook protein FlgE OS=Treponema 
+phagedenis OX=162 GN=flgE PE=3 SV=1
+Length=463
+
+ Score = 185 bits (470),  Expect = 3e-50, Method: Composition-based stats.
+ Identities = 74/397 (19%), Positives = 122/397 (31%), Gaps = 57/397 (14%)
+
+Query  377  ANATTRPTEPGSAAYWD-----------------AVNGGLLNTNVRTFRTTEDLRELLQR  419
+            AN  T   + G   + D                  VN   +   V          +   +
+Sbjct  27   ANVNTTGFKRGRVNFQDLISQQLSGASRPNEEVGGVNPKEVGLGVMVASIDTVHTQGALQ  86
+
+Query  420  DARYGVDYDGSGTFAAADINQNIKVVVTADGHFAISNANEQSTVPPNAINGVGNATTTDP  479
+                  D    G       +       T  G F +      + V P     V      D 
+Sbjct  87   TTGINTDIAIQGNGFFILKDGEKS-FYTTAGAFGVDRD--GTLVNPANGMRVQGWMAEDI  143
+
+Query  480  KNMSF-NITAYSNKQGTVSTNDAFTAIFK------AFDGPLVIGNQIKESEQLKLSAFSA  532
+            +     N +  +                         D  L    +      +  S ++ 
+Sbjct  144  EGQQIINTSDQTEDLIIPIGQKIDAKATTDVAYACNLDKRLPELPEGANQADILRSTWAT  203
+
+Query  533  GLEIYDSLGSKHTLEVQFVKQSTTQDGGNEWQMIIRVPEPAEINTT-----GEGPNNIIV  587
+               +YD+ G +H L++ F +   T    N+W   + V    +  T      G        
+Sbjct  204  DFNVYDTFGEQHKLQMVFSRVPGTN---NQWLATVNVDPENQAGTETRVGIGTTDGTENT  260
+
+Query  588  GTARFNNDGSLASYTPRTINFSPN-------------------NGAAPNQQIKLSFGTSG  628
+                F+N G LAS T    N +                      GA       ++ G  G
+Sbjct  261  FIVSFDNYGHLASVTDTAGNVTAPAGQVLVQASYNVVGANPDEGGAPTRHTFNINLGEIG  320
+
+Query  629  -SNDGLVSSNSASTLTGQATDGYTSGNLKPDAIRVDDKGNILGEFTNGKTFAVAKIAMAS  687
+             S + +      ST      DGY  G L  +  ++D  G I G ++NG +  + ++A+A 
+Sbjct  321  TSRNTITQFAERSTTKAYQQDGYAMGYL--ENFKIDQSGIITGVYSNGASREIGQLALAG  378
+
+Query  688  VANNSGLEEIGGNLFKVTANSGNIVVGEAGTGGRGEM  724
+             AN  GLE+ G N +  + NSG   +  +G  G+G++
+Sbjct  379  FANQGGLEKAGENTYIQSNNSGIANITVSGVMGKGKL  415
+
+
+ Score = 130 bits (327),  Expect = 4e-31, Method: Composition-based stats.
+ Identities = 69/380 (18%), Positives = 120/380 (32%), Gaps = 69/380 (18%)
+
+Query  1    VAINGDGFFMVSDDGGLTNYLTRSGDFKLDAYGNFVNNA-GFVVQGWNIN--WDDQTIDS  57
+            +AI G+GFF++ D  G  ++ T +G F +D  G  VN A G  VQGW        Q I++
+Sbjct  94   IAIQGNGFFILKD--GEKSFYTTAGAFGVDRDGTLVNPANGMRVQGWMAEDIEGQQIINT  151
+
+Query  58   SRTPQNIFIDPGMHIPAAKSTEVAIKANLNSGLNIGTSSRNLYA----------------  101
+            S   +++ I  G  I A  +T+VA   NL+  L       N                   
+Sbjct  152  SDQTEDLIIPIGQKIDAKATTDVAYACNLDKRLPELPEGANQADILRSTWATDFNVYDTF  211
+
+Query  102  -------------------------LDSVHGWNTKTQRAEDENDTGTTQFYTTSKNSVEV  136
+                                     +D  +   T+T+      D     F  +  N   +
+Sbjct  212  GEQHKLQMVFSRVPGTNNQWLATVNVDPENQAGTETRVGIGTTDGTENTFIVSFDNYGHL  271
+
+Query  137  TEKGVDAGSLFNAKGQGL--------NLRDGQGIWVSYADATYSTNKVGV--NAFDPNLQ  186
+                  AG++    GQ L             +G   +      +  ++G   N      +
+Sbjct  272  ASVTDTAGNVTAPAGQVLVQASYNVVGANPDEGGAPTRHTFNINLGEIGTSRNTITQFAE  331
+
+Query  187  QNQTAAFWG---TANQKVNLDITLNGVRIQNADIQSIDDAIAYINTFTAPTDTRDGTGVK  243
+            ++ T A+           N  I  +G+        +  +         A     +  G  
+Sbjct  332  RSTTKAYQQDGYAMGYLENFKIDQSGIITGVYSNGASREIGQLALAGFANQGGLEKAGEN  391
+
+Query  244  AVKNKDGSGIDFVNDNADGTTDNMKNINLVVANTNTAGELWNAVWNNNNQTFTFNNNGNG  303
+                 + SGI  +  +       +    L ++N +   +  + +                
+Sbjct  392  TYIQSNNSGIANITVSGVMGKGKLIAGTLEMSNVDLTDQFTDMIITQR----------GF  441
+
+Query  304  QAGTPTINKNGSSLWTATNI  323
+            QAG  TI  + + L T  N+
+Sbjct  442  QAGAKTIQTSDTMLETVLNL  461
+
+
+> sp|Q44767|FLGE_BORBU Flagellar hook protein FlgE OS=Borrelia 
+burgdorferi (strain ATCC 35210 / B31 / CIP 102532 / DSM 4680) 
+OX=224326 GN=flgE PE=3 SV=1
+Length=442
+
+ Score = 167 bits (423),  Expect = 5e-44, Method: Composition-based stats.
+ Identities = 83/389 (21%), Positives = 134/389 (34%), Gaps = 58/389 (15%)
+
+Query  377  ANATTRPTEPGSAAYWDAVNGG-----------------LLNTNVRTFRTTEDLRELLQR  419
+            AN  T   + G   + D ++                    +   +          +   +
+Sbjct  27   ANVNTIGFKKGRVNFQDMISQSISGASRPTDARGGTNPKQVGLGMNVASIDTIHTQGAFQ  86
+
+Query  420  DARYGVDYDGSGTFAAADINQNIKVVVTADGHFAISNANEQSTVPPNAINGVGNATTTDP  479
+              +   D   SG            +  T  G F + +   +  V P     +      D 
+Sbjct  87   STQKASDLGVSGNGFFILKE-GKNLFYTRAGAFDVDSD--RHLVNPANGMRIQGWMARDL  143
+
+Query  480  KNMSFNITAYSNKQGTVSTNDAFTAIFK-------AFDGPLVIGNQIKESEQLKLSAFSA  532
+            +      TA   +   +   D   A            D  L +  +      +    +  
+Sbjct  144  EGEKVINTASDIEDLIIPIGDKEGAKSTKNVTFACNLDKRLPLIQEGANPADIARGTWVV  203
+
+Query  533  GLEIYDSLGSKHTLEVQFVKQSTTQDGGNEWQMIIRVPEPAEINTTGEGPNNIIVGTARF  592
+               +YDS G+   LE++ VK   T    N W           +   GE  +N  +G   F
+Sbjct  204  NKSLYDSFGNVSVLELRVVKDLNT---PNLWNAT--------VLINGEQNSNFTLG---F  249
+
+Query  593  NNDGSLASYT------------PRTINF-SPNNGAAPNQ-QIKLSFGTSGSN-DGLVSSN  637
+            +N+G+LAS              P T N    N G    Q  + L  GT GS  D +    
+Sbjct  250  DNEGALASLNGQPGQKGDILQIPITFNVLGANVGEVGEQQTVNLKLGTVGSYTDSITQFA  309
+
+Query  638  SASTLTGQATDGYTSGNLKPDAIRVDDKGNILGEFTNGKTFAVAKIAMASVANNSGLEEI  697
+             +S+      DGY  G +  +   +D  G I+G ++NG    + KIA+AS  N  GL + 
+Sbjct  310  DSSSTKAIIQDGYGMGYM--ENYEIDQNGVIVGIYSNGIRRDLGKIALASFMNPGGLAKS  367
+
+Query  698  GGNLFKVTANSGNIVVGEAGTGGRGEMKT  726
+            G   F  T+NSG + +GE G  G G++++
+Sbjct  368  GDTNFVETSNSGQVRIGETGLAGLGDIRS  396
+
+
+ Score = 137 bits (345),  Expect = 2e-33, Method: Composition-based stats.
+ Identities = 52/327 (16%), Positives = 104/327 (32%), Gaps = 38/327 (12%)
+
+Query  1    VAINGDGFFMVSDDGGLTNYLTRSGDFKLDAYGNFVNNA-GFVVQGWNIN--WDDQTIDS  57
+            + ++G+GFF++ +  G   + TR+G F +D+  + VN A G  +QGW       ++ I++
+Sbjct  94   LGVSGNGFFILKE--GKNLFYTRAGAFDVDSDRHLVNPANGMRIQGWMARDLEGEKVINT  151
+
+Query  58   SRTPQNIFIDPGMHIPAAKSTEVAIKANLNSGLNIGTSSRNLYALDSVHGWNTKTQRAED  117
+            +   +++ I  G    A  +  V    NL+  L +     N   +        K+     
+Sbjct  152  ASDIEDLIIPIGDKEGAKSTKNVTFACNLDKRLPLIQEGANPADIARGTWVVNKSLYDSF  211
+
+Query  118  ENDTGT-----------TQFYTT----SKNSVEVTEKGVDAGSLFNAKGQGLNLRDGQGI  162
+             N +               +  T     + +   T    + G+L +  GQ     D   I
+Sbjct  212  GNVSVLELRVVKDLNTPNLWNATVLINGEQNSNFTLGFDNEGALASLNGQPGQKGDILQI  271
+
+Query  163  WVSY-------------ADATYSTNKVG-----VNAFDPNLQQNQTAAFWGTANQKVNLD  204
+             +++                      VG     +  F  +                 N +
+Sbjct  272  PITFNVLGANVGEVGEQQTVNLKLGTVGSYTDSITQFADSSSTKAIIQDGYGMGYMENYE  331
+
+Query  205  ITLNGVRIQNADIQSIDDAIAYINTFTAPTDTRDGTGVKAVKNKDGSGIDFVNDNADGTT  264
+            I  NGV +         D                 +G         SG   + +      
+Sbjct  332  IDQNGVIVGIYSNGIRRDLGKIALASFMNPGGLAKSGDTNFVETSNSGQVRIGETGLAGL  391
+
+Query  265  DNMKNINLVVANTNTAGELWNAVWNNN  291
+             ++++  L +AN + A +  + +    
+Sbjct  392  GDIRSGVLEMANVDLAEQFTDMIVTQR  418
+
+
+> sp|Q8YDL6|FLGE_BRUME Flagellar hook protein FlgE OS=Brucella 
+melitensis biotype 1 (strain 16M / ATCC 23456 / NCTC 10094) 
+OX=224914 GN=flgE PE=1 SV=1
+Length=396
+
+ Score = 150 bits (378),  Expect = 3e-38, Method: Composition-based stats.
+ Identities = 62/306 (20%), Positives = 104/306 (34%), Gaps = 25/306 (8%)
+
+Query  1    VAINGDGFFMVSDDGGLTNYLTRSGDFKLDAYGNFVNNAGFVVQGWNINWDDQTIDSSRT  60
+            +AI+G+G+F+V   GG T YLTR+G F  D  G+ VN+AG+ + G   +     +  +  
+Sbjct  83   LAIDGNGYFVVQGPGGST-YLTRAGSFVPDKNGDLVNSAGYYLLGAGADEAAGGLTVAG-  140
+
+Query  61   PQNIFIDPGMHIPAAKSTEVAIKANLNS--GLNIGTSSRNLYALDSVHGWNTKTQRAEDE  118
+              NI       +PA  ST      NL S           +  +L S +    K       
+Sbjct  141  -LNIVNVNAAALPAEGSTAGDFTVNLPSTDQAPAAGGYNHKTSLISYNDKGEKITLDVYF  199
+
+Query  119  NDTGTTQFYTTSKNSVEVTEKGVDAGSLFNAKGQGLNLRDGQGIWVSYADATYSTNKVGV  178
+              TG  ++  + KN+ +  E G    +     G            VS  +   +    G 
+Sbjct  200  TKTGADEWNVSVKNAADGVEIGTTVLNFDPTTGD----------LVSGGNVAVNLGAYGG  249
+
+Query  179  NAFDPNLQQNQTAAFWGTANQKV----------NLDITLNGVRIQNADIQSIDDAIAYIN  228
+               + NL  +   A   T +Q V           +D+  +G  +   +  +         
+Sbjct  250  QTLNLNLGGSTQRAGDYTISQAVINGQAPSSIKGVDVGNDGAVVAVYENGTQKVLYRIPL  309
+
+Query  229  TFTAPTDTRDGTGVKAVKNKDGSGIDFVNDNADGTTDNMKNINLVVANTNTAGELWNAVW  288
+               A  D               SG   +          + +  L  +N + A EL + + 
+Sbjct  310  ANVASPDRMTVVSGNIFLPSAESGDVRLGFPQGDGMGKIMSGTLEESNADIAQELTDMIE  369
+
+Query  289  NNNNQT  294
+               + T
+Sbjct  370  AQRSYT  375
+
+
+ Score = 135 bits (339),  Expect = 4e-33, Method: Composition-based stats.
+ Identities = 65/368 (18%), Positives = 117/368 (32%), Gaps = 64/368 (17%)
+
+Query  377  ANATTRPTEPGSAAYWDAVNGGLLNTNVRTFRTTEDLRELLQRDARYGVDYDGSGTFAAA  436
+            ANA+T   +     +   V               +     +  D RYG+   G       
+Sbjct  29   ANASTVGYKRAETQFSSLVLPSTAG---------QYNSGSVLTDVRYGISDQGG----IR  75
+
+Query  437  DINQNIKVVVTADGHFAISNANEQSTVPPNAINGVGNATTTDPKNMSFNITAYSNKQGTV  496
+              +    + +  +G+F +      + +          +   D      N   Y       
+Sbjct  76   STSSTTDLAIDGNGYFVVQGPGGSTYL------TRAGSFVPDKNGDLVNSAGYYLLGAGA  129
+
+Query  497  ST-----NDAFTAIFKAFDGPLVIGNQIKESEQLKLSA-----------FSAGLEIYDSL  540
+                     A   I       L           + L +               L  Y+  
+Sbjct  130  DEAAGGLTVAGLNIVNVNAAALPAEGSTAGDFTVNLPSTDQAPAAGGYNHKTSLISYNDK  189
+
+Query  541  GSKHTLEVQFVKQSTTQDGGNEWQMII-RVPEPAEINTTGEGPNNIIVGTARFN-NDGSL  598
+            G K TL+V F K      G +EW + +    +  EI TT             F+   G L
+Sbjct  190  GEKITLDVYFTKT-----GADEWNVSVKNAADGVEIGTT----------VLNFDPTTGDL  234
+
+Query  599  ASYTPRTINFSPNNGAAPNQQIKLSFGTSGSNDGLVSSNSASTLTGQATDGYTSGNLKPD  658
+             S     +N     G    Q + L+ G      G        T++    +G    ++K  
+Sbjct  235  VSGGNVAVNLGAYGG----QTLNLNLG------GSTQRAGDYTISQAVINGQAPSSIK--  282
+
+Query  659  AIRVDDKGNILGEFTNGKTFAVAKIAMASVANNSGLEEIGGNLFKVTANSGNIVVGEAGT  718
+             + V + G ++  + NG    + +I +A+VA+   +  + GN+F  +A SG++ +G    
+Sbjct  283  GVDVGNDGAVVAVYENGTQKVLYRIPLANVASPDRMTVVSGNIFLPSAESGDVRLGFPQG  342
+
+Query  719  GGRGEMKT  726
+             G G++ +
+Sbjct  343  DGMGKIMS  350
+
+
+> sp|O52070|FLGE_BRUAB Flagellar hook protein FlgE OS=Brucella 
+abortus biovar 1 (strain 9-941) OX=262698 GN=flgE PE=3 SV=2
+Length=396
+
+ Score = 149 bits (375),  Expect = 8e-38, Method: Composition-based stats.
+ Identities = 61/306 (20%), Positives = 104/306 (34%), Gaps = 25/306 (8%)
+
+Query  1    VAINGDGFFMVSDDGGLTNYLTRSGDFKLDAYGNFVNNAGFVVQGWNINWDDQTIDSSRT  60
+            +AI+G+G+F+V   GG T YLTR+G F  D  G+ VN+AG+ + G   +     +  +  
+Sbjct  83   LAIDGNGYFVVQGPGGST-YLTRAGSFVPDKNGDLVNSAGYYLLGAGADEAAGGLTVAG-  140
+
+Query  61   PQNIFIDPGMHIPAAKSTEVAIKANLNS--GLNIGTSSRNLYALDSVHGWNTKTQRAEDE  118
+              N+       +PA  ST      NL S           +  +L S +    K       
+Sbjct  141  -LNVVNVNAAALPAEGSTAGDFTVNLPSTDQAPAAGGYNHKTSLISYNDKGEKITLDVYF  199
+
+Query  119  NDTGTTQFYTTSKNSVEVTEKGVDAGSLFNAKGQGLNLRDGQGIWVSYADATYSTNKVGV  178
+              TG  ++  + KN+ +  E G    +     G            VS  +   +    G 
+Sbjct  200  TKTGADEWNVSVKNAADGVEIGTTVLNFDPTTGD----------LVSGGNVAVNLGAYGG  249
+
+Query  179  NAFDPNLQQNQTAAFWGTANQKV----------NLDITLNGVRIQNADIQSIDDAIAYIN  228
+               + NL  +   A   T +Q V           +D+  +G  +   +  +         
+Sbjct  250  QTLNLNLGGSTQRAGDYTISQAVINGQAPSSIKGVDVGNDGAVVAVYENGTQKVLYRIPL  309
+
+Query  229  TFTAPTDTRDGTGVKAVKNKDGSGIDFVNDNADGTTDNMKNINLVVANTNTAGELWNAVW  288
+               A  D               SG   +          + +  L  +N + A EL + + 
+Sbjct  310  ANVASPDRMTVVSGNIFLPSAESGDVRLGFPQGDGMGKIMSGTLEESNADIAQELTDMIE  369
+
+Query  289  NNNNQT  294
+               + T
+Sbjct  370  AQRSYT  375
+
+
+ Score = 135 bits (338),  Expect = 5e-33, Method: Composition-based stats.
+ Identities = 64/368 (17%), Positives = 117/368 (32%), Gaps = 64/368 (17%)
+
+Query  377  ANATTRPTEPGSAAYWDAVNGGLLNTNVRTFRTTEDLRELLQRDARYGVDYDGSGTFAAA  436
+            ANA+T   +     +   V               +     +  D RYG+   G       
+Sbjct  29   ANASTVGYKRAETQFSSLVLPSTAG---------QYNSGSVLTDVRYGISDQGG----IR  75
+
+Query  437  DINQNIKVVVTADGHFAISNANEQSTVPPNAINGVGNATTTDPKNMSFNITAYSNKQGTV  496
+              +    + +  +G+F +      + +          +   D      N   Y       
+Sbjct  76   STSSTTDLAIDGNGYFVVQGPGGSTYL------TRAGSFVPDKNGDLVNSAGYYLLGAGA  129
+
+Query  497  ST-----NDAFTAIFKAFDGPLVIGNQIKESEQLKLSA-----------FSAGLEIYDSL  540
+                     A   +       L           + L +               L  Y+  
+Sbjct  130  DEAAGGLTVAGLNVVNVNAAALPAEGSTAGDFTVNLPSTDQAPAAGGYNHKTSLISYNDK  189
+
+Query  541  GSKHTLEVQFVKQSTTQDGGNEWQMII-RVPEPAEINTTGEGPNNIIVGTARFN-NDGSL  598
+            G K TL+V F K      G +EW + +    +  EI TT             F+   G L
+Sbjct  190  GEKITLDVYFTKT-----GADEWNVSVKNAADGVEIGTT----------VLNFDPTTGDL  234
+
+Query  599  ASYTPRTINFSPNNGAAPNQQIKLSFGTSGSNDGLVSSNSASTLTGQATDGYTSGNLKPD  658
+             S     +N     G    Q + L+ G      G        T++    +G    ++K  
+Sbjct  235  VSGGNVAVNLGAYGG----QTLNLNLG------GSTQRAGDYTISQAVINGQAPSSIK--  282
+
+Query  659  AIRVDDKGNILGEFTNGKTFAVAKIAMASVANNSGLEEIGGNLFKVTANSGNIVVGEAGT  718
+             + V + G ++  + NG    + +I +A+VA+   +  + GN+F  +A SG++ +G    
+Sbjct  283  GVDVGNDGAVVAVYENGTQKVLYRIPLANVASPDRMTVVSGNIFLPSAESGDVRLGFPQG  342
+
+Query  719  GGRGEMKT  726
+             G G++ +
+Sbjct  343  DGMGKIMS  350
+
+
+> sp|Q8FUS9|FLGE_BRUSU Flagellar hook protein FlgE OS=Brucella 
+suis biovar 1 (strain 1330) OX=204722 GN=flgE PE=3 SV=1
+Length=396
+
+ Score = 146 bits (368),  Expect = 5e-37, Method: Composition-based stats.
+ Identities = 60/306 (20%), Positives = 104/306 (34%), Gaps = 25/306 (8%)
+
+Query  1    VAINGDGFFMVSDDGGLTNYLTRSGDFKLDAYGNFVNNAGFVVQGWNINWDDQTIDSSRT  60
+            +AI+G+G+F+V   GG T YLTR+G F  D  G+ VN+AG+ + G   +     +  +  
+Sbjct  83   LAIDGNGYFVVQGPGGST-YLTRAGSFVPDKNGDLVNSAGYYLLGAGADEAAGGLTVAG-  140
+
+Query  61   PQNIFIDPGMHIPAAKSTEVAIKANLNS--GLNIGTSSRNLYALDSVHGWNTKTQRAEDE  118
+              N+       +PA  ST      NL S           +  +L S +    K       
+Sbjct  141  -LNVVNVNAAALPAEGSTAGDFTVNLPSTDQAPAAGGYNHKTSLISYNDKGEKITLDVYF  199
+
+Query  119  NDTGTTQFYTTSKNSVEVTEKGVDAGSLFNAKGQGLNLRDGQGIWVSYADATYSTNKVGV  178
+              TG  ++  + KN+ +  E G    +     G            VS  +   +    G 
+Sbjct  200  TKTGADEWNVSVKNAADGVEIGTTVLNFDPTTGD----------LVSGGNVAVNLGAYGG  249
+
+Query  179  NAFDPNLQQNQTAAFWGTANQKV----------NLDITLNGVRIQNADIQSIDDAIAYIN  228
+               + NL  +   A   T +Q V           +D+  +G  +   +  +         
+Sbjct  250  QTLNLNLGGSTQRAGDYTISQAVINGQAPSSIKGVDVGNDGAVVAVYENGTQKVLYRIPL  309
+
+Query  229  TFTAPTDTRDGTGVKAVKNKDGSGIDFVNDNADGTTDNMKNINLVVANTNTAGELWNAVW  288
+               A  +               SG   +          + +  L  +N + A EL + + 
+Sbjct  310  ANVASPNRMTVVSGNIFLPSAESGDVRLGFPQGDGMGKIMSGTLEESNADIAQELTDMIE  369
+
+Query  289  NNNNQT  294
+               + T
+Sbjct  370  AQRSYT  375
+
+
+ Score = 133 bits (333),  Expect = 3e-32, Method: Composition-based stats.
+ Identities = 64/368 (17%), Positives = 118/368 (32%), Gaps = 64/368 (17%)
+
+Query  377  ANATTRPTEPGSAAYWDAVNGGLLNTNVRTFRTTEDLRELLQRDARYGVDYDGSGTFAAA  436
+            ANA+T   +     +   V               +     +  D RYG+   G       
+Sbjct  29   ANASTVGYKRAETQFSSLVLPSTAG---------QYNSGSVLTDVRYGISDQGG----IR  75
+
+Query  437  DINQNIKVVVTADGHFAISNANEQSTVPPNAINGVGNATTTDPKNMSFNITAYSNKQGTV  496
+              +    + +  +G+F +      + +          +   D      N   Y       
+Sbjct  76   STSSTTDLAIDGNGYFVVQGPGGSTYL------TRAGSFVPDKNGDLVNSAGYYLLGAGA  129
+
+Query  497  ST-----NDAFTAIFKAFDGPLVIGNQIKESEQLKLSA-----------FSAGLEIYDSL  540
+                     A   +       L           + L +               L  Y+  
+Sbjct  130  DEAAGGLTVAGLNVVNVNAAALPAEGSTAGDFTVNLPSTDQAPAAGGYNHKTSLISYNDK  189
+
+Query  541  GSKHTLEVQFVKQSTTQDGGNEWQMII-RVPEPAEINTTGEGPNNIIVGTARFN-NDGSL  598
+            G K TL+V F K      G +EW + +    +  EI TT             F+   G L
+Sbjct  190  GEKITLDVYFTKT-----GADEWNVSVKNAADGVEIGTT----------VLNFDPTTGDL  234
+
+Query  599  ASYTPRTINFSPNNGAAPNQQIKLSFGTSGSNDGLVSSNSASTLTGQATDGYTSGNLKPD  658
+             S     +N     G    Q + L+ G      G        T++    +G    ++K  
+Sbjct  235  VSGGNVAVNLGAYGG----QTLNLNLG------GSTQRAGDYTISQAVINGQAPSSIK--  282
+
+Query  659  AIRVDDKGNILGEFTNGKTFAVAKIAMASVANNSGLEEIGGNLFKVTANSGNIVVGEAGT  718
+             + V + G ++  + NG    + +I +A+VA+ + +  + GN+F  +A SG++ +G    
+Sbjct  283  GVDVGNDGAVVAVYENGTQKVLYRIPLANVASPNRMTVVSGNIFLPSAESGDVRLGFPQG  342
+
+Query  719  GGRGEMKT  726
+             G G++ +
+Sbjct  343  DGMGKIMS  350
+
+
+> sp|Q52946|FLGG_RHIME Flagellar basal-body rod protein FlgG OS=Rhizobium 
+meliloti (strain 1021) OX=266834 GN=flgG PE=3 SV=2
+Length=262
+
+ Score = 140 bits (353),  Expect = 3e-36, Method: Composition-based stats.
+ Identities = 44/227 (19%), Positives = 75/227 (33%), Gaps = 25/227 (11%)
+
+Query  511  GPLVIGNQIKESEQLKLSAFSAGLEIYDSLGSKH------TLEVQFVKQSTTQDGGNEWQ  564
+              L I      ++QL L   +  +   ++ G K        L  Q  +     +  N+  
+Sbjct  2    KALSIAATGMNAQQLNLEVIANNIANINTTGYKRARAEFSDLLYQTERAQGVPNRSNQAI  61
+
+Query  565  MIIRVPEPAEINTTGEGPNNIIVGTARFNNDGSLASYTPRTINFSPNNGAAPNQQIKLSF  624
+            +         + T+     +I        ND  LA            +G           
+Sbjct  62   VPEGAIIGLGVQTSAVRNLHIQGSLVNTGNDYDLALVGRGWFQIETPDGE----------  111
+
+Query  625  GTSGSNDGLVSSNSASTLTGQATDGYT--SGNLKPDA---IRVDDKGNILGEFTNGKT-F  678
+                      + N+ +T      DGYT   G   P     I     G ++    N     
+Sbjct  112  ---TVYTRSGAFNTNATGQLVTIDGYTVVPGVTVPQDATEIVFTSSGQVMVRIGNDTELQ  168
+
+Query  679  AVAKIAMASVANNSGLEEIGGNLFKVTANSGNIVVGEAGTGGRGEMK  725
+             + ++ +A+  N +GLE +G NLF+ T  SG+ +VG     G  ++K
+Sbjct  169  EIGQLTIANFVNEAGLEPMGENLFRQTPASGDPIVGTPADPGFAQVK  215
+
+
+> sp|O67711|FLGE_AQUAE Flagellar hook protein FlgE OS=Aquifex aeolicus 
+(strain VF5) OX=224324 GN=flgE PE=3 SV=1
+Length=482
+
+ Score = 138 bits (347),  Expect = 2e-33, Method: Composition-based stats.
+ Identities = 70/431 (16%), Positives = 130/431 (30%), Gaps = 99/431 (23%)
+
+Query  377  ANATTRPTEPGSAAYWDAVNGGLLNTNVRT---------FRTTEDLRELL-------QRD  420
+            ANA T   +     + D V+  ++  N  T              D  + +       Q +
+Sbjct  27   ANANTVGFKKSRPIFQDMVSQVVVGLNTTTGTVKTTTFGAGAVVDSTQKVWTIGSFKQTE  86
+
+Query  421  ARYGVDYDGSGTFAAADINQNIKVVVTADGHFAISNAN-----EQSTVPPNAINGVGNAT  475
+                +  +G   F   D+  N +   T DG F I+            V    +N V    
+Sbjct  87   ITTDLAIEGKALFILRDVLTN-QTYYTRDGRFRINREGYLINPNGLYVQGFKVNPVTGEV  145
+
+Query  476  TTDP-KNMSFNITAYSNKQGTVSTNDAFTAIFKAFDGPLVIGNQIKESEQLKLSAFSAGL  534
+            T    +++           G +  N       +A    +                +   L
+Sbjct  146  TGTQLEDIRVETQIPPKATGEIYFNPPTNLDERA--PIIDQTTTPFNPLDSFTYNYRYTL  203
+
+Query  535  EIYDSLGSKHTLEVQFVKQSTTQDGGNEWQMIIRVP---EPAEINTTGEGPNNIIVGTAR  591
+             IYDSLG +   ++ FVK      G N+W++            ++  G+     IV    
+Sbjct  204  TIYDSLGREVPADIYFVKT-----GTNQWKVYFLASLKERYINVDWNGDDDKTDIVFLDL  258
+
+Query  592  FNNDGSLASYTP---------RTINFSPNNG-----------------------------  613
+            FN+   +A             +T+ F P+ G                             
+Sbjct  259  FNDQVHIADNGTFSTLPTFASKTLEFDPSTGKLVYIPGGDIVQDTANQKFYLEVDLTPES  318
+
+Query  614  ----------------------AAPNQQIKLSFGTSGSNDGLVSSNS-----ASTLTGQA  646
+                                   +   +IK+  G     + ++ ++      A  +    
+Sbjct  319  GPSEINDPNDTESYLNKLGAKLGSETNKIKIYVGEGILQNNVIQNSYITQHAADFVVTMD  378
+
+Query  647  TDGYTSGNLKPDAIRVDDKGNILGEFTNGKTFAVAKIAMASVANNSGLEEIGGNLFKVTA  706
+             DGY  G L      + + G ++G ++NG+T    ++A+A   +   L + G NL+    
+Sbjct  379  QDGYARGELIDL-YVLSEDGVVVGVYSNGETLPTYRLALAQFTDPEELVKKGSNLYASVK  437
+
+Query  707  NSGNIVVGEAG  717
+                ++ G + 
+Sbjct  438  TPTILLPGGSN  448
+
+
+ Score = 116 bits (291),  Expect = 2e-26, Method: Composition-based stats.
+ Identities = 51/227 (22%), Positives = 83/227 (37%), Gaps = 23/227 (10%)
+
+Query  1    VAINGDGFFMVSDDGGLTNYLTRSGDFKLDAYGNFVNNAGFVVQGWNINWDDQTIDSSRT  60
+            +AI G   F++ D      Y TR G F+++  G  +N  G  VQG+ +N     + +   
+Sbjct  91   LAIEGKALFILRDVLTNQTYYTRDGRFRINREGYLINPNGLYVQGFKVNPVTGEV-TGTQ  149
+
+Query  61   PQNIFIDPGMHIPAAKSTEVAIK--ANLNSGLN-IGTSSRNLYALDS-----------VH  106
+             ++I ++    IP   + E+      NL+     I  ++     LDS             
+Sbjct  150  LEDIRVE--TQIPPKATGEIYFNPPTNLDERAPIIDQTTTPFNPLDSFTYNYRYTLTIYD  207
+
+Query  107  GWNTKTQRAEDENDTGTTQFYTTSKNSVEVTEKGVDA-GSLFNAKGQGLNLRDGQ-GIWV  164
+                +         TGT Q+      S++     VD  G         L+L + Q  I  
+Sbjct  208  SLGREVPADIYFVKTGTNQWKVYFLASLKERYINVDWNGDDDKTDIVFLDLFNDQVHIAD  267
+
+Query  165  SYADATYSTNKVGVNAFDPNLQQ----NQTAAFWGTANQKVNLDITL  207
+            +   +T  T       FDP+  +            TANQK  L++ L
+Sbjct  268  NGTFSTLPTFASKTLEFDPSTGKLVYIPGGDIVQDTANQKFYLEVDL  314
+
+
+ Score = 44.6 bits (103),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 22/177 (12%), Positives = 51/177 (29%), Gaps = 14/177 (8%)
+
+Query  120  DTGTTQFYTTSKNSVEVTEKGVDAGSLFNAKGQGLNLRDGQGIWVSYADATYSTNKVGVN  179
+            ++G ++    +     + + G   GS  N     + +  G+GI  +      S       
+Sbjct  317  ESGPSEINDPNDTESYLNKLGAKLGSETNK----IKIYVGEGILQNNVIQN-SYITQHAA  371
+
+Query  180  AFDPNLQQNQTAAFWGTANQKVNLDITLNGVRIQNADIQSIDDAIAYINTFTAPTDTRDG  239
+             F   + Q+  A             ++ +GV +                      +    
+Sbjct  372  DFVVTMDQDGYARGELIDL----YVLSEDGVVVGVYSNGETLPTYRLALAQFTDPEELVK  427
+
+Query  240  TGVKAVKNKDGSGIDFVNDNADGTTDNMKNINLVVANTNTAGELWNAVWNNNNQTFT  296
+             G     +     I        G ++ +++  + ++N + A E  N +        T
+Sbjct  428  KGSNLYASVKTPTILL-----PGGSNKIRSAVVEMSNVDIAKEFINLITAQRTYQVT  479
+
+
+> sp|Q44338|FLGG_AGRFC Flagellar basal-body rod protein FlgG OS=Agrobacterium 
+fabrum (strain C58 / ATCC 33970) OX=176299 GN=flgG 
+PE=3 SV=2
+Length=262
+
+ Score = 116 bits (289),  Expect = 1e-27, Method: Composition-based stats.
+ Identities = 39/226 (17%), Positives = 69/226 (31%), Gaps = 25/226 (11%)
+
+Query  512  PLVIGNQIKESEQLKLSAFSAGLEIYDSLGSKH------TLEVQFVKQSTTQDGGNEWQM  565
+             L I     +++Q  L   +  +   ++ G K        L  Q  +     +  N+  +
+Sbjct  3    ALAIAATGMDAQQTNLEVIANNIANINTTGYKRARAEFTDLLYQTERMQGVPNRANQAIV  62
+
+Query  566  IIRVPEPAEINTTGEGPNNIIVGTARFNNDGSLASYTPRTINFSPNNGAAPNQQIKLSFG  625
+                     + T+     +         N   +A            +G            
+Sbjct  63   PEGANIGLGVQTSAVRNIHTQGNLIETGNKLDVAIIGQGWFQIEAADG------------  110
+
+Query  626  TSGSNDGLVSSNSASTLTGQATDGY-----TSGNLKPDAIRVDDKGNILGEFTNGKTF-A  679
+             S       + N  +       DGY      +       I +   G +     N   F  
+Sbjct  111  -STLYSRAGAFNKNADGNLVTVDGYNVIPNINIPTDAQDITITRTGQVTARIGNAADFTQ  169
+
+Query  680  VAKIAMASVANNSGLEEIGGNLFKVTANSGNIVVGEAGTGGRGEMK  725
+            + ++ +A+ AN +GL+ +G NLF  T  SG  VVG       G +K
+Sbjct  170  LGQLTIANFANEAGLKPLGDNLFSQTPASGAPVVGVPDDPSYGYVK  215
+
+
+ Score = 42.6 bits (98),  Expect = 0.008, Method: Composition-based stats.
+ Identities = 23/83 (28%), Positives = 32/83 (39%), Gaps = 9/83 (11%)
+
+Query  1    VAINGDGFFMVSDDGGLTNYLTRSGDFKLDAYGNFVNNAGFVVQGWNINWDDQTIDSSRT  60
+            VAI G G+F +    G T Y +R+G F  +A GN V   G+ V           I+    
+Sbjct  95   VAIIGQGWFQIEAADGSTLY-SRAGAFNKNADGNLVTVDGYNVI--------PNINIPTD  145
+
+Query  61   PQNIFIDPGMHIPAAKSTEVAIK  83
+             Q+I I     + A         
+Sbjct  146  AQDITITRTGQVTARIGNAADFT  168
+
+
+> sp|P23446|FLGG_BACSU Flagellar basal-body rod protein FlgG OS=Bacillus 
+subtilis (strain 168) OX=224308 GN=flgG PE=3 SV=2
+Length=264
+
+ Score = 106 bits (263),  Expect = 3e-24, Method: Composition-based stats.
+ Identities = 43/225 (19%), Positives = 82/225 (36%), Gaps = 20/225 (9%)
+
+Query  512  PLVIGNQIKESEQLKLSAFSAGLEIYDSLGSKHTLEVQFVKQSTTQDGGNEWQMIIRVPE  571
+             L  G    ++ Q KL      +   +++G K +  V F    +           I    
+Sbjct  4    SLYSGISGMKNFQTKLDVIGNNIANVNTVGFKKS-RVTFKDMVSQ---------TIAGGS  53
+
+Query  572  PAEINTTGEGPNNIIVGTARFNNDGSLASYTPRTINFSPNNGAAPNQQIKLSFGTSGSND  631
+             A     G     I +G++    D   ++   ++   + +     +   ++  G   +  
+Sbjct  54   AAGATIGGTNSKQIGLGSSSGTIDTIHSTSATQSTGRTLDLAIDGDGYFRIDTGDGTAYT  113
+
+Query  632  GLVSSNSASTLTGQATDGYTSGNLKP---------DAIRVDDKGNILGEFTNGKTFAVAK  682
+               +    +T T    DGY   N+            +  +   G +      GKT    +
+Sbjct  114  RAGNFYLDNTGTLVTGDGYHVLNMNGGTIKIPTDAQSFSIGSDGKVSIVDAEGKTQDGGQ  173
+
+Query  683  IAMASVANNSGLEEIGGNLFKVTANSGNIVVG-EAGTGGRGEMKT  726
+            I + + AN+ GL++IG NL++ + NSG      + G GG G +K+
+Sbjct  174  IGIVTFANSDGLDKIGSNLYRESLNSGTASAANQPGDGGTGALKS  218
+
+
+> sp|O51715|FLGG_BORBU Flagellar basal-body rod protein FlgG OS=Borrelia 
+burgdorferi (strain ATCC 35210 / B31 / CIP 102532 
+/ DSM 4680) OX=224326 GN=flgG PE=3 SV=1
+Length=265
+
+ Score = 97.7 bits (241),  Expect = 3e-21, Method: Composition-based stats.
+ Identities = 40/223 (18%), Positives = 72/223 (32%), Gaps = 18/223 (8%)
+
+Query  512  PLVIGNQIKESEQLKLSAFSAGLEIYDSLGSKHTLEVQFVKQSTTQDGGNEWQMIIRVPE  571
+             L        ++Q  +   +  L   ++ G K  +  +F                     
+Sbjct  4    ALWTAASGMTAQQYNVDTIANNLSNVNTTGFK-KIRAEFEDLIYQTHNRAGTPATENTLR  62
+
+Query  572  PAEINTTGEGPNNIIVGTARFNNDGSLASYTPRTINFSPNNGAAPNQQIKLSFGTSG-SN  630
+            P        G    I  T R    G + S      N   +     +   K+       + 
+Sbjct  63   PLG---NQVGHGTKIAATQRIFEQGKMQST-----NLLTDVAIEGDGFYKILLPDGTYAY  114
+
+Query  631  DGLVSSNSASTLTGQATDGYT-------SGNLKPDAIRVDDKGNI-LGEFTNGKTFAVAK  682
+                S    S      + GY              ++I + ++G + +   T+ +   + +
+Sbjct  115  TRDGSFKIDSNRELVTSQGYKVLPNILFPEEYIQNSITISEEGIVSVKIDTSNEPIELGQ  174
+
+Query  683  IAMASVANNSGLEEIGGNLFKVTANSGNIVVGEAGTGGRGEMK  725
+            I ++   N +GL  IG NLFK TA SG  + G  G+ G G ++
+Sbjct  175  IEISRFINPAGLSAIGSNLFKETAGSGQEIAGIPGSEGMGRLR  217
+
+
+ Score = 50.3 bits (118),  Expect = 3e-05, Method: Composition-based stats.
+ Identities = 18/43 (42%), Positives = 24/43 (56%), Gaps = 1/43 (2%)
+
+Query  1    VAINGDGFFMVSDDGGLTNYLTRSGDFKLDAYGNFVNNAGFVV  43
+            VAI GDGF+ +    G T   TR G FK+D+    V + G+ V
+Sbjct  95   VAIEGDGFYKILLPDG-TYAYTRDGSFKIDSNRELVTSQGYKV  136
+
+
+> sp|P57424|FLGG_BUCAI Flagellar basal-body rod protein FlgG OS=Buchnera 
+aphidicola subsp. Acyrthosiphon pisum (strain APS) 
+OX=107806 GN=flgG PE=3 SV=1
+Length=260
+
+ Score = 96.6 bits (238),  Expect = 5e-21, Method: Composition-based stats.
+ Identities = 36/222 (16%), Positives = 76/222 (34%), Gaps = 16/222 (7%)
+
+Query  511  GPLVIGNQIKESEQLKLSAFSAGLEIYDSLGSKH------TLEVQFVKQSTTQDGGNEWQ  564
+              L I     +++Q+ ++  S  L    + G K        L  Q ++++ T     E  
+Sbjct  3    PSLWISKTGLDAQQINMNIISNNLANVSTNGFKRSRAVFEDLMYQTIREAGTNSSL-ETT  61
+
+Query  565  MIIRVPEPAEINTTGEGPNNIIVGTARFNNDGSLASYTPRTINFSPNNGAAPNQQIKLSF  624
+            +   +     +        +     ++ +    +A            +G        +++
+Sbjct  62   LPSGLQLGTGVRPVSTERIHTQGNLSKTDASKDVAINGSGFFQVQLPDG-------NIAY  114
+
+Query  625  GTSGSNDGLVSSNSASTLTGQATDGYTSGNLKPDAIRVDDKGNI-LGEFTNGKTFAVAKI  683
+               GS   L  +    T +G       +       I +   G I +      +   + ++
+Sbjct  115  TRDGSFQ-LDQNGQLVTNSGFPIIPEINIPSNSTNINIARDGVISVVVQGQTQPVLLGQL  173
+
+Query  684  AMASVANNSGLEEIGGNLFKVTANSGNIVVGEAGTGGRGEMK  725
+             + +  NNSGLE +G NL++ T  SG+ +    G  G G + 
+Sbjct  174  NLINFVNNSGLESLGENLYQETQASGSPIETTPGLNGTGVLY  215
+
+
+ Score = 49.6 bits (116),  Expect = 4e-05, Method: Composition-based stats.
+ Identities = 26/66 (39%), Positives = 29/66 (44%), Gaps = 9/66 (14%)
+
+Query  1    VAINGDGFFMVSDDGGLTNYLTRSGDFKLDAYGNFVNNAGFVVQGWNINWDDQTIDSSRT  60
+            VAING GFF V    G   Y TR G F+LD  G  V N+GF             I+    
+Sbjct  95   VAINGSGFFQVQLPDGNIAY-TRDGSFQLDQNGQLVTNSGF--------PIIPEINIPSN  145
+
+Query  61   PQNIFI  66
+              NI I
+Sbjct  146  STNINI  151
+
+
+ Score = 48.0 bits (112),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 27/162 (17%), Positives = 45/162 (28%), Gaps = 7/162 (4%)
+
+Query  137  TEKGVDAGSLFNAKGQGLNLRDGQGIW-VSYADATYSTNKVGVNAFDPNLQQNQTAAFWG  195
+            TE+    G+L           +G G + V   D   +  + G    D N Q    + F  
+Sbjct  77   TERIHTQGNLSKTDASKDVAINGSGFFQVQLPDGNIAYTRDGSFQLDQNGQLVTNSGFPI  136
+
+Query  196  TANQKV-----NLDITLNGVR-IQNADIQSIDDAIAYINTFTAPTDTRDGTGVKAVKNKD  249
+                 +     N++I  +GV  +                         +  G    +   
+Sbjct  137  IPEINIPSNSTNINIARDGVISVVVQGQTQPVLLGQLNLINFVNNSGLESLGENLYQETQ  196
+
+Query  250  GSGIDFVNDNADGTTDNMKNINLVVANTNTAGELWNAVWNNN  291
+             SG           T  +    +  +N N A EL N +    
+Sbjct  197  ASGSPIETTPGLNGTGVLYQGYVETSNVNVAEELVNMIQTQR  238
+
+
+> sp|Q06172|FLGG_CAUVC Flagellar basal-body rod protein FlgG OS=Caulobacter 
+vibrioides (strain ATCC 19089 / CB15) OX=190650 
+GN=flgG PE=3 SV=2
+Length=262
+
+ Score = 96.6 bits (238),  Expect = 6e-21, Method: Composition-based stats.
+ Identities = 44/222 (20%), Positives = 74/222 (33%), Gaps = 17/222 (8%)
+
+Query  512  PLVIGNQIKESEQLKLSAFSAGLEIYDSLGSKHTLEVQFVKQSTTQDGGNEWQMIIRVPE  571
+             L        ++QL +   S  +   +++G K             +     +Q I R   
+Sbjct  3    ALRTAASGMAAQQLNVEVISNNIANMNTVGFKR---------QRAEFQDLLYQTIERAGS  53
+
+Query  572  PAEINTTGEGPNNIIVGTARFNNDGSLASYTPRTINFSPNNGAAPNQQIKLSFGTSGSND  631
+             +  +         + G  +  +   +      T+  SP + A   +        SG   
+Sbjct  54   QSSSDGNIVPTGVQVGGGVKAGSVYRITEQGTPTLTDSPLDLAIQGKGYMPILLPSGETA  113
+
+Query  632  GLVSSNSASTLTG--QATDGY--TSGNLKPDA---IRVDDKGNI-LGEFTNGKTFAVAKI  683
+               + N ++   G     DGY    G   P     I +   G + +      +   V +I
+Sbjct  114  YTRAGNFSTNDQGQIVTEDGYLVQPGITIPQNATDITISKSGLVQVKLDGQPQPQTVGQI  173
+
+Query  684  AMASVANNSGLEEIGGNLFKVTANSGNIVVGEAGTGGRGEMK  725
+             +A+  N  GLE IG NLF  TA SG   +   G  G G + 
+Sbjct  174  QLANFLNEGGLEAIGDNLFLETAASGAATLAAPGEPGFGMLL  215
+
+
+> sp|Q8K9K4|FLGG_BUCAP Flagellar basal-body rod protein FlgG OS=Buchnera 
+aphidicola subsp. Schizaphis graminum (strain Sg) 
+OX=198804 GN=flgG PE=3 SV=1
+Length=260
+
+ Score = 93.5 bits (230),  Expect = 7e-20, Method: Composition-based stats.
+ Identities = 35/222 (16%), Positives = 78/222 (35%), Gaps = 16/222 (7%)
+
+Query  511  GPLVIGNQIKESEQLKLSAFSAGLEIYDSLGSKH------TLEVQFVKQSTTQDGGNEWQ  564
+              L I     +++Q+ ++  S  L    + G K        L  Q ++Q+ T    +   
+Sbjct  3    PSLWISKTGLDAQQINMNVISNNLANVSTNGFKRSRAVFEDLMYQTMRQAGTNSSIDT-T  61
+
+Query  565  MIIRVPEPAEINTTGEGPNNIIVGTARFNNDGSLASYTPRTINFSPNNGAAPNQQIKLSF  624
+            +   +     +              ++ ++   +A   P        +G        +++
+Sbjct  62   LPSGLQLGTGVRPVSTEKIYSQGNLSKTDSSKDVAINGPGFFQVQLPDG-------NIAY  114
+
+Query  625  GTSGSNDGLVSSNSASTLTGQATDGYTSGNLKPDAIRVDDKGNI-LGEFTNGKTFAVAKI  683
+               GS   L  +    T +G       +       + +   G + +      +  ++ ++
+Sbjct  115  TRDGSFQ-LDQNGQLVTNSGYPIIPEINIPPNSINMNIGRDGIVSVTIQGQTQPISIGQL  173
+
+Query  684  AMASVANNSGLEEIGGNLFKVTANSGNIVVGEAGTGGRGEMK  725
+             + +  N+SGLE +G NL++ T  SGN +    G  G G + 
+Sbjct  174  NLINFVNHSGLESLGENLYQETQASGNPIDTTPGLNGTGLLY  215
+
+
+ Score = 45.7 bits (106),  Expect = 7e-04, Method: Composition-based stats.
+ Identities = 21/41 (51%), Positives = 24/41 (59%), Gaps = 1/41 (2%)
+
+Query  1    VAINGDGFFMVSDDGGLTNYLTRSGDFKLDAYGNFVNNAGF  41
+            VAING GFF V    G   Y TR G F+LD  G  V N+G+
+Sbjct  95   VAINGPGFFQVQLPDGNIAY-TRDGSFQLDQNGQLVTNSGY  134
+
+
+ Score = 42.6 bits (98),  Expect = 0.007, Method: Composition-based stats.
+ Identities = 26/162 (16%), Positives = 45/162 (28%), Gaps = 7/162 (4%)
+
+Query  137  TEKGVDAGSLFNAKGQGLNLRDGQGIW-VSYADATYSTNKVGVNAFDPNLQQNQTAAFWG  195
+            TEK    G+L           +G G + V   D   +  + G    D N Q    + +  
+Sbjct  77   TEKIYSQGNLSKTDSSKDVAINGPGFFQVQLPDGNIAYTRDGSFQLDQNGQLVTNSGYPI  136
+
+Query  196  TANQ-----KVNLDITLNGVR-IQNADIQSIDDAIAYINTFTAPTDTRDGTGVKAVKNKD  249
+                      +N++I  +G+  +                         +  G    +   
+Sbjct  137  IPEINIPPNSINMNIGRDGIVSVTIQGQTQPISIGQLNLINFVNHSGLESLGENLYQETQ  196
+
+Query  250  GSGIDFVNDNADGTTDNMKNINLVVANTNTAGELWNAVWNNN  291
+             SG           T  +    +  +N N A EL N +    
+Sbjct  197  ASGNPIDTTPGLNGTGLLYQGYVETSNVNVAEELVNMIQTQR  238
+
+
+> sp|P0A1J3|FLGG_SALTY Flagellar basal-body rod protein FlgG OS=Salmonella 
+typhimurium (strain LT2 / SGSC1412 / ATCC 700720) 
+OX=99287 GN=flgG PE=1 SV=1
+Length=260
+
+ Score = 91.2 bits (224),  Expect = 5e-19, Method: Composition-based stats.
+ Identities = 35/221 (16%), Positives = 72/221 (33%), Gaps = 16/221 (7%)
+
+Query  512  PLVIGNQIKESEQLKLSAFSAGLEIYDSLGSKH------TLEVQFVKQSTTQDGGNEWQM  565
+             L I     +++Q  +   +  L    + G K        L  Q ++Q   Q    +  +
+Sbjct  4    SLWIAKTGLDAQQTNMDVIANNLANVSTNGFKRQRAVFEDLLYQTIRQPGAQS-SEQTTL  62
+
+Query  566  IIRVPEPAEINTTGEGPNNIIVGTARFNNDGSLASYTPRTINFSPNNGAAPNQQIKLSFG  625
+               +     +        +     ++ NN   +A            +G +       ++ 
+Sbjct  63   PSGLQIGTGVRPVATERLHSQGNLSQTNNSKDVAIKGQGFFQVMLPDGTS-------AYT  115
+
+Query  626  TSGSNDGLVSSNSASTLTGQATDGYTSGNLKPDAIRVDDKGNI-LGEFTNGKTFAVAKIA  684
+              GS   +  +    T  G       +      +I +   G + + +        V ++ 
+Sbjct  116  RDGSFQ-VDQNGQLVTAGGFQVQPAITIPANALSITIGRDGVVSVTQQGQAAPVQVGQLN  174
+
+Query  685  MASVANNSGLEEIGGNLFKVTANSGNIVVGEAGTGGRGEMK  725
+            + +  N++GLE IG NL+  T +SG       G  G G + 
+Sbjct  175  LTTFMNDTGLESIGENLYIETQSSGAPNESTPGLNGAGLLY  215
+
+
+ Score = 53.0 bits (125),  Expect = 3e-06, Method: Composition-based stats.
+ Identities = 21/44 (48%), Positives = 24/44 (55%), Gaps = 1/44 (2%)
+
+Query  1    VAINGDGFFMVSDDGGLTNYLTRSGDFKLDAYGNFVNNAGFVVQ  44
+            VAI G GFF V    G T+  TR G F++D  G  V   GF VQ
+Sbjct  95   VAIKGQGFFQVMLPDG-TSAYTRDGSFQVDQNGQLVTAGGFQVQ  137
+
+
+> sp|P0A1J4|FLGG_SALTI Flagellar basal-body rod protein FlgG OS=Salmonella 
+typhi OX=90370 GN=flgG PE=3 SV=1
+Length=260
+
+ Score = 91.2 bits (224),  Expect = 5e-19, Method: Composition-based stats.
+ Identities = 35/221 (16%), Positives = 72/221 (33%), Gaps = 16/221 (7%)
+
+Query  512  PLVIGNQIKESEQLKLSAFSAGLEIYDSLGSKH------TLEVQFVKQSTTQDGGNEWQM  565
+             L I     +++Q  +   +  L    + G K        L  Q ++Q   Q    +  +
+Sbjct  4    SLWIAKTGLDAQQTNMDVIANNLANVSTNGFKRQRAVFEDLLYQTIRQPGAQS-SEQTTL  62
+
+Query  566  IIRVPEPAEINTTGEGPNNIIVGTARFNNDGSLASYTPRTINFSPNNGAAPNQQIKLSFG  625
+               +     +        +     ++ NN   +A            +G +       ++ 
+Sbjct  63   PSGLQIGTGVRPVATERLHSQGNLSQTNNSKDVAIKGQGFFQVMLPDGTS-------AYT  115
+
+Query  626  TSGSNDGLVSSNSASTLTGQATDGYTSGNLKPDAIRVDDKGNI-LGEFTNGKTFAVAKIA  684
+              GS   +  +    T  G       +      +I +   G + + +        V ++ 
+Sbjct  116  RDGSFQ-VDQNGQLVTAGGFQVQPAITIPANALSITIGRDGVVSVTQQGQAAPVQVGQLN  174
+
+Query  685  MASVANNSGLEEIGGNLFKVTANSGNIVVGEAGTGGRGEMK  725
+            + +  N++GLE IG NL+  T +SG       G  G G + 
+Sbjct  175  LTTFMNDTGLESIGENLYIETQSSGAPNESTPGLNGAGLLY  215
+
+
+ Score = 53.0 bits (125),  Expect = 3e-06, Method: Composition-based stats.
+ Identities = 21/44 (48%), Positives = 24/44 (55%), Gaps = 1/44 (2%)
+
+Query  1    VAINGDGFFMVSDDGGLTNYLTRSGDFKLDAYGNFVNNAGFVVQ  44
+            VAI G GFF V    G T+  TR G F++D  G  V   GF VQ
+Sbjct  95   VAIKGQGFFQVMLPDG-TSAYTRDGSFQVDQNGQLVTAGGFQVQ  137
+
+
+> sp|P0ABX5|FLGG_ECOLI Flagellar basal-body rod protein FlgG OS=Escherichia 
+coli (strain K12) OX=83333 GN=flgG PE=3 SV=1
+Length=260
+
+ Score = 90.4 bits (222),  Expect = 8e-19, Method: Composition-based stats.
+ Identities = 35/221 (16%), Positives = 73/221 (33%), Gaps = 16/221 (7%)
+
+Query  512  PLVIGNQIKESEQLKLSAFSAGLEIYDSLGSKH------TLEVQFVKQSTTQDGGNEWQM  565
+             L I     +++Q  +   +  L    + G K        L  Q ++Q   Q    +  +
+Sbjct  4    SLWIAKTGLDAQQTNMDVIANNLANVSTNGFKRQRAVFEDLLYQTIRQPGAQS-SEQTTL  62
+
+Query  566  IIRVPEPAEINTTGEGPNNIIVGTARFNNDGSLASYTPRTINFSPNNGAAPNQQIKLSFG  625
+               +     +        +     ++ NN   +A            +G++       ++ 
+Sbjct  63   PSGLQIGTGVRPVATERLHSQGNLSQTNNSKDVAIKGQGFFQVMLPDGSS-------AYT  115
+
+Query  626  TSGSNDGLVSSNSASTLTGQATDGYTSGNLKPDAIRVDDKGNI-LGEFTNGKTFAVAKIA  684
+              GS   +  +    T  G       +      +I +   G + + +        V ++ 
+Sbjct  116  RDGSFQ-VDQNGQLVTAGGFQVQPAITIPANALSITIGRDGVVSVTQQGQAAPVQVGQLN  174
+
+Query  685  MASVANNSGLEEIGGNLFKVTANSGNIVVGEAGTGGRGEMK  725
+            + +  N++GLE IG NL+  T +SG       G  G G + 
+Sbjct  175  LTTFMNDTGLESIGENLYTETQSSGAPNESTPGLNGAGLLY  215
+
+
+ Score = 52.3 bits (123),  Expect = 5e-06, Method: Composition-based stats.
+ Identities = 20/44 (45%), Positives = 23/44 (52%), Gaps = 1/44 (2%)
+
+Query  1    VAINGDGFFMVSDDGGLTNYLTRSGDFKLDAYGNFVNNAGFVVQ  44
+            VAI G GFF V    G  +  TR G F++D  G  V   GF VQ
+Sbjct  95   VAIKGQGFFQVMLPDGS-SAYTRDGSFQVDQNGQLVTAGGFQVQ  137
+
+
+> sp|P0ABX6|FLGG_ECOL6 Flagellar basal-body rod protein FlgG OS=Escherichia 
+coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC) 
+OX=199310 GN=flgG PE=3 SV=1
+Length=260
+
+ Score = 90.4 bits (222),  Expect = 8e-19, Method: Composition-based stats.
+ Identities = 35/221 (16%), Positives = 73/221 (33%), Gaps = 16/221 (7%)
+
+Query  512  PLVIGNQIKESEQLKLSAFSAGLEIYDSLGSKH------TLEVQFVKQSTTQDGGNEWQM  565
+             L I     +++Q  +   +  L    + G K        L  Q ++Q   Q    +  +
+Sbjct  4    SLWIAKTGLDAQQTNMDVIANNLANVSTNGFKRQRAVFEDLLYQTIRQPGAQS-SEQTTL  62
+
+Query  566  IIRVPEPAEINTTGEGPNNIIVGTARFNNDGSLASYTPRTINFSPNNGAAPNQQIKLSFG  625
+               +     +        +     ++ NN   +A            +G++       ++ 
+Sbjct  63   PSGLQIGTGVRPVATERLHSQGNLSQTNNSKDVAIKGQGFFQVMLPDGSS-------AYT  115
+
+Query  626  TSGSNDGLVSSNSASTLTGQATDGYTSGNLKPDAIRVDDKGNI-LGEFTNGKTFAVAKIA  684
+              GS   +  +    T  G       +      +I +   G + + +        V ++ 
+Sbjct  116  RDGSFQ-VDQNGQLVTAGGFQVQPAITIPANALSITIGRDGVVSVTQQGQAAPVQVGQLN  174
+
+Query  685  MASVANNSGLEEIGGNLFKVTANSGNIVVGEAGTGGRGEMK  725
+            + +  N++GLE IG NL+  T +SG       G  G G + 
+Sbjct  175  LTTFMNDTGLESIGENLYTETQSSGAPNESTPGLNGAGLLY  215
+
+
+ Score = 52.3 bits (123),  Expect = 5e-06, Method: Composition-based stats.
+ Identities = 20/44 (45%), Positives = 23/44 (52%), Gaps = 1/44 (2%)
+
+Query  1    VAINGDGFFMVSDDGGLTNYLTRSGDFKLDAYGNFVNNAGFVVQ  44
+            VAI G GFF V    G  +  TR G F++D  G  V   GF VQ
+Sbjct  95   VAIKGQGFFQVMLPDGS-SAYTRDGSFQVDQNGQLVTAGGFQVQ  137
+
+
+> sp|P0ABX7|FLGG_ECO57 Flagellar basal-body rod protein FlgG OS=Escherichia 
+coli O157:H7 OX=83334 GN=flgG PE=3 SV=1
+Length=260
+
+ Score = 90.4 bits (222),  Expect = 8e-19, Method: Composition-based stats.
+ Identities = 35/221 (16%), Positives = 73/221 (33%), Gaps = 16/221 (7%)
+
+Query  512  PLVIGNQIKESEQLKLSAFSAGLEIYDSLGSKH------TLEVQFVKQSTTQDGGNEWQM  565
+             L I     +++Q  +   +  L    + G K        L  Q ++Q   Q    +  +
+Sbjct  4    SLWIAKTGLDAQQTNMDVIANNLANVSTNGFKRQRAVFEDLLYQTIRQPGAQS-SEQTTL  62
+
+Query  566  IIRVPEPAEINTTGEGPNNIIVGTARFNNDGSLASYTPRTINFSPNNGAAPNQQIKLSFG  625
+               +     +        +     ++ NN   +A            +G++       ++ 
+Sbjct  63   PSGLQIGTGVRPVATERLHSQGNLSQTNNSKDVAIKGQGFFQVMLPDGSS-------AYT  115
+
+Query  626  TSGSNDGLVSSNSASTLTGQATDGYTSGNLKPDAIRVDDKGNI-LGEFTNGKTFAVAKIA  684
+              GS   +  +    T  G       +      +I +   G + + +        V ++ 
+Sbjct  116  RDGSFQ-VDQNGQLVTAGGFQVQPAITIPANALSITIGRDGVVSVTQQGQAAPVQVGQLN  174
+
+Query  685  MASVANNSGLEEIGGNLFKVTANSGNIVVGEAGTGGRGEMK  725
+            + +  N++GLE IG NL+  T +SG       G  G G + 
+Sbjct  175  LTTFMNDTGLESIGENLYTETQSSGAPNESTPGLNGAGLLY  215
+
+
+ Score = 52.3 bits (123),  Expect = 5e-06, Method: Composition-based stats.
+ Identities = 20/44 (45%), Positives = 23/44 (52%), Gaps = 1/44 (2%)
+
+Query  1    VAINGDGFFMVSDDGGLTNYLTRSGDFKLDAYGNFVNNAGFVVQ  44
+            VAI G GFF V    G  +  TR G F++D  G  V   GF VQ
+Sbjct  95   VAIKGQGFFQVMLPDGS-SAYTRDGSFQVDQNGQLVTAGGFQVQ  137
+
+
+> sp|Q89AH7|FLGG_BUCBP Flagellar basal-body rod protein FlgG OS=Buchnera 
+aphidicola subsp. Baizongia pistaciae (strain Bp) 
+OX=224915 GN=flgG PE=3 SV=1
+Length=260
+
+ Score = 90.4 bits (222),  Expect = 9e-19, Method: Composition-based stats.
+ Identities = 38/222 (17%), Positives = 75/222 (34%), Gaps = 16/222 (7%)
+
+Query  511  GPLVIGNQIKESEQLKLSAFSAGLEIYDSLGSKH------TLEVQFVKQSTTQDGGNEWQ  564
+              L I     +++Q+ ++  +  L   ++ G K        L    V+Q  ++    E  
+Sbjct  3    PALWIAKTGLDAQQINMNVIANNLANVNTNGFKRSKAIFEDLIYHTVQQPGSKS-SEETI  61
+
+Query  565  MIIRVPEPAEINTTGEGPNNIIVGTARFNNDGSLASYTPRTINFSPNNGAAPNQQIKLSF  624
+                      +        +     ++ N+   +A            +G         ++
+Sbjct  62   SPSGFQLGTGVRPITTEREHSQGNLSKTNSLKDVAINGNGFFQVQLPDG-------NAAY  114
+
+Query  625  GTSGSNDGLVSSNSASTLTGQATDGYTSGNLKPDAIRVDDKGNI-LGEFTNGKTFAVAKI  683
+               GS   +  +    T  G       +     + + V   G I +      +   V K+
+Sbjct  115  TRDGSFQ-INPNGQLVTNNGFLIQPVINFPANGNNMSVSRDGIITVRIPEQTQPIRVGKL  173
+
+Query  684  AMASVANNSGLEEIGGNLFKVTANSGNIVVGEAGTGGRGEMK  725
+             +A+  N+SGL  IG NL++ T  SGN  +   G+ G G + 
+Sbjct  174  YLANFVNDSGLSNIGENLYQETEASGNPSISSPGSHGTGLLY  215
+
+
+ Score = 49.2 bits (115),  Expect = 5e-05, Method: Composition-based stats.
+ Identities = 24/87 (28%), Positives = 37/87 (43%), Gaps = 1/87 (1%)
+
+Query  1    VAINGDGFFMVSDDGGLTNYLTRSGDFKLDAYGNFVNNAGFVVQGWNINWDDQTIDSSRT  60
+            VAING+GFF V    G   Y TR G F+++  G  V N GF++Q       +    S   
+Sbjct  95   VAINGNGFFQVQLPDGNAAY-TRDGSFQINPNGQLVTNNGFLIQPVINFPANGNNMSVSR  153
+
+Query  61   PQNIFIDPGMHIPAAKSTEVAIKANLN  87
+               I +         +  ++ +   +N
+Sbjct  154  DGIITVRIPEQTQPIRVGKLYLANFVN  180
+
+
+ Score = 42.6 bits (98),  Expect = 0.007, Method: Composition-based stats.
+ Identities = 25/162 (15%), Positives = 48/162 (30%), Gaps = 7/162 (4%)
+
+Query  137  TEKGVDAGSLFNAKGQGLNLRDGQGIW-VSYADATYSTNKVGVNAFDPNLQQNQTAAFWG  195
+            TE+    G+L           +G G + V   D   +  + G    +PN Q      F  
+Sbjct  77   TEREHSQGNLSKTNSLKDVAINGNGFFQVQLPDGNAAYTRDGSFQINPNGQLVTNNGFLI  136
+
+Query  196  TANQKV-----NLDITLNGVR-IQNADIQSIDDAIAYINTFTAPTDTRDGTGVKAVKNKD  249
+                       N+ ++ +G+  ++  +                        G    +  +
+Sbjct  137  QPVINFPANGNNMSVSRDGIITVRIPEQTQPIRVGKLYLANFVNDSGLSNIGENLYQETE  196
+
+Query  250  GSGIDFVNDNADGTTDNMKNINLVVANTNTAGELWNAVWNNN  291
+             SG   ++      T  +    +  +N N A EL N +    
+Sbjct  197  ASGNPSISSPGSHGTGLLYQSYVETSNVNIAEELVNMIQAQR  238
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.113    0.259    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0345    0.140     1.90     42.6     43.6 
+
+Effective search space used: 79580703416
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 28, 2021  3:44 PM
+  Number of letters in database: 202,799,066
+  Number of sequences in database:  563,082
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

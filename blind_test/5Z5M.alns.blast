@@ -1,0 +1,2996 @@
+PSIBLAST 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           563,082 sequences; 202,799,066 total letters
+
+Results from round 1
+
+
+Query= 5Z5M
+
+Length=273
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|Q8YFU1|HIUH_BRUME 5-hydroxyisourate hydrolase OS=Brucella me...  120     3e-33
+  sp|Q8G228|HIUH_BRUSU 5-hydroxyisourate hydrolase OS=Brucella su...  120     5e-33
+  sp|Q9I3J5|HIUH_PSEAE 5-hydroxyisourate hydrolase OS=Pseudomonas...  109     5e-29
+  sp|Q92UG5|HIUH2_RHIME 5-hydroxyisourate hydrolase 2 OS=Rhizobiu...  107     3e-28
+  sp|Q92VB9|HIUH1_RHIME 5-hydroxyisourate hydrolase 1 OS=Rhizobiu...  104     4e-27
+  sp|Q98CI7|HIUH_RHILO 5-hydroxyisourate hydrolase OS=Mesorhizobi...  101     6e-26
+  sp|D4GPU8|URAD_HALVD 2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazol...  102     8e-26
+  sp|O32142|HIUH_BACSU 5-hydroxyisourate hydrolase OS=Bacillus su...  100     1e-25
+  sp|Q9KET9|HIUH_BACHD 5-hydroxyisourate hydrolase OS=Bacillus ha...  97.8    2e-24
+  sp|Q8XXJ7|HIUH_RALSO 5-hydroxyisourate hydrolase OS=Ralstonia s...  95.9    1e-23
+  sp|D8JBB8|URAD_HALJB 2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazol...  94.7    1e-22
+  sp|Q9RV69|HIUH_DEIRA 5-hydroxyisourate hydrolase OS=Deinococcus...  93.2    1e-22
+  sp|Q9A545|HIUH_CAUVC 5-hydroxyisourate hydrolase OS=Caulobacter...  89.4    3e-21
+  sp|Q06S87|HIUH_DANRE 5-hydroxyisourate hydrolase OS=Danio rerio...  83.2    1e-18
+  sp|O32141|PUCL_BACSU Uric acid degradation bifunctional protein...  85.5    1e-17
+  sp|Q45697|PUCL_BACSB Uric acid degradation bifunctional protein...  84.7    2e-17
+  sp|Q9CRB3|HIUH_MOUSE 5-hydroxyisourate hydrolase OS=Mus musculu...  69.7    7e-14
+  sp|P76341|HIUH_ECOLI 5-hydroxyisourate hydrolase OS=Escherichia...  69.7    1e-13
+  sp|Q8XB75|HIUH_ECO57 5-hydroxyisourate hydrolase OS=Escherichia...  69.3    2e-13
+  sp|Q8ZQ52|HIUH_SALTY 5-hydroxyisourate hydrolase OS=Salmonella ...  66.6    2e-12
+  sp|Q8Z7Q6|HIUH_SALTI 5-hydroxyisourate hydrolase OS=Salmonella ...  66.6    2e-12
+  sp|Q4VYA5|HIUH_SALDU 5-hydroxyisourate hydrolase OS=Salmonella ...  66.6    2e-12
+  sp|O44578|HIUH2_CAEEL Probable 5-hydroxyisourate hydrolase ZK69...  64.7    9e-12
+  sp|O74492|HIUH_SCHPO Probable 5-hydroxyisourate hydrolase OS=Sc...  62.8    3e-11
+  sp|Q21882|HIUH1_CAEEL Probable 5-hydroxyisourate hydrolase R09H...  62.4    5e-11
+  sp|Q9LVM5|TTHL_ARATH Uric acid degradation bifunctional protein...  64.7    8e-11
+  sp|Q283N4|URAD_MOUSE 2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazol...  56.2    2e-08
+  sp|Q0ZDF7|URAD_AMICA 2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazol...  55.1    5e-08
+  sp|A5PJD0|URAD_BOVIN 2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazol...  51.2    1e-06
+  sp|A1L259|URAD_DANRE 2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazol...  48.1    1e-05
+  sp|A6NGE7|URAD_HUMAN Putative 2-oxo-4-hydroxy-4-carboxy-5-ureid...  45.8    6e-05
+  sp|A1L1C5|URAD_XENLA 2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazol...  45.8    8e-05
+  sp|P31779|TTHY_LITCT Transthyretin OS=Lithobates catesbeianus O...  42.4    8e-04
+
+
+> sp|Q8YFU1|HIUH_BRUME 5-hydroxyisourate hydrolase OS=Brucella 
+melitensis biotype 1 (strain 16M / ATCC 23456 / NCTC 10094) 
+OX=224914 GN=BMEI1429 PE=3 SV=2
+Length=118
+
+ Score = 120 bits (302),  Expect = 3e-33, Method: Compositional matrix adjust.
+ Identities = 60/120 (50%), Positives = 75/120 (63%), Gaps = 2/120 (2%)
+
+Query  154  QGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLVGEFVTNDDGRLEGGPALKGGKEFT  213
+             G L+ HVLDT +G PA  MR+ L+R++      L+   VTN DGR +    L  G E  
+Sbjct  1    MGKLSTHVLDTAHGTPAAAMRVELYRIAASGTPELLKRVVTNLDGRTDA--PLLSGDEMR  58
+
+Query  214  VGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNPDDHYHVPLLVSPWSFSTYRGS  273
+             G YE  F   EYF  +G   + +PFLD IP+RFGI + D +YHVPLLVSPWS+STYRGS
+Sbjct  59   TGIYELQFHVAEYFEGRGAELAHEPFLDLIPIRFGIADEDGNYHVPLLVSPWSYSTYRGS  118
+
+
+> sp|Q8G228|HIUH_BRUSU 5-hydroxyisourate hydrolase OS=Brucella 
+suis biovar 1 (strain 1330) OX=204722 GN=BR0508 PE=3 SV=1
+Length=118
+
+ Score = 120 bits (300),  Expect = 5e-33, Method: Compositional matrix adjust.
+ Identities = 62/120 (52%), Positives = 77/120 (64%), Gaps = 2/120 (2%)
+
+Query  154  QGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLVGEFVTNDDGRLEGGPALKGGKEFT  213
+             G L+ HVLDT +G PA  MR+ L+R++      L+   VTN DGR +  P L G K  T
+Sbjct  1    MGKLSTHVLDTAHGTPAAAMRVELYRIAASGTPELLKRVVTNLDGRTDA-PLLSGDKMRT  59
+
+Query  214  VGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNPDDHYHVPLLVSPWSFSTYRGS  273
+             G YE  F   EYF  +G   + +PFLD IP+RFGI + D +YHVPLLVSPWS+STYRGS
+Sbjct  60   -GIYELQFHVAEYFEGRGAELAHEPFLDLIPIRFGIADEDGNYHVPLLVSPWSYSTYRGS  118
+
+
+> sp|Q9I3J5|HIUH_PSEAE 5-hydroxyisourate hydrolase OS=Pseudomonas 
+aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 / 
+JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1) OX=208964 GN=PA1518 
+PE=3 SV=1
+Length=126
+
+ Score = 109 bits (273),  Expect = 5e-29, Method: Compositional matrix adjust.
+ Identities = 55/119 (46%), Positives = 79/119 (66%), Gaps = 3/119 (3%)
+
+Query  155  GFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLVGEFVTNDDGRLEGGPALKGGKEFTV  214
+            G LT HVLD+ +GCP   ++I L+R+   ++  L+   +TN DGR +  P L+G ++F  
+Sbjct  11   GRLTTHVLDSAHGCPGHGIKIELYRVEGQQLE-LIATTLTNHDGRCDQ-PVLQG-EDFRP  67
+
+Query  215  GQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNPDDHYHVPLLVSPWSFSTYRGS  273
+            G Y+  F  G+Y+ ++G       FLD + LRFGI + DDHYHVPLL+SP+S+STYRGS
+Sbjct  68   GVYQLVFNAGDYYRARGVQLPEPAFLDQVVLRFGIASADDHYHVPLLISPYSYSTYRGS  126
+
+
+> sp|Q92UG5|HIUH2_RHIME 5-hydroxyisourate hydrolase 2 OS=Rhizobium 
+meliloti (strain 1021) OX=266834 GN=RB1166 PE=3 SV=2
+Length=120
+
+ Score = 107 bits (268),  Expect = 3e-28, Method: Compositional matrix adjust.
+ Identities = 58/120 (48%), Positives = 72/120 (60%), Gaps = 3/120 (3%)
+
+Query  154  QGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLVGEFVTNDDGRLEGGPALKGGKEFT  213
+             G LT HVLDT  G PA  ++I L+RL   +   L+    TN DGR++G   L  G  F 
+Sbjct  4    SGRLTTHVLDTALGRPAHGLKIDLYRLEG-DARHLIRTVHTNSDGRVDG--PLMEGAGFA  60
+
+Query  214  VGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNPDDHYHVPLLVSPWSFSTYRGS  273
+             G YE  F  G+YF S G       FL+ +PLRFGI + D HYHVPLL+SP+ +STYRGS
+Sbjct  61   TGTYELVFHAGDYFRSAGVKLPDPAFLELVPLRFGIADADSHYHVPLLLSPYGYSTYRGS  120
+
+
+> sp|Q92VB9|HIUH1_RHIME 5-hydroxyisourate hydrolase 1 OS=Rhizobium 
+meliloti (strain 1021) OX=266834 GN=RB0789 PE=3 SV=1
+Length=123
+
+ Score = 104 bits (260),  Expect = 4e-27, Method: Compositional matrix adjust.
+ Identities = 57/119 (48%), Positives = 69/119 (58%), Gaps = 4/119 (3%)
+
+Query  155  GFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLVGEFVTNDDGRLEGGPALKGGKEFTV  214
+            G LT HVLDT +G PA  +RI L+R+   E   L+    TNDDGR +    L  G     
+Sbjct  9    GRLTTHVLDTASGRPASNLRIDLYRIEG-ERPELLSSTRTNDDGRCDA--PLLNGSTMET  65
+
+Query  215  GQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNPDDHYHVPLLVSPWSFSTYRGS  273
+            G YE  F  GEY  +        PFLD IP+RFGI +   HYHVPLL+SP+ +STYRGS
+Sbjct  66   GTYELRFHAGEYLGTAAE-RGANPFLDVIPIRFGIADRAAHYHVPLLLSPYGYSTYRGS  123
+
+
+> sp|Q98CI7|HIUH_RHILO 5-hydroxyisourate hydrolase OS=Mesorhizobium 
+japonicum (strain LMG 29417 / CECT 9101 / MAFF 303099) 
+OX=266835 GN=mlr5133 PE=3 SV=1
+Length=124
+
+ Score = 101 bits (252),  Expect = 6e-26, Method: Compositional matrix adjust.
+ Identities = 59/126 (47%), Positives = 73/126 (58%), Gaps = 5/126 (4%)
+
+Query  149  DTSDAQG-FLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLVGEFVTNDDGRLEGGPALK  207
+            +TS A G  LT HVLDT  G PA  + I L+RL       L     TN DGR +   AL 
+Sbjct  3    ETSKADGGRLTTHVLDTATGKPAAGLSIALYRLDGSARTHLK-TVATNADGRCDA--ALL  59
+
+Query  208  GGKEFTVGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNPDDHYHVPLLVSPWSF  267
+             G EF  G+YE  F  G+Y   +GT      FLD++P+RFG+     HYHVPLL+SP+ +
+Sbjct  60   AGAEFRAGEYELVFAAGDYLRGQGTKLPEPAFLDSVPIRFGMAEA-VHYHVPLLISPYGY  118
+
+Query  268  STYRGS  273
+            STYRGS
+Sbjct  119  STYRGS  124
+
+
+> sp|D4GPU8|URAD_HALVD 2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazoline 
+decarboxylase OS=Haloferax volcanii (strain ATCC 29605 
+/ DSM 3757 / JCM 8879 / NBRC 14742 / NCIMB 2012 / VKM B-1768 
+/ DS2) OX=309800 GN=HVO_B0301 PE=3 SV=1
+Length=168
+
+ Score = 102 bits (255),  Expect = 8e-26, Method: Compositional matrix adjust.
+ Identities = 55/149 (37%), Positives = 82/149 (55%), Gaps = 22/149 (15%)
+
+Query  18   LGGIYEHSAWVAEALVKDAESLASIETISQLAAAMKAIVNKSSKDQKLELLCAHPDLCQ-  76
+             G IYEHS WVAE     A S     ++ +L +AMK  V  +S++++L+LL AHPDL + 
+Sbjct  21   FGEIYEHSPWVAER----ARSSRPFSSVDELRSAMKRAVEDASREKQLQLLRAHPDLGER  76
+
+Query  77   -----------------SLTDAELERFNSLNGAYRDQCGFPFILAVRNATKHTVLAALGG  119
+                             SL+ ++ E F  LN  YR++ GFPF++AV++     + AA+  
+Sbjct  77   TEMTDASEAEQASAELDSLSRSQYETFQRLNETYRERFGFPFVMAVKDENPDAIAAAMER  136
+
+Query  120  RVQHTPEQEFMVALEQVHKIAWMRLLSKI  148
+            RV H+   EF  AL++VH IA +RL  + 
+Sbjct  137  RVDHSESTEFRTALDEVHTIAELRLAERF  165
+
+
+> sp|O32142|HIUH_BACSU 5-hydroxyisourate hydrolase OS=Bacillus 
+subtilis (strain 168) OX=224308 GN=pucM PE=1 SV=2
+Length=114
+
+ Score = 100 bits (250),  Expect = 1e-25, Method: Compositional matrix adjust.
+ Identities = 51/119 (43%), Positives = 71/119 (60%), Gaps = 6/119 (5%)
+
+Query  155  GFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLVGEFVTNDDGRLEGGPALKGGKEFTV  214
+            G LT H+LD   G PA  ++I L RL       ++ E  TN+DGR++    L  G+E   
+Sbjct  2    GKLTTHILDLTCGKPAANVKIGLKRLG----ESIMKEVYTNNDGRVD--VPLLAGEELMS  55
+
+Query  215  GQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNPDDHYHVPLLVSPWSFSTYRGS  273
+            G+Y   F  G+YFASK    + QPFL  + +RF + +PD HYH+PLL+SP+ +  YRGS
+Sbjct  56   GEYVMEFHAGDYFASKNMNAADQPFLTIVTVRFQLADPDAHYHIPLLLSPFGYQVYRGS  114
+
+
+> sp|Q9KET9|HIUH_BACHD 5-hydroxyisourate hydrolase OS=Bacillus 
+halodurans (strain ATCC BAA-125 / DSM 18197 / FERM 7344 / JCM 
+9153 / C-125) OX=272558 GN=BH0760 PE=3 SV=1
+Length=119
+
+ Score = 97.8 bits (242),  Expect = 2e-24, Method: Compositional matrix adjust.
+ Identities = 54/119 (45%), Positives = 71/119 (60%), Gaps = 2/119 (2%)
+
+Query  155  GFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLVGEFVTNDDGRLEGGPALKGGKEFTV  214
+            G +T HVLDT  G PA  + + L R+     + L+ + VTN DGRL+  P L   K    
+Sbjct  3    GKVTTHVLDTSCGKPAAGVVVELWRIVEGGESELLTKAVTNQDGRLDK-PLLTENK-MAR  60
+
+Query  215  GQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNPDDHYHVPLLVSPWSFSTYRGS  273
+            G YE  F  G+YF   G      PFL  IP+RFG+++ ++HYHVPLLV+P  +STYRGS
+Sbjct  61   GVYELRFQVGDYFLRNGFVNQAYPFLHVIPVRFGLEDVNEHYHVPLLVAPGGYSTYRGS  119
+
+
+> sp|Q8XXJ7|HIUH_RALSO 5-hydroxyisourate hydrolase OS=Ralstonia 
+solanacearum (strain GMI1000) OX=267608 GN=RSc2116 PE=3 SV=1
+Length=117
+
+ Score = 95.9 bits (237),  Expect = 1e-23, Method: Compositional matrix adjust.
+ Identities = 53/120 (44%), Positives = 68/120 (57%), Gaps = 3/120 (3%)
+
+Query  154  QGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLVGEFVTNDDGRLEGGPALKGGKEFT  213
+             G LT HVLDT  G P + + I L ++    +   +    TN DGR E  P L+G +   
+Sbjct  1    MGRLTTHVLDTAAGTPGKDLAITLFKIVN-NLRQPIKTVRTNHDGRCEA-PLLEG-EALQ  57
+
+Query  214  VGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNPDDHYHVPLLVSPWSFSTYRGS  273
+             G YE  F  G+Y+ + G       FLD + LRFG+ +   HYHVPLLVSPWS+STYRGS
+Sbjct  58   AGIYELDFAVGDYYRAAGVSLPDPAFLDVVTLRFGVADAGAHYHVPLLVSPWSYSTYRGS  117
+
+
+> sp|D8JBB8|URAD_HALJB 2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazoline 
+decarboxylase OS=Halalkalicoccus jeotgali (strain DSM 
+18796 / CECT 7217 / JCM 14584 / KCTC 4019 / B3) OX=795797 GN=HacjB3_16066 
+PE=3 SV=1
+Length=176
+
+ Score = 94.7 bits (234),  Expect = 1e-22, Method: Compositional matrix adjust.
+ Identities = 58/162 (36%), Positives = 84/162 (52%), Gaps = 22/162 (14%)
+
+Query  1    VTVKDLLSKPSAEIASFLGGIYEHSAWVAEALVKDAESLASIETISQLAAAMKAIVNKSS  60
+            +TV+DL           +G +YE S WVA    K   S     +I  L  AM   V  +S
+Sbjct  4    LTVEDLNQADKERFVDAVGDVYEESPWVA----KRTWSEQPFSSIDGLQQAMANTVQDAS  59
+
+Query  61   KDQKLELLCAHPDLCQ--SLTD----------------AELERFNSLNGAYRDQCGFPFI  102
+            + ++LELL AHPDL +   +TD                A+ E F +LN  YRD+ GFPFI
+Sbjct  60   QQKQLELLRAHPDLGERTEMTDESQEEQASAGLDRLPPAQYETFQTLNDTYRDKFGFPFI  119
+
+Query  103  LAVRNATKHTVLAALGGRVQHTPEQEFMVALEQVHKIAWMRL  144
+            +AV++ +  T+  A+  R+ H+  +EF  AL +V+ IA +RL
+Sbjct  120  MAVKDESVGTIQQAMEDRIDHSRSKEFQTALNEVNVIAALRL  161
+
+
+> sp|Q9RV69|HIUH_DEIRA 5-hydroxyisourate hydrolase OS=Deinococcus 
+radiodurans (strain ATCC 13939 / DSM 20539 / JCM 16871 / 
+LMG 4051 / NBRC 15346 / NCIMB 9279 / R1 / VKM B-1422) OX=243230 
+GN=DR_1161 PE=3 SV=1
+Length=119
+
+ Score = 93.2 bits (230),  Expect = 1e-22, Method: Compositional matrix adjust.
+ Identities = 54/118 (46%), Positives = 71/118 (60%), Gaps = 6/118 (5%)
+
+Query  157  LTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLVGEFVTNDDGRLEGGPALKGGKEFTVGQ  216
+            LT HVLDT  G PA  +R+ L R++  +    V E VTN DGR +  P ++ G     G 
+Sbjct  7    LTTHVLDTARGKPAAGVRVQLCRVTG-DTRTPVTEAVTNSDGRTDA-PLIERG-SLKQGT  63
+
+Query  217  YEWTFFCGEYFASKGTFTSGQP-FLDTIPLRFGIDNPDDHYHVPLLVSPWSFSTYRGS  273
+            YE TF   +YF  KG   +  P FLD + LRF + +   HYHVPL+++PWS+STYRGS
+Sbjct  64   YELTFHVADYF--KGFVAAADPPFLDVVTLRFTVGDTSGHYHVPLVMTPWSYSTYRGS  119
+
+
+> sp|Q9A545|HIUH_CAUVC 5-hydroxyisourate hydrolase OS=Caulobacter 
+vibrioides (strain ATCC 19089 / CB15) OX=190650 GN=CC_2620 
+PE=3 SV=1
+Length=115
+
+ Score = 89.4 bits (220),  Expect = 3e-21, Method: Compositional matrix adjust.
+ Identities = 47/117 (40%), Positives = 65/117 (56%), Gaps = 5/117 (4%)
+
+Query  157  LTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLVGEFVTNDDGRLEGGPALKGGKEFTVGQ  216
+            LT H+LD  +G PA  + + + R    E    + E  T+ DGR      L  G++  VG 
+Sbjct  4    LTTHILDQASGKPAAGVGVRVSRRDG-EQTQWLAELRTDADGRAR----LVAGEDLAVGG  58
+
+Query  217  YEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNPDDHYHVPLLVSPWSFSTYRGS  273
+            Y   F  G++F + G   S  PFLD + + F + N D H+HVPLLVSP+ +STYRGS
+Sbjct  59   YRLEFAIGDHFKASGLPVSDPPFLDVVVIDFAVSNLDQHWHVPLLVSPYGYSTYRGS  115
+
+
+> sp|Q06S87|HIUH_DANRE 5-hydroxyisourate hydrolase OS=Danio rerio 
+OX=7955 GN=urah PE=1 SV=1
+Length=138
+
+ Score = 83.2 bits (204),  Expect = 1e-18, Method: Compositional matrix adjust.
+ Identities = 49/118 (42%), Positives = 66/118 (56%), Gaps = 8/118 (7%)
+
+Query  157  LTCHVLDTGNGCPAEKMRIHLHRLSPPEMA-GLVGEFVTNDDGRLEGGPALKGGKEFTVG  215
+            L+ HVL+   G P   M I LHRL P   A  ++   +TNDDGR    P L   + F  G
+Sbjct  28   LSTHVLNIAQGVPGANMTIVLHRLDPVSSAWNILTTGITNDDGRC---PGLITKENFIAG  84
+
+Query  216  QYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNPDDHYHVPLLVSPWSFSTYRGS  273
+             Y+  F  G+Y+ + G  T   P+++ +   F I N   HYHVPLL+S +S+STYRGS
+Sbjct  85   VYKMRFETGKYWDALGE-TCFYPYVEIV---FTITNTSQHYHVPLLLSRFSYSTYRGS  138
+
+
+> sp|O32141|PUCL_BACSU Uric acid degradation bifunctional protein 
+PucL OS=Bacillus subtilis (strain 168) OX=224308 GN=pucL 
+PE=1 SV=1
+Length=494
+
+ Score = 85.5 bits (210),  Expect = 1e-17, Method: Compositional matrix adjust.
+ Identities = 53/161 (33%), Positives = 78/161 (48%), Gaps = 22/161 (14%)
+
+Query  2    TVKDLLSKPSAEIASFLGGIYEHSAWVAEALVKDAESLASIETISQLAAAMKAIVNKSSK  61
+            T+ DL    +  +   LG I+EHS+W+AE     + +L    ++S L   M  IV  + +
+Sbjct  3    TMDDLNQMDTQTLTDTLGSIFEHSSWIAER----SAALRPFSSLSDLHRKMTGIVKAADR  58
+
+Query  62   DQKLELLCAHPDL------------------CQSLTDAELERFNSLNGAYRDQCGFPFIL  103
+            + +L+L+  HP L                     L   E E F  LN  Y D+ GFPFIL
+Sbjct  59   ETQLDLIKKHPRLGTKKTMSDDSVREQQNAGLGKLEQQEYEEFLMLNEHYYDRFGFPFIL  118
+
+Query  104  AVRNATKHTVLAALGGRVQHTPEQEFMVALEQVHKIAWMRL  144
+            AV+  TK  +  AL  R++   E EF  AL ++++IA  RL
+Sbjct  119  AVKGKTKQDIHQALLARLESERETEFQQALIEIYRIARFRL  159
+
+
+> sp|Q45697|PUCL_BACSB Uric acid degradation bifunctional protein 
+OS=Bacillus sp. (strain TB-90) OX=36824 GN=uao PE=1 SV=3
+Length=502
+
+ Score = 84.7 bits (208),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 51/160 (32%), Positives = 76/160 (48%), Gaps = 22/160 (14%)
+
+Query  3    VKDLLSKPSAEIASFLGGIYEHSAWVAEALVKDAESLASIETISQLAAAMKAIVNKSSKD  62
+            +K L    ++E    LGG++E+S+WVAE     AE      +   L   M  IV  +S +
+Sbjct  4    LKQLNEMSASEFIHLLGGVFENSSWVAER----AEPNRPYSSFQSLYNKMVEIVETASDN  59
+
+Query  63   QKLELLCAHPDL------------------CQSLTDAELERFNSLNGAYRDQCGFPFILA  104
+            ++L+L+  HP L                     LT  E      LN  Y+D+ GFPF++A
+Sbjct  60   EQLKLIQMHPHLGTNVKITDFSQEEQKHAGLNELTKDEQNHLILLNQKYKDKFGFPFVMA  119
+
+Query  105  VRNATKHTVLAALGGRVQHTPEQEFMVALEQVHKIAWMRL  144
+            VR   K  +   +  R+Q+  + EF  ALE++ KIA  RL
+Sbjct  120  VRGKIKQEIFRTIKERLQNNHQTEFKQALEEIKKIAMFRL  159
+
+
+> sp|Q9CRB3|HIUH_MOUSE 5-hydroxyisourate hydrolase OS=Mus musculus 
+OX=10090 GN=Urah PE=1 SV=1
+Length=118
+
+ Score = 69.7 bits (169),  Expect = 7e-14, Method: Compositional matrix adjust.
+ Identities = 44/118 (37%), Positives = 62/118 (53%), Gaps = 8/118 (7%)
+
+Query  157  LTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGL-VGEFVTNDDGRLEGGPALKGGKEFTVG  215
+            LT HVLDT +G PA+ + + L RL  P    + +    TN DGR    P L    +   G
+Sbjct  8    LTTHVLDTASGLPAQGLCLRLSRLEAPCQQWMELRTSYTNLDGRC---PGLLTPSQIKPG  64
+
+Query  216  QYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNPDDHYHVPLLVSPWSFSTYRGS  273
+             Y+  F    Y+  +G   S  P+++ +   F I      +HVPLL+SPWS++TYRGS
+Sbjct  65   TYKLFFDTERYWKERGQ-ESFYPYVEVV---FTITKETQKFHVPLLLSPWSYTTYRGS  118
+
+
+> sp|P76341|HIUH_ECOLI 5-hydroxyisourate hydrolase OS=Escherichia 
+coli (strain K12) OX=83333 GN=hiuH PE=1 SV=1
+Length=137
+
+ Score = 69.7 bits (169),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 41/120 (34%), Positives = 62/120 (52%), Gaps = 8/120 (7%)
+
+Query  154  QGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLVGEFVTNDDGRLEGGPALKGGKEFT  213
+            Q  L+ H+L+   G PA  + + L + +      L     T+ DGR++   AL   +  T
+Sbjct  26   QNILSVHILNQQTGKPAADVTVTLEKKADNGWLQL-NTAKTDKDGRIK---ALWPEQTAT  81
+
+Query  214  VGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNPDDHYHVPLLVSPWSFSTYRGS  273
+             G Y   F  G+YF  +      + F   IP+ F I+  ++HYHVPLL+S + +STYRGS
+Sbjct  82   TGDYRVVFKTGDYFKKQNL----ESFFPEIPVEFHINKVNEHYHVPLLLSQYGYSTYRGS  137
+
+
+> sp|Q8XB75|HIUH_ECO57 5-hydroxyisourate hydrolase OS=Escherichia 
+coli O157:H7 OX=83334 GN=hiuH PE=3 SV=1
+Length=137
+
+ Score = 69.3 bits (168),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 41/120 (34%), Positives = 62/120 (52%), Gaps = 8/120 (7%)
+
+Query  154  QGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLVGEFVTNDDGRLEGGPALKGGKEFT  213
+            Q  L+ H+L+   G PA  + + L + +      L     T+ DGR++   AL   +  T
+Sbjct  26   QNILSVHILNQQTGKPAADVTVTLEKKADNGWLQL-NTAKTDKDGRIK---ALWPEQTAT  81
+
+Query  214  VGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNPDDHYHVPLLVSPWSFSTYRGS  273
+             G Y   F  G+YF  +      + F   IP+ F I+  ++HYHVPLL+S + +STYRGS
+Sbjct  82   TGDYRVVFKTGDYFKKQNL----ESFFPEIPVEFHINKVNEHYHVPLLLSQYGYSTYRGS  137
+
+
+> sp|Q8ZQ52|HIUH_SALTY 5-hydroxyisourate hydrolase OS=Salmonella 
+typhimurium (strain LT2 / SGSC1412 / ATCC 700720) OX=99287 
+GN=hiuH PE=3 SV=1
+Length=136
+
+ Score = 66.6 bits (161),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 45/122 (37%), Positives = 60/122 (49%), Gaps = 10/122 (8%)
+
+Query  153  AQGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGL-VGEFVTNDDGRLEGGPALKGGKE  211
+                L+ H+LD   G PA  + + L +        L  G   T+ DGR++   AL   K 
+Sbjct  24   GNNILSVHILDQQTGKPAPGVEVVLEQKKDNGWTQLNTGH--TDQDGRIK---ALWPEKA  78
+
+Query  212  FTVGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNPDDHYHVPLLVSPWSFSTYR  271
+               G Y   F  G+YF SK   T    F   IP+ F I   ++HYHVPLL+S + +STYR
+Sbjct  79   AAPGDYRVIFKTGQYFESKKLDT----FFPEIPVEFHISKTNEHYHVPLLLSQYGYSTYR  134
+
+Query  272  GS  273
+            GS
+Sbjct  135  GS  136
+
+
+> sp|Q8Z7Q6|HIUH_SALTI 5-hydroxyisourate hydrolase OS=Salmonella 
+typhi OX=90370 GN=hiuH PE=3 SV=1
+Length=136
+
+ Score = 66.6 bits (161),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 45/119 (38%), Positives = 60/119 (50%), Gaps = 10/119 (8%)
+
+Query  156  FLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGL-VGEFVTNDDGRLEGGPALKGGKEFTV  214
+             L+ H+LD   G PA  + + L +        L  G   T+ DGR++   AL   K    
+Sbjct  27   ILSVHILDQQTGKPAPGVEVVLEQKKDNGWTQLNTGH--TDQDGRIK---ALWPEKAAAP  81
+
+Query  215  GQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNPDDHYHVPLLVSPWSFSTYRGS  273
+            G Y   F  G+YF SK   T    F   IP+ F I   ++HYHVPLL+S + +STYRGS
+Sbjct  82   GDYRVIFKTGQYFESKKLDT----FFPEIPVEFHISKTNEHYHVPLLLSQYGYSTYRGS  136
+
+
+> sp|Q4VYA5|HIUH_SALDU 5-hydroxyisourate hydrolase OS=Salmonella 
+dublin OX=98360 GN=hiuH PE=1 SV=1
+Length=136
+
+ Score = 66.6 bits (161),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 45/122 (37%), Positives = 60/122 (49%), Gaps = 10/122 (8%)
+
+Query  153  AQGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGL-VGEFVTNDDGRLEGGPALKGGKE  211
+                L+ H+LD   G PA  + + L +        L  G   T+ DGR++   AL   K 
+Sbjct  24   GNNILSVHILDQQTGKPAPGVEVVLEQKKDNGWTQLNTGH--TDQDGRIK---ALWPEKA  78
+
+Query  212  FTVGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNPDDHYHVPLLVSPWSFSTYR  271
+               G Y   F  G+YF SK   T    F   IP+ F I   ++HYHVPLL+S + +STYR
+Sbjct  79   AAPGDYRVIFKTGQYFESKKLDT----FFPEIPVEFHISKTNEHYHVPLLLSQYGYSTYR  134
+
+Query  272  GS  273
+            GS
+Sbjct  135  GS  136
+
+
+> sp|O44578|HIUH2_CAEEL Probable 5-hydroxyisourate hydrolase ZK697.8 
+OS=Caenorhabditis elegans OX=6239 GN=ZK697.8 PE=3 SV=2
+Length=136
+
+ Score = 64.7 bits (156),  Expect = 9e-12, Method: Compositional matrix adjust.
+ Identities = 44/146 (30%), Positives = 69/146 (47%), Gaps = 12/146 (8%)
+
+Query  130  MVALEQVHKIAWMRLLSKIDTSDAQGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLV  189
+            M+       IA   ++S  + +     ++ HVLD   G PA  ++I    L       + 
+Sbjct  1    MIKFLLFLAIAAATVISNAELAVPTASISAHVLDISGGSPAGGIQILAFILLNNGWTNIG  60
+
+Query  190  GEFVTNDDGRLEGGPALKGGKEFTV--GQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRF  247
+             +F T D+GR++         +FT+  G Y   +    Y+ +K    S  P+++ +   F
+Sbjct  61   SQF-TQDNGRVD-----WVSPDFTLIPGTYRLVYITEPYYTAKNV-ESFYPYVEVV---F  110
+
+Query  248  GIDNPDDHYHVPLLVSPWSFSTYRGS  273
+             I N   HYHVPL +SPW +STYRGS
+Sbjct  111  NIRNATQHYHVPLTLSPWGYSTYRGS  136
+
+
+> sp|O74492|HIUH_SCHPO Probable 5-hydroxyisourate hydrolase OS=Schizosaccharomyces 
+pombe (strain 972 / ATCC 24843) OX=284812 
+GN=SPCC285.04 PE=3 SV=1
+Length=124
+
+ Score = 62.8 bits (151),  Expect = 3e-11, Method: Compositional matrix adjust.
+ Identities = 42/119 (35%), Positives = 64/119 (54%), Gaps = 9/119 (8%)
+
+Query  157  LTCHVLDTGNGCPAEKMRIHLHRL--SPPEMAGLVGEFVTNDDGRLEGGPALKGGKEFTV  214
+            LT H+L+T +G PA  +++ L +L  SP      +    TN +GR+          E   
+Sbjct  13   LTAHILNTMSGIPAAGVQVALFKLNESPTPSQQFIATTETNANGRVTSWNVDLSTVE--S  70
+
+Query  215  GQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNPDDHYHVPLLVSPWSFSTYRGS  273
+            G Y + F  G YF S G  TS  P+++ + +R    N   HYH+PLL++P+ ++TYRGS
+Sbjct  71   GIYTFRFETGAYFDSLGV-TSFYPYVE-MAVRI---NKGQHYHIPLLLAPYGYTTYRGS  124
+
+
+> sp|Q21882|HIUH1_CAEEL Probable 5-hydroxyisourate hydrolase R09H10.3 
+OS=Caenorhabditis elegans OX=6239 GN=R09H10.3 PE=1 SV=2
+Length=135
+
+ Score = 62.4 bits (150),  Expect = 5e-11, Method: Compositional matrix adjust.
+ Identities = 40/132 (30%), Positives = 67/132 (51%), Gaps = 12/132 (9%)
+
+Query  144  LLSKIDTSDAQGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLVGEFVTNDDGRLEGG  203
+            L++  +++     ++ HVLD   G PA  ++I  +     +   +  EF T D+GR++  
+Sbjct  14   LMTITESAVPTASISAHVLDISGGSPAGGVQILAYIQQNDDWTKIGSEF-TQDNGRVDWV  72
+
+Query  204  PALKGGKEFTV--GQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNPDDHYHVPLL  261
+                   +FT+  G Y   +    Y+ +K    S  P+++ +   F I +   HYHVPL 
+Sbjct  73   -----SPDFTLIPGTYRLVYITEPYYKAKNV-ESFYPYVEVV---FNIRDATQHYHVPLT  123
+
+Query  262  VSPWSFSTYRGS  273
+            +SPW +STYRGS
+Sbjct  124  LSPWGYSTYRGS  135
+
+
+> sp|Q9LVM5|TTHL_ARATH Uric acid degradation bifunctional protein 
+TTL OS=Arabidopsis thaliana OX=3702 GN=TTL PE=1 SV=1
+Length=324
+
+ Score = 64.7 bits (156),  Expect = 8e-11, Method: Compositional matrix adjust.
+ Identities = 63/240 (26%), Positives = 95/240 (40%), Gaps = 57/240 (24%)
+
+Query  83   LERFNSLNGAYRDQCGFPFILAVRNATKHTVLAALGGRVQHTPEQEFMVALEQVHKIAWM  142
+            L+     N  Y+ + GF FI+     T   +L AL  R ++ P  E  +A  +  KI  +
+Sbjct  93   LQELAEWNVLYKKKFGFIFIICASGRTHAEMLHALKERYENRPIVELEIAAMEQMKITEL  152
+
+Query  143  RL----------LSKIDTSDA-----------------------------QGFLTCHVLD  163
+            R+          +S+ D+S +                             +  +T HVLD
+Sbjct  153  RMAKLFSDKAKVISETDSSSSPVSTKPQDRLRIIGGHLNVAAEAKAPKRSRPPITTHVLD  212
+
+Query  164  TGNGCPAEKMRIHLHRLSPPEMAGLVGEF----------VTNDDGRLEGGPALKGGKEFT  213
+               G PA  + +HL   S       V              T+ DGR   GP +       
+Sbjct  213  VSRGAPAAGVEVHLEVWSGTTGPSFVHGGGGVWSSVGTSATDRDGR--SGPLMDLVDALN  270
+
+Query  214  VGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNPDDHYHVPLLVSPWSFSTYRGS  273
+             G Y  +F   +Y  S G F    P++ +I  +       +H+HVPLL++P+SFSTYRGS
+Sbjct  271  PGTYRISFDTAKY--SPGCFF---PYV-SIVFQVTESQKWEHFHVPLLLAPFSFSTYRGS  324
+
+
+> sp|Q283N4|URAD_MOUSE 2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazoline 
+decarboxylase OS=Mus musculus OX=10090 GN=Urad PE=1 SV=1
+Length=178
+
+ Score = 56.2 bits (134),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 30/66 (45%), Positives = 39/66 (59%), Gaps = 1/66 (2%)
+
+Query  79   TDAELERFNSLNGAYRDQCGFPFILAVRNATKHTVLAALGGRVQHTPEQEFMVALEQVHK  138
+            TD  L R   LN  YR++ GFPF+LA R + + TV   L  R+Q  PE E   AL +V K
+Sbjct  98   TDDRL-RLQQLNAQYRERFGFPFVLAARLSDRATVPRELARRLQCQPESELRTALGEVKK  156
+
+Query  139  IAWMRL  144
+            I+ +RL
+Sbjct  157  ISHLRL  162
+
+
+> sp|Q0ZDF7|URAD_AMICA 2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazoline 
+decarboxylase OS=Amia calva OX=7924 GN=urad PE=3 SV=1
+Length=175
+
+ Score = 55.1 bits (131),  Expect = 5e-08, Method: Compositional matrix adjust.
+ Identities = 27/69 (39%), Positives = 40/69 (58%), Gaps = 1/69 (1%)
+
+Query  77   SLTDA-ELERFNSLNGAYRDQCGFPFILAVRNATKHTVLAALGGRVQHTPEQEFMVALEQ  135
+            +L DA +  R N LN  Y+++ GFPF++  R   K  +L  L  R+ + P QE   A+E+
+Sbjct  94   TLLDAGDAARMNRLNAQYKERFGFPFVICARMNNKEEILLRLAERLGNEPAQERQCAIEE  153
+
+Query  136  VHKIAWMRL  144
+            V KI  +RL
+Sbjct  154  VKKICQLRL  162
+
+
+> sp|A5PJD0|URAD_BOVIN 2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazoline 
+decarboxylase OS=Bos taurus OX=9913 GN=URAD PE=2 SV=1
+Length=170
+
+ Score = 51.2 bits (121),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 28/69 (41%), Positives = 37/69 (54%), Gaps = 0/69 (0%)
+
+Query  76   QSLTDAELERFNSLNGAYRDQCGFPFILAVRNATKHTVLAALGGRVQHTPEQEFMVALEQ  135
+            Q+L  AE  RF  L   YR + GFPF+LA+R +        L  R++  P QE   AL +
+Sbjct  94   QNLGAAERLRFTELTAQYRTRFGFPFVLALRLSDPAAAPRELARRLRCPPAQELRTALGE  153
+
+Query  136  VHKIAWMRL  144
+            V KI  +RL
+Sbjct  154  VKKICHLRL  162
+
+
+> sp|A1L259|URAD_DANRE 2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazoline 
+decarboxylase OS=Danio rerio OX=7955 GN=urad PE=1 SV=1
+Length=174
+
+ Score = 48.1 bits (113),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 28/81 (35%), Positives = 43/81 (53%), Gaps = 1/81 (1%)
+
+Query  77   SLTDAELERFNSLNGAYRDQCGFPFILAVRNATKHTVLAALGGRVQHTPEQEFMVALEQV  136
+            +L  AE+     LN  Y+++ GFPF++  R   K  ++  L  R+++    E   A+E+V
+Sbjct  95   TLDSAEIVHMYRLNSEYKERFGFPFVICARLNNKADIVRQLSERLKNRRTAELECAIEEV  154
+
+Query  137  HKIAWMRLLSKIDTSDAQGFL  157
+             KI  +RL S I  SD Q  L
+Sbjct  155  KKICSLRLHS-IVLSDIQTKL  174
+
+
+> sp|A6NGE7|URAD_HUMAN Putative 2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazoline 
+decarboxylase OS=Homo sapiens OX=9606 GN=URAD 
+PE=5 SV=2
+Length=173
+
+ Score = 45.8 bits (107),  Expect = 6e-05, Method: Compositional matrix adjust.
+ Identities = 27/69 (39%), Positives = 35/69 (51%), Gaps = 0/69 (0%)
+
+Query  76   QSLTDAELERFNSLNGAYRDQCGFPFILAVRNATKHTVLAALGGRVQHTPEQEFMVALEQ  135
+            +SL   E  R   LN  YR + GFPF+LA R + +  V   L  R+     QE   AL +
+Sbjct  94   RSLGADERLRLAELNAQYRARFGFPFVLAARFSDRTAVPRELARRLLCPSAQELRTALGE  153
+
+Query  136  VHKIAWMRL  144
+            V KI  +RL
+Sbjct  154  VKKIGSLRL  162
+
+
+> sp|A1L1C5|URAD_XENLA 2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazoline 
+decarboxylase OS=Xenopus laevis OX=8355 GN=urad PE=2 SV=1
+Length=175
+
+ Score = 45.8 bits (107),  Expect = 8e-05, Method: Compositional matrix adjust.
+ Identities = 20/67 (30%), Positives = 37/67 (55%), Gaps = 0/67 (0%)
+
+Query  78   LTDAELERFNSLNGAYRDQCGFPFILAVRNATKHTVLAALGGRVQHTPEQEFMVALEQVH  137
+            L+  E E    LN  Y+ + GFPF++  + + K+ ++  LG R+Q+   +E    + +V 
+Sbjct  96   LSAKEKETLGFLNLQYKAKFGFPFVICAKMSDKNKIMQELGSRLQNEQSEELQKGIAEVK  155
+
+Query  138  KIAWMRL  144
+            KI  +R+
+Sbjct  156  KICHLRI  162
+
+
+> sp|P31779|TTHY_LITCT Transthyretin OS=Lithobates catesbeianus 
+OX=8400 PE=1 SV=2
+Length=153
+
+ Score = 42.4 bits (98),  Expect = 8e-04, Method: Compositional matrix adjust.
+ Identities = 30/120 (25%), Positives = 57/120 (48%), Gaps = 8/120 (7%)
+
+Query  151  SDAQGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLVGEFVTNDDGRLEGGPALKGGK  210
+            +D++  L   VLD   G PA K+ + + + +  +   L+    T+ DG +     L   +
+Sbjct  29   ADSKCPLMVKVLDAVRGIPAAKLPVKVFKQNEDKSWDLISSGTTSSDGEIHN---LATEE  85
+
+Query  211  EFTVGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNP-DDHYHVPLLVSPWSFST  269
+            +F  G Y+  F    +++  G      PF + + + F  ++    HY   +L++P+SFST
+Sbjct  86   QFVEGIYKLEFATKRFWSKLGL----TPFHEYVDVVFTANDAGHRHYTTAVLLTPYSFST  141
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.135    0.413    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 21584603978
+Results from round 2
+
+
+Query= 5Z5M
+
+Length=273
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q9LVM5|TTHL_ARATH Uric acid degradation bifunctional protein...  202     1e-62
+  sp|Q8YFU1|HIUH_BRUME 5-hydroxyisourate hydrolase OS=Brucella me...  180     1e-56
+  sp|D8JBB8|URAD_HALJB 2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazol...  182     2e-56
+  sp|Q8G228|HIUH_BRUSU 5-hydroxyisourate hydrolase OS=Brucella su...  179     3e-56
+  sp|Q92UG5|HIUH2_RHIME 5-hydroxyisourate hydrolase 2 OS=Rhizobiu...  179     4e-56
+  sp|Q45697|PUCL_BACSB Uric acid degradation bifunctional protein...  190     8e-56
+  sp|Q9I3J5|HIUH_PSEAE 5-hydroxyisourate hydrolase OS=Pseudomonas...  176     5e-55
+  sp|Q9KET9|HIUH_BACHD 5-hydroxyisourate hydrolase OS=Bacillus ha...  176     6e-55
+  sp|D4GPU8|URAD_HALVD 2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazol...  177     9e-55
+  sp|O32141|PUCL_BACSU Uric acid degradation bifunctional protein...  185     5e-54
+  sp|Q8XXJ7|HIUH_RALSO 5-hydroxyisourate hydrolase OS=Ralstonia s...  172     2e-53
+  sp|O44578|HIUH2_CAEEL Probable 5-hydroxyisourate hydrolase ZK69...  171     6e-53
+  sp|Q98CI7|HIUH_RHILO 5-hydroxyisourate hydrolase OS=Mesorhizobi...  168     8e-52
+  sp|Q92VB9|HIUH1_RHIME 5-hydroxyisourate hydrolase 1 OS=Rhizobiu...  166     4e-51
+  sp|O32142|HIUH_BACSU 5-hydroxyisourate hydrolase OS=Bacillus su...  164     2e-50
+  sp|Q9A545|HIUH_CAUVC 5-hydroxyisourate hydrolase OS=Caulobacter...  161     3e-49
+  sp|Q21882|HIUH1_CAEEL Probable 5-hydroxyisourate hydrolase R09H...  160     1e-48
+  sp|Q9RV69|HIUH_DEIRA 5-hydroxyisourate hydrolase OS=Deinococcus...  159     4e-48
+  sp|Q06S87|HIUH_DANRE 5-hydroxyisourate hydrolase OS=Danio rerio...  158     1e-47
+  sp|Q8ZQ52|HIUH_SALTY 5-hydroxyisourate hydrolase OS=Salmonella ...  156     4e-47
+  sp|Q8Z7Q6|HIUH_SALTI 5-hydroxyisourate hydrolase OS=Salmonella ...  156     5e-47
+  sp|Q4VYA5|HIUH_SALDU 5-hydroxyisourate hydrolase OS=Salmonella ...  155     8e-47
+  sp|Q9CRB3|HIUH_MOUSE 5-hydroxyisourate hydrolase OS=Mus musculu...  151     2e-45
+  sp|P76341|HIUH_ECOLI 5-hydroxyisourate hydrolase OS=Escherichia...  151     7e-45
+  sp|Q8XB75|HIUH_ECO57 5-hydroxyisourate hydrolase OS=Escherichia...  150     1e-44
+  sp|O74492|HIUH_SCHPO Probable 5-hydroxyisourate hydrolase OS=Sc...  139     2e-40
+  sp|Q283N4|URAD_MOUSE 2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazol...  135     3e-38
+  sp|A5PJD0|URAD_BOVIN 2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazol...  132     3e-37
+  sp|A6NGE7|URAD_HUMAN Putative 2-oxo-4-hydroxy-4-carboxy-5-ureid...  131     7e-37
+  sp|A1L259|URAD_DANRE 2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazol...  130     1e-36
+  sp|Q0ZDF7|URAD_AMICA 2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazol...  130     4e-36
+  sp|A1L1C5|URAD_XENLA 2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazol...  129     7e-36
+  sp|P31779|TTHY_LITCT Transthyretin OS=Lithobates catesbeianus O...  127     3e-35
+
+Sequences not found previously or not previously below threshold:
+
+  sp|P27731|TTHY_CHICK Transthyretin OS=Gallus gallus OX=9031 GN=...  112     1e-29
+  sp|B7ZS96|TTHY_XENLA Transthyretin OS=Xenopus laevis OX=8355 GN...  112     1e-29
+  sp|P49142|TTHY_PETBR Transthyretin OS=Petaurus breviceps OX=348...  110     7e-29
+  sp|P49141|TTHY_MONDO Transthyretin OS=Monodelphis domestica OX=...  110     9e-29
+  sp|P42204|TTHY_MACEU Transthyretin OS=Macropus eugenii OX=9315 ...  110     1e-28
+  sp|P12303|TTHY_SHEEP Transthyretin OS=Ovis aries OX=9940 GN=TTR...  108     2e-28
+  sp|O46375|TTHY_BOVIN Transthyretin OS=Bos taurus OX=9913 GN=TTR...  108     3e-28
+  sp|O55245|TTHY_CROPO Transthyretin OS=Crocodylus porosus OX=850...  108     4e-28
+  sp|P02767|TTHY_RAT Transthyretin OS=Rattus norvegicus OX=10116 ...  108     5e-28
+  sp|Q29616|TTHY_MACGI Transthyretin OS=Macropus giganteus OX=931...  107     7e-28
+  sp|P49143|TTHY_SMIMA Transthyretin OS=Sminthopsis macroura OX=9...  107     1e-27
+  sp|Q9MYN8|TTHY_ERIEU Transthyretin OS=Erinaceus europaeus OX=93...  105     3e-27
+  sp|A4QNN7|TTHY_XENTR Transthyretin OS=Xenopus tropicalis OX=836...  105     4e-27
+  sp|P07309|TTHY_MOUSE Transthyretin OS=Mus musculus OX=10090 GN=...  105     5e-27
+  sp|P30623|TTHY_TILRU Transthyretin OS=Tiliqua rugosa OX=8527 GN...  105     6e-27
+  sp|P07489|TTHY_RABIT Transthyretin OS=Oryctolagus cuniculus OX=...  104     8e-27
+  sp|Q8HXW1|TTHY_MACFA Transthyretin OS=Macaca fascicularis OX=95...  104     9e-27
+  sp|P50390|TTHY_PIG Transthyretin OS=Sus scrofa OX=9823 GN=TTR P...  104     1e-26
+  sp|P02766|TTHY_HUMAN Transthyretin OS=Homo sapiens OX=9606 GN=T...  103     2e-26
+  sp|Q5U7I5|TTHY_PANTR Transthyretin OS=Pan troglodytes OX=9598 G...  103     4e-26
+  sp|Q5NVS2|TTHY_PONAB Transthyretin OS=Pongo abelii OX=9601 GN=T...  100     5e-25
+  sp|O46654|TTHY_SORAR Transthyretin OS=Sorex araneus OX=42254 GN...  98.6    2e-24
+  sp|Q54SV3|ALN1_DICDI Probable allantoinase 1 OS=Dictyostelium d...  81.3    5e-16
+
+
+> sp|Q9LVM5|TTHL_ARATH Uric acid degradation bifunctional protein 
+TTL OS=Arabidopsis thaliana OX=3702 GN=TTL PE=1 SV=1
+Length=324
+
+ Score = 202 bits (515),  Expect = 1e-62, Method: Composition-based stats.
+ Identities = 69/317 (22%), Positives = 112/317 (35%), Gaps = 80/317 (25%)
+
+Query  29   AEALVKDAESLASIETISQLAAAMKAIVNKSSKDQKLELLCAHPDLCQS-----------  77
+            +    K   +   + +   +  A     N+ +    LE   AHP +  +           
+Sbjct  16   SSEFAKQMSTSGPLTSQEAIYTARDIWFNQVNVTDWLEAFSAHPQIGNTPSPSINSDFAR  75
+
+Query  78   ------------LTDAELERFNSLNGAYRDQCGFPFILAVRNATKHTVLAALGGRVQHTP  125
+                         + + L+     N  Y+ + GF FI+     T   +L AL  R ++ P
+Sbjct  76   RSVSEQSTAFATTSASALQELAEWNVLYKKKFGFIFIICASGRTHAEMLHALKERYENRP  135
+
+Query  126  EQEFMVALEQVHKIAWMRL----------LSKIDTSDA----------------------  153
+              E  +A  +  KI  +R+          +S+ D+S +                      
+Sbjct  136  IVELEIAAMEQMKITELRMAKLFSDKAKVISETDSSSSPVSTKPQDRLRIIGGHLNVAAE  195
+
+Query  154  -------QGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLVG----------EFVTND  196
+                   +  +T HVLD   G PA  + +HL   S       V              T+ 
+Sbjct  196  AKAPKRSRPPITTHVLDVSRGAPAAGVEVHLEVWSGTTGPSFVHGGGGVWSSVGTSATDR  255
+
+Query  197  DGRLEGGPALKGGKEFTVGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNPDDHY  256
+            DGR   GP +        G Y  +F   +Y  S G      P++  +  +       +H+
+Sbjct  256  DGR--SGPLMDLVDALNPGTYRISFDTAKY--SPGC---FFPYVSIV-FQVTESQKWEHF  307
+
+Query  257  HVPLLVSPWSFSTYRGS  273
+            HVPLL++P+SFSTYRGS
+Sbjct  308  HVPLLLAPFSFSTYRGS  324
+
+
+> sp|Q8YFU1|HIUH_BRUME 5-hydroxyisourate hydrolase OS=Brucella 
+melitensis biotype 1 (strain 16M / ATCC 23456 / NCTC 10094) 
+OX=224914 GN=BMEI1429 PE=3 SV=2
+Length=118
+
+ Score = 180 bits (456),  Expect = 1e-56, Method: Composition-based stats.
+ Identities = 60/120 (50%), Positives = 75/120 (63%), Gaps = 2/120 (2%)
+
+Query  154  QGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLVGEFVTNDDGRLEGGPALKGGKEFT  213
+             G L+ HVLDT +G PA  MR+ L+R++      L+   VTN DGR +    L  G E  
+Sbjct  1    MGKLSTHVLDTAHGTPAAAMRVELYRIAASGTPELLKRVVTNLDGRTDA--PLLSGDEMR  58
+
+Query  214  VGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNPDDHYHVPLLVSPWSFSTYRGS  273
+             G YE  F   EYF  +G   + +PFLD IP+RFGI + D +YHVPLLVSPWS+STYRGS
+Sbjct  59   TGIYELQFHVAEYFEGRGAELAHEPFLDLIPIRFGIADEDGNYHVPLLVSPWSYSTYRGS  118
+
+
+> sp|D8JBB8|URAD_HALJB 2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazoline 
+decarboxylase OS=Halalkalicoccus jeotgali (strain DSM 
+18796 / CECT 7217 / JCM 14584 / KCTC 4019 / B3) OX=795797 GN=HacjB3_16066 
+PE=3 SV=1
+Length=176
+
+ Score = 182 bits (461),  Expect = 2e-56, Method: Composition-based stats.
+ Identities = 58/172 (34%), Positives = 85/172 (49%), Gaps = 22/172 (13%)
+
+Query  1    VTVKDLLSKPSAEIASFLGGIYEHSAWVAEALVKDAESLASIETISQLAAAMKAIVNKSS  60
+            +TV+DL           +G +YE S WVA+       S     +I  L  AM   V  +S
+Sbjct  4    LTVEDLNQADKERFVDAVGDVYEESPWVAKR----TWSEQPFSSIDGLQQAMANTVQDAS  59
+
+Query  61   KDQKLELLCAHPDLCQ--SLTD----------------AELERFNSLNGAYRDQCGFPFI  102
+            + ++LELL AHPDL +   +TD                A+ E F +LN  YRD+ GFPFI
+Sbjct  60   QQKQLELLRAHPDLGERTEMTDESQEEQASAGLDRLPPAQYETFQTLNDTYRDKFGFPFI  119
+
+Query  103  LAVRNATKHTVLAALGGRVQHTPEQEFMVALEQVHKIAWMRLLSKIDTSDAQ  154
+            +AV++ +  T+  A+  R+ H+  +EF  AL +V+ IA +RL       D  
+Sbjct  120  MAVKDESVGTIQQAMEDRIDHSRSKEFQTALNEVNVIAALRLEELTVPRDGT  171
+
+
+> sp|Q8G228|HIUH_BRUSU 5-hydroxyisourate hydrolase OS=Brucella 
+suis biovar 1 (strain 1330) OX=204722 GN=BR0508 PE=3 SV=1
+Length=118
+
+ Score = 179 bits (455),  Expect = 3e-56, Method: Composition-based stats.
+ Identities = 59/120 (49%), Positives = 75/120 (63%), Gaps = 2/120 (2%)
+
+Query  154  QGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLVGEFVTNDDGRLEGGPALKGGKEFT  213
+             G L+ HVLDT +G PA  MR+ L+R++      L+   VTN DGR +    L  G +  
+Sbjct  1    MGKLSTHVLDTAHGTPAAAMRVELYRIAASGTPELLKRVVTNLDGRTDA--PLLSGDKMR  58
+
+Query  214  VGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNPDDHYHVPLLVSPWSFSTYRGS  273
+             G YE  F   EYF  +G   + +PFLD IP+RFGI + D +YHVPLLVSPWS+STYRGS
+Sbjct  59   TGIYELQFHVAEYFEGRGAELAHEPFLDLIPIRFGIADEDGNYHVPLLVSPWSYSTYRGS  118
+
+
+> sp|Q92UG5|HIUH2_RHIME 5-hydroxyisourate hydrolase 2 OS=Rhizobium 
+meliloti (strain 1021) OX=266834 GN=RB1166 PE=3 SV=2
+Length=120
+
+ Score = 179 bits (453),  Expect = 4e-56, Method: Composition-based stats.
+ Identities = 58/120 (48%), Positives = 71/120 (59%), Gaps = 3/120 (3%)
+
+Query  154  QGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLVGEFVTNDDGRLEGGPALKGGKEFT  213
+             G LT HVLDT  G PA  ++I L+RL       L+    TN DGR++G   L  G  F 
+Sbjct  4    SGRLTTHVLDTALGRPAHGLKIDLYRLEGDA-RHLIRTVHTNSDGRVDG--PLMEGAGFA  60
+
+Query  214  VGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNPDDHYHVPLLVSPWSFSTYRGS  273
+             G YE  F  G+YF S G       FL+ +PLRFGI + D HYHVPLL+SP+ +STYRGS
+Sbjct  61   TGTYELVFHAGDYFRSAGVKLPDPAFLELVPLRFGIADADSHYHVPLLLSPYGYSTYRGS  120
+
+
+> sp|Q45697|PUCL_BACSB Uric acid degradation bifunctional protein 
+OS=Bacillus sp. (strain TB-90) OX=36824 GN=uao PE=1 SV=3
+Length=502
+
+ Score = 190 bits (482),  Expect = 8e-56, Method: Composition-based stats.
+ Identities = 53/178 (30%), Positives = 81/178 (46%), Gaps = 23/178 (13%)
+
+Query  1    VTVKDLLSKPSAEIASFLGGIYEHSAWVAEALVKDAESLASIETISQLAAAMKAIVNKSS  60
+            + +K L    ++E    LGG++E+S+WVAE     AE      +   L   M  IV  +S
+Sbjct  2    MRLKQLNEMSASEFIHLLGGVFENSSWVAER----AEPNRPYSSFQSLYNKMVEIVETAS  57
+
+Query  61   KDQKLELLCAHPDLC------------------QSLTDAELERFNSLNGAYRDQCGFPFI  102
+             +++L+L+  HP L                     LT  E      LN  Y+D+ GFPF+
+Sbjct  58   DNEQLKLIQMHPHLGTNVKITDFSQEEQKHAGLNELTKDEQNHLILLNQKYKDKFGFPFV  117
+
+Query  103  LAVRNATKHTVLAALGGRVQHTPEQEFMVALEQVHKIAWMRLLSKIDTSDAQGFLTCH  160
+            +AVR   K  +   +  R+Q+  + EF  ALE++ KIA  RL       +    +T H
+Sbjct  118  MAVRGKIKQEIFRTIKERLQNNHQTEFKQALEEIKKIAMFRLQEIFREGE-NNSMTKH  174
+
+
+> sp|Q9I3J5|HIUH_PSEAE 5-hydroxyisourate hydrolase OS=Pseudomonas 
+aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 / 
+JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1) OX=208964 GN=PA1518 
+PE=3 SV=1
+Length=126
+
+ Score = 176 bits (447),  Expect = 5e-55, Method: Composition-based stats.
+ Identities = 53/121 (44%), Positives = 76/121 (63%), Gaps = 3/121 (2%)
+
+Query  153  AQGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLVGEFVTNDDGRLEGGPALKGGKEF  212
+              G LT HVLD+ +GCP   ++I L+R+   +   L+   +TN DGR +    +  G++F
+Sbjct  9    PMGRLTTHVLDSAHGCPGHGIKIELYRVEG-QQLELIATTLTNHDGRCDQ--PVLQGEDF  65
+
+Query  213  TVGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNPDDHYHVPLLVSPWSFSTYRG  272
+              G Y+  F  G+Y+ ++G       FLD + LRFGI + DDHYHVPLL+SP+S+STYRG
+Sbjct  66   RPGVYQLVFNAGDYYRARGVQLPEPAFLDQVVLRFGIASADDHYHVPLLISPYSYSTYRG  125
+
+Query  273  S  273
+            S
+Sbjct  126  S  126
+
+
+> sp|Q9KET9|HIUH_BACHD 5-hydroxyisourate hydrolase OS=Bacillus 
+halodurans (strain ATCC BAA-125 / DSM 18197 / FERM 7344 / JCM 
+9153 / C-125) OX=272558 GN=BH0760 PE=3 SV=1
+Length=119
+
+ Score = 176 bits (446),  Expect = 6e-55, Method: Composition-based stats.
+ Identities = 52/120 (43%), Positives = 70/120 (58%), Gaps = 2/120 (2%)
+
+Query  154  QGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLVGEFVTNDDGRLEGGPALKGGKEFT  213
+             G +T HVLDT  G PA  + + L R+     + L+ + VTN DGRL+    L    +  
+Sbjct  2    SGKVTTHVLDTSCGKPAAGVVVELWRIVEGGESELLTKAVTNQDGRLDK--PLLTENKMA  59
+
+Query  214  VGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNPDDHYHVPLLVSPWSFSTYRGS  273
+             G YE  F  G+YF   G      PFL  IP+RFG+++ ++HYHVPLLV+P  +STYRGS
+Sbjct  60   RGVYELRFQVGDYFLRNGFVNQAYPFLHVIPVRFGLEDVNEHYHVPLLVAPGGYSTYRGS  119
+
+
+> sp|D4GPU8|URAD_HALVD 2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazoline 
+decarboxylase OS=Haloferax volcanii (strain ATCC 29605 
+/ DSM 3757 / JCM 8879 / NBRC 14742 / NCIMB 2012 / VKM B-1768 
+/ DS2) OX=309800 GN=HVO_B0301 PE=3 SV=1
+Length=168
+
+ Score = 177 bits (449),  Expect = 9e-55, Method: Composition-based stats.
+ Identities = 56/168 (33%), Positives = 88/168 (52%), Gaps = 22/168 (13%)
+
+Query  1    VTVKDLLSKPSAEIASFLGGIYEHSAWVAEALVKDAESLASIETISQLAAAMKAIVNKSS  60
+            +T++ +            G IYEHS WVAE     A S     ++ +L +AMK  V  +S
+Sbjct  4    LTLQQVNRLDDDSFVDAFGEIYEHSPWVAER----ARSSRPFSSVDELRSAMKRAVEDAS  59
+
+Query  61   KDQKLELLCAHPDLCQ------------------SLTDAELERFNSLNGAYRDQCGFPFI  102
+            ++++L+LL AHPDL +                  SL+ ++ E F  LN  YR++ GFPF+
+Sbjct  60   REKQLQLLRAHPDLGERTEMTDASEAEQASAELDSLSRSQYETFQRLNETYRERFGFPFV  119
+
+Query  103  LAVRNATKHTVLAALGGRVQHTPEQEFMVALEQVHKIAWMRLLSKIDT  150
+            +AV++     + AA+  RV H+   EF  AL++VH IA +RL  +  +
+Sbjct  120  MAVKDENPDAIAAAMERRVDHSESTEFRTALDEVHTIAELRLAERFSS  167
+
+
+> sp|O32141|PUCL_BACSU Uric acid degradation bifunctional protein 
+PucL OS=Bacillus subtilis (strain 168) OX=224308 GN=pucL 
+PE=1 SV=1
+Length=494
+
+ Score = 185 bits (469),  Expect = 5e-54, Method: Composition-based stats.
+ Identities = 54/165 (33%), Positives = 79/165 (48%), Gaps = 22/165 (13%)
+
+Query  2    TVKDLLSKPSAEIASFLGGIYEHSAWVAEALVKDAESLASIETISQLAAAMKAIVNKSSK  61
+            T+ DL    +  +   LG I+EHS+W+AE     + +L    ++S L   M  IV  + +
+Sbjct  3    TMDDLNQMDTQTLTDTLGSIFEHSSWIAER----SAALRPFSSLSDLHRKMTGIVKAADR  58
+
+Query  62   DQKLELLCAHPDLC------------------QSLTDAELERFNSLNGAYRDQCGFPFIL  103
+            + +L+L+  HP L                     L   E E F  LN  Y D+ GFPFIL
+Sbjct  59   ETQLDLIKKHPRLGTKKTMSDDSVREQQNAGLGKLEQQEYEEFLMLNEHYYDRFGFPFIL  118
+
+Query  104  AVRNATKHTVLAALGGRVQHTPEQEFMVALEQVHKIAWMRLLSKI  148
+            AV+  TK  +  AL  R++   E EF  AL ++++IA  RL   I
+Sbjct  119  AVKGKTKQDIHQALLARLESERETEFQQALIEIYRIARFRLADII  163
+
+
+> sp|Q8XXJ7|HIUH_RALSO 5-hydroxyisourate hydrolase OS=Ralstonia 
+solanacearum (strain GMI1000) OX=267608 GN=RSc2116 PE=3 SV=1
+Length=117
+
+ Score = 172 bits (436),  Expect = 2e-53, Method: Composition-based stats.
+ Identities = 52/120 (43%), Positives = 66/120 (55%), Gaps = 3/120 (3%)
+
+Query  154  QGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLVGEFVTNDDGRLEGGPALKGGKEFT  213
+             G LT HVLDT  G P + + I L ++    +   +    TN DGR E    L  G+   
+Sbjct  1    MGRLTTHVLDTAAGTPGKDLAITLFKIVNN-LRQPIKTVRTNHDGRCEA--PLLEGEALQ  57
+
+Query  214  VGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNPDDHYHVPLLVSPWSFSTYRGS  273
+             G YE  F  G+Y+ + G       FLD + LRFG+ +   HYHVPLLVSPWS+STYRGS
+Sbjct  58   AGIYELDFAVGDYYRAAGVSLPDPAFLDVVTLRFGVADAGAHYHVPLLVSPWSYSTYRGS  117
+
+
+> sp|O44578|HIUH2_CAEEL Probable 5-hydroxyisourate hydrolase ZK697.8 
+OS=Caenorhabditis elegans OX=6239 GN=ZK697.8 PE=3 SV=2
+Length=136
+
+ Score = 171 bits (434),  Expect = 6e-53, Method: Composition-based stats.
+ Identities = 42/144 (29%), Positives = 65/144 (45%), Gaps = 8/144 (6%)
+
+Query  130  MVALEQVHKIAWMRLLSKIDTSDAQGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLV  189
+            M+       IA   ++S  + +     ++ HVLD   G PA  ++I    L       + 
+Sbjct  1    MIKFLLFLAIAAATVISNAELAVPTASISAHVLDISGGSPAGGIQILAFILLNNGWTNIG  60
+
+Query  190  GEFVTNDDGRLEGGPALKGGKEFTVGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGI  249
+             +F T D+GR++             G Y   +    Y+ +K    S  P+++ +   F I
+Sbjct  61   SQF-TQDNGRVDWVSPDFT---LIPGTYRLVYITEPYYTAKNV-ESFYPYVEVV---FNI  112
+
+Query  250  DNPDDHYHVPLLVSPWSFSTYRGS  273
+             N   HYHVPL +SPW +STYRGS
+Sbjct  113  RNATQHYHVPLTLSPWGYSTYRGS  136
+
+
+> sp|Q98CI7|HIUH_RHILO 5-hydroxyisourate hydrolase OS=Mesorhizobium 
+japonicum (strain LMG 29417 / CECT 9101 / MAFF 303099) 
+OX=266835 GN=mlr5133 PE=3 SV=1
+Length=124
+
+ Score = 168 bits (426),  Expect = 8e-52, Method: Composition-based stats.
+ Identities = 59/127 (46%), Positives = 73/127 (57%), Gaps = 5/127 (4%)
+
+Query  148  IDTSDAQG-FLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLVGEFVTNDDGRLEGGPAL  206
+             +TS A G  LT HVLDT  G PA  + I L+RL       L     TN DGR +   AL
+Sbjct  2    AETSKADGGRLTTHVLDTATGKPAAGLSIALYRLDGSARTHL-KTVATNADGRCDA--AL  58
+
+Query  207  KGGKEFTVGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNPDDHYHVPLLVSPWS  266
+              G EF  G+YE  F  G+Y   +GT      FLD++P+RFG+     HYHVPLL+SP+ 
+Sbjct  59   LAGAEFRAGEYELVFAAGDYLRGQGTKLPEPAFLDSVPIRFGMAEA-VHYHVPLLISPYG  117
+
+Query  267  FSTYRGS  273
+            +STYRGS
+Sbjct  118  YSTYRGS  124
+
+
+> sp|Q92VB9|HIUH1_RHIME 5-hydroxyisourate hydrolase 1 OS=Rhizobium 
+meliloti (strain 1021) OX=266834 GN=RB0789 PE=3 SV=1
+Length=123
+
+ Score = 166 bits (420),  Expect = 4e-51, Method: Composition-based stats.
+ Identities = 57/119 (48%), Positives = 69/119 (58%), Gaps = 4/119 (3%)
+
+Query  155  GFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLVGEFVTNDDGRLEGGPALKGGKEFTV  214
+            G LT HVLDT +G PA  +RI L+R+   E   L+    TNDDGR +    L  G     
+Sbjct  9    GRLTTHVLDTASGRPASNLRIDLYRIEG-ERPELLSSTRTNDDGRCDA--PLLNGSTMET  65
+
+Query  215  GQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNPDDHYHVPLLVSPWSFSTYRGS  273
+            G YE  F  GEY  +        PFLD IP+RFGI +   HYHVPLL+SP+ +STYRGS
+Sbjct  66   GTYELRFHAGEYLGTA-AERGANPFLDVIPIRFGIADRAAHYHVPLLLSPYGYSTYRGS  123
+
+
+> sp|O32142|HIUH_BACSU 5-hydroxyisourate hydrolase OS=Bacillus 
+subtilis (strain 168) OX=224308 GN=pucM PE=1 SV=2
+Length=114
+
+ Score = 164 bits (415),  Expect = 2e-50, Method: Composition-based stats.
+ Identities = 51/120 (43%), Positives = 71/120 (59%), Gaps = 6/120 (5%)
+
+Query  154  QGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLVGEFVTNDDGRLEGGPALKGGKEFT  213
+             G LT H+LD   G PA  ++I L RL       ++ E  TN+DGR++    L  G+E  
+Sbjct  1    MGKLTTHILDLTCGKPAANVKIGLKRLGES----IMKEVYTNNDGRVD--VPLLAGEELM  54
+
+Query  214  VGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNPDDHYHVPLLVSPWSFSTYRGS  273
+             G+Y   F  G+YFASK    + QPFL  + +RF + +PD HYH+PLL+SP+ +  YRGS
+Sbjct  55   SGEYVMEFHAGDYFASKNMNAADQPFLTIVTVRFQLADPDAHYHIPLLLSPFGYQVYRGS  114
+
+
+> sp|Q9A545|HIUH_CAUVC 5-hydroxyisourate hydrolase OS=Caulobacter 
+vibrioides (strain ATCC 19089 / CB15) OX=190650 GN=CC_2620 
+PE=3 SV=1
+Length=115
+
+ Score = 161 bits (408),  Expect = 3e-49, Method: Composition-based stats.
+ Identities = 47/117 (40%), Positives = 65/117 (56%), Gaps = 5/117 (4%)
+
+Query  157  LTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLVGEFVTNDDGRLEGGPALKGGKEFTVGQ  216
+            LT H+LD  +G PA  + + + R    E    + E  T+ DGR      L  G++  VG 
+Sbjct  4    LTTHILDQASGKPAAGVGVRVSRRDG-EQTQWLAELRTDADGRAR----LVAGEDLAVGG  58
+
+Query  217  YEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNPDDHYHVPLLVSPWSFSTYRGS  273
+            Y   F  G++F + G   S  PFLD + + F + N D H+HVPLLVSP+ +STYRGS
+Sbjct  59   YRLEFAIGDHFKASGLPVSDPPFLDVVVIDFAVSNLDQHWHVPLLVSPYGYSTYRGS  115
+
+
+> sp|Q21882|HIUH1_CAEEL Probable 5-hydroxyisourate hydrolase R09H10.3 
+OS=Caenorhabditis elegans OX=6239 GN=R09H10.3 PE=1 SV=2
+Length=135
+
+ Score = 160 bits (406),  Expect = 1e-48, Method: Composition-based stats.
+ Identities = 39/144 (27%), Positives = 65/144 (45%), Gaps = 9/144 (6%)
+
+Query  130  MVALEQVHKIAWMRLLSKIDTSDAQGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLV  189
+            M        +    L++  +++     ++ HVLD   G PA  ++I  +     +   + 
+Sbjct  1    MNKFSLFFALTA-TLMTITESAVPTASISAHVLDISGGSPAGGVQILAYIQQNDDWTKIG  59
+
+Query  190  GEFVTNDDGRLEGGPALKGGKEFTVGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGI  249
+             EF T D+GR++             G Y   +    Y+ +K    S  P+++ +   F I
+Sbjct  60   SEF-TQDNGRVDWVSPDFT---LIPGTYRLVYITEPYYKAKNV-ESFYPYVEVV---FNI  111
+
+Query  250  DNPDDHYHVPLLVSPWSFSTYRGS  273
+             +   HYHVPL +SPW +STYRGS
+Sbjct  112  RDATQHYHVPLTLSPWGYSTYRGS  135
+
+
+> sp|Q9RV69|HIUH_DEIRA 5-hydroxyisourate hydrolase OS=Deinococcus 
+radiodurans (strain ATCC 13939 / DSM 20539 / JCM 16871 / 
+LMG 4051 / NBRC 15346 / NCIMB 9279 / R1 / VKM B-1422) OX=243230 
+GN=DR_1161 PE=3 SV=1
+Length=119
+
+ Score = 159 bits (401),  Expect = 4e-48, Method: Composition-based stats.
+ Identities = 51/122 (42%), Positives = 65/122 (53%), Gaps = 4/122 (3%)
+
+Query  152  DAQGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLVGEFVTNDDGRLEGGPALKGGKE  211
+                 LT HVLDT  G PA  +R+ L R++       V E VTN DGR +    L     
+Sbjct  2    SGHPGLTTHVLDTARGKPAAGVRVQLCRVTGDTRT-PVTEAVTNSDGRTDA--PLIERGS  58
+
+Query  212  FTVGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNPDDHYHVPLLVSPWSFSTYR  271
+               G YE TF   +YF       +  PFLD + LRF + +   HYHVPL+++PWS+STYR
+Sbjct  59   LKQGTYELTFHVADYFKGF-VAAADPPFLDVVTLRFTVGDTSGHYHVPLVMTPWSYSTYR  117
+
+Query  272  GS  273
+            GS
+Sbjct  118  GS  119
+
+
+> sp|Q06S87|HIUH_DANRE 5-hydroxyisourate hydrolase OS=Danio rerio 
+OX=7955 GN=urah PE=1 SV=1
+Length=138
+
+ Score = 158 bits (399),  Expect = 1e-47, Method: Composition-based stats.
+ Identities = 48/125 (38%), Positives = 67/125 (54%), Gaps = 8/125 (6%)
+
+Query  150  TSDAQGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEM-AGLVGEFVTNDDGRLEGGPALKG  208
+            ++     L+ HVL+   G P   M I LHRL P      ++   +TNDDGR    P L  
+Sbjct  21   SATLLSPLSTHVLNIAQGVPGANMTIVLHRLDPVSSAWNILTTGITNDDGRC---PGLIT  77
+
+Query  209  GKEFTVGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNPDDHYHVPLLVSPWSFS  268
+             + F  G Y+  F  G+Y+ + G  T   P+++ +   F I N   HYHVPLL+S +S+S
+Sbjct  78   KENFIAGVYKMRFETGKYWDALG-ETCFYPYVEIV---FTITNTSQHYHVPLLLSRFSYS  133
+
+Query  269  TYRGS  273
+            TYRGS
+Sbjct  134  TYRGS  138
+
+
+> sp|Q8ZQ52|HIUH_SALTY 5-hydroxyisourate hydrolase OS=Salmonella 
+typhimurium (strain LT2 / SGSC1412 / ATCC 700720) OX=99287 
+GN=hiuH PE=3 SV=1
+Length=136
+
+ Score = 156 bits (395),  Expect = 4e-47, Method: Composition-based stats.
+ Identities = 46/144 (32%), Positives = 64/144 (44%), Gaps = 8/144 (6%)
+
+Query  130  MVALEQVHKIAWMRLLSKIDTSDAQGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLV  189
+            M        IA +     +  +     L+ H+LD   G PA  + + L +        L 
+Sbjct  1    MKRYILATVIASLVAAPAMALAAGNNILSVHILDQQTGKPAPGVEVVLEQKKDNGWTQL-  59
+
+Query  190  GEFVTNDDGRLEGGPALKGGKEFTVGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGI  249
+                T+ DGR++    L   K    G Y   F  G+YF SK   T    F   IP+ F I
+Sbjct  60   NTGHTDQDGRIKA---LWPEKAAAPGDYRVIFKTGQYFESKKLDT----FFPEIPVEFHI  112
+
+Query  250  DNPDDHYHVPLLVSPWSFSTYRGS  273
+               ++HYHVPLL+S + +STYRGS
+Sbjct  113  SKTNEHYHVPLLLSQYGYSTYRGS  136
+
+
+> sp|Q8Z7Q6|HIUH_SALTI 5-hydroxyisourate hydrolase OS=Salmonella 
+typhi OX=90370 GN=hiuH PE=3 SV=1
+Length=136
+
+ Score = 156 bits (395),  Expect = 5e-47, Method: Composition-based stats.
+ Identities = 46/144 (32%), Positives = 64/144 (44%), Gaps = 8/144 (6%)
+
+Query  130  MVALEQVHKIAWMRLLSKIDTSDAQGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLV  189
+            M        IA +     +  +     L+ H+LD   G PA  + + L +        L 
+Sbjct  1    MKRYILATAIASLVAAPAMALAAGSNILSVHILDQQTGKPAPGVEVVLEQKKDNGWTQL-  59
+
+Query  190  GEFVTNDDGRLEGGPALKGGKEFTVGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGI  249
+                T+ DGR++    L   K    G Y   F  G+YF SK   T    F   IP+ F I
+Sbjct  60   NTGHTDQDGRIKA---LWPEKAAAPGDYRVIFKTGQYFESKKLDT----FFPEIPVEFHI  112
+
+Query  250  DNPDDHYHVPLLVSPWSFSTYRGS  273
+               ++HYHVPLL+S + +STYRGS
+Sbjct  113  SKTNEHYHVPLLLSQYGYSTYRGS  136
+
+
+> sp|Q4VYA5|HIUH_SALDU 5-hydroxyisourate hydrolase OS=Salmonella 
+dublin OX=98360 GN=hiuH PE=1 SV=1
+Length=136
+
+ Score = 155 bits (393),  Expect = 8e-47, Method: Composition-based stats.
+ Identities = 45/135 (33%), Positives = 63/135 (47%), Gaps = 8/135 (6%)
+
+Query  139  IAWMRLLSKIDTSDAQGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLVGEFVTNDDG  198
+            IA +     +  +     L+ H+LD   G PA  + + L +        L     T+ DG
+Sbjct  10   IASLVAAPAMALAAGNNILSVHILDQQTGKPAPGVEVVLEQKKDNGWTQL-NTGHTDQDG  68
+
+Query  199  RLEGGPALKGGKEFTVGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNPDDHYHV  258
+            R++    L   K    G Y   F  G+YF SK   T    F   IP+ F I   ++HYHV
+Sbjct  69   RIKA---LWPEKAAAPGDYRVIFKTGQYFESKKLDT----FFPEIPVEFHISKTNEHYHV  121
+
+Query  259  PLLVSPWSFSTYRGS  273
+            PLL+S + +STYRGS
+Sbjct  122  PLLLSQYGYSTYRGS  136
+
+
+> sp|Q9CRB3|HIUH_MOUSE 5-hydroxyisourate hydrolase OS=Mus musculus 
+OX=10090 GN=Urah PE=1 SV=1
+Length=118
+
+ Score = 151 bits (382),  Expect = 2e-45, Method: Composition-based stats.
+ Identities = 44/125 (35%), Positives = 63/125 (50%), Gaps = 8/125 (6%)
+
+Query  150  TSDAQGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGL-VGEFVTNDDGRLEGGPALKG  208
+             +     LT HVLDT +G PA+ + + L RL  P    + +    TN DGR    P L  
+Sbjct  1    MATESSPLTTHVLDTASGLPAQGLCLRLSRLEAPCQQWMELRTSYTNLDGRC---PGLLT  57
+
+Query  209  GKEFTVGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNPDDHYHVPLLVSPWSFS  268
+              +   G Y+  F    Y+  +G   S  P+++ +   F I      +HVPLL+SPWS++
+Sbjct  58   PSQIKPGTYKLFFDTERYWKERG-QESFYPYVEVV---FTITKETQKFHVPLLLSPWSYT  113
+
+Query  269  TYRGS  273
+            TYRGS
+Sbjct  114  TYRGS  118
+
+
+> sp|P76341|HIUH_ECOLI 5-hydroxyisourate hydrolase OS=Escherichia 
+coli (strain K12) OX=83333 GN=hiuH PE=1 SV=1
+Length=137
+
+ Score = 151 bits (381),  Expect = 7e-45, Method: Composition-based stats.
+ Identities = 44/145 (30%), Positives = 68/145 (47%), Gaps = 9/145 (6%)
+
+Query  129  FMVALEQVHKIAWMRLLSKIDTSDAQGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGL  188
+                L      A   L S ++ +  Q  L+ H+L+   G PA  + + L + +      L
+Sbjct  2    LKRYLVLSVATAAFSLPSLVNAAQ-QNILSVHILNQQTGKPAADVTVTLEKKADNGWLQL  60
+
+Query  189  VGEFVTNDDGRLEGGPALKGGKEFTVGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFG  248
+                 T+ DGR++    L   +  T G Y   F  G+YF  +      + F   IP+ F 
+Sbjct  61   -NTAKTDKDGRIKA---LWPEQTATTGDYRVVFKTGDYFKKQNL----ESFFPEIPVEFH  112
+
+Query  249  IDNPDDHYHVPLLVSPWSFSTYRGS  273
+            I+  ++HYHVPLL+S + +STYRGS
+Sbjct  113  INKVNEHYHVPLLLSQYGYSTYRGS  137
+
+
+> sp|Q8XB75|HIUH_ECO57 5-hydroxyisourate hydrolase OS=Escherichia 
+coli O157:H7 OX=83334 GN=hiuH PE=3 SV=1
+Length=137
+
+ Score = 150 bits (379),  Expect = 1e-44, Method: Composition-based stats.
+ Identities = 40/123 (33%), Positives = 62/123 (50%), Gaps = 8/123 (7%)
+
+Query  151  SDAQGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLVGEFVTNDDGRLEGGPALKGGK  210
+            +  Q  L+ H+L+   G PA  + + L + +      L     T+ DGR++    L   +
+Sbjct  23   AAQQNILSVHILNQQTGKPAADVTVTLEKKADNGWLQL-NTAKTDKDGRIKA---LWPEQ  78
+
+Query  211  EFTVGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNPDDHYHVPLLVSPWSFSTY  270
+              T G Y   F  G+YF  +      + F   IP+ F I+  ++HYHVPLL+S + +STY
+Sbjct  79   TATTGDYRVVFKTGDYFKKQNL----ESFFPEIPVEFHINKVNEHYHVPLLLSQYGYSTY  134
+
+Query  271  RGS  273
+            RGS
+Sbjct  135  RGS  137
+
+
+> sp|O74492|HIUH_SCHPO Probable 5-hydroxyisourate hydrolase OS=Schizosaccharomyces 
+pombe (strain 972 / ATCC 24843) OX=284812 
+GN=SPCC285.04 PE=3 SV=1
+Length=124
+
+ Score = 139 bits (350),  Expect = 2e-40, Method: Composition-based stats.
+ Identities = 44/124 (35%), Positives = 66/124 (53%), Gaps = 10/124 (8%)
+
+Query  153  AQGF-LTCHVLDTGNGCPAEKMRIHLHRL--SPPEMAGLVGEFVTNDDGRLEGGPALKGG  209
+             QG  LT H+L+T +G PA  +++ L +L  SP      +    TN +GR+         
+Sbjct  8    PQGPALTAHILNTMSGIPAAGVQVALFKLNESPTPSQQFIATTETNANGRVTSWNVDLST  67
+
+Query  210  KEFTVGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNPDDHYHVPLLVSPWSFST  269
+             E   G Y + F  G YF S G  TS  P+++ + +R    N   HYH+PLL++P+ ++T
+Sbjct  68   VE--SGIYTFRFETGAYFDSLGV-TSFYPYVE-MAVRI---NKGQHYHIPLLLAPYGYTT  120
+
+Query  270  YRGS  273
+            YRGS
+Sbjct  121  YRGS  124
+
+
+> sp|Q283N4|URAD_MOUSE 2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazoline 
+decarboxylase OS=Mus musculus OX=10090 GN=Urad PE=1 SV=1
+Length=178
+
+ Score = 135 bits (340),  Expect = 3e-38, Method: Composition-based stats.
+ Identities = 44/166 (27%), Positives = 65/166 (39%), Gaps = 26/166 (16%)
+
+Query  1    VTVKDLLSKPSAEIASFLGGIYEHSAWVAEALVKDAESLASIETISQLAAAMKAIVNKSS  60
+            + +  + S    E     G I E    +A A+     S      +  L     A ++   
+Sbjct  1    MDMVKVNSMDFGEFVDVFGNIVEKCPLIAAAV----WSQRPFSGLEDLENHFFAFIDALP  56
+
+Query  61   KDQKLELLCAHPDL----------------------CQSLTDAELERFNSLNGAYRDQCG  98
+            +  +  +L  HPDL                        SL   +  R   LN  YR++ G
+Sbjct  57   RSGQEGILRCHPDLAGRDLQQGTLTAESQREQSQAGLTSLDTDDRLRLQQLNAQYRERFG  116
+
+Query  99   FPFILAVRNATKHTVLAALGGRVQHTPEQEFMVALEQVHKIAWMRL  144
+            FPF+LA R + + TV   L  R+Q  PE E   AL +V KI+ +RL
+Sbjct  117  FPFVLAARLSDRATVPRELARRLQCQPESELRTALGEVKKISHLRL  162
+
+
+> sp|A5PJD0|URAD_BOVIN 2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazoline 
+decarboxylase OS=Bos taurus OX=9913 GN=URAD PE=2 SV=1
+Length=170
+
+ Score = 132 bits (333),  Expect = 3e-37, Method: Composition-based stats.
+ Identities = 41/168 (24%), Positives = 64/168 (38%), Gaps = 26/168 (15%)
+
+Query  1    VTVKDLLSKPSAEIASFLGGIYEHSAWVAEALVKDAESLASIETISQLAAAMKAIVNKSS  60
+            + ++ + S    E     G + E    +A A+     S      +  L     A ++   
+Sbjct  1    MDIEKVNSMDFGEFVDVFGNVIERCPLIAAAV----WSKRPFSGLGDLEKHFFAFIDGLP  56
+
+Query  61   KDQKLELLCAHPDL----------------------CQSLTDAELERFNSLNGAYRDQCG  98
+               +  +L  HP+L                       Q+L  AE  RF  L   YR + G
+Sbjct  57   LSGQEGVLRCHPELAGRQLPWGRLTAESQREQSAAGLQNLGAAERLRFTELTAQYRTRFG  116
+
+Query  99   FPFILAVRNATKHTVLAALGGRVQHTPEQEFMVALEQVHKIAWMRLLS  146
+            FPF+LA+R +        L  R++  P QE   AL +V KI  +RL +
+Sbjct  117  FPFVLALRLSDPAAAPRELARRLRCPPAQELRTALGEVKKICHLRLAN  164
+
+
+> sp|A6NGE7|URAD_HUMAN Putative 2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazoline 
+decarboxylase OS=Homo sapiens OX=9606 GN=URAD 
+PE=5 SV=2
+Length=173
+
+ Score = 131 bits (330),  Expect = 7e-37, Method: Composition-based stats.
+ Identities = 41/167 (25%), Positives = 62/167 (37%), Gaps = 26/167 (16%)
+
+Query  1    VTVKDLLSKPSAEIASFLGGIYEHSAWVAEALVKDAESLASIETISQLAAAMKAIVNKSS  60
+            + ++ + S    E     G   E    +A A+     S      +  L     A ++  +
+Sbjct  1    MDIEKVNSMDLGEFVDVFGNATERCPLIAAAV----WSQRPFSDLEDLEKHFFAFIDALA  56
+
+Query  61   KDQKLELLCAHPDL----------------------CQSLTDAELERFNSLNGAYRDQCG  98
+            +  +  +L  HPDL                       +SL   E  R   LN  YR + G
+Sbjct  57   QSGQEGILRCHPDLAGSELQRGTLTAESQREQSGAGLRSLGADERLRLAELNAQYRARFG  116
+
+Query  99   FPFILAVRNATKHTVLAALGGRVQHTPEQEFMVALEQVHKIAWMRLL  145
+            FPF+LA R + +  V   L  R+     QE   AL +V KI  +RL 
+Sbjct  117  FPFVLAARFSDRTAVPRELARRLLCPSAQELRTALGEVKKIGSLRLA  163
+
+
+> sp|A1L259|URAD_DANRE 2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazoline 
+decarboxylase OS=Danio rerio OX=7955 GN=urad PE=1 SV=1
+Length=174
+
+ Score = 130 bits (328),  Expect = 1e-36, Method: Composition-based stats.
+ Identities = 39/174 (22%), Positives = 69/174 (40%), Gaps = 27/174 (16%)
+
+Query  6    LLSKPSAEIASFLGGIYEHSAWVAEALVKDAESLASIETISQLAAAMKAIVNKSSKDQKL  65
+            + +    +     G + E    ++ A+     S    + ++ + A +   ++      K 
+Sbjct  6    VNALAYEDFVKLFGNVVEKCPLISAAI----WSYRPFKDLADIEARISEFIHSLPDSGKE  61
+
+Query  66   ELLCAHPDLCQ----------------------SLTDAELERFNSLNGAYRDQCGFPFIL  103
+             +L  HPDL                        +L  AE+     LN  Y+++ GFPF++
+Sbjct  62   GILRCHPDLAGRDLQSGTLTPESQEEQSQAGMTTLDSAEIVHMYRLNSEYKERFGFPFVI  121
+
+Query  104  AVRNATKHTVLAALGGRVQHTPEQEFMVALEQVHKIAWMRLLSKIDTSDAQGFL  157
+              R   K  ++  L  R+++    E   A+E+V KI  +RL S I  SD Q  L
+Sbjct  122  CARLNNKADIVRQLSERLKNRRTAELECAIEEVKKICSLRLHS-IVLSDIQTKL  174
+
+
+> sp|Q0ZDF7|URAD_AMICA 2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazoline 
+decarboxylase OS=Amia calva OX=7924 GN=urad PE=3 SV=1
+Length=175
+
+ Score = 130 bits (326),  Expect = 4e-36, Method: Composition-based stats.
+ Identities = 41/179 (23%), Positives = 66/179 (37%), Gaps = 26/179 (15%)
+
+Query  1    VTVKDLLSKPSAEIASFLGGIYEHSAWVAEALVKDAESLASIETISQLAAAMKAIVNKSS  60
+            + ++ + S    E     G + E    VA A+     S         L A++   ++   
+Sbjct  1    MDMRQVNSLSYEEFVETFGNVVERCPVVAAAV----WSGRPFANSHDLEASIGEFIDSLP  56
+
+Query  61   KDQKLELLCAHPDLCQS----------------------LTDAELERFNSLNGAYRDQCG  98
+               +  ++  HPDL                         L   +  R N LN  Y+++ G
+Sbjct  57   VAGQEGIVRCHPDLAGRDLKRGALTAESRGEQTQAGLTLLDAGDAARMNRLNAQYKERFG  116
+
+Query  99   FPFILAVRNATKHTVLAALGGRVQHTPEQEFMVALEQVHKIAWMRLLSKIDTSDAQGFL  157
+            FPF++  R   K  +L  L  R+ + P QE   A+E+V KI  +RL   I        L
+Sbjct  117  FPFVICARMNNKEEILLRLAERLGNEPAQERQCAIEEVKKICQLRLQDIIQCPATHTKL  175
+
+
+> sp|A1L1C5|URAD_XENLA 2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazoline 
+decarboxylase OS=Xenopus laevis OX=8355 GN=urad PE=2 SV=1
+Length=175
+
+ Score = 129 bits (324),  Expect = 7e-36, Method: Composition-based stats.
+ Identities = 34/166 (20%), Positives = 63/166 (38%), Gaps = 26/166 (16%)
+
+Query  1    VTVKDLLSKPSAEIASFLGGIYEHSAWVAEALVKDAESLASIETISQLAAAMKAIVNKSS  60
+            + +  + S    +     G I E    V  A+     S     ++++L   +   +    
+Sbjct  1    MDLNTINSMSYEQFLDTFGNIIERCPLVTAAI----WSQQPFASVTELENRVFDFIESLP  56
+
+Query  61   KDQKLELLCAHPDLCQS----------------------LTDAELERFNSLNGAYRDQCG  98
+               K  +L  HPDL                         L+  E E    LN  Y+ + G
+Sbjct  57   LAGKEGILRCHPDLAGRDLMRGTLTDESQNEQAQAGLTLLSAKEKETLGFLNLQYKAKFG  116
+
+Query  99   FPFILAVRNATKHTVLAALGGRVQHTPEQEFMVALEQVHKIAWMRL  144
+            FPF++  + + K+ ++  LG R+Q+   +E    + +V KI  +R+
+Sbjct  117  FPFVICAKMSDKNKIMQELGSRLQNEQSEELQKGIAEVKKICHLRI  162
+
+
+> sp|P31779|TTHY_LITCT Transthyretin OS=Lithobates catesbeianus 
+OX=8400 PE=1 SV=2
+Length=153
+
+ Score = 127 bits (318),  Expect = 3e-35, Method: Composition-based stats.
+ Identities = 30/120 (25%), Positives = 57/120 (48%), Gaps = 8/120 (7%)
+
+Query  151  SDAQGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLVGEFVTNDDGRLEGGPALKGGK  210
+            +D++  L   VLD   G PA K+ + + + +  +   L+    T+ DG +     L   +
+Sbjct  29   ADSKCPLMVKVLDAVRGIPAAKLPVKVFKQNEDKSWDLISSGTTSSDGEIHN---LATEE  85
+
+Query  211  EFTVGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNP-DDHYHVPLLVSPWSFST  269
+            +F  G Y+  F    +++  G      PF + + + F  ++    HY   +L++P+SFST
+Sbjct  86   QFVEGIYKLEFATKRFWSKLGL----TPFHEYVDVVFTANDAGHRHYTTAVLLTPYSFST  141
+
+
+> sp|P27731|TTHY_CHICK Transthyretin OS=Gallus gallus OX=9031 GN=TTR 
+PE=1 SV=1
+Length=150
+
+ Score = 112 bits (280),  Expect = 1e-29, Method: Composition-based stats.
+ Identities = 28/121 (23%), Positives = 49/121 (40%), Gaps = 8/121 (7%)
+
+Query  150  TSDAQGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLVGEFVTNDDGRLEGGPALKGG  209
+            + D++  L   VLD   G PA  + + + + +            T + G +     L   
+Sbjct  28   SVDSKCPLMVKVLDAVRGSPAANVAVKVFKKAADGTWQDFATGKTTEFGEIHE---LTTE  84
+
+Query  210  KEFTVGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNP-DDHYHVPLLVSPWSFS  268
+            ++F  G Y   F    Y+   G      PF +   + F  ++    HY +  L+SP+S+S
+Sbjct  85   EQFVEGVYRVEFDTSSYWKGLGLS----PFHEYADVVFTANDSGHRHYTIAALLSPFSYS  140
+
+Query  269  T  269
+            T
+Sbjct  141  T  141
+
+
+> sp|B7ZS96|TTHY_XENLA Transthyretin OS=Xenopus laevis OX=8355 
+GN=ttr PE=1 SV=1
+Length=153
+
+ Score = 112 bits (280),  Expect = 1e-29, Method: Composition-based stats.
+ Identities = 28/120 (23%), Positives = 55/120 (46%), Gaps = 8/120 (7%)
+
+Query  151  SDAQGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLVGEFVTNDDGRLEGGPALKGGK  210
+            +D++  L   VLD   G PA  + +++ R +       +    T + G +     L   +
+Sbjct  30   ADSKCPLMVKVLDAVRGIPAANLLVNVFRQTESGKWEQITSGKTTELGEIHN---LTTDE  86
+
+Query  211  EFTVGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNP-DDHYHVPLLVSPWSFST  269
+            +FT G Y+  F    ++   G      PF + + + F  ++    HY + +L++P+SFS+
+Sbjct  87   QFTEGVYKIEFATKAFWGKLGLS----PFHEYVDVVFTANDAGHRHYTIAVLLTPYSFSS  142
+
+
+> sp|P49142|TTHY_PETBR Transthyretin OS=Petaurus breviceps OX=34899 
+GN=TTR PE=1 SV=1
+Length=149
+
+ Score = 110 bits (275),  Expect = 7e-29, Method: Composition-based stats.
+ Identities = 31/119 (26%), Positives = 52/119 (44%), Gaps = 8/119 (7%)
+
+Query  152  DAQGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLVGEFVTNDDGRLEGGPALKGGKE  211
+            D++  L   VLD   G PA  + + + + +  +   L     TND+G +     L    +
+Sbjct  29   DSKCPLMVKVLDAVRGRPAVNVDVKVFKKTEKQTWELFASGKTNDNGEIHE---LTSDDK  85
+
+Query  212  FTVGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNP-DDHYHVPLLVSPWSFST  269
+            F  G Y+  F    Y+ + G      PF +   + F  ++    HY +   +SP+SFST
+Sbjct  86   FGEGLYKVEFDTISYWKALGVS----PFHEYADVVFTANDAGHRHYTIAAQLSPYSFST  140
+
+
+> sp|P49141|TTHY_MONDO Transthyretin OS=Monodelphis domestica OX=13616 
+GN=TTR PE=1 SV=1
+Length=149
+
+ Score = 110 bits (274),  Expect = 9e-29, Method: Composition-based stats.
+ Identities = 31/119 (26%), Positives = 52/119 (44%), Gaps = 8/119 (7%)
+
+Query  152  DAQGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLVGEFVTNDDGRLEGGPALKGGKE  211
+            D++  L   VLD   G PA  + + + + S  +         TND G +     L   ++
+Sbjct  29   DSKCPLMVKVLDAVRGSPAVNVNVKVFKKSEEQTWEPFATGKTNDYGEIHE---LTNDEK  85
+
+Query  212  FTVGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNP-DDHYHVPLLVSPWSFST  269
+            F  G Y+  F    Y+ + G      PF +   + F  ++    HY +  L+SP+S+ST
+Sbjct  86   FGEGLYKVEFDTFSYWNALGVS----PFHEYADVVFKANDAGHRHYTIAALLSPYSYST  140
+
+
+> sp|P42204|TTHY_MACEU Transthyretin OS=Macropus eugenii OX=9315 
+GN=TTR PE=2 SV=1
+Length=149
+
+ Score = 110 bits (274),  Expect = 1e-28, Method: Composition-based stats.
+ Identities = 31/118 (26%), Positives = 52/118 (44%), Gaps = 8/118 (7%)
+
+Query  153  AQGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLVGEFVTNDDGRLEGGPALKGGKEF  212
+            ++  L   VLD   G PA  + + + + +  +   L     TND+G +     L    +F
+Sbjct  30   SKCPLMVKVLDAVRGRPAVNVDVKVFKKTEEQTWELFAAGKTNDNGEIHE---LTTDDKF  86
+
+Query  213  TVGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNP-DDHYHVPLLVSPWSFST  269
+              G Y+  F    Y+ + G      PF +   + F  ++    HY +  L+SP+SFST
+Sbjct  87   GEGLYKVEFDTISYWKALGVS----PFHEYADVVFTANDAGHRHYTIAALLSPYSFST  140
+
+
+> sp|P12303|TTHY_SHEEP Transthyretin OS=Ovis aries OX=9940 GN=TTR 
+PE=2 SV=1
+Length=147
+
+ Score = 108 bits (271),  Expect = 2e-28, Method: Composition-based stats.
+ Identities = 32/126 (25%), Positives = 52/126 (41%), Gaps = 8/126 (6%)
+
+Query  145  LSKIDTSDAQGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLVGEFVTNDDGRLEGGP  204
+             S     +++  L   VLD   G PA  + + + + +  E         T+D G L G  
+Sbjct  20   ASPAGAGESKCPLMVKVLDAVRGSPAANVGVKVFKKAADETWEPFASGKTSDSGELHG--  77
+
+Query  205  ALKGGKEFTVGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNPD-DHYHVPLLVS  263
+             L    +F  G Y+       Y+ S G      PF +   + F  ++    HY +  L+S
+Sbjct  78   -LTTEDKFVEGLYKVELDTKSYWKSLGIS----PFHEYAEVVFTANDSGLRHYTIAALLS  132
+
+Query  264  PWSFST  269
+            P+S+ST
+Sbjct  133  PYSYST  138
+
+
+> sp|O46375|TTHY_BOVIN Transthyretin OS=Bos taurus OX=9913 GN=TTR 
+PE=1 SV=1
+Length=147
+
+ Score = 108 bits (270),  Expect = 3e-28, Method: Composition-based stats.
+ Identities = 30/119 (25%), Positives = 50/119 (42%), Gaps = 8/119 (7%)
+
+Query  152  DAQGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLVGEFVTNDDGRLEGGPALKGGKE  211
+            + +  L   VLD   G PA  + + + + +  E         T++ G L G   L    +
+Sbjct  27   EPKCPLMVKVLDAVRGSPAANVGVKVFKKAADETWEPFASGKTSESGELHG---LTTEDK  83
+
+Query  212  FTVGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNPD-DHYHVPLLVSPWSFST  269
+            F  G Y+       Y+ S G      PF +   + F  ++    HY +  L+SP+S+ST
+Sbjct  84   FVEGLYKVELDTKSYWKSLGIS----PFHEFAEVVFTANDSGPRHYTIAALLSPYSYST  138
+
+
+> sp|O55245|TTHY_CROPO Transthyretin OS=Crocodylus porosus OX=8502 
+GN=TTR PE=1 SV=1
+Length=150
+
+ Score = 108 bits (270),  Expect = 4e-28, Method: Composition-based stats.
+ Identities = 29/119 (24%), Positives = 49/119 (41%), Gaps = 8/119 (7%)
+
+Query  152  DAQGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLVGEFVTNDDGRLEGGPALKGGKE  211
+            D++  L   VLD   G PA  + I + + +            T + G +     L   ++
+Sbjct  30   DSKCPLMVKVLDAVRGSPAANVAIKVFKKTSDGDWQEFAAGKTTEFGEVHE---LTSDEK  86
+
+Query  212  FTVGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNP-DDHYHVPLLVSPWSFST  269
+            F  G Y   F    Y+ + G      PF +   + F  ++    HY +  L+SP+S+ST
+Sbjct  87   FVEGIYRVEFDTSSYWKALGLS----PFHEYADVVFTANDSGHRHYTIAALLSPFSYST  141
+
+
+> sp|P02767|TTHY_RAT Transthyretin OS=Rattus norvegicus OX=10116 
+GN=Ttr PE=1 SV=1
+Length=147
+
+ Score = 108 bits (269),  Expect = 5e-28, Method: Composition-based stats.
+ Identities = 29/119 (24%), Positives = 50/119 (42%), Gaps = 8/119 (7%)
+
+Query  152  DAQGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLVGEFVTNDDGRLEGGPALKGGKE  211
+            +++  L   VLD   G PA  + + + + +            T + G L G   L   ++
+Sbjct  27   ESKCPLMVKVLDAVRGSPAVDVAVKVFKKTADGSWEPFASGKTAESGELHG---LTTDEK  83
+
+Query  212  FTVGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNP-DDHYHVPLLVSPWSFST  269
+            FT G Y        Y+ + G      PF +   + F  ++    HY +  L+SP+S+ST
+Sbjct  84   FTEGVYRVELDTKSYWKALGIS----PFHEYAEVVFTANDSGHRHYTIAALLSPYSYST  138
+
+
+> sp|Q29616|TTHY_MACGI Transthyretin OS=Macropus giganteus OX=9317 
+GN=TTR PE=1 SV=1
+Length=149
+
+ Score = 107 bits (268),  Expect = 7e-28, Method: Composition-based stats.
+ Identities = 30/122 (25%), Positives = 53/122 (43%), Gaps = 8/122 (7%)
+
+Query  149  DTSDAQGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLVGEFVTNDDGRLEGGPALKG  208
+            ++  ++  L   VLD   G PA  + + + + +  +   L     TND+G +     L  
+Sbjct  26   ESEHSKCPLMVKVLDAVRGRPAVNVDVKVFKKTEEQTWELFAAGKTNDNGEIHE---LTT  82
+
+Query  209  GKEFTVGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNP-DDHYHVPLLVSPWSF  267
+              +F  G Y+  F    Y+ + G      PF +   + F  ++    HY +   +SP+SF
+Sbjct  83   DDKFGEGLYKVEFDTISYWKALGVS----PFHEYADVVFTANDAGHRHYTIAAQLSPYSF  138
+
+Query  268  ST  269
+            ST
+Sbjct  139  ST  140
+
+
+> sp|P49143|TTHY_SMIMA Transthyretin OS=Sminthopsis macroura OX=9302 
+GN=TTR PE=2 SV=1
+Length=149
+
+ Score = 107 bits (266),  Expect = 1e-27, Method: Composition-based stats.
+ Identities = 30/119 (25%), Positives = 53/119 (45%), Gaps = 8/119 (7%)
+
+Query  152  DAQGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLVGEFVTNDDGRLEGGPALKGGKE  211
+            D++  L   VLD+  G PA  + + + + +  +   L     TN++G +     L    +
+Sbjct  29   DSKCPLMVKVLDSVRGSPAVNVDVKVFKKTEEQTWELFASGKTNNNGEIHE---LTSDDQ  85
+
+Query  212  FTVGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNP-DDHYHVPLLVSPWSFST  269
+            F  G Y+  F    Y+ + G      PF +   + F  ++    HY +   +SP+SFST
+Sbjct  86   FGEGLYKVEFDTVSYWKTFGIS----PFHEYADVVFTANDAGHRHYTIAAQLSPFSFST  140
+
+
+> sp|Q9MYN8|TTHY_ERIEU Transthyretin OS=Erinaceus europaeus OX=9365 
+GN=TTR PE=2 SV=1
+Length=145
+
+ Score = 105 bits (263),  Expect = 3e-27, Method: Composition-based stats.
+ Identities = 29/121 (24%), Positives = 52/121 (43%), Gaps = 8/121 (7%)
+
+Query  150  TSDAQGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLVGEFVTNDDGRLEGGPALKGG  209
+            T  ++  L   VLD   G PA  + + + + +  E         T++ G L G   L   
+Sbjct  23   TGQSKCPLMVKVLDAVRGSPAVNVAVKVFKKAADETWEPFASGKTSESGELHG---LTTD  79
+
+Query  210  KEFTVGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNPDD-HYHVPLLVSPWSFS  268
+            ++F  G Y+       Y+ + G      PF + + + F  ++     Y +  L+SP+S+S
+Sbjct  80   EKFVEGVYKVELDTKSYWKTLGIS----PFHEYVEVVFTANDSGQRRYTIAALLSPYSYS  135
+
+Query  269  T  269
+            T
+Sbjct  136  T  136
+
+
+> sp|A4QNN7|TTHY_XENTR Transthyretin OS=Xenopus tropicalis OX=8364 
+GN=ttr PE=2 SV=1
+Length=151
+
+ Score = 105 bits (263),  Expect = 4e-27, Method: Composition-based stats.
+ Identities = 27/120 (23%), Positives = 54/120 (45%), Gaps = 9/120 (8%)
+
+Query  151  SDAQGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLVGEFVTNDDGRLEGGPALKGGK  210
+            +D++  L   VLD   G PA  + + + R +      L+    T + G +     +   +
+Sbjct  29   ADSKCPLMVKVLDAVRGIPAANLLVQVFRNTEGNW-ELISSGKTTELGEIHN---IITDE  84
+
+Query  211  EFTVGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNP-DDHYHVPLLVSPWSFST  269
+            +FT G Y+  F    ++   G      PF + + + F  ++    HY + +L++P+S S+
+Sbjct  85   QFTEGVYKIEFATKTFWRKLGLS----PFHEYVDVVFSANDAGHRHYTIAVLLTPYSISS  140
+
+
+> sp|P07309|TTHY_MOUSE Transthyretin OS=Mus musculus OX=10090 GN=Ttr 
+PE=1 SV=1
+Length=147
+
+ Score = 105 bits (262),  Expect = 5e-27, Method: Composition-based stats.
+ Identities = 28/119 (24%), Positives = 49/119 (41%), Gaps = 8/119 (7%)
+
+Query  152  DAQGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLVGEFVTNDDGRLEGGPALKGGKE  211
+            +++  L   VLD   G PA  + + + + +            T + G L G   L   ++
+Sbjct  27   ESKCPLMVKVLDAVRGSPAVDVAVKVFKKTSEGSWEPFASGKTAESGELHG---LTTDEK  83
+
+Query  212  FTVGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNP-DDHYHVPLLVSPWSFST  269
+            F  G Y        Y+ + G      PF +   + F  ++    HY +  L+SP+S+ST
+Sbjct  84   FVEGVYRVELDTKSYWKTLGIS----PFHEFADVVFTANDSGHRHYTIAALLSPYSYST  138
+
+
+> sp|P30623|TTHY_TILRU Transthyretin OS=Tiliqua rugosa OX=8527 
+GN=TTR PE=1 SV=1
+Length=150
+
+ Score = 105 bits (261),  Expect = 6e-27, Method: Composition-based stats.
+ Identities = 30/119 (25%), Positives = 52/119 (44%), Gaps = 8/119 (7%)
+
+Query  152  DAQGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLVGEFVTNDDGRLEGGPALKGGKE  211
+            D++  L   VLD   G PA  + + + ++S            TN+ G +     L   ++
+Sbjct  30   DSKCPLMVKVLDAVRGRPATSIAVKVSKMSEEGDWKEFANGKTNEFGEIHE---LTTDEQ  86
+
+Query  212  FTVGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNP-DDHYHVPLLVSPWSFST  269
+            F  G Y+  F    Y+ + G      PF +   + F  ++    HY +  L+SP+S+ST
+Sbjct  87   FVQGLYKVEFDTSSYWKALGVS----PFHEYADVVFSANDSGHRHYTIAALLSPFSYST  141
+
+
+> sp|P07489|TTHY_RABIT Transthyretin OS=Oryctolagus cuniculus OX=9986 
+GN=TTR PE=1 SV=1
+Length=127
+
+ Score = 104 bits (259),  Expect = 8e-27, Method: Composition-based stats.
+ Identities = 31/121 (26%), Positives = 52/121 (43%), Gaps = 8/121 (7%)
+
+Query  150  TSDAQGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLVGEFVTNDDGRLEGGPALKGG  209
+            T D++  L   VLD   G PA  + +H+ + +  E         T+  G L G   L   
+Sbjct  5    TGDSKCPLMVKVLDAVRGSPAVDVSVHVFKKAADETWEPFASGKTSKTGELHG---LTTS  61
+
+Query  210  KEFTVGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNP-DDHYHVPLLVSPWSFS  268
+            ++F  G Y+       Y+ + G      PF +   + F  ++     Y +  L+SP+S+S
+Sbjct  62   EKFVEGVYKVELDTKSYWKALGIS----PFHEYAEVVFTANDSGHRSYTIAALLSPFSYS  117
+
+Query  269  T  269
+            T
+Sbjct  118  T  118
+
+
+> sp|Q8HXW1|TTHY_MACFA Transthyretin OS=Macaca fascicularis OX=9541 
+GN=TTR PE=2 SV=2
+Length=147
+
+ Score = 104 bits (260),  Expect = 9e-27, Method: Composition-based stats.
+ Identities = 31/119 (26%), Positives = 53/119 (45%), Gaps = 8/119 (7%)
+
+Query  152  DAQGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLVGEFVTNDDGRLEGGPALKGGKE  211
+            +++  L   VLD   G PA  + +++ + +  E         T++ G L G   L   +E
+Sbjct  27   ESKCPLMVKVLDAVRGSPAVNVAVNVFKKAADETWAPFASGKTSESGELHG---LTTEEE  83
+
+Query  212  FTVGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNPD-DHYHVPLLVSPWSFST  269
+            F  G Y+       Y+ S G      PF +   + F  ++    HY +  L+SP+S+ST
+Sbjct  84   FVEGIYKVEIDTKSYWKSLGIS----PFHEHAEVVFTANDSGPRHYTIAALLSPYSYST  138
+
+
+> sp|P50390|TTHY_PIG Transthyretin OS=Sus scrofa OX=9823 GN=TTR 
+PE=1 SV=1
+Length=150
+
+ Score = 104 bits (260),  Expect = 1e-26, Method: Composition-based stats.
+ Identities = 28/119 (24%), Positives = 51/119 (43%), Gaps = 8/119 (7%)
+
+Query  152  DAQGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLVGEFVTNDDGRLEGGPALKGGKE  211
+            +++  L   VLD   G PA  + + + + +            T++ G L G   L   ++
+Sbjct  27   ESKCPLMVKVLDAVRGSPAVNVGVKVFKKAADGTWEPFALGKTSEFGELHG---LTTDEK  83
+
+Query  212  FTVGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNPD-DHYHVPLLVSPWSFST  269
+            F  G Y+       Y+ + G      PF +   + F  ++    HY +  L+SP+S+ST
+Sbjct  84   FVEGIYKVELDTKSYWKALGIS----PFHEYAEVVFTANDSGRRHYTIAALLSPYSYST  138
+
+
+> sp|P02766|TTHY_HUMAN Transthyretin OS=Homo sapiens OX=9606 GN=TTR 
+PE=1 SV=1
+Length=147
+
+ Score = 103 bits (258),  Expect = 2e-26, Method: Composition-based stats.
+ Identities = 31/123 (25%), Positives = 53/123 (43%), Gaps = 8/123 (7%)
+
+Query  148  IDTSDAQGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLVGEFVTNDDGRLEGGPALK  207
+              T +++  L   VLD   G PA  + +H+ R +  +         T++ G L G   L 
+Sbjct  23   TGTGESKCPLMVKVLDAVRGSPAINVAVHVFRKAADDTWEPFASGKTSESGELHG---LT  79
+
+Query  208  GGKEFTVGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNPD-DHYHVPLLVSPWS  266
+              +EF  G Y+       Y+ + G      PF +   + F  ++     Y +  L+SP+S
+Sbjct  80   TEEEFVEGIYKVEIDTKSYWKALGIS----PFHEHAEVVFTANDSGPRRYTIAALLSPYS  135
+
+Query  267  FST  269
+            +ST
+Sbjct  136  YST  138
+
+
+> sp|Q5U7I5|TTHY_PANTR Transthyretin OS=Pan troglodytes OX=9598 
+GN=TTR PE=2 SV=1
+Length=147
+
+ Score = 103 bits (256),  Expect = 4e-26, Method: Composition-based stats.
+ Identities = 31/123 (25%), Positives = 53/123 (43%), Gaps = 8/123 (7%)
+
+Query  148  IDTSDAQGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLVGEFVTNDDGRLEGGPALK  207
+              T +++  L   VLD   G PA  + +H+ + +  E         T++ G L G   L 
+Sbjct  23   TGTGESKCPLMVKVLDAVRGSPAINVAVHVFKKAADETWEPFASGKTSESGELHG---LT  79
+
+Query  208  GGKEFTVGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNPD-DHYHVPLLVSPWS  266
+              +EF  G Y+       Y+ + G      PF +   + F  ++     Y +  L+SP+S
+Sbjct  80   TEEEFVEGIYKVEIDTKSYWKALGIS----PFHEHAEVVFTANDSGPRRYTIAALLSPYS  135
+
+Query  267  FST  269
+            +ST
+Sbjct  136  YST  138
+
+
+> sp|Q5NVS2|TTHY_PONAB Transthyretin OS=Pongo abelii OX=9601 GN=TTR 
+PE=2 SV=1
+Length=147
+
+ Score = 100 bits (248),  Expect = 5e-25, Method: Composition-based stats.
+ Identities = 29/119 (24%), Positives = 52/119 (44%), Gaps = 8/119 (7%)
+
+Query  152  DAQGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLVGEFVTNDDGRLEGGPALKGGKE  211
+            +++  L   VLD   G PA  + +++ + +  E         T++ G L G   L   +E
+Sbjct  27   ESKCPLMVKVLDAVRGSPAVNVAVNVFKRAADETWEPFASGKTSESGELHG---LTTEEE  83
+
+Query  212  FTVGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNPD-DHYHVPLLVSPWSFST  269
+            F  G Y+       Y+ + G      PF +   + F  ++     Y +  L+SP+S+ST
+Sbjct  84   FVEGIYKVEIDTKSYWKALGIS----PFHEHAEVVFAANDSGPRRYTIAALLSPYSYST  138
+
+
+> sp|O46654|TTHY_SORAR Transthyretin OS=Sorex araneus OX=42254 
+GN=TTR PE=1 SV=1
+Length=147
+
+ Score = 98.6 bits (244),  Expect = 2e-24, Method: Composition-based stats.
+ Identities = 28/123 (23%), Positives = 51/123 (41%), Gaps = 8/123 (7%)
+
+Query  148  IDTSDAQGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLVGEFVTNDDGRLEGGPALK  207
+              T  ++  L   VLD   G PA  + + + + +  E         T++ G L G   L 
+Sbjct  23   TGTGQSKCPLMVKVLDAVQGSPAVNVAVRVFKKAADETWEPFASGKTSEFGELHG---LT  79
+
+Query  208  GGKEFTVGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNPD-DHYHVPLLVSPWS  266
+              ++F  G  +       Y+ + G      PF + + + F  ++     Y +  L+SP+S
+Sbjct  80   TDEKFVEGIIKVELDTKTYWKALGIS----PFHEYVEVVFHANDSGKRRYTIAALLSPYS  135
+
+Query  267  FST  269
+            +ST
+Sbjct  136  YST  138
+
+
+> sp|Q54SV3|ALN1_DICDI Probable allantoinase 1 OS=Dictyostelium 
+discoideum OX=44689 GN=allB1 PE=3 SV=1
+Length=649
+
+ Score = 81.3 bits (199),  Expect = 5e-16, Method: Composition-based stats.
+ Identities = 34/168 (20%), Positives = 68/168 (40%), Gaps = 28/168 (17%)
+
+Query  2    TVKDLLSKPSA-EIASFLGGIYEHSAWVAEALVKDAESLASIETISQLAAAMKAIVNKSS  60
+            T++ L S          +  ++E +  +A AL     S     +  QL     +I+   +
+Sbjct  483  TIELLNSLTEQKTFFDCIHLLFEAAPPLANALF----SKRPFSSYQQLIDQAYSIIQSLN  538
+
+Query  61   KDQKLELLCAHPDLC----------------------QSLTDAELERFNSLNGAYRDQCG  98
+            +  K++++ AHP +                        S+  + LE    LN  Y  + G
+Sbjct  539  ESDKIQVINAHPRIGVSASQVKNSSSISYREQSCDKDSSIDQSILENLTQLNQQYESKFG  598
+
+Query  99   FPFILAVRNATKHTVLAALGGRVQHT-PEQEFMVALEQVHKIAWMRLL  145
+            F F++ V    K+ ++  L  R+ +   ++E  + L ++ +I+  RLL
+Sbjct  599  FKFVVFVNGRPKNEIIPILQNRLNNNDKQKELNLGLSEMIEISKSRLL  646
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.133    0.371    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0408    0.140     1.90     42.6     43.6 
+
+Effective search space used: 21584603978
+Results from round 3
+
+
+Query= 5Z5M
+
+Length=273
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q9LVM5|TTHL_ARATH Uric acid degradation bifunctional protein...  233     2e-74
+  sp|Q283N4|URAD_MOUSE 2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazol...  200     9e-64
+  sp|Q0ZDF7|URAD_AMICA 2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazol...  197     1e-62
+  sp|A5PJD0|URAD_BOVIN 2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazol...  193     4e-61
+  sp|A6NGE7|URAD_HUMAN Putative 2-oxo-4-hydroxy-4-carboxy-5-ureid...  191     7e-60
+  sp|A1L1C5|URAD_XENLA 2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazol...  186     3e-58
+  sp|A1L259|URAD_DANRE 2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazol...  185     9e-58
+  sp|D8JBB8|URAD_HALJB 2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazol...  175     8e-54
+  sp|Q9I3J5|HIUH_PSEAE 5-hydroxyisourate hydrolase OS=Pseudomonas...  173     8e-54
+  sp|Q92UG5|HIUH2_RHIME 5-hydroxyisourate hydrolase 2 OS=Rhizobiu...  172     1e-53
+  sp|Q45697|PUCL_BACSB Uric acid degradation bifunctional protein...  182     4e-53
+  sp|D4GPU8|URAD_HALVD 2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazol...  171     1e-52
+  sp|Q8G228|HIUH_BRUSU 5-hydroxyisourate hydrolase OS=Brucella su...  170     2e-52
+  sp|Q8YFU1|HIUH_BRUME 5-hydroxyisourate hydrolase OS=Brucella me...  169     2e-52
+  sp|Q9KET9|HIUH_BACHD 5-hydroxyisourate hydrolase OS=Bacillus ha...  169     2e-52
+  sp|P76341|HIUH_ECOLI 5-hydroxyisourate hydrolase OS=Escherichia...  169     6e-52
+  sp|Q8XXJ7|HIUH_RALSO 5-hydroxyisourate hydrolase OS=Ralstonia s...  167     2e-51
+  sp|Q8XB75|HIUH_ECO57 5-hydroxyisourate hydrolase OS=Escherichia...  166     6e-51
+  sp|O44578|HIUH2_CAEEL Probable 5-hydroxyisourate hydrolase ZK69...  165     3e-50
+  sp|P12303|TTHY_SHEEP Transthyretin OS=Ovis aries OX=9940 GN=TTR...  165     3e-50
+  sp|Q8Z7Q6|HIUH_SALTI 5-hydroxyisourate hydrolase OS=Salmonella ...  164     3e-50
+  sp|Q8ZQ52|HIUH_SALTY 5-hydroxyisourate hydrolase OS=Salmonella ...  164     3e-50
+  sp|P02767|TTHY_RAT Transthyretin OS=Rattus norvegicus OX=10116 ...  164     4e-50
+  sp|O46375|TTHY_BOVIN Transthyretin OS=Bos taurus OX=9913 GN=TTR...  164     5e-50
+  sp|P50390|TTHY_PIG Transthyretin OS=Sus scrofa OX=9823 GN=TTR P...  164     7e-50
+  sp|Q21882|HIUH1_CAEEL Probable 5-hydroxyisourate hydrolase R09H...  162     2e-49
+  sp|Q4VYA5|HIUH_SALDU 5-hydroxyisourate hydrolase OS=Salmonella ...  162     2e-49
+  sp|Q9MYN8|TTHY_ERIEU Transthyretin OS=Erinaceus europaeus OX=93...  163     2e-49
+  sp|P27731|TTHY_CHICK Transthyretin OS=Gallus gallus OX=9031 GN=...  163     2e-49
+  sp|O32141|PUCL_BACSU Uric acid degradation bifunctional protein...  172     3e-49
+  sp|P07309|TTHY_MOUSE Transthyretin OS=Mus musculus OX=10090 GN=...  161     7e-49
+  sp|Q9RV69|HIUH_DEIRA 5-hydroxyisourate hydrolase OS=Deinococcus...  160     7e-49
+  sp|Q92VB9|HIUH1_RHIME 5-hydroxyisourate hydrolase 1 OS=Rhizobiu...  160     8e-49
+  sp|P49141|TTHY_MONDO Transthyretin OS=Monodelphis domestica OX=...  160     2e-48
+  sp|P42204|TTHY_MACEU Transthyretin OS=Macropus eugenii OX=9315 ...  160     4e-48
+  sp|P49142|TTHY_PETBR Transthyretin OS=Petaurus breviceps OX=348...  159     4e-48
+  sp|O55245|TTHY_CROPO Transthyretin OS=Crocodylus porosus OX=850...  159     5e-48
+  sp|P07489|TTHY_RABIT Transthyretin OS=Oryctolagus cuniculus OX=...  158     6e-48
+  sp|Q06S87|HIUH_DANRE 5-hydroxyisourate hydrolase OS=Danio rerio...  159     6e-48
+  sp|Q5U7I5|TTHY_PANTR Transthyretin OS=Pan troglodytes OX=9598 G...  159     9e-48
+  sp|P02766|TTHY_HUMAN Transthyretin OS=Homo sapiens OX=9606 GN=T...  159     9e-48
+  sp|O32142|HIUH_BACSU 5-hydroxyisourate hydrolase OS=Bacillus su...  157     1e-47
+  sp|Q98CI7|HIUH_RHILO 5-hydroxyisourate hydrolase OS=Mesorhizobi...  157     1e-47
+  sp|Q9A545|HIUH_CAUVC 5-hydroxyisourate hydrolase OS=Caulobacter...  157     1e-47
+  sp|Q8HXW1|TTHY_MACFA Transthyretin OS=Macaca fascicularis OX=95...  158     2e-47
+  sp|O46654|TTHY_SORAR Transthyretin OS=Sorex araneus OX=42254 GN...  157     4e-47
+  sp|Q29616|TTHY_MACGI Transthyretin OS=Macropus giganteus OX=931...  157     5e-47
+  sp|Q5NVS2|TTHY_PONAB Transthyretin OS=Pongo abelii OX=9601 GN=T...  156     1e-46
+  sp|P49143|TTHY_SMIMA Transthyretin OS=Sminthopsis macroura OX=9...  155     1e-46
+  sp|P30623|TTHY_TILRU Transthyretin OS=Tiliqua rugosa OX=8527 GN...  154     4e-46
+  sp|B7ZS96|TTHY_XENLA Transthyretin OS=Xenopus laevis OX=8355 GN...  153     2e-45
+  sp|Q9CRB3|HIUH_MOUSE 5-hydroxyisourate hydrolase OS=Mus musculu...  150     6e-45
+  sp|P31779|TTHY_LITCT Transthyretin OS=Lithobates catesbeianus O...  151     8e-45
+  sp|A4QNN7|TTHY_XENTR Transthyretin OS=Xenopus tropicalis OX=836...  144     4e-42
+  sp|O74492|HIUH_SCHPO Probable 5-hydroxyisourate hydrolase OS=Sc...  138     4e-40
+  sp|Q54SV3|ALN1_DICDI Probable allantoinase 1 OS=Dictyostelium d...  148     2e-39
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|Q9LVM5|TTHL_ARATH Uric acid degradation bifunctional protein 
+TTL OS=Arabidopsis thaliana OX=3702 GN=TTL PE=1 SV=1
+Length=324
+
+ Score = 233 bits (593),  Expect = 2e-74, Method: Composition-based stats.
+ Identities = 66/317 (21%), Positives = 106/317 (33%), Gaps = 80/317 (25%)
+
+Query  29   AEALVKDAESLASIETISQLAAAMKAIVNKSSKDQKLELLCAHPDLCQS-----------  77
+            +    K   +   + +   +  A     N+ +    LE   AHP +  +           
+Sbjct  16   SSEFAKQMSTSGPLTSQEAIYTARDIWFNQVNVTDWLEAFSAHPQIGNTPSPSINSDFAR  75
+
+Query  78   ------------LTDAELERFNSLNGAYRDQCGFPFILAVRNATKHTVLAALGGRVQHTP  125
+                         + + L+     N  Y+ + GF FI+     T   +L AL  R ++ P
+Sbjct  76   RSVSEQSTAFATTSASALQELAEWNVLYKKKFGFIFIICASGRTHAEMLHALKERYENRP  135
+
+Query  126  EQEFMVALEQVHKIAWMRLLSKI-------------------------------------  148
+              E  +A  +  KI  +R+                                         
+Sbjct  136  IVELEIAAMEQMKITELRMAKLFSDKAKVISETDSSSSPVSTKPQDRLRIIGGHLNVAAE  195
+
+Query  149  --DTSDAQGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLVG----------EFVTND  196
+                  ++  +T HVLD   G PA  + +HL   S       V              T+ 
+Sbjct  196  AKAPKRSRPPITTHVLDVSRGAPAAGVEVHLEVWSGTTGPSFVHGGGGVWSSVGTSATDR  255
+
+Query  197  DGRLEGGPALKGGKEFTVGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNPDDHY  256
+            DGR   GP +        G Y  +F   +Y  S G      P++  +  +       +H+
+Sbjct  256  DGR--SGPLMDLVDALNPGTYRISFDTAKY--SPGC---FFPYVSIV-FQVTESQKWEHF  307
+
+Query  257  HVPLLVSPWSFSTYRGS  273
+            HVPLL++P+SFSTYRGS
+Sbjct  308  HVPLLLAPFSFSTYRGS  324
+
+
+> sp|Q283N4|URAD_MOUSE 2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazoline 
+decarboxylase OS=Mus musculus OX=10090 GN=Urad PE=1 SV=1
+Length=178
+
+ Score = 200 bits (509),  Expect = 9e-64, Method: Composition-based stats.
+ Identities = 44/179 (25%), Positives = 67/179 (37%), Gaps = 26/179 (15%)
+
+Query  1    VTVKDLLSKPSAEIASFLGGIYEHSAWVAEALVKDAESLASIETISQLAAAMKAIVNKSS  60
+            + +  + S    E     G I E    +A A+     S      +  L     A ++   
+Sbjct  1    MDMVKVNSMDFGEFVDVFGNIVEKCPLIAAAV----WSQRPFSGLEDLENHFFAFIDALP  56
+
+Query  61   KDQKLELLCAHPDLCQ----------------------SLTDAELERFNSLNGAYRDQCG  98
+            +  +  +L  HPDL                        SL   +  R   LN  YR++ G
+Sbjct  57   RSGQEGILRCHPDLAGRDLQQGTLTAESQREQSQAGLTSLDTDDRLRLQQLNAQYRERFG  116
+
+Query  99   FPFILAVRNATKHTVLAALGGRVQHTPEQEFMVALEQVHKIAWMRLLSKIDTSDAQGFL  157
+            FPF+LA R + + TV   L  R+Q  PE E   AL +V KI+ +RL   +        +
+Sbjct  117  FPFVLAARLSDRATVPRELARRLQCQPESELRTALGEVKKISHLRLTDLLGAHSHSARV  175
+
+
+> sp|Q0ZDF7|URAD_AMICA 2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazoline 
+decarboxylase OS=Amia calva OX=7924 GN=urad PE=3 SV=1
+Length=175
+
+ Score = 197 bits (501),  Expect = 1e-62, Method: Composition-based stats.
+ Identities = 41/179 (23%), Positives = 66/179 (37%), Gaps = 26/179 (15%)
+
+Query  1    VTVKDLLSKPSAEIASFLGGIYEHSAWVAEALVKDAESLASIETISQLAAAMKAIVNKSS  60
+            + ++ + S    E     G + E    VA A+     S         L A++   ++   
+Sbjct  1    MDMRQVNSLSYEEFVETFGNVVERCPVVAAAV----WSGRPFANSHDLEASIGEFIDSLP  56
+
+Query  61   KDQKLELLCAHPDLCQS----------------------LTDAELERFNSLNGAYRDQCG  98
+               +  ++  HPDL                         L   +  R N LN  Y+++ G
+Sbjct  57   VAGQEGIVRCHPDLAGRDLKRGALTAESRGEQTQAGLTLLDAGDAARMNRLNAQYKERFG  116
+
+Query  99   FPFILAVRNATKHTVLAALGGRVQHTPEQEFMVALEQVHKIAWMRLLSKIDTSDAQGFL  157
+            FPF++  R   K  +L  L  R+ + P QE   A+E+V KI  +RL   I        L
+Sbjct  117  FPFVICARMNNKEEILLRLAERLGNEPAQERQCAIEEVKKICQLRLQDIIQCPATHTKL  175
+
+
+> sp|A5PJD0|URAD_BOVIN 2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazoline 
+decarboxylase OS=Bos taurus OX=9913 GN=URAD PE=2 SV=1
+Length=170
+
+ Score = 193 bits (491),  Expect = 4e-61, Method: Composition-based stats.
+ Identities = 40/172 (23%), Positives = 63/172 (37%), Gaps = 26/172 (15%)
+
+Query  1    VTVKDLLSKPSAEIASFLGGIYEHSAWVAEALVKDAESLASIETISQLAAAMKAIVNKSS  60
+            + ++ + S    E     G + E    +A A+     S      +  L     A ++   
+Sbjct  1    MDIEKVNSMDFGEFVDVFGNVIERCPLIAAAV----WSKRPFSGLGDLEKHFFAFIDGLP  56
+
+Query  61   KDQKLELLCAHPDLCQS----------------------LTDAELERFNSLNGAYRDQCG  98
+               +  +L  HP+L                         L  AE  RF  L   YR + G
+Sbjct  57   LSGQEGVLRCHPELAGRQLPWGRLTAESQREQSAAGLQNLGAAERLRFTELTAQYRTRFG  116
+
+Query  99   FPFILAVRNATKHTVLAALGGRVQHTPEQEFMVALEQVHKIAWMRLLSKIDT  150
+            FPF+LA+R +        L  R++  P QE   AL +V KI  +RL + +  
+Sbjct  117  FPFVLALRLSDPAAAPRELARRLRCPPAQELRTALGEVKKICHLRLANLLGE  168
+
+
+> sp|A6NGE7|URAD_HUMAN Putative 2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazoline 
+decarboxylase OS=Homo sapiens OX=9606 GN=URAD 
+PE=5 SV=2
+Length=173
+
+ Score = 191 bits (484),  Expect = 7e-60, Method: Composition-based stats.
+ Identities = 41/172 (24%), Positives = 62/172 (36%), Gaps = 26/172 (15%)
+
+Query  1    VTVKDLLSKPSAEIASFLGGIYEHSAWVAEALVKDAESLASIETISQLAAAMKAIVNKSS  60
+            + ++ + S    E     G   E    +A A+     S      +  L     A ++  +
+Sbjct  1    MDIEKVNSMDLGEFVDVFGNATERCPLIAAAV----WSQRPFSDLEDLEKHFFAFIDALA  56
+
+Query  61   KDQKLELLCAHPDLCQS----------------------LTDAELERFNSLNGAYRDQCG  98
+            +  +  +L  HPDL  S                      L   E  R   LN  YR + G
+Sbjct  57   QSGQEGILRCHPDLAGSELQRGTLTAESQREQSGAGLRSLGADERLRLAELNAQYRARFG  116
+
+Query  99   FPFILAVRNATKHTVLAALGGRVQHTPEQEFMVALEQVHKIAWMRLLSKIDT  150
+            FPF+LA R + +  V   L  R+     QE   AL +V KI  +RL   +  
+Sbjct  117  FPFVLAARFSDRTAVPRELARRLLCPSAQELRTALGEVKKIGSLRLADLLRA  168
+
+
+> sp|A1L1C5|URAD_XENLA 2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazoline 
+decarboxylase OS=Xenopus laevis OX=8355 GN=urad PE=2 SV=1
+Length=175
+
+ Score = 186 bits (472),  Expect = 3e-58, Method: Composition-based stats.
+ Identities = 34/170 (20%), Positives = 63/170 (37%), Gaps = 26/170 (15%)
+
+Query  1    VTVKDLLSKPSAEIASFLGGIYEHSAWVAEALVKDAESLASIETISQLAAAMKAIVNKSS  60
+            + +  + S    +     G I E    V  A+     S     ++++L   +   +    
+Sbjct  1    MDLNTINSMSYEQFLDTFGNIIERCPLVTAAI----WSQQPFASVTELENRVFDFIESLP  56
+
+Query  61   KDQKLELLCAHPDLCQS----------------------LTDAELERFNSLNGAYRDQCG  98
+               K  +L  HPDL                         L+  E E    LN  Y+ + G
+Sbjct  57   LAGKEGILRCHPDLAGRDLMRGTLTDESQNEQAQAGLTLLSAKEKETLGFLNLQYKAKFG  116
+
+Query  99   FPFILAVRNATKHTVLAALGGRVQHTPEQEFMVALEQVHKIAWMRLLSKI  148
+            FPF++  + + K+ ++  LG R+Q+   +E    + +V KI  +R+    
+Sbjct  117  FPFVICAKMSDKNKIMQELGSRLQNEQSEELQKGIAEVKKICHLRICDLF  166
+
+
+> sp|A1L259|URAD_DANRE 2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazoline 
+decarboxylase OS=Danio rerio OX=7955 GN=urad PE=1 SV=1
+Length=174
+
+ Score = 185 bits (469),  Expect = 9e-58, Method: Composition-based stats.
+ Identities = 34/170 (20%), Positives = 67/170 (39%), Gaps = 26/170 (15%)
+
+Query  1    VTVKDLLSKPSAEIASFLGGIYEHSAWVAEALVKDAESLASIETISQLAAAMKAIVNKSS  60
+            + +  + +    +     G + E    ++ A+     S    + ++ + A +   ++   
+Sbjct  1    MDINVVNALAYEDFVKLFGNVVEKCPLISAAI----WSYRPFKDLADIEARISEFIHSLP  56
+
+Query  61   KDQKLELLCAHPDLCQ----------------------SLTDAELERFNSLNGAYRDQCG  98
+               K  +L  HPDL                        +L  AE+     LN  Y+++ G
+Sbjct  57   DSGKEGILRCHPDLAGRDLQSGTLTPESQEEQSQAGMTTLDSAEIVHMYRLNSEYKERFG  116
+
+Query  99   FPFILAVRNATKHTVLAALGGRVQHTPEQEFMVALEQVHKIAWMRLLSKI  148
+            FPF++  R   K  ++  L  R+++    E   A+E+V KI  +RL S +
+Sbjct  117  FPFVICARLNNKADIVRQLSERLKNRRTAELECAIEEVKKICSLRLHSIV  166
+
+
+> sp|D8JBB8|URAD_HALJB 2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazoline 
+decarboxylase OS=Halalkalicoccus jeotgali (strain DSM 
+18796 / CECT 7217 / JCM 14584 / KCTC 4019 / B3) OX=795797 GN=HacjB3_16066 
+PE=3 SV=1
+Length=176
+
+ Score = 175 bits (444),  Expect = 8e-54, Method: Composition-based stats.
+ Identities = 57/172 (33%), Positives = 83/172 (48%), Gaps = 22/172 (13%)
+
+Query  1    VTVKDLLSKPSAEIASFLGGIYEHSAWVAEALVKDAESLASIETISQLAAAMKAIVNKSS  60
+            +TV+DL           +G +YE S WVA+       S     +I  L  AM   V  +S
+Sbjct  4    LTVEDLNQADKERFVDAVGDVYEESPWVAKR----TWSEQPFSSIDGLQQAMANTVQDAS  59
+
+Query  61   KDQKLELLCAHPDLCQS------------------LTDAELERFNSLNGAYRDQCGFPFI  102
+            + ++LELL AHPDL +                   L  A+ E F +LN  YRD+ GFPFI
+Sbjct  60   QQKQLELLRAHPDLGERTEMTDESQEEQASAGLDRLPPAQYETFQTLNDTYRDKFGFPFI  119
+
+Query  103  LAVRNATKHTVLAALGGRVQHTPEQEFMVALEQVHKIAWMRLLSKIDTSDAQ  154
+            +AV++ +  T+  A+  R+ H+  +EF  AL +V+ IA +RL       D  
+Sbjct  120  MAVKDESVGTIQQAMEDRIDHSRSKEFQTALNEVNVIAALRLEELTVPRDGT  171
+
+
+> sp|Q9I3J5|HIUH_PSEAE 5-hydroxyisourate hydrolase OS=Pseudomonas 
+aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 / 
+JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1) OX=208964 GN=PA1518 
+PE=3 SV=1
+Length=126
+
+ Score = 173 bits (439),  Expect = 8e-54, Method: Composition-based stats.
+ Identities = 54/129 (42%), Positives = 78/129 (60%), Gaps = 3/129 (2%)
+
+Query  145  LSKIDTSDAQGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLVGEFVTNDDGRLEGGP  204
+            +S        G LT HVLD+ +GCP   ++I L+R+   +   L+   +TN DGR +   
+Sbjct  1    MSASGRPQPMGRLTTHVLDSAHGCPGHGIKIELYRVEG-QQLELIATTLTNHDGRCDQ--  57
+
+Query  205  ALKGGKEFTVGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNPDDHYHVPLLVSP  264
+             +  G++F  G Y+  F  G+Y+ ++G       FLD + LRFGI + DDHYHVPLL+SP
+Sbjct  58   PVLQGEDFRPGVYQLVFNAGDYYRARGVQLPEPAFLDQVVLRFGIASADDHYHVPLLISP  117
+
+Query  265  WSFSTYRGS  273
+            +S+STYRGS
+Sbjct  118  YSYSTYRGS  126
+
+
+> sp|Q92UG5|HIUH2_RHIME 5-hydroxyisourate hydrolase 2 OS=Rhizobium 
+meliloti (strain 1021) OX=266834 GN=RB1166 PE=3 SV=2
+Length=120
+
+ Score = 172 bits (437),  Expect = 1e-53, Method: Composition-based stats.
+ Identities = 58/122 (48%), Positives = 71/122 (58%), Gaps = 3/122 (2%)
+
+Query  152  DAQGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLVGEFVTNDDGRLEGGPALKGGKE  211
+               G LT HVLDT  G PA  ++I L+RL       L+    TN DGR++G   L  G  
+Sbjct  2    SKSGRLTTHVLDTALGRPAHGLKIDLYRLEGDAR-HLIRTVHTNSDGRVDG--PLMEGAG  58
+
+Query  212  FTVGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNPDDHYHVPLLVSPWSFSTYR  271
+            F  G YE  F  G+YF S G       FL+ +PLRFGI + D HYHVPLL+SP+ +STYR
+Sbjct  59   FATGTYELVFHAGDYFRSAGVKLPDPAFLELVPLRFGIADADSHYHVPLLLSPYGYSTYR  118
+
+Query  272  GS  273
+            GS
+Sbjct  119  GS  120
+
+
+> sp|Q45697|PUCL_BACSB Uric acid degradation bifunctional protein 
+OS=Bacillus sp. (strain TB-90) OX=36824 GN=uao PE=1 SV=3
+Length=502
+
+ Score = 182 bits (463),  Expect = 4e-53, Method: Composition-based stats.
+ Identities = 53/178 (30%), Positives = 81/178 (46%), Gaps = 23/178 (13%)
+
+Query  1    VTVKDLLSKPSAEIASFLGGIYEHSAWVAEALVKDAESLASIETISQLAAAMKAIVNKSS  60
+            + +K L    ++E    LGG++E+S+WVAE     AE      +   L   M  IV  +S
+Sbjct  2    MRLKQLNEMSASEFIHLLGGVFENSSWVAER----AEPNRPYSSFQSLYNKMVEIVETAS  57
+
+Query  61   KDQKLELLCAHPDLC------------------QSLTDAELERFNSLNGAYRDQCGFPFI  102
+             +++L+L+  HP L                     LT  E      LN  Y+D+ GFPF+
+Sbjct  58   DNEQLKLIQMHPHLGTNVKITDFSQEEQKHAGLNELTKDEQNHLILLNQKYKDKFGFPFV  117
+
+Query  103  LAVRNATKHTVLAALGGRVQHTPEQEFMVALEQVHKIAWMRLLSKIDTSDAQGFLTCH  160
+            +AVR   K  +   +  R+Q+  + EF  ALE++ KIA  RL       +    +T H
+Sbjct  118  MAVRGKIKQEIFRTIKERLQNNHQTEFKQALEEIKKIAMFRLQEIFREGE-NNSMTKH  174
+
+
+> sp|D4GPU8|URAD_HALVD 2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazoline 
+decarboxylase OS=Haloferax volcanii (strain ATCC 29605 
+/ DSM 3757 / JCM 8879 / NBRC 14742 / NCIMB 2012 / VKM B-1768 
+/ DS2) OX=309800 GN=HVO_B0301 PE=3 SV=1
+Length=168
+
+ Score = 171 bits (434),  Expect = 1e-52, Method: Composition-based stats.
+ Identities = 56/168 (33%), Positives = 88/168 (52%), Gaps = 22/168 (13%)
+
+Query  1    VTVKDLLSKPSAEIASFLGGIYEHSAWVAEALVKDAESLASIETISQLAAAMKAIVNKSS  60
+            +T++ +            G IYEHS WVAE     A S     ++ +L +AMK  V  +S
+Sbjct  4    LTLQQVNRLDDDSFVDAFGEIYEHSPWVAER----ARSSRPFSSVDELRSAMKRAVEDAS  59
+
+Query  61   KDQKLELLCAHPDLCQ------------------SLTDAELERFNSLNGAYRDQCGFPFI  102
+            ++++L+LL AHPDL +                  SL+ ++ E F  LN  YR++ GFPF+
+Sbjct  60   REKQLQLLRAHPDLGERTEMTDASEAEQASAELDSLSRSQYETFQRLNETYRERFGFPFV  119
+
+Query  103  LAVRNATKHTVLAALGGRVQHTPEQEFMVALEQVHKIAWMRLLSKIDT  150
+            +AV++     + AA+  RV H+   EF  AL++VH IA +RL  +  +
+Sbjct  120  MAVKDENPDAIAAAMERRVDHSESTEFRTALDEVHTIAELRLAERFSS  167
+
+
+> sp|Q8G228|HIUH_BRUSU 5-hydroxyisourate hydrolase OS=Brucella 
+suis biovar 1 (strain 1330) OX=204722 GN=BR0508 PE=3 SV=1
+Length=118
+
+ Score = 170 bits (430),  Expect = 2e-52, Method: Composition-based stats.
+ Identities = 59/120 (49%), Positives = 75/120 (63%), Gaps = 2/120 (2%)
+
+Query  154  QGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLVGEFVTNDDGRLEGGPALKGGKEFT  213
+             G L+ HVLDT +G PA  MR+ L+R++      L+   VTN DGR +    L  G +  
+Sbjct  1    MGKLSTHVLDTAHGTPAAAMRVELYRIAASGTPELLKRVVTNLDGRTDA--PLLSGDKMR  58
+
+Query  214  VGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNPDDHYHVPLLVSPWSFSTYRGS  273
+             G YE  F   EYF  +G   + +PFLD IP+RFGI + D +YHVPLLVSPWS+STYRGS
+Sbjct  59   TGIYELQFHVAEYFEGRGAELAHEPFLDLIPIRFGIADEDGNYHVPLLVSPWSYSTYRGS  118
+
+
+> sp|Q8YFU1|HIUH_BRUME 5-hydroxyisourate hydrolase OS=Brucella 
+melitensis biotype 1 (strain 16M / ATCC 23456 / NCTC 10094) 
+OX=224914 GN=BMEI1429 PE=3 SV=2
+Length=118
+
+ Score = 169 bits (429),  Expect = 2e-52, Method: Composition-based stats.
+ Identities = 60/120 (50%), Positives = 75/120 (63%), Gaps = 2/120 (2%)
+
+Query  154  QGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLVGEFVTNDDGRLEGGPALKGGKEFT  213
+             G L+ HVLDT +G PA  MR+ L+R++      L+   VTN DGR +    L  G E  
+Sbjct  1    MGKLSTHVLDTAHGTPAAAMRVELYRIAASGTPELLKRVVTNLDGRTDA--PLLSGDEMR  58
+
+Query  214  VGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNPDDHYHVPLLVSPWSFSTYRGS  273
+             G YE  F   EYF  +G   + +PFLD IP+RFGI + D +YHVPLLVSPWS+STYRGS
+Sbjct  59   TGIYELQFHVAEYFEGRGAELAHEPFLDLIPIRFGIADEDGNYHVPLLVSPWSYSTYRGS  118
+
+
+> sp|Q9KET9|HIUH_BACHD 5-hydroxyisourate hydrolase OS=Bacillus 
+halodurans (strain ATCC BAA-125 / DSM 18197 / FERM 7344 / JCM 
+9153 / C-125) OX=272558 GN=BH0760 PE=3 SV=1
+Length=119
+
+ Score = 169 bits (429),  Expect = 2e-52, Method: Composition-based stats.
+ Identities = 52/120 (43%), Positives = 70/120 (58%), Gaps = 2/120 (2%)
+
+Query  154  QGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLVGEFVTNDDGRLEGGPALKGGKEFT  213
+             G +T HVLDT  G PA  + + L R+     + L+ + VTN DGRL+    L    +  
+Sbjct  2    SGKVTTHVLDTSCGKPAAGVVVELWRIVEGGESELLTKAVTNQDGRLDK--PLLTENKMA  59
+
+Query  214  VGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNPDDHYHVPLLVSPWSFSTYRGS  273
+             G YE  F  G+YF   G      PFL  IP+RFG+++ ++HYHVPLLV+P  +STYRGS
+Sbjct  60   RGVYELRFQVGDYFLRNGFVNQAYPFLHVIPVRFGLEDVNEHYHVPLLVAPGGYSTYRGS  119
+
+
+> sp|P76341|HIUH_ECOLI 5-hydroxyisourate hydrolase OS=Escherichia 
+coli (strain K12) OX=83333 GN=hiuH PE=1 SV=1
+Length=137
+
+ Score = 169 bits (427),  Expect = 6e-52, Method: Composition-based stats.
+ Identities = 44/145 (30%), Positives = 68/145 (47%), Gaps = 9/145 (6%)
+
+Query  129  FMVALEQVHKIAWMRLLSKIDTSDAQGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGL  188
+                L      A   L S ++ +  Q  L+ H+L+   G PA  + + L + +      L
+Sbjct  2    LKRYLVLSVATAAFSLPSLVNAAQ-QNILSVHILNQQTGKPAADVTVTLEKKADNGWLQL  60
+
+Query  189  VGEFVTNDDGRLEGGPALKGGKEFTVGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFG  248
+                 T+ DGR++    L   +  T G Y   F  G+YF  +   +    F   IP+ F 
+Sbjct  61   -NTAKTDKDGRIKA---LWPEQTATTGDYRVVFKTGDYFKKQNLES----FFPEIPVEFH  112
+
+Query  249  IDNPDDHYHVPLLVSPWSFSTYRGS  273
+            I+  ++HYHVPLL+S + +STYRGS
+Sbjct  113  INKVNEHYHVPLLLSQYGYSTYRGS  137
+
+
+> sp|Q8XXJ7|HIUH_RALSO 5-hydroxyisourate hydrolase OS=Ralstonia 
+solanacearum (strain GMI1000) OX=267608 GN=RSc2116 PE=3 SV=1
+Length=117
+
+ Score = 167 bits (423),  Expect = 2e-51, Method: Composition-based stats.
+ Identities = 52/120 (43%), Positives = 66/120 (55%), Gaps = 3/120 (3%)
+
+Query  154  QGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLVGEFVTNDDGRLEGGPALKGGKEFT  213
+             G LT HVLDT  G P + + I L ++    +   +    TN DGR E    L  G+   
+Sbjct  1    MGRLTTHVLDTAAGTPGKDLAITLFKIVNN-LRQPIKTVRTNHDGRCEA--PLLEGEALQ  57
+
+Query  214  VGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNPDDHYHVPLLVSPWSFSTYRGS  273
+             G YE  F  G+Y+ + G       FLD + LRFG+ +   HYHVPLLVSPWS+STYRGS
+Sbjct  58   AGIYELDFAVGDYYRAAGVSLPDPAFLDVVTLRFGVADAGAHYHVPLLVSPWSYSTYRGS  117
+
+
+> sp|Q8XB75|HIUH_ECO57 5-hydroxyisourate hydrolase OS=Escherichia 
+coli O157:H7 OX=83334 GN=hiuH PE=3 SV=1
+Length=137
+
+ Score = 166 bits (421),  Expect = 6e-51, Method: Composition-based stats.
+ Identities = 44/145 (30%), Positives = 67/145 (46%), Gaps = 9/145 (6%)
+
+Query  129  FMVALEQVHKIAWMRLLSKIDTSDAQGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGL  188
+                L      A   L S +  +  Q  L+ H+L+   G PA  + + L + +      L
+Sbjct  2    LKRYLVLSVVTAAFSLPSLV-YAAQQNILSVHILNQQTGKPAADVTVTLEKKADNGWLQL  60
+
+Query  189  VGEFVTNDDGRLEGGPALKGGKEFTVGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFG  248
+                 T+ DGR++    L   +  T G Y   F  G+YF  +   +    F   IP+ F 
+Sbjct  61   -NTAKTDKDGRIKA---LWPEQTATTGDYRVVFKTGDYFKKQNLES----FFPEIPVEFH  112
+
+Query  249  IDNPDDHYHVPLLVSPWSFSTYRGS  273
+            I+  ++HYHVPLL+S + +STYRGS
+Sbjct  113  INKVNEHYHVPLLLSQYGYSTYRGS  137
+
+
+> sp|O44578|HIUH2_CAEEL Probable 5-hydroxyisourate hydrolase ZK697.8 
+OS=Caenorhabditis elegans OX=6239 GN=ZK697.8 PE=3 SV=2
+Length=136
+
+ Score = 165 bits (417),  Expect = 3e-50, Method: Composition-based stats.
+ Identities = 42/144 (29%), Positives = 65/144 (45%), Gaps = 8/144 (6%)
+
+Query  130  MVALEQVHKIAWMRLLSKIDTSDAQGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLV  189
+            M+       IA   ++S  + +     ++ HVLD   G PA  ++I    L       + 
+Sbjct  1    MIKFLLFLAIAAATVISNAELAVPTASISAHVLDISGGSPAGGIQILAFILLNNGWTNIG  60
+
+Query  190  GEFVTNDDGRLEGGPALKGGKEFTVGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGI  249
+             +F T D+GR++             G Y   +    Y+ +K    S  P+++ +   F I
+Sbjct  61   SQF-TQDNGRVDWVSPDFT---LIPGTYRLVYITEPYYTAKNVE-SFYPYVEVV---FNI  112
+
+Query  250  DNPDDHYHVPLLVSPWSFSTYRGS  273
+             N   HYHVPL +SPW +STYRGS
+Sbjct  113  RNATQHYHVPLTLSPWGYSTYRGS  136
+
+
+> sp|P12303|TTHY_SHEEP Transthyretin OS=Ovis aries OX=9940 GN=TTR 
+PE=2 SV=1
+Length=147
+
+ Score = 165 bits (418),  Expect = 3e-50, Method: Composition-based stats.
+ Identities = 32/126 (25%), Positives = 52/126 (41%), Gaps = 8/126 (6%)
+
+Query  145  LSKIDTSDAQGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLVGEFVTNDDGRLEGGP  204
+             S     +++  L   VLD   G PA  + + + + +  E         T+D G L G  
+Sbjct  20   ASPAGAGESKCPLMVKVLDAVRGSPAANVGVKVFKKAADETWEPFASGKTSDSGELHG--  77
+
+Query  205  ALKGGKEFTVGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNPD-DHYHVPLLVS  263
+             L    +F  G Y+       Y+ S G      PF +   + F  ++    HY +  L+S
+Sbjct  78   -LTTEDKFVEGLYKVELDTKSYWKSLGIS----PFHEYAEVVFTANDSGLRHYTIAALLS  132
+
+Query  264  PWSFST  269
+            P+S+ST
+Sbjct  133  PYSYST  138
+
+
+> sp|Q8Z7Q6|HIUH_SALTI 5-hydroxyisourate hydrolase OS=Salmonella 
+typhi OX=90370 GN=hiuH PE=3 SV=1
+Length=136
+
+ Score = 164 bits (416),  Expect = 3e-50, Method: Composition-based stats.
+ Identities = 46/144 (32%), Positives = 64/144 (44%), Gaps = 8/144 (6%)
+
+Query  130  MVALEQVHKIAWMRLLSKIDTSDAQGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLV  189
+            M        IA +     +  +     L+ H+LD   G PA  + + L +        L 
+Sbjct  1    MKRYILATAIASLVAAPAMALAAGSNILSVHILDQQTGKPAPGVEVVLEQKKDNGWTQL-  59
+
+Query  190  GEFVTNDDGRLEGGPALKGGKEFTVGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGI  249
+                T+ DGR++    L   K    G Y   F  G+YF SK   T    F   IP+ F I
+Sbjct  60   NTGHTDQDGRIKA---LWPEKAAAPGDYRVIFKTGQYFESKKLDT----FFPEIPVEFHI  112
+
+Query  250  DNPDDHYHVPLLVSPWSFSTYRGS  273
+               ++HYHVPLL+S + +STYRGS
+Sbjct  113  SKTNEHYHVPLLLSQYGYSTYRGS  136
+
+
+> sp|Q8ZQ52|HIUH_SALTY 5-hydroxyisourate hydrolase OS=Salmonella 
+typhimurium (strain LT2 / SGSC1412 / ATCC 700720) OX=99287 
+GN=hiuH PE=3 SV=1
+Length=136
+
+ Score = 164 bits (416),  Expect = 3e-50, Method: Composition-based stats.
+ Identities = 46/144 (32%), Positives = 64/144 (44%), Gaps = 8/144 (6%)
+
+Query  130  MVALEQVHKIAWMRLLSKIDTSDAQGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLV  189
+            M        IA +     +  +     L+ H+LD   G PA  + + L +        L 
+Sbjct  1    MKRYILATVIASLVAAPAMALAAGNNILSVHILDQQTGKPAPGVEVVLEQKKDNGWTQL-  59
+
+Query  190  GEFVTNDDGRLEGGPALKGGKEFTVGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGI  249
+                T+ DGR++    L   K    G Y   F  G+YF SK   T    F   IP+ F I
+Sbjct  60   NTGHTDQDGRIKA---LWPEKAAAPGDYRVIFKTGQYFESKKLDT----FFPEIPVEFHI  112
+
+Query  250  DNPDDHYHVPLLVSPWSFSTYRGS  273
+               ++HYHVPLL+S + +STYRGS
+Sbjct  113  SKTNEHYHVPLLLSQYGYSTYRGS  136
+
+
+> sp|P02767|TTHY_RAT Transthyretin OS=Rattus norvegicus OX=10116 
+GN=Ttr PE=1 SV=1
+Length=147
+
+ Score = 164 bits (416),  Expect = 4e-50, Method: Composition-based stats.
+ Identities = 29/122 (24%), Positives = 50/122 (41%), Gaps = 8/122 (7%)
+
+Query  149  DTSDAQGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLVGEFVTNDDGRLEGGPALKG  208
+               +++  L   VLD   G PA  + + + + +            T + G L G   L  
+Sbjct  24   GAGESKCPLMVKVLDAVRGSPAVDVAVKVFKKTADGSWEPFASGKTAESGELHG---LTT  80
+
+Query  209  GKEFTVGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNP-DDHYHVPLLVSPWSF  267
+             ++FT G Y        Y+ + G      PF +   + F  ++    HY +  L+SP+S+
+Sbjct  81   DEKFTEGVYRVELDTKSYWKALGIS----PFHEYAEVVFTANDSGHRHYTIAALLSPYSY  136
+
+Query  268  ST  269
+            ST
+Sbjct  137  ST  138
+
+
+> sp|O46375|TTHY_BOVIN Transthyretin OS=Bos taurus OX=9913 GN=TTR 
+PE=1 SV=1
+Length=147
+
+ Score = 164 bits (416),  Expect = 5e-50, Method: Composition-based stats.
+ Identities = 30/123 (24%), Positives = 51/123 (41%), Gaps = 8/123 (7%)
+
+Query  148  IDTSDAQGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLVGEFVTNDDGRLEGGPALK  207
+            +   + +  L   VLD   G PA  + + + + +  E         T++ G L G   L 
+Sbjct  23   VGAGEPKCPLMVKVLDAVRGSPAANVGVKVFKKAADETWEPFASGKTSESGELHG---LT  79
+
+Query  208  GGKEFTVGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNPD-DHYHVPLLVSPWS  266
+               +F  G Y+       Y+ S G      PF +   + F  ++    HY +  L+SP+S
+Sbjct  80   TEDKFVEGLYKVELDTKSYWKSLGIS----PFHEFAEVVFTANDSGPRHYTIAALLSPYS  135
+
+Query  267  FST  269
+            +ST
+Sbjct  136  YST  138
+
+
+> sp|P50390|TTHY_PIG Transthyretin OS=Sus scrofa OX=9823 GN=TTR 
+PE=1 SV=1
+Length=150
+
+ Score = 164 bits (415),  Expect = 7e-50, Method: Composition-based stats.
+ Identities = 28/124 (23%), Positives = 51/124 (41%), Gaps = 8/124 (6%)
+
+Query  147  KIDTSDAQGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLVGEFVTNDDGRLEGGPAL  206
+                 +++  L   VLD   G PA  + + + + +            T++ G L G   L
+Sbjct  22   PAGAGESKCPLMVKVLDAVRGSPAVNVGVKVFKKAADGTWEPFALGKTSEFGELHG---L  78
+
+Query  207  KGGKEFTVGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNPD-DHYHVPLLVSPW  265
+               ++F  G Y+       Y+ + G      PF +   + F  ++    HY +  L+SP+
+Sbjct  79   TTDEKFVEGIYKVELDTKSYWKALGIS----PFHEYAEVVFTANDSGRRHYTIAALLSPY  134
+
+Query  266  SFST  269
+            S+ST
+Sbjct  135  SYST  138
+
+
+> sp|Q21882|HIUH1_CAEEL Probable 5-hydroxyisourate hydrolase R09H10.3 
+OS=Caenorhabditis elegans OX=6239 GN=R09H10.3 PE=1 SV=2
+Length=135
+
+ Score = 162 bits (411),  Expect = 2e-49, Method: Composition-based stats.
+ Identities = 39/144 (27%), Positives = 65/144 (45%), Gaps = 9/144 (6%)
+
+Query  130  MVALEQVHKIAWMRLLSKIDTSDAQGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLV  189
+            M        +    L++  +++     ++ HVLD   G PA  ++I  +     +   + 
+Sbjct  1    MNKFSLFFALTA-TLMTITESAVPTASISAHVLDISGGSPAGGVQILAYIQQNDDWTKIG  59
+
+Query  190  GEFVTNDDGRLEGGPALKGGKEFTVGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGI  249
+             EF T D+GR++             G Y   +    Y+ +K    S  P+++ +   F I
+Sbjct  60   SEF-TQDNGRVDWVSPDFT---LIPGTYRLVYITEPYYKAKNVE-SFYPYVEVV---FNI  111
+
+Query  250  DNPDDHYHVPLLVSPWSFSTYRGS  273
+             +   HYHVPL +SPW +STYRGS
+Sbjct  112  RDATQHYHVPLTLSPWGYSTYRGS  135
+
+
+> sp|Q4VYA5|HIUH_SALDU 5-hydroxyisourate hydrolase OS=Salmonella 
+dublin OX=98360 GN=hiuH PE=1 SV=1
+Length=136
+
+ Score = 162 bits (411),  Expect = 2e-49, Method: Composition-based stats.
+ Identities = 46/144 (32%), Positives = 64/144 (44%), Gaps = 8/144 (6%)
+
+Query  130  MVALEQVHKIAWMRLLSKIDTSDAQGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLV  189
+            M        IA +     +  +     L+ H+LD   G PA  + + L +        L 
+Sbjct  1    MKRHILATVIASLVAAPAMALAAGNNILSVHILDQQTGKPAPGVEVVLEQKKDNGWTQL-  59
+
+Query  190  GEFVTNDDGRLEGGPALKGGKEFTVGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGI  249
+                T+ DGR++    L   K    G Y   F  G+YF SK   T    F   IP+ F I
+Sbjct  60   NTGHTDQDGRIKA---LWPEKAAAPGDYRVIFKTGQYFESKKLDT----FFPEIPVEFHI  112
+
+Query  250  DNPDDHYHVPLLVSPWSFSTYRGS  273
+               ++HYHVPLL+S + +STYRGS
+Sbjct  113  SKTNEHYHVPLLLSQYGYSTYRGS  136
+
+
+> sp|Q9MYN8|TTHY_ERIEU Transthyretin OS=Erinaceus europaeus OX=9365 
+GN=TTR PE=2 SV=1
+Length=145
+
+ Score = 163 bits (412),  Expect = 2e-49, Method: Composition-based stats.
+ Identities = 30/133 (23%), Positives = 57/133 (43%), Gaps = 9/133 (7%)
+
+Query  139  IAWMRLLSKIDT-SDAQGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLVGEFVTNDD  197
+            +A +  +S+      ++  L   VLD   G PA  + + + + +  E         T++ 
+Sbjct  11   LAGLVFMSEAGPTGQSKCPLMVKVLDAVRGSPAVNVAVKVFKKAADETWEPFASGKTSES  70
+
+Query  198  GRLEGGPALKGGKEFTVGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNPDD-HY  256
+            G L G   L   ++F  G Y+       Y+ + G      PF + + + F  ++     Y
+Sbjct  71   GELHG---LTTDEKFVEGVYKVELDTKSYWKTLGIS----PFHEYVEVVFTANDSGQRRY  123
+
+Query  257  HVPLLVSPWSFST  269
+             +  L+SP+S+ST
+Sbjct  124  TIAALLSPYSYST  136
+
+
+> sp|P27731|TTHY_CHICK Transthyretin OS=Gallus gallus OX=9031 GN=TTR 
+PE=1 SV=1
+Length=150
+
+ Score = 163 bits (412),  Expect = 2e-49, Method: Composition-based stats.
+ Identities = 28/122 (23%), Positives = 49/122 (40%), Gaps = 8/122 (7%)
+
+Query  149  DTSDAQGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLVGEFVTNDDGRLEGGPALKG  208
+             + D++  L   VLD   G PA  + + + + +            T + G +     L  
+Sbjct  27   GSVDSKCPLMVKVLDAVRGSPAANVAVKVFKKAADGTWQDFATGKTTEFGEIHE---LTT  83
+
+Query  209  GKEFTVGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNP-DDHYHVPLLVSPWSF  267
+             ++F  G Y   F    Y+   G      PF +   + F  ++    HY +  L+SP+S+
+Sbjct  84   EEQFVEGVYRVEFDTSSYWKGLGLS----PFHEYADVVFTANDSGHRHYTIAALLSPFSY  139
+
+Query  268  ST  269
+            ST
+Sbjct  140  ST  141
+
+
+> sp|O32141|PUCL_BACSU Uric acid degradation bifunctional protein 
+PucL OS=Bacillus subtilis (strain 168) OX=224308 GN=pucL 
+PE=1 SV=1
+Length=494
+
+ Score = 172 bits (436),  Expect = 3e-49, Method: Composition-based stats.
+ Identities = 54/167 (32%), Positives = 79/167 (47%), Gaps = 22/167 (13%)
+
+Query  2    TVKDLLSKPSAEIASFLGGIYEHSAWVAEALVKDAESLASIETISQLAAAMKAIVNKSSK  61
+            T+ DL    +  +   LG I+EHS+W+AE     + +L    ++S L   M  IV  + +
+Sbjct  3    TMDDLNQMDTQTLTDTLGSIFEHSSWIAER----SAALRPFSSLSDLHRKMTGIVKAADR  58
+
+Query  62   DQKLELLCAHPDLC------------------QSLTDAELERFNSLNGAYRDQCGFPFIL  103
+            + +L+L+  HP L                     L   E E F  LN  Y D+ GFPFIL
+Sbjct  59   ETQLDLIKKHPRLGTKKTMSDDSVREQQNAGLGKLEQQEYEEFLMLNEHYYDRFGFPFIL  118
+
+Query  104  AVRNATKHTVLAALGGRVQHTPEQEFMVALEQVHKIAWMRLLSKIDT  150
+            AV+  TK  +  AL  R++   E EF  AL ++++IA  RL   I  
+Sbjct  119  AVKGKTKQDIHQALLARLESERETEFQQALIEIYRIARFRLADIITE  165
+
+
+> sp|P07309|TTHY_MOUSE Transthyretin OS=Mus musculus OX=10090 GN=Ttr 
+PE=1 SV=1
+Length=147
+
+ Score = 161 bits (408),  Expect = 7e-49, Method: Composition-based stats.
+ Identities = 28/124 (23%), Positives = 49/124 (40%), Gaps = 8/124 (6%)
+
+Query  147  KIDTSDAQGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLVGEFVTNDDGRLEGGPAL  206
+                 +++  L   VLD   G PA  + + + + +            T + G L G   L
+Sbjct  22   PAGAGESKCPLMVKVLDAVRGSPAVDVAVKVFKKTSEGSWEPFASGKTAESGELHG---L  78
+
+Query  207  KGGKEFTVGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNP-DDHYHVPLLVSPW  265
+               ++F  G Y        Y+ + G      PF +   + F  ++    HY +  L+SP+
+Sbjct  79   TTDEKFVEGVYRVELDTKSYWKTLGIS----PFHEFADVVFTANDSGHRHYTIAALLSPY  134
+
+Query  266  SFST  269
+            S+ST
+Sbjct  135  SYST  138
+
+
+> sp|Q9RV69|HIUH_DEIRA 5-hydroxyisourate hydrolase OS=Deinococcus 
+radiodurans (strain ATCC 13939 / DSM 20539 / JCM 16871 / 
+LMG 4051 / NBRC 15346 / NCIMB 9279 / R1 / VKM B-1422) OX=243230 
+GN=DR_1161 PE=3 SV=1
+Length=119
+
+ Score = 160 bits (406),  Expect = 7e-49, Method: Composition-based stats.
+ Identities = 51/122 (42%), Positives = 65/122 (53%), Gaps = 4/122 (3%)
+
+Query  152  DAQGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLVGEFVTNDDGRLEGGPALKGGKE  211
+                 LT HVLDT  G PA  +R+ L R++       V E VTN DGR +    L     
+Sbjct  2    SGHPGLTTHVLDTARGKPAAGVRVQLCRVTGDTRT-PVTEAVTNSDGRTDA--PLIERGS  58
+
+Query  212  FTVGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNPDDHYHVPLLVSPWSFSTYR  271
+               G YE TF   +YF       +  PFLD + LRF + +   HYHVPL+++PWS+STYR
+Sbjct  59   LKQGTYELTFHVADYFKGF-VAAADPPFLDVVTLRFTVGDTSGHYHVPLVMTPWSYSTYR  117
+
+Query  272  GS  273
+            GS
+Sbjct  118  GS  119
+
+
+> sp|Q92VB9|HIUH1_RHIME 5-hydroxyisourate hydrolase 1 OS=Rhizobium 
+meliloti (strain 1021) OX=266834 GN=RB0789 PE=3 SV=1
+Length=123
+
+ Score = 160 bits (406),  Expect = 8e-49, Method: Composition-based stats.
+ Identities = 57/119 (48%), Positives = 69/119 (58%), Gaps = 4/119 (3%)
+
+Query  155  GFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLVGEFVTNDDGRLEGGPALKGGKEFTV  214
+            G LT HVLDT +G PA  +RI L+R+   E   L+    TNDDGR +    L  G     
+Sbjct  9    GRLTTHVLDTASGRPASNLRIDLYRIEG-ERPELLSSTRTNDDGRCDA--PLLNGSTMET  65
+
+Query  215  GQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNPDDHYHVPLLVSPWSFSTYRGS  273
+            G YE  F  GEY  +        PFLD IP+RFGI +   HYHVPLL+SP+ +STYRGS
+Sbjct  66   GTYELRFHAGEYLGTA-AERGANPFLDVIPIRFGIADRAAHYHVPLLLSPYGYSTYRGS  123
+
+
+> sp|P49141|TTHY_MONDO Transthyretin OS=Monodelphis domestica OX=13616 
+GN=TTR PE=1 SV=1
+Length=149
+
+ Score = 160 bits (405),  Expect = 2e-48, Method: Composition-based stats.
+ Identities = 31/122 (25%), Positives = 52/122 (43%), Gaps = 8/122 (7%)
+
+Query  149  DTSDAQGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLVGEFVTNDDGRLEGGPALKG  208
+               D++  L   VLD   G PA  + + + + S  +         TND G +     L  
+Sbjct  26   GAEDSKCPLMVKVLDAVRGSPAVNVNVKVFKKSEEQTWEPFATGKTNDYGEIHE---LTN  82
+
+Query  209  GKEFTVGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNP-DDHYHVPLLVSPWSF  267
+             ++F  G Y+  F    Y+ + G      PF +   + F  ++    HY +  L+SP+S+
+Sbjct  83   DEKFGEGLYKVEFDTFSYWNALGVS----PFHEYADVVFKANDAGHRHYTIAALLSPYSY  138
+
+Query  268  ST  269
+            ST
+Sbjct  139  ST  140
+
+
+> sp|P42204|TTHY_MACEU Transthyretin OS=Macropus eugenii OX=9315 
+GN=TTR PE=2 SV=1
+Length=149
+
+ Score = 160 bits (404),  Expect = 4e-48, Method: Composition-based stats.
+ Identities = 31/118 (26%), Positives = 52/118 (44%), Gaps = 8/118 (7%)
+
+Query  153  AQGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLVGEFVTNDDGRLEGGPALKGGKEF  212
+            ++  L   VLD   G PA  + + + + +  +   L     TND+G +     L    +F
+Sbjct  30   SKCPLMVKVLDAVRGRPAVNVDVKVFKKTEEQTWELFAAGKTNDNGEIHE---LTTDDKF  86
+
+Query  213  TVGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNP-DDHYHVPLLVSPWSFST  269
+              G Y+  F    Y+ + G      PF +   + F  ++    HY +  L+SP+SFST
+Sbjct  87   GEGLYKVEFDTISYWKALGVS----PFHEYADVVFTANDAGHRHYTIAALLSPYSFST  140
+
+
+> sp|P49142|TTHY_PETBR Transthyretin OS=Petaurus breviceps OX=34899 
+GN=TTR PE=1 SV=1
+Length=149
+
+ Score = 159 bits (403),  Expect = 4e-48, Method: Composition-based stats.
+ Identities = 31/119 (26%), Positives = 52/119 (44%), Gaps = 8/119 (7%)
+
+Query  152  DAQGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLVGEFVTNDDGRLEGGPALKGGKE  211
+            D++  L   VLD   G PA  + + + + +  +   L     TND+G +     L    +
+Sbjct  29   DSKCPLMVKVLDAVRGRPAVNVDVKVFKKTEKQTWELFASGKTNDNGEIHE---LTSDDK  85
+
+Query  212  FTVGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNP-DDHYHVPLLVSPWSFST  269
+            F  G Y+  F    Y+ + G      PF +   + F  ++    HY +   +SP+SFST
+Sbjct  86   FGEGLYKVEFDTISYWKALGVS----PFHEYADVVFTANDAGHRHYTIAAQLSPYSFST  140
+
+
+> sp|O55245|TTHY_CROPO Transthyretin OS=Crocodylus porosus OX=8502 
+GN=TTR PE=1 SV=1
+Length=150
+
+ Score = 159 bits (403),  Expect = 5e-48, Method: Composition-based stats.
+ Identities = 29/119 (24%), Positives = 49/119 (41%), Gaps = 8/119 (7%)
+
+Query  152  DAQGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLVGEFVTNDDGRLEGGPALKGGKE  211
+            D++  L   VLD   G PA  + I + + +            T + G +     L   ++
+Sbjct  30   DSKCPLMVKVLDAVRGSPAANVAIKVFKKTSDGDWQEFAAGKTTEFGEVHE---LTSDEK  86
+
+Query  212  FTVGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNP-DDHYHVPLLVSPWSFST  269
+            F  G Y   F    Y+ + G      PF +   + F  ++    HY +  L+SP+S+ST
+Sbjct  87   FVEGIYRVEFDTSSYWKALGLS----PFHEYADVVFTANDSGHRHYTIAALLSPFSYST  141
+
+
+> sp|P07489|TTHY_RABIT Transthyretin OS=Oryctolagus cuniculus OX=9986 
+GN=TTR PE=1 SV=1
+Length=127
+
+ Score = 158 bits (400),  Expect = 6e-48, Method: Composition-based stats.
+ Identities = 31/124 (25%), Positives = 53/124 (43%), Gaps = 8/124 (6%)
+
+Query  147  KIDTSDAQGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLVGEFVTNDDGRLEGGPAL  206
+             + T D++  L   VLD   G PA  + +H+ + +  E         T+  G L G   L
+Sbjct  2    PVGTGDSKCPLMVKVLDAVRGSPAVDVSVHVFKKAADETWEPFASGKTSKTGELHG---L  58
+
+Query  207  KGGKEFTVGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNP-DDHYHVPLLVSPW  265
+               ++F  G Y+       Y+ + G      PF +   + F  ++     Y +  L+SP+
+Sbjct  59   TTSEKFVEGVYKVELDTKSYWKALGIS----PFHEYAEVVFTANDSGHRSYTIAALLSPF  114
+
+Query  266  SFST  269
+            S+ST
+Sbjct  115  SYST  118
+
+
+> sp|Q06S87|HIUH_DANRE 5-hydroxyisourate hydrolase OS=Danio rerio 
+OX=7955 GN=urah PE=1 SV=1
+Length=138
+
+ Score = 159 bits (401),  Expect = 6e-48, Method: Composition-based stats.
+ Identities = 48/125 (38%), Positives = 67/125 (54%), Gaps = 8/125 (6%)
+
+Query  150  TSDAQGFLTCHVLDTGNGCPAEKMRIHLHRLSP-PEMAGLVGEFVTNDDGRLEGGPALKG  208
+            ++     L+ HVL+   G P   M I LHRL P      ++   +TNDDGR    P L  
+Sbjct  21   SATLLSPLSTHVLNIAQGVPGANMTIVLHRLDPVSSAWNILTTGITNDDGRC---PGLIT  77
+
+Query  209  GKEFTVGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNPDDHYHVPLLVSPWSFS  268
+             + F  G Y+  F  G+Y+ + G  T   P+++ +   F I N   HYHVPLL+S +S+S
+Sbjct  78   KENFIAGVYKMRFETGKYWDALG-ETCFYPYVEIV---FTITNTSQHYHVPLLLSRFSYS  133
+
+Query  269  TYRGS  273
+            TYRGS
+Sbjct  134  TYRGS  138
+
+
+> sp|Q5U7I5|TTHY_PANTR Transthyretin OS=Pan troglodytes OX=9598 
+GN=TTR PE=2 SV=1
+Length=147
+
+ Score = 159 bits (401),  Expect = 9e-48, Method: Composition-based stats.
+ Identities = 31/124 (25%), Positives = 53/124 (43%), Gaps = 8/124 (6%)
+
+Query  147  KIDTSDAQGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLVGEFVTNDDGRLEGGPAL  206
+               T +++  L   VLD   G PA  + +H+ + +  E         T++ G L G   L
+Sbjct  22   PTGTGESKCPLMVKVLDAVRGSPAINVAVHVFKKAADETWEPFASGKTSESGELHG---L  78
+
+Query  207  KGGKEFTVGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNPD-DHYHVPLLVSPW  265
+               +EF  G Y+       Y+ + G      PF +   + F  ++     Y +  L+SP+
+Sbjct  79   TTEEEFVEGIYKVEIDTKSYWKALGIS----PFHEHAEVVFTANDSGPRRYTIAALLSPY  134
+
+Query  266  SFST  269
+            S+ST
+Sbjct  135  SYST  138
+
+
+> sp|P02766|TTHY_HUMAN Transthyretin OS=Homo sapiens OX=9606 GN=TTR 
+PE=1 SV=1
+Length=147
+
+ Score = 159 bits (401),  Expect = 9e-48, Method: Composition-based stats.
+ Identities = 31/124 (25%), Positives = 53/124 (43%), Gaps = 8/124 (6%)
+
+Query  147  KIDTSDAQGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLVGEFVTNDDGRLEGGPAL  206
+               T +++  L   VLD   G PA  + +H+ R +  +         T++ G L G   L
+Sbjct  22   PTGTGESKCPLMVKVLDAVRGSPAINVAVHVFRKAADDTWEPFASGKTSESGELHG---L  78
+
+Query  207  KGGKEFTVGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNPD-DHYHVPLLVSPW  265
+               +EF  G Y+       Y+ + G      PF +   + F  ++     Y +  L+SP+
+Sbjct  79   TTEEEFVEGIYKVEIDTKSYWKALGIS----PFHEHAEVVFTANDSGPRRYTIAALLSPY  134
+
+Query  266  SFST  269
+            S+ST
+Sbjct  135  SYST  138
+
+
+> sp|O32142|HIUH_BACSU 5-hydroxyisourate hydrolase OS=Bacillus 
+subtilis (strain 168) OX=224308 GN=pucM PE=1 SV=2
+Length=114
+
+ Score = 157 bits (397),  Expect = 1e-47, Method: Composition-based stats.
+ Identities = 51/120 (43%), Positives = 71/120 (59%), Gaps = 6/120 (5%)
+
+Query  154  QGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLVGEFVTNDDGRLEGGPALKGGKEFT  213
+             G LT H+LD   G PA  ++I L RL       ++ E  TN+DGR++    L  G+E  
+Sbjct  1    MGKLTTHILDLTCGKPAANVKIGLKRLGES----IMKEVYTNNDGRVD--VPLLAGEELM  54
+
+Query  214  VGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNPDDHYHVPLLVSPWSFSTYRGS  273
+             G+Y   F  G+YFASK    + QPFL  + +RF + +PD HYH+PLL+SP+ +  YRGS
+Sbjct  55   SGEYVMEFHAGDYFASKNMNAADQPFLTIVTVRFQLADPDAHYHIPLLLSPFGYQVYRGS  114
+
+
+> sp|Q98CI7|HIUH_RHILO 5-hydroxyisourate hydrolase OS=Mesorhizobium 
+japonicum (strain LMG 29417 / CECT 9101 / MAFF 303099) 
+OX=266835 GN=mlr5133 PE=3 SV=1
+Length=124
+
+ Score = 157 bits (398),  Expect = 1e-47, Method: Composition-based stats.
+ Identities = 56/119 (47%), Positives = 69/119 (58%), Gaps = 4/119 (3%)
+
+Query  155  GFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLVGEFVTNDDGRLEGGPALKGGKEFTV  214
+            G LT HVLDT  G PA  + I L+RL       L     TN DGR +   AL  G EF  
+Sbjct  10   GRLTTHVLDTATGKPAAGLSIALYRLDGSARTHL-KTVATNADGRCDA--ALLAGAEFRA  66
+
+Query  215  GQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNPDDHYHVPLLVSPWSFSTYRGS  273
+            G+YE  F  G+Y   +GT      FLD++P+RFG+     HYHVPLL+SP+ +STYRGS
+Sbjct  67   GEYELVFAAGDYLRGQGTKLPEPAFLDSVPIRFGMAEA-VHYHVPLLISPYGYSTYRGS  124
+
+
+> sp|Q9A545|HIUH_CAUVC 5-hydroxyisourate hydrolase OS=Caulobacter 
+vibrioides (strain ATCC 19089 / CB15) OX=190650 GN=CC_2620 
+PE=3 SV=1
+Length=115
+
+ Score = 157 bits (397),  Expect = 1e-47, Method: Composition-based stats.
+ Identities = 47/120 (39%), Positives = 65/120 (54%), Gaps = 5/120 (4%)
+
+Query  154  QGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLVGEFVTNDDGRLEGGPALKGGKEFT  213
+               LT H+LD  +G PA  + + + R    E    + E  T+ DGR      L  G++  
+Sbjct  1    MSGLTTHILDQASGKPAAGVGVRVSRRDG-EQTQWLAELRTDADGRAR----LVAGEDLA  55
+
+Query  214  VGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNPDDHYHVPLLVSPWSFSTYRGS  273
+            VG Y   F  G++F + G   S  PFLD + + F + N D H+HVPLLVSP+ +STYRGS
+Sbjct  56   VGGYRLEFAIGDHFKASGLPVSDPPFLDVVVIDFAVSNLDQHWHVPLLVSPYGYSTYRGS  115
+
+
+> sp|Q8HXW1|TTHY_MACFA Transthyretin OS=Macaca fascicularis OX=9541 
+GN=TTR PE=2 SV=2
+Length=147
+
+ Score = 158 bits (399),  Expect = 2e-47, Method: Composition-based stats.
+ Identities = 31/124 (25%), Positives = 53/124 (43%), Gaps = 8/124 (6%)
+
+Query  147  KIDTSDAQGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLVGEFVTNDDGRLEGGPAL  206
+                 +++  L   VLD   G PA  + +++ + +  E         T++ G L G   L
+Sbjct  22   PTGVDESKCPLMVKVLDAVRGSPAVNVAVNVFKKAADETWAPFASGKTSESGELHG---L  78
+
+Query  207  KGGKEFTVGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNPD-DHYHVPLLVSPW  265
+               +EF  G Y+       Y+ S G      PF +   + F  ++    HY +  L+SP+
+Sbjct  79   TTEEEFVEGIYKVEIDTKSYWKSLGIS----PFHEHAEVVFTANDSGPRHYTIAALLSPY  134
+
+Query  266  SFST  269
+            S+ST
+Sbjct  135  SYST  138
+
+
+> sp|O46654|TTHY_SORAR Transthyretin OS=Sorex araneus OX=42254 
+GN=TTR PE=1 SV=1
+Length=147
+
+ Score = 157 bits (397),  Expect = 4e-47, Method: Composition-based stats.
+ Identities = 28/124 (23%), Positives = 51/124 (41%), Gaps = 8/124 (6%)
+
+Query  147  KIDTSDAQGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLVGEFVTNDDGRLEGGPAL  206
+               T  ++  L   VLD   G PA  + + + + +  E         T++ G L G   L
+Sbjct  22   PTGTGQSKCPLMVKVLDAVQGSPAVNVAVRVFKKAADETWEPFASGKTSEFGELHG---L  78
+
+Query  207  KGGKEFTVGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNPD-DHYHVPLLVSPW  265
+               ++F  G  +       Y+ + G      PF + + + F  ++     Y +  L+SP+
+Sbjct  79   TTDEKFVEGIIKVELDTKTYWKALGIS----PFHEYVEVVFHANDSGKRRYTIAALLSPY  134
+
+Query  266  SFST  269
+            S+ST
+Sbjct  135  SYST  138
+
+
+> sp|Q29616|TTHY_MACGI Transthyretin OS=Macropus giganteus OX=9317 
+GN=TTR PE=1 SV=1
+Length=149
+
+ Score = 157 bits (396),  Expect = 5e-47, Method: Composition-based stats.
+ Identities = 30/118 (25%), Positives = 51/118 (43%), Gaps = 8/118 (7%)
+
+Query  153  AQGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLVGEFVTNDDGRLEGGPALKGGKEF  212
+            ++  L   VLD   G PA  + + + + +  +   L     TND+G +     L    +F
+Sbjct  30   SKCPLMVKVLDAVRGRPAVNVDVKVFKKTEEQTWELFAAGKTNDNGEIHE---LTTDDKF  86
+
+Query  213  TVGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNP-DDHYHVPLLVSPWSFST  269
+              G Y+  F    Y+ + G      PF +   + F  ++    HY +   +SP+SFST
+Sbjct  87   GEGLYKVEFDTISYWKALGVS----PFHEYADVVFTANDAGHRHYTIAAQLSPYSFST  140
+
+
+> sp|Q5NVS2|TTHY_PONAB Transthyretin OS=Pongo abelii OX=9601 GN=TTR 
+PE=2 SV=1
+Length=147
+
+ Score = 156 bits (394),  Expect = 1e-46, Method: Composition-based stats.
+ Identities = 29/124 (23%), Positives = 52/124 (42%), Gaps = 8/124 (6%)
+
+Query  147  KIDTSDAQGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLVGEFVTNDDGRLEGGPAL  206
+                 +++  L   VLD   G PA  + +++ + +  E         T++ G L G   L
+Sbjct  22   PTGAGESKCPLMVKVLDAVRGSPAVNVAVNVFKRAADETWEPFASGKTSESGELHG---L  78
+
+Query  207  KGGKEFTVGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNPD-DHYHVPLLVSPW  265
+               +EF  G Y+       Y+ + G      PF +   + F  ++     Y +  L+SP+
+Sbjct  79   TTEEEFVEGIYKVEIDTKSYWKALGIS----PFHEHAEVVFAANDSGPRRYTIAALLSPY  134
+
+Query  266  SFST  269
+            S+ST
+Sbjct  135  SYST  138
+
+
+> sp|P49143|TTHY_SMIMA Transthyretin OS=Sminthopsis macroura OX=9302 
+GN=TTR PE=2 SV=1
+Length=149
+
+ Score = 155 bits (393),  Expect = 1e-46, Method: Composition-based stats.
+ Identities = 30/122 (25%), Positives = 53/122 (43%), Gaps = 8/122 (7%)
+
+Query  149  DTSDAQGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLVGEFVTNDDGRLEGGPALKG  208
+               D++  L   VLD+  G PA  + + + + +  +   L     TN++G +     L  
+Sbjct  26   GAEDSKCPLMVKVLDSVRGSPAVNVDVKVFKKTEEQTWELFASGKTNNNGEIHE---LTS  82
+
+Query  209  GKEFTVGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNP-DDHYHVPLLVSPWSF  267
+              +F  G Y+  F    Y+ + G      PF +   + F  ++    HY +   +SP+SF
+Sbjct  83   DDQFGEGLYKVEFDTVSYWKTFGIS----PFHEYADVVFTANDAGHRHYTIAAQLSPFSF  138
+
+Query  268  ST  269
+            ST
+Sbjct  139  ST  140
+
+
+> sp|P30623|TTHY_TILRU Transthyretin OS=Tiliqua rugosa OX=8527 
+GN=TTR PE=1 SV=1
+Length=150
+
+ Score = 154 bits (390),  Expect = 4e-46, Method: Composition-based stats.
+ Identities = 30/119 (25%), Positives = 52/119 (44%), Gaps = 8/119 (7%)
+
+Query  152  DAQGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLVGEFVTNDDGRLEGGPALKGGKE  211
+            D++  L   VLD   G PA  + + + ++S            TN+ G +     L   ++
+Sbjct  30   DSKCPLMVKVLDAVRGRPATSIAVKVSKMSEEGDWKEFANGKTNEFGEIHE---LTTDEQ  86
+
+Query  212  FTVGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNP-DDHYHVPLLVSPWSFST  269
+            F  G Y+  F    Y+ + G      PF +   + F  ++    HY +  L+SP+S+ST
+Sbjct  87   FVQGLYKVEFDTSSYWKALGVS----PFHEYADVVFSANDSGHRHYTIAALLSPFSYST  141
+
+
+> sp|B7ZS96|TTHY_XENLA Transthyretin OS=Xenopus laevis OX=8355 
+GN=ttr PE=1 SV=1
+Length=153
+
+ Score = 153 bits (386),  Expect = 2e-45, Method: Composition-based stats.
+ Identities = 31/142 (22%), Positives = 62/142 (44%), Gaps = 8/142 (6%)
+
+Query  129  FMVALEQVHKIAWMRLLSKIDTSDAQGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGL  188
+             ++AL  +   A     +    +D++  L   VLD   G PA  + +++ R +       
+Sbjct  8    LLLALLAIVSEAAPPGHASHGEADSKCPLMVKVLDAVRGIPAANLLVNVFRQTESGKWEQ  67
+
+Query  189  VGEFVTNDDGRLEGGPALKGGKEFTVGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFG  248
+            +    T + G +     L   ++FT G Y+  F    ++   G      PF + + + F 
+Sbjct  68   ITSGKTTELGEIHN---LTTDEQFTEGVYKIEFATKAFWGKLGLS----PFHEYVDVVFT  120
+
+Query  249  IDNP-DDHYHVPLLVSPWSFST  269
+             ++    HY + +L++P+SFS+
+Sbjct  121  ANDAGHRHYTIAVLLTPYSFSS  142
+
+
+> sp|Q9CRB3|HIUH_MOUSE 5-hydroxyisourate hydrolase OS=Mus musculus 
+OX=10090 GN=Urah PE=1 SV=1
+Length=118
+
+ Score = 150 bits (380),  Expect = 6e-45, Method: Composition-based stats.
+ Identities = 44/125 (35%), Positives = 63/125 (50%), Gaps = 8/125 (6%)
+
+Query  150  TSDAQGFLTCHVLDTGNGCPAEKMRIHLHRLSPP-EMAGLVGEFVTNDDGRLEGGPALKG  208
+             +     LT HVLDT +G PA+ + + L RL  P +    +    TN DGR    P L  
+Sbjct  1    MATESSPLTTHVLDTASGLPAQGLCLRLSRLEAPCQQWMELRTSYTNLDGRC---PGLLT  57
+
+Query  209  GKEFTVGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNPDDHYHVPLLVSPWSFS  268
+              +   G Y+  F    Y+  +G   S  P+++ +   F I      +HVPLL+SPWS++
+Sbjct  58   PSQIKPGTYKLFFDTERYWKERG-QESFYPYVEVV---FTITKETQKFHVPLLLSPWSYT  113
+
+Query  269  TYRGS  273
+            TYRGS
+Sbjct  114  TYRGS  118
+
+
+> sp|P31779|TTHY_LITCT Transthyretin OS=Lithobates catesbeianus 
+OX=8400 PE=1 SV=2
+Length=153
+
+ Score = 151 bits (382),  Expect = 8e-45, Method: Composition-based stats.
+ Identities = 31/128 (24%), Positives = 58/128 (45%), Gaps = 8/128 (6%)
+
+Query  143  RLLSKIDTSDAQGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLVGEFVTNDDGRLEG  202
+            R       +D++  L   VLD   G PA K+ + + + +  +   L+    T+ DG +  
+Sbjct  21   RAQGTHGEADSKCPLMVKVLDAVRGIPAAKLPVKVFKQNEDKSWDLISSGTTSSDGEIHN  80
+
+Query  203  GPALKGGKEFTVGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNP-DDHYHVPLL  261
+               L   ++F  G Y+  F    +++  G      PF + + + F  ++    HY   +L
+Sbjct  81   ---LATEEQFVEGIYKLEFATKRFWSKLGLT----PFHEYVDVVFTANDAGHRHYTTAVL  133
+
+Query  262  VSPWSFST  269
+            ++P+SFST
+Sbjct  134  LTPYSFST  141
+
+
+> sp|A4QNN7|TTHY_XENTR Transthyretin OS=Xenopus tropicalis OX=8364 
+GN=ttr PE=2 SV=1
+Length=151
+
+ Score = 144 bits (363),  Expect = 4e-42, Method: Composition-based stats.
+ Identities = 27/122 (22%), Positives = 54/122 (44%), Gaps = 9/122 (7%)
+
+Query  149  DTSDAQGFLTCHVLDTGNGCPAEKMRIHLHRLSPPEMAGLVGEFVTNDDGRLEGGPALKG  208
+              +D++  L   VLD   G PA  + + + R +      L+    T + G +     +  
+Sbjct  27   GEADSKCPLMVKVLDAVRGIPAANLLVQVFRNTE-GNWELISSGKTTELGEIHN---IIT  82
+
+Query  209  GKEFTVGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNP-DDHYHVPLLVSPWSF  267
+             ++FT G Y+  F    ++   G      PF + + + F  ++    HY + +L++P+S 
+Sbjct  83   DEQFTEGVYKIEFATKTFWRKLGLS----PFHEYVDVVFSANDAGHRHYTIAVLLTPYSI  138
+
+Query  268  ST  269
+            S+
+Sbjct  139  SS  140
+
+
+> sp|O74492|HIUH_SCHPO Probable 5-hydroxyisourate hydrolase OS=Schizosaccharomyces 
+pombe (strain 972 / ATCC 24843) OX=284812 
+GN=SPCC285.04 PE=3 SV=1
+Length=124
+
+ Score = 138 bits (348),  Expect = 4e-40, Method: Composition-based stats.
+ Identities = 42/128 (33%), Positives = 66/128 (52%), Gaps = 10/128 (8%)
+
+Query  149  DTSDAQGF-LTCHVLDTGNGCPAEKMRIHLHRLSPPEMA--GLVGEFVTNDDGRLEGGPA  205
+            +    QG  LT H+L+T +G PA  +++ L +L+         +    TN +GR+     
+Sbjct  4    NPPQPQGPALTAHILNTMSGIPAAGVQVALFKLNESPTPSQQFIATTETNANGRVTSWNV  63
+
+Query  206  LKGGKEFTVGQYEWTFFCGEYFASKGTFTSGQPFLDTIPLRFGIDNPDDHYHVPLLVSPW  265
+                 E   G Y + F  G YF S G  TS  P+++ + +R    N   HYH+PLL++P+
+Sbjct  64   DLSTVE--SGIYTFRFETGAYFDSLGV-TSFYPYVE-MAVRI---NKGQHYHIPLLLAPY  116
+
+Query  266  SFSTYRGS  273
+             ++TYRGS
+Sbjct  117  GYTTYRGS  124
+
+
+> sp|Q54SV3|ALN1_DICDI Probable allantoinase 1 OS=Dictyostelium 
+discoideum OX=44689 GN=allB1 PE=3 SV=1
+Length=649
+
+ Score = 148 bits (374),  Expect = 2e-39, Method: Composition-based stats.
+ Identities = 34/171 (20%), Positives = 69/171 (40%), Gaps = 28/171 (16%)
+
+Query  2    TVKDLLSKPSA-EIASFLGGIYEHSAWVAEALVKDAESLASIETISQLAAAMKAIVNKSS  60
+            T++ L S          +  ++E +  +A AL     S     +  QL     +I+   +
+Sbjct  483  TIELLNSLTEQKTFFDCIHLLFEAAPPLANALF----SKRPFSSYQQLIDQAYSIIQSLN  538
+
+Query  61   KDQKLELLCAHPDLC----------------------QSLTDAELERFNSLNGAYRDQCG  98
+            +  K++++ AHP +                        S+  + LE    LN  Y  + G
+Sbjct  539  ESDKIQVINAHPRIGVSASQVKNSSSISYREQSCDKDSSIDQSILENLTQLNQQYESKFG  598
+
+Query  99   FPFILAVRNATKHTVLAALGGRVQHT-PEQEFMVALEQVHKIAWMRLLSKI  148
+            F F++ V    K+ ++  L  R+ +   ++E  + L ++ +I+  RLL  +
+Sbjct  599  FKFVVFVNGRPKNEIIPILQNRLNNNDKQKELNLGLSEMIEISKSRLLKLL  649
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.137    0.381    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0419    0.140     1.90     42.6     43.6 
+
+Effective search space used: 21584603978
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 28, 2021  3:44 PM
+  Number of letters in database: 202,799,066
+  Number of sequences in database:  563,082
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

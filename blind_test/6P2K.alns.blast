@@ -1,0 +1,901 @@
+PSIBLAST 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           563,082 sequences; 202,799,066 total letters
+
+Results from round 1
+
+
+Query= 6P2K
+
+Length=776
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|A1DAU0|XGCA_NEOFI Probable oligoxyloglucan-reducing end-spec...  44.7    0.004
+  sp|A3DFA0|XG74_HUNT2 Xyloglucanase Xgh74A OS=Hungateiclostridiu...  43.9    0.005
+
+
+> sp|A1DAU0|XGCA_NEOFI Probable oligoxyloglucan-reducing end-specific 
+xyloglucanase OS=Neosartorya fischeri (strain ATCC 1020 
+/ DSM 3700 / CBS 544.65 / FGSC A1164 / JCM 1740 / NRRL 181 
+/ WB 181) OX=331117 GN=xgcA PE=3 SV=1
+Length=815
+
+ Score = 44.7 bits (104),  Expect = 0.004, Method: Compositional matrix adjust.
+ Identities = 50/223 (22%), Positives = 97/223 (43%), Gaps = 30/223 (13%)
+
+Query  11   GGQVQDVVADPNQANVVYMASDMEGVYKSTNNGESWQITGNLVNNR------VFAVAVTP  64
+            GG +  +V  P + N++Y  +D+   Y+       W    + +           +VA+ P
+Sbjct  37   GGYITGIVGHPAEKNLLYARTDIGSTYRWEQELNKWIPLTDFLGPEDENLLGTESVAMDP  96
+
+Query  65   GNSNKIFVGTLYGLHISTNGSNSYALVPETENKSIASI-AFKPGNANHI-------IAAP  116
+             + N++++    G ++S+N  NS   V      +     A  P  AN +       +A  
+Sbjct  97   TDPNRLYLAQ--GRYLSSN--NSAFFVSNDRGATFTRYRAPFPMGANELGRNNGERLAVN  152
+
+Query  117  GWRDDDDFIGKFGETAAGPGQVFVSQNGGSSWQTVT-FDSNSSTDRNVYSVVFDQSNANT  175
+             ++ ++ ++G      AG   +  S +   +W  VT F   ++    +  V+FD  +  T
+Sbjct  153  PFKPNELWMGT---RNAG---LMKSSDRAKTWTNVTNFPDAAANGIGITFVIFDPQHEGT  206
+
+Query  176  VYLGSN--KGVYKSTNGGLNWQRIAGPDDAVRPWNKGIALSPN  216
+            +Y+G+    G+Y +T+GG NW+ I G       W+  + + PN
+Sbjct  207  IYVGACIPGGLYYTTDGGKNWESIPG---QPMQWDPSLLVYPN  246
+
+
+> sp|A3DFA0|XG74_HUNT2 Xyloglucanase Xgh74A OS=Hungateiclostridium 
+thermocellum (strain ATCC 27405 / DSM 1237 / JCM 9322 / 
+NBRC 103400 / NCIMB 10682 / NRRL B-4536 / VPI 7372) OX=203119 
+GN=xghA PE=3 SV=1
+Length=842
+
+ Score = 43.9 bits (102),  Expect = 0.005, Method: Compositional matrix adjust.
+ Identities = 61/235 (26%), Positives = 101/235 (43%), Gaps = 67/235 (29%)
+
+Query  14   VQDVVADPNQANVVYMAS---------DMEGVYKSTNNGESWQIT-------GNLVNNRV  57
+            V+ +  DP   N VY+A+         +M  + +ST+ GE+W+ T       GN+    +
+Sbjct  101  VESIATDPVDPNRVYIAAGMYTNDWLPNMGAILRSTDRGETWEKTILPFKMGGNMPGRSM  160
+
+Query  58   -FAVAVTPGNSNKIFVGTLYG--LHISTNGSNSYALVPETENKSIASIAFKPGNANHIIA  114
+               +A+ P ++  +++GT  G  L  ST+   +++ V    N         PG     I 
+Sbjct  161  GERLAIDPNDNRILYLGTRCGNGLWRSTDYGVTWSKVESFPN---------PGT---YIY  208
+
+Query  115  APGWRDDDDFIGKFGETAAGPGQVFVSQNGGSSWQTVTFDSNSSTDRNVYSVVFDQSNAN  174
+             P +    D IG                     W  V FD +SST  N            
+Sbjct  209  DPNFDYTKDIIGVV-------------------W--VVFDKSSSTPGN---------PTK  238
+
+Query  175  TVYLG---SNKGVYKSTNGGLNWQRIAGPDDAVRPWNKGIALSPNGQVLYATYAE  226
+            T+Y+G    N+ +Y+ST+GG+ W+ + G    + P + G+ L+ NG +LY TY +
+Sbjct  239  TIYVGVADKNESIYRSTDGGVTWKAVPGQPKGLLP-HHGV-LASNG-MLYITYGD  290
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.132    0.421    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 85702977100
+Results from round 2
+
+
+Query= 6P2K
+
+Length=776
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|A3DFA0|XG74_HUNT2 Xyloglucanase Xgh74A OS=Hungateiclostridiu...  58.2    2e-07
+  sp|Q70DK5|XG74_HUNTH Xyloglucanase Xgh74A OS=Hungateiclostridiu...  56.6    8e-07
+  sp|Q3MUH7|XG74_PAESP Xyloglucanase OS=Paenibacillus sp. OX=5817...  50.5    7e-05
+  sp|A1DAU0|XGCA_NEOFI Probable oligoxyloglucan-reducing end-spec...  49.7    1e-04
+  sp|Q8J0D2|CBHRE_GEOS1 Oligoxyloglucan reducing end-specific cel...  47.8    4e-04
+  sp|Q5BD38|XGCA_EMENI Oligoxyloglucan-reducing end-specific xylo...  46.2    0.001
+
+
+> sp|A3DFA0|XG74_HUNT2 Xyloglucanase Xgh74A OS=Hungateiclostridium 
+thermocellum (strain ATCC 27405 / DSM 1237 / JCM 9322 / 
+NBRC 103400 / NCIMB 10682 / NRRL B-4536 / VPI 7372) OX=203119 
+GN=xghA PE=3 SV=1
+Length=842
+
+ Score = 58.2 bits (139),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 85/353 (24%), Positives = 137/353 (39%), Gaps = 101/353 (29%)
+
+Query  14   VQDVVADPNQANVVYMAS---------DMEGVYKSTNNGESWQIT-------GNLVNNRV  57
+            V+ +  DP   N VY+A+         +M  + +ST+ GE+W+ T       GN+    +
+Sbjct  101  VESIATDPVDPNRVYIAAGMYTNDWLPNMGAILRSTDRGETWEKTILPFKMGGNMPGRSM  160
+
+Query  58   FA-VAVTPGNSNKIFVGTL--YGLHISTNGSNSYALVPETENKSIASIAFKPGNANHIIA  114
+               +A+ P ++  +++GT    GL  ST+   +++ V    N         PG     I 
+Sbjct  161  GERLAIDPNDNRILYLGTRCGNGLWRSTDYGVTWSKVESFPN---------PGT---YIY  208
+
+Query  115  APGWRDDDDFIGKFGETAAGPGQVFVSQNGGSSWQTVTFDSNSSTDRNVYSVVFDQSNAN  174
+             P +    D IG                     W  V FD +SST  N            
+Sbjct  209  DPNFDYTKDIIGVV-------------------W--VVFDKSSSTPGN---------PTK  238
+
+Query  175  TVYLG---SNKGVYKSTNGGLNWQRIAGPDDAVRPWNKGIALSPNGQVLYATYAEAKPDL  231
+            T+Y+G    N+ +Y+ST+GG+ W+ + G    + P + G+ L+ NG +LY TY +     
+Sbjct  239  TIYVGVADKNESIYRSTDGGVTWKAVPGQPKGLLP-HHGV-LASNG-MLYITYGDTCGPY  295
+
+Query  232  RYNTNFLVYATRTSNINWQQVTGGLEGNRRYWYPEVDPRSTGNSHKVLLGAVKDRFGLYE  291
+              N    V+   T    W  +T               P S+ ++     G   DR     
+Sbjct  296  DGNGKGQVWKFNTRTGEWIDITP-------------IPYSSSDNRFCFAGLAVDR-----  337
+
+Query  292  GTFNWDNNGNL-----TNFYW--EKIWDSYDG--SWDIGWDYATPPNARFAHY  335
+                   N ++      N +W  E I+ S DG  +W   W++   P  R  HY
+Sbjct  338  ------QNPDIIMVTSMNAWWPDEYIFRSTDGGATWKNIWEWGMYPE-RILHY  383
+
+
+> sp|Q70DK5|XG74_HUNTH Xyloglucanase Xgh74A OS=Hungateiclostridium 
+thermocellum OX=1515 GN=xghA PE=1 SV=1
+Length=842
+
+ Score = 56.6 bits (135),  Expect = 8e-07, Method: Composition-based stats.
+ Identities = 84/353 (24%), Positives = 136/353 (39%), Gaps = 101/353 (29%)
+
+Query  14   VQDVVADPNQANVVYMAS---------DMEGVYKSTNNGESWQIT-------GNLVNNRV  57
+            V+ +  DP   N VY+ +         +M  + +ST+ GE+W+ T       GN+    +
+Sbjct  101  VESIATDPVDPNRVYIVAGMYTNDWLPNMGAILRSTDRGETWEKTILPFKMGGNMPGRSM  160
+
+Query  58   FA-VAVTPGNSNKIFVGTL--YGLHISTNGSNSYALVPETENKSIASIAFKPGNANHIIA  114
+               +A+ P ++  +++GT    GL  ST+   +++ V    N         PG     I 
+Sbjct  161  GERLAIDPNDNRILYLGTRCGNGLWRSTDYGVTWSKVESFPN---------PGT---YIY  208
+
+Query  115  APGWRDDDDFIGKFGETAAGPGQVFVSQNGGSSWQTVTFDSNSSTDRNVYSVVFDQSNAN  174
+             P +    D IG                     W  V FD +SST  N            
+Sbjct  209  DPNFDYTKDIIGVV-------------------W--VVFDKSSSTPGN---------PTK  238
+
+Query  175  TVYLG---SNKGVYKSTNGGLNWQRIAGPDDAVRPWNKGIALSPNGQVLYATYAEAKPDL  231
+            T+Y+G    N+ +Y+ST+GG+ W+ + G    + P + G+ L+ NG +LY TY +     
+Sbjct  239  TIYVGVADKNESIYRSTDGGVTWKAVPGQPKGLLP-HHGV-LASNG-MLYITYGDTCGPY  295
+
+Query  232  RYNTNFLVYATRTSNINWQQVTGGLEGNRRYWYPEVDPRSTGNSHKVLLGAVKDRFGLYE  291
+              N    V+   T    W  +T               P S+ ++     G   DR     
+Sbjct  296  DGNGKGQVWKFNTRTGEWIDITP-------------IPYSSSDNRFCFAGLAVDR-----  337
+
+Query  292  GTFNWDNNGNL-----TNFYW--EKIWDSYDG--SWDIGWDYATPPNARFAHY  335
+                   N ++      N +W  E I+ S DG  +W   W++   P  R  HY
+Sbjct  338  ------QNPDIIMVTSMNAWWPDEYIFRSTDGGATWKNIWEWGMYPE-RILHY  383
+
+
+> sp|Q3MUH7|XG74_PAESP Xyloglucanase OS=Paenibacillus sp. OX=58172 
+GN=xeg74 PE=1 SV=1
+Length=1027
+
+ Score = 50.5 bits (119),  Expect = 7e-05, Method: Composition-based stats.
+ Identities = 64/261 (25%), Positives = 120/261 (46%), Gaps = 49/261 (19%)
+
+Query  3    WQPLNPGAGGQ-VQDVVADPNQANVVYMASDMEGVYKSTNNGESWQITGNLV------NN  55
+            W+ +  GAGG  V  ++ + ++ +++Y  +D+ G Y+     ESW    + V       N
+Sbjct  40   WKNVVTGAGGGFVPGIIFNESEKDLIYARTDIGGAYRWNPANESWIPLTDFVGWDDWNKN  99
+
+Query  56   RVFAVAVTPGNSNKIFVGTLYGLHISTNGSNSYALVPETENK---SIASIAFK-----PG  107
+             V A+A  P + +++++    G + ++   N+ A++  T+        ++ FK     PG
+Sbjct  100  GVDALATDPVDPDRVYLAV--GTYTNSWDKNNGAILRSTDRGDTWQTTTLPFKVGGNMPG  157
+
+Query  108  NA--NHIIAAPGWRDDDDFIGKFGETAAGPGQVFVSQNGGSSWQTVTFDSNSST----DR  161
+             +    ++  P    +D+ I  FG   +G G ++ S + G++W  VT   N  T      
+Sbjct  158  RSMGERLVVDP----NDNRILYFG-ARSGNG-LWRSSDYGATWSKVTSFPNPGTYVQDPA  211
+
+Query  162  NVYS--------VVFDQSNA------NTVYLG---SNKGVYKSTNGGLNWQRIAGPDDAV  204
+            N Y         + FD+S+        T+Y+G   + + +Y+ST+GG  W  + G     
+Sbjct  212  NEYGSDIVGLAWITFDKSSGQVGQATQTIYVGVADTAQSIYRSTDGGATWTAVPGQPTGY  271
+
+Query  205  RPWNKGIALSPNGQVLYATYA  225
+             P + G+ L  +G  LY TY+
+Sbjct  272  LP-HHGV-LDADGS-LYITYS  289
+
+
+> sp|A1DAU0|XGCA_NEOFI Probable oligoxyloglucan-reducing end-specific 
+xyloglucanase OS=Neosartorya fischeri (strain ATCC 1020 
+/ DSM 3700 / CBS 544.65 / FGSC A1164 / JCM 1740 / NRRL 181 
+/ WB 181) OX=331117 GN=xgcA PE=3 SV=1
+Length=815
+
+ Score = 49.7 bits (117),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 53/226 (23%), Positives = 99/226 (44%), Gaps = 34/226 (15%)
+
+Query  10   AGGQVQDVVADPNQANVVYMASDMEGVYKSTNNGESW----QITG----NLVNNRVFAVA  61
+             GG +  +V  P + N++Y  +D+   Y+       W       G    NL+     +VA
+Sbjct  36   GGGYITGIVGHPAEKNLLYARTDIGSTYRWEQELNKWIPLTDFLGPEDENLLGTE--SVA  93
+
+Query  62   VTPGNSNKIFVGTLYGLHISTNGSNSYALVPETENKSIASI-AFKPGNANHI-------I  113
+            + P + N++++    G ++S+N  NS   V      +     A  P  AN +       +
+Sbjct  94   MDPTDPNRLYLAQ--GRYLSSN--NSAFFVSNDRGATFTRYRAPFPMGANELGRNNGERL  149
+
+Query  114  AAPGWRDDDDFIGKFGETAAGPGQVFVSQNGGSSWQTVT-FDSNSSTDRNVYSVVFDQSN  172
+            A   ++ ++ ++G      AG   +  S +   +W  VT F   ++    +  V+FD  +
+Sbjct  150  AVNPFKPNELWMGT---RNAG---LMKSSDRAKTWTNVTNFPDAAANGIGITFVIFDPQH  203
+
+Query  173  ANTVYLGS--NKGVYKSTNGGLNWQRIAGPDDAVRPWNKGIALSPN  216
+              T+Y+G+    G+Y +T+GG NW+ I G       W+  + + PN
+Sbjct  204  EGTIYVGACIPGGLYYTTDGGKNWESIPGQP---MQWDPSLLVYPN  246
+
+
+> sp|Q8J0D2|CBHRE_GEOS1 Oligoxyloglucan reducing end-specific cellobiohydrolase 
+OS=Geotrichum sp. (strain M128) OX=203496 PE=1 
+SV=1
+Length=812
+
+ Score = 47.8 bits (112),  Expect = 4e-04, Method: Composition-based stats.
+ Identities = 51/243 (21%), Positives = 104/243 (43%), Gaps = 41/243 (17%)
+
+Query  15   QDVVADPNQANVVYMASDMEGVYKSTNNGESWQITGNLVNNRVF------AVAVTPGNSN  68
+              +VA P   +++Y  +D+ G Y+       W    + +  +        ++A+ P N +
+Sbjct  41   TGIVAHPKTKDLLYARTDIGGAYRWDAGTSKWIPLNDFIEAQDMNIMGTESIALDPNNPD  100
+
+Query  69   KIFVGTLYGLHISTNGSNSYALVPETENKSIASIAFKPG------NANHIIAAPGWRDDD  122
+            ++++    G ++    +  Y      ++ +I    F  G      N    +A   +  ++
+Sbjct  101  RLYLAQ--GRYVGDEWAAFYVSEDRGQSFTIYESPFPMGANDMGRNNGERLAVNPFNSNE  158
+
+Query  123  DFIGKFGETAAGPGQVFVSQNGGSSWQTVTFDSNSSTDRNVY-SVVFDQSNANTVYLGSN  181
+             ++G   E       ++ S +   +W  VT   ++ T+   Y SV+FD     T+Y  + 
+Sbjct  159  VWMGTRTEG------IWKSSDRAKTWTNVTSIPDAFTNGIGYTSVIFDPERNGTIYASAT  212
+
+Query  182  --KGVYKSTNGGLNWQRIAG-------------PDD---AVRPWNKGIALSPNGQVLYAT  223
+              +G+Y + +GG++W+ +AG             PD    ++ P    +AL+PN   LY T
+Sbjct  213  APQGMYVTHDGGVSWEPVAGQPSSWLNRTTGAFPDKKPASIAPQPMKVALTPN--FLYVT  270
+
+Query  224  YAE  226
+            YA+
+Sbjct  271  YAD  273
+
+
+> sp|Q5BD38|XGCA_EMENI Oligoxyloglucan-reducing end-specific xyloglucanase 
+OS=Emericella nidulans (strain FGSC A4 / ATCC 38163 
+/ CBS 112.46 / NRRL 194 / M139) OX=227321 GN=xgcA PE=1 SV=1
+Length=810
+
+ Score = 46.2 bits (108),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 67/285 (24%), Positives = 125/285 (44%), Gaps = 47/285 (16%)
+
+Query  3    WQPLNPGAGGQVQDVVADPNQANVVYMASDMEGVYKSTNNGESWQ-----ITG---NLVN  54
+            + P+    GG +  ++A P + N++Y  +D+ G Y+   + + W      I+G   NL+ 
+Sbjct  37   FNPVVVSGGGYITGIIAHPTEKNLLYARTDIGGTYRWNADEDKWIPLNDFISGADENLLG  96
+
+Query  55   NRVFAVAVTPGNSNKIFVGTLYGLHISTNGSNSYALVPETENKSIASIAFKPG------N  108
+                +VA+ P + +++++    G ++++  S  +          +    FK G      N
+Sbjct  97   TE--SVALDPNDPDRLYLAQ--GRYLNSENSAFFVSQDRGATFDVYPAPFKMGANELGRN  152
+
+Query  109  ANHIIAAPGWRDDDDFIGKFGETAAGPGQVFVSQNGGSSWQTVT-FDSNSSTDRNVYSVV  167
+                +A   ++ D+ ++G      AG   + VS++G  +W+ V+ F   ++    +Y V+
+Sbjct  153  NGERLAVNPFKTDELWMGT---RDAG---LMVSEDGAQTWRNVSGFPQANANGIGIYWVI  206
+
+Query  168  FD--QSNANTVYLGSNKGVYKSTNGGLNWQRIAG------PDDAVRPWN-----------  208
+            FD        V +G   G+Y + + G +W+ + G       D  V P             
+Sbjct  207  FDPRSEGTVYVGVGVPGGIYVTRDSGESWEAVPGQPVEWDEDILVFPAESQPQSTGPQPM  266
+
+Query  209  KGIALSPNGQVLYATYAEAKPDLRYNTNFLVYATRTSNINWQQVT  253
+            KG+ L+ NG  LY TYA+A P     T   VY   T++  W  +T
+Sbjct  267  KGV-LAENG-ALYVTYADA-PGPYGVTYGGVYVYNTTSSAWTNIT  308
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.135    0.422    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0413    0.140     1.90     42.6     43.6 
+
+Effective search space used: 85702977100
+Results from round 3
+
+
+Query= 6P2K
+
+Length=776
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|A3DFA0|XG74_HUNT2 Xyloglucanase Xgh74A OS=Hungateiclostridiu...  298     8e-88
+  sp|Q70DK5|XG74_HUNTH Xyloglucanase Xgh74A OS=Hungateiclostridiu...  297     2e-87
+  sp|A1DAU0|XGCA_NEOFI Probable oligoxyloglucan-reducing end-spec...  263     4e-75
+  sp|Q3MUH7|XG74_PAESP Xyloglucanase OS=Paenibacillus sp. OX=5817...  257     1e-71
+  sp|Q8J0D2|CBHRE_GEOS1 Oligoxyloglucan reducing end-specific cel...  251     8e-71
+  sp|Q5BD38|XGCA_EMENI Oligoxyloglucan-reducing end-specific xylo...  250     2e-70
+
+Sequences not found previously or not previously below threshold:
+
+  sp|Q7Z9M8|XG74_HYPJQ Xyloglucanase OS=Hypocrea jecorina (strain...  163     2e-40
+  sp|Q7VDP1|YC48L_PROMA Ycf48-like protein OS=Prochlorococcus mar...  48.6    1e-04
+  sp|O82660|P2SAF_ARATH Photosystem II stability/assembly factor ...  47.1    4e-04
+  sp|Q3MC08|YC48L_TRIV2 Ycf48-like protein OS=Trichormus variabil...  44.8    0.002
+  sp|P73069|YC48L_SYNY3 Ycf48-like protein OS=Synechocystis sp. (...  44.8    0.002
+  sp|Q8YQI3|YC48L_NOSS1 Ycf48-like protein OS=Nostoc sp. (strain ...  44.4    0.003
+  sp|P84908|DAIP_STRMB Dispase autolysis-inducing protein OS=Stre...  44.4    0.003
+  sp|Q7V4Q3|YC48L_PROMM Ycf48-like protein OS=Prochlorococcus mar...  43.2    0.006
+  sp|Q2JW20|YC48L_SYNJA Ycf48-like protein OS=Synechococcus sp. (...  43.2    0.007
+  sp|Q46M02|YC48L_PROMT Ycf48-like protein OS=Prochlorococcus mar...  43.2    0.007
+
+
+> sp|A3DFA0|XG74_HUNT2 Xyloglucanase Xgh74A OS=Hungateiclostridium 
+thermocellum (strain ATCC 27405 / DSM 1237 / JCM 9322 / 
+NBRC 103400 / NCIMB 10682 / NRRL B-4536 / VPI 7372) OX=203119 
+GN=xghA PE=3 SV=1
+Length=842
+
+ Score = 298 bits (763),  Expect = 8e-88, Method: Composition-based stats.
+ Identities = 85/379 (22%), Positives = 148/379 (39%), Gaps = 81/379 (21%)
+
+Query  3    WQPLNPGAGG-QVQDVVADPNQANVVYMASDMEGVYKSTNNGESWQITGNLVNN------  55
+            W  +  G GG  +  +V +  + +++Y  +D+ G Y+   + E+W    +          
+Sbjct  40   WDNVVIGGGGGFMPGIVFNETEKDLIYARADIGGAYRWDPSTETWIPLLDHFQMDEYSYY  99
+
+Query  56   RVFAVAVTPGNSNKIFVGTLYGLHISTNGSNSYALVPETENKSIAS---IAFKPGNA---  109
+             V ++A  P + N++++    G++ +    N  A++  T+         + FK G     
+Sbjct  100  GVESIATDPVDPNRVYIA--AGMYTNDWLPNMGAILRSTDRGETWEKTILPFKMGGNMPG  157
+
+Query  110  ---NHIIAAPGWRDDDDFIGKFGETAAGPGQVFVSQNGGSSWQTVTFDSNSSTD------  160
+                  +A      +D+ I   G T  G G ++ S + G +W  V    N  T       
+Sbjct  158  RSMGERLAIDP---NDNRILYLG-TRCGNG-LWRSTDYGVTWSKVESFPNPGTYIYDPNF  212
+
+Query  161  ------RNVYSVVFDQS------NANTVYLG---SNKGVYKSTNGGLNWQRIAGPDDAVR  205
+                    V  VVFD+S         T+Y+G    N+ +Y+ST+GG+ W+ + G    + 
+Sbjct  213  DYTKDIIGVVWVVFDKSSSTPGNPTKTIYVGVADKNESIYRSTDGGVTWKAVPGQPKGLL  272
+
+Query  206  PWNKGIALSPNGQVLYATYAEAKPDLRYNTNFLVYATRTSNINWQQVTGGLEGNRRYWYP  265
+            P + G+ L+ NG +LY TY +       N    V+   T    W  +T            
+Sbjct  273  P-HHGV-LASNG-MLYITYGDTCGPYDGNGKGQVWKFNTRTGEWIDITP-----------  318
+
+Query  266  EVDPRSTGNSHKVLLGAVKDRFGLYEGTFNWDNNGNL-----TNFYW--EKIWDSYDG--  316
+               P S+ ++     G   DR            N ++      N +W  E I+ S DG  
+Sbjct  319  --IPYSSSDNRFCFAGLAVDR-----------QNPDIIMVTSMNAWWPDEYIFRSTDGGA  365
+
+Query  317  SWDIGWDYATPPNARFAHY  335
+            +W   W++   P  R  HY
+Sbjct  366  TWKNIWEWGMYPE-RILHY  383
+
+
+ Score = 49.4 bits (116),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 41/215 (19%), Positives = 76/215 (35%), Gaps = 35/215 (16%)
+
+Query  9    GAGGQVQDVVADPNQANVVYMASDMEGVYKSTNNGESWQITGNLVNNRVFAV-AVTPGNS  67
+              GG    V AD    +V++   +      +T+NG SW++  NL    + AV A    N 
+Sbjct  551  SVGGGSVAVAAD--AKSVIWTPENASPAV-TTDNGNSWKVCTNL---GMGAVVASDRVNG  604
+
+Query  68   NKIFVGTLYGLHISTNGSNSYALVPETENKSIASIAFKPGNANHIIAAPGWRDDDDFIGK  127
+             K +         +      Y         +       P + N I A PG ++   ++  
+Sbjct  605  KKFY---------AFYNGKFYISTDGGLTFTDTKAPQLPKSVNKIKAVPG-KEGHVWL--  652
+
+Query  128  FGETAAGPGQVFVSQNGGSSWQTVTFDSNS-------STDRNVYSVVFDQSNANTVYLGS  180
+                AA  G ++ S +GG +++ ++    +       +     Y  ++     + V    
+Sbjct  653  ----AAREGGLWRSTDGGYTFEKLSNVDTAHVVGFGKAAPGQDYMAIYITGKIDNVL---  705
+
+Query  181  NKGVYKSTNGGLNWQRIAGPDDAVRPWNKGIALSP  215
+              G ++S + G  W RI   +      +  I   P
+Sbjct  706  --GFFRSDDAGKTWVRINDDEHGYGAVDTAITGDP  738
+
+
+> sp|Q70DK5|XG74_HUNTH Xyloglucanase Xgh74A OS=Hungateiclostridium 
+thermocellum OX=1515 GN=xghA PE=1 SV=1
+Length=842
+
+ Score = 297 bits (760),  Expect = 2e-87, Method: Composition-based stats.
+ Identities = 85/379 (22%), Positives = 149/379 (39%), Gaps = 81/379 (21%)
+
+Query  3    WQPLNPGAGG-QVQDVVADPNQANVVYMASDMEGVYKSTNNGESWQITGNLVNN------  55
+            W  +  G GG  +  +V +  + +++Y  +D+ G Y+   + E+W    +          
+Sbjct  40   WDNVVIGGGGGFMPGIVFNETEKDLIYARADIGGAYRWDPSTETWIPLLDHFQMDEYSYY  99
+
+Query  56   RVFAVAVTPGNSNKIFVGTLYGLHISTNGSNSYALVPETENKSIAS---IAFKPGNA---  109
+             V ++A  P + N++++  + G++ +    N  A++  T+         + FK G     
+Sbjct  100  GVESIATDPVDPNRVYI--VAGMYTNDWLPNMGAILRSTDRGETWEKTILPFKMGGNMPG  157
+
+Query  110  ---NHIIAAPGWRDDDDFIGKFGETAAGPGQVFVSQNGGSSWQTVTFDSNSSTD------  160
+                  +A      +D+ I   G T  G G ++ S + G +W  V    N  T       
+Sbjct  158  RSMGERLAIDP---NDNRILYLG-TRCGNG-LWRSTDYGVTWSKVESFPNPGTYIYDPNF  212
+
+Query  161  ------RNVYSVVFDQS------NANTVYLG---SNKGVYKSTNGGLNWQRIAGPDDAVR  205
+                    V  VVFD+S         T+Y+G    N+ +Y+ST+GG+ W+ + G    + 
+Sbjct  213  DYTKDIIGVVWVVFDKSSSTPGNPTKTIYVGVADKNESIYRSTDGGVTWKAVPGQPKGLL  272
+
+Query  206  PWNKGIALSPNGQVLYATYAEAKPDLRYNTNFLVYATRTSNINWQQVTGGLEGNRRYWYP  265
+            P + G+ L+ NG +LY TY +       N    V+   T    W  +T            
+Sbjct  273  P-HHGV-LASNG-MLYITYGDTCGPYDGNGKGQVWKFNTRTGEWIDITP-----------  318
+
+Query  266  EVDPRSTGNSHKVLLGAVKDRFGLYEGTFNWDNNGNL-----TNFYW--EKIWDSYDG--  316
+               P S+ ++     G   DR            N ++      N +W  E I+ S DG  
+Sbjct  319  --IPYSSSDNRFCFAGLAVDR-----------QNPDIIMVTSMNAWWPDEYIFRSTDGGA  365
+
+Query  317  SWDIGWDYATPPNARFAHY  335
+            +W   W++   P  R  HY
+Sbjct  366  TWKNIWEWGMYPE-RILHY  383
+
+
+ Score = 49.8 bits (117),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 41/215 (19%), Positives = 76/215 (35%), Gaps = 35/215 (16%)
+
+Query  9    GAGGQVQDVVADPNQANVVYMASDMEGVYKSTNNGESWQITGNLVNNRVFAV-AVTPGNS  67
+              GG    V AD    +V++   +      +T+NG SW++  NL    + AV A    N 
+Sbjct  551  SVGGGSVAVAAD--AKSVIWTPENASPAV-TTDNGNSWKVCTNL---GMGAVVASDRVNG  604
+
+Query  68   NKIFVGTLYGLHISTNGSNSYALVPETENKSIASIAFKPGNANHIIAAPGWRDDDDFIGK  127
+             K +         +      Y         +       P + N I A PG ++   ++  
+Sbjct  605  KKFY---------AFYNGKFYISTDGGLTFTDTKAPQLPKSVNKIKAVPG-KEGHVWL--  652
+
+Query  128  FGETAAGPGQVFVSQNGGSSWQTVTFDSNS-------STDRNVYSVVFDQSNANTVYLGS  180
+                AA  G ++ S +GG +++ ++    +       +     Y  ++     + V    
+Sbjct  653  ----AAREGGLWRSTDGGYTFEKLSNVDTAHVVGFGKAAPGQDYMAIYITGKIDNVL---  705
+
+Query  181  NKGVYKSTNGGLNWQRIAGPDDAVRPWNKGIALSP  215
+              G ++S + G  W RI   +      +  I   P
+Sbjct  706  --GFFRSDDAGKTWVRINDDEHGYGAVDTAITGDP  738
+
+
+> sp|A1DAU0|XGCA_NEOFI Probable oligoxyloglucan-reducing end-specific 
+xyloglucanase OS=Neosartorya fischeri (strain ATCC 1020 
+/ DSM 3700 / CBS 544.65 / FGSC A1164 / JCM 1740 / NRRL 181 
+/ WB 181) OX=331117 GN=xgcA PE=3 SV=1
+Length=815
+
+ Score = 263 bits (672),  Expect = 4e-75, Method: Composition-based stats.
+ Identities = 69/362 (19%), Positives = 131/362 (36%), Gaps = 56/362 (15%)
+
+Query  3    WQPLNPGAGGQVQDVVADPNQANVVYMASDMEGVYKSTNNGESWQITGNLVNNRV-----  57
+            ++ +    GG +  +V  P + N++Y  +D+   Y+       W    + +         
+Sbjct  29   FKSVAITGGGYITGIVGHPAEKNLLYARTDIGSTYRWEQELNKWIPLTDFLGPEDENLLG  88
+
+Query  58   -FAVAVTPGNSNKIFVGTLYGLHISTNGSNSYALVPETENKSIASIAFKPG------NAN  110
+              +VA+ P + N++++    G ++S+N S  +         +     F  G      N  
+Sbjct  89   TESVAMDPTDPNRLYLAQ--GRYLSSNNSAFFVSNDRGATFTRYRAPFPMGANELGRNNG  146
+
+Query  111  HIIAAPGWRDDDDFIGKFGETAAGPGQVFVSQNGGSSWQTVT-FDSNSSTDRNVYSVVFD  169
+              +A   ++ ++ ++G           +  S +   +W  VT F   ++    +  V+FD
+Sbjct  147  ERLAVNPFKPNELWMGTR------NAGLMKSSDRAKTWTNVTNFPDAAANGIGITFVIFD  200
+
+Query  170  QSNANTVYLGS--NKGVYKSTNGGLNWQRIAGPDDAVRPWNKGIALSPN-----------  216
+              +  T+Y+G+    G+Y +T+GG NW+ I G       W+  + + PN           
+Sbjct  201  PQHEGTIYVGACIPGGLYYTTDGGKNWESIPGQP---MQWDPSLLVYPNETQPQSAGPQP  257
+
+Query  217  -------GQVLYATYAEAKPDLRYNTNFLVYATRTSNINWQQVTGGLEGNRRYWYPEVDP  269
+                      LY TYA+  P         V+   T+   W  +T          Y    P
+Sbjct  258  MKAVLASNGALYVTYAD-YPGPWGVAYGAVHVYNTTASIWTDITPNANNTSPKPYT---P  313
+
+Query  270  RSTGNSHKVLLGAVKDRFG-LYEGTFNWDNNGNLTNFYWEKIWDSYDG--SWDIGWDYAT  326
+            ++        L    D    +   + + D    L + Y      S DG  +W      +T
+Sbjct  314  QAFPAGGYCGLSVAPDDPDTVVVVSLDRDPGPALDSMYL-----SRDGGKTWKDVSQLST  368
+
+Query  327  PP  328
+            PP
+Sbjct  369  PP  370
+
+
+> sp|Q3MUH7|XG74_PAESP Xyloglucanase OS=Paenibacillus sp. OX=58172 
+GN=xeg74 PE=1 SV=1
+Length=1027
+
+ Score = 257 bits (655),  Expect = 1e-71, Method: Composition-based stats.
+ Identities = 83/371 (22%), Positives = 151/371 (41%), Gaps = 71/371 (19%)
+
+Query  3    WQPLNPGAGGQ-VQDVVADPNQANVVYMASDMEGVYKSTNNGESWQITGNLVN------N  55
+            W+ +  GAGG  V  ++ + ++ +++Y  +D+ G Y+     ESW    + V       N
+Sbjct  40   WKNVVTGAGGGFVPGIIFNESEKDLIYARTDIGGAYRWNPANESWIPLTDFVGWDDWNKN  99
+
+Query  56   RVFAVAVTPGNSNKIFVGTLYGLHISTNGSNSYALVPETENK---SIASIAFKPGNA---  109
+             V A+A  P + +++++    G + ++   N+ A++  T+        ++ FK G     
+Sbjct  100  GVDALATDPVDPDRVYLAV--GTYTNSWDKNNGAILRSTDRGDTWQTTTLPFKVGGNMPG  157
+
+Query  110  ---NHIIAAPGWRDDDDFIGKFGETAAGPGQVFVSQNGGSSWQTVTFDSNSST----DRN  162
+                  +       +D+ I  FG   +G G ++ S + G++W  VT   N  T      N
+Sbjct  158  RSMGERLVVDP---NDNRILYFG-ARSGNG-LWRSSDYGATWSKVTSFPNPGTYVQDPAN  212
+
+Query  163  VY--------SVVFDQSN------ANTVYLG---SNKGVYKSTNGGLNWQRIAGPDDAVR  205
+             Y         + FD+S+        T+Y+G   + + +Y+ST+GG  W  + G      
+Sbjct  213  EYGSDIVGLAWITFDKSSGQVGQATQTIYVGVADTAQSIYRSTDGGATWTAVPGQPTGYL  272
+
+Query  206  PWNKGIALSPNGQVLYATYAEAKPDLRYNTNFLVYATRTSNINWQQVTGGLEGNRRYWYP  265
+            P + G+ L  +G  LY TY+         T   V+   TS   W  ++            
+Sbjct  273  P-HHGV-LDADGS-LYITYSNGVGPYDG-TKGDVWKLNTSTGAWTNISP-----------  317
+
+Query  266  EVDPRSTGNSHKVLLGAVKDRFGLYEGTFNWDNNGNLTNFYW--EKIWDSYDG--SWDIG  321
+               P S+ +++    G   D      GT          N +W    ++ S DG  +W   
+Sbjct  318  --IPSSSADNYFGYGGLAVD--AQEPGTLMVAT----LNSWWPDAILFRSKDGGTTWTRI  369
+
+Query  322  WDYATPPNARF  332
+            W++   PN +F
+Sbjct  370  WEFDGYPNRKF  380
+
+
+> sp|Q8J0D2|CBHRE_GEOS1 Oligoxyloglucan reducing end-specific cellobiohydrolase 
+OS=Geotrichum sp. (strain M128) OX=203496 PE=1 
+SV=1
+Length=812
+
+ Score = 251 bits (641),  Expect = 8e-71, Method: Composition-based stats.
+ Identities = 71/363 (20%), Positives = 141/363 (39%), Gaps = 57/363 (16%)
+
+Query  3    WQPLNPGAGGQVQDVVADPNQANVVYMASDMEGVYKSTNNGESWQITGNLVNNRVF----  58
+            ++ +  G GG +  +VA P   +++Y  +D+ G Y+       W    + +  +      
+Sbjct  29   FKNVAIGGGGYITGIVAHPKTKDLLYARTDIGGAYRWDAGTSKWIPLNDFIEAQDMNIMG  88
+
+Query  59   --AVAVTPGNSNKIFVGTLYGLHISTNGSNSYALVPETENKSIASIAFKPG------NAN  110
+              ++A+ P N +++++    G ++    +  Y      ++ +I    F  G      N  
+Sbjct  89   TESIALDPNNPDRLYLAQ--GRYVGDEWAAFYVSEDRGQSFTIYESPFPMGANDMGRNNG  146
+
+Query  111  HIIAAPGWRDDDDFIGKFGETAAGPGQVFVSQNGGSSWQTVTFDSNSSTDRNVY-SVVFD  169
+              +A   +  ++ ++G   E       ++ S +   +W  VT   ++ T+   Y SV+FD
+Sbjct  147  ERLAVNPFNSNEVWMGTRTEG------IWKSSDRAKTWTNVTSIPDAFTNGIGYTSVIFD  200
+
+Query  170  QSNANTVYLG--SNKGVYKSTNGGLNWQRIAGPDD----------------AVRPWNKGI  211
+                 T+Y    + +G+Y + +GG++W+ +AG                   ++ P    +
+Sbjct  201  PERNGTIYASATAPQGMYVTHDGGVSWEPVAGQPSSWLNRTTGAFPDKKPASIAPQPMKV  260
+
+Query  212  ALSPNGQVLYATYAEAKPDLRYNTNFLVYATRTSNINWQQVTGGLEGNRRYWYPEVDPRS  271
+            AL+PN   LY TYA+  P     T   V+    ++  W  +T  +  +    Y      +
+Sbjct  261  ALTPN--FLYVTYAD-YPGPWGVTFGEVWRQNRTSGAWDDITPRVGNSSPAPYNNQTFPA  317
+
+Query  272  TGNSHKVLLGAVKDRFG---LYEGTFNWDNNGNLTNFYWEKIWDSYD--GSWDIGWDYAT  326
+             G       G   D      L   T + D    L     + I+ S D   +W      ++
+Sbjct  318  GG-----FCGLSVDATNPNRLVVITLDRDPGPAL-----DSIYLSTDAGATWKDVTQLSS  367
+
+Query  327  PPN  329
+            P N
+Sbjct  368  PSN  370
+
+
+> sp|Q5BD38|XGCA_EMENI Oligoxyloglucan-reducing end-specific xyloglucanase 
+OS=Emericella nidulans (strain FGSC A4 / ATCC 38163 
+/ CBS 112.46 / NRRL 194 / M139) OX=227321 GN=xgcA PE=1 SV=1
+Length=810
+
+ Score = 250 bits (638),  Expect = 2e-70, Method: Composition-based stats.
+ Identities = 71/361 (20%), Positives = 138/361 (38%), Gaps = 56/361 (16%)
+
+Query  3    WQPLNPGAGGQVQDVVADPNQANVVYMASDMEGVYKSTNNGESWQITGNLVNN------R  56
+            + P+    GG +  ++A P + N++Y  +D+ G Y+   + + W    + ++        
+Sbjct  37   FNPVVVSGGGYITGIIAHPTEKNLLYARTDIGGTYRWNADEDKWIPLNDFISGADENLLG  96
+
+Query  57   VFAVAVTPGNSNKIFVGTLYGLHISTNGSNSYALVPETENKSIASIAFKPG------NAN  110
+              +VA+ P + +++++    G ++++  S  +          +    FK G      N  
+Sbjct  97   TESVALDPNDPDRLYLAQ--GRYLNSENSAFFVSQDRGATFDVYPAPFKMGANELGRNNG  154
+
+Query  111  HIIAAPGWRDDDDFIGKFGETAAGPGQVFVSQNGGSSWQTVT-FDSNSSTDRNVYSVVFD  169
+              +A   ++ D+ ++G           + VS++G  +W+ V+ F   ++    +Y V+FD
+Sbjct  155  ERLAVNPFKTDELWMGTRDAG------LMVSEDGAQTWRNVSGFPQANANGIGIYWVIFD  208
+
+Query  170  Q--SNANTVYLGSNKGVYKSTNGGLNWQRIAG----------------PDDAVRPWNKGI  211
+                    V +G   G+Y + + G +W+ + G                   +  P     
+Sbjct  209  PRSEGTVYVGVGVPGGIYVTRDSGESWEAVPGQPVEWDEDILVFPAESQPQSTGPQPMKG  268
+
+Query  212  ALSPNGQVLYATYAEAKPDLRYNTNFLVYATRTSNINWQQVTGGLEGNRRYWYPEVDPRS  271
+             L+ NG  LY TYA+A P     T   VY   T++  W  +T     +    +      +
+Sbjct  269  VLAENG-ALYVTYADA-PGPYGVTYGGVYVYNTTSSAWTNITPKTNNSFPAPFDNQTFPA  326
+
+Query  272  TGNSHKVLLGAVKDRFG---LYEGTFNWDNNGNLTNFYWEKIWDSYDG--SWDIGWDYAT  326
+             G       G   D      L   + + D    L + Y      S+DG  SW      +T
+Sbjct  327  GG-----FCGISVDSKNPERLVVVSLDRDPGPALDSMYL-----SHDGGKSWKDVSQLST  376
+
+Query  327  P  327
+            P
+Sbjct  377  P  377
+
+
+ Score = 44.4 bits (103),  Expect = 0.004, Method: Composition-based stats.
+ Identities = 34/177 (19%), Positives = 65/177 (37%), Gaps = 24/177 (14%)
+
+Query  30   ASDMEGVYKSTNNGESWQ-ITGNLVNNRVFAVAVTPGNSNKIFVGTLYGLHISTNGSNSY  88
+             ++  G Y +T+ G++W   TG  +N +   ++         +  T    ++S +G  SY
+Sbjct  610  RTNQSGPYVTTDLGQTWVSPTG--LNVQTPNISADRVQPRTFYSFTDGTWYLSRDGGLSY  667
+
+Query  89   ALVPETENKSIASIAFKPGNANHIIAAPGWRDDDDFIGKFGETAAGPGQVFVSQNGGSSW  148
+                  E          P  +  +  A   R  + ++G       G   ++ ++N G  W
+Sbjct  668  RAYKAKEVG-------LPAYSGALPIANFNRAGEIWLGL------GDHGIYHTRNFGKKW  714
+
+Query  149  QTVT--------FDSNSSTDRNVYSVVFDQSNANTVYLGSNKGVYKSTNGGLNWQRI  197
+              +T            +   R+    +F    A +    S  GVY+S + G  W R+
+Sbjct  715  TKITGRGVTARQLTIGAGARRSSEPTLFIVGKAASHGALSKDGVYRSDDNGKTWVRV  771
+
+
+> sp|Q7Z9M8|XG74_HYPJQ Xyloglucanase OS=Hypocrea jecorina (strain 
+QM6a) OX=431241 GN=cel74a PE=1 SV=1
+Length=838
+
+ Score = 163 bits (411),  Expect = 2e-40, Method: Composition-based stats.
+ Identities = 72/371 (19%), Positives = 136/371 (37%), Gaps = 77/371 (21%)
+
+Query  3    WQPL-NPGAGGQVQDVVADPNQANVVYMASDMEGVYKSTNNGESWQITGNLVNN------  55
+            W+ +   G GG V  ++  P    V Y  +D+ G+Y+   + +SW    + + +      
+Sbjct  23   WKNVKLGGGGGFVPGIIFHPKTKGVAYARTDIGGLYRLNAD-DSWTAVTDGIADNAGWHN  81
+
+Query  56   -RVFAVAVTPGNSNKIFVGTLYGLHISTNGSNSYALV---PETENKSIASIAFKPGNA--  109
+              + AVA+ P +  K++     G++ ++   ++ A++         S  ++ FK G    
+Sbjct  82   WGIDAVALDPQDDQKVYAAV--GMYTNSWDPSNGAIIRSSDRGATWSFTNLPFKVGGNMP  139
+
+Query  110  ----NHIIAAPGWRDDDDFIGKFGETAAGPGQVFVSQNGGSSWQTVTFDSNSST------  159
+                   +A      +  + G      +G G ++ S +GG ++  V+  + + T      
+Sbjct  140  GRGAGERLAVDPANSNIIYFG----ARSGNG-LWKSTDGGVTFSKVSSFTATGTYIPDPS  194
+
+Query  160  DRNVY--------SVVFDQSNANT------VYLGS----NKGVYKSTNGGLNWQRIAGPD  201
+            D N Y         V FD +++ T      +++G+       VY STN G  W  + G  
+Sbjct  195  DSNGYNSDKQGLMWVTFDSTSSTTGGATSRIFVGTADNITASVYVSTNAGSTWSAVPGQP  254
+
+Query  202  DAVRPWNKGIALSPNGQVLYATYAEAKPDLRYNTNFLVYATRTSNINWQQVTGGLEGNRR  261
+                P      L P  + LY TY++        T   V+    +   W+ +T        
+Sbjct  255  GKYFP--HKAKLQPAEKALYLTYSDGTGPYDG-TLGSVWRYDIAGGTWKDIT--------  303
+
+Query  262  YWYPEVDPRSTGNSHKVLLGAVKDRFGLYEGTFNWDNNGNLTNFYW--EKIWDSYDG--S  317
+                   P S  + +    G   D                  N +W   +++ S D   +
+Sbjct  304  -------PVSGSDLYFGFGGLGLDLQKPGTLVVAS------LNSWWPDAQLFRSTDSGTT  350
+
+Query  318  WDIGWDYATPP  328
+            W   W +A+ P
+Sbjct  351  WSPIWAWASYP  361
+
+
+> sp|Q7VDP1|YC48L_PROMA Ycf48-like protein OS=Prochlorococcus marinus 
+(strain SARG / CCMP1375 / SS120) OX=167539 GN=Pro_0327 
+PE=3 SV=1
+Length=339
+
+ Score = 48.6 bits (114),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 26/142 (18%), Positives = 55/142 (39%), Gaps = 15/142 (11%)
+
+Query  56   RVFAVAVTPGNSNKIFVGTLYGLHISTNGSNSYALVPETENKSIASIAFK--PGNANHII  113
+                +A      +  FV   +G  +  N      ++  T+  S         P   N  +
+Sbjct  39   EEIELANDDNPLDIAFVDDNHGFLVGANR----LILETTDGGSTWEERDLDIPAEENFRL  94
+
+Query  114  AAPGWRDDDDFIGKFGETAAGPGQVFVSQNGGSSWQTVTFDSNSSTDRNVYSVVFDQSNA  173
+             +  +++D+ +I         P  V  S++ G +W  ++    S    N Y +    +++
+Sbjct  95   MSIDFKEDEGWI------VGQPNLVLHSEDAGKNWTRLSL--GSQLPGNPYLITTLDTSS  146
+
+Query  174  NTVYLGSNKGVYKSTNGGLNWQ  195
+              +   +   VY++T+GG NW+
+Sbjct  147  AEL-ATTAGAVYRTTDGGKNWE  167
+
+
+> sp|O82660|P2SAF_ARATH Photosystem II stability/assembly factor 
+HCF136, chloroplastic OS=Arabidopsis thaliana OX=3702 GN=HCF136 
+PE=1 SV=1
+Length=403
+
+ Score = 47.1 bits (110),  Expect = 4e-04, Method: Composition-based stats.
+ Identities = 49/277 (18%), Positives = 84/277 (30%), Gaps = 41/277 (15%)
+
+Query  92   PETENKSIASIAFKPGNANHIIAAPGWRDDDDFIGKFGETAAGPGQVFVSQNGGSSWQTV  151
+               E  S     F P +   ++    +  D+   G    T      +  +++GGS+W   
+Sbjct  77   RADEQLSEWERVFLPIDPGVVLLDIAFVPDEPSRGFLLGTRQ---TLLETKDGGSTWNPR  133
+
+Query  152  TFDSNSSTDRNVYSVVFDQSNANTVYLGSNKGVYKSTNGGLNWQRIAGPDDAVRPWNKGI  211
+            +  S    D N               +G    +  + + G NW RI     +  P     
+Sbjct  134  SIPSAEEEDFNYRFNSISFKGKEGWIIGKPAILLYTADAGENWDRIP--LSSQLP-----  186
+
+Query  212  ALSPNGQVLYATYAEAKPDLRYNTNFLVYATRTSNINWQQVTGGLEGNRRYWYPEVDPRS  271
+                 G +++    E K          +Y T     NW+                 +  S
+Sbjct  187  -----GDMVFIKATEDKSAEMVTDEGAIYVTSNRGYNWK-------------AAIQETVS  228
+
+Query  272  TGNSHKVLLGAVKDRFGLYEGTFNWDN-NGNLTNFYWEKIWDSYDGSWDIGWDYATP---  327
+               +  V  G     +  Y GTF+  N + +        +  S  G++ + W+   P   
+Sbjct  229  ATLNRTVSSGISGASY--YTGTFSAVNRSPD-----GRYVAVSSRGNFFLTWEPGQPYWQ  281
+
+Query  328  PNARFAHYTPVTGGWAR--GVWSTTNQTMYYASHNSG  362
+            P+ R         GW    G+W        Y S  +G
+Sbjct  282  PHNRAVARRIQNMGWRADGGLWLLVRGGGLYLSKGTG  318
+
+
+> sp|Q3MC08|YC48L_TRIV2 Ycf48-like protein OS=Trichormus variabilis 
+(strain ATCC 29413 / PCC 7937) OX=240292 GN=Ava_1856 PE=3 
+SV=1
+Length=339
+
+ Score = 44.8 bits (104),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 35/197 (18%), Positives = 70/197 (36%), Gaps = 23/197 (12%)
+
+Query  25   NVVYMASDMEGVYKSTNNGESWQITGNLVNNRVFAVAVTPGNSNKIFVGTL-YGLHISTN  83
+            ++  MA+D+  +YK+T+ G++W+     V   V  V     + +  +V     G   ST 
+Sbjct  141  DIAEMATDVGAIYKTTDGGKNWKAQ---VEAAVGVVRNLERSEDGKYVAVSAKGSFYSTW  197
+
+Query  84   GSNSYALVPETENKSIASIAFKPGNANHIIAAPGWRDDDDFIGKFGETAAGPGQVFVSQN  143
+                 A VP               N++  +   G+  D  ++        G    F    
+Sbjct  198  EPGQNAWVPHNR------------NSSRRVENMGFSQDGLWLLAR-----GGQVQFSDPT  240
+
+Query  144  GGSSWQTVTFDSNSSTDRNVYSVVFDQSNANTVYLGSNKGVYKSTNGGLNWQRIAGPDDA  203
+                W         +T   +  + +   N   +  G +  +  ST+GG  W++    ++ 
+Sbjct  241  KPDEWLDAQTPE-LATSWGLLDMAYRTPNEVWIG-GGSGNLLVSTDGGKTWEKDRDVEEV  298
+
+Query  204  VRPWNKGIALSPNGQVL  220
+               + K + L P+   +
+Sbjct  299  AANFYKVVFLKPDQGFV  315
+
+
+> sp|P73069|YC48L_SYNY3 Ycf48-like protein OS=Synechocystis sp. 
+(strain PCC 6803 / Kazusa) OX=1111708 GN=slr2034 PE=3 SV=1
+Length=342
+
+ Score = 44.8 bits (104),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 35/206 (17%), Positives = 76/206 (37%), Gaps = 27/206 (13%)
+
+Query  17   VVADPNQANVVYMASDMEGVYKSTNNGESWQITGNLVNNRVFAVAVTPGNSNKIFVGTLY  76
+            +   P  A ++   +D+  +YK+TN G++W+    LV   V        +++  +V    
+Sbjct  142  IALGPQTAEMI---TDLGAIYKTTNGGKNWKA---LVEGAVGVARTIQRSTDGRYVAV--  193
+
+Query  77   GLHISTNGSNSYALVPETENKSIASIAFKPGNANHIIAAPGW-RDDDDFIGKFGETAAGP  135
+                 +   N Y+     +            N++  +   G+ +D   ++   G      
+Sbjct  194  -----SARGNFYSTWAPGQ----TEWTPHNRNSSRRLQTMGYGKDGQLWLLARG------  238
+
+Query  136  GQVFVSQN-GGSSWQTVTFDSNSSTDRNVYSVVFDQSNANTVYLGSNKGVYKSTNGGLNW  194
+            GQ+  S +     W  V    +  +   +  + F ++       G++  +  S +GG  W
+Sbjct  239  GQLQFSTDPDAEEWSDVIAPQDKGS-WGLLDLSF-RTPEEVWVAGASGNLLMSQDGGQTW  296
+
+Query  195  QRIAGPDDAVRPWNKGIALSPNGQVL  220
+             +  G +D      + + LSP    +
+Sbjct  297  AKDTGVEDIPANLYRVVFLSPEKGFV  322
+
+
+> sp|Q8YQI3|YC48L_NOSS1 Ycf48-like protein OS=Nostoc sp. (strain 
+PCC 7120 / SAG 25.82 / UTEX 2576) OX=103690 GN=alr3844 PE=3 
+SV=1
+Length=339
+
+ Score = 44.4 bits (103),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 35/197 (18%), Positives = 71/197 (36%), Gaps = 23/197 (12%)
+
+Query  25   NVVYMASDMEGVYKSTNNGESWQITGNLVNNRVFAVAVTPGNSNKIFVGTL-YGLHISTN  83
+            ++  MA+D+  +YK+T+ G++W+     V   V  V     + +  +V     G   ST 
+Sbjct  141  DIAEMATDVGAIYKTTDGGKNWKAQ---VEAAVGVVRNLERSVDGKYVAVSAKGSFYSTW  197
+
+Query  84   GSNSYALVPETENKSIASIAFKPGNANHIIAAPGWRDDDDFIGKFGETAAGPGQVFVSQN  143
+             +   A VP               N++  +   G+  D  ++        G    F    
+Sbjct  198  EAGQNAWVPHNR------------NSSRRVENMGFSQDGLWLLAR-----GGQVQFSDPA  240
+
+Query  144  GGSSWQTVTFDSNSSTDRNVYSVVFDQSNANTVYLGSNKGVYKSTNGGLNWQRIAGPDDA  203
+                W         +T   +  + +   N   +  G +  +  ST+GG  W++    ++ 
+Sbjct  241  NPDEWLDAETPE-LATSWGLLDMAYRTPNEVWIG-GGSGNLLVSTDGGKTWEKDRDVEEV  298
+
+Query  204  VRPWNKGIALSPNGQVL  220
+               + K + L P+   +
+Sbjct  299  AANFYKVVFLKPDQGFV  315
+
+
+> sp|P84908|DAIP_STRMB Dispase autolysis-inducing protein OS=Streptomyces 
+mobaraensis OX=35621 GN=daip PE=1 SV=2
+Length=374
+
+ Score = 44.4 bits (103),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 38/214 (18%), Positives = 74/214 (35%), Gaps = 39/214 (18%)
+
+Query  53   VNNRVFAVAVTPGNSNKIFVGTLYG-LHISTNGSNSYALVPETENKSIASIAFKPGNANH  111
+             +  +  V       + + +    G L+ ST+   ++        K +  +AF PG + +
+Sbjct  145  PSADIVGVGTDKARRDHVRLAGSDGQLYDSTDAGATW--------KPLGKLAFGPGASVY  196
+
+Query  112  IIAAPGWRDDDDFIGKFGETAAGPGQVFVSQNGGSSWQTVTFDSNSSTDR-NVYSVVFDQ  170
+             ++      D    G      A      V+ +GG++W   T  S ++  + N+++     
+Sbjct  197  TVSFDPADLDHAVAGGMTTGGA------VTTDGGATWTAATGLSATAGGKSNLFAASVSP  250
+
+Query  171  SNANTVYL-------GSNKG------VYKSTNGGLNWQRIAGPDDAVRPWNKGIALSP--  215
+            ++ N VY         +         +Y+ST+GG  + RI   D           L+P  
+Sbjct  251  ADRNVVYALGIDLVEAAPNSGAEGRHLYRSTDGGRTYTRIV-DDTPDTELTNSTLLAPSP  309
+
+Query  216  -NGQVLYATYAEAKPDLRYNTNFL-VYATRTSNI  247
+             +  VLY  Y        +      +Y       
+Sbjct  310  VDPNVLYFEY-----GTYFQAYGTDLYRYDARTG  338
+
+
+ Score = 44.4 bits (103),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 30/173 (17%), Positives = 67/173 (39%), Gaps = 14/173 (8%)
+
+Query  14   VQDVVADPNQANVVYMASDMEGVYKSTNNGESWQITGNL---VNNRVFAVAVTPGNSNK-  69
+            +  V  D  + + V +A     +Y ST+ G +W+  G L       V+ V+  P + +  
+Sbjct  149  IVGVGTDKARRDHVRLAGSDGQLYDSTDAGATWKPLGKLAFGPGASVYTVSFDPADLDHA  208
+
+Query  70   IFVGTLYGLHISTNGSNSYA-----LVPETENKSIASIAFKPGNANHIIAAPGWRDDDDF  124
+            +  G   G  ++T+G  ++              ++ + +  P + N + A        D 
+Sbjct  209  VAGGMTTGGAVTTDGGATWTAATGLSATAGGKSNLFAASVSPADRNVVYALGI-----DL  263
+
+Query  125  IGKFGETAAGPGQVFVSQNGGSSWQTVTFDSNSSTDRNVYSVVFDQSNANTVY  177
+            +     + A    ++ S +GG ++  +  D+  +   N   +     + N +Y
+Sbjct  264  VEAAPNSGAEGRHLYRSTDGGRTYTRIVDDTPDTELTNSTLLAPSPVDPNVLY  316
+
+
+> sp|Q7V4Q3|YC48L_PROMM Ycf48-like protein OS=Prochlorococcus marinus 
+(strain MIT 9313) OX=74547 GN=PMT_1895 PE=3 SV=1
+Length=335
+
+ Score = 43.2 bits (100),  Expect = 0.006, Method: Composition-based stats.
+ Identities = 23/163 (14%), Positives = 55/163 (34%), Gaps = 20/163 (12%)
+
+Query  41   NNGESWQITGNLVNNRVFAVAVTPGNSNKIFVGTLYGLHISTNGSNSYALVPETENKSIA  100
+             +   WQ     +N     + ++  ++N  FV     L + +N           + +   
+Sbjct  32   ASTSPWQPLE--LNTESNPLDISFSDANHGFVVGTNRLIMESNDGGVSWKKRSLDLEE--  87
+
+Query  101  SIAFKPGNANHIIAAPGWRDDDDFIGKFGETAAGPGQVFVSQNGGSSWQTVTFDSNSSTD  160
+                   + N  + +  +  ++ +I      A  PG V  S + G +W  +     +   
+Sbjct  88   -------DENFRLISIDFNGNEGWI------AGQPGLVMHSTDAGKNWSRLKL--ENKLP  132
+
+Query  161  RNVYSVVFDQSNANTVYLGSNKGVYKSTNGGLNWQRIAGPDDA  203
+             + Y +  +    N     +   +Y++++GG  W+        
+Sbjct  133  GDPYLIT-NLGPNNAELATNAGAIYRTSDGGTTWKATVSEAAG  174
+
+
+> sp|Q2JW20|YC48L_SYNJA Ycf48-like protein OS=Synechococcus sp. 
+(strain JA-3-3Ab) OX=321327 GN=CYA_0848 PE=3 SV=2
+Length=334
+
+ Score = 43.2 bits (100),  Expect = 0.007, Method: Composition-based stats.
+ Identities = 33/208 (16%), Positives = 69/208 (33%), Gaps = 29/208 (14%)
+
+Query  29   MASDMEGVYKSTNNGESWQITGNLVNNRVFAVAVTPGNSNKIFVGTLYGLHISTNGSNSY  88
+            M +++  +Y++ + G++W          +  +A  PG     ++       +S+ GS  +
+Sbjct  145  MVTNVGAIYRTEDGGQTWHAQVEEPIGAIKNIARGPGGE---YLA------VSSRGSFYF  195
+
+Query  89   ALVPETENKSIASIAFKPGNANHIIAAPGWRDDDDFIGKFGETAAGPGQVFVSQNGGSSW  148
+               PE+ +         P  ++  I   G+  +    G   +   G    F S      W
+Sbjct  196  LYTPESRSWK-----PYPRESSRRIQNMGFGPN----GSAWKLNQGAEIAFTSDFTSGEW  246
+
+Query  149  QTVTFDSNSSTDRNVYSVVFDQSNANTVYLGSNKGVYKSTNGGLNWQR------IAGP--  200
+                     +      +  +   +   V +G    +  S +GG  W+       I     
+Sbjct  247  SK-PLRPGRALSFGYLNAAYQNDHDLWV-VGGGGTLIHSPDGGKTWEEAKKLSNIPANFY  304
+
+Query  201  DDAVRPWNKGIALSPNGQVL-YATYAEA  227
+                   ++G  L   G +L Y  Y+ +
+Sbjct  305  SIEFFGPDRGFILGQRGTLLRYVGYSNS  332
+
+
+> sp|Q46M02|YC48L_PROMT Ycf48-like protein OS=Prochlorococcus marinus 
+(strain NATL2A) OX=59920 GN=PMN2A_1662 PE=3 SV=1
+Length=338
+
+ Score = 43.2 bits (100),  Expect = 0.007, Method: Composition-based stats.
+ Identities = 23/146 (16%), Positives = 51/146 (35%), Gaps = 20/146 (14%)
+
+Query  53   VNNRVFAVAVTPGNSNKIFVGTLYGLHISTNGSNSYALVPETENKSIASIAFKPGNANHI  112
+            ++     + V   +    F+     L + TN           +          P   N  
+Sbjct  42   LDTEANPLDVDFVDDKNGFLVGTNRLILETNDGGITWKERNLD---------IPSEGNFR  92
+
+Query  113  IAAPGWRDDDDFIGKFGETAAGPGQVFVSQNGGSSWQTVTF-DSNSSTDRNVYSVVFDQS  171
+            + +  ++  + +I      A  PG +  + +GG +W  +   +        + ++  D +
+Sbjct  93   LISVDFKGQEGWI------AGQPGLILHTTDGGKNWTRLDLGNKLPGDPYLITTIDTDIA  146
+
+Query  172  NANTVYLGSNKGVYKSTNGGLNWQRI  197
+               T    +   +YK+T+ G NW+ I
+Sbjct  147  ELAT----TAGAIYKTTDAGTNWEAI  168
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.128    0.384    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0390    0.140     1.90     42.6     43.6 
+
+Effective search space used: 85702977100
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 28, 2021  3:44 PM
+  Number of letters in database: 202,799,066
+  Number of sequences in database:  563,082
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

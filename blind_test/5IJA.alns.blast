@@ -1,0 +1,1053 @@
+PSIBLAST 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           563,082 sequences; 202,799,066 total letters
+
+Results from round 1
+
+
+Query= 5IJA
+
+Length=148
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|Q51795|FRXA_PYRFU Protein FrxA OS=Pyrococcus furiosus (strai...  156     7e-49
+  sp|P37182|HYBD_ECOLI Hydrogenase 2 maturation protease OS=Esche...  48.9    1e-06
+  sp|P40591|HOXM_AZOVI Hydrogenase expression/formation protein H...  47.0    8e-06
+  sp|Q45251|HUPD_BRADU Hydrogenase expression/formation protein H...  45.8    2e-05
+  sp|Q43954|HUPM_AZOCH Hydrogenase expression/formation protein H...  41.2    8e-04
+  sp|P27649|HUPD_RHILV Hydrogenase expression/formation protein H...  41.2    0.001
+  sp|Q56362|HUPD_THIRO Hydrogenase expression/formation protein H...  40.4    0.002
+  sp|P19930|HYAD_ECOLI Hydrogenase 1 maturation protease OS=Esche...  40.0    0.002
+  sp|P31909|HOXM_CUPNH Hydrogenase expression/formation protein H...  39.7    0.003
+  sp|Q60339|FRHD_METJA Coenzyme F420 hydrogenase subunit delta OS...  38.5    0.006
+
+
+> sp|Q51795|FRXA_PYRFU Protein FrxA OS=Pyrococcus furiosus (strain 
+ATCC 43587 / DSM 3638 / JCM 8422 / Vc1) OX=186497 GN=frxA 
+PE=4 SV=1
+Length=137
+
+ Score = 156 bits (395),  Expect = 7e-49, Method: Compositional matrix adjust.
+ Identities = 76/130 (58%), Positives = 103/130 (79%), Gaps = 2/130 (2%)
+
+Query  13   MKDDGAGLKAGRILAEKGYNVLEVGTDIFRLANHYNGEERIVIIDAILSDKLKPGEVVHF  72
+            M DDG G+K GR L  +GY V E+GTDIF L   YNGE +++I+DA+L +   PG+VV+F
+Sbjct  1    MGDDGVGIKIGRELKRQGYKVEELGTDIFSLMRVYNGENKVIIVDAVLGEI--PGKVVYF  58
+
+Query  73   SGEEIFEKLKAEIRSAHFMGAIDGLKLLMALDERLKRAEIHFIGIVAKEIDLGMELSDEV  132
+             GE+IF+KL+AEIRSAHFMGA++GLKLL+ +DERLK AE+HF+G+  KE  LG+ELS+EV
+Sbjct  59   KGEDIFKKLRAEIRSAHFMGAVEGLKLLLEVDERLKNAELHFVGVTIKEPKLGLELSEEV  118
+
+Query  133  KAGVQKAVEI  142
+            K  + +A+E+
+Sbjct  119  KRAIPRAMEL  128
+
+
+> sp|P37182|HYBD_ECOLI Hydrogenase 2 maturation protease OS=Escherichia 
+coli (strain K12) OX=83333 GN=hybD PE=1 SV=2
+Length=164
+
+ Score = 48.9 bits (115),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 39/146 (27%), Positives = 72/146 (49%), Gaps = 8/146 (5%)
+
+Query  1    MRVLILALGNELMKDDGAGLKA-----GRILAEKGYNVLEVGTDIFRLANHYNGEERIVI  55
+            MR+L+L +GN L+ D+  G++       R +      +L+ GT    L       + ++I
+Sbjct  1    MRILVLGVGNILLTDEAIGVRIVEALEQRYILPDYVEILDGGTAGMELLGDMANRDHLII  60
+
+Query  56   IDAILSDKLKPGEVVHFSGEEIFEKLKAEIRSAHFMGAIDGLKLLMALDERLKRAEIHFI  115
+             DAI+S K  PG ++    EE+      +I S H +G  D L  L    E  K+  +  +
+Sbjct  61   ADAIVSKKNAPGTMMILRDEEVPALFTNKI-SPHQLGLADVLSALRFTGEFPKK--LTLV  117
+
+Query  116  GIVAKEIDLGMELSDEVKAGVQKAVE  141
+            G++ + ++  + L+  V+A ++ A+E
+Sbjct  118  GVIPESLEPHIGLTPTVEAMIEPALE  143
+
+
+> sp|P40591|HOXM_AZOVI Hydrogenase expression/formation protein 
+HoxM OS=Azotobacter vinelandii OX=354 GN=hoxM PE=3 SV=1
+Length=207
+
+ Score = 47.0 bits (110),  Expect = 8e-06, Method: Compositional matrix adjust.
+ Identities = 42/147 (29%), Positives = 72/147 (49%), Gaps = 9/147 (6%)
+
+Query  3    VLILALGNELMKDDGAGLKAGRILAEK-----GYNVLEVGTDIFRLANHYNGEERIVIID  57
+            +LIL +GN L  D+G G++   +L E+     G  +++ GT    L  H    + +++ D
+Sbjct  6    ILILGIGNLLWADEGFGVRCVELLNERYRFPDGVRLMDGGTQGIYLVQHVQQADCLIVFD  65
+
+Query  58   AILSDKLKPGEVVHFSGEEIFEKLKAEIRSAHFMGAIDGLKLLMALDERLKRAEIHFIGI  117
+            A+    L PG +     +E+   + A+  S H  G  D L  L A      R E+  IG+
+Sbjct  66   AV-DYGLAPGTLKIVRDDEVPRFMGAKRMSLHQTGFQDVLA-LAAFSGAYPR-ELLLIGV  122
+
+Query  118  VAKEI-DLGMELSDEVKAGVQKAVEIA  143
+              +E+ D G  L + V+A ++ A+ +A
+Sbjct  123  QPEELEDFGGSLREPVRAQLEPALRVA  149
+
+
+> sp|Q45251|HUPD_BRADU Hydrogenase expression/formation protein 
+HupD OS=Bradyrhizobium diazoefficiens (strain JCM 10833 / IAM 
+13628 / NBRC 14792 / USDA 110) OX=224911 GN=hupD PE=3 SV=2
+Length=192
+
+ Score = 45.8 bits (107),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 38/153 (25%), Positives = 73/153 (48%), Gaps = 13/153 (8%)
+
+Query  2    RVLILALGNELMKDDGAGLKA-----GRILAEKGYNVLEVGTDIFRLANHYNGEERIVII  56
+            R+L+L +GN L  D+G G++A      R        +L+ GT    L N+    +R+++ 
+Sbjct  9    RILVLGIGNILWADEGFGVRAVEEFHRRYAVPDNVTILDGGTQGLYLVNYLEEADRLIVF  68
+
+Query  57   DAILSDKLKPGEVVHFSGEEIFEKLKAEIRSAHFMGAIDGLKLLMALDERLKRAEIHFIG  116
+            DAI    L+PG +     +E+     A+  S H      G + +++  + L R   H + 
+Sbjct  69   DAI-DYGLEPGRLKLVRDDEVPRFTGAKKMSLHQT----GFQEVISAADLLGRCPKHLVL  123
+
+Query  117  IVAKEIDL---GMELSDEVKAGVQKAVEIAEKL  146
+            I  + +DL   G  L+  V+  +  ++++A ++
+Sbjct  124  IGCQPLDLEDWGGPLTPPVRDQIAPSIDLACQV  156
+
+
+> sp|Q43954|HUPM_AZOCH Hydrogenase expression/formation protein 
+HupM OS=Azotobacter chroococcum mcd 1 OX=355 GN=hupM PE=3 SV=1
+Length=209
+
+ Score = 41.2 bits (95),  Expect = 8e-04, Method: Compositional matrix adjust.
+ Identities = 39/142 (27%), Positives = 67/142 (47%), Gaps = 9/142 (6%)
+
+Query  3    VLILALGNELMKDDGAGLKAGRILAEK-----GYNVLEVGTDIFRLANHYNGEERIVIID  57
+            +LIL +GN L  D+G G++   +L E+     G  +++ GT    L  H    + +++ D
+Sbjct  8    ILILGIGNLLWADEGFGVRCVELLNERYRFPDGVRLMDGGTQGIYLVQHVQQADCLIVFD  67
+
+Query  58   AILSDKLKPGEVVHFSGEEIFEKLKAEIRSAHFMGAIDGLKLLMALDERLKRAEIHFIGI  117
+            A+    L PG +     +E+   + A+  S H  G  D L  L A      R E+  +G+
+Sbjct  68   AV-DYGLAPGTLKVVRDDEVPRFMGAKRMSLHQTGFQDVLA-LAAFTGAYPR-ELLLVGV  124
+
+Query  118  VAKEI-DLGMELSDEVKAGVQK  138
+               E+ D G  L + V+A ++ 
+Sbjct  125  QPAELEDFGGSLREPVRAQLEP  146
+
+
+> sp|P27649|HUPD_RHILV Hydrogenase expression/formation protein 
+HupD OS=Rhizobium leguminosarum bv. viciae OX=387 GN=hupD PE=3 
+SV=2
+Length=202
+
+ Score = 41.2 bits (95),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 42/162 (26%), Positives = 69/162 (43%), Gaps = 27/162 (17%)
+
+Query  2    RVLILALGNELMKDDGAGLKAGRILAEKGY------NVLEVGTDIFRLANHYNGEERIVI  55
+            R+L+L +GN L  D+G G++A      K Y       +L+ GT    L    N  +R+++
+Sbjct  14   RILVLGIGNILWADEGFGVRAVEAF-HKAYELSDNVTILDGGTQGLYLVQFVNEHDRLIV  72
+
+Query  56   IDAILSDKLKPG--------EVVHFSGEEIFEKLKAEIRSAHFMGAIDGLKLLMALDERL  107
+             DAI    L+PG        EV  F+G +     K  +    F   +     +    ERL
+Sbjct  73   FDAI-DYGLEPGTMKVVEDDEVPKFTGAK-----KMSLHQTGFQEVLSAADFMGHYPERL  126
+
+Query  108  KRAEIHFIGIVAKEI-DLGMELSDEVKAGVQKAVEIAEKLAK  148
+                   IG    ++ D G  L+  V+  +  A+E A ++ +
+Sbjct  127  T-----LIGCQPLDLEDWGGPLTAPVRGVIPAAIETAVRVLR  163
+
+
+> sp|Q56362|HUPD_THIRO Hydrogenase expression/formation protein 
+HupD OS=Thiocapsa roseopersicina OX=1058 GN=hupD PE=3 SV=1
+Length=221
+
+ Score = 40.4 bits (93),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 43/153 (28%), Positives = 71/153 (46%), Gaps = 10/153 (7%)
+
+Query  3    VLILALGNELMKDDGAGLKAGRILA-----EKGYNVLEVGTDIFRLANHYNGEERIVIID  57
+            +L+L +GN L  D+G G++A   L           +L+ GT    L +     + +V+ D
+Sbjct  7    ILVLGIGNLLWADEGFGVRAVEALQRHWVMSSNVQLLDGGTQGIYLVDRVRKADVLVVFD  66
+
+Query  58   AILSDKLKPGEVVHFSGEEIFEKLKAEIRSAHFMGAIDGLKLLMALDERLKRAEIHFIGI  117
+            A+    L PG +     +E+   L A+  S H  G  + L L   L +  K   +  IG+
+Sbjct  67   AV-DYGLPPGTMKRVEDDEVPRFLGAKKMSLHQTGFQEVLALAAMLGDYPK--HLLLIGV  123
+
+Query  118  VAKEI-DLGMELSDEVKAGVQKAVEIA-EKLAK  148
+               E+ D G  L  ++K  +  A+E+A E LA+
+Sbjct  124  QPVELDDFGGSLRPQIKERITPAIEMALEYLAQ  156
+
+
+> sp|P19930|HYAD_ECOLI Hydrogenase 1 maturation protease OS=Escherichia 
+coli (strain K12) OX=83333 GN=hyaD PE=1 SV=1
+Length=195
+
+ Score = 40.0 bits (92),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 29/93 (31%), Positives = 49/93 (53%), Gaps = 6/93 (6%)
+
+Query  2   RVLILALGNELMKDDGAGLK-AGRILAEKGYN----VLEVGTDIFRLANHYNGEERIVII  56
+           RV+++ LGN L  D+G G++ A R+ A   +     +++ GT    L  +      ++I+
+Sbjct  5   RVVVMGLGNLLWADEGFGVRVAERLYAHYHWPEYVEIVDGGTQGLNLLGYVESASHLLIL  64
+
+Query  57  DAILSDKLKPGEVVHFSGEEIFEKLKAEIRSAH  89
+           DAI    L+PG +  ++GE I   L A+  S H
+Sbjct  65  DAI-DYGLEPGTLRTYAGERIPAYLSAKKMSLH  96
+
+
+> sp|P31909|HOXM_CUPNH Hydrogenase expression/formation protein 
+HoxM OS=Cupriavidus necator (strain ATCC 17699 / H16 / DSM 
+428 / Stanier 337) OX=381666 GN=hoxM PE=3 SV=2
+Length=202
+
+ Score = 39.7 bits (91),  Expect = 0.003, Method: Compositional matrix adjust.
+ Identities = 43/145 (30%), Positives = 68/145 (47%), Gaps = 9/145 (6%)
+
+Query  3    VLILALGNELMKDDGAGLKAGRILAEKGYNVLEV-----GTDIFRLANHYNGEERIVIID  57
+            V+ + +GN L  D+G G++    L ++     +V     GT    L +H     R++I D
+Sbjct  2    VVAMGIGNVLWADEGFGVRCIETLQQRYQFAPQVCLVDGGTQGLYLIHHVQAASRLLIFD  61
+
+Query  58   AILSDKLKPGEVVHFSGEEIFEKLKAEIRSAHFMGAIDGLKLLMALDERLKRAEIHFIGI  117
+            AI    L PG +     E + + L A+  S H  G  + L LL  L  +  + ++  IG 
+Sbjct  62   AI-DYGLPPGTLRIIEDEAVPKFLGAKKMSLHQTGFQEVL-LLAQLTGQYPQ-QVVLIGC  118
+
+Query  118  VAKEI-DLGMELSDEVKAGVQKAVE  141
+              +E+ D G  L   +KA V+ AVE
+Sbjct  119  QPEELEDYGGSLRRVMKAAVEDAVE  143
+
+
+> sp|Q60339|FRHD_METJA Coenzyme F420 hydrogenase subunit delta 
+OS=Methanocaldococcus jannaschii (strain ATCC 43067 / DSM 2661 
+/ JAL-1 / JCM 10045 / NBRC 100440) OX=243232 GN=frhD PE=3 
+SV=1
+Length=183
+
+ Score = 38.5 bits (88),  Expect = 0.006, Method: Compositional matrix adjust.
+ Identities = 43/156 (28%), Positives = 75/156 (48%), Gaps = 24/156 (15%)
+
+Query  3    VLILALGNELMKDDGAGL----KAGRILAEKGYNVLEV-------GTDIFRLANHYNGEE  51
+            +++LA GN L  DDG  +    K  +IL +K    + +          +  L +  +  +
+Sbjct  28   IMVLACGNILFADDGFSVHVIEKLNKILTDKEKQKIALVDAGAGAPQQVLTLIDENSKTK  87
+
+Query  52   RIVIIDAILSDKLKPGEVVHFSGEEIFEKLKAEIRSAHFMGAIDGL--KLLMALDERLKR  109
+            +I+++D ++   +KPGE+      +I EK +      H + + D     LL  + E+   
+Sbjct  88   KIIVVD-VIDWGIKPGEI------KIIEKDELPNPKYHRLDSHDWPLAPLLREVAEKY-N  139
+
+Query  110  AEIHFIGIVAK---EIDLGMELSDEVKAGVQKAVEI  142
+             E+  +G  AK   E D+ + LS+EV+  V KAVEI
+Sbjct  140  IEVKVVGCQAKYISEPDVYIGLSEEVEKAVDKAVEI  175
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.140    0.377    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5844520972
+Results from round 2
+
+
+Query= 5IJA
+
+Length=148
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q45251|HUPD_BRADU Hydrogenase expression/formation protein H...  182     2e-58
+  sp|P27649|HUPD_RHILV Hydrogenase expression/formation protein H...  180     1e-57
+  sp|P40591|HOXM_AZOVI Hydrogenase expression/formation protein H...  173     2e-54
+  sp|Q56362|HUPD_THIRO Hydrogenase expression/formation protein H...  170     2e-53
+  sp|Q43954|HUPM_AZOCH Hydrogenase expression/formation protein H...  169     9e-53
+  sp|P37182|HYBD_ECOLI Hydrogenase 2 maturation protease OS=Esche...  149     2e-45
+  sp|Q51795|FRXA_PYRFU Protein FrxA OS=Pyrococcus furiosus (strai...  139     4e-42
+
+Sequences not found previously or not previously below threshold:
+
+  sp|Q03004|HUPD_RHOCA Hydrogenase expression/formation protein H...  147     3e-44
+  sp|P31909|HOXM_CUPNH Hydrogenase expression/formation protein H...  139     2e-41
+  sp|P19930|HYAD_ECOLI Hydrogenase 1 maturation protease OS=Esche...  124     1e-35
+  sp|Q57701|Y253_METJA Putative hydrogenase maturation protease M...  71.2    3e-15
+  sp|P19497|FRHD_METTH Coenzyme F420 hydrogenase subunit delta OS...  69.7    1e-14
+  sp|Q60339|FRHD_METJA Coenzyme F420 hydrogenase subunit delta OS...  68.9    4e-14
+  sp|P0AEV9|HYCI_ECOLI Hydrogenase 3 maturation protease OS=Esche...  48.5    1e-06
+  sp|P0AEW0|HYCI_ECO57 Hydrogenase 3 maturation protease OS=Esche...  48.5    1e-06
+  sp|Q58048|Y631_METJA Putative hydrogenase maturation protease M...  45.0    3e-05
+  sp|P31876|HYDD_WOLSU Protein HydD OS=Wolinella succinogenes (st...  39.6    0.002
+
+
+> sp|Q45251|HUPD_BRADU Hydrogenase expression/formation protein 
+HupD OS=Bradyrhizobium diazoefficiens (strain JCM 10833 / IAM 
+13628 / NBRC 14792 / USDA 110) OX=224911 GN=hupD PE=3 SV=2
+Length=192
+
+ Score = 182 bits (463),  Expect = 2e-58, Method: Composition-based stats.
+ Identities = 37/152 (24%), Positives = 69/152 (45%), Gaps = 9/152 (6%)
+
+Query  2    RVLILALGNELMKDDGAGLKAG-----RILAEKGYNVLEVGTDIFRLANHYNGEERIVII  56
+            R+L+L +GN L  D+G G++A      R        +L+ GT    L N+    +R+++ 
+Sbjct  9    RILVLGIGNILWADEGFGVRAVEEFHRRYAVPDNVTILDGGTQGLYLVNYLEEADRLIVF  68
+
+Query  57   DAILSDKLKPGEVVHFSGEEIFEKLKAEIRSAHFMGAIDGLKLLMALDERLKRAEIHFIG  116
+            DAI    L+PG +     +E+     A+  S H  G  + +     L    K   +  IG
+Sbjct  69   DAI-DYGLEPGRLKLVRDDEVPRFTGAKKMSLHQTGFQEVISAADLLGRCPK--HLVLIG  125
+
+Query  117  IVAKEI-DLGMELSDEVKAGVQKAVEIAEKLA  147
+                ++ D G  L+  V+  +  ++++A ++ 
+Sbjct  126  CQPLDLEDWGGPLTPPVRDQIAPSIDLACQVL  157
+
+
+> sp|P27649|HUPD_RHILV Hydrogenase expression/formation protein 
+HupD OS=Rhizobium leguminosarum bv. viciae OX=387 GN=hupD PE=3 
+SV=2
+Length=202
+
+ Score = 180 bits (458),  Expect = 1e-57, Method: Composition-based stats.
+ Identities = 38/153 (25%), Positives = 69/153 (45%), Gaps = 9/153 (6%)
+
+Query  2    RVLILALGNELMKDDGAGLKAGRIL-----AEKGYNVLEVGTDIFRLANHYNGEERIVII  56
+            R+L+L +GN L  D+G G++A               +L+ GT    L    N  +R+++ 
+Sbjct  14   RILVLGIGNILWADEGFGVRAVEAFHKAYELSDNVTILDGGTQGLYLVQFVNEHDRLIVF  73
+
+Query  57   DAILSDKLKPGEVVHFSGEEIFEKLKAEIRSAHFMGAIDGLKLLMALDERLKRAEIHFIG  116
+            DAI    L+PG +     +E+ +   A+  S H  G  + L     +    +R  +  IG
+Sbjct  74   DAI-DYGLEPGTMKVVEDDEVPKFTGAKKMSLHQTGFQEVLSAADFMGHYPER--LTLIG  130
+
+Query  117  IVAKEI-DLGMELSDEVKAGVQKAVEIAEKLAK  148
+                ++ D G  L+  V+  +  A+E A ++ +
+Sbjct  131  CQPLDLEDWGGPLTAPVRGVIPAAIETAVRVLR  163
+
+
+> sp|P40591|HOXM_AZOVI Hydrogenase expression/formation protein 
+HoxM OS=Azotobacter vinelandii OX=354 GN=hoxM PE=3 SV=1
+Length=207
+
+ Score = 173 bits (438),  Expect = 2e-54, Method: Composition-based stats.
+ Identities = 39/151 (26%), Positives = 70/151 (46%), Gaps = 9/151 (6%)
+
+Query  3    VLILALGNELMKDDGAGLKAGRILA-----EKGYNVLEVGTDIFRLANHYNGEERIVIID  57
+            +LIL +GN L  D+G G++   +L        G  +++ GT    L  H    + +++ D
+Sbjct  6    ILILGIGNLLWADEGFGVRCVELLNERYRFPDGVRLMDGGTQGIYLVQHVQQADCLIVFD  65
+
+Query  58   AILSDKLKPGEVVHFSGEEIFEKLKAEIRSAHFMGAIDGLKLLMALDERLKRAEIHFIGI  117
+            A+    L PG +     +E+   + A+  S H  G  D L L        +  E+  IG+
+Sbjct  66   AV-DYGLAPGTLKIVRDDEVPRFMGAKRMSLHQTGFQDVLALAAFSGAYPR--ELLLIGV  122
+
+Query  118  VAKEI-DLGMELSDEVKAGVQKAVEIAEKLA  147
+              +E+ D G  L + V+A ++ A+ +A +  
+Sbjct  123  QPEELEDFGGSLREPVRAQLEPALRVALEFL  153
+
+
+> sp|Q56362|HUPD_THIRO Hydrogenase expression/formation protein 
+HupD OS=Thiocapsa roseopersicina OX=1058 GN=hupD PE=3 SV=1
+Length=221
+
+ Score = 170 bits (432),  Expect = 2e-53, Method: Composition-based stats.
+ Identities = 43/153 (28%), Positives = 71/153 (46%), Gaps = 10/153 (7%)
+
+Query  3    VLILALGNELMKDDGAGLKAGRILAE-----KGYNVLEVGTDIFRLANHYNGEERIVIID  57
+            +L+L +GN L  D+G G++A   L           +L+ GT    L +     + +V+ D
+Sbjct  7    ILVLGIGNLLWADEGFGVRAVEALQRHWVMSSNVQLLDGGTQGIYLVDRVRKADVLVVFD  66
+
+Query  58   AILSDKLKPGEVVHFSGEEIFEKLKAEIRSAHFMGAIDGLKLLMALDERLKRAEIHFIGI  117
+            A+    L PG +     +E+   L A+  S H  G  + L L   L +  K   +  IG+
+Sbjct  67   AV-DYGLPPGTMKRVEDDEVPRFLGAKKMSLHQTGFQEVLALAAMLGDYPK--HLLLIGV  123
+
+Query  118  VAKEI-DLGMELSDEVKAGVQKAVEIA-EKLAK  148
+               E+ D G  L  ++K  +  A+E+A E LA+
+Sbjct  124  QPVELDDFGGSLRPQIKERITPAIEMALEYLAQ  156
+
+
+> sp|Q43954|HUPM_AZOCH Hydrogenase expression/formation protein 
+HupM OS=Azotobacter chroococcum mcd 1 OX=355 GN=hupM PE=3 SV=1
+Length=209
+
+ Score = 169 bits (427),  Expect = 9e-53, Method: Composition-based stats.
+ Identities = 36/142 (25%), Positives = 64/142 (45%), Gaps = 9/142 (6%)
+
+Query  3    VLILALGNELMKDDGAGLKAGRILA-----EKGYNVLEVGTDIFRLANHYNGEERIVIID  57
+            +LIL +GN L  D+G G++   +L        G  +++ GT    L  H    + +++ D
+Sbjct  8    ILILGIGNLLWADEGFGVRCVELLNERYRFPDGVRLMDGGTQGIYLVQHVQQADCLIVFD  67
+
+Query  58   AILSDKLKPGEVVHFSGEEIFEKLKAEIRSAHFMGAIDGLKLLMALDERLKRAEIHFIGI  117
+            A+    L PG +     +E+   + A+  S H  G  D L L        +  E+  +G+
+Sbjct  68   AV-DYGLAPGTLKVVRDDEVPRFMGAKRMSLHQTGFQDVLALAAFTGAYPR--ELLLVGV  124
+
+Query  118  VAKEI-DLGMELSDEVKAGVQK  138
+               E+ D G  L + V+A ++ 
+Sbjct  125  QPAELEDFGGSLREPVRAQLEP  146
+
+
+> sp|P37182|HYBD_ECOLI Hydrogenase 2 maturation protease OS=Escherichia 
+coli (strain K12) OX=83333 GN=hybD PE=1 SV=2
+Length=164
+
+ Score = 149 bits (375),  Expect = 2e-45, Method: Composition-based stats.
+ Identities = 39/146 (27%), Positives = 72/146 (49%), Gaps = 8/146 (5%)
+
+Query  1    MRVLILALGNELMKDDGAGLKAG-----RILAEKGYNVLEVGTDIFRLANHYNGEERIVI  55
+            MR+L+L +GN L+ D+  G++       R +      +L+ GT    L       + ++I
+Sbjct  1    MRILVLGVGNILLTDEAIGVRIVEALEQRYILPDYVEILDGGTAGMELLGDMANRDHLII  60
+
+Query  56   IDAILSDKLKPGEVVHFSGEEIFEKLKAEIRSAHFMGAIDGLKLLMALDERLKRAEIHFI  115
+             DAI+S K  PG ++    EE+      +I S H +G  D L  L    E  K+  +  +
+Sbjct  61   ADAIVSKKNAPGTMMILRDEEVPALFTNKI-SPHQLGLADVLSALRFTGEFPKK--LTLV  117
+
+Query  116  GIVAKEIDLGMELSDEVKAGVQKAVE  141
+            G++ + ++  + L+  V+A ++ A+E
+Sbjct  118  GVIPESLEPHIGLTPTVEAMIEPALE  143
+
+
+> sp|Q03004|HUPD_RHOCA Hydrogenase expression/formation protein 
+HupD OS=Rhodobacter capsulatus OX=1061 GN=hupD PE=3 SV=1
+Length=210
+
+ Score = 147 bits (371),  Expect = 3e-44, Method: Composition-based stats.
+ Identities = 36/153 (24%), Positives = 62/153 (41%), Gaps = 9/153 (6%)
+
+Query  2    RVLILALGNELMKDDGAGLKAGRILA-----EKGYNVLEVGTDIFRLANHYNGEERIVII  56
+            RVL+L +GN L  D+G G++    +A          +L+ GT    L       E +++ 
+Sbjct  8    RVLVLGIGNVLWADEGFGVRCVERMAETHALPANVRLLDGGTQGLYLLPFLEEAEALIVF  67
+
+Query  57   DAILSDKLKPGEVVHFSGEEIFEKLKAEIRSAHFMGAIDGLKLLMALDERLKRAEIHFIG  116
+            DA+      PG +V    +++   + A+  S H  G  D +     +     R  +  IG
+Sbjct  68   DAV-DFGFTPGTLVTMRDDDVPAFMGAKKMSLHQTGFQDVIATAQLMGYCPSR--MTLIG  124
+
+Query  117  IVAKEI-DLGMELSDEVKAGVQKAVEIAEKLAK  148
+                E+ D G  L   V   +  A+  A +  +
+Sbjct  125  CQPVELEDYGGSLRPAVAGQIDFAIAEAVRELR  157
+
+
+> sp|Q51795|FRXA_PYRFU Protein FrxA OS=Pyrococcus furiosus (strain 
+ATCC 43587 / DSM 3638 / JCM 8422 / Vc1) OX=186497 GN=frxA 
+PE=4 SV=1
+Length=137
+
+ Score = 139 bits (350),  Expect = 4e-42, Method: Composition-based stats.
+ Identities = 76/136 (56%), Positives = 105/136 (77%), Gaps = 2/136 (1%)
+
+Query  13   MKDDGAGLKAGRILAEKGYNVLEVGTDIFRLANHYNGEERIVIIDAILSDKLKPGEVVHF  72
+            M DDG G+K GR L  +GY V E+GTDIF L   YNGE +++I+DA+L +   PG+VV+F
+Sbjct  1    MGDDGVGIKIGRELKRQGYKVEELGTDIFSLMRVYNGENKVIIVDAVLGEI--PGKVVYF  58
+
+Query  73   SGEEIFEKLKAEIRSAHFMGAIDGLKLLMALDERLKRAEIHFIGIVAKEIDLGMELSDEV  132
+             GE+IF+KL+AEIRSAHFMGA++GLKLL+ +DERLK AE+HF+G+  KE  LG+ELS+EV
+Sbjct  59   KGEDIFKKLRAEIRSAHFMGAVEGLKLLLEVDERLKNAELHFVGVTIKEPKLGLELSEEV  118
+
+Query  133  KAGVQKAVEIAEKLAK  148
+            K  + +A+E+   + +
+Sbjct  119  KRAIPRAMELILSIIR  134
+
+
+> sp|P31909|HOXM_CUPNH Hydrogenase expression/formation protein 
+HoxM OS=Cupriavidus necator (strain ATCC 17699 / H16 / DSM 
+428 / Stanier 337) OX=381666 GN=hoxM PE=3 SV=2
+Length=202
+
+ Score = 139 bits (351),  Expect = 2e-41, Method: Composition-based stats.
+ Identities = 41/152 (27%), Positives = 69/152 (45%), Gaps = 9/152 (6%)
+
+Query  3    VLILALGNELMKDDGAGLKAGRILAEKG-----YNVLEVGTDIFRLANHYNGEERIVIID  57
+            V+ + +GN L  D+G G++    L ++        +++ GT    L +H     R++I D
+Sbjct  2    VVAMGIGNVLWADEGFGVRCIETLQQRYQFAPQVCLVDGGTQGLYLIHHVQAASRLLIFD  61
+
+Query  58   AILSDKLKPGEVVHFSGEEIFEKLKAEIRSAHFMGAIDGLKLLMALDERLKRAEIHFIGI  117
+            AI    L PG +     E + + L A+  S H  G  + L L     +  +  ++  IG 
+Sbjct  62   AI-DYGLPPGTLRIIEDEAVPKFLGAKKMSLHQTGFQEVLLLAQLTGQYPQ--QVVLIGC  118
+
+Query  118  VAKEI-DLGMELSDEVKAGVQKAVEIAEKLAK  148
+              +E+ D G  L   +KA V+ AVE    L +
+Sbjct  119  QPEELEDYGGSLRRVMKAAVEDAVEKGADLLR  150
+
+
+> sp|P19930|HYAD_ECOLI Hydrogenase 1 maturation protease OS=Escherichia 
+coli (strain K12) OX=83333 GN=hyaD PE=1 SV=1
+Length=195
+
+ Score = 124 bits (312),  Expect = 1e-35, Method: Composition-based stats.
+ Identities = 36/142 (25%), Positives = 62/142 (44%), Gaps = 9/142 (6%)
+
+Query  2    RVLILALGNELMKDDGAGLKAGRILA-----EKGYNVLEVGTDIFRLANHYNGEERIVII  56
+            RV+++ LGN L  D+G G++    L       +   +++ GT    L  +      ++I+
+Sbjct  5    RVVVMGLGNLLWADEGFGVRVAERLYAHYHWPEYVEIVDGGTQGLNLLGYVESASHLLIL  64
+
+Query  57   DAILSDKLKPGEVVHFSGEEIFEKLKAEIRSAHFMGAIDGLKLLMALDERLKRAEIHFIG  116
+            DAI    L+PG +  ++GE I   L A+  S H     + L L          A I  +G
+Sbjct  65   DAI-DYGLEPGTLRTYAGERIPAYLSAKKMSLHQNSFSEVLALADIRGHLP--AHIALVG  121
+
+Query  117  IVAKEI-DLGMELSDEVKAGVQ  137
+            +    + D G  LS+  +  + 
+Sbjct  122  LQPAMLDDYGGSLSELAREQLP  143
+
+
+> sp|Q57701|Y253_METJA Putative hydrogenase maturation protease 
+MJ0253 OS=Methanocaldococcus jannaschii (strain ATCC 43067 
+/ DSM 2661 / JAL-1 / JCM 10045 / NBRC 100440) OX=243232 GN=MJ0253 
+PE=3 SV=1
+Length=154
+
+ Score = 71.2 bits (173),  Expect = 3e-15, Method: Composition-based stats.
+ Identities = 43/149 (29%), Positives = 62/149 (42%), Gaps = 16/149 (11%)
+
+Query  3    VLILALGNELMKDDGAGLKAGRIL----AEKGYNVLEVGTDIFRLANHYNGEE--RIVII  56
+            +LI+  GN L  DDG G +    L          V++ G            E+  +I+++
+Sbjct  6    ILIVGCGNLLFGDDGFGCEVVSKLEKMNLPDNVEVIDAGASGAYYLMTLVDEDIKKIIVV  65
+
+Query  57   DAILSDKLKPGEVVHFSGEEIFEKLKAEIRSAHFMGAIDGLKLLMALDERLKRAEIHFIG  116
+            DAI    L+PG +     +E+    K     AH +     LK L       K  E+  IG
+Sbjct  66   DAI-DFDLEPGTIKKIDVDELPNIKKYSF-DAHNVPLAPFLKDLHN-----KGIEVVVIG  118
+
+Query  117  IVAKE---IDLGMELSDEVKAGVQKAVEI  142
+               KE    D+   LS+EV   V KA+EI
+Sbjct  119  CQGKEFTMPDIKPGLSEEVAKAVDKAIEI  147
+
+
+> sp|P19497|FRHD_METTH Coenzyme F420 hydrogenase subunit delta 
+OS=Methanothermobacter thermautotrophicus (strain ATCC 29096 
+/ DSM 1053 / JCM 10044 / NBRC 100330 / Delta H) OX=187420 GN=frhD 
+PE=3 SV=1
+Length=158
+
+ Score = 69.7 bits (169),  Expect = 1e-14, Method: Composition-based stats.
+ Identities = 33/153 (22%), Positives = 61/153 (40%), Gaps = 23/153 (15%)
+
+Query  3    VLILALGNELMKDDGAGLKAGRIL--------AEKGYNVLEVGTDIFRLANHYNGEE--R  52
+            +L++  GN L KDDG G +  + L               ++ GT           EE  +
+Sbjct  7    ILVVGCGNILFKDDGFGPEVIKALEEYFKDREKPDNVMFIDAGTGGPHFVFSLPHEEWKK  66
+
+Query  53   IVIIDAILSDKLKPGEVVHFSGEEIFEKLKAEIRSAHFMGAIDGLKLLMALDERLKRAEI  112
+            ++++D ++    +PG +  F   EI    K    + H       L  L        + ++
+Sbjct  67   MIVVD-VVEFNAEPGTLRKFDVTEIP---KGSYENMHTWPVSQPLHELSE------KIDV  116
+
+Query  113  HFIGIVAKE---IDLGMELSDEVKAGVQKAVEI  142
+              IG   KE    ++ M L+  VK  + +A+++
+Sbjct  117  VVIGCKPKEISAPNVEMGLTPPVKKAIPRAIQM  149
+
+
+> sp|Q60339|FRHD_METJA Coenzyme F420 hydrogenase subunit delta 
+OS=Methanocaldococcus jannaschii (strain ATCC 43067 / DSM 2661 
+/ JAL-1 / JCM 10045 / NBRC 100440) OX=243232 GN=frhD PE=3 
+SV=1
+Length=183
+
+ Score = 68.9 bits (167),  Expect = 4e-14, Method: Composition-based stats.
+ Identities = 39/160 (24%), Positives = 73/160 (46%), Gaps = 20/160 (13%)
+
+Query  3    VLILALGNELMKDDGAGLKAGRILA-------EKGYNVLEVGT----DIFRLANHYNGEE  51
+            +++LA GN L  DDG  +     L        ++   +++ G      +  L +  +  +
+Sbjct  28   IMVLACGNILFADDGFSVHVIEKLNKILTDKEKQKIALVDAGAGAPQQVLTLIDENSKTK  87
+
+Query  52   RIVIIDAILSDKLKPGEVVHFSGEEIFEKLKAEIRSAHFMGAIDGLKLLMALDERLKRAE  111
+            +I+++D ++   +KPGE+     +E+    K     +H         LL  + E+    E
+Sbjct  88   KIIVVD-VIDWGIKPGEIKIIEKDELPNP-KYHRLDSHDWPLAP---LLREVAEKY-NIE  141
+
+Query  112  IHFIGIVAK---EIDLGMELSDEVKAGVQKAVEIAEKLAK  148
+            +  +G  AK   E D+ + LS+EV+  V KAVEI  +  +
+Sbjct  142  VKVVGCQAKYISEPDVYIGLSEEVEKAVDKAVEIILRELR  181
+
+
+> sp|P0AEV9|HYCI_ECOLI Hydrogenase 3 maturation protease OS=Escherichia 
+coli (strain K12) OX=83333 GN=hycI PE=1 SV=2
+Length=156
+
+ Score = 48.5 bits (114),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 35/142 (25%), Positives = 58/142 (41%), Gaps = 14/142 (10%)
+
+Query  1    MRVLILALGNELMKDDGAGLKAGR--ILAEKG-YNVLEVGTDIFRLANHYNG--EERIVI  55
+            M  ++L +GN +M DDGAG         A KG + V++ G+               R++I
+Sbjct  1    MTDVLLCVGNSMMGDDGAGPLLAEKCAAAPKGNWVVIDGGSAPENDIVAIRELRPTRLLI  60
+
+Query  56   IDAILSDKLKPGEVVHFSGEEIFEKLKAEIRSAHFMGAIDGLKLLMALDERLKRAEIHFI  115
+            +DA     L PGE+     ++I E       +      ID LK  +         E+ F+
+Sbjct  61   VDA-TDMGLNPGEIRIIDPDDIAEMFMMTTHNMPLNYLIDQLKEDI--------GEVIFL  111
+
+Query  116  GIVAKEIDLGMELSDEVKAGVQ  137
+            GI    +     ++  +K  V+
+Sbjct  112  GIQPDIVGFYYPMTQPIKDAVE  133
+
+
+> sp|P0AEW0|HYCI_ECO57 Hydrogenase 3 maturation protease OS=Escherichia 
+coli O157:H7 OX=83334 GN=hycI PE=3 SV=2
+Length=156
+
+ Score = 48.5 bits (114),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 35/142 (25%), Positives = 58/142 (41%), Gaps = 14/142 (10%)
+
+Query  1    MRVLILALGNELMKDDGAGLKAGR--ILAEKG-YNVLEVGTDIFRLANHYNG--EERIVI  55
+            M  ++L +GN +M DDGAG         A KG + V++ G+               R++I
+Sbjct  1    MTDVLLCVGNSMMGDDGAGPLLAEKCAAAPKGNWVVIDGGSAPENDIVAIRELRPTRLLI  60
+
+Query  56   IDAILSDKLKPGEVVHFSGEEIFEKLKAEIRSAHFMGAIDGLKLLMALDERLKRAEIHFI  115
+            +DA     L PGE+     ++I E       +      ID LK  +         E+ F+
+Sbjct  61   VDA-TDMGLNPGEIRIIDPDDIAEMFMMTTHNMPLNYLIDQLKEDI--------GEVIFL  111
+
+Query  116  GIVAKEIDLGMELSDEVKAGVQ  137
+            GI    +     ++  +K  V+
+Sbjct  112  GIQPDIVGFYYPMTQPIKDAVE  133
+
+
+> sp|Q58048|Y631_METJA Putative hydrogenase maturation protease 
+MJ0631 OS=Methanocaldococcus jannaschii (strain ATCC 43067 
+/ DSM 2661 / JAL-1 / JCM 10045 / NBRC 100440) OX=243232 GN=MJ0631 
+PE=3 SV=1
+Length=169
+
+ Score = 45.0 bits (105),  Expect = 3e-05, Method: Composition-based stats.
+ Identities = 39/145 (27%), Positives = 60/145 (41%), Gaps = 23/145 (16%)
+
+Query  2    RVLILALGNELMKDDGAGLKAGRILAE-----------KGYNVLEVGTDIFRLANHYNG-  49
+            +++I+ +GNEL  DD  G+   + L             K   ++  GT      +     
+Sbjct  14   KLVIMGIGNELKGDDAVGIYVVKKLMRYFGEEKEFINIKNLYLINAGTVPDFFTDILKEI  73
+
+Query  50   -EERIVIIDAILSDKLKPGEVVHFSGEEIFEKLKAEIRSAHFMGAIDGLKLLMALDERLK  108
+                I+IID  L DK   GEV     +EI         S H +     L +++   ++  
+Sbjct  74   KPTHILIIDCALMDKDV-GEVKIIKEDEIINYS----FSTHTLP----LSIIVKYLKKFI  124
+
+Query  109  RAEIHFIGIVAKEIDLGMELSDEVK  133
+             AEI  +GI  K ID    +S+EVK
+Sbjct  125  NAEIIILGIQPKIIDF-CPISEEVK  148
+
+
+> sp|P31876|HYDD_WOLSU Protein HydD OS=Wolinella succinogenes (strain 
+ATCC 29543 / DSM 1740 / LMG 7466 / NCTC 11488 / FDC 602W) 
+OX=273121 GN=hydD PE=3 SV=1
+Length=159
+
+ Score = 39.6 bits (91),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 17/96 (18%), Positives = 39/96 (41%), Gaps = 4/96 (4%)
+
+Query  24   RILAEKGYNVLEVGTDIFRLANHYNGEERIVIIDAILSDKLKPGEVVHFSGEEIFEKLKA  83
+            R       +V++ GT    L       + +++ID + +   K GEV  F  + +   +  
+Sbjct  12   RFEGPHQVDVIDGGTLAQLLIPLITSYDYVIVIDCVDAGGGKIGEVYFFDFDNVPNVITW  71
+
+Query  84   EIRSAHFMGAIDGLKLLMALDERLKRAEIHFIGIVA  119
+            +  SAH +  +  L++     +      +  +G++ 
+Sbjct  72   Q-GSAHEVEMLQTLRMTEVNGDLPP---VKIVGVIP  103
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.138    0.341    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0422    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5844520972
+Results from round 3
+
+
+Query= 5IJA
+
+Length=148
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q45251|HUPD_BRADU Hydrogenase expression/formation protein H...  182     2e-58
+  sp|P27649|HUPD_RHILV Hydrogenase expression/formation protein H...  181     1e-57
+  sp|P40591|HOXM_AZOVI Hydrogenase expression/formation protein H...  177     4e-56
+  sp|Q03004|HUPD_RHOCA Hydrogenase expression/formation protein H...  173     2e-54
+  sp|Q43954|HUPM_AZOCH Hydrogenase expression/formation protein H...  171     1e-53
+  sp|Q56362|HUPD_THIRO Hydrogenase expression/formation protein H...  170     3e-53
+  sp|P31909|HOXM_CUPNH Hydrogenase expression/formation protein H...  169     4e-53
+  sp|P19930|HYAD_ECOLI Hydrogenase 1 maturation protease OS=Esche...  156     4e-48
+  sp|P37182|HYBD_ECOLI Hydrogenase 2 maturation protease OS=Esche...  141     2e-42
+  sp|P19497|FRHD_METTH Coenzyme F420 hydrogenase subunit delta OS...  132     4e-39
+  sp|Q51795|FRXA_PYRFU Protein FrxA OS=Pyrococcus furiosus (strai...  129     3e-38
+  sp|Q57701|Y253_METJA Putative hydrogenase maturation protease M...  129     5e-38
+  sp|Q60339|FRHD_METJA Coenzyme F420 hydrogenase subunit delta OS...  129     2e-37
+  sp|P0AEV9|HYCI_ECOLI Hydrogenase 3 maturation protease OS=Esche...  114     4e-32
+  sp|P0AEW0|HYCI_ECO57 Hydrogenase 3 maturation protease OS=Esche...  114     4e-32
+  sp|Q58048|Y631_METJA Putative hydrogenase maturation protease M...  102     5e-27
+
+Sequences not found previously or not previously below threshold:
+
+  sp|P31876|HYDD_WOLSU Protein HydD OS=Wolinella succinogenes (st...  48.1    2e-06
+
+
+> sp|Q45251|HUPD_BRADU Hydrogenase expression/formation protein 
+HupD OS=Bradyrhizobium diazoefficiens (strain JCM 10833 / IAM 
+13628 / NBRC 14792 / USDA 110) OX=224911 GN=hupD PE=3 SV=2
+Length=192
+
+ Score = 182 bits (463),  Expect = 2e-58, Method: Composition-based stats.
+ Identities = 36/152 (24%), Positives = 68/152 (45%), Gaps = 9/152 (6%)
+
+Query  2    RVLILALGNELMKDDGAGLKAGR-----ILAEKGYNVLEVGTDIFRLANHYNGEERIVII  56
+            R+L+L +GN L  D+G G++A               +L+ GT    L N+    +R+++ 
+Sbjct  9    RILVLGIGNILWADEGFGVRAVEEFHRRYAVPDNVTILDGGTQGLYLVNYLEEADRLIVF  68
+
+Query  57   DAILSDKLKPGEVVHFSGEEIFEKLKAEIRSAHFMGAIDGLKLLMALDERLKRAEIHFIG  116
+            DAI    L+PG +     +E+     A+  S H  G  + +     L    K   +  IG
+Sbjct  69   DAI-DYGLEPGRLKLVRDDEVPRFTGAKKMSLHQTGFQEVISAADLLGRCPK--HLVLIG  125
+
+Query  117  IVAKEI-DLGMELSDEVKAGVQKAVEIAEKLA  147
+                ++ D G  L+  V+  +  ++++A ++ 
+Sbjct  126  CQPLDLEDWGGPLTPPVRDQIAPSIDLACQVL  157
+
+
+> sp|P27649|HUPD_RHILV Hydrogenase expression/formation protein 
+HupD OS=Rhizobium leguminosarum bv. viciae OX=387 GN=hupD PE=3 
+SV=2
+Length=202
+
+ Score = 181 bits (459),  Expect = 1e-57, Method: Composition-based stats.
+ Identities = 38/153 (25%), Positives = 69/153 (45%), Gaps = 9/153 (6%)
+
+Query  2    RVLILALGNELMKDDGAGLKAGRIL-----AEKGYNVLEVGTDIFRLANHYNGEERIVII  56
+            R+L+L +GN L  D+G G++A               +L+ GT    L    N  +R+++ 
+Sbjct  14   RILVLGIGNILWADEGFGVRAVEAFHKAYELSDNVTILDGGTQGLYLVQFVNEHDRLIVF  73
+
+Query  57   DAILSDKLKPGEVVHFSGEEIFEKLKAEIRSAHFMGAIDGLKLLMALDERLKRAEIHFIG  116
+            DAI    L+PG +     +E+ +   A+  S H  G  + L     +    +R  +  IG
+Sbjct  74   DAI-DYGLEPGTMKVVEDDEVPKFTGAKKMSLHQTGFQEVLSAADFMGHYPER--LTLIG  130
+
+Query  117  IVAKEI-DLGMELSDEVKAGVQKAVEIAEKLAK  148
+                ++ D G  L+  V+  +  A+E A ++ +
+Sbjct  131  CQPLDLEDWGGPLTAPVRGVIPAAIETAVRVLR  163
+
+
+> sp|P40591|HOXM_AZOVI Hydrogenase expression/formation protein 
+HoxM OS=Azotobacter vinelandii OX=354 GN=hoxM PE=3 SV=1
+Length=207
+
+ Score = 177 bits (449),  Expect = 4e-56, Method: Composition-based stats.
+ Identities = 39/151 (26%), Positives = 70/151 (46%), Gaps = 9/151 (6%)
+
+Query  3    VLILALGNELMKDDGAGLKAGRILA-----EKGYNVLEVGTDIFRLANHYNGEERIVIID  57
+            +LIL +GN L  D+G G++   +L        G  +++ GT    L  H    + +++ D
+Sbjct  6    ILILGIGNLLWADEGFGVRCVELLNERYRFPDGVRLMDGGTQGIYLVQHVQQADCLIVFD  65
+
+Query  58   AILSDKLKPGEVVHFSGEEIFEKLKAEIRSAHFMGAIDGLKLLMALDERLKRAEIHFIGI  117
+            A+    L PG +     +E+   + A+  S H  G  D L L        +  E+  IG+
+Sbjct  66   AV-DYGLAPGTLKIVRDDEVPRFMGAKRMSLHQTGFQDVLALAAFSGAYPR--ELLLIGV  122
+
+Query  118  VAKEI-DLGMELSDEVKAGVQKAVEIAEKLA  147
+              +E+ D G  L + V+A ++ A+ +A +  
+Sbjct  123  QPEELEDFGGSLREPVRAQLEPALRVALEFL  153
+
+
+> sp|Q03004|HUPD_RHOCA Hydrogenase expression/formation protein 
+HupD OS=Rhodobacter capsulatus OX=1061 GN=hupD PE=3 SV=1
+Length=210
+
+ Score = 173 bits (438),  Expect = 2e-54, Method: Composition-based stats.
+ Identities = 36/153 (24%), Positives = 62/153 (41%), Gaps = 9/153 (6%)
+
+Query  2    RVLILALGNELMKDDGAGLKAGRILA-----EKGYNVLEVGTDIFRLANHYNGEERIVII  56
+            RVL+L +GN L  D+G G++    +A          +L+ GT    L       E +++ 
+Sbjct  8    RVLVLGIGNVLWADEGFGVRCVERMAETHALPANVRLLDGGTQGLYLLPFLEEAEALIVF  67
+
+Query  57   DAILSDKLKPGEVVHFSGEEIFEKLKAEIRSAHFMGAIDGLKLLMALDERLKRAEIHFIG  116
+            DA+      PG +V    +++   + A+  S H  G  D +     +     R  +  IG
+Sbjct  68   DAV-DFGFTPGTLVTMRDDDVPAFMGAKKMSLHQTGFQDVIATAQLMGYCPSR--MTLIG  124
+
+Query  117  IVAKEI-DLGMELSDEVKAGVQKAVEIAEKLAK  148
+                E+ D G  L   V   +  A+  A +  +
+Sbjct  125  CQPVELEDYGGSLRPAVAGQIDFAIAEAVRELR  157
+
+
+> sp|Q43954|HUPM_AZOCH Hydrogenase expression/formation protein 
+HupM OS=Azotobacter chroococcum mcd 1 OX=355 GN=hupM PE=3 SV=1
+Length=209
+
+ Score = 171 bits (433),  Expect = 1e-53, Method: Composition-based stats.
+ Identities = 36/142 (25%), Positives = 64/142 (45%), Gaps = 9/142 (6%)
+
+Query  3    VLILALGNELMKDDGAGLKAGRILA-----EKGYNVLEVGTDIFRLANHYNGEERIVIID  57
+            +LIL +GN L  D+G G++   +L        G  +++ GT    L  H    + +++ D
+Sbjct  8    ILILGIGNLLWADEGFGVRCVELLNERYRFPDGVRLMDGGTQGIYLVQHVQQADCLIVFD  67
+
+Query  58   AILSDKLKPGEVVHFSGEEIFEKLKAEIRSAHFMGAIDGLKLLMALDERLKRAEIHFIGI  117
+            A+    L PG +     +E+   + A+  S H  G  D L L        +  E+  +G+
+Sbjct  68   AV-DYGLAPGTLKVVRDDEVPRFMGAKRMSLHQTGFQDVLALAAFTGAYPR--ELLLVGV  124
+
+Query  118  VAKEI-DLGMELSDEVKAGVQK  138
+               E+ D G  L + V+A ++ 
+Sbjct  125  QPAELEDFGGSLREPVRAQLEP  146
+
+
+> sp|Q56362|HUPD_THIRO Hydrogenase expression/formation protein 
+HupD OS=Thiocapsa roseopersicina OX=1058 GN=hupD PE=3 SV=1
+Length=221
+
+ Score = 170 bits (431),  Expect = 3e-53, Method: Composition-based stats.
+ Identities = 40/151 (26%), Positives = 68/151 (45%), Gaps = 9/151 (6%)
+
+Query  3    VLILALGNELMKDDGAGLKAGRILAE-----KGYNVLEVGTDIFRLANHYNGEERIVIID  57
+            +L+L +GN L  D+G G++A   L           +L+ GT    L +     + +V+ D
+Sbjct  7    ILVLGIGNLLWADEGFGVRAVEALQRHWVMSSNVQLLDGGTQGIYLVDRVRKADVLVVFD  66
+
+Query  58   AILSDKLKPGEVVHFSGEEIFEKLKAEIRSAHFMGAIDGLKLLMALDERLKRAEIHFIGI  117
+            A+    L PG +     +E+   L A+  S H  G  + L L   L +  K   +  IG+
+Sbjct  67   AV-DYGLPPGTMKRVEDDEVPRFLGAKKMSLHQTGFQEVLALAAMLGDYPK--HLLLIGV  123
+
+Query  118  VAKEI-DLGMELSDEVKAGVQKAVEIAEKLA  147
+               E+ D G  L  ++K  +  A+E+A +  
+Sbjct  124  QPVELDDFGGSLRPQIKERITPAIEMALEYL  154
+
+
+> sp|P31909|HOXM_CUPNH Hydrogenase expression/formation protein 
+HoxM OS=Cupriavidus necator (strain ATCC 17699 / H16 / DSM 
+428 / Stanier 337) OX=381666 GN=hoxM PE=3 SV=2
+Length=202
+
+ Score = 169 bits (429),  Expect = 4e-53, Method: Composition-based stats.
+ Identities = 41/152 (27%), Positives = 69/152 (45%), Gaps = 9/152 (6%)
+
+Query  3    VLILALGNELMKDDGAGLKAGRILAEKG-----YNVLEVGTDIFRLANHYNGEERIVIID  57
+            V+ + +GN L  D+G G++    L ++        +++ GT    L +H     R++I D
+Sbjct  2    VVAMGIGNVLWADEGFGVRCIETLQQRYQFAPQVCLVDGGTQGLYLIHHVQAASRLLIFD  61
+
+Query  58   AILSDKLKPGEVVHFSGEEIFEKLKAEIRSAHFMGAIDGLKLLMALDERLKRAEIHFIGI  117
+            AI    L PG +     E + + L A+  S H  G  + L L     +  +  ++  IG 
+Sbjct  62   AI-DYGLPPGTLRIIEDEAVPKFLGAKKMSLHQTGFQEVLLLAQLTGQYPQ--QVVLIGC  118
+
+Query  118  VAKEI-DLGMELSDEVKAGVQKAVEIAEKLAK  148
+              +E+ D G  L   +KA V+ AVE    L +
+Sbjct  119  QPEELEDYGGSLRRVMKAAVEDAVEKGADLLR  150
+
+
+> sp|P19930|HYAD_ECOLI Hydrogenase 1 maturation protease OS=Escherichia 
+coli (strain K12) OX=83333 GN=hyaD PE=1 SV=1
+Length=195
+
+ Score = 156 bits (395),  Expect = 4e-48, Method: Composition-based stats.
+ Identities = 36/142 (25%), Positives = 62/142 (44%), Gaps = 9/142 (6%)
+
+Query  2    RVLILALGNELMKDDGAGLKAGRILA-----EKGYNVLEVGTDIFRLANHYNGEERIVII  56
+            RV+++ LGN L  D+G G++    L       +   +++ GT    L  +      ++I+
+Sbjct  5    RVVVMGLGNLLWADEGFGVRVAERLYAHYHWPEYVEIVDGGTQGLNLLGYVESASHLLIL  64
+
+Query  57   DAILSDKLKPGEVVHFSGEEIFEKLKAEIRSAHFMGAIDGLKLLMALDERLKRAEIHFIG  116
+            DAI    L+PG +  ++GE I   L A+  S H     + L L          A I  +G
+Sbjct  65   DAI-DYGLEPGTLRTYAGERIPAYLSAKKMSLHQNSFSEVLALADIRGHLP--AHIALVG  121
+
+Query  117  IVAKEI-DLGMELSDEVKAGVQ  137
+            +    + D G  LS+  +  + 
+Sbjct  122  LQPAMLDDYGGSLSELAREQLP  143
+
+
+> sp|P37182|HYBD_ECOLI Hydrogenase 2 maturation protease OS=Escherichia 
+coli (strain K12) OX=83333 GN=hybD PE=1 SV=2
+Length=164
+
+ Score = 141 bits (356),  Expect = 2e-42, Method: Composition-based stats.
+ Identities = 39/153 (25%), Positives = 72/153 (47%), Gaps = 8/153 (5%)
+
+Query  1    MRVLILALGNELMKDDGAGLKAGRIL-----AEKGYNVLEVGTDIFRLANHYNGEERIVI  55
+            MR+L+L +GN L+ D+  G++    L           +L+ GT    L       + ++I
+Sbjct  1    MRILVLGVGNILLTDEAIGVRIVEALEQRYILPDYVEILDGGTAGMELLGDMANRDHLII  60
+
+Query  56   IDAILSDKLKPGEVVHFSGEEIFEKLKAEIRSAHFMGAIDGLKLLMALDERLKRAEIHFI  115
+             DAI+S K  PG ++    EE+      +I S H +G  D L  L    E  K+  +  +
+Sbjct  61   ADAIVSKKNAPGTMMILRDEEVPALFTNKI-SPHQLGLADVLSALRFTGEFPKK--LTLV  117
+
+Query  116  GIVAKEIDLGMELSDEVKAGVQKAVEIAEKLAK  148
+            G++ + ++  + L+  V+A ++ A+E      +
+Sbjct  118  GVIPESLEPHIGLTPTVEAMIEPALEQVLAALR  150
+
+
+> sp|P19497|FRHD_METTH Coenzyme F420 hydrogenase subunit delta 
+OS=Methanothermobacter thermautotrophicus (strain ATCC 29096 
+/ DSM 1053 / JCM 10044 / NBRC 100330 / Delta H) OX=187420 GN=frhD 
+PE=3 SV=1
+Length=158
+
+ Score = 132 bits (332),  Expect = 4e-39, Method: Composition-based stats.
+ Identities = 33/158 (21%), Positives = 61/158 (39%), Gaps = 23/158 (15%)
+
+Query  3    VLILALGNELMKDDGAGLKAGRIL--------AEKGYNVLEVGTDIFRLANHYNGEE--R  52
+            +L++  GN L KDDG G +  + L               ++ GT           EE  +
+Sbjct  7    ILVVGCGNILFKDDGFGPEVIKALEEYFKDREKPDNVMFIDAGTGGPHFVFSLPHEEWKK  66
+
+Query  53   IVIIDAILSDKLKPGEVVHFSGEEIFEKLKAEIRSAHFMGAIDGLKLLMALDERLKRAEI  112
+            ++++D ++    +PG +  F   EI    K    + H       L  L        + ++
+Sbjct  67   MIVVD-VVEFNAEPGTLRKFDVTEIP---KGSYENMHTWPVSQPLHELSE------KIDV  116
+
+Query  113  HFIGIVAKE---IDLGMELSDEVKAGVQKAVEIAEKLA  147
+              IG   KE    ++ M L+  VK  + +A+++     
+Sbjct  117  VVIGCKPKEISAPNVEMGLTPPVKKAIPRAIQMILDEI  154
+
+
+> sp|Q51795|FRXA_PYRFU Protein FrxA OS=Pyrococcus furiosus (strain 
+ATCC 43587 / DSM 3638 / JCM 8422 / Vc1) OX=186497 GN=frxA 
+PE=4 SV=1
+Length=137
+
+ Score = 129 bits (325),  Expect = 3e-38, Method: Composition-based stats.
+ Identities = 76/136 (56%), Positives = 104/136 (76%), Gaps = 2/136 (1%)
+
+Query  13   MKDDGAGLKAGRILAEKGYNVLEVGTDIFRLANHYNGEERIVIIDAILSDKLKPGEVVHF  72
+            M DDG G+K GR L  +GY V E+GTDIF L   YNGE +++I+DA+L     PG+VV+F
+Sbjct  1    MGDDGVGIKIGRELKRQGYKVEELGTDIFSLMRVYNGENKVIIVDAVL--GEIPGKVVYF  58
+
+Query  73   SGEEIFEKLKAEIRSAHFMGAIDGLKLLMALDERLKRAEIHFIGIVAKEIDLGMELSDEV  132
+             GE+IF+KL+AEIRSAHFMGA++GLKLL+ +DERLK AE+HF+G+  KE  LG+ELS+EV
+Sbjct  59   KGEDIFKKLRAEIRSAHFMGAVEGLKLLLEVDERLKNAELHFVGVTIKEPKLGLELSEEV  118
+
+Query  133  KAGVQKAVEIAEKLAK  148
+            K  + +A+E+   + +
+Sbjct  119  KRAIPRAMELILSIIR  134
+
+
+> sp|Q57701|Y253_METJA Putative hydrogenase maturation protease 
+MJ0253 OS=Methanocaldococcus jannaschii (strain ATCC 43067 
+/ DSM 2661 / JAL-1 / JCM 10045 / NBRC 100440) OX=243232 GN=MJ0253 
+PE=3 SV=1
+Length=154
+
+ Score = 129 bits (325),  Expect = 5e-38, Method: Composition-based stats.
+ Identities = 44/155 (28%), Positives = 63/155 (41%), Gaps = 16/155 (10%)
+
+Query  3    VLILALGNELMKDDGAGLKAGRIL----AEKGYNVLEVGTDIFRLANHYNGEE--RIVII  56
+            +LI+  GN L  DDG G +    L          V++ G            E+  +I+++
+Sbjct  6    ILIVGCGNLLFGDDGFGCEVVSKLEKMNLPDNVEVIDAGASGAYYLMTLVDEDIKKIIVV  65
+
+Query  57   DAILSDKLKPGEVVHFSGEEIFEKLKAEIRSAHFMGAIDGLKLLMALDERLKRAEIHFIG  116
+            DAI    L+PG +     +E+    K     AH +     LK L       K  E+  IG
+Sbjct  66   DAI-DFDLEPGTIKKIDVDELPNIKKYS-FDAHNVPLAPFLKDLHN-----KGIEVVVIG  118
+
+Query  117  IVAKE---IDLGMELSDEVKAGVQKAVEIAEKLAK  148
+               KE    D+   LS+EV   V KA+EI     K
+Sbjct  119  CQGKEFTMPDIKPGLSEEVAKAVDKAIEIILGEIK  153
+
+
+> sp|Q60339|FRHD_METJA Coenzyme F420 hydrogenase subunit delta 
+OS=Methanocaldococcus jannaschii (strain ATCC 43067 / DSM 2661 
+/ JAL-1 / JCM 10045 / NBRC 100440) OX=243232 GN=frhD PE=3 
+SV=1
+Length=183
+
+ Score = 129 bits (324),  Expect = 2e-37, Method: Composition-based stats.
+ Identities = 37/160 (23%), Positives = 71/160 (44%), Gaps = 20/160 (13%)
+
+Query  3    VLILALGNELMKDDGAGLKAGRILA-------EKGYNVLEVGT----DIFRLANHYNGEE  51
+            +++LA GN L  DDG  +     L        ++   +++ G      +  L +  +  +
+Sbjct  28   IMVLACGNILFADDGFSVHVIEKLNKILTDKEKQKIALVDAGAGAPQQVLTLIDENSKTK  87
+
+Query  52   RIVIIDAILSDKLKPGEVVHFSGEEIFEKLKAEIRSAHFMGAIDGLKLLMALDERLKRAE  111
+            +I+++D ++   +KPGE+     +E+    K     +H       L+ +          E
+Sbjct  88   KIIVVD-VIDWGIKPGEIKIIEKDELPNP-KYHRLDSHDWPLAPLLREVAEK----YNIE  141
+
+Query  112  IHFIGIVAK---EIDLGMELSDEVKAGVQKAVEIAEKLAK  148
+            +  +G  AK   E D+ + LS+EV+  V KAVEI  +  +
+Sbjct  142  VKVVGCQAKYISEPDVYIGLSEEVEKAVDKAVEIILRELR  181
+
+
+> sp|P0AEV9|HYCI_ECOLI Hydrogenase 3 maturation protease OS=Escherichia 
+coli (strain K12) OX=83333 GN=hycI PE=1 SV=2
+Length=156
+
+ Score = 114 bits (286),  Expect = 4e-32, Method: Composition-based stats.
+ Identities = 34/142 (24%), Positives = 57/142 (40%), Gaps = 14/142 (10%)
+
+Query  1    MRVLILALGNELMKDDGAGLKAGRI--LAEK-GYNVLEVGTDIFRLANHYNG--EERIVI  55
+            M  ++L +GN +M DDGAG         A K  + V++ G+               R++I
+Sbjct  1    MTDVLLCVGNSMMGDDGAGPLLAEKCAAAPKGNWVVIDGGSAPENDIVAIRELRPTRLLI  60
+
+Query  56   IDAILSDKLKPGEVVHFSGEEIFEKLKAEIRSAHFMGAIDGLKLLMALDERLKRAEIHFI  115
+            +DA     L PGE+     ++I E       +      ID LK  +         E+ F+
+Sbjct  61   VDA-TDMGLNPGEIRIIDPDDIAEMFMMTTHNMPLNYLIDQLKEDI--------GEVIFL  111
+
+Query  116  GIVAKEIDLGMELSDEVKAGVQ  137
+            GI    +     ++  +K  V+
+Sbjct  112  GIQPDIVGFYYPMTQPIKDAVE  133
+
+
+> sp|P0AEW0|HYCI_ECO57 Hydrogenase 3 maturation protease OS=Escherichia 
+coli O157:H7 OX=83334 GN=hycI PE=3 SV=2
+Length=156
+
+ Score = 114 bits (286),  Expect = 4e-32, Method: Composition-based stats.
+ Identities = 34/142 (24%), Positives = 57/142 (40%), Gaps = 14/142 (10%)
+
+Query  1    MRVLILALGNELMKDDGAGLKAGRI--LAEK-GYNVLEVGTDIFRLANHYNG--EERIVI  55
+            M  ++L +GN +M DDGAG         A K  + V++ G+               R++I
+Sbjct  1    MTDVLLCVGNSMMGDDGAGPLLAEKCAAAPKGNWVVIDGGSAPENDIVAIRELRPTRLLI  60
+
+Query  56   IDAILSDKLKPGEVVHFSGEEIFEKLKAEIRSAHFMGAIDGLKLLMALDERLKRAEIHFI  115
+            +DA     L PGE+     ++I E       +      ID LK  +         E+ F+
+Sbjct  61   VDA-TDMGLNPGEIRIIDPDDIAEMFMMTTHNMPLNYLIDQLKEDI--------GEVIFL  111
+
+Query  116  GIVAKEIDLGMELSDEVKAGVQ  137
+            GI    +     ++  +K  V+
+Sbjct  112  GIQPDIVGFYYPMTQPIKDAVE  133
+
+
+> sp|Q58048|Y631_METJA Putative hydrogenase maturation protease 
+MJ0631 OS=Methanocaldococcus jannaschii (strain ATCC 43067 
+/ DSM 2661 / JAL-1 / JCM 10045 / NBRC 100440) OX=243232 GN=MJ0631 
+PE=3 SV=1
+Length=169
+
+ Score = 102 bits (253),  Expect = 5e-27, Method: Composition-based stats.
+ Identities = 41/160 (26%), Positives = 65/160 (41%), Gaps = 23/160 (14%)
+
+Query  2    RVLILALGNELMKDDGAGLKAGRILAE-----------KGYNVLEVGTDIFRLANHYNG-  49
+            +++I+ +GNEL  DD  G+   + L             K   ++  GT      +     
+Sbjct  14   KLVIMGIGNELKGDDAVGIYVVKKLMRYFGEEKEFINIKNLYLINAGTVPDFFTDILKEI  73
+
+Query  50   -EERIVIIDAILSDKLKPGEVVHFSGEEIFEKLKAEIRSAHFMGAIDGLKLLMALDERLK  108
+                I+IID  L DK   GEV     +EI         S H +     L +++   ++  
+Sbjct  74   KPTHILIIDCALMDKDV-GEVKIIKEDEIINYS----FSTHTLP----LSIIVKYLKKFI  124
+
+Query  109  RAEIHFIGIVAKEIDLGMELSDEVKAGVQKAVEIAEKLAK  148
+             AEI  +GI  K ID    +S+EVK    K V    ++ +
+Sbjct  125  NAEIIILGIQPKIIDF-CPISEEVKLSGDKLVNTLIEIIE  163
+
+
+> sp|P31876|HYDD_WOLSU Protein HydD OS=Wolinella succinogenes (strain 
+ATCC 29543 / DSM 1740 / LMG 7466 / NCTC 11488 / FDC 602W) 
+OX=273121 GN=hydD PE=3 SV=1
+Length=159
+
+ Score = 48.1 bits (113),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 21/110 (19%), Positives = 45/110 (41%), Gaps = 6/110 (5%)
+
+Query  28   EKGYNVLEVGTDIFRLANHYNGEERIVIIDAILSDKLKPGEVVHFSGEEIFEKLKAEIRS  87
+                +V++ GT    L       + +++ID + +   K GEV  F  + +   +  +  S
+Sbjct  16   PHQVDVIDGGTLAQLLIPLITSYDYVIVIDCVDAGGGKIGEVYFFDFDNVPNVITWQG-S  74
+
+Query  88   AHFMGAIDGLKLLMALDERLKRAEIHFIGIVAKEI--DLGMELSDEVKAG  135
+            AH +  +  L++     +      +  +G++   I  +   +LS EV   
+Sbjct  75   AHEVEMLQTLRMTEVNGDLPP---VKIVGVIPSIIGSETAFDLSKEVAEA  121
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.138    0.347    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0423    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5844520972
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 28, 2021  3:44 PM
+  Number of letters in database: 202,799,066
+  Number of sequences in database:  563,082
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40
